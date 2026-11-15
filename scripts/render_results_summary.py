@@ -69,8 +69,10 @@ def markdown_page(path):
  parts=[]
  for para in path.read_text().split('\n\n'):
   inline=lambda t:report_inline(t,path.parent)
-  if para.startswith('# '):parts.append('<h1>'+inline(para[2:])+'</h1>')
-  elif para.startswith('## '):parts.append('<h2>'+inline(para[3:])+'</h2>')
+  if para.strip().startswith('<!--'):continue
+  heading=re.match(r'^(#{1,4}) (.*)',para,re.S)
+  if heading:
+   level=len(heading[1]);parts.append(f'<h{level}>'+inline(heading[2])+f'</h{level}>')
   elif para.startswith('|'):
    lines=para.splitlines();head='<tr>'+''.join('<th>'+inline(x.strip())+'</th>' for x in lines[0].strip('|').split('|'))+'</tr>'
    body=''.join('<tr>'+''.join('<td>'+inline(x.strip())+'</td>' for x in line.strip('|').split('|'))+'</tr>' for line in lines[2:])
