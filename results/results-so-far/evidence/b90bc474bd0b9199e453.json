@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-f29cf5a2",
+ "agent_id": "agent-0",
+ "provider": "modal",
+ "model": "kimi-k3.1-pro",
+ "requests": 19,
+ "failed_requests": 0,
+ "input_tokens": 149912,
+ "output_tokens": 20074,
+ "usd_estimated_total": 0.5005639999999999,
+ "requests_with_unknown_cost": 0,
+ "price_source": "https://modal.com/docs/guide/supported-models; 2026-11-14; uncached estimate",
+ "wall_s": 1954.8344321250916,
+ "status": "budget_exhausted",
+ "island": 0,
+ "strategy": null,
+ "best_valid_reward": 1.3472804463094101,
+ "solves_used": 50,
+ "first_positive_at_solves": 40,
+ "usd_cached_price_estimate": 0.41508559999999994,
+ "notebook": "PLAN: Use the last solve on a moderate upgrade of the small BTTT finisher, then finish with whichever valid design is best.\nR139 is the proven best at 1.347. Its BTTT column discards 119 mol/s containing about 60 mol/s of C5 and 60 mol/s of C6 paraffins; a sharper split could make both outlets saleable. A previous sharp finisher upgrade scored 1.319, so avoid another very large/costly column. Try an intermediate 45 stages at reflux/boil-up 5: enough extra separation to approach a C5 tops/C6 bottoms split without the cost of the prior aggressive upgrade. All other columns remain cached and unchanged.",
+ "task": "hc16v3_dev_002"
+}

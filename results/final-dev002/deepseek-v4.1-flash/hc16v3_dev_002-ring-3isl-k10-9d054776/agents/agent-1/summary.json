@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-3isl-k10-9d054776",
+ "agent_id": "agent-1",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 102,
+ "failed_requests": 0,
+ "input_tokens": 585873,
+ "output_tokens": 103997,
+ "usd_estimated_total": 0.3005582999999999,
+ "requests_with_unknown_cost": 0,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 4928.490379571915,
+ "status": "budget_exhausted",
+ "island": 0,
+ "strategy": null,
+ "best_valid_reward": 0.0,
+ "solves_used": 50,
+ "first_positive_at_solves": null,
+ "usd_cached_price_estimate": 0.23081622,
+ "notebook": "Denom 439=nC5. Value($M/yr)=flow*price*28.8. Blends: C4mix~186, C5mix~619, C6parmix~1180, C6nap~397. Pure: nC5 439, nC8 359, nC6/7 332, nonane 104, ethane 4.\n\nBEST VALID = 0.000 (empty). Score floor = 0 (best valid kept). So last 2 solves are free gambles.\n\nLesson: cost/col ~$124M/yr at 40/1.5, ~$425M at 120/8 \u2014 high reflux is brutally expensive. My builds all gave 0 revenue (no stream reached 95%). Easy cuts by gap: C2/C3 41K, C3/C4 30K, C4/C5 28K; hard: propylene/propane 5.6K, C5/C6 14K, MCP/nC6 3K.\n\nPlan for last 2 solves: try feed col C4/C5 then sharpen T to make C4mix bottoms; check purity. If no good, revert to empty 0.000 and finish. Other island-0 agents also stuck at 0.000 (empty).",
+ "task": "hc16v3_dev_002"
+}

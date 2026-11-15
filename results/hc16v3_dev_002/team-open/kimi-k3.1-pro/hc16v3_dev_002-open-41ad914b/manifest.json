@@ -1,0 +1,14 @@
+{
+  "schema": "report-bundle-v1",
+  "task": "hc16v3_dev_002",
+  "model": "kimi-k3.1-pro",
+  "run_id": "hc16v3_dev_002-open-41ad914b",
+  "condition": "team-open",
+  "status": "all_done",
+  "report": "index.html",
+  "sha256": {
+    "index.html": "ba66e6eb80d0ffbd321a250a3d7b4b4bb0e417f7eaca795f5399302a3a36fc0c",
+    "report-data.json": "8995153eda84d5ff346023a4a07ef4f92ca30f5de8a72e7a226077155ee2e121",
+    "summary.json": "2e0b7992616c89ed5e200c2dd58373ecbbe7125ef43aec54fc2e135faaac008a"
+  }
+}

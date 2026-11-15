@@ -1,0 +1,16 @@
+{
+  "git_commit": "7c0d5087b2d7d4ad6e30103274042a3d8dfea69e",
+  "tracked_files": [
+    "docs/EVALUATION_2026-11-14.md",
+    "docs/TASK_V3.md",
+    "results/all_results.csv",
+    "results/hc16v3-first-look/polish_check.json",
+    "results/hc16v3-first-look/polish_v2plants_at_v3.json",
+    "results/hc16v3-side-draw/qualification.json",
+    "results/hc16v3_dev_000/single-agent/claude-opus-5-5/hc16v3_dev_000_anthropic_claude-opus-5-5_s0_ea02f9/summary.json",
+    "results/hc16v3_dev_001/single-agent/claude-opus-5-5/hc16v3_dev_001_anthropic_claude-opus-5-5_s0_3413a2/summary.json",
+    "results/hc16v3_dev_002/single-agent/claude-opus-5-5/hc16v3_dev_002_anthropic_claude-opus-5-5_s0_49f7ac/summary.json",
+    "results/hc16v3_dev_003/single-agent/claude-opus-5-5/hc16v3_dev_003_anthropic_claude-opus-5-5_s0_2f665d/summary.json"
+  ],
+  "note": "Original worktree disappeared during collection around 11:17 PST. Tracked evidence recovered read-only from Git; selected ignored status fields transcribed from prior tool output and explicitly labeled. No worktree or experiment restored."
+}

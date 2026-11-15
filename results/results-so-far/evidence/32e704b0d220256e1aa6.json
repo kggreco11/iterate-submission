@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-761c0ffe",
+ "agent_id": "agent-39",
+ "provider": "modal",
+ "model": "kimi-k3.1-pro",
+ "requests": 32,
+ "failed_requests": 0,
+ "input_tokens": 228429,
+ "output_tokens": 26598,
+ "usd_estimated_total": 0.7228380000000001,
+ "requests_with_unknown_cost": 0,
+ "price_source": "https://modal.com/docs/guide/supported-models; 2026-11-14; uncached estimate",
+ "wall_s": 3608.6444792747498,
+ "status": "budget_exhausted",
+ "island": 7,
+ "strategy": null,
+ "best_valid_reward": 1.3454042070273116,
+ "solves_used": 50,
+ "first_positive_at_solves": 16,
+ "usd_cached_price_estimate": 0.581718,
+ "notebook": "PLAN: Restore R1185 (reward 1.358) and spend the final solve on one last B-reflux probe above the failed 7.8/7.95 points; keep the best valid C5/C6 blend plant.\nR1185: root 70/5/8/.15, T 40/6/10/.1, B 100/8/8/.2, TB 50/3.12/30/.1; revenue $1545.9M, cost $950.3M. TB 3.10/3.11 fail; T 5.95 fails C5; B 7.8 and 7.95 fail C6. Probe B 7.99 for a tiny duty saving; the banked best remains protected.",
+ "task": "hc16v3_dev_002"
+}

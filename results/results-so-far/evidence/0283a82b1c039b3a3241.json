@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-90279e64",
+ "agent_id": "agent-7",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 108,
+ "failed_requests": 4,
+ "input_tokens": 594466,
+ "output_tokens": 103661,
+ "usd_estimated_total": 0.302733,
+ "requests_with_unknown_cost": 3,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 5064.821415424347,
+ "status": "finished",
+ "island": 3,
+ "strategy": null,
+ "best_valid_reward": 0.0,
+ "solves_used": 47,
+ "first_positive_at_solves": null,
+ "usd_cached_price_estimate": 0.23299091999999993,
+ "notebook": "S51, 3 solves left. Best valid = 0.000 (empty). All my column builds (1-3 columns) gave NEGATIVE rewards (-0.3 to -1.1) because column cost (~$100M/yr each) exceeds blend/pure revenue at low-moderate reflux. Shown R426 (3 cols, agent-6) = -0.576, also negative, confirming the cost problem. Key values: C6 paraffin mix ~$1180M/yr, C5 mix ~$620M/yr, C6 naphthene ~$396M/yr, but each needs sharp multi-column cuts (C4-removal then C5/C6 split then naphthene/paraffin split) that cost more than they earn in this expensive-plant cost regime. Single column can't make any \u226595% blend (tops always carry lighter components). Conclusion: with 3 solves no realistic positive design. Revert to empty valid base = 0.000 and finish to lock the safe score.",
+ "task": "hc16v3_dev_002"
+}

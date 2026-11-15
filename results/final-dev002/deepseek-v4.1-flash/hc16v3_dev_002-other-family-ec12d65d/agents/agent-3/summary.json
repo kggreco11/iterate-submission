@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-other-family-ec12d65d",
+ "agent_id": "agent-3",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 119,
+ "failed_requests": 0,
+ "input_tokens": 676881,
+ "output_tokens": 121419,
+ "usd_estimated_total": 0.3487670999999999,
+ "requests_with_unknown_cost": 0,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 4948.908998966217,
+ "status": "finished",
+ "island": 0,
+ "strategy": null,
+ "best_valid_reward": 0.0,
+ "solves_used": 49,
+ "first_positive_at_solves": null,
+ "usd_cached_price_estimate": 0.26596133999999994,
+ "notebook": "Turn 59, solves 49/50 used. Best valid = 0.000 (empty). Reverted from the -1.180 2-column design.\n\nLESSON: Under this expensive-plant cost scenario, columns run $130-390M/yr while revenue needs near-perfect separation (>95% one component) to earn anything. This 16-component mixture has many close boilers (C6 isomer cluster 322-342K; C5/C6 overlap), so a single column cannot isolate a sellable cut. All my side-draw and 2-column cascade attempts leaked lighter C4/C5 and heavier C6/C7, giving $0 revenue and negative reward.\n\nBest theoretical cuts: C6-paraffin mix = 970 mol/s x 0.04227 x 2.88e7 = $1181M/yr (biggest), C5 mix = 695 x 0.0309 x 2.88e7 = $618M/yr \u2014 but both are heart cuts needing clean de-light and de-heavy ends; infeasible cheaply here.\n\nOther agents (agent-9 R476/R478) also scored negative (-0.62 to -0.86): never reached 95% purity in any stream. Consistent with my finding.\n\nDECISION: With 1 solve remaining and every empirical attempt negative, lock in the valid empty design at 0.000. Finish.",
+ "task": "hc16v3_dev_002"
+}

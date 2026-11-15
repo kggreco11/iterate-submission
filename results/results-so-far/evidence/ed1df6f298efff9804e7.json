@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-open-nocopy-c2285eb2",
+ "agent_id": "agent-7",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 95,
+ "failed_requests": 4,
+ "input_tokens": 517697,
+ "output_tokens": 95899,
+ "usd_estimated_total": 0.27038789999999996,
+ "requests_with_unknown_cost": 3,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 4844.600036144257,
+ "status": "finished",
+ "island": 0,
+ "strategy": null,
+ "best_valid_reward": 0.0,
+ "solves_used": 49,
+ "first_positive_at_solves": null,
+ "usd_cached_price_estimate": 0.21135941999999988,
+ "notebook": "Reward=(rev-cost)/439. Empty=0 is my best valid; all 2-3 col trains so far cost $300-560M and earn $0 (no stream hit 95%). Solves 47/50.\n\nValues: C6-paraffin mix $1180M; C5 mix $618M; pure nC5 $438M; C6-naphthene mix $396M; C4 mix $186M; C3 mix $73M.\n\nEvidence: agent-8's 2-col C5mix train (feed 60/4/3/0.2 + B 90/10/6/0.15) gave BT = nC5 43% + 2,2-DMB 20% + 2-methylpentane 17% + iC5 15% = only 58% C5 mix, cost $562M. agent-9's single col with side draw: S = nC5 32%+iC5 26% = 58% C5, rest nC4 22%. So neither reaches 95%.\n\nKey gaps: nC4(272.7)->iC5(301)=28K easy; nC5(309.2)->2,2-DMB(322.9)=13.7K borderline; C3(231)->iC4(261.3)=30K easy.\n\nPlan: this solve = safe base + 2-col C5mix train (revenue test). If a stream >=95%, spend last 2 solves tuning; else revert to empty=0 and finish.",
+ "task": "hc16v3_dev_002"
+}

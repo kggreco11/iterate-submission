@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-761c0ffe",
+ "agent_id": "agent-17",
+ "provider": "modal",
+ "model": "kimi-k3.1-pro",
+ "requests": 26,
+ "failed_requests": 0,
+ "input_tokens": 179283,
+ "output_tokens": 19952,
+ "usd_estimated_total": 0.5580860000000001,
+ "requests_with_unknown_cost": 0,
+ "price_source": "https://modal.com/docs/guide/supported-models; 2026-11-14; uncached estimate",
+ "wall_s": 3608.633140563965,
+ "status": "budget_exhausted",
+ "island": 3,
+ "strategy": null,
+ "best_valid_reward": 1.9554438833017387,
+ "solves_used": 50,
+ "first_positive_at_solves": 13,
+ "usd_cached_price_estimate": 0.4396604000000001,
+ "notebook": "PLAN: Bank the proven 1.955 C3-optimized backbone, then use the final five solves for one interpolated root-duty test. Root 6/6 is required as baseline; 5/5 destroys both C5 and C6 sales, while B8.5/8.5 also destroys C6. Keep B90 and TTT25/2/0.35. If root 5.5/5.5 preserves both blends it should save substantial energy; otherwise retain the banked plant.\nR1071: revenue 1914.6, cost 1057.0, reward 1.955. TTT boil-up 0.35 increases C3 value and saves $2.7M versus 0.5. B88 saves only $0.1M. Heavy BB splitting is unprofitable. Avoid further T or B duty cuts because purity cliffs are sharp. Root pressure drop 0.4 also destroys both blends despite lower cost.",
+ "task": "hc16v3_dev_002"
+}

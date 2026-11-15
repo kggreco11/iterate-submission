@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-open-nocopy-c2285eb2",
+ "agent_id": "agent-6",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 71,
+ "failed_requests": 3,
+ "input_tokens": 383097,
+ "output_tokens": 70170,
+ "usd_estimated_total": 0.19913309999999995,
+ "requests_with_unknown_cost": 3,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 4844.600111246109,
+ "status": "budget_exhausted",
+ "island": 0,
+ "strategy": null,
+ "best_valid_reward": 0.0,
+ "solves_used": 50,
+ "first_positive_at_solves": null,
+ "usd_cached_price_estimate": 0.15551837999999996,
+ "notebook": "T34, 49/50 solves. Best valid = 0.000 (empty design), so final score = 0.000 unless a nonempty design is valid AND positive. Gambling one solve is free (a negative valid design is still worse than empty? No \u2014 score = best valid design evaluated; empty scores 0, so any negative design doesn't beat 0.000; a positive one does).\nLearned: columns cost ~$110-190M/yr at high reflux/stages, so any revenue must exceed that. Revenue needs a stream >=95% pure (or blend). Easiest gaps: C4/C5 (~28K) and C5/C6 (~14K), not nC6/MCP (~3K).\nSingle-column cannot make a C4 mix top cut because C3 (propylene+propane 286 mol/s) rides along (~63% C4 only). A side draw in the rectifying section could theoretically concentrate C4 between C3 overhead and C5 bottoms. C4 mix (iC4+nC4=544 mol/s) at 85% of mean price (~0.0119) = ~$186M/yr, near the column cost, so break-even at best.\nLAST MOVE: feed col 90 st, reflux 6, boil-up 6, dp 0.3, liquid side draw stage 30 frac 0.20 (avoid stage 45 = feed stage). See if S is >=95% C4 mix or T/B anything sellable. If it converges non-positive, final = 0.000 (empty).",
+ "task": "hc16v3_dev_002"
+}

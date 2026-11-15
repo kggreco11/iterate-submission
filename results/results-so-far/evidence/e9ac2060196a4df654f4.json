@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-78e50fff",
+ "agent_id": "agent-30",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 70,
+ "failed_requests": 0,
+ "input_tokens": 438896,
+ "output_tokens": 71906,
+ "usd_estimated_total": 0.2179560000000001,
+ "requests_with_unknown_cost": 0,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 5634.425323009491,
+ "status": "finished",
+ "island": 6,
+ "strategy": null,
+ "best_valid_reward": 1.2047539088619803,
+ "solves_used": 46,
+ "first_positive_at_solves": 43,
+ "usd_cached_price_estimate": 0.17219856,
+ "notebook": "Budget 46/50. BEST = R1303 anchor: '' 40/3/3/0.8 -> T($0)+B; 'B' 50/6/6/0.8 -> BT (C6 paraffin mix, $1067M/yr) + BB($0). Cost $538.7M, reward 1.205=(1067.1-538.7)/439.\n\nWHY IT WINS: BT is 97% paraffins (2-MP 38, 3-MP 25, nC6 18, 22DMB 16) = qualifies as C6 paraffin blend. It is the only blend reachable in ONE clean cut from the feed. Cost is just 2 columns.\n\nFAILURES (do not repeat): Turn30/32/34 T-columns (C4/C5 mush, ~87% C5mix) cost $685-798M, no qualifying stream -> negative. R1399 BB-column $72M, revenue unchanged -> 1.04. Every extra column on T or BB costs more than it earns. C3/C4/C5 split impossible to 95% (gaps too small: C3-C4 ~6K, C4-C5 ~30K) and C5mix only worth ~$618M vs C6mix $1067M. BB (C7/C8/cyclo) has no blend defined -> worth $0.\n\nCONCLUSION: 2-column C6-paraffin anchor is the optimum reachable. No remaining idea can beat 1.205 with the solves left. FINISH on the anchor. Plan: stop, bank 1.205.",
+ "task": "hc16v3_dev_002"
+}

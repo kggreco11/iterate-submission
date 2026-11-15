@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-open-5f533da2",
+ "agent_id": "agent-2",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 141,
+ "failed_requests": 3,
+ "input_tokens": 849247,
+ "output_tokens": 137555,
+ "usd_estimated_total": 0.4198401,
+ "requests_with_unknown_cost": 3,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 5132.7165632247925,
+ "status": "finished",
+ "island": 0,
+ "strategy": null,
+ "best_valid_reward": 0.6425236871663502,
+ "solves_used": 48,
+ "first_positive_at_solves": 41,
+ "usd_cached_price_estimate": 0.32818698000000013,
+ "notebook": "Solves ~48/50. ANCHOR=R492 (0.643): ''60/3/3, B80/6/6, BT90/8/8, BTT60/4.0/4.0. Revenue $934.5M = BTB C6par $711M + BTTT C5mix $223M. Cost $652.7M.\n\nTurn 67 added T-column 60/3/3: reward fell to 0.532 (TT 445 mol/s C3 64%/C4 28% impure; TB 601 C4 69% impure). One column cannot cleanly separate T because ethane (~34) reports to T tops and contaminates the C3 mix: C3/(C3+ethane)~77% < 95%. Would need ethane rejection first, too many solves.\n\nReverted to 0.643 anchor. Confirmed bad BTT settings: 70/6/6=0.617, 80/9/9=0.565. Best known move = lock R492.\n\nRemaining plan: 0.643 secured. If one solve remains, could test a taller T (90st, high reflux) but likely wasted; expected finish. Losses: T (1046, C4/C3), BB (1104, C6-C9 mix), BTTB (299, 88% C5 just under threshold).",
+ "task": "hc16v3_dev_002"
+}

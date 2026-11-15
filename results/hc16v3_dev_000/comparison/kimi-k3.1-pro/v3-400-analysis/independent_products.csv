@@ -1,0 +1,14 @@
+condition,node,kind,annual_revenue_usd,purity,threshold,headroom_percentage_points,qualifies
+independent_without_past,TTT,blend: C3 mix,118007306.1040235,0.9675161610805014,0.95,1.751616108050147,True
+independent_without_past,TTB,none,0.0,0.4310272195008836,0.95,-51.89727804991164,False
+independent_without_past,TBT,blend: C5 mix,368832606.5879089,0.9998190310108329,0.95,4.9819031010832955,True
+independent_without_past,TBBT,blend: C5 mix,263415544.2762592,0.9999995345441977,0.95,4.99995345441977,True
+independent_without_past,TBBB,blend: C6 paraffin mix,182798561.35399213,0.9506418936035104,0.95,0.06418936035104128,True
+independent_without_past,BTT,blend: C6 paraffin mix,482177223.2891102,0.9520754057928937,0.95,0.20754057928937808,True
+independent_without_past,BTBT,none,0.0,0.6855373536146766,0.95,-26.446264638532334,False
+independent_without_past,BTBBT,blend: C6 naphthene mix,189457114.74892223,0.9788217955013898,0.95,2.8821795501389857,True
+independent_without_past,BTBBB,premium,134432211.77824587,0.9968944933830953,0.99,0.6894493383095335,True
+independent_without_past,BBTT,premium,325287552.00743806,0.993474331619463,0.99,0.3474331619462978,True
+independent_without_past,BBTB,premium,415946959.82707995,0.9904124195348009,0.99,0.041241953480086746,True
+independent_without_past,BBBT,premium,565137489.3390459,0.9921574841562159,0.99,0.2157484156215861,True
+independent_without_past,BBBB,pure,177813221.33674708,0.9513875787095086,0.95,0.13875787095086745,True

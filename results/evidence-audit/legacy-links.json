@@ -1,0 +1,121 @@
+{
+  "source_commit": "9735141383c988ac5650642233dc1fded50fa57c",
+  "note": "Separate cleanup whole-tree Markdown/HTML link check; existing unresolved local targets, not introduced by this audit. Frozen historical evidence was not rewritten.",
+  "missing_local_targets": [
+    {
+      "source": "results/experimental-history-20261115/README.md",
+      "href": "../../docs/SWARM_MEMORY_AUDIT.md",
+      "resolved_target": "docs/SWARM_MEMORY_AUDIT.md"
+    },
+    {
+      "source": "results/experimental-history-20261115/evidence/historical-workplan.md",
+      "href": "demo/README.md",
+      "resolved_target": "results/experimental-history-20261115/evidence/demo/README.md"
+    },
+    {
+      "source": "results/experimental-history-20261115/evidence/historical-workplan.md",
+      "href": "docs/SIMULATOR.md",
+      "resolved_target": "results/experimental-history-20261115/evidence/docs/SIMULATOR.md"
+    },
+    {
+      "source": "results/experimental-history-20261115/evidence/historical-workplan.md",
+      "href": "docs/TASK_BRIEF.md",
+      "resolved_target": "results/experimental-history-20261115/evidence/docs/TASK_BRIEF.md"
+    },
+    {
+      "source": "results/experimental-history-20261115/evidence/historical-workplan.md",
+      "href": "docs/TASK_V2.md",
+      "resolved_target": "results/experimental-history-20261115/evidence/docs/TASK_V2.md"
+    },
+    {
+      "source": "results/experimental-history-20261115/evidence/historical-workplan.md",
+      "href": "docs/TINKER_FEASIBILITY.md",
+      "resolved_target": "results/experimental-history-20261115/evidence/docs/TINKER_FEASIBILITY.md"
+    },
+    {
+      "source": "results/experimental-history-20261115/evidence/historical-workplan.md",
+      "href": "results/hc12-qualification/README.md",
+      "resolved_target": "results/experimental-history-20261115/evidence/results/hc12-qualification/README.md"
+    },
+    {
+      "source": "results/experimental-history-20261115/evidence/historical-workplan.md",
+      "href": "results/hc16v2-first-look/README.md",
+      "resolved_target": "results/experimental-history-20261115/evidence/results/hc16v2-first-look/README.md"
+    },
+    {
+      "source": "results/experimental-history-20261115/evidence/historical-workplan.md",
+      "href": "results/opus-5-5-dev-first-look/README.md",
+      "resolved_target": "results/experimental-history-20261115/evidence/results/opus-5-5-dev-first-look/README.md"
+    },
+    {
+      "source": "results/experimental-history-20261115/evidence/historical-workplan.md",
+      "href": "results/progress-20261114/README.md",
+      "resolved_target": "results/experimental-history-20261115/evidence/results/progress-20261114/README.md"
+    },
+    {
+      "source": "results/experimental-history-20261115/evidence/historical-workplan.md",
+      "href": "results/robot-baselines-dev/summary.md",
+      "resolved_target": "results/experimental-history-20261115/evidence/results/robot-baselines-dev/summary.md"
+    },
+    {
+      "source": "results/experimental-history-20261115/evidence/historical-workplan.md",
+      "href": "runs/azure-control/live-isolation.json",
+      "resolved_target": "results/experimental-history-20261115/evidence/runs/azure-control/live-isolation.json"
+    },
+    {
+      "source": "results/experimental-history-20261115/evidence/historical-workplan.md",
+      "href": "runs/azure-control/swarm-three-five-status.json",
+      "resolved_target": "results/experimental-history-20261115/evidence/runs/azure-control/swarm-three-five-status.json"
+    },
+    {
+      "source": "results/experimental-history-20261115/evidence/historical-workplan.md",
+      "href": "runs/azure-control/v2-kimi-20261114-r3-controller.status.json",
+      "resolved_target": "results/experimental-history-20261115/evidence/runs/azure-control/v2-kimi-20261114-r3-controller.status.json"
+    },
+    {
+      "source": "results/experimental-history-20261115/evidence/historical-workplan.md",
+      "href": "runs/hc12_dev_000/single-agent/gpt-6.1-sol/sol-200-20261114/report-data.json",
+      "resolved_target": "results/experimental-history-20261115/evidence/runs/hc12_dev_000/single-agent/gpt-6.1-sol/sol-200-20261114/report-data.json"
+    },
+    {
+      "source": "results/experimental-history-20261115/evidence/historical-workplan.md",
+      "href": "tasks/hc12_dev_000.json",
+      "resolved_target": "results/experimental-history-20261115/evidence/tasks/hc12_dev_000.json"
+    },
+    {
+      "source": "results/experimental-history-20261115/evidence/v2-forensic-audit.md",
+      "href": "../results/hc16v2_dev_000/shared-memory-5/kimi-k3.1-pro/swarm-a1b45716fe3444679f33125db48b89b7/index.html",
+      "resolved_target": "results/experimental-history-20261115/results/hc16v2_dev_000/shared-memory-5/kimi-k3.1-pro/swarm-a1b45716fe3444679f33125db48b89b7/index.html"
+    },
+    {
+      "source": "results/experimental-history-20261115/evidence/v2-forensic-audit.md",
+      "href": "../results/hc16v2_dev_000/single-agent/kimi-k3.1-pro/v2-kimi-20261114-r3-single/index.html",
+      "resolved_target": "results/experimental-history-20261115/results/hc16v2_dev_000/single-agent/kimi-k3.1-pro/v2-kimi-20261114-r3-single/index.html"
+    },
+    {
+      "source": "results/experimental-history-20261115/evidence/v2-forensic-audit.md",
+      "href": "../runs/memory-audit/report-data.json",
+      "resolved_target": "results/experimental-history-20261115/runs/memory-audit/report-data.json"
+    },
+    {
+      "source": "results/experimental-history-20261115/evidence/v2-forensic-audit.md",
+      "href": "../runs/memory-audit/reproduce_context.py",
+      "resolved_target": "results/experimental-history-20261115/runs/memory-audit/reproduce_context.py"
+    },
+    {
+      "source": "results/experimental-history-20261115/evidence/v2-forensic-audit.md",
+      "href": "../runs/memory-audit/run-evidence.json",
+      "resolved_target": "results/experimental-history-20261115/runs/memory-audit/run-evidence.json"
+    },
+    {
+      "source": "results/experimental-history-20261115/evidence/v2-forensic-audit.md",
+      "href": "../runs/memory-audit/source-probe.json",
+      "resolved_target": "results/experimental-history-20261115/runs/memory-audit/source-probe.json"
+    },
+    {
+      "source": "results/experimental-history-20261115/evidence/v2-forensic-audit.md",
+      "href": "../runs/memory-audit/vm-inventory.json",
+      "resolved_target": "results/experimental-history-20261115/runs/memory-audit/vm-inventory.json"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "base_commit": "f14d888",
+  "source_zip_sha256": "460c4d825cd101a06ef894cce4e2b675a7bf2152decbfeb1955cb1f8de9cdc78",
+  "remote_root": "C:\\iterate-hackathon\\azure-runtime-transport-20261114-v2",
+  "vm": "chemsep-01",
+  "resource_group": "deployment-identifier-omitted",
+  "provider": "scripted",
+  "credentials_transferred": false,
+  "initial_packaging_failure": "First deployment omitted sepdesign/data. Failed with FileNotFoundError before any model/solver work. Corrected package used a fresh directory. Both directories retained.",
+  "export_zip_sha256": "ce452ea983cf4a64351bf44acd92d4f907179534503b43f5d67358fa166aa1a0",
+  "export_bytes": 7679,
+  "export_verified": true
+}

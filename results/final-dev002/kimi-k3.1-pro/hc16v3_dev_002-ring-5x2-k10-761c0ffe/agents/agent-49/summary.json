@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-761c0ffe",
+ "agent_id": "agent-49",
+ "provider": "modal",
+ "model": "kimi-k3.1-pro",
+ "requests": 32,
+ "failed_requests": 3,
+ "input_tokens": 175386,
+ "output_tokens": 23741,
+ "usd_estimated_total": 0.588182,
+ "requests_with_unknown_cost": 3,
+ "price_source": "https://modal.com/docs/guide/supported-models; 2026-11-14; uncached estimate",
+ "wall_s": 3608.650463581085,
+ "status": "budget_exhausted",
+ "island": 9,
+ "strategy": null,
+ "best_valid_reward": 1.2260089567542654,
+ "solves_used": 50,
+ "first_positive_at_solves": 21,
+ "usd_cached_price_estimate": 0.46054040000000007,
+ "notebook": "PLAN: Finalize the best demonstrated two-column C6 plant. Last action: restore R1189 exactly (55/4.75/6.0/0.3 root; 70/6.0/6.0/0.8 heavy), avoiding another risky purity-cliff probe. Learned: heavy reflux 6.25 at boil-up 6.5 gives 1.210, while reducing both heavy ratios to 6.0 improves reward to 1.226 with $1154.4M/yr revenue. Root reflux 4.75 and heavy dp 0.8 remain best; nearby reductions or higher dp fail the 95% blend threshold.",
+ "task": "hc16v3_dev_002"
+}

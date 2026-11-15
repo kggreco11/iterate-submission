@@ -1,0 +1,131 @@
+{
+  "run_id": "swarm-292bd96a0f944b1083b637e2b08633fe",
+  "sharing_activation": null,
+  "status": "all_finished_or_exhausted",
+  "error": null,
+  "wall_s": 2336.125,
+  "agents": {
+    "agent-0": {
+      "distinct_queries": 395,
+      "best_valid_reward": 2.3238008676187856,
+      "best_design": {
+        "": [
+          50,
+          3.0,
+          3.0,
+          0.55
+        ],
+        "T": [
+          40,
+          3.0,
+          3.0,
+          0.45
+        ],
+        "B": [
+          65,
+          4.0,
+          4.0,
+          0.1
+        ],
+        "BT": [
+          100,
+          8.0,
+          22.0,
+          0.5,
+          null,
+          [
+            0.5,
+            0.9
+          ]
+        ],
+        "BB": [
+          75,
+          7.0,
+          7.0,
+          0.1
+        ],
+        "BBB": [
+          55,
+          4.5,
+          4.5,
+          0.1
+        ],
+        "BBBB": [
+          65,
+          6.0,
+          6.5,
+          0.1
+        ],
+        "TT": [
+          35,
+          2.0,
+          2.0,
+          0.0
+        ],
+        "TTB": [
+          45,
+          2.5,
+          4.5,
+          0.1
+        ],
+        "BBT": [
+          55,
+          3.0,
+          3.0,
+          0.1
+        ],
+        "BBTB": [
+          60,
+          3.0,
+          3.0,
+          0.1
+        ],
+        "BBTT": [
+          70,
+          12.0,
+          6.0,
+          0.1
+        ],
+        "BBTBB": [
+          60,
+          4.0,
+          4.0,
+          0.1
+        ]
+      },
+      "usage": {
+        "run_id": "swarm-292bd96a0f944b1083b637e2b08633fe",
+        "agent_id": "agent-0",
+        "provider": "modal",
+        "model": "kimi-k3.1-pro",
+        "requests": 267,
+        "failed_requests": 0,
+        "input_tokens": 1313117,
+        "output_tokens": 209877,
+        "usd_estimated_total": 4.725004000000004,
+        "requests_with_unknown_cost": 0,
+        "price_source": "https://modal.com/docs/guide/supported-models; 2026-11-15; uncached estimate",
+        "wall_s": 2336.2579307556152,
+        "reconciled": true
+      }
+    }
+  },
+  "team_distinct_queries": 395,
+  "backend_calls": 395,
+  "cache_hits": 2736,
+  "submissions": 266,
+  "team_input_tokens": 1313117,
+  "team_output_tokens": 209877,
+  "known_llm_usd": 4.725004000000004,
+  "unknown_cost_requests": 0,
+  "memory_usd": null,
+  "simulator_usd": null,
+  "clean_slate": {
+    "verified": true,
+    "readers": 1,
+    "remote": false
+  },
+  "pending_ingestions": 0,
+  "duplicate_design_submissions": 98,
+  "max_input_bytes": 16769
+}

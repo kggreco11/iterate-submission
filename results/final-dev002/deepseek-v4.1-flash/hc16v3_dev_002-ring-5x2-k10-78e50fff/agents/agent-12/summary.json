@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-78e50fff",
+ "agent_id": "agent-12",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 83,
+ "failed_requests": 0,
+ "input_tokens": 718885,
+ "output_tokens": 84368,
+ "usd_estimated_total": 0.3169071,
+ "requests_with_unknown_cost": 0,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 5634.402918815613,
+ "status": "finished",
+ "island": 2,
+ "strategy": null,
+ "best_valid_reward": 1.3021703918578826,
+ "solves_used": 48,
+ "first_positive_at_solves": 15,
+ "usd_cached_price_estimate": 0.26029781999999996,
+ "notebook": "BEST = R1759/R1797 setting: 7 cols, rev $1322.7M, cost $751.6M, reward 1.302. My current design already matches exactly ('':40/1.6/1.6/0.6; B:55/3.8/3.0/0.1; T:45/3.0/2.5/0.3; TB:55/5/4/0.1; BT:70/9/7/0.1; BTT:80/12/10/0.1; BTTB:100/12/10/0.1).\\nRevenue model: rev($M/yr)=flow(mol/s)*price*28.8.\\nValue pools left on floor:\\n TT 535 mol/s (C3 39/C3= 14/nC4 24/iC4 16/C2 6): C3-mix and C4-mix both capped ~53/40% -> agents 13/14 both failed (2 cols cost >~$146M earned).\\n BB 1145 mol/s (nC8 20/nC7 18/cyC6 16/nC6 14/3MP 10/2MP 10): 4+ high-reflux cols needed, no single cut qualifies -> failed repeatedly.\\n BTTBB 113 mol/s 22DMB 82%: one more push might cross 95% but BTTB already 100st/12 reflux, and it is the bottom of a very tall column.\\nSolves 48/50 used. Re-confirm best design and finish; remaining probes have cost >$150M each and all failed.",
+ "task": "hc16v3_dev_002"
+}

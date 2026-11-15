@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-78e50fff",
+ "agent_id": "agent-11",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 81,
+ "failed_requests": 0,
+ "input_tokens": 706717,
+ "output_tokens": 84159,
+ "usd_estimated_total": 0.31300589999999995,
+ "requests_with_unknown_cost": 0,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 5634.401917934418,
+ "status": "budget_exhausted",
+ "island": 2,
+ "strategy": null,
+ "best_valid_reward": 1.3021703918578826,
+ "solves_used": 50,
+ "first_positive_at_solves": 17,
+ "usd_cached_price_estimate": 0.25999086,
+ "notebook": "BANKED best = R1759 reward 1.302 (7 cols, rev $1322.7M, cost $751.6M): ''40/1.6/1.6/0.6; B55/3.8/3.0/0.1; T45/3/2.5/0.3; BT70/9/7/0.1; TB55/5/4/0.1; BTT80/12/10/0.1; BTTB100/12/10/0.1.\n\nProducts: TBT nC4-98% $118M; TBB C5mix $379M; BTB C6paraffin mix $590M; BTTT C5mix $145M; BTTBT nC5 premium $107M.\nDead: TT 535 (C3 39/nC4 24/iC4 16) $0; BB 1145 heavies $0; BTTBB 113 (22DMB 82%) $0.\n\nKEY LESSONS: B reflux 3.8/3.0 cheapest found that keeps products (3.8<4.0<4.2). BTTB>100/12 can't reach 95% 22DMB. Feed col dp 0.6 = $140.6M top cost block; T col 45/3/2.5 cheap. TT split loses (col > product value). BB split loses (8 cols, cost $954M, reward 0.897). BTTBB 22DMB stuck ~85-91%, never 95%.\n\nPLAN (3 solves left): (1) B 3.6/2.8 shave now. (2) if good, B 3.4/2.6; if bad, revert. (3) reserve last solve to revert to banked 1.302.",
+ "task": "hc16v3_dev_002"
+}

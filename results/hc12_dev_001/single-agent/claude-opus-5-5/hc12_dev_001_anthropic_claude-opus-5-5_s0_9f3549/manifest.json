@@ -1,0 +1,16 @@
+{
+  "schema": "report-bundle-v1",
+  "run_id": "hc12_dev_001_anthropic_claude-opus-5-5_s0_9f3549",
+  "task": "hc12_dev_001",
+  "model": "claude-opus-5-5",
+  "condition": "single-agent",
+  "status": "complete",
+  "stop_reason": "api_error: BadRequestError",
+  "report": "index.html",
+  "evidence": "report-data.json; full raw simulator logs may remain on the execution host",
+  "sha256": {
+    "index.html": "4c45f09886a9f40b4b719d403dde47ad5e9f217bbf9504a764058e808194a3b9",
+    "report-data.json": "62d1419e8db05aee4d090d89395c4565f0306bb8030f4eddc9f596867ce96eae",
+    "summary.json": "3230ac391a66132d7a5ae180c1048faed0917d9f903129c189fb4f2ad35a46a3"
+  }
+}

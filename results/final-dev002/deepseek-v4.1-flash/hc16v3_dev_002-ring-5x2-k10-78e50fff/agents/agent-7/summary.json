@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-78e50fff",
+ "agent_id": "agent-7",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 96,
+ "failed_requests": 0,
+ "input_tokens": 1007477,
+ "output_tokens": 100036,
+ "usd_estimated_total": 0.4222862999999999,
+ "requests_with_unknown_cost": 0,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 5634.396693706512,
+ "status": "finished",
+ "island": 1,
+ "strategy": null,
+ "best_valid_reward": 1.7512974572311615,
+ "solves_used": 41,
+ "first_positive_at_solves": 16,
+ "usd_cached_price_estimate": 0.3557237400000001,
+ "notebook": "BASELINE (best valid, 1.751, 9 cols, rev $1548M, cost $780M): '' 40/1.6/1.6/0.6; B 45/3.5/3.0/0.1; T 45/3.0/2.5/0.3; BB 45/3.0/2.5/0.1; BT 50/4.0/3.5/0.1; TB 55/5.0/4.0/0.1; BBT 55/6.0/5.0/0.1; BTT 60/6.0/5.0/0.1; BTTB 40/6.0/5.0/0.1. Products: TBT $118M(nC4 98), TBB $379M(C5mix), BTTT $144M(C5), BTB $588M(C6para), BBTT $238M(C6para), BTTBT $80M(C5). Wasted $0: TT 535(C3mix53/C4mix40/C2 6); BBB 636(nC8 37/nC7 32/cC6 16/nC9 10); BBTB 271(nC6 32/cC6 29/MCP 16/3MP 15); BTTBB 123(22DMB 63). Max theoretical rev $3615M if all 16 sold pure. Lessons: +1 col costs $50-90M/yr; my BBB and TT extra-column probes both returned ~$0 net. TT analysis: separating C3/C4 gives C4mix bottoms 214 mol/s *0.0119*8000 = $20M/yr vs col cost $50M+ -> net loss. Rationale: high-cost scenario punishes marginal sharp splits. Plan: baseline locked; 9 solves left; only attempt a probe if it clearly nets > col cost. Otherwise finish.",
+ "task": "hc16v3_dev_002"
+}

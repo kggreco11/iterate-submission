@@ -1,0 +1,56 @@
+{
+  "run_id": "swarm-5fe736c8394b44ceb45fe8e825468f94",
+  "status": "round_limit",
+  "error": null,
+  "wall_s": 91.27151183295064,
+  "agents": {
+    "agent-0": {
+      "distinct_queries": 2,
+      "best_valid_reward": 0.0,
+      "best_design": {},
+      "usage": {
+        "run_id": "swarm-5fe736c8394b44ceb45fe8e825468f94",
+        "agent_id": "agent-0",
+        "provider": "scripted",
+        "model": "scripted",
+        "requests": 2,
+        "failed_requests": 0,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "usd_estimated_total": 0.0,
+        "requests_with_unknown_cost": 2,
+        "price_source": "team model config, USD per million tokens, 2026-11-14",
+        "wall_s": 89.65849184989929
+      }
+    },
+    "agent-1": {
+      "distinct_queries": 2,
+      "best_valid_reward": 0.0,
+      "best_design": {},
+      "usage": {
+        "run_id": "swarm-5fe736c8394b44ceb45fe8e825468f94",
+        "agent_id": "agent-1",
+        "provider": "scripted",
+        "model": "scripted",
+        "requests": 2,
+        "failed_requests": 0,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "usd_estimated_total": 0.0,
+        "requests_with_unknown_cost": 1,
+        "price_source": "team model config, USD per million tokens, 2026-11-14",
+        "wall_s": 89.6583321094513
+      }
+    }
+  },
+  "team_distinct_queries": 4,
+  "backend_calls": 3,
+  "cache_hits": 2,
+  "submissions": 4,
+  "team_input_tokens": 0,
+  "team_output_tokens": 0,
+  "known_llm_usd": 0.0,
+  "unknown_cost_requests": 3,
+  "memory_usd": null,
+  "simulator_usd": null
+}

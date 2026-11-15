@@ -1,0 +1,90 @@
+[
+  {
+    "check": "user-stopped status",
+    "passed": true
+  },
+  {
+    "check": "charged counts reconcile",
+    "passed": true
+  },
+  {
+    "check": "per-agent allowance",
+    "passed": true
+  },
+  {
+    "check": "best of five",
+    "passed": true
+  },
+  {
+    "check": "winning plant objective",
+    "passed": true
+  },
+  {
+    "check": "winning plant valid",
+    "passed": true
+  },
+  {
+    "check": "no source copying",
+    "passed": true
+  },
+  {
+    "check": "no citations",
+    "passed": true
+  },
+  {
+    "check": "no retrieved findings",
+    "passed": true
+  },
+  {
+    "check": "no included shared memory",
+    "passed": true
+  },
+  {
+    "check": "monotone queries",
+    "passed": true
+  },
+  {
+    "check": "monotone elapsed_s",
+    "passed": true
+  },
+  {
+    "check": "monotone usd",
+    "passed": true
+  },
+  {
+    "check": "monotone input_tokens",
+    "passed": true
+  },
+  {
+    "check": "monotone output_tokens",
+    "passed": true
+  },
+  {
+    "check": "agent-0 saved usage covers policy outcomes",
+    "passed": true
+  },
+  {
+    "check": "agent-1 saved usage covers policy outcomes",
+    "passed": true
+  },
+  {
+    "check": "agent-2 saved usage covers policy outcomes",
+    "passed": true
+  },
+  {
+    "check": "agent-3 saved usage covers policy outcomes",
+    "passed": true
+  },
+  {
+    "check": "agent-4 saved usage covers policy outcomes",
+    "passed": true
+  },
+  {
+    "check": "saved streams reprice to revenue",
+    "passed": true
+  },
+  {
+    "check": "component closure",
+    "passed": true
+  }
+]

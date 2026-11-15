@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-niche-20940918",
+ "agent_id": "agent-4",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 97,
+ "failed_requests": 3,
+ "input_tokens": 453698,
+ "output_tokens": 91810,
+ "usd_estimated_total": 0.24628139999999998,
+ "requests_with_unknown_cost": 3,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 4628.586919784546,
+ "status": "finished",
+ "island": 0,
+ "strategy": null,
+ "best_valid_reward": 0.0,
+ "solves_used": 48,
+ "first_positive_at_solves": null,
+ "usd_cached_price_estimate": 0.18047916,
+ "notebook": "Turn 47. 48 solves used, 2 left. Best valid = 0.000 (empty design). Every single/two-column plant I built cost $120-390M/yr and never reached 95% purity, so revenue stayed ~0 and reward went negative (-0.28 to -0.89). Double-effect feed column (turn 46) gave -0.334: HP condenser 355K vs LP reboiler 458K = no heat link, so it just doubled cost to $250M/yr.\n\nKEY FACTS: rev = mol/s x price x 2.88e7. Prizes if separated purely: C6 paraffin mix (970 mol/s) ~$1186M; C5 mix (695) ~$618M; nC5 alone $438M; C6 naphthene mix $396M; nC8 $358M; C4 mix (544) $186M; C3 mix (286) $73M. 95% purity needed, 99% => 1.2x. Blends pay 85% of mean price.\nVolatility gaps: C3/C4 ~30K, C4/C5 ~28K (easy); C5/C6 ~14K (moderate); C6 paraffin/naphthene ~3-11K (hard); C6/C7 ~18K (easy).\n\nLESSON: columns here are extremely expensive ($120-390M/yr each) and my quick attempts never achieved 95% purity, so revenue was always ~0. A profitable plant needs revenue >> $300M/yr, i.e. at least a sharply-cut C5-mix-scale product. I lack the solves to build that tree.\n\nPLAN: revert to the empty (reward 0.000) design \u2014 it beats every negative column design I evaluated \u2014 and finish at 0.",
+ "task": "hc16v3_dev_002"
+}

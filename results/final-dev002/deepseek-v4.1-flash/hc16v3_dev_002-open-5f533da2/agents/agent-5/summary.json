@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-open-5f533da2",
+ "agent_id": "agent-5",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 115,
+ "failed_requests": 3,
+ "input_tokens": 639865,
+ "output_tokens": 113171,
+ "usd_estimated_total": 0.3277647,
+ "requests_with_unknown_cost": 3,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 5132.717631101608,
+ "status": "finished",
+ "island": 0,
+ "strategy": null,
+ "best_valid_reward": 0.0,
+ "solves_used": 47,
+ "first_positive_at_solves": null,
+ "usd_cached_price_estimate": 0.25560342,
+ "notebook": "Solves ~47/50, best 0.000 (empty). All my multi-column trials negative because columns cost $120-300M/yr and no stream hit 95%, so revenue=0.\n\nEconomics: ~45st/R1.5 column \u2248 $122M/yr; high-reflux 70st \u2248 $297M/yr. Prizes: C6paraffin blend (2,2-DMB+2-MP+3-MP+nC6, 970 mol/s) \u2248 $1181M/yr; C5mix (iC5+nC5, 695 mol/s) \u2248 $618M/yr; nC5 pure $439M; C4mix $186M; nC4 $166M. Need \u226595% (99% for 1.2x).\n\nKey gaps: C4/C5 split = 28 K (easy); C5/C6 (nC5 309 vs 2,2-DMB 323) = 14 K (tight); C6paraffin/naphthene (336/342 vs 345/354) = very tight, probably infeasible in budget.\n\nPrior failures: front cuts leak (T held nC5/iC5; B held nC4 8%), so 95% never reached. High reflux converges poorly.\n\nPLAN (3 solves left): try 2-column C5-mix route: front 60/3.0 (C4-/C5+), bottoms 80/5.0 (C5mix/C6+). If BT \u226595% C5mix, revenue $618M vs ~$250M cost \u2192 positive reward. Empty fallback = 0.",
+ "task": "hc16v3_dev_002"
+}

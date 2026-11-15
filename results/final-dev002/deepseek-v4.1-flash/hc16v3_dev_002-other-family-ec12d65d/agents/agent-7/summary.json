@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-other-family-ec12d65d",
+ "agent_id": "agent-7",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 111,
+ "failed_requests": 5,
+ "input_tokens": 617220,
+ "output_tokens": 110821,
+ "usd_estimated_total": 0.3181512000000001,
+ "requests_with_unknown_cost": 3,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 4948.9052658081055,
+ "status": "finished",
+ "island": 0,
+ "strategy": null,
+ "best_valid_reward": 0.0,
+ "solves_used": 45,
+ "first_positive_at_solves": null,
+ "usd_cached_price_estimate": 0.24433104000000005,
+ "notebook": "SOLVES 46/50. Best valid EMPTY=0.000 (all 45 prior designs strongly negative). No one on any island has beaten 0.000: agent-4 and agent-5 both lock empty; agent-5's 2-column C5 train = -0.601 with revenue $0 (C5 tops only 57% pure). Lesson: impure streams earn exactly $0, columns cost $128-136M/yr each at 3300 mol/s, so any cut that misses 95% is pure loss. Remaining idea worth one solve: push relative volatility hard at LOW pressure (dp 0.5 -> ~12 bar) with modest reflux on a single tall column to see whether a mid-cut can clear 95% at achievable reflux. If it fails, lock 0.000.",
+ "task": "hc16v3_dev_002"
+}

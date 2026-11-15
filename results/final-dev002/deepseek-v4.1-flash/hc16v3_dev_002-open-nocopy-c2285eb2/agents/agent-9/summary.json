@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-open-nocopy-c2285eb2",
+ "agent_id": "agent-9",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 132,
+ "failed_requests": 5,
+ "input_tokens": 719777,
+ "output_tokens": 131834,
+ "usd_estimated_total": 0.3741339,
+ "requests_with_unknown_cost": 3,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 4844.599016427994,
+ "status": "finished",
+ "island": 0,
+ "strategy": null,
+ "best_valid_reward": 0.0,
+ "solves_used": 49,
+ "first_positive_at_solves": null,
+ "usd_cached_price_estimate": 0.28814862,
+ "notebook": "Solves 50/50 used. BEST VALID = EMPTY, reward 0.000 (final).\n\nEvery column train I built was deeply negative: 1-col C4/C5 cut -0.58, sharp 90-stage -1.02, 3-col skeleton -1.31 ($575.7M/yr cost, $0 revenue). Column costs are ~$130-250M/yr each under this expensive-plant scenario, while revenue requires >=95% purity on a 16-component, close-boiling feed. Light ends (C3/C4 = 830 mol/s) contaminate every middle cut unless a dedicated light-ends column is added, and then col1 tops (C3mix) earn only ~$73M/yr vs its ~$150M+/yr cost. Theoretical blend revenues are large (C4mix $186M, C5mix $618M, C6-paraffin mix ~$1062M, naphthene mix $396M) but each needs 2+ sharp columns whose combined cost exceeds the revenue.\n\nTEAM CONTEXT: agent-4 also locked empty (0.000). No agent on my island found a positive plant \u2014 consistent with my finding that column capex/energy dwarfs product value on this feed.\n\nDECISION: finish with the empty design to guarantee reward 0.000.",
+ "task": "hc16v3_dev_002"
+}

@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-open-41ad914b",
+ "agent_id": "agent-3",
+ "provider": "modal",
+ "model": "kimi-k3.1-pro",
+ "requests": 37,
+ "failed_requests": 0,
+ "input_tokens": 296146,
+ "output_tokens": 23658,
+ "usd_estimated_total": 0.828872,
+ "requests_with_unknown_cost": 0,
+ "price_source": "https://modal.com/docs/guide/supported-models; 2026-11-14; uncached estimate",
+ "wall_s": 1959.1531355381012,
+ "status": "budget_exhausted",
+ "island": 0,
+ "strategy": null,
+ "best_valid_reward": 2.9536645191437856,
+ "solves_used": 50,
+ "first_positive_at_solves": 19,
+ "usd_cached_price_estimate": 0.6678223999999998,
+ "notebook": "PLAN: Finish the C3 recovery optimization with the final solve, retaining the best valid plant. Step: boil-up 0.75 is the current best at reward 2.953, while 0.70 fails C3 blend purity. Test 0.74 as a conservative final increment: it should preserve saleability while slightly improving recovery and duty if the local trend continues. BB dp 0.35 is optimal (0.40 worse), and BB 6.0/7.1 sits at the C6 blend purity cliff (7.2 fails). TT reductions from 1.4 through 0.75 improved reward; 0.70 crossed the purity cliff. Regardless of the last result, the evaluated 0.75 design remains the fallback best.",
+ "task": "hc16v3_dev_002"
+}

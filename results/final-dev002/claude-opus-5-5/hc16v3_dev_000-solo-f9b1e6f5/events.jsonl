@@ -1,0 +1,20 @@
+{"kind": "round", "round": 1, "team_best": 0.0, "team_solves": 1, "active": 1, "usd_logged": 0.034848, "usd_real": 0.034848, "t": 11.87}
+{"kind": "round", "round": 2, "team_best": 0.0, "team_solves": 4, "active": 1, "usd_logged": 0.082592, "usd_real": 0.082592, "t": 28.39}
+{"kind": "round", "round": 3, "team_best": 0.0, "team_solves": 7, "active": 1, "usd_logged": 0.14622000000000002, "usd_real": 0.14622000000000002, "t": 53.48}
+{"kind": "round", "round": 4, "team_best": 0.0, "team_solves": 11, "active": 1, "usd_logged": 0.19931200000000002, "usd_real": 0.19931200000000002, "t": 70.22}
+{"kind": "round", "round": 5, "team_best": 0.2028388731505205, "team_solves": 15, "active": 1, "usd_logged": 0.253612, "usd_real": 0.253612, "t": 86.51}
+{"kind": "round", "round": 6, "team_best": 1.2807887136140033, "team_solves": 17, "active": 1, "usd_logged": 0.30948, "usd_real": 0.30948, "t": 104.98}
+{"kind": "round", "round": 7, "team_best": 1.324241519779305, "team_solves": 19, "active": 1, "usd_logged": 0.36686399999999997, "usd_real": 0.36686399999999997, "t": 122.9}
+{"kind": "round", "round": 8, "team_best": 1.4284343126129668, "team_solves": 21, "active": 1, "usd_logged": 0.443636, "usd_real": 0.443636, "t": 152.46}
+{"kind": "round", "round": 9, "team_best": 1.4284343126129668, "team_solves": 22, "active": 1, "usd_logged": 0.494052, "usd_real": 0.494052, "t": 164.64}
+{"kind": "round", "round": 10, "team_best": 1.4284343126129668, "team_solves": 23, "active": 1, "usd_logged": 0.555512, "usd_real": 0.555512, "t": 182.0}
+{"kind": "round", "round": 11, "team_best": 1.4284343126129668, "team_solves": 24, "active": 1, "usd_logged": 0.609992, "usd_real": 0.609992, "t": 195.74}
+{"kind": "round", "round": 12, "team_best": 1.9376849158967735, "team_solves": 32, "active": 1, "usd_logged": 0.670484, "usd_real": 0.670484, "t": 215.32}
+{"kind": "round", "round": 13, "team_best": 2.107728709036946, "team_solves": 33, "active": 1, "usd_logged": 0.729912, "usd_real": 0.729912, "t": 232.41}
+{"kind": "round", "round": 14, "team_best": 2.1694472046684607, "team_solves": 35, "active": 1, "usd_logged": 0.796652, "usd_real": 0.796652, "t": 251.89}
+{"kind": "round", "round": 15, "team_best": 2.1694472046684607, "team_solves": 36, "active": 1, "usd_logged": 0.8521000000000001, "usd_real": 0.8521000000000001, "t": 265.78}
+{"kind": "round", "round": 16, "team_best": 2.1884241628997265, "team_solves": 39, "active": 1, "usd_logged": 0.9051440000000001, "usd_real": 0.9051440000000001, "t": 278.82}
+{"kind": "round", "round": 17, "team_best": 2.1884241628997265, "team_solves": 44, "active": 1, "usd_logged": 0.974516, "usd_real": 0.974516, "t": 301.13}
+{"kind": "round", "round": 18, "team_best": 2.1884241628997265, "team_solves": 52, "active": 1, "usd_logged": 1.034068, "usd_real": 1.034068, "t": 318.04}
+{"kind": "finish", "round": 19, "agent": "agent-0", "note": "Best design is turn 16 (reward 2.188): 8 columns in a tree. The root splits C5 and lighter from C6 and heavier, and the lighter side gives a C3 mix, a C4 mix and a C5 mix. The heavier side gives a C6 paraffin mix, n-heptane at the 99% premium grade, n-octane (99% in the plant shown above; premium status not confirmed in turn 16), and n-nonane at the 99% premium grade. Turn 18's root reflux cut lowered column cost by $12M/yr but cut the reward to 2.150, so it did not pay. The other cost trims also lost product grades (turns 15 and 17). Two streams stay unsold. The hexane/MCP/cyclohexane/heptane bottoms (433 mol/s, worth about $216M/yr if pure) would need at least two more hard, tall columns, and I didn't test that. The small high-octane cut (22 mol/s, worth about $39M/yr) is also unsold. This is an expensive-plant scenario, so further gains look small next to the risk; I stopped with 52 of 200 solves used.", "t": 328.24}
+{"kind": "round", "round": 19, "team_best": 2.1884241628997265, "team_solves": 52, "active": 1, "usd_logged": 1.080584, "usd_real": 1.080584, "t": 328.24}

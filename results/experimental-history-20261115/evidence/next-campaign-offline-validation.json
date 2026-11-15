@@ -1,0 +1,10 @@
+{
+  "provenance": "Selected fields transcribed from observed validation.",
+  "passed": true,
+  "edge_tests": 5,
+  "charged_queries": 12400,
+  "prompts": 12400,
+  "backend": "mock",
+  "model_api_calls": 0,
+  "chemsep_calls": 0
+}

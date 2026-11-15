@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-78e50fff",
+ "agent_id": "agent-47",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 87,
+ "failed_requests": 0,
+ "input_tokens": 671225,
+ "output_tokens": 90920,
+ "usd_estimated_total": 0.31047149999999996,
+ "requests_with_unknown_cost": 0,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 5634.443633556366,
+ "status": "finished",
+ "island": 9,
+ "strategy": null,
+ "best_valid_reward": 2.0678011994837777,
+ "solves_used": 48,
+ "first_positive_at_solves": 30,
+ "usd_cached_price_estimate": 0.2526180599999999,
+ "notebook": "ANCHOR = 2.068 (7 cols, rev $1556.4M / cost $649.5M): '' 40/1.6/1.6/.6 -> T 45/3/2.5/.3 -> TT $0 & TB 60/5.5/4.5/.1 -> TBT nC4 96% $119M / TBB C5mix $375M. B 45/3.5/3.0/.5 -> BT 50/4/3.5/.1 -> BTT 60/6/5/.1 -> BTTT C5mix $156M & BTTB 65/6.5/5/.1 -> BTTBT nC5 98% $92M / BTTBB C6par $168M. BTB C6par $646M.\n\nRevenue formula: flow(mol/s)*price($/mol)*2.88e7 = $/yr. C6-naphthene blend (MCP+CH ~269 mol/s) would be ~$396M/yr if >=95%.\n\nDEAD ENDS (all < 2.068): double-effect root; extra col on TT (1.898-1.986); TB 75/7.5 (2.003); B 50/4/3.5/0.4 (2.022); extra col under BB (1.684). 99% nC4 premium uneconomic. TT upgrade uneconomic. Island peers (R1457/R1881/R1882) all converged on the same 2.068 anchor - strong evidence it's the local optimum for this feed/cost structure.\n\nTURN 43: 48/50 solves. Reverting to the 2.068 anchor to lock my best valid design, since turn 42's BB probe (1.684) is worse. No remaining headroom.",
+ "task": "hc16v3_dev_002"
+}

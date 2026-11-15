@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-90279e64",
+ "agent_id": "agent-5",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 81,
+ "failed_requests": 3,
+ "input_tokens": 451100,
+ "output_tokens": 79488,
+ "usd_estimated_total": 0.23071560000000005,
+ "requests_with_unknown_cost": 3,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 5064.823443651199,
+ "status": "budget_exhausted",
+ "island": 2,
+ "strategy": null,
+ "best_valid_reward": 0.0,
+ "solves_used": 50,
+ "first_positive_at_solves": null,
+ "usd_cached_price_estimate": 0.17832264000000006,
+ "notebook": "Turn39, 48/50 solves. BEST VALID = empty plant, reward 0.000.\n\nEconomy (value=flow*price*2.88e7). Total pure value $3615M but ~15 columns needed \u2014 impossible at ~$100-250M/col.\nBlend prizes: C6 paraffin mix 970 mol/s -> $1004M at 85%; C5 mix 695 -> $618M; C6 naphthene mix 269 -> $396M; C4 mix 544 -> $186M; C3 mix 286 -> $73M.\n\nHard facts learned:\n- 3-col tree ''(60/6/6)+'T'(90/12/10)+'TB'(120/14/10): revenue $492M (TBT nC4 97%=$108M, TBB C5-mix=$384M) but cost $671M -> -0.407. Cost dominates; ~$224M per column.\n- R328 single col 60/6/6 with 30% side draw: cost $250M, T=50% nC4, S=31% nC5 -> nothing pure. Side draws leak badly.\n- C6 paraffins vs naphthenes only ~3K apart (inseparable). C4(273)/C5(301-309) ~28K and C5/C6(323) ~14K = feasible but needs 2-3 columns.\n- Key lesson: a column pays ONLY if it lands a >=95% sellable stream; blends need a middle cut = side draw, and side draws leak, so blends need 2 columns minimum. Therefore most 1-2 column designs lose money versus 0.\n\nPlan: I have 2 solves left and best valid = 0.000. Used this turn to test one cheap 2-column train (feed C4-/C5+ then C3/C4 splitter). If it doesn't beat 0, revert to empty and finish.",
+ "task": "hc16v3_dev_002"
+}

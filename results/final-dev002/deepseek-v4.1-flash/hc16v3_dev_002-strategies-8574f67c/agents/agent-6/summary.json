@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-strategies-8574f67c",
+ "agent_id": "agent-6",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 115,
+ "failed_requests": 3,
+ "input_tokens": 666687,
+ "output_tokens": 113208,
+ "usd_estimated_total": 0.33585570000000003,
+ "requests_with_unknown_cost": 3,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 4851.393995523453,
+ "status": "finished",
+ "island": 3,
+ "strategy": "Middle-out: make the first split in the middle of the volatility range, then work outwards on both sides.",
+ "best_valid_reward": 0.0,
+ "solves_used": 47,
+ "first_positive_at_solves": null,
+ "usd_cached_price_estimate": 0.25629857999999994,
+ "notebook": "Turn 55. Solves 47/50, 3 left. Best valid = 0.000 (empty).\n\nKEY LEARNING from 47 solves: every multi-column train I built is deeply NEGATIVE (column costs $90-340M/yr each) and I never got a single stream to 95%. The empty design is worth 0.000, so nothing I built has beaten it.\n\nWhy I failed: n-butane (bp 272.7, feed 450 mol/s = the biggest light component) sits in the MIDDLE of the C3-C5 range. Any \"middle-out\" C4/C5 root recycles it, and no single column at reasonable reflux cleanly splits n-butane from isopentane (28K apart) while also splitting C5/C6. Agent-7 hit the same wall: their TB bottoms is n-butane 50% / isopentane 27% / n-pentane 22% \u2014 a 50/50 smear, not a clean cut.\n\nECONOMICS: C5 mix prize ~$618M/yr, C6 paraffin mix ~$1147M/yr, but a 50-stage column costs $245M/yr. So one clean blend stream per column is roughly break-even to positive \u2014 but you need MULTIPLE columns to isolate one blend, so net is strongly negative.\n\nDECISION: Lock in the empty design (0.000) as my final score. It is my best valid design by a wide margin. Gave up on further gambling \u2014 a 48th/49th/50th solve on an unproven 3-column train would almost certainly finish negative and I have no evidence any configuration converges to a sellable cut.",
+ "task": "hc16v3_dev_002"
+}

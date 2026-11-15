@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-761c0ffe",
+ "agent_id": "agent-32",
+ "provider": "modal",
+ "model": "kimi-k3.1-pro",
+ "requests": 21,
+ "failed_requests": 0,
+ "input_tokens": 170135,
+ "output_tokens": 17055,
+ "usd_estimated_total": 0.5108199999999999,
+ "requests_with_unknown_cost": 0,
+ "price_source": "https://modal.com/docs/guide/supported-models; 2026-11-14; uncached estimate",
+ "wall_s": 3608.641024827957,
+ "status": "budget_exhausted",
+ "island": 6,
+ "strategy": null,
+ "best_valid_reward": 2.8600490526960973,
+ "solves_used": 50,
+ "first_positive_at_solves": 22,
+ "usd_cached_price_estimate": 0.42038799999999993,
+ "notebook": "PLAN: 1) adopt R934 (island-best 2.857), 2) extend its still-profitable C3 boil-up to 10, 3) use the final solve only for a modest B pressure-drop extension if justified, then stop. Now combining R934's B dp 0.35 with TTTB boil-up 10.\n\nR934 shows B dp 0.35 adds net $3.7M/yr versus my 0.30 design, while R933 shows boil-up 10 adds net $2.4M/yr at dp 0.30. These changes are independent, so their combination should exceed either. C6 blend remains comfortably above 95%; heavy recovery trains and B stage reductions were unprofitable. Preserve all other proven settings.",
+ "task": "hc16v3_dev_002"
+}

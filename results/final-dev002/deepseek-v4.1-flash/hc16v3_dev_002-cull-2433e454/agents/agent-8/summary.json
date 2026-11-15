@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-cull-2433e454",
+ "agent_id": "agent-8",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 20,
+ "failed_requests": 0,
+ "input_tokens": 84244,
+ "output_tokens": 19437,
+ "usd_estimated_total": 0.0485976,
+ "requests_with_unknown_cost": 0,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 5423.075264930725,
+ "status": "culled",
+ "island": 8,
+ "strategy": null,
+ "best_valid_reward": 0.0,
+ "solves_used": 11,
+ "first_positive_at_solves": null,
+ "usd_cached_price_estimate": 0.03560304,
+ "notebook": "Turn 9. Economics: value=flow*price*2.88e7 $/yr; total pure feed=$3615M/yr. Costs so far: 25st R1.5=$121.5M/yr; 40st R3=$194.6M/yr (feed, ~3300 mol/s). Reward=(revenue-cost)/439.\n\nBlend analysis (value vs pure): C3 blend loses ~$1M (basically free, do it). C4 blend loses ~$21M but saves a column \u2192 blend. C5 blend loses ~$101M but saves a column (~$50M) \u2192 split if affordable. C6par blend loses ~$162M but saves 3 columns (~$150M) \u2192 blend. C6nap blend loses ~$71M, saves 1 column \u2192 marginal, likely split.\n\nTarget ~9 cuts: ethane (must remove, only $4M), C3 blend, C4 blend, iC5, nC5, C6par blend, C6nap, nC7, nC8, nC9. Revenue ~$3400M, ~8-9 columns costing $800-1400M \u2192 reward ~5-6.\n\nColumn costs are huge relative to thin blend penalties, so blend where it saves columns; split only where the penalty >> column cost (C5).\n\nThis turn: sharpen 3-column cascade (40st R6) to see whether moderate reflux reaches 95% for any group and to read the splits.",
+ "task": "hc16v3_dev_002"
+}

@@ -1,0 +1,14 @@
+{
+  "schema": "report-bundle-v1",
+  "task": "hc16v3_dev_002",
+  "model": "kimi-k3.1-pro",
+  "run_id": "hc16v3_dev_002-cull-db97bd5c",
+  "condition": "team-cull",
+  "status": "all_done",
+  "report": "index.html",
+  "sha256": {
+    "index.html": "25f9c45d75ab81efa0938977596ea5c26bccbef05035739f340802d6dd14dc04",
+    "report-data.json": "ec681c48a6ab4e0da8fca1edd1773a132096bbb5afbf0dbee43f818cff49419d",
+    "summary.json": "208a3cd421e14beabb0115b6e4980e555890c8e5e94b097aa42a93057ba41cc3"
+  }
+}

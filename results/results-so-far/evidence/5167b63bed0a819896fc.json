@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-78e50fff",
+ "agent_id": "agent-31",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 106,
+ "failed_requests": 1,
+ "input_tokens": 690616,
+ "output_tokens": 106430,
+ "usd_estimated_total": 0.33490079999999994,
+ "requests_with_unknown_cost": 0,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 5634.426324367523,
+ "status": "budget_exhausted",
+ "island": 6,
+ "strategy": null,
+ "best_valid_reward": 1.4767712050221222,
+ "solves_used": 50,
+ "first_positive_at_solves": 27,
+ "usd_cached_price_estimate": 0.26253215999999985,
+ "notebook": "Solves 48->49/50. Best valid banked: 1.477 (feed 34/2.6/2.6/0.8 + B 40/4/4/0.8), BT = C6-paraffin blend $1062M at 95%. LESSON: fee\nd dp MUST stay 0.8 (R2024 dp 0.4 -> BT 0, reward -0.924). T stream worthless (1587 mol/s, nC4 28% nC5 28% iC5 16%). C5 mix only $172M, C4 mix $51M, C3 mix $20M -> not worth >=95% splitting.\nPEER R2038 = best island plant, reward 1.571: identical feed column but B column built as DOUBLE EFFECT 0.5 to HP (dp 0.8, 1.0 bar, $101.5M) + LP (dp 0.88, 0.6 bar, $64.2M); no heat link (HP cond 332K vs LP reb 350K) yet total B cost $165.7M vs $199.8M single -> double effect cheapens even without heat recovery. Revenue $1069.1M.\nTHIS TEST: copy R2038 + double effect on feed column too (biggest cost $214.5M). Remaining 1 solve: if this is worse, copy R2038 exactly to guarantee 1.571. Final score = best valid ever evaluated, so no solve needed to revert.",
+ "task": "hc16v3_dev_002"
+}

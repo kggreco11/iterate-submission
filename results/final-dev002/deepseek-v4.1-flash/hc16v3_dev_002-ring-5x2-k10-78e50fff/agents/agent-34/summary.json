@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-78e50fff",
+ "agent_id": "agent-34",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 100,
+ "failed_requests": 0,
+ "input_tokens": 652198,
+ "output_tokens": 101349,
+ "usd_estimated_total": 0.31727820000000007,
+ "requests_with_unknown_cost": 0,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 5634.4303278923035,
+ "status": "budget_exhausted",
+ "island": 6,
+ "strategy": null,
+ "best_valid_reward": 1.4767712050221222,
+ "solves_used": 50,
+ "first_positive_at_solves": 36,
+ "usd_cached_price_estimate": 0.24836556000000004,
+ "notebook": "Banked best 1.477 = feed 34/2.6/2.6/0.8 ($214.5M) + B 40/4/4/0.8 ($199.8M); revenue $1061.9M from BT=C6parmix. T(1587) and BB(797) worthless.\n\nLessons: C3/C4/C5 T-splits never pay. B-trim to 34/3.5/3.5 failed: BT purity <95%. BT>=95% is the hard constraint. Side draw on feed destroyed revenue. Revert free.\n\n2 solves left (48 used). Now testing feed dp 0.8->0.4 (warmer condenser, cheaper) with B fixed. If BT stays >=95% and cost drops, keep; else revert. Final solve reserved for a small refinement or unchanged revert.",
+ "task": "hc16v3_dev_002"
+}

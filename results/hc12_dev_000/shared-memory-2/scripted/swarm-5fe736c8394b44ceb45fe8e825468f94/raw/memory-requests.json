@@ -1,0 +1,398 @@
+[
+  {
+    "method": "PUT",
+    "path": "audiences/swarm-5fe736c8394b44ceb45fe8e825468f94",
+    "usd": null,
+    "usd_label": "unknown",
+    "request_id": "req_yekaa6jq7e26",
+    "ok": true,
+    "seconds": 1.6047176669817418
+  },
+  {
+    "method": "POST",
+    "path": "ingest",
+    "usd": null,
+    "usd_label": "unknown",
+    "request_id": "req_bikjkbrkxmfd",
+    "ok": true,
+    "seconds": 1.3570835408754647
+  },
+  {
+    "method": "POST",
+    "path": "ingest",
+    "usd": null,
+    "usd_label": "unknown",
+    "request_id": "req_nlwfbbircol6",
+    "ok": true,
+    "seconds": 0.7453702080529183
+  },
+  {
+    "method": "GET",
+    "path": "ingest/76086bc5-5ea3-4c63-a92a-65a5c45715c5",
+    "usd": null,
+    "usd_label": "unknown",
+    "request_id": "req_ml3chsl3hkdw",
+    "ok": true,
+    "seconds": 0.8474253329914063
+  },
+  {
+    "method": "GET",
+    "path": "ingest/76086bc5-5ea3-4c63-a92a-65a5c45715c5",
+    "usd": null,
+    "usd_label": "unknown",
+    "request_id": "req_miviwgudgjhb",
+    "ok": true,
+    "seconds": 0.812416291097179
+  },
+  {
+    "method": "GET",
+    "path": "ingest/76086bc5-5ea3-4c63-a92a-65a5c45715c5",
+    "usd": null,
+    "usd_label": "unknown",
+    "request_id": "req_pr4synlmlqtu",
+    "ok": true,
+    "seconds": 0.9113094580825418
+  },
+  {
+    "method": "GET",
+    "path": "ingest/76086bc5-5ea3-4c63-a92a-65a5c45715c5",
+    "usd": null,
+    "usd_label": "unknown",
+    "request_id": "req_iu7e6yumqfpf",
+    "ok": true,
+    "seconds": 0.40420404192991555
+  },
+  {
+    "method": "GET",
+    "path": "ingest/76086bc5-5ea3-4c63-a92a-65a5c45715c5",
+    "usd": null,
+    "usd_label": "unknown",
+    "request_id": "req_sq6ijye4r6bo",
+    "ok": true,
+    "seconds": 0.5129616670310497
+  },
+  {
+    "method": "GET",
+    "path": "ingest/76086bc5-5ea3-4c63-a92a-65a5c45715c5",
+    "usd": null,
+    "usd_label": "unknown",
+    "request_id": "req_xzflf7iqmrcz",
+    "ok": true,
+    "seconds": 0.42852950002998114
+  },
+  {
+    "method": "GET",
+    "path": "ingest/76086bc5-5ea3-4c63-a92a-65a5c45715c5",
+    "usd": null,
+    "usd_label": "unknown",
+    "request_id": "req_clwwwou3bo5f",
+    "ok": true,
+    "seconds": 0.41664166701957583
+  },
+  {
+    "method": "GET",
+    "path": "ingest/7155d0a8-8e19-4222-9bf3-ce1590be2d52",
+    "usd": null,
+    "usd_label": "unknown",
+    "request_id": "req_2uo6tjm34djs",
+    "ok": true,
+    "seconds": 0.5534324159380049
+  },
+  {
+    "method": "GET",
+    "path": "ingest/7155d0a8-8e19-4222-9bf3-ce1590be2d52",
+    "usd": null,
+    "usd_label": "unknown",
+    "request_id": "req_oucg4kucbidp",
+    "ok": true,
+    "seconds": 0.45131129189394414
+  },
+  {
+    "method": "GET",
+    "path": "ingest/7155d0a8-8e19-4222-9bf3-ce1590be2d52",
+    "usd": null,
+    "usd_label": "unknown",
+    "request_id": "req_k5ewckbt2zfu",
+    "ok": true,
+    "seconds": 0.3703501250129193
+  },
+  {
+    "method": "GET",
+    "path": "ingest/7155d0a8-8e19-4222-9bf3-ce1590be2d52",
+    "usd": null,
+    "usd_label": "unknown",
+    "request_id": "req_xiedyta6yb3w",
+    "ok": true,
+    "seconds": 0.39252162515185773
+  },
+  {
+    "method": "GET",
+    "path": "ingest/7155d0a8-8e19-4222-9bf3-ce1590be2d52",
+    "usd": null,
+    "usd_label": "unknown",
+    "request_id": "req_ifglexaqqri4",
+    "ok": true,
+    "seconds": 0.4469419168308377
+  },
+  {
+    "method": "GET",
+    "path": "ingest/7155d0a8-8e19-4222-9bf3-ce1590be2d52",
+    "usd": null,
+    "usd_label": "unknown",
+    "request_id": "req_344oam2ljeti",
+    "ok": true,
+    "seconds": 0.42302166600711644
+  },
+  {
+    "method": "GET",
+    "path": "ingest/7155d0a8-8e19-4222-9bf3-ce1590be2d52",
+    "usd": null,
+    "usd_label": "unknown",
+    "request_id": "req_ndadme7jvgyt",
+    "ok": true,
+    "seconds": 0.408933375030756
+  },
+  {
+    "method": "GET",
+    "path": "ingest/7155d0a8-8e19-4222-9bf3-ce1590be2d52",
+    "usd": null,
+    "usd_label": "unknown",
+    "request_id": "req_5sdpjhs76fdf",
+    "ok": true,
+    "seconds": 0.4906884580850601
+  },
+  {
+    "method": "GET",
+    "path": "ingest/7155d0a8-8e19-4222-9bf3-ce1590be2d52",
+    "usd": null,
+    "usd_label": "unknown",
+    "request_id": "req_lc7hxbvpwibx",
+    "ok": true,
+    "seconds": 0.8019614999648184
+  },
+  {
+    "method": "GET",
+    "path": "ingest/7155d0a8-8e19-4222-9bf3-ce1590be2d52",
+    "usd": null,
+    "usd_label": "unknown",
+    "request_id": "req_ck6pac673q6o",
+    "ok": true,
+    "seconds": 0.59259849996306
+  },
+  {
+    "method": "GET",
+    "path": "ingest/7155d0a8-8e19-4222-9bf3-ce1590be2d52",
+    "usd": null,
+    "usd_label": "unknown",
+    "request_id": "req_ry75pdr6vlic",
+    "ok": true,
+    "seconds": 0.5021474589593709
+  },
+  {
+    "method": "POST",
+    "path": "recall",
+    "usd": null,
+    "usd_label": "unknown",
+    "request_id": "req_gaigz7u4ex2q",
+    "ok": true,
+    "seconds": 0.9277718330267817
+  },
+  {
+    "method": "POST",
+    "path": "recall",
+    "usd": null,
+    "usd_label": "unknown",
+    "request_id": "req_mrpxxujxldtp",
+    "ok": true,
+    "seconds": 1.0999083330389112
+  },
+  {
+    "method": "POST",
+    "path": "ingest",
+    "usd": null,
+    "usd_label": "unknown",
+    "request_id": "req_actcbaujo6ue",
+    "ok": true,
+    "seconds": 0.6615925419609994
+  },
+  {
+    "method": "POST",
+    "path": "ingest",
+    "usd": null,
+    "usd_label": "unknown",
+    "request_id": "req_gpqm35ksx6bm",
+    "ok": true,
+    "seconds": 0.6502171249594539
+  },
+  {
+    "method": "GET",
+    "path": "ingest/7d14ee4c-5aa0-4063-8f0f-374bd62f8f4c",
+    "usd": null,
+    "usd_label": "unknown",
+    "request_id": "req_h4ls2j6r6gx3",
+    "ok": true,
+    "seconds": 0.5985610829666257
+  },
+  {
+    "method": "GET",
+    "path": "ingest/7d14ee4c-5aa0-4063-8f0f-374bd62f8f4c",
+    "usd": null,
+    "usd_label": "unknown",
+    "request_id": "req_76qhdkk4xvek",
+    "ok": true,
+    "seconds": 1.435651000123471
+  },
+  {
+    "method": "GET",
+    "path": "ingest/7d14ee4c-5aa0-4063-8f0f-374bd62f8f4c",
+    "usd": null,
+    "usd_label": "unknown",
+    "request_id": "req_xdtpe335aip5",
+    "ok": true,
+    "seconds": 0.4320573750883341
+  },
+  {
+    "method": "GET",
+    "path": "ingest/7d14ee4c-5aa0-4063-8f0f-374bd62f8f4c",
+    "usd": null,
+    "usd_label": "unknown",
+    "request_id": "req_g3zgbuvio4v2",
+    "ok": true,
+    "seconds": 0.46067574992775917
+  },
+  {
+    "method": "GET",
+    "path": "ingest/7d14ee4c-5aa0-4063-8f0f-374bd62f8f4c",
+    "usd": null,
+    "usd_label": "unknown",
+    "request_id": "req_j7hcb7egk4vc",
+    "ok": true,
+    "seconds": 0.5204922081902623
+  },
+  {
+    "method": "GET",
+    "path": "ingest/7d14ee4c-5aa0-4063-8f0f-374bd62f8f4c",
+    "usd": null,
+    "usd_label": "unknown",
+    "request_id": "req_r6xa3bbgiruq",
+    "ok": true,
+    "seconds": 0.5988926249556243
+  },
+  {
+    "method": "GET",
+    "path": "ingest/7d14ee4c-5aa0-4063-8f0f-374bd62f8f4c",
+    "usd": null,
+    "usd_label": "unknown",
+    "request_id": "req_kihuo5duwjd6",
+    "ok": true,
+    "seconds": 0.5681266658939421
+  },
+  {
+    "method": "GET",
+    "path": "ingest/7d14ee4c-5aa0-4063-8f0f-374bd62f8f4c",
+    "usd": null,
+    "usd_label": "unknown",
+    "request_id": "req_7dj3jz6zufyo",
+    "ok": true,
+    "seconds": 0.5166715839877725
+  },
+  {
+    "method": "GET",
+    "path": "ingest/7d14ee4c-5aa0-4063-8f0f-374bd62f8f4c",
+    "usd": null,
+    "usd_label": "unknown",
+    "request_id": "req_iezk47de2oa3",
+    "ok": true,
+    "seconds": 0.45974558405578136
+  },
+  {
+    "method": "GET",
+    "path": "ingest/92ed81b9-1c9b-4e5f-b19f-96de53d2792f",
+    "usd": null,
+    "usd_label": "unknown",
+    "request_id": "req_orlrcb3ay34z",
+    "ok": true,
+    "seconds": 0.48518283292651176
+  },
+  {
+    "method": "GET",
+    "path": "ingest/92ed81b9-1c9b-4e5f-b19f-96de53d2792f",
+    "usd": null,
+    "usd_label": "unknown",
+    "request_id": "req_6ftt3dzsyt72",
+    "ok": true,
+    "seconds": 0.48764299997128546
+  },
+  {
+    "method": "GET",
+    "path": "ingest/92ed81b9-1c9b-4e5f-b19f-96de53d2792f",
+    "usd": null,
+    "usd_label": "unknown",
+    "request_id": "req_jkg27xqojsut",
+    "ok": true,
+    "seconds": 0.47113212500698864
+  },
+  {
+    "method": "GET",
+    "path": "ingest/92ed81b9-1c9b-4e5f-b19f-96de53d2792f",
+    "usd": null,
+    "usd_label": "unknown",
+    "request_id": "req_xeoaoj6vrhsl",
+    "ok": true,
+    "seconds": 0.5140628749504685
+  },
+  {
+    "method": "GET",
+    "path": "ingest/92ed81b9-1c9b-4e5f-b19f-96de53d2792f",
+    "usd": null,
+    "usd_label": "unknown",
+    "request_id": "req_7bhapzol2xun",
+    "ok": true,
+    "seconds": 0.4643034168984741
+  },
+  {
+    "method": "GET",
+    "path": "ingest/92ed81b9-1c9b-4e5f-b19f-96de53d2792f",
+    "usd": null,
+    "usd_label": "unknown",
+    "request_id": "req_rvmctlbefwri",
+    "ok": true,
+    "seconds": 0.5022325410973281
+  },
+  {
+    "method": "GET",
+    "path": "ingest/92ed81b9-1c9b-4e5f-b19f-96de53d2792f",
+    "usd": null,
+    "usd_label": "unknown",
+    "request_id": "req_htiov7zactzh",
+    "ok": true,
+    "seconds": 0.4436646669637412
+  },
+  {
+    "method": "GET",
+    "path": "ingest/92ed81b9-1c9b-4e5f-b19f-96de53d2792f",
+    "usd": null,
+    "usd_label": "unknown",
+    "request_id": "req_t5jnbdr6kxue",
+    "ok": true,
+    "seconds": 0.47760462504811585
+  },
+  {
+    "method": "POST",
+    "path": "recall",
+    "usd": null,
+    "usd_label": "unknown",
+    "request_id": "req_rgemrphnbucl",
+    "ok": true,
+    "seconds": 1.5380398749839514
+  },
+  {
+    "method": "POST",
+    "path": "recall",
+    "usd": null,
+    "usd_label": "unknown",
+    "request_id": "req_dy54ed7xzso6",
+    "ok": true,
+    "seconds": 1.320321291917935
+  }
+]

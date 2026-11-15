@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-managed-f226c55c",
+ "agent_id": "agent-4",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 38,
+ "failed_requests": 0,
+ "input_tokens": 165422,
+ "output_tokens": 37193,
+ "usd_estimated_total": 0.09425819999999999,
+ "requests_with_unknown_cost": 0,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 5543.915197849274,
+ "status": "stopped",
+ "island": 4,
+ "strategy": null,
+ "best_valid_reward": 0.0,
+ "solves_used": 14,
+ "first_positive_at_solves": null,
+ "usd_cached_price_estimate": 0.07027356,
+ "notebook": "Costs: 5st/ref0.5=$61M, 15st/ref1.5=$143M, 30st/ref6=$342M, 40st/ref8=$412M. Cost scales with stages, reflux AND feed flow (diameter): col1 45/5/3300mol/s=$274M but col2 50/6/2146mol/s=$194M. dp=0.1 non-converges; use dp=0.0.\n\nREVENUE (85% blend, $M/yr): C2 4, C3mix73, C4mix186, C5mix618, C6par1180, C6nap396, nC7 332, nC8 359, nC9 104. Total ~3250 if all sharp.\n\nKEY bp gaps (K): iC5 301|nC5 309.2 || DMB 322.9 |2MP 333.4|3MP 336.4|nC6 341.9|MCP 345.0|CH 353.9 || nC7 371.6|nC8 398.8|nC9 424.0. C5/C6 gap 13.7K good. nC6/MCP only 3.1K (hard C6par/nap split). CH/nC7 17.7K good.\n\nStrategy: split at big gaps into blends (C4mix, C5mix, C6par, C6nap) + pure nC7/nC8/nC9. Now calibrating low-reflux cost curve.",
+ "task": "hc16v3_dev_002"
+}

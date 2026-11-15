@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-90279e64",
+ "agent_id": "agent-9",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 109,
+ "failed_requests": 3,
+ "input_tokens": 597942,
+ "output_tokens": 104032,
+ "usd_estimated_total": 0.30422099999999996,
+ "requests_with_unknown_cost": 3,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 5064.820341348648,
+ "status": "budget_exhausted",
+ "island": 4,
+ "strategy": null,
+ "best_valid_reward": 0.0,
+ "solves_used": 50,
+ "first_positive_at_solves": null,
+ "usd_cached_price_estimate": 0.23254356000000004,
+ "notebook": "Final turn, 50/50 solves used. FLOOR = 0.000 (empty design, always valid; scoring keeps my best valid design, so a failed probe cannot hurt me).\n\nEconomics learned:\n- Revenue $/s = mol/s x price; x2.88e7 s/yr (8000 h).\n- Big pure-stream prizes: n-pentane $439M/yr, 2-methylpentane $389M, n-octane $359M, 3-methylpentane $343M, n-hexane $332M, n-heptane $332M, cyclohexane $323M, C5 mix ~$619M (needs >=95% iso+n-pentane).\n- Column cost is brutal: 10st/0.5 reflux ~ $60.8M/yr; 80st/10 reflux ~ $411M/yr. So a single well-separated pure cut can pay, but most splits are net-negative.\n\nWhy nothing worked (mine + agent-8): 16-component smear; adjacent pairs are very close (3-methylpentane 336.4 vs n-hexane 341.9 vs methylcyclopentane 345.0). Single shells even at 80st/reflux 10 with mid liquid side draw gave tops 39% n-butane, draw 42% n-pentane, bottoms 17% 2-methylpentane - nowhere near 95%. Multi-column cascades also net-negative (each shell adds ~$60-400M/yr).\n\nCheapest light split with a LARGE bp gap: ethane (184.6) vs propylene (225.4) = 41 K, but ethane is only 34 mol/s = $4M/yr, can't cover a column. C4 mix (iso+n-butane 544 mol/s, ~$186M/yr) needs lights removed first (3 columns) and ethane contaminates the C3 mix.\n\nDecision: last solve spent on one converged 40-stage baseline probe; empty design remains my answer. Finish.",
+ "task": "hc16v3_dev_002"
+}

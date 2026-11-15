@@ -1,0 +1,21 @@
+{
+  "run_id": "sol-200-20261114",
+  "agent_id": "agent-0",
+  "provider": "openai",
+  "model": "gpt-6.1-sol",
+  "requests": 208,
+  "failed_requests": 0,
+  "input_tokens": 1526784,
+  "output_tokens": 34637,
+  "usd_estimated_total": 0.0,
+  "requests_with_unknown_cost": 208,
+  "price_source": "team model config, USD per million tokens, 2026-11-14",
+  "wall_s": 1184.8740799427032,
+  "status": "budget_exhausted",
+  "turns": 208,
+  "best_valid_reward": 3.1704521959921195,
+  "solves_used": 200,
+  "max_usd_cap": null,
+  "task": "hc12_dev_000",
+  "seed": 0
+}

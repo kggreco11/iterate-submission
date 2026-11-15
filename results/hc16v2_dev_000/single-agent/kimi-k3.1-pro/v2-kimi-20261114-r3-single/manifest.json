@@ -1,0 +1,16 @@
+{
+  "schema": "report-bundle-v1",
+  "run_id": "v2-kimi-20261114-r3-single",
+  "task": "hc16v2_dev_000",
+  "model": "kimi-k3.1-pro",
+  "condition": "single-agent",
+  "status": "complete",
+  "stop_reason": "budget_exhausted",
+  "report": "index.html",
+  "evidence": "report-data.json; full raw simulator logs may remain on the execution host",
+  "sha256": {
+    "index.html": "92df2d1d9af802de8add48d77933eb992ea0fac01e27abbb4b6b042f57696cba",
+    "report-data.json": "5ab3832de2370a1603b47187bcc64438f4ee39435fd011f644b02332a099974f",
+    "summary.json": "ae23506e28a9ed352e4c3adebeaae45ea36c4f5425abced8341033b7f026b8c3"
+  }
+}

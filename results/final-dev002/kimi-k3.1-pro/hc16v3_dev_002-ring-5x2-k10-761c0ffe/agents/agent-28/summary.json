@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-761c0ffe",
+ "agent_id": "agent-28",
+ "provider": "modal",
+ "model": "kimi-k3.1-pro",
+ "requests": 29,
+ "failed_requests": 0,
+ "input_tokens": 314930,
+ "output_tokens": 25558,
+ "usd_estimated_total": 0.88544,
+ "requests_with_unknown_cost": 0,
+ "price_source": "https://modal.com/docs/guide/supported-models; 2026-11-14; uncached estimate",
+ "wall_s": 3608.6384558677673,
+ "status": "budget_exhausted",
+ "island": 5,
+ "strategy": null,
+ "best_valid_reward": 3.8659927367711795,
+ "solves_used": 50,
+ "first_positive_at_solves": 13,
+ "usd_cached_price_estimate": 0.7588352,
+ "notebook": "PLAN: Final solve: retain the proven 3.866 backbone and trim only BBTT from 160 to 140 stages at 25/20/dp0.9. Its overhead is comfortably above the 95% C6-paraffin blend threshold (about 98%), so modest stage reduction may preserve all revenue while lowering capital. Best valid design remains protected if this fails.\nBBTT at 200/30/30/0.9 costs $70.3M/yr; 160/25/20/0.9 costs $51.9M/yr and retains the $132.5M/yr overhead. Bottoms remain unsellable even under extreme separation. Other tested changes (TTB premium upgrade, BBTT naphthene recovery, terminal polishers) did not improve net reward. No further solves remain after this trial.",
+ "task": "hc16v3_dev_002"
+}

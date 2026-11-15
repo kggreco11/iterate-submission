@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-independent-3631e4b1",
+ "agent_id": "agent-1",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 113,
+ "failed_requests": 3,
+ "input_tokens": 494754,
+ "output_tokens": 107039,
+ "usd_estimated_total": 0.2768729999999999,
+ "requests_with_unknown_cost": 3,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 5076.089738845825,
+ "status": "finished",
+ "island": 1,
+ "strategy": null,
+ "best_valid_reward": 0.0,
+ "solves_used": 49,
+ "first_positive_at_solves": null,
+ "usd_cached_price_estimate": 0.20291459999999992,
+ "notebook": "Budget 50, using solve 49 with one tall column + liquid side draw. Goal: tops (stage 1) = C5-and-lighter, side draw (stage 30) = C6 paraffin blend (2,2DMB+2MP+3MP+nC6 ~970 mol/s, blend value ~1147 M$/yr at 85% of members' mean), bottoms = C7+ (n-heptane/n-octane/n-nonane ~500 mol/s). Prior single columns cost 100-320 M$/yr, so if the blend cut qualifies (>=95% of the four C6 paraffins) revenue should beat cost by a wide margin. Empty plant = 0 is my floor; this gamble costs nothing. If invalid or negative, finish with the empty design.",
+ "task": "hc16v3_dev_002"
+}

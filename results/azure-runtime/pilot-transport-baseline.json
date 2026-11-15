@@ -1,0 +1,9 @@
+{
+  "source": "runs/luna-pilot-20261114T211810Z/trajectory.jsonl (read-only, completed pilot)",
+  "submissions": 33,
+  "round_trip_sum_s": 1078.1839394120034,
+  "round_trip_mean_s": 32.67224058824252,
+  "evaluation_sum_s": 15.582976400001826,
+  "overhead_mean_s": 32.200029182181865,
+  "notes": "Round trip includes evaluation; overhead is the difference. Policy differs from scripted runtime validation, so this is not an outcome comparison."
+}

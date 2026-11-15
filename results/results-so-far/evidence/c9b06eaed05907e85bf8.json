@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-761c0ffe",
+ "agent_id": "agent-15",
+ "provider": "modal",
+ "model": "kimi-k3.1-pro",
+ "requests": 29,
+ "failed_requests": 0,
+ "input_tokens": 205561,
+ "output_tokens": 22611,
+ "usd_estimated_total": 0.637232,
+ "requests_with_unknown_cost": 0,
+ "price_source": "https://modal.com/docs/guide/supported-models; 2026-11-14; uncached estimate",
+ "wall_s": 3608.6326286792755,
+ "status": "budget_exhausted",
+ "island": 3,
+ "strategy": null,
+ "best_valid_reward": 2.069677812290844,
+ "solves_used": 50,
+ "first_positive_at_solves": 8,
+ "usd_cached_price_estimate": 0.5056736000000001,
+ "notebook": "PLAN: Bank the proven 2.093 plant and use the remaining budget on one final capital trim of the dominant C6 column, provided its blend specification holds.\nR1178 improves monotonically on root reflux 5.75 and 5.8: root 5.7 gives 2.093. B88 is proven safe; test B87 only, since one local solve fits the four-solve budget. B reflux/boil below 9 and T boil-up below 7 are known failure cliffs. Heavy-end recovery did not pay.",
+ "task": "hc16v3_dev_002"
+}

@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-761c0ffe",
+ "agent_id": "agent-48",
+ "provider": "modal",
+ "model": "kimi-k3.1-pro",
+ "requests": 41,
+ "failed_requests": 4,
+ "input_tokens": 231930,
+ "output_tokens": 31243,
+ "usd_estimated_total": 0.7762899999999999,
+ "requests_with_unknown_cost": 3,
+ "price_source": "https://modal.com/docs/guide/supported-models; 2026-11-14; uncached estimate",
+ "wall_s": 3608.6514637470245,
+ "status": "budget_exhausted",
+ "island": 9,
+ "strategy": null,
+ "best_valid_reward": 1.3072211982246889,
+ "solves_used": 50,
+ "first_positive_at_solves": 12,
+ "usd_cached_price_estimate": 0.6074067999999999,
+ "notebook": "PLAN: Use the final solve on the economically indicated asymmetric heavy-column adjustment, then retain the best valid result. Root 55/4.75/6/.3 remains fixed. Heavy 70/5.20/5.20/.8 gives 1.307; balanced reductions below 5.20 fail purity. Cutting boil-up alone to 5.0 stayed sellable but lost $11.6M revenue while saving only $4.4M cost, yielding 1.291. Thus boil-up has a strongly positive marginal value near the optimum. Final probe: retain proven reflux 5.20 and raise boil-up to 5.40, expecting extra C6 recovery worth more than the added duty. If it does not beat 1.307, revert to the proven design.",
+ "task": "hc16v3_dev_002"
+}

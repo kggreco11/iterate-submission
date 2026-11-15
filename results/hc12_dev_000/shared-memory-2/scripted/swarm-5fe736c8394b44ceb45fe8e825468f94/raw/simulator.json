@@ -1,0 +1,32 @@
+[
+  {
+    "cache_hit": false,
+    "backend_call": true,
+    "queue_s": 3.3387914299964905e-07,
+    "solver_s": 0.00042587495408952236
+  },
+  {
+    "cache_hit": true,
+    "backend_call": false,
+    "queue_s": 7.909256964921951e-07,
+    "solver_s": 3.38749960064888e-05
+  },
+  {
+    "cache_hit": true,
+    "backend_call": false,
+    "queue_s": 1.333886757493019e-06,
+    "solver_s": 4.537496715784073e-05
+  },
+  {
+    "cache_hit": false,
+    "backend_call": true,
+    "queue_s": 2.919696271419525e-07,
+    "solver_s": 0.0008203329052776098
+  },
+  {
+    "cache_hit": false,
+    "backend_call": true,
+    "queue_s": 2.2079329937696457e-06,
+    "solver_s": 0.0010643750429153442
+  }
+]

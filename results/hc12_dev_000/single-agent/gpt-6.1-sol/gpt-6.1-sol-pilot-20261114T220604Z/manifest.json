@@ -1,0 +1,14 @@
+{
+  "run_id": "gpt-6.1-sol-pilot-20261114T220604Z",
+  "task": "hc12_dev_000",
+  "condition": "single-agent",
+  "model": "gpt-6.1-sol",
+  "status": "finished",
+  "schema": "report-bundle-v1",
+  "report": "index.html",
+  "evidence": "Legacy self-contained HTML and summary; no standardized report-data payload available",
+  "sha256": {
+    "index.html": "43aba93949b89ed140a12962b76299728a9fad917b1966679440bfa2fb1359be",
+    "summary.json": "599d28a3107bbe10abbac14566e0b3310e23c1da3585d592e8f5844b8af82261"
+  }
+}

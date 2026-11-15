@@ -1,0 +1,524 @@
+[
+ {
+  "task": "hc12_dev_000",
+  "columns": 16,
+  "scenarios": {
+   "base": {
+    "base_net_usd": 3270008376.262638,
+    "revenue_usd": 3551038769.721625,
+    "cost_usd": 281030393.4589867,
+    "reward": 4.235386984061482,
+    "columns_not_paying_for_themselves": 0,
+    "gain_from_pruning_usd": 0.0,
+    "columns_after_pruning": 16
+   },
+   "energy only": {
+    "base_net_usd": 3281047921.9004188,
+    "revenue_usd": 3551038769.721625,
+    "cost_usd": 269990847.82120615,
+    "reward": 4.249685647099663,
+    "columns_not_paying_for_themselves": 0,
+    "gain_from_pruning_usd": 0.0,
+    "columns_after_pruning": 16
+   },
+   "capital only": {
+    "base_net_usd": 3539999224.083844,
+    "revenue_usd": 3551038769.721625,
+    "cost_usd": 11039545.637780506,
+    "reward": 4.585085086053688,
+    "columns_not_paying_for_themselves": 0,
+    "gain_from_pruning_usd": 0.0,
+    "columns_after_pruning": 16
+   },
+   "energy x2": {
+    "base_net_usd": 3000017528.441432,
+    "revenue_usd": 3551038769.721625,
+    "cost_usd": 551021241.2801929,
+    "reward": 3.885688882069276,
+    "columns_not_paying_for_themselves": 0,
+    "gain_from_pruning_usd": 0.0,
+    "columns_after_pruning": 16
+   },
+   "capital x2": {
+    "base_net_usd": 3258968830.624858,
+    "revenue_usd": 3551038769.721625,
+    "cost_usd": 292069939.0967672,
+    "reward": 4.221088321023301,
+    "columns_not_paying_for_themselves": 0,
+    "gain_from_pruning_usd": 0.0,
+    "columns_after_pruning": 16
+   },
+   "both x2": {
+    "base_net_usd": 2988977982.8036513,
+    "revenue_usd": 3551038769.721625,
+    "cost_usd": 562060786.9179734,
+    "reward": 3.8713902190310945,
+    "columns_not_paying_for_themselves": 0,
+    "gain_from_pruning_usd": 0.0,
+    "columns_after_pruning": 16
+   },
+   "both x3": {
+    "base_net_usd": 2707947589.344665,
+    "revenue_usd": 3551038769.721625,
+    "cost_usd": 843091180.3769598,
+    "reward": 3.507393454000708,
+    "columns_not_paying_for_themselves": 0,
+    "gain_from_pruning_usd": 0.0,
+    "columns_after_pruning": 16
+   },
+   "both x5": {
+    "base_net_usd": 2145886802.4266915,
+    "revenue_usd": 3551038769.721625,
+    "cost_usd": 1405151967.2949333,
+    "reward": 2.7793999239399336,
+    "columns_not_paying_for_themselves": 0,
+    "gain_from_pruning_usd": 0.0,
+    "columns_after_pruning": 16
+   },
+   "both x10": {
+    "base_net_usd": 740734835.1317582,
+    "revenue_usd": 3551038769.721625,
+    "cost_usd": 2810303934.5898666,
+    "reward": 0.959416098787998,
+    "columns_not_paying_for_themselves": 0,
+    "gain_from_pruning_usd": 0.0,
+    "columns_after_pruning": 16
+   },
+   "both x20": {
+    "base_net_usd": -2069569099.4581084,
+    "revenue_usd": 3551038769.721625,
+    "cost_usd": 5620607869.179733,
+    "reward": -2.680551551515873,
+    "columns_not_paying_for_themselves": 7,
+    "gain_from_pruning_usd": 2069569099.4581084,
+    "columns_after_pruning": 0
+   }
+  },
+  "premium": {
+   "value_share_at_ge_99": 0.29697198229049193,
+   "value_share_at_ge_995": 0.29697198229049193,
+   "purity_quartiles": [
+    0.9516740078294288,
+    0.9571762469934466,
+    0.9774960999189346,
+    0.9985605896041938,
+    0.9999990393990558
+   ],
+   "products": 15
+  },
+  "groups": {
+   "qualifying_unsold_streams": [
+    {
+     "stream": "BTTTTT",
+     "group": "C5 mix",
+     "flow_mol_s": 9.381794,
+     "value_musd": 8.94617825064488
+    },
+    {
+     "stream": "BTBTB",
+     "group": "C6 mix",
+     "flow_mol_s": 11.853663,
+     "value_musd": 15.823005209705514
+    }
+   ],
+   "total_value_musd": 24.769183460350394,
+   "unsold_impure_streams": 2
+  }
+ },
+ {
+  "task": "hc12_dev_001",
+  "columns": 15,
+  "scenarios": {
+   "base": {
+    "base_net_usd": 2610540419.234945,
+    "revenue_usd": 2880827402.2837806,
+    "cost_usd": 270286983.04883593,
+    "reward": 4.746881482734964,
+    "columns_not_paying_for_themselves": 0,
+    "gain_from_pruning_usd": 0.0,
+    "columns_after_pruning": 15
+   },
+   "energy only": {
+    "base_net_usd": 2621027786.506709,
+    "revenue_usd": 2880827402.2837806,
+    "cost_usd": 259799615.7770717,
+    "reward": 4.765951208351228,
+    "columns_not_paying_for_themselves": 0,
+    "gain_from_pruning_usd": 0.0,
+    "columns_after_pruning": 15
+   },
+   "capital only": {
+    "base_net_usd": 2870340035.0120163,
+    "revenue_usd": 2880827402.2837806,
+    "cost_usd": 10487367.271764226,
+    "reward": 5.21928864267285,
+    "columns_not_paying_for_themselves": 0,
+    "gain_from_pruning_usd": 0.0,
+    "columns_after_pruning": 15
+   },
+   "energy x2": {
+    "base_net_usd": 2350740803.457873,
+    "revenue_usd": 2880827402.2837806,
+    "cost_usd": 530086598.8259077,
+    "reward": 4.274474322797077,
+    "columns_not_paying_for_themselves": 0,
+    "gain_from_pruning_usd": 0.0,
+    "columns_after_pruning": 15
+   },
+   "capital x2": {
+    "base_net_usd": 2600053051.9631805,
+    "revenue_usd": 2880827402.2837806,
+    "cost_usd": 280774350.3206002,
+    "reward": 4.727811757118699,
+    "columns_not_paying_for_themselves": 0,
+    "gain_from_pruning_usd": 0.0,
+    "columns_after_pruning": 15
+   },
+   "both x2": {
+    "base_net_usd": 2340253436.1861086,
+    "revenue_usd": 2880827402.2837806,
+    "cost_usd": 540573966.0976719,
+    "reward": 4.255404597180813,
+    "columns_not_paying_for_themselves": 0,
+    "gain_from_pruning_usd": 0.0,
+    "columns_after_pruning": 15
+   },
+   "both x3": {
+    "base_net_usd": 2069966453.1372728,
+    "revenue_usd": 2880827402.2837806,
+    "cost_usd": 810860949.1465079,
+    "reward": 3.763927711626662,
+    "columns_not_paying_for_themselves": 0,
+    "gain_from_pruning_usd": 0.0,
+    "columns_after_pruning": 15
+   },
+   "both x5": {
+    "base_net_usd": 1529392487.039601,
+    "revenue_usd": 2880827402.2837806,
+    "cost_usd": 1351434915.2441795,
+    "reward": 2.78097394051836,
+    "columns_not_paying_for_themselves": 0,
+    "gain_from_pruning_usd": 0.0,
+    "columns_after_pruning": 15
+   },
+   "both x10": {
+    "base_net_usd": 177957571.7954216,
+    "revenue_usd": 2880827402.2837806,
+    "cost_usd": 2702869830.488359,
+    "reward": 0.32358951274760517,
+    "columns_not_paying_for_themselves": 4,
+    "gain_from_pruning_usd": 124746051.10115026,
+    "columns_after_pruning": 8
+   },
+   "both x20": {
+    "base_net_usd": -2524912258.6929374,
+    "revenue_usd": 2880827402.2837806,
+    "cost_usd": 5405739660.976718,
+    "reward": -4.591179342793904,
+    "columns_not_paying_for_themselves": 9,
+    "gain_from_pruning_usd": 2524912258.692937,
+    "columns_after_pruning": 0
+   }
+  },
+  "premium": {
+   "value_share_at_ge_99": 0.42499319344554204,
+   "value_share_at_ge_995": 0.18410677541775905,
+   "purity_quartiles": [
+    0.9527650105887677,
+    0.9710325560338119,
+    0.981993959490613,
+    0.9922593106541376,
+    1.0
+   ],
+   "products": 11
+  },
+  "groups": {
+   "qualifying_unsold_streams": [
+    {
+     "stream": "BTBBB",
+     "group": "C6 mix",
+     "flow_mol_s": 54.647143,
+     "value_musd": 72.9624650617626
+    },
+    {
+     "stream": "BBTTT",
+     "group": "C6 mix",
+     "flow_mol_s": 54.936549,
+     "value_musd": 73.3488672413544
+    },
+    {
+     "stream": "BBTBB",
+     "group": "C6 mix",
+     "flow_mol_s": 125.45359399999998,
+     "value_musd": 167.5001283982504
+    }
+   ],
+   "total_value_musd": 313.8114607013674,
+   "unsold_impure_streams": 5
+  }
+ },
+ {
+  "task": "hc12_dev_002",
+  "columns": 13,
+  "scenarios": {
+   "base": {
+    "base_net_usd": 2595874007.467254,
+    "revenue_usd": 2901577443.2873344,
+    "cost_usd": 305703435.8200802,
+    "reward": 3.375774735612426,
+    "columns_not_paying_for_themselves": 1,
+    "gain_from_pruning_usd": 3164035.6633221763,
+    "columns_after_pruning": 12
+   },
+   "energy only": {
+    "base_net_usd": 2611278209.4106483,
+    "revenue_usd": 2901577443.2873344,
+    "cost_usd": 290299233.8766863,
+    "reward": 3.395806954276813,
+    "columns_not_paying_for_themselves": 1,
+    "gain_from_pruning_usd": 2950001.8621706124,
+    "columns_after_pruning": 12
+   },
+   "capital only": {
+    "base_net_usd": 2886173241.3439403,
+    "revenue_usd": 2901577443.2873344,
+    "cost_usd": 15404201.943393951,
+    "reward": 3.7532910621635414,
+    "columns_not_paying_for_themselves": 1,
+    "gain_from_pruning_usd": 214033.80115122223,
+    "columns_after_pruning": 12
+   },
+   "energy x2": {
+    "base_net_usd": 2305574773.590568,
+    "revenue_usd": 2901577443.2873344,
+    "cost_usd": 596002669.6967665,
+    "reward": 2.998258409061311,
+    "columns_not_paying_for_themselves": 1,
+    "gain_from_pruning_usd": 6114037.525492788,
+    "columns_after_pruning": 12
+   },
+   "capital x2": {
+    "base_net_usd": 2580469805.5238605,
+    "revenue_usd": 2901577443.2873344,
+    "cost_usd": 321107637.76347417,
+    "reward": 3.35574251694804,
+    "columns_not_paying_for_themselves": 1,
+    "gain_from_pruning_usd": 3378069.4644727153,
+    "columns_after_pruning": 12
+   },
+   "both x2": {
+    "base_net_usd": 2290170571.647174,
+    "revenue_usd": 2901577443.2873344,
+    "cost_usd": 611406871.6401604,
+    "reward": 2.9782261903969243,
+    "columns_not_paying_for_themselves": 1,
+    "gain_from_pruning_usd": 6328071.326644011,
+    "columns_after_pruning": 12
+   },
+   "both x3": {
+    "base_net_usd": 1984467135.8270938,
+    "revenue_usd": 2901577443.2873344,
+    "cost_usd": 917110307.4602406,
+    "reward": 2.5806776451814226,
+    "columns_not_paying_for_themselves": 1,
+    "gain_from_pruning_usd": 9492106.989965504,
+    "columns_after_pruning": 12
+   },
+   "both x5": {
+    "base_net_usd": 1373060264.1869333,
+    "revenue_usd": 2901577443.2873344,
+    "cost_usd": 1528517179.1004012,
+    "reward": 1.7855805547504189,
+    "columns_not_paying_for_themselves": 1,
+    "gain_from_pruning_usd": 15820178.316609174,
+    "columns_after_pruning": 12
+   },
+   "both x10": {
+    "base_net_usd": -155456914.91346788,
+    "revenue_usd": 2901577443.2873344,
+    "cost_usd": 3057034358.2008023,
+    "reward": -0.20216217132709027,
+    "columns_not_paying_for_themselves": 6,
+    "gain_from_pruning_usd": 155456914.91346788,
+    "columns_after_pruning": 0
+   },
+   "both x20": {
+    "base_net_usd": -3212491273.11427,
+    "revenue_usd": 2901577443.2873344,
+    "cost_usd": 6114068716.401605,
+    "reward": -4.177647623482109,
+    "columns_not_paying_for_themselves": 7,
+    "gain_from_pruning_usd": 3212491273.1142707,
+    "columns_after_pruning": 0
+   }
+  },
+  "premium": {
+   "value_share_at_ge_99": 0.4191732614263306,
+   "value_share_at_ge_995": 0.4191732614263306,
+   "purity_quartiles": [
+    0.9500572545309813,
+    0.9545117478856731,
+    0.9726340160233967,
+    0.9994089677279232,
+    0.9999965480016608
+   ],
+   "products": 9
+  },
+  "groups": {
+   "qualifying_unsold_streams": [
+    {
+     "stream": "TBTTB",
+     "group": "C6 mix",
+     "flow_mol_s": 56.845881,
+     "value_musd": 73.25312523448464
+    },
+    {
+     "stream": "TBBT",
+     "group": "C6 mix",
+     "flow_mol_s": 442.892535,
+     "value_musd": 570.7231862898452
+    }
+   ],
+   "total_value_musd": 643.9763115243298,
+   "unsold_impure_streams": 5
+  }
+ },
+ {
+  "task": "hc12_dev_003",
+  "columns": 16,
+  "scenarios": {
+   "base": {
+    "base_net_usd": 2581543973.586249,
+    "revenue_usd": 2840118863.573576,
+    "cost_usd": 258574889.98732716,
+    "reward": 3.345414250805145,
+    "columns_not_paying_for_themselves": 0,
+    "gain_from_pruning_usd": 0.0,
+    "columns_after_pruning": 16
+   },
+   "energy only": {
+    "base_net_usd": 2594226004.455265,
+    "revenue_usd": 2840118863.573576,
+    "cost_usd": 245892859.11831117,
+    "reward": 3.361848852435974,
+    "columns_not_paying_for_themselves": 0,
+    "gain_from_pruning_usd": 0.0,
+    "columns_after_pruning": 16
+   },
+   "capital only": {
+    "base_net_usd": 2827436832.70456,
+    "revenue_usd": 2840118863.573576,
+    "cost_usd": 12682030.869015966,
+    "reward": 3.664065989254076,
+    "columns_not_paying_for_themselves": 0,
+    "gain_from_pruning_usd": 0.0,
+    "columns_after_pruning": 16
+   },
+   "energy x2": {
+    "base_net_usd": 2335651114.4679375,
+    "revenue_usd": 2840118863.573576,
+    "cost_usd": 504467749.1056384,
+    "reward": 3.026762512356213,
+    "columns_not_paying_for_themselves": 0,
+    "gain_from_pruning_usd": 0.0,
+    "columns_after_pruning": 16
+   },
+   "capital x2": {
+    "base_net_usd": 2568861942.7172327,
+    "revenue_usd": 2840118863.573576,
+    "cost_usd": 271256920.85634315,
+    "reward": 3.3289796491743155,
+    "columns_not_paying_for_themselves": 0,
+    "gain_from_pruning_usd": 0.0,
+    "columns_after_pruning": 16
+   },
+   "both x2": {
+    "base_net_usd": 2322969083.598922,
+    "revenue_usd": 2840118863.573576,
+    "cost_usd": 517149779.9746543,
+    "reward": 3.0103279107253846,
+    "columns_not_paying_for_themselves": 0,
+    "gain_from_pruning_usd": 0.0,
+    "columns_after_pruning": 16
+   },
+   "both x3": {
+    "base_net_usd": 2064394193.6115944,
+    "revenue_usd": 2840118863.573576,
+    "cost_usd": 775724669.9619815,
+    "reward": 2.6752415706456247,
+    "columns_not_paying_for_themselves": 0,
+    "gain_from_pruning_usd": 0.0,
+    "columns_after_pruning": 16
+   },
+   "both x5": {
+    "base_net_usd": 1547244413.63694,
+    "revenue_usd": 2840118863.573576,
+    "cost_usd": 1292874449.936636,
+    "reward": 2.0050688904861045,
+    "columns_not_paying_for_themselves": 0,
+    "gain_from_pruning_usd": 0.0,
+    "columns_after_pruning": 16
+   },
+   "both x10": {
+    "base_net_usd": 254369963.70030403,
+    "revenue_usd": 2840118863.573576,
+    "cost_usd": 2585748899.873272,
+    "reward": 0.329637190087304,
+    "columns_not_paying_for_themselves": 4,
+    "gain_from_pruning_usd": 214664662.20813894,
+    "columns_after_pruning": 9
+   },
+   "both x20": {
+    "base_net_usd": -2331378936.172968,
+    "revenue_usd": 2840118863.573576,
+    "cost_usd": 5171497799.746544,
+    "reward": -3.0212262107102967,
+    "columns_not_paying_for_themselves": 9,
+    "gain_from_pruning_usd": 2331378936.172968,
+    "columns_after_pruning": 0
+   }
+  },
+  "premium": {
+   "value_share_at_ge_99": 0.5658491394473258,
+   "value_share_at_ge_995": 0.1861035520601432,
+   "purity_quartiles": [
+    0.9626532976355435,
+    0.9820653216111291,
+    0.9892693393078693,
+    0.9944515955624438,
+    0.9991429040184886
+   ],
+   "products": 10
+  },
+  "groups": {
+   "qualifying_unsold_streams": [
+    {
+     "stream": "TBTB",
+     "group": "C4 mix",
+     "flow_mol_s": 40.155699,
+     "value_musd": 12.753320822257747
+    },
+    {
+     "stream": "BTBBB",
+     "group": "C6 mix",
+     "flow_mol_s": 16.873916,
+     "value_musd": 19.928845124880233
+    },
+    {
+     "stream": "BBTBTT",
+     "group": "C6 mix",
+     "flow_mol_s": 45.938519,
+     "value_musd": 54.25543367747994
+    },
+    {
+     "stream": "BBTBB",
+     "group": "C6 mix",
+     "flow_mol_s": 321.71969,
+     "value_musd": 379.9652597319128
+    }
+   ],
+   "total_value_musd": 466.9028593565307,
+   "unsold_impure_streams": 7
+  }
+ }
+]

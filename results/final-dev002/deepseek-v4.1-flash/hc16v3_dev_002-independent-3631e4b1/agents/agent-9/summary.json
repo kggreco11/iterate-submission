@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-independent-3631e4b1",
+ "agent_id": "agent-9",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 92,
+ "failed_requests": 3,
+ "input_tokens": 403595,
+ "output_tokens": 89045,
+ "usd_estimated_total": 0.22793250000000007,
+ "requests_with_unknown_cost": 3,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 5076.082773208618,
+ "status": "budget_exhausted",
+ "island": 9,
+ "strategy": null,
+ "best_valid_reward": 0.0,
+ "solves_used": 50,
+ "first_positive_at_solves": null,
+ "usd_cached_price_estimate": 0.16786721999999998,
+ "notebook": "Turn 45, 49/50 solves. Best valid = 0.000 (empty). Current 2-col design = -0.572.\n\nECONOMICS: rev = flow*price*2.88e7 $/yr. Blends: C6parmix ~1146, C5mix 618, C6naphmix 397 M$/yr. Each column ~100-250 M$/yr. Blending is the money: C5mix needs only 2 sharp columns (~50% margin).\n\nKEY LESSON: prev gentle settings (root 22st/R2.0, child 24st/R2.5) converge but are too loose to reach 95% purity on any outlet, so revenue=0. Need much sharper splits (more stages AND reflux).\n\nLAST SOLVE: root 45st/R4/reboil3, child B 50st/R5/reboil4, dp 0.1. Targeting root = C4-/C5+ then child = C5mix overhead. No downside vs 0.000 (best-valid fallback is empty). If it converges profitable, great; else finish at 0.000.",
+ "task": "hc16v3_dev_002"
+}

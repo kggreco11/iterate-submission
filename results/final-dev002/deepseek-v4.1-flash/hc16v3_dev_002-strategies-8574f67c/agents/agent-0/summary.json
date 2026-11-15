@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-strategies-8574f67c",
+ "agent_id": "agent-0",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 95,
+ "failed_requests": 3,
+ "input_tokens": 536723,
+ "output_tokens": 95900,
+ "usd_estimated_total": 0.27609690000000003,
+ "requests_with_unknown_cost": 3,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 4851.577512264252,
+ "status": "budget_exhausted",
+ "island": 0,
+ "strategy": "Side draws: look for middle cuts (for example blends) that a side draw can deliver from one column instead of two.",
+ "best_valid_reward": 0.0,
+ "solves_used": 50,
+ "first_positive_at_solves": null,
+ "usd_cached_price_estimate": 0.21361242000000003,
+ "notebook": "STATUS: 49 solves used, 1 left. Best valid 0.000 (empty).\n\nECON: value = flow*price*28.8 $M/yr. Blend prizes: C6paraffin $1183M, C5mix $618M, C6naphthene $396M, C7 $332M, C4mix $186M, C3mix $73M. Column cost is huge: ~$237M for 45st/R4, $425M for 85st/R12 (likely worse with high reflux). Every plant seen (mine + island) has revenue $0 with $200-800M costs.\n\nWHY: 95% purity/blend is very hard. C6-paraffin needs a 3.1K cut (nC6 341.9 / MCP 345.0) - infeasible; and a 13.7K top cut. C5mix cut is 13.7K (nC5 309.2 / 2,2-DMB 322.9). C4/C5 gap 28.3K is easy but C4mix=$186M and C5mix=$618M. Best single-column prize if a blend can be isolated: C5mix top (~$618M vs col cost). This build: col1 22st R6 feed->C4-/C5+ ; col2 45st R10 makes C5mix top.\n\nPLAN: if revenue>cost and reward>0, keep; else revert to empty and finish 0.0.",
+ "task": "hc16v3_dev_002"
+}

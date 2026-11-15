@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-independent-683a1314",
+ "agent_id": "agent-9",
+ "provider": "modal",
+ "model": "kimi-k3.1-pro",
+ "requests": 34,
+ "failed_requests": 3,
+ "input_tokens": 119059,
+ "output_tokens": 22366,
+ "usd_estimated_total": 0.4617780000000001,
+ "requests_with_unknown_cost": 3,
+ "price_source": "https://modal.com/docs/guide/supported-models; 2026-11-14; uncached estimate",
+ "wall_s": 1935.9022617340088,
+ "status": "budget_exhausted",
+ "island": 9,
+ "strategy": null,
+ "best_valid_reward": 1.0244673349958962,
+ "solves_used": 50,
+ "first_positive_at_solves": 20,
+ "usd_cached_price_estimate": 0.342546,
+ "notebook": "PLAN: Preserve the 1.024 four-column plant and use the final three solves on isolated, reversible energy reductions; C6 recovery is abandoned. Results: root45/B50 scored 1.015; B reflux4.5 collapsed C5 purity. Stage trims give at most about 1.023 and T40 leaves reward unchanged. Best remains root50/3/1.58/0.4, B60/6/1.75/0.4, T40/4/2.5/0.3, TT35/3/1.1/0.4. Now test root reflux2.7 only: its light/heavy blend cuts have purity headroom, and this targets the largest column's energy cost without changing stages or cut-setting boil-up.",
+ "task": "hc16v3_dev_002"
+}

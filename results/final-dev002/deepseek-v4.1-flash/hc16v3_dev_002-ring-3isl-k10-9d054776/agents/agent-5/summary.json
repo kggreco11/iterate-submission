@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-3isl-k10-9d054776",
+ "agent_id": "agent-5",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 62,
+ "failed_requests": 2,
+ "input_tokens": 362289,
+ "output_tokens": 65368,
+ "usd_estimated_total": 0.1871283,
+ "requests_with_unknown_cost": 0,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 4928.488793134689,
+ "status": "finished",
+ "island": 1,
+ "strategy": null,
+ "best_valid_reward": 0.0,
+ "solves_used": 40,
+ "first_positive_at_solves": null,
+ "usd_cached_price_estimate": 0.14524158000000004,
+ "notebook": "Reward=(rev-cost)/439; revenue=flow*price*2.88e7. Empty=0.000. Full perfect separation revenue cap = $3611M/yr. But every column costs $150-370M/yr and full separation needs ~15 columns => cost ~$3-4B >> revenue. So over-separating is fatal. Blends are the key lever: C4mix $186M(144mol/s), C5mix ~$618M(695), C6par $1182M(970), C6naph $396M(269) if 95% pure, no separation of members needed. My 4-column cascade got revenue $292M (one C5mix) vs cost $1045M => -1.717. LESSON: cost scales with stages*reflux; the feed column at 40/5 costs $294M alone. UGLY TRUTH: 95% purity needs very sharp cuts; moderate columns leak too much (agent-4 30/3 -> BT only 46% C5). Remaining 10 solves: try ONE configuration that sacrifices completeness for cheapness - a single small column capturing the biggest easy blend, then finish. Note 95% blend purity is likely unreachable in one cheap column, so realistically best score may be ~0. Guard remaining solves.",
+ "task": "hc16v3_dev_002"
+}

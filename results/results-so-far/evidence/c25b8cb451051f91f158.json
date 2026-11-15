@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-other-family-ec12d65d",
+ "agent_id": "agent-6",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 103,
+ "failed_requests": 4,
+ "input_tokens": 566900,
+ "output_tokens": 99562,
+ "usd_estimated_total": 0.28954440000000004,
+ "requests_with_unknown_cost": 3,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 4948.907271385193,
+ "status": "finished",
+ "island": 0,
+ "strategy": null,
+ "best_valid_reward": 0.0,
+ "solves_used": 47,
+ "first_positive_at_solves": null,
+ "usd_cached_price_estimate": 0.22346567999999992,
+ "notebook": "Solves 47/50 (revert_free). Reality across all 10 families: every column costs $90-170M/yr; shallow cascades (agent-9 R442: 2 cols $698M/yr cost, agent-7 R441: 2 cols $454M/yr) give $0 revenue because no stream reaches 95% purity -> all rewards negative (-1.0 to -1.6). Positive reward requires either (a) a long train to isolate one component at 95-99%, or (b) a single column with a side draw to grab a middle blend cut (C5 mix ~$618M/yr, C4 mix ~$186M/yr) plus pure top/bottom. Both need many columns; with 3 solves left and every column ~$100-170M/yr, any thin cascade yields non-qualifying streams and negative reward. Best valid = empty design at 0.000, which is what counts as my final score. Decision: lock in empty design, finish. Lesson for the team: the economics only close with a deep, well-converged train; probe splits carefully before committing columns.",
+ "task": "hc16v3_dev_002"
+}

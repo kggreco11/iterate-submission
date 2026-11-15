@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-cull-2433e454",
+ "agent_id": "agent-7",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 20,
+ "failed_requests": 0,
+ "input_tokens": 86428,
+ "output_tokens": 19784,
+ "usd_estimated_total": 0.0496692,
+ "requests_with_unknown_cost": 0,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 5423.076327085495,
+ "status": "culled",
+ "island": 7,
+ "strategy": null,
+ "best_valid_reward": 0.0,
+ "solves_used": 8,
+ "first_positive_at_solves": null,
+ "usd_cached_price_estimate": 0.036674639999999994,
+ "notebook": "Turn 10. Costs are brutal: 25st R2 ~$147M, 30st R1.5=$122M, 40st R3=$195M, 45st R4=$245M per column. Every column must earn >~$120M/yr to break even. Revenue target ~$2000M+, so cost must stay under ~$600-800M => only ~4-6 cheap columns affordable.\n\nFeed value math (factor = 28.8 $M per mol/s per $/mol): total pure value if all 16 separated = ~$3615M (divisor 439).\nGroups: C2 34 ($4M nuisance), C3 mix 286 (~$73M), C4 mix 544 (~$186M), C5 mix 695 (~$619M), C6 paraffin mix 970 (~$550M), C6 naphthene mix 269 (~$180M), n-C7 205 (~$92M), n-C8 233 (~$100M), n-C9 62 (~$29M).\nSo the big money is C5 (~$619M) and C6 (~$730M combined). Even 4-5 columns can capture ~$1500M if cuts are sharp enough to hit 95%.\n\nPlan: rebuild a MINIMAL, cheap, correctly-configured train: (1) root cuts light C2/C3/C4 overhead vs C5+ bottoms cheaply; measure. Keep stages/reflux low, dp 0.1. Use blends where they qualify to avoid extra columns. Avoid overspending solves; each config change costs 1 solve per distinct column.",
+ "task": "hc16v3_dev_002"
+}

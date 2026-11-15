@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-78e50fff",
+ "agent_id": "agent-41",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 82,
+ "failed_requests": 0,
+ "input_tokens": 488301,
+ "output_tokens": 86506,
+ "usd_estimated_total": 0.25029749999999995,
+ "requests_with_unknown_cost": 0,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 5634.438136577606,
+ "status": "budget_exhausted",
+ "island": 8,
+ "strategy": null,
+ "best_valid_reward": 1.3129897659571985,
+ "solves_used": 50,
+ "first_positive_at_solves": 50,
+ "usd_cached_price_estimate": 0.19707509999999995,
+ "notebook": "t41: 46 solves used, 4 left. Best valid=0.\n\nKEY: R1816/R1819/R1818 = copy of R1457 (reward 2.068, 7 cols, rev $1556M, cost $650M). I can't copy (needs 6 new col solves, have 4).\n\nPlan: highest-value 4-column subset of the proven recipe. Keep my feed col ('' 40/1.6/1.6/0.6, free, same as theirs). Re-set 'B' 45/3.5/3.0/0.5, add 'T' 45/3.0/2.5/0.3, 'TB' 60/5.5/4.5/0.1, 'BT' 50/4.0/3.5/0.1 = 4 solves. Products: TBB C5 mix ($375M), TBT nC4 ($119M), BTB C6par mix ($646M); TT & BTT unsold. Revenue ~$1140M, cost ~$564M -> reward ~1.3.\n\nExpected streams (from R1457): TT 535 mol/s C3/C4 (unsold); TB 769 -> TBT nC4 96% sellable, TBB C5 mix; BT 960 -> BTB C6par mix 550 mol/s sellable, BTT 409 mol/s C5/C6 (unsold).\n\nIf valid, remaining 3 solves: extend below BTT to catch BTTT C5 mix ($156M) and BTTB -> BTTBT nC5 ($92M)/BTTBB C6par ($168M). Each column costs $30-90M so those pay.\n\nEconomics learned: C6par mix $646M for 550 mol/s (~$1.17/mol-s-yr), C5 mix ~$0.86, nC4 ~$0.36. Columns $30-170M/yr each. Blend cuts are the money.",
+ "task": "hc16v3_dev_002"
+}

@@ -1,0 +1,150 @@
+{
+  "compiled_at": "2026-11-15T11:21:22-08:00",
+  "primary_checkout": "/path/to/repository",
+  "implementation_worktree": "tracked sources recovered at Git 7c0d5087b2d7d4ad6e30103274042a3d8dfea69e; selected ignored observations transcribed",
+  "sources": [
+    {
+      "source": "/path/to/repository/results/hc16v2_dev_000/single-agent/claude-opus-5-5/hc16v2_dev_000_anthropic_claude-opus-5-5_s0_ab9fe8/summary.json",
+      "snapshot": "evidence/hc16v2_dev_000_anthropic_claude-opus-5-5_s0_ab9fe8-summary.json",
+      "sha256": "b4f984cb251bdc81a01e98625afd9dadad24b23419b2e5c03a28a1d83e9900d3"
+    },
+    {
+      "source": "/path/to/repository/results/hc16v2_dev_000/single-agent/kimi-k3.1-pro/v2-kimi-20261114-r3-single/summary.json",
+      "snapshot": "evidence/v2-kimi-20261114-r3-single-summary.json",
+      "sha256": "ae23506e28a9ed352e4c3adebeaae45ea36c4f5425abced8341033b7f026b8c3"
+    },
+    {
+      "source": "/path/to/repository/results/hc16v2_dev_001/single-agent/claude-opus-5-5/hc16v2_dev_001_anthropic_claude-opus-5-5_s0_78f86c/summary.json",
+      "snapshot": "evidence/hc16v2_dev_001_anthropic_claude-opus-5-5_s0_78f86c-summary.json",
+      "sha256": "a6b6d40765a2338a16d242feb20d4c2b34dc0bbbf5f120023bf05918fff7f2d4"
+    },
+    {
+      "source": "/path/to/repository/results/hc16v2_dev_002/single-agent/claude-opus-5-5/hc16v2_dev_002_anthropic_claude-opus-5-5_s0_cc9fc9/summary.json",
+      "snapshot": "evidence/hc16v2_dev_002_anthropic_claude-opus-5-5_s0_cc9fc9-summary.json",
+      "sha256": "cae5a51893ec8cfc230ec12c713abf08b6a5b139cc608bc4c2e92eed5d1130cb"
+    },
+    {
+      "source": "/path/to/repository/results/hc16v2_dev_003/single-agent/claude-opus-5-5/hc16v2_dev_003_anthropic_claude-opus-5-5_s0_19f2a3/summary.json",
+      "snapshot": "evidence/hc16v2_dev_003_anthropic_claude-opus-5-5_s0_19f2a3-summary.json",
+      "sha256": "358c2053e29b44910b05bc3e24baa2de8c8b81baa239818d56c6b02dde2b661b"
+    },
+    {
+      "source": "/path/to/repository/results/experimental-history-20261115/evidence/source-snapshot/results/hc16v3_dev_000/single-agent/claude-opus-5-5/hc16v3_dev_000_anthropic_claude-opus-5-5_s0_ea02f9/summary.json",
+      "snapshot": "evidence/hc16v3_dev_000_anthropic_claude-opus-5-5_s0_ea02f9-summary.json",
+      "sha256": "0fa2b070ad95e8c111a2d34b43ba39d3f9170a5c7d4b79fed32d0d54c9b42dc9"
+    },
+    {
+      "source": "/path/to/repository/results/experimental-history-20261115/evidence/source-snapshot/results/hc16v3_dev_001/single-agent/claude-opus-5-5/hc16v3_dev_001_anthropic_claude-opus-5-5_s0_3413a2/summary.json",
+      "snapshot": "evidence/hc16v3_dev_001_anthropic_claude-opus-5-5_s0_3413a2-summary.json",
+      "sha256": "c6d0b0f5d7921356127cbc24e5b2135e4b43d65a6020e902b4946ae5442bd1ba"
+    },
+    {
+      "source": "/path/to/repository/results/experimental-history-20261115/evidence/source-snapshot/results/hc16v3_dev_002/single-agent/claude-opus-5-5/hc16v3_dev_002_anthropic_claude-opus-5-5_s0_49f7ac/summary.json",
+      "snapshot": "evidence/hc16v3_dev_002_anthropic_claude-opus-5-5_s0_49f7ac-summary.json",
+      "sha256": "65f62cbceea6dc8d98e6f0342118395fb9b90342f8591024fcb6013c7c308827"
+    },
+    {
+      "source": "/path/to/repository/results/experimental-history-20261115/evidence/source-snapshot/results/hc16v3_dev_003/single-agent/claude-opus-5-5/hc16v3_dev_003_anthropic_claude-opus-5-5_s0_2f665d/summary.json",
+      "snapshot": "evidence/hc16v3_dev_003_anthropic_claude-opus-5-5_s0_2f665d-summary.json",
+      "sha256": "11909416275625bca05ca646f8a1d81616f3661b78a2c53b8720b4c41f3608d9"
+    },
+    {
+      "source": "/path/to/repository/results/hc12_dev_000/single-agent/gpt-6-luna/luna-pilot-20261114T211810Z/summary.json",
+      "snapshot": "evidence/luna-pilot-20261114T211810Z-summary.json",
+      "sha256": "c9639c8c0417967deb296287dfeab9a513d3a21524d7f354945ca7d17cf8fa94"
+    },
+    {
+      "source": "/path/to/repository/results/hc12_dev_000/single-agent/gpt-6.1-sol/gpt-6.1-sol-pilot-20261114T220604Z/summary.json",
+      "snapshot": "evidence/gpt-6.1-sol-pilot-20261114T220604Z-summary.json",
+      "sha256": "599d28a3107bbe10abbac14566e0b3310e23c1da3585d592e8f5844b8af82261"
+    },
+    {
+      "source": "/path/to/repository/results/hc12_dev_000/single-agent/gpt-6.1-sol/sol-200-20261114/summary.json",
+      "snapshot": "evidence/sol-200-20261114-summary.json",
+      "sha256": "7b412f837029d298e110cf472c68d513009f5a908af4b2a7aff90d66facb872b"
+    },
+    {
+      "source": "/path/to/repository/results/hc16v2_dev_000/shared-memory-5/kimi-k3.1-pro/swarm-a1b45716fe3444679f33125db48b89b7/summary.json",
+      "snapshot": "evidence/swarm-a1b45716fe3444679f33125db48b89b7-summary.json",
+      "sha256": "7043dc0af29aeb62ef3d1dcfd454926dbb8be3d332bf6d7cf38281dca38abad7"
+    },
+    {
+      "source": "/path/to/repository/results/experimental-history-20261115/evidence/source-snapshot/runs/v3-campaign-launch/snapshot.json",
+      "snapshot": "evidence/v3-100-campaign-snapshot.json",
+      "sha256": "5fcb43ef071d37b22031e5bae800e8f991d10877be186de8ec1edb029c959c8a"
+    },
+    {
+      "source": "/path/to/repository/results/hc16v3_dev_000/comparison/kimi-k3.1-pro/v3-400-analysis/metrics.csv",
+      "snapshot": "evidence/v3-400-metrics.csv",
+      "sha256": "e7dd83bdfe2ce9230d7354f081f593dedc28e84df93533da083532d753210f53"
+    },
+    {
+      "source": "/path/to/repository/results/experimental-history-20261115/evidence/source-snapshot/runs/v3-independent-400-prep/snapshot.json",
+      "snapshot": "evidence/independent-snapshot.json",
+      "sha256": "aeb105b77479bb0f620f555c3831f68def641868f4e40da389b5646ba9a61e53"
+    },
+    {
+      "source": "/path/to/repository/results/experimental-history-20261115/evidence/source-snapshot/runs/v3-independent-400-prep/controller.json",
+      "snapshot": "evidence/independent-controller.json",
+      "sha256": "fa1680bb1e3de39505f419a17c97801b0bc8cdf30159abe269c65883ad70616d"
+    },
+    {
+      "source": "/path/to/repository/results/experimental-history-20261115/evidence/source-snapshot/runs/v3-screening-400-prep/plan.json",
+      "snapshot": "evidence/next-campaign-plan.json",
+      "sha256": "ae4ccf02581a79e0e52b0525a48c845791681d9ac94d16181d7dac7703e82be7"
+    },
+    {
+      "source": "/path/to/repository/results/experimental-history-20261115/evidence/source-snapshot/runs/v3-screening-400-prep/validation.json",
+      "snapshot": "evidence/next-campaign-offline-validation.json",
+      "sha256": "05a1ef7cf533f96ddfef95e9802488394d2dace62051b7cfc2d6cc7d7b2cd665"
+    },
+    {
+      "source": "/path/to/repository/results/experimental-history-20261115/evidence/source-snapshot/runs/v3-campaign-launch/plan.json",
+      "snapshot": "evidence/v3-100-plan.json",
+      "sha256": "28867245ab16dc07866be6815cdfbada6a5b8f40bd3dbe9fee8ee0da157e6c4d"
+    },
+    {
+      "source": "/path/to/repository/results/experimental-history-20261115/evidence/source-snapshot/docs/EVALUATION_2026-11-14.md",
+      "snapshot": "evidence/historical-evaluation.md",
+      "sha256": "714acae1dc52622a84f643b3ccdfcd38be71682c0954b44e00f7b99145e29ea2"
+    },
+    {
+      "source": "/path/to/repository/results/experimental-history-20261115/evidence/source-snapshot/docs/TASK_V3.md",
+      "snapshot": "evidence/task-v3.md",
+      "sha256": "931419bb067c3d4c25298e4f6cf4835e05b07a940272121346d7466793fb55b5"
+    },
+    {
+      "source": "/path/to/repository/results/experimental-history-20261115/evidence/source-snapshot/results/all_results.csv",
+      "snapshot": "evidence/historical-reference-inventory.csv",
+      "sha256": "b8611f839628e9297358c6390e093c116b137892f4dbee499eaac23145393796"
+    },
+    {
+      "source": "/path/to/repository/results/experimental-history-20261115/evidence/source-snapshot/results/hc16v3-side-draw/qualification.json",
+      "snapshot": "evidence/side-draw-qualification.json",
+      "sha256": "59c47cc5989f76c76c767b38b968480a3d46c779c4b1b1162023eddbb47c59f4"
+    },
+    {
+      "source": "/path/to/repository/results/experimental-history-20261115/evidence/source-snapshot/results/hc16v3-first-look/polish_check.json",
+      "snapshot": "evidence/v3-polish.json",
+      "sha256": "f1c819b78b39cb8f7b373ec8f7057e0971fb912e12ef02539a3e3762e57dc7c9"
+    },
+    {
+      "source": "/path/to/repository/results/experimental-history-20261115/evidence/source-snapshot/results/hc16v3-first-look/polish_v2plants_at_v3.json",
+      "snapshot": "evidence/v2-plants-at-v3-polish.json",
+      "sha256": "ec30ff49592ec7e8b3710d8d9a94feaa16eb649acb86889ad59de67d9880d0c8"
+    },
+    {
+      "source": "/path/to/repository/workplan.md",
+      "snapshot": "evidence/historical-workplan.md",
+      "sha256": "e3ea21f47f006d00d186e88e552bb9e453d9ede9f21e94a05bc93b232000df62"
+    },
+    {
+      "source": "/path/to/repository/docs/SWARM_MEMORY_AUDIT.md",
+      "snapshot": "evidence/v2-forensic-audit.md",
+      "sha256": "085782c15ef57e5a2ff8a8fef19b280d8a2408e61b25d9120e39e43d6e520329"
+    }
+  ],
+  "policy": "Main inventory includes completed plant-design model experiments only. Setup checks, failed/interrupted attempts, running control, and future campaign excluded. Historical evidence snapshots may retain excluded records for audit.",
+  "implementation_worktree_original": "/path/to/experiment-worktree",
+  "publication_note": "Identifying text and paths were removed for publication. File hashes describe the published copies; experiment measurements are unchanged."
+}

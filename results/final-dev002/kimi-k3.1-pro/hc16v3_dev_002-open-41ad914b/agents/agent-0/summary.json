@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-open-41ad914b",
+ "agent_id": "agent-0",
+ "provider": "modal",
+ "model": "kimi-k3.1-pro",
+ "requests": 30,
+ "failed_requests": 0,
+ "input_tokens": 236581,
+ "output_tokens": 20678,
+ "usd_estimated_total": 0.6799419999999999,
+ "requests_with_unknown_cost": 0,
+ "price_source": "https://modal.com/docs/guide/supported-models; 2026-11-14; uncached estimate",
+ "wall_s": 1959.307799577713,
+ "status": "budget_exhausted",
+ "island": 0,
+ "strategy": null,
+ "best_valid_reward": 2.9358197132701482,
+ "solves_used": 50,
+ "first_positive_at_solves": 21,
+ "usd_cached_price_estimate": 0.5503420000000001,
+ "notebook": "PLAN: Bank R279 as the final design, then stop. R279 improves the proven plant by lowering TT boil-up from 1.4 to 1.3: revenue rises by $0.9M/yr and TT cost falls by $0.2M/yr relative to R265, giving reward 2.939. BB dp 0.40 was slightly worse than 0.35, so pressure tuning has saturated. TT at 40 stages adds no separation benefit, and lowering B reflux causes convergence failure. Preserve R279 exactly; all five columns are converged and its C3, C4, C5, and C6-paraffin blends are sellable.",
+ "task": "hc16v3_dev_002"
+}

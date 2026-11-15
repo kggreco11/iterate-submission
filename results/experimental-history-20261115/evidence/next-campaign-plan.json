@@ -1,0 +1,36 @@
+{
+  "provenance": "Selected fields transcribed from observed plan; access check later confirmed by preparation chat.",
+  "model_id": "deepseek-ai/DeepSeek-V4.1-Flash",
+  "protocol": "v3-deepseek-ten-corpus-screening-v1",
+  "total_budget": 12400,
+  "trials": [
+    {
+      "condition": "single_baseline",
+      "agents": 1,
+      "sharing_after": null,
+      "budget_per_agent": 400,
+      "total_budget": 400
+    },
+    {
+      "condition": "sharing_immediate",
+      "agents": 10,
+      "sharing_after": 0,
+      "budget_per_agent": 400,
+      "total_budget": 4000
+    },
+    {
+      "condition": "sharing_delay_25",
+      "agents": 10,
+      "sharing_after": 100,
+      "budget_per_agent": 400,
+      "total_budget": 4000
+    },
+    {
+      "condition": "sharing_delay_50",
+      "agents": 10,
+      "sharing_after": 200,
+      "budget_per_agent": 400,
+      "total_budget": 4000
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-other-family-ec12d65d",
+ "agent_id": "agent-0",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 147,
+ "failed_requests": 4,
+ "input_tokens": 799332,
+ "output_tokens": 144094,
+ "usd_estimated_total": 0.4127124000000001,
+ "requests_with_unknown_cost": 3,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 4949.0904903411865,
+ "status": "finished",
+ "island": 0,
+ "strategy": null,
+ "best_valid_reward": 0.0,
+ "solves_used": 48,
+ "first_positive_at_solves": null,
+ "usd_cached_price_estimate": 0.31200455999999993,
+ "notebook": "Turn 71. Solves 47/50. Best valid = 0 (empty). Every column tree I tried was net-negative: column capital+energy at this cost level runs ~$130-230M/yr while revenue only comes from 95%+ pure cuts or 95%+ blends. Total feed pure/blend value ~$3.2bn/yr but needs ~10-15 sharp columns (close-boiler pairs 2,2-DMB/2MP, MCP/cyclohexane need huge stage counts). Cuts by bp: C2(184), C3mix(225/231), C4mix(261/273), C5mix(301/309), C6par(323-342), C6nap(345/354), nC7(372), nC8(399), nC9(424).\n\nKey numbers: C5 mix 695 mol/s * 0.0309 * 2.88e7 = $619M/yr if 95% pure. N-butane pure $166M/yr. N-nonane pure $104M/yr. Capturing a blend cut via side draw is the only one-column route but side draws leak and 95% is hard.\n\nPlan: keep empty design as guaranteed valid 0. With ~3 solves left, only try if a single column can produce a 95% stream; evidence says no. Other family agent-9 also at 0.000. Do not end invalid.",
+ "task": "hc16v3_dev_002"
+}

@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-78e50fff",
+ "agent_id": "agent-10",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 79,
+ "failed_requests": 0,
+ "input_tokens": 682168,
+ "output_tokens": 81879,
+ "usd_estimated_total": 0.3029051999999999,
+ "requests_with_unknown_cost": 0,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 5634.400949716568,
+ "status": "budget_exhausted",
+ "island": 2,
+ "strategy": null,
+ "best_valid_reward": 1.3021703918578826,
+ "solves_used": 50,
+ "first_positive_at_solves": 15,
+ "usd_cached_price_estimate": 0.24836951999999998,
+ "notebook": "Turn 40. Solves 48/50. Best valid = 1.302 (mine) = island platform with B=55/3.8/3.0/0.1.\nTREND on B reflux/boil (all else fixed): 4.2/3.4 -> 1.296 (rev 1347, cost 779); 4.0/3.2 -> 1.300 (rev 1336, cost 766); 3.8/3.0 -> 1.302 (rev 1335?, cost ~751). MonotONIC improvement as B reflux drops: revenue falls ~11M but cost falls ~13M per 0.2 step => net +2M/yr = +0.005 reward. Extra reflux buys almost no extra purity here but costs energy.\nAlso learned: sharpening BTTB (130/18/14) FAILS (1.242) - reboil 10 is the sweet spot for the nC5/22DMB splitter (100/12/10). TT (C3/C4/ethane, 535 mol/s) and BB (C6-C9, 1130 mol/s) are DEAD heavy/light ends - purifying them costs more than they earn in this expensive regime (TT side draw probe 1.122; TT sharp column 0.991; BB 60-stage probe 0.897). Side draws not worth it.\nPlan with last 2 solves: now B=55/3.6/2.8. If net-positive keep, then one final B=3.4/2.6; else finish at 1.302.",
+ "task": "hc16v3_dev_002"
+}

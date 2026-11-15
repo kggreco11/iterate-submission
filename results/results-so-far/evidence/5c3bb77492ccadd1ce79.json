@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_000-solo-f9b1e6f5",
+ "agent_id": "agent-0",
+ "provider": "anthropic",
+ "model": "claude-opus-5-5",
+ "requests": 19,
+ "failed_requests": 0,
+ "input_tokens": 121331,
+ "output_tokens": 29763,
+ "usd_estimated_total": 1.080584,
+ "requests_with_unknown_cost": 0,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 329.35504388809204,
+ "status": "finished",
+ "island": 0,
+ "strategy": null,
+ "best_valid_reward": 2.1884241628997265,
+ "solves_used": 52,
+ "first_positive_at_solves": 15,
+ "usd_cached_price_estimate": 1.080584,
+ "notebook": "PLAN: 1-5 done (root C5-/C6+, T C4-/C5, B C7-/C8+, BB oct/non, TT C3/C4, BT C6/C7, BTB hept/oct, BTT C6par/MCP). 6a done T13 (C3 mix sells). 6b done T14: octane 99% premium, heptane 99% premium. 7: cost trims (on it). T15 BTT reflux 7 FAILED (BTTT <95%) -> keep BTT 110/8/10.9. T16 BT 1.7/8.3 -> 2.188 best. T17 BT 1.5/7.65 + T 1.3/2.405 -> 2.112: BTBT heptane fell to 98% (lost premium) and TTB C4 mix fell to 93% -> both trims bad, keep T16 values. T18: revert + root reflux 1.8/boil 2.747 (D held ~1482). Next: B trim (risk octane/heptane premium).\nValue unit: price*mol/s*28.8e6 $/yr. Blend values: C3 154M, C4 81M, C5 659M, C6par 836M, C6naph 328M.\nDistillate control: V_top=(R+1)D, V_bot=V_top - feed vapour; boil=V_bot/B. Feed vapour: root ~-844, T ~-120, BB ~190; BTB ~31; TT ~115; BT ~162; BTT ~ -250. Boil-up capped at 30.\nT16 best (2.188): root 50/2/2.91/0.3 cost220; T 30/1.5/2.6/0 63; B 40/2/5.4/0.5 178; BB 60/3.5/13.3/0.3 111; TT 40/2.5/9.9 52; BT 50/1.7/8.3 134; BTB 60/1.45/29.5 39; BTT 110/8/10.9 238.\nBTTB (hexane/MCP/CH/heptane) unsold - too hard to split.",
+ "task": "hc16v3_dev_000"
+}

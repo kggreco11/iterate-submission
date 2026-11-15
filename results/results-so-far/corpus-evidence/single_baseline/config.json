@@ -1,0 +1,26 @@
+{
+  "run_id": "swarm-292bd96a0f944b1083b637e2b08633fe",
+  "agents": [
+    "agent-0"
+  ],
+  "allocations": [
+    400
+  ],
+  "mode": "equal-per-agent",
+  "rounds": 800,
+  "repetition": 0,
+  "task": "hc16v3_dev_000",
+  "budget": 400,
+  "backend": "chemsep",
+  "model": "kimi-k3.1-pro",
+  "solver_retries": 0,
+  "simulator_workers": 1,
+  "memory": "NoMemory",
+  "memory_timeout_s": null,
+  "condition": "single_baseline",
+  "sharing": false,
+  "sharing_after": null,
+  "max_input_bytes": 32000,
+  "memory_blocking": false,
+  "context_protocol": "compact-v3-corpus-v1"
+}

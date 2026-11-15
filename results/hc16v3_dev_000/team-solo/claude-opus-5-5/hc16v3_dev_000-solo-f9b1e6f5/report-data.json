@@ -1,0 +1,2634 @@
+{
+  "schema": "team-report-v1",
+  "config": {
+    "run_id": "hc16v3_dev_000-solo-f9b1e6f5",
+    "config": {
+      "n": 1,
+      "budget": 200,
+      "unsold_info": true,
+      "effort": "low",
+      "think_budget": null,
+      "plan": false,
+      "think_every": null,
+      "think_when_stuck": null,
+      "cheap_effort": "none",
+      "islands": [
+        1
+      ],
+      "share_within": false,
+      "migrate_every": null,
+      "route": "ring",
+      "info": "full",
+      "copy": true,
+      "graft": true,
+      "copy_rule": null,
+      "niche_board": false,
+      "strategies": null,
+      "notebook": true,
+      "cull_every": null,
+      "supervisor_every": null,
+      "max_shown": 4,
+      "preset": "solo"
+    },
+    "task": "hc16v3_dev_000",
+    "model": "claude-opus-5-5",
+    "provider": "anthropic",
+    "seed": 0,
+    "islands": [
+      1
+    ],
+    "budgets": {
+      "agent-0": 200
+    },
+    "strategies": {},
+    "started": "2026-11-15 13:15:53",
+    "simulator_retries": "ChemSep alternative initialisations on"
+  },
+  "summary": {
+    "run_id": "hc16v3_dev_000-solo-f9b1e6f5",
+    "preset": "solo",
+    "model": "claude-opus-5-5",
+    "task": "hc16v3_dev_000",
+    "status": "all_done",
+    "wall_s": 328.2,
+    "team_best": 2.1884241628997265,
+    "team_solves": 52,
+    "best_at": {
+      "100": 2.1884241628997265,
+      "250": 2.1884241628997265,
+      "500": 2.1884241628997265,
+      "1000": 2.1884241628997265
+    },
+    "team_first_positive_at_team_solves": 15,
+    "agents_off_zero": 1,
+    "workers": 1,
+    "best_record": "R16",
+    "best_columns": 8,
+    "best_design": {
+      "": [
+        50,
+        2.0,
+        2.91,
+        0.3
+      ],
+      "T": [
+        30,
+        1.5,
+        2.6,
+        0.0
+      ],
+      "B": [
+        40,
+        2.0,
+        5.4,
+        0.5
+      ],
+      "BB": [
+        60,
+        3.5,
+        13.3,
+        0.3
+      ],
+      "TT": [
+        40,
+        2.5,
+        9.9,
+        0.0
+      ],
+      "BT": [
+        50,
+        1.7,
+        8.3,
+        0.0
+      ],
+      "BTB": [
+        60,
+        1.45,
+        29.5,
+        0.0
+      ],
+      "BTT": [
+        110,
+        8.0,
+        10.9,
+        0.0
+      ]
+    },
+    "copies": 0,
+    "grafts": 0,
+    "records": 18,
+    "distinct_structures": 11,
+    "usd_logged": 1.080584,
+    "usd_cached_price_estimate": 1.080584,
+    "requests": 19,
+    "agents": {
+      "agent-0": {
+        "status": "finished",
+        "island": 0,
+        "best_valid_reward": 2.1884241628997265,
+        "solves_used": 52,
+        "first_positive_at_solves": 15,
+        "requests": 19,
+        "usd_estimated_total": 1.080584,
+        "usd_cached_price_estimate": 1.080584
+      }
+    },
+    "config": {
+      "n": 1,
+      "budget": 200,
+      "unsold_info": true,
+      "effort": "low",
+      "think_budget": null,
+      "plan": false,
+      "think_every": null,
+      "think_when_stuck": null,
+      "cheap_effort": "none",
+      "islands": [
+        1
+      ],
+      "share_within": false,
+      "migrate_every": null,
+      "route": "ring",
+      "info": "full",
+      "copy": true,
+      "graft": true,
+      "copy_rule": null,
+      "niche_board": false,
+      "strategies": null,
+      "notebook": true,
+      "cull_every": null,
+      "supervisor_every": null,
+      "max_shown": 4,
+      "preset": "solo"
+    }
+  },
+  "board": [
+    {
+      "agent": "agent-0",
+      "island": 0,
+      "family": "agent-0",
+      "round": 1,
+      "reward": -0.20436434026373196,
+      "valid": true,
+      "design": {
+        "": [
+          30,
+          1.5,
+          2.0,
+          0.3
+        ]
+      },
+      "columns": 1,
+      "revenue": 0.0,
+      "tac": 169673209.6812477,
+      "note": "Calibrate: first column splitting C5-and-lighter from C6+.",
+      "copied": null,
+      "graft": null,
+      "shown": [],
+      "solves": 1,
+      "structure": [
+        "C3=..nC9 | nC5/2MP"
+      ],
+      "niche": "first cut nC5/2MP, 1-2 columns",
+      "view": "reward -0.204 | revenue $0.0M/yr | column cost $169.7M/yr | 1 columns | solves used 1/200\n[feed] 3300 mol/s (Propane 15%, N-pentane 13%, N-octane 13%, N-hexane 10%, N-heptane 10%, Isopentane 9%) -> column 30 stages, reflux 1.5, boil-up 2.0, dp 0.3, cost $169.7M/yr\n[T] 1309 mol/s (Propane 37%, N-pentane 22%, Isopentane 20%, N-butane 12%, Isobutane 4%, Propylene 3%) -> sold for $0.0M/yr (not pure enough: worth 0)\n[B] 1991 mol/s (N-octane 21%, N-hexane 17%, N-heptane 16%, 3-methylpentane 9%, 2-methylpentane 9%, N-pentane 7%) -> sold for $0.0M/yr (not pure enough: worth 0)",
+      "id": "R1"
+    },
+    {
+      "agent": "agent-0",
+      "island": 0,
+      "family": "agent-0",
+      "round": 2,
+      "reward": -0.4590669833079974,
+      "valid": true,
+      "design": {
+        "": [
+          40,
+          2.0,
+          3.0,
+          0.3
+        ],
+        "T": [
+          30,
+          1.5,
+          2.0,
+          0.0
+        ],
+        "B": [
+          30,
+          1.5,
+          2.0,
+          0.5
+        ]
+      },
+      "columns": 3,
+      "revenue": 0.0,
+      "tac": 381139725.335824,
+      "note": "Sharpen C5/C6 split with more boil-up; add C4-/C5 split on tops and C6/C7+ split on bottoms.",
+      "copied": null,
+      "graft": null,
+      "shown": [],
+      "solves": 4,
+      "structure": [
+        "2MP..nC9 | CH/nC7",
+        "C3=..2MP | iC4/nC4",
+        "C3=..nC9 | nC5/2MP"
+      ],
+      "niche": "first cut nC5/2MP, 3-4 columns",
+      "view": "reward -0.459 | revenue $0.0M/yr | column cost $381.1M/yr | 3 columns | solves used 4/200\n[feed] 3300 mol/s (Propane 15%, N-pentane 13%, N-octane 13%, N-hexane 10%, N-heptane 10%, Isopentane 9%) -> column 40 stages, reflux 2.0, boil-up 3.0, dp 0.3, cost $223.3M/yr\n[T] 1507 mol/s (Propane 33%, N-pentane 29%, Isopentane 20%, N-butane 10%, Isobutane 3%, Propylene 2%) -> column 30 stages, reflux 1.5, boil-up 2.0, dp 0.0, cost $56.3M/yr\n[B] 1793 mol/s (N-octane 24%, N-hexane 19%, N-heptane 18%, 3-methylpentane 10%, 2-methylpentane 10%, N-nonane 7%) -> column 30 stages, reflux 1.5, boil-up 2.0, dp 0.5, cost $101.5M/yr\n[TT] 657 mol/s (Propane 75%, N-butane 11%, Isobutane 6%, Propylene 6%, Ethane 2%, Isopentane 0%) -> sold for $0.0M/yr (not pure enough: worth 0)\n[TB] 850 mol/s (N-pentane 51%, Isopentane 35%, N-butane 9%, 2-methylpentane 2%, Isobutane 1%, 2,2-dimethylbutane 1%) -> sold for $0.0M/yr (not pure enough: worth 0)\n[BT] 1021 mol/s (N-hexane 32%, 3-methylpentane 18%, 2-methylpentane 17%, N-heptane 12%, Methylcyclopentane 12%, Cyclohexane 8%) -> sold for $0.0M/yr (not pure enough: worth 0)\n[BB] 773 mol/s (N-octane 55%, N-heptane 25%, N-nonane 16%, Cyclohexane 2%, N-hexane 1%, Methylcyclopentane 1%) -> sold for $0.0M/yr (not pure enough: worth 0)",
+      "id": "R2"
+    },
+    {
+      "agent": "agent-0",
+      "island": 0,
+      "family": "agent-0",
+      "round": 3,
+      "reward": -0.5379866740535545,
+      "valid": true,
+      "design": {
+        "": [
+          40,
+          2.0,
+          3.0,
+          0.3
+        ],
+        "T": [
+          30,
+          1.5,
+          2.6,
+          0.0
+        ],
+        "B": [
+          30,
+          1.0,
+          3.0,
+          0.5
+        ],
+        "BB": [
+          25,
+          1.5,
+          4.0,
+          0.3
+        ]
+      },
+      "columns": 4,
+      "revenue": 0.0,
+      "tac": 446662688.9730693,
+      "note": "Shift T cut to pull all C4 overhead; move B cut to C7/C8 and add BB octane/nonane split targeting pure octane.",
+      "copied": null,
+      "graft": null,
+      "shown": [],
+      "solves": 7,
+      "structure": [
+        "2MP..nC9 | nC7/nC8",
+        "C3=..2MP | nC4/iC5",
+        "C3=..nC9 | nC5/2MP",
+        "nC7..nC9 | nC8/nC9"
+      ],
+      "niche": "first cut nC5/2MP, 3-4 columns",
+      "view": "reward -0.538 | revenue $0.0M/yr | column cost $446.7M/yr | 4 columns | solves used 7/200\n[feed] 3300 mol/s (Propane 15%, N-pentane 13%, N-octane 13%, N-hexane 10%, N-heptane 10%, Isopentane 9%) -> column 40 stages, reflux 2.0, boil-up 3.0, dp 0.3, cost $223.3M/yr\n[T] 1507 mol/s (Propane 33%, N-pentane 29%, Isopentane 20%, N-butane 10%, Isobutane 3%, Propylene 2%) -> column 30 stages, reflux 1.5, boil-up 2.6, dp 0.0, cost $64.9M/yr\n[B] 1793 mol/s (N-octane 24%, N-hexane 19%, N-heptane 18%, 3-methylpentane 10%, 2-methylpentane 10%, N-nonane 7%) -> column 30 stages, reflux 1.0, boil-up 3.0, dp 0.5, cost $106.9M/yr\n[TT] 742 mol/s (Propane 66%, N-butane 19%, Isobutane 7%, Propylene 5%, Ethane 2%, Isopentane 1%) -> sold for $0.0M/yr (not pure enough: worth 0)\n[TB] 765 mol/s (N-pentane 56%, Isopentane 38%, 2-methylpentane 2%, N-butane 1%, 2,2-dimethylbutane 1%, 3-methylpentane 1%) -> sold for $0.0M/yr (not pure enough: worth 0)\n[BT] 1249 mol/s (N-hexane 27%, N-heptane 20%, 3-methylpentane 15%, 2-methylpentane 14%, Methylcyclopentane 10%, Cyclohexane 8%) -> sold for $0.0M/yr (not pure enough: worth 0)\n[BB] 544 mol/s (N-octane 65%, N-nonane 23%, N-heptane 11%, Cyclohexane 0%, N-hexane 0%, Methylcyclopentane 0%) -> column 25 stages, reflux 1.5, boil-up 4.0, dp 0.3, cost $51.5M/yr\n[BBT] 358 mol/s (N-octane 78%, N-heptane 17%, N-nonane 5%, Cyclohexane 0%, N-hexane 0%, Methylcyclopentane 0%) -> sold for $0.0M/yr (not pure enough: worth 0)\n[BBB] 187 mol/s (N-nonane 58%, N-octane 42%, N-heptane 0%, Cyclohexane 0%) -> sold for $0.0M/yr (not pure enough: worth 0)",
+      "id": "R3"
+    },
+    {
+      "agent": "agent-0",
+      "island": 0,
+      "family": "agent-0",
+      "round": 4,
+      "reward": -0.5789753236554349,
+      "valid": true,
+      "design": {
+        "": [
+          50,
+          2.0,
+          3.0,
+          0.3
+        ],
+        "T": [
+          30,
+          1.5,
+          2.6,
+          0.0
+        ],
+        "B": [
+          40,
+          1.2,
+          3.3,
+          0.5
+        ],
+        "BB": [
+          35,
+          2.5,
+          5.5,
+          0.3
+        ]
+      },
+      "columns": 4,
+      "revenue": 0.0,
+      "tac": 480693458.3796891,
+      "note": "Sharpen root C5/C6 split (more stages), B C7/C8 split, and push BB distillate toward 427 octane.",
+      "copied": null,
+      "graft": null,
+      "shown": [],
+      "solves": 11,
+      "structure": [
+        "2MP..nC9 | nC7/nC8",
+        "C3=..2MP | nC4/iC5",
+        "C3=..nC9 | nC5/2MP",
+        "nC7..nC9 | nC8/nC9"
+      ],
+      "niche": "first cut nC5/2MP, 3-4 columns",
+      "view": "reward -0.579 | revenue $0.0M/yr | column cost $480.7M/yr | 4 columns | solves used 11/200\n[feed] 3300 mol/s (Propane 15%, N-pentane 13%, N-octane 13%, N-hexane 10%, N-heptane 10%, Isopentane 9%) -> column 50 stages, reflux 2.0, boil-up 3.0, dp 0.3, cost $223.7M/yr\n[T] 1506 mol/s (Propane 33%, N-pentane 29%, Isopentane 20%, N-butane 10%, Isobutane 3%, Propylene 2%) -> column 30 stages, reflux 1.5, boil-up 2.6, dp 0.0, cost $64.9M/yr\n[B] 1794 mol/s (N-octane 24%, N-hexane 19%, N-heptane 18%, 3-methylpentane 10%, 2-methylpentane 10%, N-nonane 7%) -> column 40 stages, reflux 1.2, boil-up 3.3, dp 0.5, cost $118.5M/yr\n[TT] 741 mol/s (Propane 66%, N-butane 19%, Isobutane 7%, Propylene 5%, Ethane 2%, Isopentane 1%) -> sold for $0.0M/yr (not pure enough: worth 0)\n[TB] 765 mol/s (N-pentane 56%, Isopentane 38%, 2-methylpentane 2%, N-butane 1%, 2,2-dimethylbutane 1%, 3-methylpentane 1%) -> sold for $0.0M/yr (not pure enough: worth 0)\n[BT] 1239 mol/s (N-hexane 27%, N-heptane 22%, 3-methylpentane 15%, 2-methylpentane 14%, Methylcyclopentane 10%, Cyclohexane 8%) -> sold for $0.0M/yr (not pure enough: worth 0)\n[BB] 555 mol/s (N-octane 69%, N-nonane 23%, N-heptane 8%, Cyclohexane 0%, N-hexane 0%, Methylcyclopentane 0%) -> column 35 stages, reflux 2.5, boil-up 5.5, dp 0.3, cost $73.6M/yr\n[BBT] 359 mol/s (N-octane 87%, N-heptane 12%, N-nonane 1%, Cyclohexane 0%, N-hexane 0%, Methylcyclopentane 0%) -> sold for $0.0M/yr (not pure enough: worth 0)\n[BBB] 195 mol/s (N-nonane 63%, N-octane 37%, N-heptane 0%) -> sold for $0.0M/yr (not pure enough: worth 0)",
+      "id": "R4"
+    },
+    {
+      "agent": "agent-0",
+      "island": 0,
+      "family": "agent-0",
+      "round": 5,
+      "reward": 0.2028388731505205,
+      "valid": true,
+      "design": {
+        "": [
+          50,
+          2.0,
+          2.85,
+          0.3
+        ],
+        "T": [
+          30,
+          1.5,
+          2.6,
+          0.0
+        ],
+        "B": [
+          40,
+          1.2,
+          3.6,
+          0.5
+        ],
+        "BB": [
+          35,
+          2.5,
+          6.5,
+          0.3
+        ]
+      },
+      "columns": 4,
+      "revenue": 648874275.0362687,
+      "tac": 480467582.30718476,
+      "note": "Fix distillate rates: root D toward 1474 (cut C6 leak into C5), B D toward 1272 (push heptane out of BB), BB D toward 427.",
+      "copied": null,
+      "graft": null,
+      "shown": [],
+      "solves": 15,
+      "structure": [
+        "2MP..nC9 | nC7/nC8",
+        "C3=..nC5 | nC4/iC5",
+        "C3=..nC9 | nC5/2MP",
+        "nC7..nC9 | nC8/nC9"
+      ],
+      "niche": "first cut nC5/2MP, 3-4 columns",
+      "view": "reward 0.203 | revenue $648.9M/yr | column cost $480.5M/yr | 4 columns | solves used 15/200\n[feed] 3300 mol/s (Propane 15%, N-pentane 13%, N-octane 13%, N-hexane 10%, N-heptane 10%, Isopentane 9%) -> column 50 stages, reflux 2.0, boil-up 2.85, dp 0.3, cost $217.2M/yr\n[T] 1467 mol/s (Propane 33%, N-pentane 29%, Isopentane 20%, N-butane 10%, Isobutane 3%, Propylene 3%) -> column 30 stages, reflux 1.5, boil-up 2.6, dp 0.0, cost $62.6M/yr\n[B] 1833 mol/s (N-octane 23%, N-hexane 19%, N-heptane 17%, 3-methylpentane 10%, 2-methylpentane 10%, N-nonane 7%) -> column 40 stages, reflux 1.2, boil-up 3.6, dp 0.5, cost $124.8M/yr\n[TT] 727 mol/s (Propane 68%, N-butane 19%, Isobutane 7%, Propylene 5%, Ethane 2%, Isopentane 0%) -> sold for $0.0M/yr (not pure enough: worth 0)\n[TB] 740 mol/s (N-pentane 57%, Isopentane 40%, N-butane 2%, 2,2-dimethylbutane 0%, Isobutane 0%, 2-methylpentane 0%) -> sold for $648.9M/yr (blend: C5 mix)\n[BT] 1294 mol/s (N-hexane 26%, N-heptane 22%, 3-methylpentane 15%, 2-methylpentane 15%, Methylcyclopentane 10%, Cyclohexane 7%) -> sold for $0.0M/yr (not pure enough: worth 0)\n[BB] 539 mol/s (N-octane 71%, N-nonane 24%, N-heptane 5%, Cyclohexane 0%, N-hexane 0%, Methylcyclopentane 0%) -> column 35 stages, reflux 2.5, boil-up 6.5, dp 0.3, cost $75.8M/yr\n[BBT] 369 mol/s (N-octane 91%, N-heptane 8%, N-nonane 1%, Cyclohexane 0%, N-hexane 0%, Methylcyclopentane 0%) -> sold for $0.0M/yr (not pure enough: worth 0)\n[BBB] 170 mol/s (N-nonane 72%, N-octane 28%, N-heptane 0%) -> sold for $0.0M/yr (not pure enough: worth 0)",
+      "id": "R5"
+    },
+    {
+      "agent": "agent-0",
+      "island": 0,
+      "family": "agent-0",
+      "round": 6,
+      "reward": 1.2807887136140033,
+      "valid": true,
+      "design": {
+        "": [
+          50,
+          2.0,
+          2.85,
+          0.3
+        ],
+        "T": [
+          30,
+          1.5,
+          2.6,
+          0.0
+        ],
+        "B": [
+          40,
+          2.0,
+          5.4,
+          0.5
+        ],
+        "BB": [
+          40,
+          2.5,
+          10.0,
+          0.3
+        ]
+      },
+      "columns": 4,
+      "revenue": 1607466617.5859237,
+      "tac": 544093566.8767891,
+      "note": "Sharpen B C7/C8 split (more reflux, matched boilup) to cut heptane in octane; raise BB boilup so D\u2248427 octane, B\u2248126 nonane.",
+      "copied": null,
+      "graft": null,
+      "shown": [],
+      "solves": 17,
+      "structure": [
+        "2MP..nC9 | nC7/nC8",
+        "C3=..nC5 | nC4/iC5",
+        "C3=..nC9 | nC5/2MP",
+        "nC8..nC9 | nC8/nC9"
+      ],
+      "niche": "first cut nC5/2MP, 3-4 columns",
+      "view": "reward 1.281 | revenue $1607.5M/yr | column cost $544.1M/yr | 4 columns | solves used 17/200\n[feed] 3300 mol/s (Propane 15%, N-pentane 13%, N-octane 13%, N-hexane 10%, N-heptane 10%, Isopentane 9%) -> column 50 stages, reflux 2.0, boil-up 2.85, dp 0.3, cost $217.2M/yr\n[T] 1467 mol/s (Propane 33%, N-pentane 29%, Isopentane 20%, N-butane 10%, Isobutane 3%, Propylene 3%) -> column 30 stages, reflux 1.5, boil-up 2.6, dp 0.0, cost $62.6M/yr\n[B] 1833 mol/s (N-octane 23%, N-hexane 19%, N-heptane 17%, 3-methylpentane 10%, 2-methylpentane 10%, N-nonane 7%) -> column 40 stages, reflux 2.0, boil-up 5.4, dp 0.5, cost $179.3M/yr\n[TT] 727 mol/s (Propane 68%, N-butane 19%, Isobutane 7%, Propylene 5%, Ethane 2%, Isopentane 0%) -> sold for $0.0M/yr (not pure enough: worth 0)\n[TB] 740 mol/s (N-pentane 57%, Isopentane 40%, N-butane 2%, 2,2-dimethylbutane 0%, Isobutane 0%, 2-methylpentane 0%) -> sold for $648.9M/yr (blend: C5 mix)\n[BT] 1297 mol/s (N-hexane 26%, N-heptane 24%, 3-methylpentane 15%, 2-methylpentane 15%, Methylcyclopentane 10%, Cyclohexane 7%) -> sold for $0.0M/yr (not pure enough: worth 0)\n[BB] 536 mol/s (N-octane 76%, N-nonane 24%, N-heptane 0%, Cyclohexane 0%, Methylcyclopentane 0%, N-hexane 0%) -> column 40 stages, reflux 2.5, boil-up 10.0, dp 0.3, cost $85.0M/yr\n[BBT] 412 mol/s (N-octane 98%, N-nonane 1%, N-heptane 0%, Cyclohexane 0%, Methylcyclopentane 0%, N-hexane 0%) -> sold for $787.6M/yr\n[BBB] 125 mol/s (N-nonane 97%, N-octane 3%) -> sold for $170.9M/yr",
+      "id": "R6"
+    },
+    {
+      "agent": "agent-0",
+      "island": 0,
+      "family": "agent-0",
+      "round": 7,
+      "reward": 1.324241519779305,
+      "valid": true,
+      "design": {
+        "": [
+          50,
+          2.0,
+          2.85,
+          0.3
+        ],
+        "T": [
+          30,
+          1.5,
+          2.6,
+          0.0
+        ],
+        "B": [
+          40,
+          2.0,
+          5.4,
+          0.5
+        ],
+        "BB": [
+          40,
+          2.5,
+          10.0,
+          0.3
+        ],
+        "TT": [
+          30,
+          1.5,
+          7.3,
+          0.0
+        ],
+        "BT": [
+          50,
+          2.0,
+          9.3,
+          0.0
+        ]
+      },
+      "columns": 6,
+      "revenue": 1830642235.9311695,
+      "tac": 731192553.2508734,
+      "note": "Add TT C3/C4 split (C3 mix + C4 mix) and BT C6/C7 split to try pure heptane bottoms.",
+      "copied": null,
+      "graft": null,
+      "shown": [],
+      "solves": 19,
+      "structure": [
+        "22DMB..nC8 | CH/nC7",
+        "2MP..nC9 | nC7/nC8",
+        "C2..nC4 | C3/iC4",
+        "C3=..nC5 | nC4/iC5",
+        "C3=..nC9 | nC5/2MP",
+        "nC8..nC9 | nC8/nC9"
+      ],
+      "niche": "first cut nC5/2MP, 5-7 columns",
+      "view": "reward 1.324 | revenue $1830.6M/yr | column cost $731.2M/yr | 6 columns | solves used 19/200\n[feed] 3300 mol/s (Propane 15%, N-pentane 13%, N-octane 13%, N-hexane 10%, N-heptane 10%, Isopentane 9%) -> column 50 stages, reflux 2.0, boil-up 2.85, dp 0.3, cost $217.2M/yr\n[T] 1467 mol/s (Propane 33%, N-pentane 29%, Isopentane 20%, N-butane 10%, Isobutane 3%, Propylene 3%) -> column 30 stages, reflux 1.5, boil-up 2.6, dp 0.0, cost $62.6M/yr\n[B] 1833 mol/s (N-octane 23%, N-hexane 19%, N-heptane 17%, 3-methylpentane 10%, 2-methylpentane 10%, N-nonane 7%) -> column 40 stages, reflux 2.0, boil-up 5.4, dp 0.5, cost $179.3M/yr\n[TT] 727 mol/s (Propane 68%, N-butane 19%, Isobutane 7%, Propylene 5%, Ethane 2%, Isopentane 0%) -> column 30 stages, reflux 1.5, boil-up 7.3, dp 0.0, cost $37.2M/yr\n[TB] 740 mol/s (N-pentane 57%, Isopentane 40%, N-butane 2%, 2,2-dimethylbutane 0%, Isobutane 0%, 2-methylpentane 0%) -> sold for $648.9M/yr (blend: C5 mix)\n[BT] 1297 mol/s (N-hexane 26%, N-heptane 24%, 3-methylpentane 15%, 2-methylpentane 15%, Methylcyclopentane 10%, Cyclohexane 7%) -> column 50 stages, reflux 2.0, boil-up 9.3, dp 0.0, cost $149.9M/yr\n[BB] 536 mol/s (N-octane 76%, N-nonane 24%, N-heptane 0%, Cyclohexane 0%, Methylcyclopentane 0%, N-hexane 0%) -> column 40 stages, reflux 2.5, boil-up 10.0, dp 0.3, cost $85.0M/yr\n[TTT] 553 mol/s (Propane 89%, Propylene 7%, Ethane 2%, Isobutane 2%, N-butane 0%, Isopentane 0%) -> sold for $154.0M/yr (blend: C3 mix)\n[TTB] 173 mol/s (N-butane 77%, Isobutane 22%, Isopentane 1%, N-pentane 0%, Propane 0%, Propylene 0%) -> sold for $69.2M/yr (blend: C4 mix)\n[BTT] 995 mol/s (N-hexane 34%, 3-methylpentane 19%, 2-methylpentane 19%, Methylcyclopentane 13%, Cyclohexane 10%, N-heptane 3%) -> sold for $0.0M/yr (not pure enough: worth 0)\n[BTB] 302 mol/s (N-heptane 94%, N-octane 6%, Cyclohexane 0%, N-hexane 0%, Methylcyclopentane 0%, 3-methylpentane 0%) -> sold for $0.0M/yr (not pure enough: worth 0)\n[BBT] 412 mol/s (N-octane 98%, N-nonane 1%, N-heptane 0%, Cyclohexane 0%, Methylcyclopentane 0%, N-hexane 0%) -> sold for $787.6M/yr\n[BBB] 125 mol/s (N-nonane 97%, N-octane 3%) -> sold for $170.9M/yr",
+      "id": "R7"
+    },
+    {
+      "agent": "agent-0",
+      "island": 0,
+      "family": "agent-0",
+      "round": 8,
+      "reward": 1.4284343126129668,
+      "valid": true,
+      "design": {
+        "": [
+          50,
+          2.0,
+          2.85,
+          0.3
+        ],
+        "T": [
+          30,
+          1.5,
+          2.6,
+          0.0
+        ],
+        "B": [
+          40,
+          2.0,
+          5.4,
+          0.5
+        ],
+        "BB": [
+          40,
+          2.5,
+          10.0,
+          0.3
+        ],
+        "TT": [
+          30,
+          1.5,
+          7.3,
+          0.0
+        ],
+        "BT": [
+          50,
+          2.0,
+          9.3,
+          0.0
+        ],
+        "BTB": [
+          30,
+          1.0,
+          25.0,
+          0.0
+        ],
+        "BTT": [
+          80,
+          6.0,
+          13.2,
+          0.0
+        ]
+      },
+      "columns": 8,
+      "revenue": 2169908532.192213,
+      "tac": 983952927.9654949,
+      "note": "Add heptane/octane polish on BTB (pure heptane tops) and a C6 paraffin vs MCP column on BTT (tops ~650 C6 paraffin mix).",
+      "copied": null,
+      "graft": null,
+      "shown": [],
+      "solves": 21,
+      "structure": [
+        "22DMB..nC7 | nC6/MCP",
+        "22DMB..nC8 | CH/nC7",
+        "2MP..nC9 | nC7/nC8",
+        "C2..nC4 | C3/iC4",
+        "C3=..nC5 | nC4/iC5",
+        "C3=..nC9 | nC5/2MP",
+        "nC7..nC8 | nC7/nC8",
+        "nC8..nC9 | nC8/nC9"
+      ],
+      "niche": "first cut nC5/2MP, 8+ columns",
+      "view": "reward 1.428 | revenue $2169.9M/yr | column cost $984.0M/yr | 8 columns | solves used 21/200\n[feed] 3300 mol/s (Propane 15%, N-pentane 13%, N-octane 13%, N-hexane 10%, N-heptane 10%, Isopentane 9%) -> column 50 stages, reflux 2.0, boil-up 2.85, dp 0.3, cost $217.2M/yr\n[T] 1467 mol/s (Propane 33%, N-pentane 29%, Isopentane 20%, N-butane 10%, Isobutane 3%, Propylene 3%) -> column 30 stages, reflux 1.5, boil-up 2.6, dp 0.0, cost $62.6M/yr\n[B] 1833 mol/s (N-octane 23%, N-hexane 19%, N-heptane 17%, 3-methylpentane 10%, 2-methylpentane 10%, N-nonane 7%) -> column 40 stages, reflux 2.0, boil-up 5.4, dp 0.5, cost $179.3M/yr\n[TT] 727 mol/s (Propane 68%, N-butane 19%, Isobutane 7%, Propylene 5%, Ethane 2%, Isopentane 0%) -> column 30 stages, reflux 1.5, boil-up 7.3, dp 0.0, cost $37.2M/yr\n[TB] 740 mol/s (N-pentane 57%, Isopentane 40%, N-butane 2%, 2,2-dimethylbutane 0%, Isobutane 0%, 2-methylpentane 0%) -> sold for $648.9M/yr (blend: C5 mix)\n[BT] 1297 mol/s (N-hexane 26%, N-heptane 24%, 3-methylpentane 15%, 2-methylpentane 15%, Methylcyclopentane 10%, Cyclohexane 7%) -> column 50 stages, reflux 2.0, boil-up 9.3, dp 0.0, cost $149.9M/yr\n[BB] 536 mol/s (N-octane 76%, N-nonane 24%, N-heptane 0%, Cyclohexane 0%, Methylcyclopentane 0%, N-hexane 0%) -> column 40 stages, reflux 2.5, boil-up 10.0, dp 0.3, cost $85.0M/yr\n[TTT] 553 mol/s (Propane 89%, Propylene 7%, Ethane 2%, Isobutane 2%, N-butane 0%, Isopentane 0%) -> sold for $154.0M/yr (blend: C3 mix)\n[TTB] 173 mol/s (N-butane 77%, Isobutane 22%, Isopentane 1%, N-pentane 0%, Propane 0%, Propylene 0%) -> sold for $69.2M/yr (blend: C4 mix)\n[BTT] 995 mol/s (N-hexane 34%, 3-methylpentane 19%, 2-methylpentane 19%, Methylcyclopentane 13%, Cyclohexane 10%, N-heptane 3%) -> column 80 stages, reflux 6.0, boil-up 13.2, dp 0.0, cost $221.6M/yr\n[BTB] 302 mol/s (N-heptane 94%, N-octane 6%, Cyclohexane 0%, N-hexane 0%, Methylcyclopentane 0%, 3-methylpentane 0%) -> column 30 stages, reflux 1.0, boil-up 25.0, dp 0.0, cost $31.1M/yr\n[BBT] 412 mol/s (N-octane 98%, N-nonane 1%, N-heptane 0%, Cyclohexane 0%, Methylcyclopentane 0%, N-hexane 0%) -> sold for $787.6M/yr\n[BBB] 125 mol/s (N-nonane 97%, N-octane 3%) -> sold for $170.9M/yr\n[BTTT] 662 mol/s (N-hexane 33%, 2-methylpentane 28%, 3-methylpentane 28%, Methylcyclopentane 6%, 2,2-dimethylbutane 2%, N-pentane 1%) -> sold for $0.0M/yr (not pure enough: worth 0)\n[BTTB] 333 mol/s (N-hexane 35%, Cyclohexane 28%, Methylcyclopentane 25%, N-heptane 9%, 3-methylpentane 2%, 2-methylpentane 0%) -> sold for $0.0M/yr (not pure enough: worth 0)\n[BTBT] 281 mol/s (N-heptane 98%, N-octane 2%, Cyclohexane 0%, N-hexane 0%, Methylcyclopentane 0%, 3-methylpentane 0%) -> sold for $339.3M/yr\n[BTBB] 21 mol/s (N-octane 67%, N-heptane 33%, N-nonane 0%, Cyclohexane 0%) -> sold for $0.0M/yr (not pure enough: worth 0)",
+      "id": "R8"
+    },
+    {
+      "agent": "agent-0",
+      "island": 0,
+      "family": "agent-0",
+      "round": 9,
+      "reward": 1.4082262672911283,
+      "valid": true,
+      "design": {
+        "": [
+          50,
+          2.0,
+          2.85,
+          0.3
+        ],
+        "T": [
+          30,
+          1.5,
+          2.6,
+          0.0
+        ],
+        "B": [
+          40,
+          2.0,
+          5.4,
+          0.5
+        ],
+        "BB": [
+          40,
+          2.5,
+          10.0,
+          0.3
+        ],
+        "TT": [
+          30,
+          1.5,
+          7.3,
+          0.0
+        ],
+        "BT": [
+          50,
+          2.0,
+          9.3,
+          0.0
+        ],
+        "BTB": [
+          30,
+          1.0,
+          25.0,
+          0.0
+        ],
+        "BTT": [
+          100,
+          7.0,
+          12.7,
+          0.0
+        ]
+      },
+      "columns": 8,
+      "revenue": 2169908532.192213,
+      "tac": 1000730629.5288677,
+      "note": "Push BTTT to 95% C6 paraffin: more stages, slightly lower distillate (~610) to cut MCP leak.",
+      "copied": null,
+      "graft": null,
+      "shown": [],
+      "solves": 22,
+      "structure": [
+        "22DMB..nC7 | nC6/MCP",
+        "22DMB..nC8 | CH/nC7",
+        "2MP..nC9 | nC7/nC8",
+        "C2..nC4 | C3/iC4",
+        "C3=..nC5 | nC4/iC5",
+        "C3=..nC9 | nC5/2MP",
+        "nC7..nC8 | nC7/nC8",
+        "nC8..nC9 | nC8/nC9"
+      ],
+      "niche": "first cut nC5/2MP, 8+ columns",
+      "view": "reward 1.408 | revenue $2169.9M/yr | column cost $1000.7M/yr | 8 columns | solves used 22/200\n[feed] 3300 mol/s (Propane 15%, N-pentane 13%, N-octane 13%, N-hexane 10%, N-heptane 10%, Isopentane 9%) -> column 50 stages, reflux 2.0, boil-up 2.85, dp 0.3, cost $217.2M/yr\n[T] 1467 mol/s (Propane 33%, N-pentane 29%, Isopentane 20%, N-butane 10%, Isobutane 3%, Propylene 3%) -> column 30 stages, reflux 1.5, boil-up 2.6, dp 0.0, cost $62.6M/yr\n[B] 1833 mol/s (N-octane 23%, N-hexane 19%, N-heptane 17%, 3-methylpentane 10%, 2-methylpentane 10%, N-nonane 7%) -> column 40 stages, reflux 2.0, boil-up 5.4, dp 0.5, cost $179.3M/yr\n[TT] 727 mol/s (Propane 68%, N-butane 19%, Isobutane 7%, Propylene 5%, Ethane 2%, Isopentane 0%) -> column 30 stages, reflux 1.5, boil-up 7.3, dp 0.0, cost $37.2M/yr\n[TB] 740 mol/s (N-pentane 57%, Isopentane 40%, N-butane 2%, 2,2-dimethylbutane 0%, Isobutane 0%, 2-methylpentane 0%) -> sold for $648.9M/yr (blend: C5 mix)\n[BT] 1297 mol/s (N-hexane 26%, N-heptane 24%, 3-methylpentane 15%, 2-methylpentane 15%, Methylcyclopentane 10%, Cyclohexane 7%) -> column 50 stages, reflux 2.0, boil-up 9.3, dp 0.0, cost $149.9M/yr\n[BB] 536 mol/s (N-octane 76%, N-nonane 24%, N-heptane 0%, Cyclohexane 0%, Methylcyclopentane 0%, N-hexane 0%) -> column 40 stages, reflux 2.5, boil-up 10.0, dp 0.3, cost $85.0M/yr\n[TTT] 553 mol/s (Propane 89%, Propylene 7%, Ethane 2%, Isobutane 2%, N-butane 0%, Isopentane 0%) -> sold for $154.0M/yr (blend: C3 mix)\n[TTB] 173 mol/s (N-butane 77%, Isobutane 22%, Isopentane 1%, N-pentane 0%, Propane 0%, Propylene 0%) -> sold for $69.2M/yr (blend: C4 mix)\n[BTT] 995 mol/s (N-hexane 34%, 3-methylpentane 19%, 2-methylpentane 19%, Methylcyclopentane 13%, Cyclohexane 10%, N-heptane 3%) -> column 100 stages, reflux 7.0, boil-up 12.7, dp 0.0, cost $238.4M/yr\n[BTB] 302 mol/s (N-heptane 94%, N-octane 6%, Cyclohexane 0%, N-hexane 0%, Methylcyclopentane 0%, 3-methylpentane 0%) -> column 30 stages, reflux 1.0, boil-up 25.0, dp 0.0, cost $31.1M/yr\n[BBT] 412 mol/s (N-octane 98%, N-nonane 1%, N-heptane 0%, Cyclohexane 0%, Methylcyclopentane 0%, N-hexane 0%) -> sold for $787.6M/yr\n[BBB] 125 mol/s (N-nonane 97%, N-octane 3%) -> sold for $170.9M/yr\n[BTTT] 622 mol/s (N-hexane 31%, 2-methylpentane 30%, 3-methylpentane 30%, Methylcyclopentane 5%, 2,2-dimethylbutane 2%, N-pentane 2%) -> sold for $0.0M/yr (not pure enough: worth 0)\n[BTTB] 372 mol/s (N-hexane 39%, Cyclohexane 26%, Methylcyclopentane 25%, N-heptane 8%, 3-methylpentane 1%, 2-methylpentane 0%) -> sold for $0.0M/yr (not pure enough: worth 0)\n[BTBT] 281 mol/s (N-heptane 98%, N-octane 2%, Cyclohexane 0%, N-hexane 0%, Methylcyclopentane 0%, 3-methylpentane 0%) -> sold for $339.3M/yr\n[BTBB] 21 mol/s (N-octane 67%, N-heptane 33%, N-nonane 0%, Cyclohexane 0%) -> sold for $0.0M/yr (not pure enough: worth 0)",
+      "id": "R9"
+    },
+    {
+      "agent": "agent-0",
+      "island": 0,
+      "family": "agent-0",
+      "round": 10,
+      "reward": 1.3944697056407662,
+      "valid": true,
+      "design": {
+        "": [
+          50,
+          2.0,
+          2.85,
+          0.3
+        ],
+        "T": [
+          30,
+          1.5,
+          2.6,
+          0.0
+        ],
+        "B": [
+          40,
+          2.0,
+          5.4,
+          0.5
+        ],
+        "BB": [
+          40,
+          2.5,
+          10.0,
+          0.3
+        ],
+        "TT": [
+          30,
+          1.5,
+          7.3,
+          0.0
+        ],
+        "BT": [
+          50,
+          2.0,
+          9.3,
+          0.0
+        ],
+        "BTB": [
+          30,
+          1.0,
+          25.0,
+          0.0
+        ],
+        "BTT": [
+          110,
+          8.0,
+          12.0,
+          0.0
+        ]
+      },
+      "columns": 8,
+      "revenue": 2169908532.192213,
+      "tac": 1012151995.7338657,
+      "note": "Revert to best and retry BTT with lower distillate (~570) and higher reflux to drop MCP leak below ~3% so C6 paraffin mix hits 95%.",
+      "copied": null,
+      "graft": null,
+      "shown": [],
+      "solves": 23,
+      "structure": [
+        "22DMB..nC7 | 3MP/nC6",
+        "22DMB..nC8 | CH/nC7",
+        "2MP..nC9 | nC7/nC8",
+        "C2..nC4 | C3/iC4",
+        "C3=..nC5 | nC4/iC5",
+        "C3=..nC9 | nC5/2MP",
+        "nC7..nC8 | nC7/nC8",
+        "nC8..nC9 | nC8/nC9"
+      ],
+      "niche": "first cut nC5/2MP, 8+ columns",
+      "view": "reward 1.394 | revenue $2169.9M/yr | column cost $1012.2M/yr | 8 columns | solves used 23/200\n[feed] 3300 mol/s (Propane 15%, N-pentane 13%, N-octane 13%, N-hexane 10%, N-heptane 10%, Isopentane 9%) -> column 50 stages, reflux 2.0, boil-up 2.85, dp 0.3, cost $217.2M/yr\n[T] 1467 mol/s (Propane 33%, N-pentane 29%, Isopentane 20%, N-butane 10%, Isobutane 3%, Propylene 3%) -> column 30 stages, reflux 1.5, boil-up 2.6, dp 0.0, cost $62.6M/yr\n[B] 1833 mol/s (N-octane 23%, N-hexane 19%, N-heptane 17%, 3-methylpentane 10%, 2-methylpentane 10%, N-nonane 7%) -> column 40 stages, reflux 2.0, boil-up 5.4, dp 0.5, cost $179.3M/yr\n[TT] 727 mol/s (Propane 68%, N-butane 19%, Isobutane 7%, Propylene 5%, Ethane 2%, Isopentane 0%) -> column 30 stages, reflux 1.5, boil-up 7.3, dp 0.0, cost $37.2M/yr\n[TB] 740 mol/s (N-pentane 57%, Isopentane 40%, N-butane 2%, 2,2-dimethylbutane 0%, Isobutane 0%, 2-methylpentane 0%) -> sold for $648.9M/yr (blend: C5 mix)\n[BT] 1297 mol/s (N-hexane 26%, N-heptane 24%, 3-methylpentane 15%, 2-methylpentane 15%, Methylcyclopentane 10%, Cyclohexane 7%) -> column 50 stages, reflux 2.0, boil-up 9.3, dp 0.0, cost $149.9M/yr\n[BB] 536 mol/s (N-octane 76%, N-nonane 24%, N-heptane 0%, Cyclohexane 0%, Methylcyclopentane 0%, N-hexane 0%) -> column 40 stages, reflux 2.5, boil-up 10.0, dp 0.3, cost $85.0M/yr\n[TTT] 553 mol/s (Propane 89%, Propylene 7%, Ethane 2%, Isobutane 2%, N-butane 0%, Isopentane 0%) -> sold for $154.0M/yr (blend: C3 mix)\n[TTB] 173 mol/s (N-butane 77%, Isobutane 22%, Isopentane 1%, N-pentane 0%, Propane 0%, Propylene 0%) -> sold for $69.2M/yr (blend: C4 mix)\n[BTT] 995 mol/s (N-hexane 34%, 3-methylpentane 19%, 2-methylpentane 19%, Methylcyclopentane 13%, Cyclohexane 10%, N-heptane 3%) -> column 110 stages, reflux 8.0, boil-up 12.0, dp 0.0, cost $249.8M/yr\n[BTB] 302 mol/s (N-heptane 94%, N-octane 6%, Cyclohexane 0%, N-hexane 0%, Methylcyclopentane 0%, 3-methylpentane 0%) -> column 30 stages, reflux 1.0, boil-up 25.0, dp 0.0, cost $31.1M/yr\n[BBT] 412 mol/s (N-octane 98%, N-nonane 1%, N-heptane 0%, Cyclohexane 0%, Methylcyclopentane 0%, N-hexane 0%) -> sold for $787.6M/yr\n[BBB] 125 mol/s (N-nonane 97%, N-octane 3%) -> sold for $170.9M/yr\n[BTTT] 581 mol/s (2-methylpentane 32%, 3-methylpentane 32%, N-hexane 28%, Methylcyclopentane 4%, 2,2-dimethylbutane 2%, N-pentane 2%) -> sold for $0.0M/yr (not pure enough: worth 0)\n[BTTB] 414 mol/s (N-hexane 42%, Methylcyclopentane 25%, Cyclohexane 23%, N-heptane 8%, 3-methylpentane 2%, 2-methylpentane 0%) -> sold for $0.0M/yr (not pure enough: worth 0)\n[BTBT] 281 mol/s (N-heptane 98%, N-octane 2%, Cyclohexane 0%, N-hexane 0%, Methylcyclopentane 0%, 3-methylpentane 0%) -> sold for $339.3M/yr\n[BTBB] 21 mol/s (N-octane 67%, N-heptane 33%, N-nonane 0%, Cyclohexane 0%) -> sold for $0.0M/yr (not pure enough: worth 0)",
+      "id": "R10"
+    },
+    {
+      "agent": "agent-0",
+      "island": 0,
+      "family": "agent-0",
+      "round": 11,
+      "reward": 1.406934252727805,
+      "valid": true,
+      "design": {
+        "": [
+          50,
+          2.0,
+          2.85,
+          0.3
+        ],
+        "T": [
+          30,
+          1.5,
+          2.6,
+          0.0
+        ],
+        "B": [
+          40,
+          2.0,
+          5.4,
+          0.5
+        ],
+        "BB": [
+          40,
+          2.5,
+          10.0,
+          0.3
+        ],
+        "TT": [
+          30,
+          1.5,
+          7.3,
+          0.0
+        ],
+        "BT": [
+          50,
+          2.0,
+          9.3,
+          0.0
+        ],
+        "BTB": [
+          30,
+          1.0,
+          25.0,
+          0.0
+        ],
+        "BTT": [
+          110,
+          8.0,
+          10.9,
+          0.0
+        ]
+      },
+      "columns": 8,
+      "revenue": 2169908532.192213,
+      "tac": 1001803322.8257073,
+      "note": "BTTT sits just under 95% C6 paraffin; lower distillate to ~550 at same reflux to cut MCP leak below ~2.5%.",
+      "copied": null,
+      "graft": null,
+      "shown": [],
+      "solves": 24,
+      "structure": [
+        "22DMB..nC7 | 3MP/nC6",
+        "22DMB..nC8 | CH/nC7",
+        "2MP..nC9 | nC7/nC8",
+        "C2..nC4 | C3/iC4",
+        "C3=..nC5 | nC4/iC5",
+        "C3=..nC9 | nC5/2MP",
+        "nC7..nC8 | nC7/nC8",
+        "nC8..nC9 | nC8/nC9"
+      ],
+      "niche": "first cut nC5/2MP, 8+ columns",
+      "view": "reward 1.407 | revenue $2169.9M/yr | column cost $1001.8M/yr | 8 columns | solves used 24/200\n[feed] 3300 mol/s (Propane 15%, N-pentane 13%, N-octane 13%, N-hexane 10%, N-heptane 10%, Isopentane 9%) -> column 50 stages, reflux 2.0, boil-up 2.85, dp 0.3, cost $217.2M/yr\n[T] 1467 mol/s (Propane 33%, N-pentane 29%, Isopentane 20%, N-butane 10%, Isobutane 3%, Propylene 3%) -> column 30 stages, reflux 1.5, boil-up 2.6, dp 0.0, cost $62.6M/yr\n[B] 1833 mol/s (N-octane 23%, N-hexane 19%, N-heptane 17%, 3-methylpentane 10%, 2-methylpentane 10%, N-nonane 7%) -> column 40 stages, reflux 2.0, boil-up 5.4, dp 0.5, cost $179.3M/yr\n[TT] 727 mol/s (Propane 68%, N-butane 19%, Isobutane 7%, Propylene 5%, Ethane 2%, Isopentane 0%) -> column 30 stages, reflux 1.5, boil-up 7.3, dp 0.0, cost $37.2M/yr\n[TB] 740 mol/s (N-pentane 57%, Isopentane 40%, N-butane 2%, 2,2-dimethylbutane 0%, Isobutane 0%, 2-methylpentane 0%) -> sold for $648.9M/yr (blend: C5 mix)\n[BT] 1297 mol/s (N-hexane 26%, N-heptane 24%, 3-methylpentane 15%, 2-methylpentane 15%, Methylcyclopentane 10%, Cyclohexane 7%) -> column 50 stages, reflux 2.0, boil-up 9.3, dp 0.0, cost $149.9M/yr\n[BB] 536 mol/s (N-octane 76%, N-nonane 24%, N-heptane 0%, Cyclohexane 0%, Methylcyclopentane 0%, N-hexane 0%) -> column 40 stages, reflux 2.5, boil-up 10.0, dp 0.3, cost $85.0M/yr\n[TTT] 553 mol/s (Propane 89%, Propylene 7%, Ethane 2%, Isobutane 2%, N-butane 0%, Isopentane 0%) -> sold for $154.0M/yr (blend: C3 mix)\n[TTB] 173 mol/s (N-butane 77%, Isobutane 22%, Isopentane 1%, N-pentane 0%, Propane 0%, Propylene 0%) -> sold for $69.2M/yr (blend: C4 mix)\n[BTT] 995 mol/s (N-hexane 34%, 3-methylpentane 19%, 2-methylpentane 19%, Methylcyclopentane 13%, Cyclohexane 10%, N-heptane 3%) -> column 110 stages, reflux 8.0, boil-up 10.9, dp 0.0, cost $239.5M/yr\n[BTB] 302 mol/s (N-heptane 94%, N-octane 6%, Cyclohexane 0%, N-hexane 0%, Methylcyclopentane 0%, 3-methylpentane 0%) -> column 30 stages, reflux 1.0, boil-up 25.0, dp 0.0, cost $31.1M/yr\n[BBT] 412 mol/s (N-octane 98%, N-nonane 1%, N-heptane 0%, Cyclohexane 0%, Methylcyclopentane 0%, N-hexane 0%) -> sold for $787.6M/yr\n[BBB] 125 mol/s (N-nonane 97%, N-octane 3%) -> sold for $170.9M/yr\n[BTTT] 557 mol/s (2-methylpentane 34%, 3-methylpentane 32%, N-hexane 26%, Methylcyclopentane 3%, 2,2-dimethylbutane 2%, N-pentane 2%) -> sold for $0.0M/yr (not pure enough: worth 0)\n[BTTB] 438 mol/s (N-hexane 44%, Methylcyclopentane 24%, Cyclohexane 22%, N-heptane 7%, 3-methylpentane 3%, 2-methylpentane 0%) -> sold for $0.0M/yr (not pure enough: worth 0)\n[BTBT] 281 mol/s (N-heptane 98%, N-octane 2%, Cyclohexane 0%, N-hexane 0%, Methylcyclopentane 0%, 3-methylpentane 0%) -> sold for $339.3M/yr\n[BTBB] 21 mol/s (N-octane 67%, N-heptane 33%, N-nonane 0%, Cyclohexane 0%) -> sold for $0.0M/yr (not pure enough: worth 0)",
+      "id": "R11"
+    },
+    {
+      "agent": "agent-0",
+      "island": 0,
+      "family": "agent-0",
+      "round": 12,
+      "reward": 1.9376849158967735,
+      "valid": true,
+      "design": {
+        "": [
+          50,
+          2.0,
+          2.91,
+          0.3
+        ],
+        "T": [
+          30,
+          1.5,
+          2.6,
+          0.0
+        ],
+        "B": [
+          40,
+          2.0,
+          5.4,
+          0.5
+        ],
+        "BB": [
+          40,
+          2.5,
+          10.0,
+          0.3
+        ],
+        "TT": [
+          30,
+          1.5,
+          7.3,
+          0.0
+        ],
+        "BT": [
+          50,
+          2.0,
+          9.3,
+          0.0
+        ],
+        "BTB": [
+          30,
+          1.0,
+          25.0,
+          0.0
+        ],
+        "BTT": [
+          110,
+          8.0,
+          10.9,
+          0.0
+        ]
+      },
+      "columns": 8,
+      "revenue": 2610183828.5350575,
+      "tac": 1001423618.1829844,
+      "note": "BTTT stuck at ~95% because ~2% n-pentane leaks from root; raise root distillate ~18 mol/s to push pentane overhead (C5 blend has margin).",
+      "copied": null,
+      "graft": null,
+      "shown": [],
+      "solves": 32,
+      "structure": [
+        "2MP..nC7 | 3MP/nC6",
+        "2MP..nC8 | CH/nC7",
+        "2MP..nC9 | nC7/nC8",
+        "C2..nC4 | C3/iC4",
+        "C3=..nC5 | nC4/iC5",
+        "C3=..nC9 | nC5/2MP",
+        "nC7..nC8 | nC7/nC8",
+        "nC8..nC9 | nC8/nC9"
+      ],
+      "niche": "first cut nC5/2MP, 8+ columns",
+      "view": "reward 1.938 | revenue $2610.2M/yr | column cost $1001.4M/yr | 8 columns | solves used 32/200\n[feed] 3300 mol/s (Propane 15%, N-pentane 13%, N-octane 13%, N-hexane 10%, N-heptane 10%, Isopentane 9%) -> column 50 stages, reflux 2.0, boil-up 2.91, dp 0.3, cost $219.6M/yr\n[T] 1482 mol/s (Propane 33%, N-pentane 29%, Isopentane 20%, N-butane 10%, Isobutane 3%, Propylene 2%) -> column 30 stages, reflux 1.5, boil-up 2.6, dp 0.0, cost $63.4M/yr\n[B] 1818 mol/s (N-octane 24%, N-hexane 19%, N-heptane 17%, 3-methylpentane 10%, 2-methylpentane 10%, N-nonane 7%) -> column 40 stages, reflux 2.0, boil-up 5.4, dp 0.5, cost $177.9M/yr\n[TT] 732 mol/s (Propane 67%, N-butane 19%, Isobutane 7%, Propylene 5%, Ethane 2%, Isopentane 0%) -> column 30 stages, reflux 1.5, boil-up 7.3, dp 0.0, cost $37.6M/yr\n[TB] 750 mol/s (N-pentane 57%, Isopentane 39%, N-butane 2%, 2,2-dimethylbutane 1%, 2-methylpentane 0%, 3-methylpentane 0%) -> sold for $653.8M/yr (blend: C5 mix)\n[BT] 1286 mol/s (N-hexane 26%, N-heptane 24%, 3-methylpentane 15%, 2-methylpentane 14%, Methylcyclopentane 10%, Cyclohexane 7%) -> column 50 stages, reflux 2.0, boil-up 9.3, dp 0.0, cost $149.2M/yr\n[BB] 532 mol/s (N-octane 76%, N-nonane 24%, N-heptane 0%, Cyclohexane 0%, Methylcyclopentane 0%, N-hexane 0%) -> column 40 stages, reflux 2.5, boil-up 10.0, dp 0.3, cost $84.3M/yr\n[TTT] 557 mol/s (Propane 88%, Propylene 7%, Isobutane 2%, Ethane 2%, N-butane 0%, Isopentane 0%) -> sold for $0.0M/yr (not pure enough: worth 0)\n[TTB] 175 mol/s (N-butane 77%, Isobutane 20%, Isopentane 2%, N-pentane 1%, Propane 0%, Propylene 0%) -> sold for $68.9M/yr (blend: C4 mix)\n[BTT] 987 mol/s (N-hexane 34%, 3-methylpentane 19%, 2-methylpentane 19%, Methylcyclopentane 13%, Cyclohexane 10%, N-heptane 4%) -> column 110 stages, reflux 8.0, boil-up 10.9, dp 0.0, cost $238.4M/yr\n[BTB] 299 mol/s (N-heptane 92%, N-octane 8%, Cyclohexane 0%, N-hexane 0%, Methylcyclopentane 0%, 3-methylpentane 0%) -> column 30 stages, reflux 1.0, boil-up 25.0, dp 0.0, cost $31.0M/yr\n[BBT] 408 mol/s (N-octane 98%, N-nonane 1%, N-heptane 0%, Cyclohexane 0%, Methylcyclopentane 0%, N-hexane 0%) -> sold for $780.1M/yr\n[BBB] 124 mol/s (N-nonane 98%, N-octane 2%) -> sold for $170.5M/yr\n[BTTT] 553 mol/s (2-methylpentane 33%, 3-methylpentane 33%, N-hexane 28%, Methylcyclopentane 4%, 2,2-dimethylbutane 2%, N-pentane 0%) -> sold for $602.6M/yr (blend: C6 paraffin mix)\n[BTTB] 434 mol/s (N-hexane 43%, Methylcyclopentane 24%, Cyclohexane 22%, N-heptane 9%, 3-methylpentane 2%, 2-methylpentane 0%) -> sold for $0.0M/yr (not pure enough: worth 0)\n[BTBT] 278 mol/s (N-heptane 98%, N-octane 2%, Cyclohexane 0%, N-hexane 0%, Methylcyclopentane 0%, 3-methylpentane 0%) -> sold for $334.3M/yr\n[BTBB] 21 mol/s (N-octane 82%, N-heptane 18%, N-nonane 0%, Cyclohexane 0%) -> sold for $0.0M/yr (not pure enough: worth 0)",
+      "id": "R12"
+    },
+    {
+      "agent": "agent-0",
+      "island": 0,
+      "family": "agent-0",
+      "round": 13,
+      "reward": 2.107728709036946,
+      "valid": true,
+      "design": {
+        "": [
+          50,
+          2.0,
+          2.91,
+          0.3
+        ],
+        "T": [
+          30,
+          1.5,
+          2.6,
+          0.0
+        ],
+        "B": [
+          40,
+          2.0,
+          5.4,
+          0.5
+        ],
+        "BB": [
+          40,
+          2.5,
+          10.0,
+          0.3
+        ],
+        "TT": [
+          40,
+          2.5,
+          9.9,
+          0.0
+        ],
+        "BT": [
+          50,
+          2.0,
+          9.3,
+          0.0
+        ],
+        "BTB": [
+          30,
+          1.0,
+          25.0,
+          0.0
+        ],
+        "BTT": [
+          110,
+          8.0,
+          10.9,
+          0.0
+        ]
+      },
+      "columns": 8,
+      "revenue": 2765338014.2117715,
+      "tac": 1015399180.7631547,
+      "note": "TTT is at 95% C3 mix limit; sharpen TT C3/C4 split (more stages, reflux) and slightly lower D (~550) to cut isobutane leak so C3 mix sells (~$154M).",
+      "copied": null,
+      "graft": null,
+      "shown": [],
+      "solves": 33,
+      "structure": [
+        "2MP..nC7 | 3MP/nC6",
+        "2MP..nC8 | CH/nC7",
+        "2MP..nC9 | nC7/nC8",
+        "C2..nC4 | C3/iC4",
+        "C3=..nC5 | nC4/iC5",
+        "C3=..nC9 | nC5/2MP",
+        "nC7..nC8 | nC7/nC8",
+        "nC8..nC9 | nC8/nC9"
+      ],
+      "niche": "first cut nC5/2MP, 8+ columns",
+      "view": "reward 2.108 | revenue $2765.3M/yr | column cost $1015.4M/yr | 8 columns | solves used 33/200\n[feed] 3300 mol/s (Propane 15%, N-pentane 13%, N-octane 13%, N-hexane 10%, N-heptane 10%, Isopentane 9%) -> column 50 stages, reflux 2.0, boil-up 2.91, dp 0.3, cost $219.6M/yr\n[T] 1482 mol/s (Propane 33%, N-pentane 29%, Isopentane 20%, N-butane 10%, Isobutane 3%, Propylene 2%) -> column 30 stages, reflux 1.5, boil-up 2.6, dp 0.0, cost $63.4M/yr\n[B] 1818 mol/s (N-octane 24%, N-hexane 19%, N-heptane 17%, 3-methylpentane 10%, 2-methylpentane 10%, N-nonane 7%) -> column 40 stages, reflux 2.0, boil-up 5.4, dp 0.5, cost $177.9M/yr\n[TT] 732 mol/s (Propane 67%, N-butane 19%, Isobutane 7%, Propylene 5%, Ethane 2%, Isopentane 0%) -> column 40 stages, reflux 2.5, boil-up 9.9, dp 0.0, cost $51.6M/yr\n[TB] 750 mol/s (N-pentane 57%, Isopentane 39%, N-butane 2%, 2,2-dimethylbutane 1%, 2-methylpentane 0%, 3-methylpentane 0%) -> sold for $653.8M/yr (blend: C5 mix)\n[BT] 1286 mol/s (N-hexane 26%, N-heptane 24%, 3-methylpentane 15%, 2-methylpentane 14%, Methylcyclopentane 10%, Cyclohexane 7%) -> column 50 stages, reflux 2.0, boil-up 9.3, dp 0.0, cost $149.2M/yr\n[BB] 532 mol/s (N-octane 76%, N-nonane 24%, N-heptane 0%, Cyclohexane 0%, Methylcyclopentane 0%, N-hexane 0%) -> column 40 stages, reflux 2.5, boil-up 10.0, dp 0.3, cost $84.3M/yr\n[TTT] 555 mol/s (Propane 88%, Propylene 7%, Isobutane 2%, Ethane 2%, N-butane 0%) -> sold for $154.0M/yr (blend: C3 mix)\n[TTB] 178 mol/s (N-butane 78%, Isobutane 20%, Isopentane 2%, N-pentane 1%, Propane 0%, 2,2-dimethylbutane 0%) -> sold for $70.1M/yr (blend: C4 mix)\n[BTT] 987 mol/s (N-hexane 34%, 3-methylpentane 19%, 2-methylpentane 19%, Methylcyclopentane 13%, Cyclohexane 10%, N-heptane 4%) -> column 110 stages, reflux 8.0, boil-up 10.9, dp 0.0, cost $238.4M/yr\n[BTB] 299 mol/s (N-heptane 92%, N-octane 8%, Cyclohexane 0%, N-hexane 0%, Methylcyclopentane 0%, 3-methylpentane 0%) -> column 30 stages, reflux 1.0, boil-up 25.0, dp 0.0, cost $31.0M/yr\n[BBT] 408 mol/s (N-octane 98%, N-nonane 1%, N-heptane 0%, Cyclohexane 0%, Methylcyclopentane 0%, N-hexane 0%) -> sold for $780.1M/yr\n[BBB] 124 mol/s (N-nonane 98%, N-octane 2%) -> sold for $170.5M/yr\n[BTTT] 553 mol/s (2-methylpentane 33%, 3-methylpentane 33%, N-hexane 28%, Methylcyclopentane 4%, 2,2-dimethylbutane 2%, N-pentane 0%) -> sold for $602.6M/yr (blend: C6 paraffin mix)\n[BTTB] 434 mol/s (N-hexane 43%, Methylcyclopentane 24%, Cyclohexane 22%, N-heptane 9%, 3-methylpentane 2%, 2-methylpentane 0%) -> sold for $0.0M/yr (not pure enough: worth 0)\n[BTBT] 278 mol/s (N-heptane 98%, N-octane 2%, Cyclohexane 0%, N-hexane 0%, Methylcyclopentane 0%, 3-methylpentane 0%) -> sold for $334.3M/yr\n[BTBB] 21 mol/s (N-octane 82%, N-heptane 18%, N-nonane 0%, Cyclohexane 0%) -> sold for $0.0M/yr (not pure enough: worth 0)",
+      "id": "R13"
+    },
+    {
+      "agent": "agent-0",
+      "island": 0,
+      "family": "agent-0",
+      "round": 14,
+      "reward": 2.1694472046684607,
+      "valid": true,
+      "design": {
+        "": [
+          50,
+          2.0,
+          2.91,
+          0.3
+        ],
+        "T": [
+          30,
+          1.5,
+          2.6,
+          0.0
+        ],
+        "B": [
+          40,
+          2.0,
+          5.4,
+          0.5
+        ],
+        "BB": [
+          60,
+          3.5,
+          13.3,
+          0.3
+        ],
+        "TT": [
+          40,
+          2.5,
+          9.9,
+          0.0
+        ],
+        "BT": [
+          50,
+          2.0,
+          9.3,
+          0.0
+        ],
+        "BTB": [
+          60,
+          1.45,
+          29.5,
+          0.0
+        ],
+        "BTT": [
+          110,
+          8.0,
+          10.9,
+          0.0
+        ]
+      },
+      "columns": 8,
+      "revenue": 2850310782.915108,
+      "tac": 1049130254.1835322,
+      "note": "Chase premium grades: BB octane 98->99% (+156M) with more stages/reflux; BTB heptane 98->99% (+67M) with more stages, D~277.",
+      "copied": null,
+      "graft": null,
+      "shown": [],
+      "solves": 35,
+      "structure": [
+        "2MP..nC7 | 3MP/nC6",
+        "2MP..nC8 | CH/nC7",
+        "2MP..nC9 | nC7/nC8",
+        "C2..nC4 | C3/iC4",
+        "C3=..nC5 | nC4/iC5",
+        "C3=..nC9 | nC5/2MP",
+        "nC7..nC8 | nC7/nC8",
+        "nC8..nC9 | nC8/nC9"
+      ],
+      "niche": "first cut nC5/2MP, 8+ columns",
+      "view": "reward 2.169 | revenue $2850.3M/yr | column cost $1049.1M/yr | 8 columns | solves used 35/200\n[feed] 3300 mol/s (Propane 15%, N-pentane 13%, N-octane 13%, N-hexane 10%, N-heptane 10%, Isopentane 9%) -> column 50 stages, reflux 2.0, boil-up 2.91, dp 0.3, cost $219.6M/yr\n[T] 1482 mol/s (Propane 33%, N-pentane 29%, Isopentane 20%, N-butane 10%, Isobutane 3%, Propylene 2%) -> column 30 stages, reflux 1.5, boil-up 2.6, dp 0.0, cost $63.4M/yr\n[B] 1818 mol/s (N-octane 24%, N-hexane 19%, N-heptane 17%, 3-methylpentane 10%, 2-methylpentane 10%, N-nonane 7%) -> column 40 stages, reflux 2.0, boil-up 5.4, dp 0.5, cost $177.9M/yr\n[TT] 732 mol/s (Propane 67%, N-butane 19%, Isobutane 7%, Propylene 5%, Ethane 2%, Isopentane 0%) -> column 40 stages, reflux 2.5, boil-up 9.9, dp 0.0, cost $51.6M/yr\n[TB] 750 mol/s (N-pentane 57%, Isopentane 39%, N-butane 2%, 2,2-dimethylbutane 1%, 2-methylpentane 0%, 3-methylpentane 0%) -> sold for $653.8M/yr (blend: C5 mix)\n[BT] 1286 mol/s (N-hexane 26%, N-heptane 24%, 3-methylpentane 15%, 2-methylpentane 14%, Methylcyclopentane 10%, Cyclohexane 7%) -> column 50 stages, reflux 2.0, boil-up 9.3, dp 0.0, cost $149.2M/yr\n[BB] 532 mol/s (N-octane 76%, N-nonane 24%, N-heptane 0%, Cyclohexane 0%, Methylcyclopentane 0%, N-hexane 0%) -> column 60 stages, reflux 3.5, boil-up 13.3, dp 0.3, cost $110.7M/yr\n[TTT] 555 mol/s (Propane 88%, Propylene 7%, Isobutane 2%, Ethane 2%, N-butane 0%) -> sold for $154.0M/yr (blend: C3 mix)\n[TTB] 178 mol/s (N-butane 78%, Isobutane 20%, Isopentane 2%, N-pentane 1%, Propane 0%, 2,2-dimethylbutane 0%) -> sold for $70.1M/yr (blend: C4 mix)\n[BTT] 987 mol/s (N-hexane 34%, 3-methylpentane 19%, 2-methylpentane 19%, Methylcyclopentane 13%, Cyclohexane 10%, N-heptane 4%) -> column 110 stages, reflux 8.0, boil-up 10.9, dp 0.0, cost $238.4M/yr\n[BTB] 299 mol/s (N-heptane 92%, N-octane 8%, Cyclohexane 0%, N-hexane 0%, Methylcyclopentane 0%, 3-methylpentane 0%) -> column 60 stages, reflux 1.45, boil-up 29.5, dp 0.0, cost $38.3M/yr\n[BBT] 409 mol/s (N-octane 99%, N-nonane 1%, N-heptane 0%, Cyclohexane 0%, Methylcyclopentane 0%, N-hexane 0%) -> sold for $784.9M/yr\n[BBB] 122 mol/s (N-nonane 100%, N-octane 0%) -> sold for $206.8M/yr (premium)\n[BTTT] 553 mol/s (2-methylpentane 33%, 3-methylpentane 33%, N-hexane 28%, Methylcyclopentane 4%, 2,2-dimethylbutane 2%, N-pentane 0%) -> sold for $602.6M/yr (blend: C6 paraffin mix)\n[BTTB] 434 mol/s (N-hexane 43%, Methylcyclopentane 24%, Cyclohexane 22%, N-heptane 9%, 3-methylpentane 2%, 2-methylpentane 0%) -> sold for $0.0M/yr (not pure enough: worth 0)\n[BTBT] 278 mol/s (N-heptane 99%, N-octane 1%, Cyclohexane 0%, N-hexane 0%, Methylcyclopentane 0%, 3-methylpentane 0%) -> sold for $337.9M/yr\n[BTBB] 22 mol/s (N-octane 96%, N-heptane 4%, N-nonane 0%) -> sold for $40.3M/yr",
+      "id": "R14"
+    },
+    {
+      "agent": "agent-0",
+      "island": 0,
+      "family": "agent-0",
+      "round": 15,
+      "reward": 1.475779475603817,
+      "valid": true,
+      "design": {
+        "": [
+          50,
+          2.0,
+          2.91,
+          0.3
+        ],
+        "T": [
+          30,
+          1.5,
+          2.6,
+          0.0
+        ],
+        "B": [
+          40,
+          2.0,
+          5.4,
+          0.5
+        ],
+        "BB": [
+          60,
+          3.5,
+          13.3,
+          0.3
+        ],
+        "TT": [
+          40,
+          2.5,
+          9.9,
+          0.0
+        ],
+        "BT": [
+          50,
+          2.0,
+          9.3,
+          0.0
+        ],
+        "BTB": [
+          60,
+          1.45,
+          29.5,
+          0.0
+        ],
+        "BTT": [
+          110,
+          7.0,
+          9.62,
+          0.0
+        ]
+      },
+      "columns": 8,
+      "revenue": 2247738476.5186834,
+      "tac": 1022474616.4721264,
+      "note": "Trim BTT cost (238M) by lowering reflux 8->7 while holding D~553; BTTT has ~1% margin on C6 paraffin spec.",
+      "copied": null,
+      "graft": null,
+      "shown": [],
+      "solves": 36,
+      "structure": [
+        "2MP..nC7 | 3MP/nC6",
+        "2MP..nC8 | CH/nC7",
+        "2MP..nC9 | nC7/nC8",
+        "C2..nC4 | C3/iC4",
+        "C3=..nC5 | nC4/iC5",
+        "C3=..nC9 | nC5/2MP",
+        "nC7..nC8 | nC7/nC8",
+        "nC8..nC9 | nC8/nC9"
+      ],
+      "niche": "first cut nC5/2MP, 8+ columns",
+      "view": "reward 1.476 | revenue $2247.7M/yr | column cost $1022.5M/yr | 8 columns | solves used 36/200\n[feed] 3300 mol/s (Propane 15%, N-pentane 13%, N-octane 13%, N-hexane 10%, N-heptane 10%, Isopentane 9%) -> column 50 stages, reflux 2.0, boil-up 2.91, dp 0.3, cost $219.6M/yr\n[T] 1482 mol/s (Propane 33%, N-pentane 29%, Isopentane 20%, N-butane 10%, Isobutane 3%, Propylene 2%) -> column 30 stages, reflux 1.5, boil-up 2.6, dp 0.0, cost $63.4M/yr\n[B] 1818 mol/s (N-octane 24%, N-hexane 19%, N-heptane 17%, 3-methylpentane 10%, 2-methylpentane 10%, N-nonane 7%) -> column 40 stages, reflux 2.0, boil-up 5.4, dp 0.5, cost $177.9M/yr\n[TT] 732 mol/s (Propane 67%, N-butane 19%, Isobutane 7%, Propylene 5%, Ethane 2%, Isopentane 0%) -> column 40 stages, reflux 2.5, boil-up 9.9, dp 0.0, cost $51.6M/yr\n[TB] 750 mol/s (N-pentane 57%, Isopentane 39%, N-butane 2%, 2,2-dimethylbutane 1%, 2-methylpentane 0%, 3-methylpentane 0%) -> sold for $653.8M/yr (blend: C5 mix)\n[BT] 1286 mol/s (N-hexane 26%, N-heptane 24%, 3-methylpentane 15%, 2-methylpentane 14%, Methylcyclopentane 10%, Cyclohexane 7%) -> column 50 stages, reflux 2.0, boil-up 9.3, dp 0.0, cost $149.2M/yr\n[BB] 532 mol/s (N-octane 76%, N-nonane 24%, N-heptane 0%, Cyclohexane 0%, Methylcyclopentane 0%, N-hexane 0%) -> column 60 stages, reflux 3.5, boil-up 13.3, dp 0.3, cost $110.7M/yr\n[TTT] 555 mol/s (Propane 88%, Propylene 7%, Isobutane 2%, Ethane 2%, N-butane 0%) -> sold for $154.0M/yr (blend: C3 mix)\n[TTB] 178 mol/s (N-butane 78%, Isobutane 20%, Isopentane 2%, N-pentane 1%, Propane 0%, 2,2-dimethylbutane 0%) -> sold for $70.1M/yr (blend: C4 mix)\n[BTT] 987 mol/s (N-hexane 34%, 3-methylpentane 19%, 2-methylpentane 19%, Methylcyclopentane 13%, Cyclohexane 10%, N-heptane 4%) -> column 110 stages, reflux 7.0, boil-up 9.62, dp 0.0, cost $211.7M/yr\n[BTB] 299 mol/s (N-heptane 92%, N-octane 8%, Cyclohexane 0%, N-hexane 0%, Methylcyclopentane 0%, 3-methylpentane 0%) -> column 60 stages, reflux 1.45, boil-up 29.5, dp 0.0, cost $38.3M/yr\n[BBT] 409 mol/s (N-octane 99%, N-nonane 1%, N-heptane 0%, Cyclohexane 0%, Methylcyclopentane 0%, N-hexane 0%) -> sold for $784.9M/yr\n[BBB] 122 mol/s (N-nonane 100%, N-octane 0%) -> sold for $206.8M/yr (premium)\n[BTTT] 551 mol/s (2-methylpentane 33%, 3-methylpentane 32%, N-hexane 28%, Methylcyclopentane 5%, 2,2-dimethylbutane 2%, N-pentane 0%) -> sold for $0.0M/yr (not pure enough: worth 0)\n[BTTB] 436 mol/s (N-hexane 42%, Methylcyclopentane 23%, Cyclohexane 22%, N-heptane 9%, 3-methylpentane 4%, 2-methylpentane 0%) -> sold for $0.0M/yr (not pure enough: worth 0)\n[BTBT] 278 mol/s (N-heptane 99%, N-octane 1%, Cyclohexane 0%, N-hexane 0%, Methylcyclopentane 0%, 3-methylpentane 0%) -> sold for $337.9M/yr\n[BTBB] 22 mol/s (N-octane 96%, N-heptane 4%, N-nonane 0%) -> sold for $40.3M/yr",
+      "id": "R15"
+    },
+    {
+      "agent": "agent-0",
+      "island": 0,
+      "family": "agent-0",
+      "round": 16,
+      "reward": 2.1884241628997265,
+      "valid": true,
+      "design": {
+        "": [
+          50,
+          2.0,
+          2.91,
+          0.3
+        ],
+        "T": [
+          30,
+          1.5,
+          2.6,
+          0.0
+        ],
+        "B": [
+          40,
+          2.0,
+          5.4,
+          0.5
+        ],
+        "BB": [
+          60,
+          3.5,
+          13.3,
+          0.3
+        ],
+        "TT": [
+          40,
+          2.5,
+          9.9,
+          0.0
+        ],
+        "BT": [
+          50,
+          1.7,
+          8.3,
+          0.0
+        ],
+        "BTB": [
+          60,
+          1.45,
+          29.5,
+          0.0
+        ],
+        "BTT": [
+          110,
+          8.0,
+          10.9,
+          0.0
+        ]
+      },
+      "columns": 8,
+      "revenue": 2850822561.4909177,
+      "tac": 1033886439.5431739,
+      "note": "Revert to best (BTT reflux 7 broke C6 paraffin spec), then try trimming BT reflux 2.0->1.7 keeping D~987.",
+      "copied": null,
+      "graft": null,
+      "shown": [],
+      "solves": 39,
+      "structure": [
+        "2MP..nC7 | 3MP/nC6",
+        "2MP..nC8 | CH/nC7",
+        "2MP..nC9 | nC7/nC8",
+        "C2..nC4 | C3/iC4",
+        "C3=..nC5 | nC4/iC5",
+        "C3=..nC9 | nC5/2MP",
+        "nC7..nC8 | nC7/nC8",
+        "nC8..nC9 | nC8/nC9"
+      ],
+      "niche": "first cut nC5/2MP, 8+ columns",
+      "view": "reward 2.188 | revenue $2850.8M/yr | column cost $1033.9M/yr | 8 columns | solves used 39/200\n[feed] 3300 mol/s (Propane 15%, N-pentane 13%, N-octane 13%, N-hexane 10%, N-heptane 10%, Isopentane 9%) -> column 50 stages, reflux 2.0, boil-up 2.91, dp 0.3, cost $219.6M/yr\n[T] 1482 mol/s (Propane 33%, N-pentane 29%, Isopentane 20%, N-butane 10%, Isobutane 3%, Propylene 2%) -> column 30 stages, reflux 1.5, boil-up 2.6, dp 0.0, cost $63.4M/yr\n[B] 1818 mol/s (N-octane 24%, N-hexane 19%, N-heptane 17%, 3-methylpentane 10%, 2-methylpentane 10%, N-nonane 7%) -> column 40 stages, reflux 2.0, boil-up 5.4, dp 0.5, cost $177.9M/yr\n[TT] 732 mol/s (Propane 67%, N-butane 19%, Isobutane 7%, Propylene 5%, Ethane 2%, Isopentane 0%) -> column 40 stages, reflux 2.5, boil-up 9.9, dp 0.0, cost $51.6M/yr\n[TB] 750 mol/s (N-pentane 57%, Isopentane 39%, N-butane 2%, 2,2-dimethylbutane 1%, 2-methylpentane 0%, 3-methylpentane 0%) -> sold for $653.8M/yr (blend: C5 mix)\n[BT] 1286 mol/s (N-hexane 26%, N-heptane 24%, 3-methylpentane 15%, 2-methylpentane 14%, Methylcyclopentane 10%, Cyclohexane 7%) -> column 50 stages, reflux 1.7, boil-up 8.3, dp 0.0, cost $134.3M/yr\n[BB] 532 mol/s (N-octane 76%, N-nonane 24%, N-heptane 0%, Cyclohexane 0%, Methylcyclopentane 0%, N-hexane 0%) -> column 60 stages, reflux 3.5, boil-up 13.3, dp 0.3, cost $110.7M/yr\n[TTT] 555 mol/s (Propane 88%, Propylene 7%, Isobutane 2%, Ethane 2%, N-butane 0%) -> sold for $154.0M/yr (blend: C3 mix)\n[TTB] 178 mol/s (N-butane 78%, Isobutane 20%, Isopentane 2%, N-pentane 1%, Propane 0%, 2,2-dimethylbutane 0%) -> sold for $70.1M/yr (blend: C4 mix)\n[BTT] 985 mol/s (N-hexane 34%, 3-methylpentane 19%, 2-methylpentane 19%, Methylcyclopentane 13%, Cyclohexane 10%, N-heptane 4%) -> column 110 stages, reflux 8.0, boil-up 10.9, dp 0.0, cost $237.8M/yr\n[BTB] 301 mol/s (N-heptane 92%, N-octane 8%, Cyclohexane 0%, N-hexane 0%, Methylcyclopentane 0%, 3-methylpentane 0%) -> column 60 stages, reflux 1.45, boil-up 29.5, dp 0.0, cost $38.6M/yr\n[BBT] 409 mol/s (N-octane 99%, N-nonane 1%, N-heptane 0%, Cyclohexane 0%, Methylcyclopentane 0%, N-hexane 0%) -> sold for $784.9M/yr\n[BBB] 122 mol/s (N-nonane 100%, N-octane 0%) -> sold for $206.8M/yr (premium)\n[BTTT] 552 mol/s (2-methylpentane 33%, 3-methylpentane 33%, N-hexane 28%, Methylcyclopentane 4%, 2,2-dimethylbutane 2%, N-pentane 0%) -> sold for $601.2M/yr (blend: C6 paraffin mix)\n[BTTB] 433 mol/s (N-hexane 43%, Methylcyclopentane 24%, Cyclohexane 22%, N-heptane 9%, 3-methylpentane 2%, 2-methylpentane 0%) -> sold for $0.0M/yr (not pure enough: worth 0)\n[BTBT] 280 mol/s (N-heptane 99%, N-octane 1%, Cyclohexane 0%, N-hexane 0%, Methylcyclopentane 0%, 3-methylpentane 0%) -> sold for $339.7M/yr\n[BTBB] 22 mol/s (N-octane 95%, N-heptane 5%, N-nonane 0%) -> sold for $40.4M/yr",
+      "id": "R16"
+    },
+    {
+      "agent": "agent-0",
+      "island": 0,
+      "family": "agent-0",
+      "round": 17,
+      "reward": 2.1116272487622147,
+      "valid": true,
+      "design": {
+        "": [
+          50,
+          2.0,
+          2.91,
+          0.3
+        ],
+        "T": [
+          30,
+          1.3,
+          2.4,
+          0.0
+        ],
+        "B": [
+          40,
+          2.0,
+          5.4,
+          0.5
+        ],
+        "BB": [
+          60,
+          3.5,
+          13.3,
+          0.3
+        ],
+        "TT": [
+          40,
+          2.5,
+          9.9,
+          0.0
+        ],
+        "BT": [
+          50,
+          1.5,
+          7.65,
+          0.0
+        ],
+        "BTB": [
+          60,
+          1.45,
+          29.5,
+          0.0
+        ],
+        "BTT": [
+          110,
+          8.0,
+          10.9,
+          0.0
+        ]
+      },
+      "columns": 8,
+      "revenue": 2772643464.595548,
+      "tac": 1019467873.9543482,
+      "note": "Further cost trims: BT reflux 1.7->1.5 (D~985 held) and T reflux 1.5->1.3 (D~732 held).",
+      "copied": null,
+      "graft": null,
+      "shown": [],
+      "solves": 44,
+      "structure": [
+        "2MP..nC7 | 3MP/nC6",
+        "2MP..nC8 | CH/nC7",
+        "2MP..nC9 | nC7/nC8",
+        "C2..iC5 | C3/iC4",
+        "C3=..nC5 | nC4/iC5",
+        "C3=..nC9 | nC5/2MP",
+        "nC7..nC8 | nC7/nC8",
+        "nC8..nC9 | nC8/nC9"
+      ],
+      "niche": "first cut nC5/2MP, 8+ columns",
+      "view": "reward 2.112 | revenue $2772.6M/yr | column cost $1019.5M/yr | 8 columns | solves used 44/200\n[feed] 3300 mol/s (Propane 15%, N-pentane 13%, N-octane 13%, N-hexane 10%, N-heptane 10%, Isopentane 9%) -> column 50 stages, reflux 2.0, boil-up 2.91, dp 0.3, cost $219.6M/yr\n[T] 1482 mol/s (Propane 33%, N-pentane 29%, Isopentane 20%, N-butane 10%, Isobutane 3%, Propylene 2%) -> column 30 stages, reflux 1.3, boil-up 2.4, dp 0.0, cost $59.1M/yr\n[B] 1818 mol/s (N-octane 24%, N-hexane 19%, N-heptane 17%, 3-methylpentane 10%, 2-methylpentane 10%, N-nonane 7%) -> column 40 stages, reflux 2.0, boil-up 5.4, dp 0.5, cost $177.9M/yr\n[TT] 729 mol/s (Propane 67%, N-butane 18%, Isobutane 7%, Propylene 5%, Ethane 2%, Isopentane 1%) -> column 40 stages, reflux 2.5, boil-up 9.9, dp 0.0, cost $51.5M/yr\n[TB] 753 mol/s (N-pentane 57%, Isopentane 38%, N-butane 3%, 2,2-dimethylbutane 1%, 2-methylpentane 0%, Isobutane 0%) -> sold for $647.3M/yr (blend: C5 mix)\n[BT] 1286 mol/s (N-hexane 26%, N-heptane 24%, 3-methylpentane 15%, 2-methylpentane 14%, Methylcyclopentane 10%, Cyclohexane 7%) -> column 50 stages, reflux 1.5, boil-up 7.65, dp 0.0, cost $124.4M/yr\n[BB] 532 mol/s (N-octane 76%, N-nonane 24%, N-heptane 0%, Cyclohexane 0%, Methylcyclopentane 0%, N-hexane 0%) -> column 60 stages, reflux 3.5, boil-up 13.3, dp 0.3, cost $110.7M/yr\n[TTT] 553 mol/s (Propane 89%, Propylene 7%, Ethane 2%, Isobutane 2%, N-butane 0%) -> sold for $154.0M/yr (blend: C3 mix)\n[TTB] 176 mol/s (N-butane 73%, Isobutane 20%, Isopentane 5%, N-pentane 2%, Propane 0%, 2,2-dimethylbutane 0%) -> sold for $0.0M/yr (not pure enough: worth 0)\n[BTT] 983 mol/s (N-hexane 34%, 3-methylpentane 19%, 2-methylpentane 19%, Methylcyclopentane 13%, Cyclohexane 9%, N-heptane 4%) -> column 110 stages, reflux 8.0, boil-up 10.9, dp 0.0, cost $237.5M/yr\n[BTB] 303 mol/s (N-heptane 91%, N-octane 8%, Cyclohexane 1%, N-hexane 0%, Methylcyclopentane 0%, 3-methylpentane 0%) -> column 60 stages, reflux 1.45, boil-up 29.5, dp 0.0, cost $38.7M/yr\n[BBT] 409 mol/s (N-octane 99%, N-nonane 1%, N-heptane 0%, Cyclohexane 0%, Methylcyclopentane 0%, N-hexane 0%) -> sold for $784.9M/yr\n[BBB] 122 mol/s (N-nonane 100%, N-octane 0%) -> sold for $206.8M/yr (premium)\n[BTTT] 551 mol/s (2-methylpentane 34%, 3-methylpentane 33%, N-hexane 28%, Methylcyclopentane 4%, 2,2-dimethylbutane 2%, N-pentane 0%) -> sold for $600.5M/yr (blend: C6 paraffin mix)\n[BTTB] 432 mol/s (N-hexane 43%, Methylcyclopentane 24%, Cyclohexane 21%, N-heptane 9%, 3-methylpentane 2%, 2-methylpentane 0%) -> sold for $0.0M/yr (not pure enough: worth 0)\n[BTBT] 281 mol/s (N-heptane 98%, Cyclohexane 1%, N-octane 1%, N-hexane 0%, Methylcyclopentane 0%, 3-methylpentane 0%) -> sold for $338.7M/yr\n[BTBB] 22 mol/s (N-octane 95%, N-heptane 5%, N-nonane 0%, Cyclohexane 0%) -> sold for $40.5M/yr",
+      "id": "R17"
+    },
+    {
+      "agent": "agent-0",
+      "island": 0,
+      "family": "agent-0",
+      "round": 18,
+      "reward": 2.149889592857154,
+      "valid": true,
+      "design": {
+        "": [
+          50,
+          1.8,
+          2.75,
+          0.3
+        ],
+        "T": [
+          30,
+          1.5,
+          2.6,
+          0.0
+        ],
+        "B": [
+          40,
+          2.0,
+          5.4,
+          0.5
+        ],
+        "BB": [
+          60,
+          3.5,
+          13.3,
+          0.3
+        ],
+        "TT": [
+          40,
+          2.5,
+          9.9,
+          0.0
+        ],
+        "BT": [
+          50,
+          1.7,
+          8.3,
+          0.0
+        ],
+        "BTB": [
+          60,
+          1.45,
+          29.5,
+          0.0
+        ],
+        "BTT": [
+          110,
+          8.0,
+          10.9,
+          0.0
+        ]
+      },
+      "columns": 8,
+      "revenue": 2807520911.916523,
+      "tac": 1022578063.2295277,
+      "note": "T17 lost heptane premium (BT reflux 1.5) and C4 mix (T reflux 1.3); revert to T16 best and try root reflux trim 2.0->1.8 holding D~1482.",
+      "copied": null,
+      "graft": null,
+      "shown": [],
+      "solves": 52,
+      "structure": [
+        "22DMB..nC7 | 3MP/nC6",
+        "2MP..nC8 | CH/nC7",
+        "2MP..nC9 | nC7/nC8",
+        "C2..nC4 | C3/iC4",
+        "C3=..nC5 | nC4/iC5",
+        "C3=..nC9 | nC5/2MP",
+        "nC7..nC8 | nC7/nC8",
+        "nC8..nC9 | nC8/nC9"
+      ],
+      "niche": "first cut nC5/2MP, 8+ columns",
+      "view": "reward 2.150 | revenue $2807.5M/yr | column cost $1022.6M/yr | 8 columns | solves used 52/200\n[feed] 3300 mol/s (Propane 15%, N-pentane 13%, N-octane 13%, N-hexane 10%, N-heptane 10%, Isopentane 9%) -> column 50 stages, reflux 1.8, boil-up 2.75, dp 0.3, cost $208.0M/yr\n[T] 1480 mol/s (Propane 33%, N-pentane 29%, Isopentane 20%, N-butane 10%, Isobutane 3%, Propylene 3%) -> column 30 stages, reflux 1.5, boil-up 2.6, dp 0.0, cost $63.3M/yr\n[B] 1820 mol/s (N-octane 23%, N-hexane 19%, N-heptane 17%, 3-methylpentane 10%, 2-methylpentane 10%, N-nonane 7%) -> column 40 stages, reflux 2.0, boil-up 5.4, dp 0.5, cost $178.2M/yr\n[TT] 732 mol/s (Propane 67%, N-butane 19%, Isobutane 7%, Propylene 5%, Ethane 2%, Isopentane 0%) -> column 40 stages, reflux 2.5, boil-up 9.9, dp 0.0, cost $51.5M/yr\n[TB] 748 mol/s (N-pentane 57%, Isopentane 39%, N-butane 2%, 2,2-dimethylbutane 1%, 2-methylpentane 1%, 3-methylpentane 0%) -> sold for $651.0M/yr (blend: C5 mix)\n[BT] 1287 mol/s (N-hexane 26%, N-heptane 24%, 3-methylpentane 15%, 2-methylpentane 14%, Methylcyclopentane 10%, Cyclohexane 7%) -> column 50 stages, reflux 1.7, boil-up 8.3, dp 0.0, cost $134.3M/yr\n[BB] 533 mol/s (N-octane 76%, N-nonane 24%, N-heptane 0%, Cyclohexane 0%, Methylcyclopentane 0%, N-hexane 0%) -> column 60 stages, reflux 3.5, boil-up 13.3, dp 0.3, cost $110.8M/yr\n[TTT] 554 mol/s (Propane 89%, Propylene 7%, Ethane 2%, Isobutane 2%, N-butane 0%) -> sold for $154.0M/yr (blend: C3 mix)\n[TTB] 177 mol/s (N-butane 77%, Isobutane 20%, Isopentane 2%, N-pentane 1%, Propane 0%, 2,2-dimethylbutane 0%) -> sold for $70.2M/yr (blend: C4 mix)\n[BTT] 986 mol/s (N-hexane 34%, 3-methylpentane 19%, 2-methylpentane 19%, Methylcyclopentane 13%, Cyclohexane 10%, N-heptane 4%) -> column 110 stages, reflux 8.0, boil-up 10.9, dp 0.0, cost $237.8M/yr\n[BTB] 302 mol/s (N-heptane 92%, N-octane 7%, Cyclohexane 0%, N-hexane 0%, Methylcyclopentane 0%, 3-methylpentane 0%) -> column 60 stages, reflux 1.45, boil-up 29.5, dp 0.0, cost $38.6M/yr\n[BBT] 410 mol/s (N-octane 99%, N-nonane 1%, N-heptane 0%, Cyclohexane 0%, Methylcyclopentane 0%, N-hexane 0%) -> sold for $786.7M/yr\n[BBB] 123 mol/s (N-nonane 100%, N-octane 0%) -> sold for $207.1M/yr (premium)\n[BTTT] 552 mol/s (2-methylpentane 33%, 3-methylpentane 33%, N-hexane 28%, Methylcyclopentane 4%, 2,2-dimethylbutane 2%, N-pentane 1%) -> sold for $598.1M/yr (blend: C6 paraffin mix)\n[BTTB] 433 mol/s (N-hexane 43%, Methylcyclopentane 24%, Cyclohexane 22%, N-heptane 8%, 3-methylpentane 3%, 2-methylpentane 0%) -> sold for $0.0M/yr (not pure enough: worth 0)\n[BTBT] 280 mol/s (N-heptane 99%, N-octane 1%, Cyclohexane 0%, N-hexane 0%, Methylcyclopentane 0%, 3-methylpentane 0%) -> sold for $340.5M/yr\n[BTBB] 22 mol/s (N-octane 92%, N-heptane 8%, N-nonane 0%) -> sold for $0.0M/yr (not pure enough: worth 0)",
+      "id": "R18"
+    }
+  ],
+  "events": [
+    {
+      "kind": "round",
+      "round": 1,
+      "team_best": 0.0,
+      "team_solves": 1,
+      "active": 1,
+      "usd_logged": 0.034848,
+      "usd_real": 0.034848,
+      "t": 11.87
+    },
+    {
+      "kind": "round",
+      "round": 2,
+      "team_best": 0.0,
+      "team_solves": 4,
+      "active": 1,
+      "usd_logged": 0.082592,
+      "usd_real": 0.082592,
+      "t": 28.39
+    },
+    {
+      "kind": "round",
+      "round": 3,
+      "team_best": 0.0,
+      "team_solves": 7,
+      "active": 1,
+      "usd_logged": 0.14622000000000002,
+      "usd_real": 0.14622000000000002,
+      "t": 53.48
+    },
+    {
+      "kind": "round",
+      "round": 4,
+      "team_best": 0.0,
+      "team_solves": 11,
+      "active": 1,
+      "usd_logged": 0.19931200000000002,
+      "usd_real": 0.19931200000000002,
+      "t": 70.22
+    },
+    {
+      "kind": "round",
+      "round": 5,
+      "team_best": 0.2028388731505205,
+      "team_solves": 15,
+      "active": 1,
+      "usd_logged": 0.253612,
+      "usd_real": 0.253612,
+      "t": 86.51
+    },
+    {
+      "kind": "round",
+      "round": 6,
+      "team_best": 1.2807887136140033,
+      "team_solves": 17,
+      "active": 1,
+      "usd_logged": 0.30948,
+      "usd_real": 0.30948,
+      "t": 104.98
+    },
+    {
+      "kind": "round",
+      "round": 7,
+      "team_best": 1.324241519779305,
+      "team_solves": 19,
+      "active": 1,
+      "usd_logged": 0.36686399999999997,
+      "usd_real": 0.36686399999999997,
+      "t": 122.9
+    },
+    {
+      "kind": "round",
+      "round": 8,
+      "team_best": 1.4284343126129668,
+      "team_solves": 21,
+      "active": 1,
+      "usd_logged": 0.443636,
+      "usd_real": 0.443636,
+      "t": 152.46
+    },
+    {
+      "kind": "round",
+      "round": 9,
+      "team_best": 1.4284343126129668,
+      "team_solves": 22,
+      "active": 1,
+      "usd_logged": 0.494052,
+      "usd_real": 0.494052,
+      "t": 164.64
+    },
+    {
+      "kind": "round",
+      "round": 10,
+      "team_best": 1.4284343126129668,
+      "team_solves": 23,
+      "active": 1,
+      "usd_logged": 0.555512,
+      "usd_real": 0.555512,
+      "t": 182.0
+    },
+    {
+      "kind": "round",
+      "round": 11,
+      "team_best": 1.4284343126129668,
+      "team_solves": 24,
+      "active": 1,
+      "usd_logged": 0.609992,
+      "usd_real": 0.609992,
+      "t": 195.74
+    },
+    {
+      "kind": "round",
+      "round": 12,
+      "team_best": 1.9376849158967735,
+      "team_solves": 32,
+      "active": 1,
+      "usd_logged": 0.670484,
+      "usd_real": 0.670484,
+      "t": 215.32
+    },
+    {
+      "kind": "round",
+      "round": 13,
+      "team_best": 2.107728709036946,
+      "team_solves": 33,
+      "active": 1,
+      "usd_logged": 0.729912,
+      "usd_real": 0.729912,
+      "t": 232.41
+    },
+    {
+      "kind": "round",
+      "round": 14,
+      "team_best": 2.1694472046684607,
+      "team_solves": 35,
+      "active": 1,
+      "usd_logged": 0.796652,
+      "usd_real": 0.796652,
+      "t": 251.89
+    },
+    {
+      "kind": "round",
+      "round": 15,
+      "team_best": 2.1694472046684607,
+      "team_solves": 36,
+      "active": 1,
+      "usd_logged": 0.8521000000000001,
+      "usd_real": 0.8521000000000001,
+      "t": 265.78
+    },
+    {
+      "kind": "round",
+      "round": 16,
+      "team_best": 2.1884241628997265,
+      "team_solves": 39,
+      "active": 1,
+      "usd_logged": 0.9051440000000001,
+      "usd_real": 0.9051440000000001,
+      "t": 278.82
+    },
+    {
+      "kind": "round",
+      "round": 17,
+      "team_best": 2.1884241628997265,
+      "team_solves": 44,
+      "active": 1,
+      "usd_logged": 0.974516,
+      "usd_real": 0.974516,
+      "t": 301.13
+    },
+    {
+      "kind": "round",
+      "round": 18,
+      "team_best": 2.1884241628997265,
+      "team_solves": 52,
+      "active": 1,
+      "usd_logged": 1.034068,
+      "usd_real": 1.034068,
+      "t": 318.04
+    },
+    {
+      "kind": "finish",
+      "round": 19,
+      "agent": "agent-0",
+      "note": "Best design is turn 16 (reward 2.188): 8 columns in a tree. The root splits C5 and lighter from C6 and heavier, and the lighter side gives a C3 mix, a C4 mix and a C5 mix. The heavier side gives a C6 paraffin mix, n-heptane at the 99% premium grade, n-octane (99% in the plant shown above; premium status not confirmed in turn 16), and n-nonane at the 99% premium grade. Turn 18's root reflux cut lowered column cost by $12M/yr but cut the reward to 2.150, so it did not pay. The other cost trims also lost product grades (turns 15 and 17). Two streams stay unsold. The hexane/MCP/cyclohexane/heptane bottoms (433 mol/s, worth about $216M/yr if pure) would need at least two more hard, tall columns, and I didn't test that. The small high-octane cut (22 mol/s, worth about $39M/yr) is also unsold. This is an expensive-plant scenario, so further gains look small next to the risk; I stopped with 52 of 200 solves used.",
+      "t": 328.24
+    },
+    {
+      "kind": "round",
+      "round": 19,
+      "team_best": 2.1884241628997265,
+      "team_solves": 52,
+      "active": 1,
+      "usd_logged": 1.080584,
+      "usd_real": 1.080584,
+      "t": 328.24
+    }
+  ],
+  "team_curve": [
+    [
+      1,
+      0.0,
+      11.9
+    ],
+    [
+      4,
+      0.0,
+      28.4
+    ],
+    [
+      7,
+      0.0,
+      53.5
+    ],
+    [
+      11,
+      0.0,
+      70.2
+    ],
+    [
+      15,
+      0.2028388731505205,
+      86.5
+    ],
+    [
+      17,
+      1.2807887136140033,
+      105.0
+    ],
+    [
+      19,
+      1.324241519779305,
+      122.9
+    ],
+    [
+      21,
+      1.4284343126129668,
+      152.5
+    ],
+    [
+      22,
+      1.4284343126129668,
+      164.6
+    ],
+    [
+      23,
+      1.4284343126129668,
+      182.0
+    ],
+    [
+      24,
+      1.4284343126129668,
+      195.7
+    ],
+    [
+      32,
+      1.9376849158967735,
+      215.3
+    ],
+    [
+      33,
+      2.107728709036946,
+      232.4
+    ],
+    [
+      35,
+      2.1694472046684607,
+      251.9
+    ],
+    [
+      36,
+      2.1694472046684607,
+      265.8
+    ],
+    [
+      39,
+      2.1884241628997265,
+      278.8
+    ],
+    [
+      44,
+      2.1884241628997265,
+      301.1
+    ],
+    [
+      52,
+      2.1884241628997265,
+      318.0
+    ]
+  ],
+  "turns": {
+    "agent-0": [
+      {
+        "turn": 1,
+        "action": "edit",
+        "record": "R1",
+        "note": "Calibrate: first column splitting C5-and-lighter from C6+.",
+        "edits": [
+          {
+            "op": "set",
+            "node": "",
+            "n_stages": 30,
+            "reflux_ratio": 1.5,
+            "reboil_ratio": 2.0,
+            "pressure_drop_fraction": 0.3
+          }
+        ],
+        "copy_from": null,
+        "graft": null,
+        "notebook": "PLAN: 1) first split C5-/C6+ at feed. 2) tops: remove C3/C4 then C5 blend. 3) bottoms: split C6 / C7+, octane pure, heptane pure. 4) tune reflux/stages for cost. Step 1.\nValue unit: price*mol/s*28.8e6 $/yr. C5 blend ~659M vs pure 770M.",
+        "shown": [],
+        "plan": null,
+        "effort": null,
+        "reward": -0.20436434026373196,
+        "valid": true,
+        "solves_used": 1
+      },
+      {
+        "turn": 2,
+        "action": "edit",
+        "record": "R2",
+        "note": "Sharpen C5/C6 split with more boil-up; add C4-/C5 split on tops and C6/C7+ split on bottoms.",
+        "edits": [
+          {
+            "op": "set",
+            "node": "",
+            "n_stages": 40,
+            "reflux_ratio": 2.0,
+            "reboil_ratio": 3.0,
+            "pressure_drop_fraction": 0.3
+          },
+          {
+            "op": "set",
+            "node": "T",
+            "n_stages": 30,
+            "reflux_ratio": 1.5,
+            "reboil_ratio": 2.0,
+            "pressure_drop_fraction": 0.0
+          },
+          {
+            "op": "set",
+            "node": "B",
+            "n_stages": 30,
+            "reflux_ratio": 1.5,
+            "reboil_ratio": 2.0,
+            "pressure_drop_fraction": 0.5
+          }
+        ],
+        "copy_from": null,
+        "graft": null,
+        "notebook": "PLAN: 1) first split C5-/C6+ at feed. 2) tops: split C4-/C5 (C5 blend 659M). 3) bottoms: C6 / C7+, then octane pure, heptane, C6 paraffin blend (836M) vs naphthene (328M). 4) tune reflux/stages for cost. Step 1-3.\nValue unit: price*mol/s*28.8e6 $/yr. Blend values: C3 154M, C4 81M, C5 659M, C6par 836M, C6naph 328M.\nT1: 30/1.5/2.0/0.3 root cost 170M, T too small (1309 vs 1474 target) -> boilup up.",
+        "shown": [],
+        "plan": null,
+        "effort": null,
+        "reward": -0.4590669833079974,
+        "valid": true,
+        "solves_used": 4
+      },
+      {
+        "turn": 3,
+        "action": "edit",
+        "record": "R3",
+        "note": "Shift T cut to pull all C4 overhead; move B cut to C7/C8 and add BB octane/nonane split targeting pure octane.",
+        "edits": [
+          {
+            "op": "set",
+            "node": "T",
+            "n_stages": 30,
+            "reflux_ratio": 1.5,
+            "reboil_ratio": 2.6,
+            "pressure_drop_fraction": 0.0
+          },
+          {
+            "op": "set",
+            "node": "B",
+            "n_stages": 30,
+            "reflux_ratio": 1.0,
+            "reboil_ratio": 3.0,
+            "pressure_drop_fraction": 0.5
+          },
+          {
+            "op": "set",
+            "node": "BB",
+            "n_stages": 25,
+            "reflux_ratio": 1.5,
+            "reboil_ratio": 4.0,
+            "pressure_drop_fraction": 0.3
+          }
+        ],
+        "copy_from": null,
+        "graft": null,
+        "notebook": "PLAN: 1) root C5-/C6+. 2) T: C4-/C5 -> C5 blend (659M). 3) B: cut C7-/C8+ (C6/C7 unsold, C6 paraffin blend needs hexane/MCP split - too hard), BB: octane/nonane -> pure octane (826M). 4) tune reflux/stages/cost; maybe C3 mix from TT. Step 2-3.\nValue unit: price*mol/s*28.8e6 $/yr. Blend values: C3 154M, C4 81M, C5 659M, C6par 836M, C6naph 328M.\nT1: 30/1.5/2.0/0.3 root cost 170M; T2 root 40/2/3 cost 223M, TB had 9% nC4 & 4% C6 (T distillate too small: 657 vs ~745 lights).\nDistillate controlled by boilup vs reflux: more boilup -> more distillate.\nTargets: T D~745; B D~1272 (C6+C7); BB D~427 octane.",
+        "shown": [],
+        "plan": null,
+        "effort": null,
+        "reward": -0.5379866740535545,
+        "valid": true,
+        "solves_used": 7
+      },
+      {
+        "turn": 4,
+        "action": "edit",
+        "record": "R4",
+        "note": "Sharpen root C5/C6 split (more stages), B C7/C8 split, and push BB distillate toward 427 octane.",
+        "edits": [
+          {
+            "op": "set",
+            "node": "",
+            "n_stages": 50,
+            "reflux_ratio": 2.0,
+            "reboil_ratio": 3.0,
+            "pressure_drop_fraction": 0.3
+          },
+          {
+            "op": "set",
+            "node": "B",
+            "n_stages": 40,
+            "reflux_ratio": 1.2,
+            "reboil_ratio": 3.3,
+            "pressure_drop_fraction": 0.5
+          },
+          {
+            "op": "set",
+            "node": "BB",
+            "n_stages": 35,
+            "reflux_ratio": 2.5,
+            "reboil_ratio": 5.5,
+            "pressure_drop_fraction": 0.3
+          }
+        ],
+        "copy_from": null,
+        "graft": null,
+        "notebook": "PLAN: 1) root C5-/C6+. 2) T: C4-/C5 -> C5 blend (659M). 3) B: cut C7-/C8+, BB: octane/nonane -> pure octane (826M). 4) tune reflux/stages/cost; maybe C3 mix from TT. Step 2-3.\nValue unit: price*mol/s*28.8e6 $/yr. Blend values: C3 154M, C4 81M, C5 659M, C6par 836M, C6naph 328M.\nT1: 30/1.5/2.0/0.3 root cost 170M; T2 root 40/2/3 cost 223M.\nT3: TB 94% C5 (4% C6 leak from root, 1% nC4). BBT 78% oct (17% C7 from B leak, 5% C9). BB D 358 vs 427 target.\nDistillate controlled by boilup vs reflux: more boilup -> more distillate.\nTargets: T D~745; B D~1272 (C6+C7); BB D~427 octane.\nT4: root 50 stages, B 40/1.2/3.3, BB 35/2.5/5.5.",
+        "shown": [],
+        "plan": null,
+        "effort": null,
+        "reward": -0.5789753236554349,
+        "valid": true,
+        "solves_used": 11
+      },
+      {
+        "turn": 5,
+        "action": "edit",
+        "record": "R5",
+        "note": "Fix distillate rates: root D toward 1474 (cut C6 leak into C5), B D toward 1272 (push heptane out of BB), BB D toward 427.",
+        "edits": [
+          {
+            "op": "set",
+            "node": "",
+            "n_stages": 50,
+            "reflux_ratio": 2.0,
+            "reboil_ratio": 2.85,
+            "pressure_drop_fraction": 0.3
+          },
+          {
+            "op": "set",
+            "node": "B",
+            "n_stages": 40,
+            "reflux_ratio": 1.2,
+            "reboil_ratio": 3.6,
+            "pressure_drop_fraction": 0.5
+          },
+          {
+            "op": "set",
+            "node": "BB",
+            "n_stages": 35,
+            "reflux_ratio": 2.5,
+            "reboil_ratio": 6.5,
+            "pressure_drop_fraction": 0.3
+          }
+        ],
+        "copy_from": null,
+        "graft": null,
+        "notebook": "PLAN: 1) root C5-/C6+. 2) T: C4-/C5 -> C5 blend (659M). 3) B: cut C7-/C8+, BB: octane/nonane -> pure octane (826M). 4) tune reflux/stages/cost; maybe C3 mix from TT. Step 2-3 (fixing distillate rates).\nValue unit: price*mol/s*28.8e6 $/yr. Blend values: C3 154M, C4 81M, C5 659M, C6par 836M, C6naph 328M.\nT1: 30/1.5/2.0/0.3 root cost 170M; T2 root 40/2/3 cost 223M.\nTarget D: root 1474 (C5-), T 742 (C4-), B 1272 (C6+C7), BB 427 (octane).\nT4 (root 50/2/3 -> D1506; T 30/1.5/2.6 -> D741 good; B 40/1.2/3.3 -> D1239; BB 35/2.5/5.5 -> D359). TB 94% C5. BBT 87% oct, 12% C7.\nDistillate controlled by boilup vs reflux: more boilup -> more distillate.\nT5: root boil 2.85, B boil 3.6, BB boil 6.5.",
+        "shown": [],
+        "plan": null,
+        "effort": null,
+        "reward": 0.2028388731505205,
+        "valid": true,
+        "solves_used": 15
+      },
+      {
+        "turn": 6,
+        "action": "edit",
+        "record": "R6",
+        "note": "Sharpen B C7/C8 split (more reflux, matched boilup) to cut heptane in octane; raise BB boilup so D\u2248427 octane, B\u2248126 nonane.",
+        "edits": [
+          {
+            "op": "set",
+            "node": "B",
+            "n_stages": 40,
+            "reflux_ratio": 2.0,
+            "reboil_ratio": 5.4,
+            "pressure_drop_fraction": 0.5
+          },
+          {
+            "op": "set",
+            "node": "BB",
+            "n_stages": 40,
+            "reflux_ratio": 2.5,
+            "reboil_ratio": 10.0,
+            "pressure_drop_fraction": 0.3
+          }
+        ],
+        "copy_from": null,
+        "graft": null,
+        "notebook": "PLAN: 1) root C5-/C6+. 2) T: C4-/C5 -> C5 blend (649M done). 3) B: cut C7-/C8+, BB: octane/nonane -> pure octane (654M) + nonane (173M). 4) tune reflux/stages/cost; maybe C6 par blend from BT, C3 mix from TT. On step 3.\nValue unit: price*mol/s*28.8e6 $/yr. Blend values: C3 154M, C4 81M, C5 659M, C6par 836M, C6naph 328M.\nT1: 30/1.5/2.0/0.3 root cost 170M; T2 root 40/2/3 cost 223M.\nTarget D: root 1474 (C5-), T 742 (C4-), B 1280 (C6+C7), BB 427 (octane).\nT5 (score 0.203): root 50/2/2.85/0.3 cost 217; T 30/1.5/2.6/0 ->TB 97% C5 sold 649M; B 40/1.2/3.6/0.5 D1294 but BB still 5% C7; BB 35/2.5/6.5 D369 (BBT 91% oct, 8% C7).\nDistillate controlled by boilup vs reflux: more boilup -> more distillate. Estimate: V_top=(R+1)D, V_bot=V_top - feed vapour; boil=V_bot/B. B col feed vapour ~900, BB ~186.\nT6: B 40/2/5.4, BB 40/2.5/10.",
+        "shown": [],
+        "plan": null,
+        "effort": null,
+        "reward": 1.2807887136140033,
+        "valid": true,
+        "solves_used": 17
+      },
+      {
+        "turn": 7,
+        "action": "edit",
+        "record": "R7",
+        "note": "Add TT C3/C4 split (C3 mix + C4 mix) and BT C6/C7 split to try pure heptane bottoms.",
+        "edits": [
+          {
+            "op": "set",
+            "node": "TT",
+            "n_stages": 30,
+            "reflux_ratio": 1.5,
+            "reboil_ratio": 7.3,
+            "pressure_drop_fraction": 0.0
+          },
+          {
+            "op": "set",
+            "node": "BT",
+            "n_stages": 50,
+            "reflux_ratio": 2.0,
+            "reboil_ratio": 9.3,
+            "pressure_drop_fraction": 0.0
+          }
+        ],
+        "copy_from": null,
+        "graft": null,
+        "notebook": "PLAN: 1) root C5-/C6+. 2) T: C4-/C5 -> C5 blend (649M done). 3) B: C7-/C8+, BB oct/non (done, 1.281). 4) TT C3/C4 -> C3 mix+C4 mix (~235M); BT C6/C7 -> pure heptane bottoms (387M). 5) tune cost. On step 4.\nValue unit: price*mol/s*28.8e6 $/yr. Blend values: C3 154M, C4 81M, C5 659M, C6par 836M, C6naph 328M.\nT1: 30/1.5/2.0/0.3 root cost 170M; T2 root 40/2/3 cost 223M.\nTarget D: root 1474 (C5-), T 742 (C4-), B 1280 (C6+C7), BB 427 (octane), TT 541 (C3+C2), BT 982 (C6s).\nDistillate controlled by boilup vs reflux: more boilup -> more distillate. Estimate: V_top=(R+1)D, V_bot=V_top - feed vapour; boil=V_bot/B. B col feed vapour ~900, BB ~186. Distillate feeds (TT, BT) ~ liquid.\nT6 (1.281): root 50/2/2.85/0.3 cost217; T 30/1.5/2.6/0 cost63; B 40/2/5.4/0.5 cost179; BB 40/2.5/10/0.3 cost85 -> BBT 98% oct, BBB 97% non.\nIdea later: BB premium octane (99%) worth +20%=~157M more.",
+        "shown": [],
+        "plan": null,
+        "effort": null,
+        "reward": 1.324241519779305,
+        "valid": true,
+        "solves_used": 19
+      },
+      {
+        "turn": 8,
+        "action": "edit",
+        "record": "R8",
+        "note": "Add heptane/octane polish on BTB (pure heptane tops) and a C6 paraffin vs MCP column on BTT (tops ~650 C6 paraffin mix).",
+        "edits": [
+          {
+            "op": "set",
+            "node": "BTB",
+            "n_stages": 30,
+            "reflux_ratio": 1.0,
+            "reboil_ratio": 25,
+            "pressure_drop_fraction": 0.0
+          },
+          {
+            "op": "set",
+            "node": "BTT",
+            "n_stages": 80,
+            "reflux_ratio": 6.0,
+            "reboil_ratio": 13.2,
+            "pressure_drop_fraction": 0.0
+          }
+        ],
+        "copy_from": null,
+        "graft": null,
+        "notebook": "PLAN: 1) root C5-/C6+. 2) T: C4-/C5 -> C5 blend (649M done). 3) B: C7-/C8+, BB oct/non (done). 4) TT C3/C4 done (1.324); BT C6/C7 gives BTB 94% heptane, BTT 74% C6par. 5) Now: BTB hept/oct polish column (D~280), BTT paraffin/MCP column (D~650, 80st R6). 6) tune cost.\nValue unit: price*mol/s*28.8e6 $/yr. Blend values: C3 154M, C4 81M, C5 659M, C6par 836M (1.14M per mol/s paraffin), C6naph 328M.\nDistillate controlled by boilup vs reflux: V_top=(R+1)D, V_bot=V_top - feed vapour; boil=V_bot/B. Distillate-fed cols ~liquid feed.\nT7 (1.324): root 50/2/2.85/0.3 cost217; T 30/1.5/2.6/0 cost63; B 40/2/5.4/0.5 cost179; BB 40/2.5/10/0.3 cost85 -> BBT 98% oct, BBB 97% non; TT 30/1.5/7.3 cost37 -> C3 154M, C4 69M; BT 50/2/9.3 cost150.\nBTB octane leak (18 mol/s) comes from B column C7/C8 split.\nIdea later: BB premium octane (99%) worth ~157M more.",
+        "shown": [],
+        "plan": null,
+        "effort": null,
+        "reward": 1.4284343126129668,
+        "valid": true,
+        "solves_used": 21
+      },
+      {
+        "turn": 9,
+        "action": "edit",
+        "record": "R9",
+        "note": "Push BTTT to 95% C6 paraffin: more stages, slightly lower distillate (~610) to cut MCP leak.",
+        "edits": [
+          {
+            "op": "set",
+            "node": "BTT",
+            "n_stages": 100,
+            "reflux_ratio": 7.0,
+            "reboil_ratio": 12.7,
+            "pressure_drop_fraction": 0.0
+          }
+        ],
+        "copy_from": null,
+        "graft": null,
+        "notebook": "PLAN: 1) root C5-/C6+. 2) T: C4-/C5 -> C5 blend (649M done). 3) B: C7-/C8+, BB oct/non (done). 4) TT C3/C4 done; BT C6/C7. 5) BTB hept/oct polish done (BTBT 98% hept 339M); BTT paraffin/MCP column: T8 80st R6 boil13.2 D662 -> 92% C6par (MCP 6%). Now step 5b: 100st R7 boil12.7 target D~610. 6) tune cost; maybe BTTB naphthene split; BB premium octane.\nValue unit: price*mol/s*28.8e6 $/yr. Blend values: C3 154M, C4 81M, C5 659M, C6par 836M (1.14M per mol/s paraffin), C6naph 328M.\nDistillate controlled by boilup vs reflux: V_top=(R+1)D, V_bot=V_top - feed vapour; boil=V_bot/B. Distillate-fed cols ~liquid feed.\nT8 (1.428): root 50/2/2.85/0.3 cost217; T 30/1.5/2.6/0 63; B 40/2/5.4/0.5 179; BB 40/2.5/10/0.3 85; TT 30/1.5/7.3 37; BT 50/2/9.3 150; BTB 30/1/25 31; BTT 80/6/13.2 222.\nBTB octane leak comes from B column C7/C8 split.",
+        "shown": [],
+        "plan": null,
+        "effort": null,
+        "reward": 1.4082262672911283,
+        "valid": true,
+        "solves_used": 22
+      },
+      {
+        "turn": 10,
+        "action": "edit",
+        "record": "R10",
+        "note": "Revert to best and retry BTT with lower distillate (~570) and higher reflux to drop MCP leak below ~3% so C6 paraffin mix hits 95%.",
+        "edits": [
+          {
+            "op": "revert"
+          },
+          {
+            "op": "set",
+            "node": "BT",
+            "n_stages": 50,
+            "reflux_ratio": 2.0,
+            "reboil_ratio": 9.3,
+            "pressure_drop_fraction": 0.0
+          },
+          {
+            "op": "set",
+            "node": "BTT",
+            "n_stages": 110,
+            "reflux_ratio": 8.0,
+            "reboil_ratio": 12.0,
+            "pressure_drop_fraction": 0.0
+          }
+        ],
+        "copy_from": null,
+        "graft": null,
+        "notebook": "PLAN: 1) root C5-/C6+. 2) T: C4-/C5 -> C5 blend (649M done). 3) B: C7-/C8+, BB oct/non (done). 4) TT C3/C4 done; BT C6/C7. 5) BTB hept/oct polish done (BTBT 98% hept 339M); BTT paraffin/MCP column: T8 80st R6 boil13.2 D662 -> 92% C6par (MCP 6%); T9 100st R7 boil12.7 D622 -> 93% (MCP5%, nC5 2%, ~12 mol/s pentane from root). Step 5c: 110st R8 boil12 target D~570. 6) tune cost; maybe reduce pentane leak at root; BTTB naphthene split; BB premium octane.\nValue unit: price*mol/s*28.8e6 $/yr. Blend values: C3 154M, C4 81M, C5 659M, C6par 836M (1.14M per mol/s paraffin), C6naph 328M.\nDistillate controlled by boilup vs reflux: V_top=(R+1)D, V_bot=V_top - feed vapour; boil=V_bot/B. Distillate-fed cols ~liquid feed (BTT: D slightly above liquid-feed estimate by ~12).\nT8 (1.428): root 50/2/2.85/0.3 cost217; T 30/1.5/2.6/0 63; B 40/2/5.4/0.5 179; BB 40/2.5/10/0.3 85; TT 30/1.5/7.3 37; BT 50/2/9.3 150; BTB 30/1/25 31; BTT 80/6/13.2 222.\nBTB octane leak comes from B column C7/C8 split.",
+        "shown": [],
+        "plan": null,
+        "effort": null,
+        "reward": 1.3944697056407662,
+        "valid": true,
+        "solves_used": 23
+      },
+      {
+        "turn": 11,
+        "action": "edit",
+        "record": "R11",
+        "note": "BTTT sits just under 95% C6 paraffin; lower distillate to ~550 at same reflux to cut MCP leak below ~2.5%.",
+        "edits": [
+          {
+            "op": "set",
+            "node": "BTT",
+            "n_stages": 110,
+            "reflux_ratio": 8.0,
+            "reboil_ratio": 10.9,
+            "pressure_drop_fraction": 0.0
+          }
+        ],
+        "copy_from": null,
+        "graft": null,
+        "notebook": "PLAN: 1) root C5-/C6+. 2) T: C4-/C5 -> C5 blend (649M done). 3) B: C7-/C8+, BB oct/non (done). 4) TT C3/C4 done; BT C6/C7. 5) BTB hept/oct polish done (BTBT 98% hept 339M); BTT paraffin/MCP column: T8 80st R6 boil13.2 D662 -> 92% C6par (MCP 6%); T9 100st R7 boil12.7 D622 -> 93%; T10 110st R8 boil12 D581 -> 94.9% (MCP4%, nC5 2%) just short. Step 5d: 110/R8/boil10.9 target D~550. If fails, cut root pentane leak (root more stages/reflux). 6) tune cost; BTTB naphthene split; BB premium octane.\nValue unit: price*mol/s*28.8e6 $/yr. Blend values: C3 154M, C4 81M, C5 659M, C6par 836M (1.14M per mol/s paraffin), C6naph 328M.\nDistillate controlled by boilup vs reflux: V_top=(R+1)D, V_bot=V_top - feed vapour; boil=V_bot/B. Distillate-fed cols ~liquid feed (BTT: D slightly above liquid-feed estimate by ~12).\nT8 (1.428): root 50/2/2.85/0.3 cost217; T 30/1.5/2.6/0 63; B 40/2/5.4/0.5 179; BB 40/2.5/10/0.3 85; TT 30/1.5/7.3 37; BT 50/2/9.3 150; BTB 30/1/25 31; BTT 80/6/13.2 222 (110/8/12 costs 250).\nBTB octane leak comes from B column C7/C8 split.",
+        "shown": [],
+        "plan": null,
+        "effort": null,
+        "reward": 1.406934252727805,
+        "valid": true,
+        "solves_used": 24
+      },
+      {
+        "turn": 12,
+        "action": "edit",
+        "record": "R12",
+        "note": "BTTT stuck at ~95% because ~2% n-pentane leaks from root; raise root distillate ~18 mol/s to push pentane overhead (C5 blend has margin).",
+        "edits": [
+          {
+            "op": "set",
+            "node": "",
+            "n_stages": 50,
+            "reflux_ratio": 2.0,
+            "reboil_ratio": 2.91,
+            "pressure_drop_fraction": 0.3
+          }
+        ],
+        "copy_from": null,
+        "graft": null,
+        "notebook": "PLAN: 1) root C5-/C6+. 2) T: C4-/C5 -> C5 blend (649M done). 3) B: C7-/C8+, BB oct/non (done). 4) TT C3/C4 done; BT C6/C7. 5) BTB hept/oct polish done (BTBT 98% hept 339M); BTT paraffin/MCP column: T8 80st R6 boil13.2 D662 -> 92% C6par (MCP 6%); T9 100st R7 boil12.7 D622 -> 93%; T10 110st R8 boil12 D581 -> 94.9%; T11 110/R8/boil10.9 D557 -> still just <95% (MCP3%, nC5 2%). Step 5e (T12): root boil 2.85->2.91 to raise root D ~1485 and push nC5 out of B. If works, then trim BTT cost. 6) tune cost; BTTB naphthene split; BB premium octane.\nValue unit: price*mol/s*28.8e6 $/yr. Blend values: C3 154M, C4 81M, C5 659M, C6par 836M (1.14M per mol/s paraffin), C6naph 328M.\nDistillate controlled by boilup vs reflux: V_top=(R+1)D, V_bot=V_top - feed vapour; boil=V_bot/B. Root feed effectively subcooled (V_bot>V_top). Distillate-fed cols ~liquid feed.\nT8 (1.428): root 50/2/2.85/0.3 cost217; T 30/1.5/2.6/0 63; B 40/2/5.4/0.5 179; BB 40/2.5/10/0.3 85; TT 30/1.5/7.3 37; BT 50/2/9.3 150; BTB 30/1/25 31; BTT 80/6/13.2 222 (110/8/12 costs 250).\nBTB octane leak comes from B column C7/C8 split.",
+        "shown": [],
+        "plan": null,
+        "effort": null,
+        "reward": 1.9376849158967735,
+        "valid": true,
+        "solves_used": 32
+      },
+      {
+        "turn": 13,
+        "action": "edit",
+        "record": "R13",
+        "note": "TTT is at 95% C3 mix limit; sharpen TT C3/C4 split (more stages, reflux) and slightly lower D (~550) to cut isobutane leak so C3 mix sells (~$154M).",
+        "edits": [
+          {
+            "op": "set",
+            "node": "TT",
+            "n_stages": 40,
+            "reflux_ratio": 2.5,
+            "reboil_ratio": 9.9,
+            "pressure_drop_fraction": 0.0
+          }
+        ],
+        "copy_from": null,
+        "graft": null,
+        "notebook": "PLAN: 1) root C5-/C6+. 2) T: C4-/C5 -> C5 blend. 3) B: C7-/C8+, BB oct/non (done). 4) TT C3/C4; BT C6/C7. 5) BTB hept/oct done; BTT paraffin/MCP done T12 (root boil 2.91 pushed nC5 out -> BTTT C6par sells 603M, reward 1.938). 6) NOW step 6a (T13): TT 40st R2.5 boil9.9 to get TTT >95% C3 mix (iC4 2%, ethane 2% leak). Next: trim BTT cost (238M), BTTB (hexane/naphthene, likely not worth), BB premium octane, BTBB small.\nValue unit: price*mol/s*28.8e6 $/yr. Blend values: C3 154M, C4 81M, C5 659M, C6par 836M, C6naph 328M.\nDistillate controlled by boilup vs reflux: V_top=(R+1)D, V_bot=V_top - feed vapour; boil=V_bot/B. Root feed effectively subcooled. TT feed ~115 mol/s vapour-equivalent (V_top-V_bot).\nT12 best (1.938): root 50/2/2.91/0.3 cost220; T 30/1.5/2.6/0 63; B 40/2/5.4/0.5 178; BB 40/2.5/10/0.3 84; TT 30/1.5/7.3 38; BT 50/2/9.3 149; BTB 30/1/25 31; BTT 110/8/10.9 238.\nBTB octane leak comes from B column C7/C8 split.",
+        "shown": [],
+        "plan": null,
+        "effort": null,
+        "reward": 2.107728709036946,
+        "valid": true,
+        "solves_used": 33
+      },
+      {
+        "turn": 14,
+        "action": "edit",
+        "record": "R14",
+        "note": "Chase premium grades: BB octane 98->99% (+156M) with more stages/reflux; BTB heptane 98->99% (+67M) with more stages, D~277.",
+        "edits": [
+          {
+            "op": "set",
+            "node": "BB",
+            "n_stages": 60,
+            "reflux_ratio": 3.5,
+            "reboil_ratio": 13.3,
+            "pressure_drop_fraction": 0.3
+          },
+          {
+            "op": "set",
+            "node": "BTB",
+            "n_stages": 60,
+            "reflux_ratio": 1.45,
+            "reboil_ratio": 29.5,
+            "pressure_drop_fraction": 0.0
+          }
+        ],
+        "copy_from": null,
+        "graft": null,
+        "notebook": "PLAN: 1-5 done (root C5-/C6+, T C4-/C5, B C7-/C8+, BB oct/non, TT C3/C4, BT C6/C7, BTB hept/oct, BTT C6par/MCP). 6a done T13 (TT 40/2.5/9.9 -> C3 mix sells, 2.108). NOW 6b (T14): premium grades: BB 60/3.5/13.3 for octane 99% (+156M), BTB 60/1.45/29.5 for heptane 99% (+67M). Next: trim BTT cost (238M, BTTT 96% C6par has small margin), BBB nonane 99%, root/B cost trims.\nValue unit: price*mol/s*28.8e6 $/yr. Blend values: C3 154M, C4 81M, C5 659M, C6par 836M, C6naph 328M.\nDistillate control: V_top=(R+1)D, V_bot=V_top - feed vapour; boil=V_bot/B. BB feed vapour ~190; BTB ~31; TT ~115. Boil-up capped at 30 -> limits reflux on small-bottoms columns.\nT13 best (2.108): root 50/2/2.91/0.3 cost220; T 30/1.5/2.6/0 63; B 40/2/5.4/0.5 178; BB 40/2.5/10/0.3 84; TT 40/2.5/9.9 52; BT 50/2/9.3 149; BTB 30/1/25 31; BTT 110/8/10.9 238.\nBTB octane leak comes from B column C7/C8 split.",
+        "shown": [],
+        "plan": null,
+        "effort": null,
+        "reward": 2.1694472046684607,
+        "valid": true,
+        "solves_used": 35
+      },
+      {
+        "turn": 15,
+        "action": "edit",
+        "record": "R15",
+        "note": "Trim BTT cost (238M) by lowering reflux 8->7 while holding D~553; BTTT has ~1% margin on C6 paraffin spec.",
+        "edits": [
+          {
+            "op": "set",
+            "node": "BTT",
+            "n_stages": 110,
+            "reflux_ratio": 7.0,
+            "reboil_ratio": 9.62,
+            "pressure_drop_fraction": 0.0
+          }
+        ],
+        "copy_from": null,
+        "graft": null,
+        "notebook": "PLAN: 1-5 done (root C5-/C6+, T C4-/C5, B C7-/C8+, BB oct/non, TT C3/C4, BT C6/C7, BTB hept/oct, BTT C6par/MCP). 6a done T13 (C3 mix sells). 6b done T14 (2.169): octane 99% premium via BB 60/3.5/13.3, heptane 99% via BTB 60/1.45/29.5. NOW 7 (T15): trim BTT cost: 110/7/9.62 (was 110/8/10.9, 238M). Next: root/B cost trims; BTTB (434, hex43/MCP24/CH22/C7 9) unsold - hard (hexane/MCP close).\nValue unit: price*mol/s*28.8e6 $/yr. Blend values: C3 154M, C4 81M, C5 659M, C6par 836M, C6naph 328M.\nDistillate control: V_top=(R+1)D, V_bot=V_top - feed vapour; boil=V_bot/B. BB feed vapour ~190; BTB ~31; TT ~115; BTT feed ~ -250 (subcooled). Boil-up capped at 30.\nT14 best (2.169): root 50/2/2.91/0.3 cost220; T 30/1.5/2.6/0 63; B 40/2/5.4/0.5 178; BB 60/3.5/13.3/0.3 111; TT 40/2.5/9.9 52; BT 50/2/9.3 149; BTB 60/1.45/29.5 38; BTT 110/8/10.9 238.\nBTB octane leak comes from B column C7/C8 split.",
+        "shown": [],
+        "plan": null,
+        "effort": null,
+        "reward": 1.475779475603817,
+        "valid": true,
+        "solves_used": 36
+      },
+      {
+        "turn": 16,
+        "action": "edit",
+        "record": "R16",
+        "note": "Revert to best (BTT reflux 7 broke C6 paraffin spec), then try trimming BT reflux 2.0->1.7 keeping D~987.",
+        "edits": [
+          {
+            "op": "revert"
+          },
+          {
+            "op": "set",
+            "node": "BT",
+            "n_stages": 50,
+            "reflux_ratio": 1.7,
+            "reboil_ratio": 8.3,
+            "pressure_drop_fraction": 0.0
+          }
+        ],
+        "copy_from": null,
+        "graft": null,
+        "notebook": "PLAN: 1-5 done (root C5-/C6+, T C4-/C5, B C7-/C8+, BB oct/non, TT C3/C4, BT C6/C7, BTB hept/oct, BTT C6par/MCP). 6a done T13 (C3 mix sells). 6b done T14 (2.169): octane 99% premium via BB 60/3.5/13.3, heptane 99% via BTB 60/1.45/29.5. 7: cost trims. T15 BTT reflux 7 FAILED (BTTT fell below 95%) -> keep BTT 110/8/10.9. T16: revert + BT reflux 1.7/boil 8.3. Next: root/B cost trims carefully; BTTB unsold - hard.\nValue unit: price*mol/s*28.8e6 $/yr. Blend values: C3 154M, C4 81M, C5 659M, C6par 836M, C6naph 328M.\nDistillate control: V_top=(R+1)D, V_bot=V_top - feed vapour; boil=V_bot/B. BB feed vapour ~190; BTB ~31; TT ~115; BT ~180; BTT feed ~ -250 (subcooled). Boil-up capped at 30.\nT14 best (2.169): root 50/2/2.91/0.3 cost220; T 30/1.5/2.6/0 63; B 40/2/5.4/0.5 178; BB 60/3.5/13.3/0.3 111; TT 40/2.5/9.9 52; BT 50/2/9.3 149; BTB 60/1.45/29.5 38; BTT 110/8/10.9 238.\nBTB octane leak comes from B column C7/C8 split.",
+        "shown": [],
+        "plan": null,
+        "effort": null,
+        "reward": 2.1884241628997265,
+        "valid": true,
+        "solves_used": 39
+      },
+      {
+        "turn": 17,
+        "action": "edit",
+        "record": "R17",
+        "note": "Further cost trims: BT reflux 1.7->1.5 (D~985 held) and T reflux 1.5->1.3 (D~732 held).",
+        "edits": [
+          {
+            "op": "set",
+            "node": "BT",
+            "n_stages": 50,
+            "reflux_ratio": 1.5,
+            "reboil_ratio": 7.65,
+            "pressure_drop_fraction": 0.0
+          },
+          {
+            "op": "set",
+            "node": "T",
+            "n_stages": 30,
+            "reflux_ratio": 1.3,
+            "reboil_ratio": 2.405,
+            "pressure_drop_fraction": 0.0
+          }
+        ],
+        "copy_from": null,
+        "graft": null,
+        "notebook": "PLAN: 1-5 done (root C5-/C6+, T C4-/C5, B C7-/C8+, BB oct/non, TT C3/C4, BT C6/C7, BTB hept/oct, BTT C6par/MCP). 6a done T13 (C3 mix sells). 6b done T14: octane 99% premium via BB 60/3.5/13.3, heptane 99% via BTB 60/1.45/29.5. 7: cost trims (on it). T15 BTT reflux 7 FAILED (BTTT fell below 95%) -> keep BTT 110/8/10.9. T16 BT reflux 1.7/boil 8.3 -> 2.188 best. T17: BT 1.5/7.65 + T 1.3/2.405. Next: root reflux trim (careful: BTTT C6par only 96%, pentane leak), B trim (risk octane/heptane premium).\nValue unit: price*mol/s*28.8e6 $/yr. Blend values: C3 154M, C4 81M, C5 659M, C6par 836M, C6naph 328M.\nDistillate control: V_top=(R+1)D, V_bot=V_top - feed vapour; boil=V_bot/B. Feed vapour: root ~-844, T ~-120, BB ~190; BTB ~31; TT ~115; BT ~162; BTT ~ -250. Boil-up capped at 30.\nT16 best (2.188): root 50/2/2.91/0.3 cost220; T 30/1.5/2.6/0 63; B 40/2/5.4/0.5 178; BB 60/3.5/13.3/0.3 111; TT 40/2.5/9.9 52; BT 50/1.7/8.3 134; BTB 60/1.45/29.5 39; BTT 110/8/10.9 238.\nBTTB (hexane/MCP/CH/heptane) unsold - too hard to split.",
+        "shown": [],
+        "plan": null,
+        "effort": null,
+        "reward": 2.1116272487622147,
+        "valid": true,
+        "solves_used": 44
+      },
+      {
+        "turn": 18,
+        "action": "edit",
+        "record": "R18",
+        "note": "T17 lost heptane premium (BT reflux 1.5) and C4 mix (T reflux 1.3); revert to T16 best and try root reflux trim 2.0->1.8 holding D~1482.",
+        "edits": [
+          {
+            "op": "revert"
+          },
+          {
+            "op": "set",
+            "node": "",
+            "n_stages": 50,
+            "reflux_ratio": 1.8,
+            "reboil_ratio": 2.747,
+            "pressure_drop_fraction": 0.3
+          }
+        ],
+        "copy_from": null,
+        "graft": null,
+        "notebook": "PLAN: 1-5 done (root C5-/C6+, T C4-/C5, B C7-/C8+, BB oct/non, TT C3/C4, BT C6/C7, BTB hept/oct, BTT C6par/MCP). 6a done T13 (C3 mix sells). 6b done T14: octane 99% premium, heptane 99% premium. 7: cost trims (on it). T15 BTT reflux 7 FAILED (BTTT <95%) -> keep BTT 110/8/10.9. T16 BT 1.7/8.3 -> 2.188 best. T17 BT 1.5/7.65 + T 1.3/2.405 -> 2.112: BTBT heptane fell to 98% (lost premium) and TTB C4 mix fell to 93% -> both trims bad, keep T16 values. T18: revert + root reflux 1.8/boil 2.747 (D held ~1482). Next: B trim (risk octane/heptane premium).\nValue unit: price*mol/s*28.8e6 $/yr. Blend values: C3 154M, C4 81M, C5 659M, C6par 836M, C6naph 328M.\nDistillate control: V_top=(R+1)D, V_bot=V_top - feed vapour; boil=V_bot/B. Feed vapour: root ~-844, T ~-120, BB ~190; BTB ~31; TT ~115; BT ~162; BTT ~ -250. Boil-up capped at 30.\nT16 best (2.188): root 50/2/2.91/0.3 cost220; T 30/1.5/2.6/0 63; B 40/2/5.4/0.5 178; BB 60/3.5/13.3/0.3 111; TT 40/2.5/9.9 52; BT 50/1.7/8.3 134; BTB 60/1.45/29.5 39; BTT 110/8/10.9 238.\nBTTB (hexane/MCP/CH/heptane) unsold - too hard to split.",
+        "shown": [],
+        "plan": null,
+        "effort": null,
+        "reward": 2.149889592857154,
+        "valid": true,
+        "solves_used": 52
+      }
+    ]
+  },
+  "usage": {
+    "agent-0": [
+      {
+        "run_id": "hc16v3_dev_000-solo-f9b1e6f5",
+        "agent_id": "agent-0",
+        "request_id": "msg_011Ch5QaURwCUQ6YDnbSTkEV",
+        "provider": "anthropic",
+        "model": "claude-opus-5-5",
+        "t": 1794777364.9510365,
+        "elapsed_s": 12.729867458343506,
+        "input_tokens": 3957,
+        "output_tokens": 951,
+        "cached_input_tokens": 0,
+        "reasoning_tokens": null,
+        "usd": 0.034848,
+        "usd_label": "estimated",
+        "ok": true,
+        "error": null,
+        "note": "",
+        "cumulative_usd": 0.034848,
+        "cumulative_requests": 1
+      },
+      {
+        "run_id": "hc16v3_dev_000-solo-f9b1e6f5",
+        "agent_id": "agent-0",
+        "request_id": "msg_011Ch5QbL2Cavrfr47RRMA7o",
+        "provider": "anthropic",
+        "model": "claude-opus-5-5",
+        "t": 1794777381.0275867,
+        "elapsed_s": 28.80641770362854,
+        "input_tokens": 4411,
+        "output_tokens": 1505,
+        "cached_input_tokens": 0,
+        "reasoning_tokens": null,
+        "usd": 0.047744,
+        "usd_label": "estimated",
+        "ok": true,
+        "error": null,
+        "note": "",
+        "cumulative_usd": 0.082592,
+        "cumulative_requests": 2
+      },
+      {
+        "run_id": "hc16v3_dev_000-solo-f9b1e6f5",
+        "agent_id": "agent-0",
+        "request_id": "msg_011Ch5QcYhDpkyVYKbK8zsXc",
+        "provider": "anthropic",
+        "model": "claude-opus-5-5",
+        "t": 1794777406.204747,
+        "elapsed_s": 53.98357796669006,
+        "input_tokens": 5122,
+        "output_tokens": 2157,
+        "cached_input_tokens": 0,
+        "reasoning_tokens": null,
+        "usd": 0.063628,
+        "usd_label": "estimated",
+        "ok": true,
+        "error": null,
+        "note": "",
+        "cumulative_usd": 0.14622000000000002,
+        "cumulative_requests": 3
+      },
+      {
+        "run_id": "hc16v3_dev_000-solo-f9b1e6f5",
+        "agent_id": "agent-0",
+        "request_id": "msg_011Ch5QeQ19KYe4CKUkoTd3X",
+        "provider": "anthropic",
+        "model": "claude-opus-5-5",
+        "t": 1794777422.5811095,
+        "elapsed_s": 70.35994052886963,
+        "input_tokens": 5568,
+        "output_tokens": 1541,
+        "cached_input_tokens": 0,
+        "reasoning_tokens": null,
+        "usd": 0.053092,
+        "usd_label": "estimated",
+        "ok": true,
+        "error": null,
+        "note": "",
+        "cumulative_usd": 0.19931200000000002,
+        "cumulative_requests": 4
+      },
+      {
+        "run_id": "hc16v3_dev_000-solo-f9b1e6f5",
+        "agent_id": "agent-0",
+        "request_id": "msg_011Ch5QfdUJNJdMQgaDJmgWa",
+        "provider": "anthropic",
+        "model": "claude-opus-5-5",
+        "t": 1794777438.8042417,
+        "elapsed_s": 86.58307266235352,
+        "input_tokens": 5650,
+        "output_tokens": 1585,
+        "cached_input_tokens": 0,
+        "reasoning_tokens": null,
+        "usd": 0.0543,
+        "usd_label": "estimated",
+        "ok": true,
+        "error": null,
+        "note": "",
+        "cumulative_usd": 0.253612,
+        "cumulative_requests": 5
+      },
+      {
+        "run_id": "hc16v3_dev_000-solo-f9b1e6f5",
+        "agent_id": "agent-0",
+        "request_id": "msg_011Ch5QgqFVfWfcF4wKSTa86",
+        "provider": "anthropic",
+        "model": "claude-opus-5-5",
+        "t": 1794777457.5113413,
+        "elapsed_s": 105.29017233848572,
+        "input_tokens": 5722,
+        "output_tokens": 1649,
+        "cached_input_tokens": 0,
+        "reasoning_tokens": null,
+        "usd": 0.055868,
+        "usd_label": "estimated",
+        "ok": true,
+        "error": null,
+        "note": "",
+        "cumulative_usd": 0.30948,
+        "cumulative_requests": 6
+      },
+      {
+        "run_id": "hc16v3_dev_000-solo-f9b1e6f5",
+        "agent_id": "agent-0",
+        "request_id": "msg_011Ch5QiC8PRy56wq9LwZL8a",
+        "provider": "anthropic",
+        "model": "claude-opus-5-5",
+        "t": 1794777475.4928238,
+        "elapsed_s": 123.27165484428406,
+        "input_tokens": 5766,
+        "output_tokens": 1716,
+        "cached_input_tokens": 0,
+        "reasoning_tokens": null,
+        "usd": 0.057384,
+        "usd_label": "estimated",
+        "ok": true,
+        "error": null,
+        "note": "",
+        "cumulative_usd": 0.36686399999999997,
+        "cumulative_requests": 7
+      },
+      {
+        "run_id": "hc16v3_dev_000-solo-f9b1e6f5",
+        "agent_id": "agent-0",
+        "request_id": "msg_011Ch5QjXE7k4cpNJVjLPsvM",
+        "provider": "anthropic",
+        "model": "claude-opus-5-5",
+        "t": 1794777505.298385,
+        "elapsed_s": 153.07721590995789,
+        "input_tokens": 6323,
+        "output_tokens": 2574,
+        "cached_input_tokens": 0,
+        "reasoning_tokens": null,
+        "usd": 0.076772,
+        "usd_label": "estimated",
+        "ok": true,
+        "error": null,
+        "note": "",
+        "cumulative_usd": 0.443636,
+        "cumulative_requests": 8
+      },
+      {
+        "run_id": "hc16v3_dev_000-solo-f9b1e6f5",
+        "agent_id": "agent-0",
+        "request_id": "msg_011Ch5QmhCBydxPXrZwQAKij",
+        "provider": "anthropic",
+        "model": "claude-opus-5-5",
+        "t": 1794777517.5866685,
+        "elapsed_s": 165.36549949645996,
+        "input_tokens": 6879,
+        "output_tokens": 1145,
+        "cached_input_tokens": 0,
+        "reasoning_tokens": null,
+        "usd": 0.050416,
+        "usd_label": "estimated",
+        "ok": true,
+        "error": null,
+        "note": "",
+        "cumulative_usd": 0.494052,
+        "cumulative_requests": 9
+      },
+      {
+        "run_id": "hc16v3_dev_000-solo-f9b1e6f5",
+        "agent_id": "agent-0",
+        "request_id": "msg_011Ch5QnbD4gHm3G42GiXiNX",
+        "provider": "anthropic",
+        "model": "claude-opus-5-5",
+        "t": 1794777534.9198802,
+        "elapsed_s": 182.6987111568451,
+        "input_tokens": 6940,
+        "output_tokens": 1685,
+        "cached_input_tokens": 0,
+        "reasoning_tokens": null,
+        "usd": 0.06146,
+        "usd_label": "estimated",
+        "ok": true,
+        "error": null,
+        "note": "",
+        "cumulative_usd": 0.555512,
+        "cumulative_requests": 10
+      },
+      {
+        "run_id": "hc16v3_dev_000-solo-f9b1e6f5",
+        "agent_id": "agent-0",
+        "request_id": "msg_011Ch5QosS9bx7t7t6EfGSWB",
+        "provider": "anthropic",
+        "model": "claude-opus-5-5",
+        "t": 1794777548.6283536,
+        "elapsed_s": 196.40718460083008,
+        "input_tokens": 7095,
+        "output_tokens": 1305,
+        "cached_input_tokens": 0,
+        "reasoning_tokens": null,
+        "usd": 0.05448,
+        "usd_label": "estimated",
+        "ok": true,
+        "error": null,
+        "note": "",
+        "cumulative_usd": 0.609992,
+        "cumulative_requests": 11
+      },
+      {
+        "run_id": "hc16v3_dev_000-solo-f9b1e6f5",
+        "agent_id": "agent-0",
+        "request_id": "msg_011Ch5QptGn8hQh5yYiM5JEA",
+        "provider": "anthropic",
+        "model": "claude-opus-5-5",
+        "t": 1794777566.241906,
+        "elapsed_s": 214.02073693275452,
+        "input_tokens": 7198,
+        "output_tokens": 1585,
+        "cached_input_tokens": 0,
+        "reasoning_tokens": null,
+        "usd": 0.060492,
+        "usd_label": "estimated",
+        "ok": true,
+        "error": null,
+        "note": "",
+        "cumulative_usd": 0.670484,
+        "cumulative_requests": 12
+      },
+      {
+        "run_id": "hc16v3_dev_000-solo-f9b1e6f5",
+        "agent_id": "agent-0",
+        "request_id": "msg_011Ch5QrKweTmoyLmjFc8nP5",
+        "provider": "anthropic",
+        "model": "claude-opus-5-5",
+        "t": 1794777584.4320188,
+        "elapsed_s": 232.2108497619629,
+        "input_tokens": 7307,
+        "output_tokens": 1510,
+        "cached_input_tokens": 0,
+        "reasoning_tokens": null,
+        "usd": 0.059428,
+        "usd_label": "estimated",
+        "ok": true,
+        "error": null,
+        "note": "",
+        "cumulative_usd": 0.729912,
+        "cumulative_requests": 13
+      },
+      {
+        "run_id": "hc16v3_dev_000-solo-f9b1e6f5",
+        "agent_id": "agent-0",
+        "request_id": "msg_011Ch5QsayoKyk8AbnmQKhcx",
+        "provider": "anthropic",
+        "model": "claude-opus-5-5",
+        "t": 1794777604.6432407,
+        "elapsed_s": 252.42207169532776,
+        "input_tokens": 7215,
+        "output_tokens": 1894,
+        "cached_input_tokens": 0,
+        "reasoning_tokens": null,
+        "usd": 0.06674,
+        "usd_label": "estimated",
+        "ok": true,
+        "error": null,
+        "note": "",
+        "cumulative_usd": 0.796652,
+        "cumulative_requests": 14
+      },
+      {
+        "run_id": "hc16v3_dev_000-solo-f9b1e6f5",
+        "agent_id": "agent-0",
+        "request_id": "msg_011Ch5Qu2fBP2c9zKgm34t49",
+        "provider": "anthropic",
+        "model": "claude-opus-5-5",
+        "t": 1794777618.7052925,
+        "elapsed_s": 266.48412346839905,
+        "input_tokens": 7137,
+        "output_tokens": 1345,
+        "cached_input_tokens": 0,
+        "reasoning_tokens": null,
+        "usd": 0.055448,
+        "usd_label": "estimated",
+        "ok": true,
+        "error": null,
+        "note": "",
+        "cumulative_usd": 0.8521000000000001,
+        "cumulative_requests": 15
+      },
+      {
+        "run_id": "hc16v3_dev_000-solo-f9b1e6f5",
+        "agent_id": "agent-0",
+        "request_id": "msg_011Ch5Qv3dVhGytYJs3WBeuV",
+        "provider": "anthropic",
+        "model": "claude-opus-5-5",
+        "t": 1794777631.1711059,
+        "elapsed_s": 278.94993686676025,
+        "input_tokens": 7211,
+        "output_tokens": 1210,
+        "cached_input_tokens": 0,
+        "reasoning_tokens": null,
+        "usd": 0.053044,
+        "usd_label": "estimated",
+        "ok": true,
+        "error": null,
+        "note": "",
+        "cumulative_usd": 0.9051440000000001,
+        "cumulative_requests": 16
+      },
+      {
+        "run_id": "hc16v3_dev_000-solo-f9b1e6f5",
+        "agent_id": "agent-0",
+        "request_id": "msg_011Ch5Qw1R574Chk6ALatmDt",
+        "provider": "anthropic",
+        "model": "claude-opus-5-5",
+        "t": 1794777652.2824543,
+        "elapsed_s": 300.0612852573395,
+        "input_tokens": 7188,
+        "output_tokens": 2031,
+        "cached_input_tokens": 0,
+        "reasoning_tokens": null,
+        "usd": 0.069372,
+        "usd_label": "estimated",
+        "ok": true,
+        "error": null,
+        "note": "",
+        "cumulative_usd": 0.974516,
+        "cumulative_requests": 17
+      },
+      {
+        "run_id": "hc16v3_dev_000-solo-f9b1e6f5",
+        "agent_id": "agent-0",
+        "request_id": "msg_011Ch5QxexJtzmdXu7Y3cKeM",
+        "provider": "anthropic",
+        "model": "claude-opus-5-5",
+        "t": 1794777668.5798702,
+        "elapsed_s": 316.35870122909546,
+        "input_tokens": 7303,
+        "output_tokens": 1517,
+        "cached_input_tokens": 0,
+        "reasoning_tokens": null,
+        "usd": 0.059552,
+        "usd_label": "estimated",
+        "ok": true,
+        "error": null,
+        "note": "",
+        "cumulative_usd": 1.034068,
+        "cumulative_requests": 18
+      },
+      {
+        "run_id": "hc16v3_dev_000-solo-f9b1e6f5",
+        "agent_id": "agent-0",
+        "request_id": "msg_011Ch5Qyu7t9bmYKeq2Xt7S3",
+        "provider": "anthropic",
+        "model": "claude-opus-5-5",
+        "t": 1794777681.567204,
+        "elapsed_s": 329.3460350036621,
+        "input_tokens": 7339,
+        "output_tokens": 858,
+        "cached_input_tokens": 0,
+        "reasoning_tokens": null,
+        "usd": 0.046516,
+        "usd_label": "estimated",
+        "ok": true,
+        "error": null,
+        "note": "",
+        "cumulative_usd": 1.080584,
+        "cumulative_requests": 19
+      }
+    ]
+  },
+  "source": {
+    "commit": "e7ca677af0f04fdd44392d46010d59a731ece03d",
+    "path": "results/final-dev002/claude-opus-5-5/hc16v3_dev_000-solo-f9b1e6f5"
+  },
+  "limitations": "Separate dev000 reference; do not pool with dev002. Forced continuation and free stopping are different runs, not a controlled replay."
+}

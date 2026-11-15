@@ -1,0 +1,21 @@
+{
+ "run_id": "hc16v3_dev_003_modal_kimi-k3.1-pro_s0_8bb44d",
+ "agent_id": "agent-0",
+ "provider": "modal",
+ "model": "kimi-k3.1-pro",
+ "requests": 140,
+ "failed_requests": 0,
+ "input_tokens": 510902,
+ "output_tokens": 83988,
+ "usd_estimated_total": 1.8616839999999988,
+ "requests_with_unknown_cost": 0,
+ "price_source": "https://modal.com/docs/guide/supported-models; 2026-11-14; uncached estimate",
+ "wall_s": 858.0998890399933,
+ "status": "finished",
+ "turns": 139,
+ "best_valid_reward": 0.9098536299296489,
+ "solves_used": 190,
+ "max_usd_cap": 10.0,
+ "task": "hc16v3_dev_003",
+ "seed": 0
+}

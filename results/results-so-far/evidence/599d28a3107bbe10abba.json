@@ -1,0 +1,19 @@
+{
+  "run_id": "gpt-6.1-sol-pilot-20261114T220604Z",
+  "agent_id": "agent-0",
+  "provider": "openai",
+  "model": "gpt-6.1-sol",
+  "requests": 44,
+  "failed_requests": 0,
+  "input_tokens": 934046,
+  "output_tokens": 4247,
+  "usd_estimated_total": 0.0,
+  "requests_with_unknown_cost": 44,
+  "price_source": "team model config, USD per million tokens, 2026-11-14",
+  "wall_s": 2028.8298595000524,
+  "stop_reason": "simulator_budget",
+  "solves_used": 50,
+  "cost_usd": null,
+  "remote_directory": "C:\\iterate-hackathon\\gpt-6.1-sol-pilot-20261114T220604Z",
+  "best_reward": 3.378376155339923
+}

@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-open-5f533da2",
+ "agent_id": "agent-0",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 118,
+ "failed_requests": 4,
+ "input_tokens": 650034,
+ "output_tokens": 115564,
+ "usd_estimated_total": 0.333687,
+ "requests_with_unknown_cost": 4,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 5132.897390604019,
+ "status": "budget_exhausted",
+ "island": 0,
+ "strategy": null,
+ "best_valid_reward": 0.0,
+ "solves_used": 50,
+ "first_positive_at_solves": null,
+ "usd_cached_price_estimate": 0.25841532,
+ "notebook": "Turn 58 FINAL. Solves 48/50; best valid was empty (0.000). Key insight: R468 (agent-9, island 0) is a VALID converged 3-column cascade at reward 0.230 \u2014 first positive plant I have seen. Its structure: feed col 60st/3.0 cuts C4- top (T, wasted) from C5+ bottom (B); B col 80st/6.0 splits into BT (C5-rich) and BB; BT col 90st/8.0 gives BTT (66% nC5, 27% iC5 = 93% C5mix, just under 95%) and BTB (599 mol/s C6-paraffin mix, sold $711M). Column costs total $610M. Revenue math (flow*price*2.88e7): C6paraffin mix 970 -> ~1180M; C5mix 695 -> ~618M; C6naphthene 269->396M; C4mix 544->186M. Hard gaps: C4mix/C5mix 28K, C5mix/C6par 13.7K, C6par/C6naph 3.1K. Plan: solve 49 = copy R468 unchanged to lock 0.230 as my best valid. Solve 50 = one targeted improvement (likely raising BTT to >=95% C5mix by nudging BT reflux/stages, or adding a column on the wasted C4-rich T). If improvement fails, 0.230 stands.",
+ "task": "hc16v3_dev_002"
+}

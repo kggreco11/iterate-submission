@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-761c0ffe",
+ "agent_id": "agent-20",
+ "provider": "modal",
+ "model": "kimi-k3.1-pro",
+ "requests": 12,
+ "failed_requests": 0,
+ "input_tokens": 76566,
+ "output_tokens": 12505,
+ "usd_estimated_total": 0.27818200000000004,
+ "requests_with_unknown_cost": 0,
+ "price_source": "https://modal.com/docs/guide/supported-models; 2026-11-14; uncached estimate",
+ "wall_s": 3608.6351413726807,
+ "status": "budget_exhausted",
+ "island": 4,
+ "strategy": null,
+ "best_valid_reward": 1.8083189013171328,
+ "solves_used": 50,
+ "first_positive_at_solves": 36,
+ "usd_cached_price_estimate": 0.22495959999999998,
+ "notebook": "PLAN: Step 1 full blend train; Step 2 sellable natural cuts; Step 3 prune dead branches and tune profitable backbone; Step 4 final one-sided C6 energy trim. Best valid is 1.808 at B=75/7.75/7.75. Joint reduction to 7.5/7.5 failed the C6 blend, while 8.0 to 7.75 was profitable. Use the last solve to reduce only boil-up to 7.5: this should save some duty with less purity risk than cutting reflux, though it may move C6 product into BB. Retain 1.808 if worse. Root trims have failed convergence; C5 trims damaged recovery and n-butane purity. Heavy/C3 branches remain uneconomic and pruned.",
+ "task": "hc16v3_dev_002"
+}

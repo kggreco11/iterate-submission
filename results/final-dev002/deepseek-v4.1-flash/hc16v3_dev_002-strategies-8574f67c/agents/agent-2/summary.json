@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-strategies-8574f67c",
+ "agent_id": "agent-2",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 93,
+ "failed_requests": 3,
+ "input_tokens": 526655,
+ "output_tokens": 92620,
+ "usd_estimated_total": 0.26914049999999995,
+ "requests_with_unknown_cost": 3,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 4851.3956887722015,
+ "status": "finished",
+ "island": 1,
+ "strategy": "Energy-lean columns: more stages and lower reflux and boil-up to cut energy, the largest cost at these prices.",
+ "best_valid_reward": 0.0,
+ "solves_used": 49,
+ "first_positive_at_solves": null,
+ "usd_cached_price_estimate": 0.20810754000000006,
+ "notebook": "DONE (50/50 solves). Best valid = 0.000 (empty plant), which I locked in as my final answer.\n\nLearnings:\n- Feed is extremely wide (16 components, b.p. 185-424K). No single column can create a 95%-pure or blend-qualifying stream; every split leaves both T and B impure, so revenue stays $0 while column cost is positive -> negative reward.\n- Converging difficulty: high-reflux/large-stage columns (100 stages R=3 with side draw; 120 stages) FAILED to converge. My 90/1.2/1.2 and 70/4.0/4.0 (agent-3) converged but gave -0.27 to -0.56. Sharper/hotter columns are prone to non-convergence, and NON-CONVERGENCE invalidates the whole plant.\n- Blends (C4mix, C5mix, C6 paraffin mix) are worth $100s M/yr at 95% member purity, far above column cost, so a multi-column tree targeting them is theoretically the winner \u2014 but it needs ~3-4 columns to converge, which I never achieved within budget (with side draws especially).\n- Strategy lesson: should have budgeted solves for incremental single-column tuning rather than a 3-column tree built in one call. Getting a converged base first, then adding one column at a time, is the winning approach for next time.\n\nFinal: empty plant, 0.000.",
+ "task": "hc16v3_dev_002"
+}

@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-78e50fff",
+ "agent_id": "agent-23",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 80,
+ "failed_requests": 0,
+ "input_tokens": 461610,
+ "output_tokens": 81346,
+ "usd_estimated_total": 0.23609819999999992,
+ "requests_with_unknown_cost": 0,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 5634.415556669235,
+ "status": "budget_exhausted",
+ "island": 4,
+ "strategy": null,
+ "best_valid_reward": 0.0,
+ "solves_used": 50,
+ "first_positive_at_solves": null,
+ "usd_cached_price_estimate": 0.18384347999999998,
+ "notebook": "Best valid = 0.000 (empty). Solves ~exhausted (49/50). My own cascade attempts all cost 100-365 M$/yr with no 95% stream, so negative. Key insight from island-5 plant R1623 (reward 1.474): the winning structure is a 2-column cascade at HIGH pressure drop (dp=0.8): feed column 36/2.6/2.6/0.8 splits C5-and-lighter tops (worth $0) from a C6+/heavier bottoms; a second column 36/4/4/0.8 then makes BT = C6 paraffin mix at 95%+ ($1060M/yr) while BB is heavy residue. The blend prize (C6 paraffin mix, ~970 mol/s of the 4 C6 paraffins) is what actually pays; the whole lighter and heavier fractions are sacrificed. High dp (0.8) lowers column pressure/temperature, cheapening the hot end enough to flip the economics. Final move: copy R1623 outright.",
+ "task": "hc16v3_dev_002"
+}

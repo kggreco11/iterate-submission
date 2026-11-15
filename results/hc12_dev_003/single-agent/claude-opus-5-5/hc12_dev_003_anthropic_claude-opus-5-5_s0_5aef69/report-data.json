@@ -1,0 +1,2402 @@
+{
+  "summary": {
+    "run_id": "hc12_dev_003_anthropic_claude-opus-5-5_s0_5aef69",
+    "agent_id": "agent-0",
+    "provider": "anthropic",
+    "model": "claude-opus-5-5",
+    "requests": 28,
+    "failed_requests": 3,
+    "input_tokens": 107167,
+    "output_tokens": 36826,
+    "usd_estimated_total": 1.165188,
+    "requests_with_unknown_cost": 3,
+    "price_source": "team model config, USD per million tokens, 2026-11-14",
+    "wall_s": 465.4098825454712,
+    "status": "api_error: BadRequestError",
+    "turns": 25,
+    "best_valid_reward": 3.345414250805145,
+    "solves_used": 65,
+    "max_usd_cap": 12.0,
+    "task": "hc12_dev_003",
+    "seed": 0
+  },
+  "replay": {
+    "label": "claude-opus-5-5 (seed 0, 400 solves)",
+    "task": "hc12_dev_003",
+    "components": [
+      "Ethane",
+      "Propane",
+      "Isobutane",
+      "N-butane",
+      "Isopentane",
+      "N-pentane",
+      "2,2-dimethylbutane",
+      "2-methylpentane",
+      "N-hexane",
+      "Methylcyclopentane",
+      "N-heptane",
+      "N-octane"
+    ],
+    "upper_bound_reward": 4.561501982440359,
+    "backend": "chemsep",
+    "budget": 400,
+    "solves_used": 65,
+    "best_reward": 3.345414250805145,
+    "wall_s": 465.4116101000109,
+    "curve": {
+      "20": 0.22028654925317634,
+      "40": 2.4604234272579935,
+      "80": 3.345414250805145,
+      "120": 3.345414250805145,
+      "200": 3.345414250805145,
+      "300": 3.345414250805145,
+      "400": 3.345414250805145
+    },
+    "trace": [
+      {
+        "solves": 1,
+        "wall_s": 8.19160859999829,
+        "reward": -0.026262073886252513,
+        "revenue": 0.0,
+        "tac": 20265561.599319205,
+        "columns": {
+          "": {
+            "n_stages": 40,
+            "reflux": 1.5,
+            "reboil": 1.5,
+            "dp": 0.0,
+            "tac": 20265561.599319205
+          }
+        },
+        "products": [
+          {
+            "node": "T",
+            "component": "Propane",
+            "purity": 0.33740557162691914,
+            "value": 0.0,
+            "flow_mol_s": 921.9842739999999
+          },
+          {
+            "node": "B",
+            "component": "N-hexane",
+            "purity": 0.2247964279338006,
+            "value": 0.0,
+            "flow_mol_s": 2378.015727
+          }
+        ]
+      },
+      {
+        "solves": 9,
+        "wall_s": 40.05433559999801,
+        "reward": 0.17711848026294516,
+        "revenue": 277875644.1542288,
+        "tac": 141199253.41322663,
+        "columns": {
+          "": {
+            "n_stages": 40,
+            "reflux": 2.0,
+            "reboil": 1.6,
+            "dp": 0.0,
+            "tac": 21731439.907792382
+          },
+          "B": {
+            "n_stages": 40,
+            "reflux": 2.0,
+            "reboil": 1.2,
+            "dp": 0.6,
+            "tac": 13860170.475809792
+          },
+          "BT": {
+            "n_stages": 100,
+            "reflux": 8.0,
+            "reboil": 25.0,
+            "dp": 0.5,
+            "tac": 51754740.04518042
+          },
+          "BB": {
+            "n_stages": 40,
+            "reflux": 1.5,
+            "reboil": 5.0,
+            "dp": 0.3,
+            "tac": 19140683.357671835
+          },
+          "BBT": {
+            "n_stages": 100,
+            "reflux": 8.0,
+            "reboil": 6.6,
+            "dp": 0.3,
+            "tac": 29087929.557550825
+          },
+          "BBB": {
+            "n_stages": 30,
+            "reflux": 1.5,
+            "reboil": 3.1,
+            "dp": 0.3,
+            "tac": 5624290.069221413
+          }
+        },
+        "products": [
+          {
+            "node": "T",
+            "component": "Propane",
+            "purity": 0.35196538260211474,
+            "value": 0.0,
+            "flow_mol_s": 883.8644690000001
+          },
+          {
+            "node": "BTT",
+            "component": "Isopentane",
+            "purity": 0.5664787010009837,
+            "value": 0.0,
+            "flow_mol_s": 806.4352220000001
+          },
+          {
+            "node": "BTB",
+            "component": "N-hexane",
+            "purity": 0.5052414003935085,
+            "value": 0.0,
+            "flow_mol_s": 262.47451000000007
+          },
+          {
+            "node": "BBTT",
+            "component": "2-methylpentane",
+            "purity": 0.6617381848401903,
+            "value": 0.0,
+            "flow_mol_s": 427.811797
+          },
+          {
+            "node": "BBTB",
+            "component": "N-hexane",
+            "purity": 0.5463655770522345,
+            "value": 0.0,
+            "flow_mol_s": 524.762659
+          },
+          {
+            "node": "BBBT",
+            "component": "N-heptane",
+            "purity": 0.6177988843428234,
+            "value": 0.0,
+            "flow_mol_s": 231.479531
+          },
+          {
+            "node": "BBBB",
+            "component": "N-octane",
+            "purity": 0.9887983349182986,
+            "value": 277875644.1542288,
+            "flow_mol_s": 163.17181300000001
+          }
+        ]
+      },
+      {
+        "solves": 19,
+        "wall_s": 146.1502987999993,
+        "reward": 0.22028654925317634,
+        "revenue": 302846721.2123141,
+        "tac": 132858979.47008206,
+        "columns": {
+          "": {
+            "n_stages": 40,
+            "reflux": 2.0,
+            "reboil": 1.6,
+            "dp": 0.0,
+            "tac": 21731439.907792382
+          },
+          "B": {
+            "n_stages": 40,
+            "reflux": 2.0,
+            "reboil": 1.2,
+            "dp": 0.6,
+            "tac": 13860170.475809792
+          },
+          "BT": {
+            "n_stages": 100,
+            "reflux": 8.0,
+            "reboil": 25.0,
+            "dp": 0.5,
+            "tac": 51754740.04518042
+          },
+          "BB": {
+            "n_stages": 50,
+            "reflux": 2.0,
+            "reboil": 3.5,
+            "dp": 0.3,
+            "tac": 18082654.09842842
+          },
+          "BBT": {
+            "n_stages": 100,
+            "reflux": 8.0,
+            "reboil": 4.7,
+            "dp": 0.3,
+            "tac": 19336542.465239234
+          },
+          "BBB": {
+            "n_stages": 40,
+            "reflux": 3.0,
+            "reboil": 2.2,
+            "dp": 0.3,
+            "tac": 8093432.477631817
+          }
+        },
+        "products": [
+          {
+            "node": "T",
+            "component": "Propane",
+            "purity": 0.35196538260211474,
+            "value": 0.0,
+            "flow_mol_s": 883.8644690000001
+          },
+          {
+            "node": "BTT",
+            "component": "Isopentane",
+            "purity": 0.5664787010009837,
+            "value": 0.0,
+            "flow_mol_s": 806.4352220000001
+          },
+          {
+            "node": "BTB",
+            "component": "N-hexane",
+            "purity": 0.5052414003935085,
+            "value": 0.0,
+            "flow_mol_s": 262.47451000000007
+          },
+          {
+            "node": "BBTT",
+            "component": "2-methylpentane",
+            "purity": 0.7342980966403516,
+            "value": 0.0,
+            "flow_mol_s": 285.963612
+          },
+          {
+            "node": "BBTB",
+            "component": "N-hexane",
+            "purity": 0.6844175037074406,
+            "value": 0.0,
+            "flow_mol_s": 511.571256
+          },
+          {
+            "node": "BBBT",
+            "component": "N-heptane",
+            "purity": 0.9945315001239979,
+            "value": 302846721.2123141,
+            "flow_mol_s": 220.334466
+          },
+          {
+            "node": "BBBB",
+            "component": "N-octane",
+            "purity": 0.7552606937432951,
+            "value": 0.0,
+            "flow_mol_s": 329.356466
+          }
+        ]
+      },
+      {
+        "solves": 28,
+        "wall_s": 220.15185380002367,
+        "reward": 0.9037018420169105,
+        "revenue": 855683309.6614137,
+        "tac": 158326907.94940606,
+        "columns": {
+          "": {
+            "n_stages": 60,
+            "reflux": 3.0,
+            "reboil": 1.85,
+            "dp": 0.0,
+            "tac": 25007146.18488006
+          },
+          "B": {
+            "n_stages": 50,
+            "reflux": 4.0,
+            "reboil": 1.0,
+            "dp": 0.6,
+            "tac": 14393569.17139012
+          },
+          "BT": {
+            "n_stages": 120,
+            "reflux": 9.0,
+            "reboil": 27.0,
+            "dp": 0.5,
+            "tac": 36833329.89237558
+          },
+          "BB": {
+            "n_stages": 50,
+            "reflux": 2.0,
+            "reboil": 5.1,
+            "dp": 0.3,
+            "tac": 26261076.091850642
+          },
+          "BBT": {
+            "n_stages": 120,
+            "reflux": 10.0,
+            "reboil": 8.7,
+            "dp": 0.3,
+            "tac": 44106846.96714414
+          },
+          "BBB": {
+            "n_stages": 50,
+            "reflux": 3.0,
+            "reboil": 4.3,
+            "dp": 0.3,
+            "tac": 11724939.641765526
+          }
+        },
+        "products": [
+          {
+            "node": "T",
+            "component": "Propane",
+            "purity": 0.3639240112072491,
+            "value": 0.0,
+            "flow_mol_s": 854.837426
+          },
+          {
+            "node": "BTT",
+            "component": "Isopentane",
+            "purity": 0.8847870472537854,
+            "value": 0.0,
+            "flow_mol_s": 542.049314
+          },
+          {
+            "node": "BTB",
+            "component": "N-pentane",
+            "purity": 0.5205448424265702,
+            "value": 0.0,
+            "flow_mol_s": 178.801274
+          },
+          {
+            "node": "BBTT",
+            "component": "2-methylpentane",
+            "purity": 0.8052168009435641,
+            "value": 0.0,
+            "flow_mol_s": 530.3492369999999
+          },
+          {
+            "node": "BBTB",
+            "component": "N-hexane",
+            "purity": 0.822839121720512,
+            "value": 0.0,
+            "flow_mol_s": 634.816784
+          },
+          {
+            "node": "BBBT",
+            "component": "N-heptane",
+            "purity": 0.9967783076989338,
+            "value": 427055687.23940784,
+            "flow_mol_s": 310.00167200000004
+          },
+          {
+            "node": "BBBB",
+            "component": "N-octane",
+            "purity": 0.9989220343131759,
+            "value": 428627622.42200583,
+            "flow_mol_s": 249.144294
+          }
+        ]
+      },
+      {
+        "solves": 36,
+        "wall_s": 301.5781459000136,
+        "reward": 1.6698143501759468,
+        "revenue": 1446382947.9729433,
+        "tac": 157843218.79976475,
+        "columns": {
+          "": {
+            "n_stages": 60,
+            "reflux": 3.0,
+            "reboil": 1.85,
+            "dp": 0.0,
+            "tac": 25007146.18488006
+          },
+          "B": {
+            "n_stages": 50,
+            "reflux": 4.0,
+            "reboil": 1.0,
+            "dp": 0.6,
+            "tac": 14393569.17139012
+          },
+          "BT": {
+            "n_stages": 120,
+            "reflux": 9.0,
+            "reboil": 18.0,
+            "dp": 0.5,
+            "tac": 31908940.74529024
+          },
+          "BB": {
+            "n_stages": 50,
+            "reflux": 2.0,
+            "reboil": 5.1,
+            "dp": 0.3,
+            "tac": 26261076.091850642
+          },
+          "BBT": {
+            "n_stages": 120,
+            "reflux": 10.0,
+            "reboil": 8.7,
+            "dp": 0.3,
+            "tac": 44106846.96714414
+          },
+          "BBB": {
+            "n_stages": 50,
+            "reflux": 3.0,
+            "reboil": 4.3,
+            "dp": 0.3,
+            "tac": 11724939.641765526
+          },
+          "BBTT": {
+            "n_stages": 50,
+            "reflux": 5.0,
+            "reboil": 1.3,
+            "dp": 0.0,
+            "tac": 4440699.997444046
+          }
+        },
+        "products": [
+          {
+            "node": "T",
+            "component": "Propane",
+            "purity": 0.3639240112072491,
+            "value": 0.0,
+            "flow_mol_s": 854.837426
+          },
+          {
+            "node": "BTT",
+            "component": "Isopentane",
+            "purity": 0.9907375107179811,
+            "value": 590699638.3115296,
+            "flow_mol_s": 481.910949
+          },
+          {
+            "node": "BTB",
+            "component": "N-pentane",
+            "purity": 0.6322161054240146,
+            "value": 0.0,
+            "flow_mol_s": 238.939639
+          },
+          {
+            "node": "BBTTT",
+            "component": "Isopentane",
+            "purity": 0.47960044190411544,
+            "value": 0.0,
+            "flow_mol_s": 97.07264200000002
+          },
+          {
+            "node": "BBTTB",
+            "component": "2-methylpentane",
+            "purity": 0.9467821265535933,
+            "value": 0.0,
+            "flow_mol_s": 433.276595
+          },
+          {
+            "node": "BBTB",
+            "component": "N-hexane",
+            "purity": 0.822839121720512,
+            "value": 0.0,
+            "flow_mol_s": 634.816784
+          },
+          {
+            "node": "BBBT",
+            "component": "N-heptane",
+            "purity": 0.9967783076989338,
+            "value": 427055687.23940784,
+            "flow_mol_s": 310.00167200000004
+          },
+          {
+            "node": "BBBB",
+            "component": "N-octane",
+            "purity": 0.9989220343131759,
+            "value": 428627622.42200583,
+            "flow_mol_s": 249.144294
+          }
+        ]
+      },
+      {
+        "solves": 37,
+        "wall_s": 312.210353500006,
+        "reward": 2.4604234272579935,
+        "revenue": 2057978252.5060115,
+        "tac": 159352015.23819694,
+        "columns": {
+          "": {
+            "n_stages": 60,
+            "reflux": 3.0,
+            "reboil": 1.85,
+            "dp": 0.0,
+            "tac": 25007146.18488006
+          },
+          "B": {
+            "n_stages": 50,
+            "reflux": 4.0,
+            "reboil": 1.0,
+            "dp": 0.6,
+            "tac": 14393569.17139012
+          },
+          "BT": {
+            "n_stages": 120,
+            "reflux": 9.0,
+            "reboil": 18.0,
+            "dp": 0.5,
+            "tac": 31908940.74529024
+          },
+          "BB": {
+            "n_stages": 50,
+            "reflux": 2.0,
+            "reboil": 5.1,
+            "dp": 0.3,
+            "tac": 26261076.091850642
+          },
+          "BBT": {
+            "n_stages": 120,
+            "reflux": 10.0,
+            "reboil": 8.7,
+            "dp": 0.3,
+            "tac": 44106846.96714414
+          },
+          "BBB": {
+            "n_stages": 50,
+            "reflux": 3.0,
+            "reboil": 4.3,
+            "dp": 0.3,
+            "tac": 11724939.641765526
+          },
+          "BBTT": {
+            "n_stages": 70,
+            "reflux": 6.0,
+            "reboil": 1.8,
+            "dp": 0.0,
+            "tac": 5949496.435876215
+          }
+        },
+        "products": [
+          {
+            "node": "T",
+            "component": "Propane",
+            "purity": 0.3639240112072491,
+            "value": 0.0,
+            "flow_mol_s": 854.837426
+          },
+          {
+            "node": "BTT",
+            "component": "Isopentane",
+            "purity": 0.9907375107179811,
+            "value": 590699638.3115296,
+            "flow_mol_s": 481.910949
+          },
+          {
+            "node": "BTB",
+            "component": "N-pentane",
+            "purity": 0.6322161054240146,
+            "value": 0.0,
+            "flow_mol_s": 238.939639
+          },
+          {
+            "node": "BBTTT",
+            "component": "Isopentane",
+            "purity": 0.4297060168354392,
+            "value": 0.0,
+            "flow_mol_s": 111.15813399999999
+          },
+          {
+            "node": "BBTTB",
+            "component": "2-methylpentane",
+            "purity": 0.9710906316635255,
+            "value": 611595304.5330681,
+            "flow_mol_s": 419.19110300000006
+          },
+          {
+            "node": "BBTB",
+            "component": "N-hexane",
+            "purity": 0.822839121720512,
+            "value": 0.0,
+            "flow_mol_s": 634.816784
+          },
+          {
+            "node": "BBBT",
+            "component": "N-heptane",
+            "purity": 0.9967783076989338,
+            "value": 427055687.23940784,
+            "flow_mol_s": 310.00167200000004
+          },
+          {
+            "node": "BBBB",
+            "component": "N-octane",
+            "purity": 0.9989220343131759,
+            "value": 428627622.42200583,
+            "flow_mol_s": 249.144294
+          }
+        ]
+      },
+      {
+        "solves": 43,
+        "wall_s": 359.3717561000085,
+        "reward": 2.617778586814753,
+        "revenue": 2215162626.317794,
+        "tac": 195110690.0446345,
+        "columns": {
+          "": {
+            "n_stages": 60,
+            "reflux": 3.0,
+            "reboil": 1.85,
+            "dp": 0.0,
+            "tac": 25007146.18488006
+          },
+          "B": {
+            "n_stages": 50,
+            "reflux": 4.0,
+            "reboil": 1.0,
+            "dp": 0.6,
+            "tac": 14393569.17139012
+          },
+          "BT": {
+            "n_stages": 120,
+            "reflux": 9.0,
+            "reboil": 18.0,
+            "dp": 0.5,
+            "tac": 31908940.74529024
+          },
+          "BB": {
+            "n_stages": 50,
+            "reflux": 2.0,
+            "reboil": 5.1,
+            "dp": 0.3,
+            "tac": 26261076.091850642
+          },
+          "BBT": {
+            "n_stages": 120,
+            "reflux": 10.0,
+            "reboil": 8.7,
+            "dp": 0.3,
+            "tac": 44106846.96714414
+          },
+          "BBB": {
+            "n_stages": 50,
+            "reflux": 3.0,
+            "reboil": 4.3,
+            "dp": 0.3,
+            "tac": 11724939.641765526
+          },
+          "BBTT": {
+            "n_stages": 70,
+            "reflux": 6.0,
+            "reboil": 1.8,
+            "dp": 0.0,
+            "tac": 5949496.435876215
+          },
+          "BBTB": {
+            "n_stages": 200,
+            "reflux": 18.0,
+            "reboil": 29.0,
+            "dp": 0.7,
+            "tac": 25272054.42561273
+          },
+          "BTB": {
+            "n_stages": 100,
+            "reflux": 8.0,
+            "reboil": 15.0,
+            "dp": 0.3,
+            "tac": 10486620.380824834
+          }
+        },
+        "products": [
+          {
+            "node": "T",
+            "component": "Propane",
+            "purity": 0.3639240112072491,
+            "value": 0.0,
+            "flow_mol_s": 854.837426
+          },
+          {
+            "node": "BTT",
+            "component": "Isopentane",
+            "purity": 0.9907375107179811,
+            "value": 590699638.3115296,
+            "flow_mol_s": 481.910949
+          },
+          {
+            "node": "BTBT",
+            "component": "N-pentane",
+            "purity": 0.9802896300973286,
+            "value": 157184373.81178233,
+            "flow_mol_s": 154.09883299999998
+          },
+          {
+            "node": "BTBB",
+            "component": "2-methylpentane",
+            "purity": 0.8767363549092168,
+            "value": 0.0,
+            "flow_mol_s": 84.840806
+          },
+          {
+            "node": "BBTTT",
+            "component": "Isopentane",
+            "purity": 0.4297060168354392,
+            "value": 0.0,
+            "flow_mol_s": 111.15813399999999
+          },
+          {
+            "node": "BBTTB",
+            "component": "2-methylpentane",
+            "purity": 0.9710906316635255,
+            "value": 611595304.5330681,
+            "flow_mol_s": 419.19110300000006
+          },
+          {
+            "node": "BBTBT",
+            "component": "N-hexane",
+            "purity": 0.9197444333520086,
+            "value": 0.0,
+            "flow_mol_s": 387.753726
+          },
+          {
+            "node": "BBTBB",
+            "component": "N-hexane",
+            "purity": 0.6707508412690334,
+            "value": 0.0,
+            "flow_mol_s": 247.06305800000004
+          },
+          {
+            "node": "BBBT",
+            "component": "N-heptane",
+            "purity": 0.9967783076989338,
+            "value": 427055687.23940784,
+            "flow_mol_s": 310.00167200000004
+          },
+          {
+            "node": "BBBB",
+            "component": "N-octane",
+            "purity": 0.9989220343131759,
+            "value": 428627622.42200583,
+            "flow_mol_s": 249.144294
+          }
+        ]
+      },
+      {
+        "solves": 46,
+        "wall_s": 376.7496363000246,
+        "reward": 2.6982954557412797,
+        "revenue": 2297570876.8470716,
+        "tac": 215386773.32458514,
+        "columns": {
+          "": {
+            "n_stages": 60,
+            "reflux": 3.0,
+            "reboil": 1.85,
+            "dp": 0.0,
+            "tac": 25007146.18488006
+          },
+          "B": {
+            "n_stages": 50,
+            "reflux": 4.0,
+            "reboil": 1.0,
+            "dp": 0.6,
+            "tac": 14393569.17139012
+          },
+          "BT": {
+            "n_stages": 120,
+            "reflux": 9.0,
+            "reboil": 18.0,
+            "dp": 0.5,
+            "tac": 31908940.74529024
+          },
+          "BB": {
+            "n_stages": 50,
+            "reflux": 2.0,
+            "reboil": 5.1,
+            "dp": 0.3,
+            "tac": 26261076.091850642
+          },
+          "BBT": {
+            "n_stages": 120,
+            "reflux": 10.0,
+            "reboil": 8.7,
+            "dp": 0.3,
+            "tac": 44106846.96714414
+          },
+          "BBB": {
+            "n_stages": 50,
+            "reflux": 3.0,
+            "reboil": 4.3,
+            "dp": 0.3,
+            "tac": 11724939.641765526
+          },
+          "BBTT": {
+            "n_stages": 70,
+            "reflux": 6.0,
+            "reboil": 1.8,
+            "dp": 0.0,
+            "tac": 5949496.435876215
+          },
+          "BBTB": {
+            "n_stages": 200,
+            "reflux": 18.0,
+            "reboil": 29.0,
+            "dp": 0.7,
+            "tac": 25272054.42561273
+          },
+          "BTB": {
+            "n_stages": 100,
+            "reflux": 8.0,
+            "reboil": 15.0,
+            "dp": 0.3,
+            "tac": 10486620.380824834
+          },
+          "T": {
+            "n_stages": 40,
+            "reflux": 3.0,
+            "reboil": 2.9,
+            "dp": 0.0,
+            "tac": 5960765.483702245
+          },
+          "TT": {
+            "n_stages": 30,
+            "reflux": 5.0,
+            "reboil": 0.95,
+            "dp": 0.0,
+            "tac": 1821055.8848639736
+          },
+          "TB": {
+            "n_stages": 80,
+            "reflux": 8.0,
+            "reboil": 13.8,
+            "dp": 0.2,
+            "tac": 12494261.911384413
+          }
+        },
+        "products": [
+          {
+            "node": "TTT",
+            "component": "Ethane",
+            "purity": 0.8958267516929115,
+            "value": 0.0,
+            "flow_mol_s": 50.978299
+          },
+          {
+            "node": "TTB",
+            "component": "Propane",
+            "purity": 0.9774538005813744,
+            "value": 82408250.52927783,
+            "flow_mol_s": 305.16482499999995
+          },
+          {
+            "node": "TBT",
+            "component": "Isobutane",
+            "purity": 0.9314448390739846,
+            "value": 0.0,
+            "flow_mol_s": 312.828133
+          },
+          {
+            "node": "TBB",
+            "component": "N-butane",
+            "purity": 0.918672332456586,
+            "value": 0.0,
+            "flow_mol_s": 185.866169
+          },
+          {
+            "node": "BTT",
+            "component": "Isopentane",
+            "purity": 0.9907375107179811,
+            "value": 590699638.3115296,
+            "flow_mol_s": 481.910949
+          },
+          {
+            "node": "BTBT",
+            "component": "N-pentane",
+            "purity": 0.9802896300973286,
+            "value": 157184373.81178233,
+            "flow_mol_s": 154.09883299999998
+          },
+          {
+            "node": "BTBB",
+            "component": "2-methylpentane",
+            "purity": 0.8767363549092168,
+            "value": 0.0,
+            "flow_mol_s": 84.840806
+          },
+          {
+            "node": "BBTTT",
+            "component": "Isopentane",
+            "purity": 0.4297060168354392,
+            "value": 0.0,
+            "flow_mol_s": 111.15813399999999
+          },
+          {
+            "node": "BBTTB",
+            "component": "2-methylpentane",
+            "purity": 0.9710906316635255,
+            "value": 611595304.5330681,
+            "flow_mol_s": 419.19110300000006
+          },
+          {
+            "node": "BBTBT",
+            "component": "N-hexane",
+            "purity": 0.9197444333520086,
+            "value": 0.0,
+            "flow_mol_s": 387.753726
+          },
+          {
+            "node": "BBTBB",
+            "component": "N-hexane",
+            "purity": 0.6707508412690334,
+            "value": 0.0,
+            "flow_mol_s": 247.06305800000004
+          },
+          {
+            "node": "BBBT",
+            "component": "N-heptane",
+            "purity": 0.9967783076989338,
+            "value": 427055687.23940784,
+            "flow_mol_s": 310.00167200000004
+          },
+          {
+            "node": "BBBB",
+            "component": "N-octane",
+            "purity": 0.9989220343131759,
+            "value": 428627622.42200583,
+            "flow_mol_s": 249.144294
+          }
+        ]
+      },
+      {
+        "solves": 63,
+        "wall_s": 438.13278310000896,
+        "reward": 2.8281861199858853,
+        "revenue": 2434281850.6369963,
+        "tac": 251865477.99415353,
+        "columns": {
+          "": {
+            "n_stages": 80,
+            "reflux": 3.5,
+            "reboil": 2.02,
+            "dp": 0.0,
+            "tac": 27308487.297502793
+          },
+          "B": {
+            "n_stages": 50,
+            "reflux": 4.0,
+            "reboil": 1.0,
+            "dp": 0.6,
+            "tac": 14342605.322906539
+          },
+          "BT": {
+            "n_stages": 120,
+            "reflux": 9.0,
+            "reboil": 18.0,
+            "dp": 0.5,
+            "tac": 32424798.940230705
+          },
+          "BB": {
+            "n_stages": 50,
+            "reflux": 2.0,
+            "reboil": 5.1,
+            "dp": 0.3,
+            "tac": 26189034.73679368
+          },
+          "BBT": {
+            "n_stages": 150,
+            "reflux": 12.0,
+            "reboil": 9.5,
+            "dp": 0.3,
+            "tac": 49894500.9206961
+          },
+          "BBB": {
+            "n_stages": 50,
+            "reflux": 3.0,
+            "reboil": 4.3,
+            "dp": 0.3,
+            "tac": 11690464.46823884
+          },
+          "BBTT": {
+            "n_stages": 70,
+            "reflux": 6.0,
+            "reboil": 1.8,
+            "dp": 0.0,
+            "tac": 5665041.862860993
+          },
+          "BBTB": {
+            "n_stages": 200,
+            "reflux": 28.0,
+            "reboil": 29.0,
+            "dp": 0.7,
+            "tac": 32831313.391457282
+          },
+          "BTB": {
+            "n_stages": 100,
+            "reflux": 8.0,
+            "reboil": 15.0,
+            "dp": 0.3,
+            "tac": 10464851.048555303
+          },
+          "T": {
+            "n_stages": 60,
+            "reflux": 4.0,
+            "reboil": 3.6,
+            "dp": 0.0,
+            "tac": 7450975.492867578
+          },
+          "TT": {
+            "n_stages": 30,
+            "reflux": 5.0,
+            "reboil": 0.95,
+            "dp": 0.0,
+            "tac": 1829923.2449880708
+          },
+          "TB": {
+            "n_stages": 150,
+            "reflux": 15.0,
+            "reboil": 25.0,
+            "dp": 0.2,
+            "tac": 22767318.34780378
+          },
+          "BBTBT": {
+            "n_stages": 100,
+            "reflux": 15.0,
+            "reboil": 1.9,
+            "dp": 0.0,
+            "tac": 2005877.4912935493
+          },
+          "TBT": {
+            "n_stages": 80,
+            "reflux": 3.0,
+            "reboil": 27.0,
+            "dp": 0.0,
+            "tac": 4929990.34247223
+          },
+          "TBB": {
+            "n_stages": 40,
+            "reflux": 1.5,
+            "reboil": 23.0,
+            "dp": 0.0,
+            "tac": 2070295.0854861077
+          }
+        },
+        "products": [
+          {
+            "node": "TTT",
+            "component": "Ethane",
+            "purity": 0.8880649504538272,
+            "value": 0.0,
+            "flow_mol_s": 51.380457
+          },
+          {
+            "node": "TTB",
+            "component": "Propane",
+            "purity": 0.9876002573160012,
+            "value": 84339541.01362813,
+            "flow_mol_s": 309.107866
+          },
+          {
+            "node": "TBTT",
+            "component": "Isobutane",
+            "purity": 0.9803430041539184,
+            "value": 98688290.41618101,
+            "flow_mol_s": 277.0637
+          },
+          {
+            "node": "TBTB",
+            "component": "Isobutane",
+            "purity": 0.697208632826937,
+            "value": 0.0,
+            "flow_mol_s": 40.155699
+          },
+          {
+            "node": "TBBT",
+            "component": "N-butane",
+            "purity": 0.9944437787139758,
+            "value": 64375766.126052976,
+            "flow_mol_s": 168.60343600000002
+          },
+          {
+            "node": "TBBB",
+            "component": "Isopentane",
+            "purity": 0.7876870802720788,
+            "value": 0.0,
+            "flow_mol_s": 16.912593
+          },
+          {
+            "node": "BTT",
+            "component": "Isopentane",
+            "purity": 0.9909384212997374,
+            "value": 589647901.1139135,
+            "flow_mol_s": 480.955377
+          },
+          {
+            "node": "BTBT",
+            "component": "N-pentane",
+            "purity": 0.9626532976355435,
+            "value": 153657573.4991788,
+            "flow_mol_s": 153.401094
+          },
+          {
+            "node": "BTBB",
+            "component": "2-methylpentane",
+            "purity": 0.924826269462661,
+            "value": 0.0,
+            "flow_mol_s": 84.38786999999999
+          },
+          {
+            "node": "BBTTT",
+            "component": "Isopentane",
+            "purity": 0.43709792942943493,
+            "value": 0.0,
+            "flow_mol_s": 106.05849599999998
+          },
+          {
+            "node": "BBTTB",
+            "component": "2-methylpentane",
+            "purity": 0.9872322739827614,
+            "value": 591691721.4710988,
+            "flow_mol_s": 398.91817800000007
+          },
+          {
+            "node": "BBTBTT",
+            "component": "N-hexane",
+            "purity": 0.6214035604077096,
+            "value": 0.0,
+            "flow_mol_s": 35.525482
+          },
+          {
+            "node": "BBTBTB",
+            "component": "N-hexane",
+            "purity": 0.9355215244767852,
+            "value": 0.0,
+            "flow_mol_s": 296.430411
+          },
+          {
+            "node": "BBTBB",
+            "component": "N-hexane",
+            "purity": 0.7079908147284623,
+            "value": 0.0,
+            "flow_mol_s": 323.86805200000003
+          },
+          {
+            "node": "BBBT",
+            "component": "N-heptane",
+            "purity": 0.9944542011785997,
+            "value": 424498938.85719854,
+            "flow_mol_s": 308.86587399999996
+          },
+          {
+            "node": "BBBB",
+            "component": "N-octane",
+            "purity": 0.9991429040184886,
+            "value": 427382118.1397445,
+            "flow_mol_s": 248.365416
+          }
+        ]
+      },
+      {
+        "solves": 65,
+        "wall_s": 449.7244974000205,
+        "reward": 3.345414250805145,
+        "revenue": 2840118863.573576,
+        "tac": 258574889.98732716,
+        "columns": {
+          "": {
+            "n_stages": 80,
+            "reflux": 3.5,
+            "reboil": 2.02,
+            "dp": 0.0,
+            "tac": 27308487.297502793
+          },
+          "B": {
+            "n_stages": 50,
+            "reflux": 4.0,
+            "reboil": 1.0,
+            "dp": 0.6,
+            "tac": 14342605.322906539
+          },
+          "BT": {
+            "n_stages": 120,
+            "reflux": 9.0,
+            "reboil": 18.0,
+            "dp": 0.5,
+            "tac": 32424798.940230705
+          },
+          "BB": {
+            "n_stages": 50,
+            "reflux": 2.0,
+            "reboil": 5.1,
+            "dp": 0.3,
+            "tac": 26189034.73679368
+          },
+          "BBT": {
+            "n_stages": 150,
+            "reflux": 12.0,
+            "reboil": 9.5,
+            "dp": 0.3,
+            "tac": 49894500.9206961
+          },
+          "BBB": {
+            "n_stages": 50,
+            "reflux": 3.0,
+            "reboil": 4.3,
+            "dp": 0.3,
+            "tac": 11690464.46823884
+          },
+          "BBTT": {
+            "n_stages": 70,
+            "reflux": 6.0,
+            "reboil": 1.8,
+            "dp": 0.0,
+            "tac": 5665041.862860993
+          },
+          "BBTB": {
+            "n_stages": 200,
+            "reflux": 28.0,
+            "reboil": 29.0,
+            "dp": 0.7,
+            "tac": 32831313.391457282
+          },
+          "BTB": {
+            "n_stages": 100,
+            "reflux": 8.0,
+            "reboil": 15.0,
+            "dp": 0.3,
+            "tac": 10464851.048555303
+          },
+          "T": {
+            "n_stages": 60,
+            "reflux": 4.0,
+            "reboil": 3.6,
+            "dp": 0.0,
+            "tac": 7450975.492867578
+          },
+          "TT": {
+            "n_stages": 30,
+            "reflux": 5.0,
+            "reboil": 0.95,
+            "dp": 0.0,
+            "tac": 1829923.2449880708
+          },
+          "TB": {
+            "n_stages": 150,
+            "reflux": 15.0,
+            "reboil": 25.0,
+            "dp": 0.2,
+            "tac": 22767318.34780378
+          },
+          "BBTBT": {
+            "n_stages": 100,
+            "reflux": 30.0,
+            "reboil": 4.9,
+            "dp": 0.0,
+            "tac": 4793302.30055144
+          },
+          "TBT": {
+            "n_stages": 80,
+            "reflux": 3.0,
+            "reboil": 27.0,
+            "dp": 0.0,
+            "tac": 4929990.34247223
+          },
+          "TBB": {
+            "n_stages": 40,
+            "reflux": 1.5,
+            "reboil": 23.0,
+            "dp": 0.0,
+            "tac": 2070295.0854861077
+          },
+          "BTBB": {
+            "n_stages": 80,
+            "reflux": 6.0,
+            "reboil": 27.6,
+            "dp": 0.0,
+            "tac": 3921987.1839157306
+          }
+        },
+        "products": [
+          {
+            "node": "TTT",
+            "component": "Ethane",
+            "purity": 0.8880649504538272,
+            "value": 0.0,
+            "flow_mol_s": 51.380457
+          },
+          {
+            "node": "TTB",
+            "component": "Propane",
+            "purity": 0.9876002573160012,
+            "value": 84339541.01362813,
+            "flow_mol_s": 309.107866
+          },
+          {
+            "node": "TBTT",
+            "component": "Isobutane",
+            "purity": 0.9803430041539184,
+            "value": 98688290.41618101,
+            "flow_mol_s": 277.0637
+          },
+          {
+            "node": "TBTB",
+            "component": "Isobutane",
+            "purity": 0.697208632826937,
+            "value": 0.0,
+            "flow_mol_s": 40.155699
+          },
+          {
+            "node": "TBBT",
+            "component": "N-butane",
+            "purity": 0.9944437787139758,
+            "value": 64375766.126052976,
+            "flow_mol_s": 168.60343600000002
+          },
+          {
+            "node": "TBBB",
+            "component": "Isopentane",
+            "purity": 0.7876870802720788,
+            "value": 0.0,
+            "flow_mol_s": 16.912593
+          },
+          {
+            "node": "BTT",
+            "component": "Isopentane",
+            "purity": 0.9909384212997374,
+            "value": 589647901.1139135,
+            "flow_mol_s": 480.955377
+          },
+          {
+            "node": "BTBT",
+            "component": "N-pentane",
+            "purity": 0.9626532976355435,
+            "value": 153657573.4991788,
+            "flow_mol_s": 153.401094
+          },
+          {
+            "node": "BTBBT",
+            "component": "2-methylpentane",
+            "purity": 0.9974323529833898,
+            "value": 101174090.64431527,
+            "flow_mol_s": 67.51395300000001
+          },
+          {
+            "node": "BTBBB",
+            "component": "2-methylpentane",
+            "purity": 0.634323257605214,
+            "value": 0.0,
+            "flow_mol_s": 16.873917000000002
+          },
+          {
+            "node": "BBTTT",
+            "component": "Isopentane",
+            "purity": 0.43709792942943493,
+            "value": 0.0,
+            "flow_mol_s": 106.05849599999998
+          },
+          {
+            "node": "BBTTB",
+            "component": "2-methylpentane",
+            "purity": 0.9872322739827614,
+            "value": 591691721.4710988,
+            "flow_mol_s": 398.91817800000007
+          },
+          {
+            "node": "BBTBTT",
+            "component": "2-methylpentane",
+            "purity": 0.5330003781793662,
+            "value": 0.0,
+            "flow_mol_s": 45.938519
+          },
+          {
+            "node": "BBTBTB",
+            "component": "N-hexane",
+            "purity": 0.9722868968092827,
+            "value": 304662922.2922641,
+            "flow_mol_s": 286.01737399999996
+          },
+          {
+            "node": "BBTBB",
+            "component": "N-hexane",
+            "purity": 0.7079908147284623,
+            "value": 0.0,
+            "flow_mol_s": 323.86805200000003
+          },
+          {
+            "node": "BBBT",
+            "component": "N-heptane",
+            "purity": 0.9944542011785997,
+            "value": 424498938.85719854,
+            "flow_mol_s": 308.86587399999996
+          },
+          {
+            "node": "BBBB",
+            "component": "N-octane",
+            "purity": 0.9991429040184886,
+            "value": 427382118.1397445,
+            "flow_mol_s": 248.365416
+          }
+        ]
+      }
+    ],
+    "entry": "llm:anthropic:claude-opus-5-5",
+    "seed": 0,
+    "split": "dev",
+    "llm": {
+      "run_id": "hc12_dev_003_anthropic_claude-opus-5-5_s0_5aef69",
+      "agent_id": "agent-0",
+      "provider": "anthropic",
+      "model": "claude-opus-5-5",
+      "requests": 28,
+      "failed_requests": 3,
+      "input_tokens": 107167,
+      "output_tokens": 36826,
+      "usd_estimated_total": 1.165188,
+      "requests_with_unknown_cost": 3,
+      "price_source": "team model config, USD per million tokens, 2026-11-14",
+      "wall_s": 465.4098825454712,
+      "status": "api_error: BadRequestError",
+      "turns": 25,
+      "best_valid_reward": 3.345414250805145,
+      "solves_used": 65,
+      "max_usd_cap": 12.0,
+      "task": "hc12_dev_003",
+      "seed": 0
+    },
+    "service": {
+      "backend": "chemsep",
+      "solves": 65,
+      "failed": 3,
+      "median_s": 0.393745300010778,
+      "mean_s": 0.5924038538471975,
+      "retry_rescued": 8
+    }
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "action": "edit",
+      "note": "First split C4-/C5+ at feed pressure to see behavior.",
+      "edits": [
+        {
+          "op": "set",
+          "node": "",
+          "n_stages": 40,
+          "reflux_ratio": 1.5,
+          "reboil_ratio": 1.5,
+          "pressure_drop_fraction": 0.0
+        }
+      ],
+      "reward": -0.026262073886252513,
+      "valid": true,
+      "solves_used": 1,
+      "usd_cum": 0.01652
+    },
+    {
+      "turn": 2,
+      "action": "edit",
+      "note": "Sharper C4/C5 split and add C5/C6 split.",
+      "edits": [
+        {
+          "op": "set",
+          "node": "",
+          "n_stages": 50,
+          "reflux_ratio": 2.5,
+          "reboil_ratio": 1.2,
+          "pressure_drop_fraction": 0.0
+        },
+        {
+          "op": "set",
+          "node": "B",
+          "n_stages": 50,
+          "reflux_ratio": 2,
+          "reboil_ratio": 2,
+          "pressure_drop_fraction": 0.6
+        }
+      ],
+      "reward": -0.05101122185626405,
+      "valid": true,
+      "solves_used": 3,
+      "usd_cum": 0.043492
+    },
+    {
+      "turn": 3,
+      "action": "edit",
+      "note": "Build full direct-sequence tree with mass-balance-consistent ratios: C4-/C5+, C5/C6+, iC5/nC5, C6/C7+, 2MP/nC6, C7/C8.",
+      "edits": [
+        {
+          "op": "set",
+          "node": "",
+          "n_stages": 40,
+          "reflux_ratio": 2.0,
+          "reboil_ratio": 1.6,
+          "pressure_drop_fraction": 0.0
+        },
+        {
+          "op": "set",
+          "node": "B",
+          "n_stages": 40,
+          "reflux_ratio": 2.0,
+          "reboil_ratio": 1.2,
+          "pressure_drop_fraction": 0.6
+        },
+        {
+          "op": "set",
+          "node": "BT",
+          "n_stages": 100,
+          "reflux_ratio": 8,
+          "reboil_ratio": 25,
+          "pressure_drop_fraction": 0.5
+        },
+        {
+          "op": "set",
+          "node": "BB",
+          "n_stages": 40,
+          "reflux_ratio": 1.5,
+          "reboil_ratio": 5,
+          "pressure_drop_fraction": 0.3
+        },
+        {
+          "op": "set",
+          "node": "BBT",
+          "n_stages": 100,
+          "reflux_ratio": 8,
+          "reboil_ratio": 6.6,
+          "pressure_drop_fraction": 0.3
+        },
+        {
+          "op": "set",
+          "node": "BBB",
+          "n_stages": 30,
+          "reflux_ratio": 1.5,
+          "reboil_ratio": 3.1,
+          "pressure_drop_fraction": 0.3
+        }
+      ],
+      "reward": 0.17711848026294516,
+      "valid": true,
+      "solves_used": 9,
+      "usd_cum": 0.089496
+    },
+    {
+      "turn": 4,
+      "action": "edit",
+      "note": "Sharpen C4/C5 split and reduce C5/C6 column distillate so 2MP goes to bottoms.",
+      "edits": [
+        {
+          "op": "set",
+          "node": "",
+          "n_stages": 60,
+          "reflux_ratio": 2.5,
+          "reboil_ratio": 1.5,
+          "pressure_drop_fraction": 0.0
+        },
+        {
+          "op": "set",
+          "node": "B",
+          "n_stages": 60,
+          "reflux_ratio": 3.0,
+          "reboil_ratio": 0.9,
+          "pressure_drop_fraction": 0.6
+        }
+      ],
+      "reward": 0.0,
+      "valid": false,
+      "solves_used": 10,
+      "usd_cum": 0.14032
+    },
+    {
+      "turn": 5,
+      "action": "edit",
+      "note": "Revert to best valid design (turn 3) to see its stream compositions before refining.",
+      "edits": [
+        {
+          "op": "revert"
+        }
+      ],
+      "reward": 0.17711848026294516,
+      "valid": true,
+      "solves_used": 10,
+      "usd_cum": 0.154172
+    },
+    {
+      "turn": 6,
+      "action": "edit",
+      "note": "Re-target every split's distillate rate to match key-component mass balances (C4/C5, C5/C6, iC5/nC5, MCP/nC7, 2MP/nC6, nC7/nC8) with more reflux/stages on the hard splits.",
+      "edits": [
+        {
+          "op": "set",
+          "node": "",
+          "n_stages": 50,
+          "reflux_ratio": 3.0,
+          "reboil_ratio": 1.9,
+          "pressure_drop_fraction": 0.0
+        },
+        {
+          "op": "set",
+          "node": "B",
+          "n_stages": 50,
+          "reflux_ratio": 3.0,
+          "reboil_ratio": 0.78,
+          "pressure_drop_fraction": 0.6
+        },
+        {
+          "op": "set",
+          "node": "BT",
+          "n_stages": 120,
+          "reflux_ratio": 10.0,
+          "reboil_ratio": 27.0,
+          "pressure_drop_fraction": 0.5
+        },
+        {
+          "op": "set",
+          "node": "BB",
+          "n_stages": 40,
+          "reflux_ratio": 1.5,
+          "reboil_ratio": 4.3,
+          "pressure_drop_fraction": 0.3
+        },
+        {
+          "op": "set",
+          "node": "BBB",
+          "n_stages": 40,
+          "reflux_ratio": 2.0,
+          "reboil_ratio": 3.3,
+          "pressure_drop_fraction": 0.3
+        },
+        {
+          "op": "set",
+          "node": "BBT",
+          "n_stages": 120,
+          "reflux_ratio": 8.0,
+          "reboil_ratio": 6.7,
+          "pressure_drop_fraction": 0.3
+        }
+      ],
+      "reward": -0.18525829039503774,
+      "valid": true,
+      "solves_used": 16,
+      "usd_cum": 0.251116
+    },
+    {
+      "turn": 7,
+      "action": "edit",
+      "note": "Revert to the turn-3 best design to see its settings and streams again before refining it.",
+      "edits": [
+        {
+          "op": "revert"
+        }
+      ],
+      "reward": 0.17711848026294516,
+      "valid": true,
+      "solves_used": 16,
+      "usd_cum": 0.270432
+    },
+    {
+      "turn": 8,
+      "action": "edit",
+      "note": "Retarget BB to put all nC7 to bottoms (B\u2248560), BBB to make pure nC7 tops/nC8 bottoms, BBT to take 2MP overhead (D\u2248300).",
+      "edits": [
+        {
+          "op": "set",
+          "node": "BB",
+          "n_stages": 50,
+          "reflux_ratio": 2.0,
+          "reboil_ratio": 3.5,
+          "pressure_drop_fraction": 0.3
+        },
+        {
+          "op": "set",
+          "node": "BBB",
+          "n_stages": 40,
+          "reflux_ratio": 3.0,
+          "reboil_ratio": 2.2,
+          "pressure_drop_fraction": 0.3
+        },
+        {
+          "op": "set",
+          "node": "BBT",
+          "n_stages": 100,
+          "reflux_ratio": 8.0,
+          "reboil_ratio": 4.7,
+          "pressure_drop_fraction": 0.3
+        }
+      ],
+      "reward": 0.22028654925317634,
+      "valid": true,
+      "solves_used": 19,
+      "usd_cum": 0.340692
+    },
+    {
+      "turn": 9,
+      "action": "edit",
+      "note": "Make B a sharp nC5/2MP split (D\u2248670) so pentanes go to BT (iC5/nC5) and C6s go down; BB MCP/nC7 split, BBT 2MP overhead D\u2248500, BBB recover all nC7 overhead.",
+      "edits": [
+        {
+          "op": "set",
+          "node": "B",
+          "n_stages": 60,
+          "reflux_ratio": 3.0,
+          "reboil_ratio": 0.65,
+          "pressure_drop_fraction": 0.6
+        },
+        {
+          "op": "set",
+          "node": "BT",
+          "n_stages": 100,
+          "reflux_ratio": 8.0,
+          "reboil_ratio": 20.0,
+          "pressure_drop_fraction": 0.5
+        },
+        {
+          "op": "set",
+          "node": "BB",
+          "n_stages": 50,
+          "reflux_ratio": 2.0,
+          "reboil_ratio": 5.2,
+          "pressure_drop_fraction": 0.3
+        },
+        {
+          "op": "set",
+          "node": "BBT",
+          "n_stages": 100,
+          "reflux_ratio": 10.0,
+          "reboil_ratio": 7.7,
+          "pressure_drop_fraction": 0.3
+        },
+        {
+          "op": "set",
+          "node": "BBB",
+          "n_stages": 60,
+          "reflux_ratio": 3.0,
+          "reboil_ratio": 4.3,
+          "pressure_drop_fraction": 0.3
+        }
+      ],
+      "reward": -0.08087082324301453,
+      "valid": false,
+      "solves_used": 22,
+      "usd_cum": 0.413556
+    },
+    {
+      "turn": 10,
+      "action": "edit",
+      "note": "Revert to turn-8 best design to view its settings and streams.",
+      "edits": [
+        {
+          "op": "revert"
+        }
+      ],
+      "reward": 0.22028654925317634,
+      "valid": true,
+      "solves_used": 22,
+      "usd_cum": 0.430868
+    },
+    {
+      "turn": 11,
+      "action": "edit",
+      "note": "Retarget all splits using vapor-balance estimates: sharper nC4/iC5 at feed, nC5/2MP at B (D\u2248670), iC5/nC5 at BT (D\u2248540), C6/C7 at BB (D\u22481150), 2MP/nC6 at BBT (D\u2248520), nC7/nC8 at BBB (D\u2248310).",
+      "edits": [
+        {
+          "op": "set",
+          "node": "",
+          "n_stages": 60,
+          "reflux_ratio": 3.0,
+          "reboil_ratio": 1.85,
+          "pressure_drop_fraction": 0.0
+        },
+        {
+          "op": "set",
+          "node": "B",
+          "n_stages": 50,
+          "reflux_ratio": 4.0,
+          "reboil_ratio": 1.0,
+          "pressure_drop_fraction": 0.6
+        },
+        {
+          "op": "set",
+          "node": "BT",
+          "n_stages": 120,
+          "reflux_ratio": 9.0,
+          "reboil_ratio": 27.0,
+          "pressure_drop_fraction": 0.5
+        },
+        {
+          "op": "set",
+          "node": "BB",
+          "n_stages": 50,
+          "reflux_ratio": 2.0,
+          "reboil_ratio": 5.1,
+          "pressure_drop_fraction": 0.3
+        },
+        {
+          "op": "set",
+          "node": "BBT",
+          "n_stages": 120,
+          "reflux_ratio": 10.0,
+          "reboil_ratio": 8.7,
+          "pressure_drop_fraction": 0.3
+        },
+        {
+          "op": "set",
+          "node": "BBB",
+          "n_stages": 50,
+          "reflux_ratio": 3.0,
+          "reboil_ratio": 4.3,
+          "pressure_drop_fraction": 0.3
+        }
+      ],
+      "reward": 0.9037018420169105,
+      "valid": true,
+      "solves_used": 28,
+      "usd_cum": 0.519708
+    },
+    {
+      "turn": 12,
+      "action": "edit",
+      "note": "Sharpen B into an nC5/22DMB split (D\u2248740) so pentanes go clean to BT and 2MP doesn't leak up; BT boil-up for D\u2248547.",
+      "edits": [
+        {
+          "op": "set",
+          "node": "B",
+          "n_stages": 80,
+          "reflux_ratio": 5.0,
+          "reboil_ratio": 1.5,
+          "pressure_drop_fraction": 0.6
+        },
+        {
+          "op": "set",
+          "node": "BT",
+          "n_stages": 120,
+          "reflux_ratio": 9.0,
+          "reboil_ratio": 28.0,
+          "pressure_drop_fraction": 0.5
+        }
+      ],
+      "reward": -0.03240667758320105,
+      "valid": false,
+      "solves_used": 29,
+      "usd_cum": 0.5794079999999999
+    },
+    {
+      "turn": 13,
+      "action": "edit",
+      "note": "Turn 12's change made B fail, so I'm going back to the turn-11 best design to look at its settings and streams before refining it.",
+      "edits": [
+        {
+          "op": "revert"
+        }
+      ],
+      "reward": 0.9037018420169105,
+      "valid": true,
+      "solves_used": 29,
+      "usd_cum": 0.596304
+    },
+    {
+      "turn": 14,
+      "action": "edit",
+      "note": "B leaks iC5 down and 2MP up; sharpen it with more stages and reflux at roughly the same distillate (vapor balance: boil-up raised to keep D\u2248721).",
+      "edits": [
+        {
+          "op": "set",
+          "node": "B",
+          "n_stages": 80,
+          "reflux_ratio": 6.0,
+          "reboil_ratio": 1.85,
+          "pressure_drop_fraction": 0.6
+        }
+      ],
+      "reward": 0.8585636218800219,
+      "valid": true,
+      "solves_used": 34,
+      "usd_cum": 0.64974
+    },
+    {
+      "turn": 15,
+      "action": "edit",
+      "note": "Going back to the turn-11 best design to look at its settings and streams before I try targeted refinements.",
+      "edits": [
+        {
+          "op": "revert"
+        }
+      ],
+      "reward": 0.9037018420169105,
+      "valid": true,
+      "solves_used": 34,
+      "usd_cum": 0.6723359999999999
+    },
+    {
+      "turn": 16,
+      "action": "edit",
+      "note": "Lower BT distillate (~485) so iC5 tops reaches 95%; add BBTT column to strip ~95 mol/s pentanes off the 2MP stream so 2MP bottoms is sellable.",
+      "edits": [
+        {
+          "op": "set",
+          "node": "BT",
+          "n_stages": 120,
+          "reflux_ratio": 9.0,
+          "reboil_ratio": 18.0,
+          "pressure_drop_fraction": 0.5
+        },
+        {
+          "op": "set",
+          "node": "BBTT",
+          "n_stages": 50,
+          "reflux_ratio": 5.0,
+          "reboil_ratio": 1.3,
+          "pressure_drop_fraction": 0.0
+        }
+      ],
+      "reward": 1.6698143501759468,
+      "valid": true,
+      "solves_used": 36,
+      "usd_cum": 0.73608
+    },
+    {
+      "turn": 17,
+      "action": "edit",
+      "note": "BBTTB 2MP is right at 95% threshold; sharpen BBTT (more stages, reflux, slightly higher distillate) to push it over.",
+      "edits": [
+        {
+          "op": "set",
+          "node": "BBTT",
+          "n_stages": 70,
+          "reflux_ratio": 6.0,
+          "reboil_ratio": 1.8,
+          "pressure_drop_fraction": 0.0
+        }
+      ],
+      "reward": 2.4604234272579935,
+      "valid": true,
+      "solves_used": 37,
+      "usd_cum": 0.7711399999999999
+    },
+    {
+      "turn": 18,
+      "action": "edit",
+      "note": "Add nC6/MCP splitter on BBTB (nC6 82%, worth ~$570M if pure) and nC5/2MP splitter on BTB (nC5 63%).",
+      "edits": [
+        {
+          "op": "set",
+          "node": "BBTB",
+          "n_stages": 150,
+          "reflux_ratio": 5.0,
+          "reboil_ratio": 30.0,
+          "pressure_drop_fraction": 0.5
+        },
+        {
+          "op": "set",
+          "node": "BTB",
+          "n_stages": 40,
+          "reflux_ratio": 3.0,
+          "reboil_ratio": 7.4,
+          "pressure_drop_fraction": 0.3
+        }
+      ],
+      "reward": 2.419477371880873,
+      "valid": true,
+      "solves_used": 39,
+      "usd_cum": 0.8175079999999999
+    },
+    {
+      "turn": 19,
+      "action": "edit",
+      "note": "Lower BTB distillate to ~155 with more stages/reflux to get nC5 >95%; push BBTB nC6/MCP to D\u2248450 with max boil-up and 200 stages.",
+      "edits": [
+        {
+          "op": "set",
+          "node": "BTB",
+          "n_stages": 70,
+          "reflux_ratio": 6,
+          "reboil_ratio": 12.9,
+          "pressure_drop_fraction": 0.3
+        },
+        {
+          "op": "set",
+          "node": "BBTB",
+          "n_stages": 200,
+          "reflux_ratio": 11,
+          "reboil_ratio": 29,
+          "pressure_drop_fraction": 0.6
+        }
+      ],
+      "reward": 2.4047215248608222,
+      "valid": true,
+      "solves_used": 41,
+      "usd_cum": 0.8633
+    },
+    {
+      "turn": 20,
+      "action": "edit",
+      "note": "Higher-reflux nC6/MCP split at D\u2248385 to get nC6 >95%; sharpen nC5/22DMB at BTB with more stages and reflux at D\u2248150.",
+      "edits": [
+        {
+          "op": "set",
+          "node": "BBTB",
+          "n_stages": 200,
+          "reflux_ratio": 18,
+          "reboil_ratio": 29,
+          "pressure_drop_fraction": 0.7
+        },
+        {
+          "op": "set",
+          "node": "BTB",
+          "n_stages": 100,
+          "reflux_ratio": 8,
+          "reboil_ratio": 15,
+          "pressure_drop_fraction": 0.3
+        }
+      ],
+      "reward": 2.617778586814753,
+      "valid": true,
+      "solves_used": 43,
+      "usd_cum": 0.905052
+    },
+    {
+      "turn": 21,
+      "action": "edit",
+      "note": "Add light-ends train on T: C2/C3 vs C4 split, deethanizer for propane, iC4/nC4 splitter (~$267M value unsold).",
+      "edits": [
+        {
+          "op": "set",
+          "node": "T",
+          "n_stages": 40,
+          "reflux_ratio": 3.0,
+          "reboil_ratio": 2.9,
+          "pressure_drop_fraction": 0.0
+        },
+        {
+          "op": "set",
+          "node": "TT",
+          "n_stages": 30,
+          "reflux_ratio": 5.0,
+          "reboil_ratio": 0.95,
+          "pressure_drop_fraction": 0.0
+        },
+        {
+          "op": "set",
+          "node": "TB",
+          "n_stages": 80,
+          "reflux_ratio": 8.0,
+          "reboil_ratio": 13.8,
+          "pressure_drop_fraction": 0.2
+        }
+      ],
+      "reward": 2.6982954557412797,
+      "valid": true,
+      "solves_used": 46,
+      "usd_cum": 0.956164
+    },
+    {
+      "turn": 22,
+      "action": "edit",
+      "note": "Push nC6/MCP to D\u2248317 at reflux 28 for >95% nC6; sharpen iC4/nC4 splitter (150 stages, R15, D\u2248305).",
+      "edits": [
+        {
+          "op": "set",
+          "node": "BBTB",
+          "n_stages": 200,
+          "reflux_ratio": 28,
+          "reboil_ratio": 29,
+          "pressure_drop_fraction": 0.7
+        },
+        {
+          "op": "set",
+          "node": "TB",
+          "n_stages": 150,
+          "reflux_ratio": 15,
+          "reboil_ratio": 25,
+          "pressure_drop_fraction": 0.2
+        }
+      ],
+      "reward": 2.677142018755721,
+      "valid": true,
+      "solves_used": 48,
+      "usd_cum": 1.0042
+    },
+    {
+      "turn": 23,
+      "action": "edit",
+      "note": "Sharpen feed column (less iC5 into nC4 product), T (less propane into iC4 product), and BBT (less 2MP leaking into nC6/MCP splitter) to push TBT, TBB, BBTBT over 95%.",
+      "edits": [
+        {
+          "op": "set",
+          "node": "",
+          "n_stages": 80,
+          "reflux_ratio": 3.5,
+          "reboil_ratio": 2.02,
+          "pressure_drop_fraction": 0.0
+        },
+        {
+          "op": "set",
+          "node": "T",
+          "n_stages": 60,
+          "reflux_ratio": 4.0,
+          "reboil_ratio": 3.6,
+          "pressure_drop_fraction": 0.0
+        },
+        {
+          "op": "set",
+          "node": "BBT",
+          "n_stages": 150,
+          "reflux_ratio": 12.0,
+          "reboil_ratio": 9.5,
+          "pressure_drop_fraction": 0.3
+        }
+      ],
+      "reward": 2.6285430079379517,
+      "valid": true,
+      "solves_used": 60,
+      "usd_cum": 1.064072
+    },
+    {
+      "turn": 24,
+      "action": "edit",
+      "note": "Add polishing columns: strip 2MP off nC6 (BBTBT), strip nC4 from iC4 product (TBT), strip iC5 from nC4 product (TBB).",
+      "edits": [
+        {
+          "op": "set",
+          "node": "BBTBT",
+          "n_stages": 100,
+          "reflux_ratio": 15,
+          "reboil_ratio": 1.9,
+          "pressure_drop_fraction": 0.0
+        },
+        {
+          "op": "set",
+          "node": "TBT",
+          "n_stages": 80,
+          "reflux_ratio": 3,
+          "reboil_ratio": 27,
+          "pressure_drop_fraction": 0.0
+        },
+        {
+          "op": "set",
+          "node": "TBB",
+          "n_stages": 40,
+          "reflux_ratio": 1.5,
+          "reboil_ratio": 23,
+          "pressure_drop_fraction": 0.0
+        }
+      ],
+      "reward": 2.8281861199858853,
+      "valid": true,
+      "solves_used": 63,
+      "usd_cum": 1.1206159999999998
+    },
+    {
+      "turn": 25,
+      "action": "edit",
+      "note": "Strip more 2MP from nC6 (BBTBT higher distillate/reflux) to push nC6 >95%; add 2MP/nC6 polisher on BTBB (2MP 92%).",
+      "edits": [
+        {
+          "op": "set",
+          "node": "BBTBT",
+          "n_stages": 100,
+          "reflux_ratio": 30,
+          "reboil_ratio": 4.9,
+          "pressure_drop_fraction": 0.0
+        },
+        {
+          "op": "set",
+          "node": "BTBB",
+          "n_stages": 80,
+          "reflux_ratio": 6,
+          "reboil_ratio": 27.6,
+          "pressure_drop_fraction": 0.0
+        }
+      ],
+      "reward": 3.345414250805145,
+      "valid": true,
+      "solves_used": 65,
+      "usd_cum": 1.165188
+    }
+  ],
+  "usage": [
+    {
+      "elapsed_s": 7.417659044265747,
+      "input_tokens": 2080,
+      "output_tokens": 410,
+      "usd": 0.01652,
+      "usd_label": "estimated"
+    },
+    {
+      "elapsed_s": 17.547802686691284,
+      "input_tokens": 2533,
+      "output_tokens": 842,
+      "usd": 0.026972,
+      "usd_label": "estimated"
+    },
+    {
+      "elapsed_s": 37.81957030296326,
+      "input_tokens": 2811,
+      "output_tokens": 1738,
+      "usd": 0.046004,
+      "usd_label": "estimated"
+    },
+    {
+      "elapsed_s": 60.12483310699463,
+      "input_tokens": 3791,
+      "output_tokens": 1783,
+      "usd": 0.050824,
+      "usd_label": "estimated"
+    },
+    {
+      "elapsed_s": 65.84434413909912,
+      "input_tokens": 2703,
+      "output_tokens": 152,
+      "usd": 0.013852,
+      "usd_label": "estimated"
+    },
+    {
+      "elapsed_s": 109.82301926612854,
+      "input_tokens": 3896,
+      "output_tokens": 4068,
+      "usd": 0.096944,
+      "usd_label": "estimated"
+    },
+    {
+      "elapsed_s": 115.0741753578186,
+      "input_tokens": 4019,
+      "output_tokens": 162,
+      "usd": 0.019316,
+      "usd_label": "estimated"
+    },
+    {
+      "elapsed_s": 145.0043501853943,
+      "input_tokens": 4030,
+      "output_tokens": 2707,
+      "usd": 0.07026,
+      "usd_label": "estimated"
+    },
+    {
+      "elapsed_s": 176.73697686195374,
+      "input_tokens": 4136,
+      "output_tokens": 2816,
+      "usd": 0.072864,
+      "usd_label": "estimated"
+    },
+    {
+      "elapsed_s": 181.52511477470398,
+      "input_tokens": 3683,
+      "output_tokens": 129,
+      "usd": 0.017312,
+      "usd_label": "estimated"
+    },
+    {
+      "elapsed_s": 217.76022720336914,
+      "input_tokens": 4275,
+      "output_tokens": 3587,
+      "usd": 0.08884,
+      "usd_label": "estimated"
+    },
+    {
+      "elapsed_s": 243.28853702545166,
+      "input_tokens": 4330,
+      "output_tokens": 2119,
+      "usd": 0.0597,
+      "usd_label": "estimated"
+    },
+    {
+      "elapsed_s": 249.23228287696838,
+      "input_tokens": 3484,
+      "output_tokens": 148,
+      "usd": 0.016896,
+      "usd_label": "estimated"
+    },
+    {
+      "elapsed_s": 268.5461685657501,
+      "input_tokens": 4429,
+      "output_tokens": 1786,
+      "usd": 0.053436,
+      "usd_label": "estimated"
+    },
+    {
+      "elapsed_s": 275.52475094795227,
+      "input_tokens": 4464,
+      "output_tokens": 237,
+      "usd": 0.022596,
+      "usd_label": "estimated"
+    },
+    {
+      "elapsed_s": 300.9281041622162,
+      "input_tokens": 4426,
+      "output_tokens": 2302,
+      "usd": 0.063744,
+      "usd_label": "estimated"
+    },
+    {
+      "elapsed_s": 311.9760003089905,
+      "input_tokens": 4700,
+      "output_tokens": 813,
+      "usd": 0.03506,
+      "usd_label": "estimated"
+    },
+    {
+      "elapsed_s": 328.67626881599426,
+      "input_tokens": 4712,
+      "output_tokens": 1376,
+      "usd": 0.046368,
+      "usd_label": "estimated"
+    },
+    {
+      "elapsed_s": 343.93292260169983,
+      "input_tokens": 5158,
+      "output_tokens": 1258,
+      "usd": 0.045792,
+      "usd_label": "estimated"
+    },
+    {
+      "elapsed_s": 357.4217176437378,
+      "input_tokens": 5173,
+      "output_tokens": 1053,
+      "usd": 0.041752,
+      "usd_label": "estimated"
+    },
+    {
+      "elapsed_s": 376.10058188438416,
+      "input_tokens": 5148,
+      "output_tokens": 1526,
+      "usd": 0.051112,
+      "usd_label": "estimated"
+    },
+    {
+      "elapsed_s": 390.9516155719757,
+      "input_tokens": 5694,
+      "output_tokens": 1263,
+      "usd": 0.048036,
+      "usd_label": "estimated"
+    },
+    {
+      "elapsed_s": 412.6674885749817,
+      "input_tokens": 5733,
+      "output_tokens": 1847,
+      "usd": 0.059872,
+      "usd_label": "estimated"
+    },
+    {
+      "elapsed_s": 437.3757994174957,
+      "input_tokens": 5621,
+      "output_tokens": 1703,
+      "usd": 0.056544,
+      "usd_label": "estimated"
+    },
+    {
+      "elapsed_s": 449.1991353034973,
+      "input_tokens": 6138,
+      "output_tokens": 1001,
+      "usd": 0.044572,
+      "usd_label": "estimated"
+    },
+    {
+      "elapsed_s": 455.0285975933075,
+      "input_tokens": null,
+      "output_tokens": null,
+      "usd": null,
+      "usd_label": "unknown"
+    },
+    {
+      "elapsed_s": 460.2402837276459,
+      "input_tokens": null,
+      "output_tokens": null,
+      "usd": null,
+      "usd_label": "unknown"
+    },
+    {
+      "elapsed_s": 465.4088804721832,
+      "input_tokens": null,
+      "output_tokens": null,
+      "usd": null,
+      "usd_label": "unknown"
+    }
+  ],
+  "status": {
+    "state": "complete"
+  },
+  "runtime": {}
+}

@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-78e50fff",
+ "agent_id": "agent-4",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 61,
+ "failed_requests": 0,
+ "input_tokens": 466858,
+ "output_tokens": 63447,
+ "usd_estimated_total": 0.21619380000000002,
+ "requests_with_unknown_cost": 0,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 5634.393970489502,
+ "status": "budget_exhausted",
+ "island": 0,
+ "strategy": null,
+ "best_valid_reward": 1.8891545644235561,
+ "solves_used": 50,
+ "first_positive_at_solves": 36,
+ "usd_cached_price_estimate": 0.17548212000000002,
+ "notebook": "Solves 47/50. Best = 1.889 (R1323 structure). Probes so far mostly failed; R1323's cheap BTTB column (55/5/4/0.1, $26M cost -> $164M C6par) is the key win (+0.315). Agent-1 tried 70/6/5 on BTTB -> 1.875 (worse): sharpening BTTB doesn't help because BTTBT stays ~94% n-pentane, just costs more. So BTTBT rescue via reflux is NOT worth it.\n\nNew probe: raise pressure_drop_fraction on T, BT, TB to sharpen splits + cut reflux duty (proven lever: B's dp 0.3->0.5 gave +0.124). Check whether revenue rises (purer cuts) and cost falls.\n\nPrize values: C6par mix ~0.0423 $/mol (gold), C5 mix ~0.0309, nC4 0.0128. Wasted: TT 535 (C3/C4 mix, hard), BB 1037 (C6-C9 heavy). 3 solves left after this. If dp push wins, keep; else revert to 1.889 and spend last solve on a structural BB probe.",
+ "task": "hc16v3_dev_002"
+}

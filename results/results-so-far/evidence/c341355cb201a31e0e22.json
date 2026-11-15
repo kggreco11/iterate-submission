@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-cull-2433e454",
+ "agent_id": "agent-4",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 40,
+ "failed_requests": 0,
+ "input_tokens": 176336,
+ "output_tokens": 39505,
+ "usd_estimated_total": 0.10030679999999999,
+ "requests_with_unknown_cost": 0,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 5423.075788259506,
+ "status": "culled",
+ "island": 4,
+ "strategy": null,
+ "best_valid_reward": 0.0,
+ "solves_used": 16,
+ "first_positive_at_solves": null,
+ "usd_cached_price_estimate": 0.07570008000000002,
+ "notebook": "FEED 3300 mol/s C2..C9. Revenue M$/yr = sum(flow_i*price_i)*28.8 (before blend 0.85 factor).\n\nBlend values at 85%: C3mix 63; C4mix 176; C5mix 609; C6para 1147; C6naph 397; pure nC7 332, nC8 358, nC9 103, ethane 4. Total ~$3189M/yr. Full train of ~8 columns (each ~$100-200M) => reward ~+5 if separations are sharp.\n\nCOST observed: 30/1.5=$121.5M. Notebook: 30/1=$94.6M, 35/2=$146M, 40/3=$194.6M, 40/4=? CONVERGENCE: <=40 stages & R 1-4 converge; 44/3.5 and 50/2.5 FAIL. Keep <=40 stages, R<=4.\n\nPLAN: sharp carbon-number splits: deethanizer (ethane 1 col), C3mix, C4mix, C5mix, C6para/C6naph split, nC7, nC8, nC9. Use blends to cut column count. This turn: probe 40/4 feed column to see if a sharper split (better overhead) converges and its cost.",
+ "task": "hc16v3_dev_002"
+}

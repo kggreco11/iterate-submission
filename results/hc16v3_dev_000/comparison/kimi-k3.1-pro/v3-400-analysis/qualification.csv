@@ -1,0 +1,13 @@
+condition,run_id,run_status,criterion,reached,queries,backend_calls,attempts,elapsed_s,input_tokens,output_tokens,usd,round,agent,agent_queries,reward
+single_without_past,swarm-5006f87b620d4f0da586b996e2358009,all_finished_or_exhausted,first benchmark-valid including empty initial plant,True,0,0,0,0.0,0,0,0.0,0,agent-0,0,0.0
+single_without_past,swarm-5006f87b620d4f0da586b996e2358009,all_finished_or_exhausted,first positive valid objective,True,33,33,13,145.36,68449,15555,0.292448,13,agent-0,33,0.05025024280134924
+single_with_past,swarm-31f3e9cd061945c9980b5677cfaea9b7,aborted,first benchmark-valid including empty initial plant,True,0,0,0,0.563,0,0,0.0,0,agent-0,0,0.0
+single_with_past,swarm-31f3e9cd061945c9980b5677cfaea9b7,aborted,first positive valid objective,True,66,66,46,373.032,475505,41754,1.36855,46,agent-0,66,0.036025923754520926
+single_with_past,swarm-ee547757b06143bbbd3cab016ebc93f5,all_finished_or_exhausted,first benchmark-valid including empty initial plant,True,0,0,0,0.344,0,0,0.0,0,agent-0,0,0.0
+single_with_past,swarm-ee547757b06143bbbd3cab016ebc93f5,all_finished_or_exhausted,first positive valid objective,True,58,58,33,313.797,335445,32308,0.9939699999999999,33,agent-0,58,0.0063996109463022085
+swarm_without_past,swarm-99005c2897f049e8bf38ddfb0eefd900,all_finished_or_exhausted,first benchmark-valid including empty initial plant,True,0,0,0,0.453,0,0,0.0,0,agent-0,0,0.0
+swarm_without_past,swarm-99005c2897f049e8bf38ddfb0eefd900,all_finished_or_exhausted,first positive valid objective,True,55,45,22,83.672,117416,26622,0.5010519999999999,5,agent-1,13,0.038707320158054837
+swarm_with_past,swarm-8a058019985042109091388a28c89fd3,aborted,first benchmark-valid including empty initial plant,True,0,0,0,1.641,0,0,0.0,0,agent-0,0,0.0
+swarm_with_past,swarm-8a058019985042109091388a28c89fd3,aborted,first positive valid objective,True,45,40,18,84.36,128157,14689,0.40320400000000006,4,agent-2,11,0.33739276377141686
+swarm_with_past,swarm-72cb1e123ba9413e9c715b38544c0067,all_finished_or_exhausted,first benchmark-valid including empty initial plant,True,0,0,0,1.75,0,0,0.0,0,agent-0,0,0.0
+swarm_with_past,swarm-72cb1e123ba9413e9c715b38544c0067,all_finished_or_exhausted,first positive valid objective,True,70,54,21,96.375,190088,24691,0.627086,5,agent-0,15,0.3486798842875524

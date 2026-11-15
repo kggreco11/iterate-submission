@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-cull-db97bd5c",
+ "agent_id": "agent-5",
+ "provider": "modal",
+ "model": "kimi-k3.1-pro",
+ "requests": 13,
+ "failed_requests": 3,
+ "input_tokens": 36750,
+ "output_tokens": 11752,
+ "usd_estimated_total": 0.19102,
+ "requests_with_unknown_cost": 3,
+ "price_source": "https://modal.com/docs/guide/supported-models; 2026-11-14; uncached estimate",
+ "wall_s": 2101.001050710678,
+ "status": "culled",
+ "island": 5,
+ "strategy": null,
+ "best_valid_reward": 0.0,
+ "solves_used": 32,
+ "first_positive_at_solves": null,
+ "usd_cached_price_estimate": 0.1528888,
+ "notebook": "PLAN: Replace the poor C5/C6 root with the easy C4/C5 root; T removes C3-/ethane to sell C4, B splits C5 from C6+, and BB sells C6 paraffin over heavies. Measure leakage, then sharpen only failing cuts and finally reduce cost.\nThe current C5/C6 root is intrinsically expensive and contaminates every downstream product. New root should isolate C4- (774 mol/s) from C5+ (2526): TB is C4 blend (~$126M), BT C5 blend (~$497M), BBT C6-paraffin (~$1059M). TT is discarded as unsellable ethane/C3. Moderate duties should avoid prior excessive costs; pressure drops keep condensers warmer. C3 recovery is deferred because ethane requires another split.",
+ "task": "hc16v3_dev_002"
+}

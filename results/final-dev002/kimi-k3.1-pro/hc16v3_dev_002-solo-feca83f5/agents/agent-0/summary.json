@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-solo-feca83f5",
+ "agent_id": "agent-0",
+ "provider": "modal",
+ "model": "kimi-k3.1-pro",
+ "requests": 111,
+ "failed_requests": 1,
+ "input_tokens": 450376,
+ "output_tokens": 91738,
+ "usd_estimated_total": 1.8181319999999994,
+ "requests_with_unknown_cost": 1,
+ "price_source": "https://modal.com/docs/guide/supported-models; 2026-11-14; uncached estimate",
+ "wall_s": 1659.0035238265991,
+ "status": "finished",
+ "island": 0,
+ "strategy": null,
+ "best_valid_reward": 1.7539434508524658,
+ "solves_used": 196,
+ "first_positive_at_solves": 66,
+ "usd_cached_price_estimate": 1.3824455999999996,
+ "notebook": "PLAN: Preserve the proven plant and stop after the final boil-up bracket; no further probe offers meaningful upside within the remaining solve budget. Current step: restore the best valid design and finish.\nBest 1.754: root 55/3.25/6.5/.1; B 110/11/9.5/.1; T 65/5/7.25/.1; TB 65/6/22/.1; TBB 130/12.5/5.9/.1. TBB reflux 12.25/12.0 worse; B 105/108/109 stages worse. Root 52 stages, reflux 3.1, dp .05/.3, double effect and reboil 5.8 all worse/failed. B side draw, TT/BB splitters and T side draw unprofitable. B 100/10/9.5 destroyed BT; B dp .2/.3 worse; B reflux 11.5 and boil 9.25/9.45 worse. TB boil 21.5/22.5 worse. T reflux 4.5/4.8 worse. T boil trend: 7.8=1.706, 7.7=1.715, 7.6=1.723, 7.5=1.732, 7.4=1.741, 7.3=1.749, 7.25=1.754; 7.24=1.418, 7.23=1.419 and 7.2=1.422 lost saleable products. Restore 7.25 and retain best.",
+ "task": "hc16v3_dev_002"
+}

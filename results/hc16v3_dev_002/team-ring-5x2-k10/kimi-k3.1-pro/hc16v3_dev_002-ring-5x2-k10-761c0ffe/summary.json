@@ -1,0 +1,647 @@
+{
+  "run_id": "hc16v3_dev_002-ring-5x2-k10-761c0ffe",
+  "preset": "ring-5x2-k10",
+  "model": "kimi-k3.1-pro",
+  "task": "hc16v3_dev_002",
+  "status": "all_done",
+  "wall_s": 3608.7,
+  "team_best": 3.8659927367711795,
+  "team_solves": 2496,
+  "best_at": {
+    "100": 0.0,
+    "250": 0.0,
+    "500": 0.0,
+    "1000": 2.1514705520747452
+  },
+  "team_first_positive_at_team_solves": 515,
+  "agents_off_zero": 49,
+  "workers": 50,
+  "best_record": "R1182",
+  "best_columns": 13,
+  "best_design": {
+    "": [
+      65,
+      5.0,
+      6.0,
+      0.35
+    ],
+    "B": [
+      70,
+      6.0,
+      5.0,
+      0.3
+    ],
+    "T": [
+      45,
+      4.0,
+      6.0,
+      0.3
+    ],
+    "TT": [
+      45,
+      4.0,
+      5.0,
+      0.15
+    ],
+    "BB": [
+      50,
+      3.5,
+      4.5,
+      0.2
+    ],
+    "BBB": [
+      60,
+      8.0,
+      3.0,
+      0.2
+    ],
+    "BBBB": [
+      60,
+      4.0,
+      15.0,
+      0.2
+    ],
+    "BBBBB": [
+      80,
+      15.0,
+      6.0,
+      0.2
+    ],
+    "BBT": [
+      60,
+      5.0,
+      6.0,
+      0.2
+    ],
+    "BBTB": [
+      60,
+      6.0,
+      6.0,
+      0.2
+    ],
+    "BBTBB": [
+      45,
+      5.0,
+      5.0,
+      0.2
+    ],
+    "BBTBBT": [
+      60,
+      8.0,
+      11.0,
+      0.2
+    ],
+    "BBTT": [
+      160,
+      25.0,
+      20.0,
+      0.9
+    ]
+  },
+  "copies": 434,
+  "grafts": 1,
+  "records": 1259,
+  "distinct_structures": 317,
+  "usd_logged": 29.007789999999993,
+  "usd_cached_price_estimate": 23.2763596,
+  "requests": 1332,
+  "agents": {
+    "agent-0": {
+      "status": "budget_exhausted",
+      "island": 0,
+      "best_valid_reward": 0.4884443161091438,
+      "solves_used": 50,
+      "first_positive_at_solves": 10,
+      "requests": 22,
+      "usd_estimated_total": 0.489964,
+      "usd_cached_price_estimate": 0.3990712
+    },
+    "agent-1": {
+      "status": "budget_exhausted",
+      "island": 0,
+      "best_valid_reward": 0.49444033116027414,
+      "solves_used": 50,
+      "first_positive_at_solves": 9,
+      "requests": 23,
+      "usd_estimated_total": 0.511954,
+      "usd_cached_price_estimate": 0.4121908000000001
+    },
+    "agent-2": {
+      "status": "budget_exhausted",
+      "island": 0,
+      "best_valid_reward": 0.49345352519841923,
+      "solves_used": 50,
+      "first_positive_at_solves": 15,
+      "requests": 21,
+      "usd_estimated_total": 0.45527800000000007,
+      "usd_cached_price_estimate": 0.3645004
+    },
+    "agent-3": {
+      "status": "budget_exhausted",
+      "island": 0,
+      "best_valid_reward": 0.48642403190413697,
+      "solves_used": 50,
+      "first_positive_at_solves": 18,
+      "requests": 21,
+      "usd_estimated_total": 0.468568,
+      "usd_cached_price_estimate": 0.3779056
+    },
+    "agent-4": {
+      "status": "budget_exhausted",
+      "island": 0,
+      "best_valid_reward": 0.529951075811396,
+      "solves_used": 50,
+      "first_positive_at_solves": 10,
+      "requests": 23,
+      "usd_estimated_total": 0.5205700000000001,
+      "usd_cached_price_estimate": 0.4244932
+    },
+    "agent-5": {
+      "status": "budget_exhausted",
+      "island": 1,
+      "best_valid_reward": 1.3060000870463833,
+      "solves_used": 50,
+      "first_positive_at_solves": 32,
+      "requests": 29,
+      "usd_estimated_total": 0.6039519999999999,
+      "usd_cached_price_estimate": 0.4759648
+    },
+    "agent-6": {
+      "status": "budget_exhausted",
+      "island": 1,
+      "best_valid_reward": 1.2742645264266568,
+      "solves_used": 50,
+      "first_positive_at_solves": 40,
+      "requests": 23,
+      "usd_estimated_total": 0.47763599999999995,
+      "usd_cached_price_estimate": 0.3776424
+    },
+    "agent-7": {
+      "status": "budget_exhausted",
+      "island": 1,
+      "best_valid_reward": 1.30400020502499,
+      "solves_used": 50,
+      "first_positive_at_solves": 40,
+      "requests": 26,
+      "usd_estimated_total": 0.53878,
+      "usd_cached_price_estimate": 0.42530799999999996
+    },
+    "agent-8": {
+      "status": "budget_exhausted",
+      "island": 1,
+      "best_valid_reward": 1.3060000870463833,
+      "solves_used": 50,
+      "first_positive_at_solves": 33,
+      "requests": 28,
+      "usd_estimated_total": 0.551076,
+      "usd_cached_price_estimate": 0.42838799999999994
+    },
+    "agent-9": {
+      "status": "finished",
+      "island": 1,
+      "best_valid_reward": 0.0,
+      "solves_used": 49,
+      "first_positive_at_solves": null,
+      "requests": 16,
+      "usd_estimated_total": 0.323884,
+      "usd_cached_price_estimate": 0.256492
+    },
+    "agent-10": {
+      "status": "finished",
+      "island": 2,
+      "best_valid_reward": 2.1377464147405183,
+      "solves_used": 49,
+      "first_positive_at_solves": 21,
+      "requests": 30,
+      "usd_estimated_total": 0.6230319999999999,
+      "usd_cached_price_estimate": 0.49112800000000006
+    },
+    "agent-11": {
+      "status": "budget_exhausted",
+      "island": 2,
+      "best_valid_reward": 1.913556511078603,
+      "solves_used": 50,
+      "first_positive_at_solves": 32,
+      "requests": 22,
+      "usd_estimated_total": 0.46435400000000004,
+      "usd_cached_price_estimate": 0.37484360000000005
+    },
+    "agent-12": {
+      "status": "budget_exhausted",
+      "island": 2,
+      "best_valid_reward": 2.097867470589872,
+      "solves_used": 50,
+      "first_positive_at_solves": 23,
+      "requests": 27,
+      "usd_estimated_total": 0.5719180000000001,
+      "usd_cached_price_estimate": 0.4538380000000001
+    },
+    "agent-13": {
+      "status": "budget_exhausted",
+      "island": 2,
+      "best_valid_reward": 2.1377464147405183,
+      "solves_used": 50,
+      "first_positive_at_solves": 18,
+      "requests": 30,
+      "usd_estimated_total": 0.6069899999999999,
+      "usd_cached_price_estimate": 0.4742796
+    },
+    "agent-14": {
+      "status": "budget_exhausted",
+      "island": 2,
+      "best_valid_reward": 2.1751116346724895,
+      "solves_used": 50,
+      "first_positive_at_solves": 16,
+      "requests": 36,
+      "usd_estimated_total": 0.7815840000000001,
+      "usd_cached_price_estimate": 0.6177696
+    },
+    "agent-15": {
+      "status": "budget_exhausted",
+      "island": 3,
+      "best_valid_reward": 2.069677812290844,
+      "solves_used": 50,
+      "first_positive_at_solves": 8,
+      "requests": 29,
+      "usd_estimated_total": 0.637232,
+      "usd_cached_price_estimate": 0.5056736000000001
+    },
+    "agent-16": {
+      "status": "budget_exhausted",
+      "island": 3,
+      "best_valid_reward": 2.001065037505762,
+      "solves_used": 50,
+      "first_positive_at_solves": 22,
+      "requests": 27,
+      "usd_estimated_total": 0.586368,
+      "usd_cached_price_estimate": 0.46748159999999994
+    },
+    "agent-17": {
+      "status": "budget_exhausted",
+      "island": 3,
+      "best_valid_reward": 1.9554438833017387,
+      "solves_used": 50,
+      "first_positive_at_solves": 13,
+      "requests": 26,
+      "usd_estimated_total": 0.5580860000000001,
+      "usd_cached_price_estimate": 0.4396604000000001
+    },
+    "agent-18": {
+      "status": "budget_exhausted",
+      "island": 3,
+      "best_valid_reward": 2.0005722111329947,
+      "solves_used": 50,
+      "first_positive_at_solves": 11,
+      "requests": 28,
+      "usd_estimated_total": 0.626982,
+      "usd_cached_price_estimate": 0.504294
+    },
+    "agent-19": {
+      "status": "budget_exhausted",
+      "island": 3,
+      "best_valid_reward": 2.0925145515508454,
+      "solves_used": 50,
+      "first_positive_at_solves": 10,
+      "requests": 28,
+      "usd_estimated_total": 0.62464,
+      "usd_cached_price_estimate": 0.49699840000000006
+    },
+    "agent-20": {
+      "status": "budget_exhausted",
+      "island": 4,
+      "best_valid_reward": 1.8083189013171328,
+      "solves_used": 50,
+      "first_positive_at_solves": 36,
+      "requests": 12,
+      "usd_estimated_total": 0.27818200000000004,
+      "usd_cached_price_estimate": 0.22495959999999998
+    },
+    "agent-21": {
+      "status": "budget_exhausted",
+      "island": 4,
+      "best_valid_reward": 1.885254750708047,
+      "solves_used": 50,
+      "first_positive_at_solves": 17,
+      "requests": 28,
+      "usd_estimated_total": 0.640678,
+      "usd_cached_price_estimate": 0.5176444
+    },
+    "agent-22": {
+      "status": "budget_exhausted",
+      "island": 4,
+      "best_valid_reward": 1.936911438133286,
+      "solves_used": 50,
+      "first_positive_at_solves": 9,
+      "requests": 32,
+      "usd_estimated_total": 0.693182,
+      "usd_cached_price_estimate": 0.5517164000000001
+    },
+    "agent-23": {
+      "status": "budget_exhausted",
+      "island": 4,
+      "best_valid_reward": 1.885254750708047,
+      "solves_used": 50,
+      "first_positive_at_solves": 14,
+      "requests": 28,
+      "usd_estimated_total": 0.5972500000000001,
+      "usd_cached_price_estimate": 0.46995400000000004
+    },
+    "agent-24": {
+      "status": "budget_exhausted",
+      "island": 4,
+      "best_valid_reward": 1.8851573344880774,
+      "solves_used": 50,
+      "first_positive_at_solves": 16,
+      "requests": 27,
+      "usd_estimated_total": 0.6005580000000001,
+      "usd_cached_price_estimate": 0.48247799999999996
+    },
+    "agent-25": {
+      "status": "budget_exhausted",
+      "island": 5,
+      "best_valid_reward": 3.5513223426757157,
+      "solves_used": 50,
+      "first_positive_at_solves": 17,
+      "requests": 19,
+      "usd_estimated_total": 0.542398,
+      "usd_cached_price_estimate": 0.45657400000000004
+    },
+    "agent-26": {
+      "status": "budget_exhausted",
+      "island": 5,
+      "best_valid_reward": 3.550150955680578,
+      "solves_used": 50,
+      "first_positive_at_solves": 17,
+      "requests": 19,
+      "usd_estimated_total": 0.518766,
+      "usd_cached_price_estimate": 0.4339787999999999
+    },
+    "agent-27": {
+      "status": "budget_exhausted",
+      "island": 5,
+      "best_valid_reward": 3.550150955680578,
+      "solves_used": 50,
+      "first_positive_at_solves": 10,
+      "requests": 19,
+      "usd_estimated_total": 0.54223,
+      "usd_cached_price_estimate": 0.4567516
+    },
+    "agent-28": {
+      "status": "budget_exhausted",
+      "island": 5,
+      "best_valid_reward": 3.8659927367711795,
+      "solves_used": 50,
+      "first_positive_at_solves": 13,
+      "requests": 29,
+      "usd_estimated_total": 0.88544,
+      "usd_cached_price_estimate": 0.7588352
+    },
+    "agent-29": {
+      "status": "budget_exhausted",
+      "island": 5,
+      "best_valid_reward": 3.5597038927872924,
+      "solves_used": 50,
+      "first_positive_at_solves": 10,
+      "requests": 20,
+      "usd_estimated_total": 0.545274,
+      "usd_cached_price_estimate": 0.4544964
+    },
+    "agent-30": {
+      "status": "finished",
+      "island": 6,
+      "best_valid_reward": 2.8657794423193215,
+      "solves_used": 49,
+      "first_positive_at_solves": 15,
+      "requests": 24,
+      "usd_estimated_total": 0.6366040000000001,
+      "usd_cached_price_estimate": 0.5273943999999999
+    },
+    "agent-31": {
+      "status": "budget_exhausted",
+      "island": 6,
+      "best_valid_reward": 2.8657794423193215,
+      "solves_used": 50,
+      "first_positive_at_solves": 25,
+      "requests": 26,
+      "usd_estimated_total": 0.5560379999999999,
+      "usd_cached_price_estimate": 0.45569879999999996
+    },
+    "agent-32": {
+      "status": "budget_exhausted",
+      "island": 6,
+      "best_valid_reward": 2.8600490526960973,
+      "solves_used": 50,
+      "first_positive_at_solves": 22,
+      "requests": 21,
+      "usd_estimated_total": 0.5108199999999999,
+      "usd_cached_price_estimate": 0.42038799999999993
+    },
+    "agent-33": {
+      "status": "budget_exhausted",
+      "island": 6,
+      "best_valid_reward": 2.8662055843192196,
+      "solves_used": 50,
+      "first_positive_at_solves": 16,
+      "requests": 31,
+      "usd_estimated_total": 0.7155419999999999,
+      "usd_cached_price_estimate": 0.5885916
+    },
+    "agent-34": {
+      "status": "budget_exhausted",
+      "island": 6,
+      "best_valid_reward": 2.8406444737393053,
+      "solves_used": 50,
+      "first_positive_at_solves": 21,
+      "requests": 22,
+      "usd_estimated_total": 0.535736,
+      "usd_cached_price_estimate": 0.4420784
+    },
+    "agent-35": {
+      "status": "budget_exhausted",
+      "island": 7,
+      "best_valid_reward": 1.3580644318158381,
+      "solves_used": 50,
+      "first_positive_at_solves": 26,
+      "requests": 30,
+      "usd_estimated_total": 0.6623020000000001,
+      "usd_cached_price_estimate": 0.5261355999999999
+    },
+    "agent-36": {
+      "status": "budget_exhausted",
+      "island": 7,
+      "best_valid_reward": 1.3418033193467973,
+      "solves_used": 50,
+      "first_positive_at_solves": 28,
+      "requests": 27,
+      "usd_estimated_total": 0.5776020000000002,
+      "usd_cached_price_estimate": 0.4682772000000001
+    },
+    "agent-37": {
+      "status": "budget_exhausted",
+      "island": 7,
+      "best_valid_reward": 1.3580644318158381,
+      "solves_used": 50,
+      "first_positive_at_solves": 17,
+      "requests": 32,
+      "usd_estimated_total": 0.7012179999999999,
+      "usd_cached_price_estimate": 0.5652820000000001
+    },
+    "agent-38": {
+      "status": "budget_exhausted",
+      "island": 7,
+      "best_valid_reward": 1.3580644318158381,
+      "solves_used": 50,
+      "first_positive_at_solves": 24,
+      "requests": 40,
+      "usd_estimated_total": 0.821554,
+      "usd_cached_price_estimate": 0.6572788
+    },
+    "agent-39": {
+      "status": "budget_exhausted",
+      "island": 7,
+      "best_valid_reward": 1.3454042070273116,
+      "solves_used": 50,
+      "first_positive_at_solves": 16,
+      "requests": 32,
+      "usd_estimated_total": 0.7228380000000001,
+      "usd_cached_price_estimate": 0.581718
+    },
+    "agent-40": {
+      "status": "budget_exhausted",
+      "island": 8,
+      "best_valid_reward": 0.5395987695361636,
+      "solves_used": 50,
+      "first_positive_at_solves": 23,
+      "requests": 23,
+      "usd_estimated_total": 0.4393799999999999,
+      "usd_cached_price_estimate": 0.3479112
+    },
+    "agent-41": {
+      "status": "budget_exhausted",
+      "island": 8,
+      "best_valid_reward": 0.5416572797706051,
+      "solves_used": 50,
+      "first_positive_at_solves": 33,
+      "requests": 24,
+      "usd_estimated_total": 0.4537459999999999,
+      "usd_cached_price_estimate": 0.36296839999999997
+    },
+    "agent-42": {
+      "status": "budget_exhausted",
+      "island": 8,
+      "best_valid_reward": 0.5418458400662197,
+      "solves_used": 50,
+      "first_positive_at_solves": 23,
+      "requests": 22,
+      "usd_estimated_total": 0.48892400000000014,
+      "usd_cached_price_estimate": 0.3896216000000001
+    },
+    "agent-43": {
+      "status": "budget_exhausted",
+      "island": 8,
+      "best_valid_reward": 0.5385974821412828,
+      "solves_used": 50,
+      "first_positive_at_solves": 28,
+      "requests": 22,
+      "usd_estimated_total": 0.43789999999999984,
+      "usd_cached_price_estimate": 0.35599279999999994
+    },
+    "agent-44": {
+      "status": "budget_exhausted",
+      "island": 8,
+      "best_valid_reward": 0.5419739087832017,
+      "solves_used": 50,
+      "first_positive_at_solves": 28,
+      "requests": 23,
+      "usd_estimated_total": 0.528534,
+      "usd_cached_price_estimate": 0.4253148
+    },
+    "agent-45": {
+      "status": "budget_exhausted",
+      "island": 9,
+      "best_valid_reward": 1.2462413550079852,
+      "solves_used": 50,
+      "first_positive_at_solves": 20,
+      "requests": 32,
+      "usd_estimated_total": 0.56405,
+      "usd_cached_price_estimate": 0.4328372000000001
+    },
+    "agent-46": {
+      "status": "finished",
+      "island": 9,
+      "best_valid_reward": 1.3072211982246889,
+      "solves_used": 49,
+      "first_positive_at_solves": 12,
+      "requests": 40,
+      "usd_estimated_total": 0.712222,
+      "usd_cached_price_estimate": 0.5383851999999999
+    },
+    "agent-47": {
+      "status": "budget_exhausted",
+      "island": 9,
+      "best_valid_reward": 1.3072211982246889,
+      "solves_used": 50,
+      "first_positive_at_solves": 14,
+      "requests": 40,
+      "usd_estimated_total": 0.7115019999999999,
+      "usd_cached_price_estimate": 0.5472267999999999
+    },
+    "agent-48": {
+      "status": "budget_exhausted",
+      "island": 9,
+      "best_valid_reward": 1.3072211982246889,
+      "solves_used": 50,
+      "first_positive_at_solves": 12,
+      "requests": 41,
+      "usd_estimated_total": 0.7762899999999999,
+      "usd_cached_price_estimate": 0.6074067999999999
+    },
+    "agent-49": {
+      "status": "budget_exhausted",
+      "island": 9,
+      "best_valid_reward": 1.2260089567542654,
+      "solves_used": 50,
+      "first_positive_at_solves": 21,
+      "requests": 32,
+      "usd_estimated_total": 0.588182,
+      "usd_cached_price_estimate": 0.46054040000000007
+    }
+  },
+  "config": {
+    "n": 50,
+    "budget": 50,
+    "unsold_info": true,
+    "effort": "low",
+    "think_budget": null,
+    "plan": false,
+    "think_every": null,
+    "think_when_stuck": null,
+    "cheap_effort": "none",
+    "islands": [
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "share_within": true,
+    "migrate_every": 10,
+    "route": "ring",
+    "info": "full",
+    "copy": true,
+    "graft": true,
+    "copy_rule": null,
+    "niche_board": false,
+    "strategies": null,
+    "notebook": true,
+    "cull_every": null,
+    "supervisor_every": null,
+    "max_shown": 4,
+    "preset": "ring-5x2-k10"
+  }
+}

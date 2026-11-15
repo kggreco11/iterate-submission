@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-cull-2433e454",
+ "agent_id": "agent-2",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 59,
+ "failed_requests": 0,
+ "input_tokens": 261715,
+ "output_tokens": 57368,
+ "usd_estimated_total": 0.14735610000000002,
+ "requests_with_unknown_cost": 0,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 5423.072975158691,
+ "status": "culled",
+ "island": 2,
+ "strategy": null,
+ "best_valid_reward": 0.0,
+ "solves_used": 23,
+ "first_positive_at_solves": null,
+ "usd_cached_price_estimate": 0.11251962,
+ "notebook": "Turn 30. 22 solves used. Best valid = 0.000 (empty design). All non-empty designs so far negative: either a column fails to converge or revenue=0 while paying costs.\n\nKEY FACT: empty = 0. I need revenue > column cost. Value = flow(mol/s)*price($/mol)*2.88e7. Blend prices are 85% of members' mean.\n\nLargest wins available:\n- C6par mix (22DMB+2MP+3MP+nC6) = 970 mol/s, mean 0.0498, *0.85=0.0423 -> $1181M/yr. HARD: nC6(341.9)/MCP(345.0) gap 3.1K on heavy side, and 22DMB(322.9)/nC5(309.2) 13.7K on light side.\n- C5mix (iC5+nC5)=695 mol/s -> $618M. Cuts: nC4(272.7)/iC5(301.0) 28.3K EASY; nC5(309.2)/22DMB(322.9) 13.7K MEDIUM.\n- C6nap (MCP+cyclohexane)=269 mol/s -> $396M. Needs 3.1K light cut = HARD.\n- C4mix (iC4+nC4)=544 mol/s -> $186M. Cuts: C3(231)/iC4(261.3) 30K EASY; iC4/nC4 11.4K MEDIUM.\n- C3mix (propylene+propane)=286 mol/s -> $73M. Cuts: C3=(225.4)/C3(231.0) 5.6K HARD-ish; ethane(C2,184.6)/propylene 40K EASY (must remove ethane or C3mix only 89% pure).\n\nMy earlier probes showed single-column costs ~ $100-150M/yr at reflux 6. So a C5mix stream ($618M) should net strongly positive.\n\nPLAN (build slowly, verify convergence each step):\n1. Feed col, modest settings, convirm valid & cost.\n2. Feed col -> T=C4-, B=C5+. Then col on B -> T=C5mix (95%), B=C6+. Target C5mix $618M.\n3. Add col on T -> C3mix / C4mix.\nGuard: keep stages/reflux moderate to avoid non-convergence; a failed column kills the whole design.",
+ "task": "hc16v3_dev_002"
+}

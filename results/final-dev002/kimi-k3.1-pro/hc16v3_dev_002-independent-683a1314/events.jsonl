@@ -1,0 +1,52 @@
+{"kind": "round", "round": 1, "team_best": 0.0, "team_solves": 24, "active": 10, "usd_logged": 0.12977, "usd_real": 0.1135268, "t": 58.78}
+{"kind": "round", "round": 2, "team_best": 0.0, "team_solves": 41, "active": 10, "usd_logged": 0.29263599999999995, "usd_real": 0.24309999999999996, "t": 97.12}
+{"kind": "round", "round": 3, "team_best": 0.0, "team_solves": 64, "active": 10, "usd_logged": 0.460006, "usd_real": 0.3807484, "t": 216.02}
+{"kind": "round", "round": 4, "team_best": 0.0, "team_solves": 85, "active": 10, "usd_logged": 0.642396, "usd_real": 0.5289240000000001, "t": 609.18}
+{"kind": "round", "round": 5, "team_best": 0.0, "team_solves": 110, "active": 10, "usd_logged": 0.795668, "usd_real": 0.6478664000000001, "t": 675.21}
+{"kind": "round", "round": 6, "team_best": 0.23453302864245232, "team_solves": 130, "active": 10, "usd_logged": 0.9661059999999999, "usd_real": 0.7760259999999999, "t": 729.88}
+{"kind": "round", "round": 7, "team_best": 0.47310464052052653, "team_solves": 147, "active": 10, "usd_logged": 1.139166, "usd_real": 0.9107243999999999, "t": 821.87}
+{"kind": "round", "round": 8, "team_best": 0.47310464052052653, "team_solves": 166, "active": 10, "usd_logged": 1.297994, "usd_real": 1.0273892, "t": 859.55}
+{"kind": "round", "round": 9, "team_best": 0.47310464052052653, "team_solves": 186, "active": 10, "usd_logged": 1.477998, "usd_real": 1.1647692, "t": 907.14}
+{"kind": "round", "round": 10, "team_best": 1.43482101155561, "team_solves": 203, "active": 10, "usd_logged": 1.660242, "usd_real": 1.3046196, "t": 942.64}
+{"kind": "round", "round": 11, "team_best": 1.43482101155561, "team_solves": 225, "active": 10, "usd_logged": 1.832918, "usd_real": 1.4346715999999997, "t": 1001.04}
+{"kind": "round", "round": 12, "team_best": 1.43482101155561, "team_solves": 244, "active": 10, "usd_logged": 1.9983140000000001, "usd_real": 1.5574435999999998, "t": 1049.4}
+{"kind": "round", "round": 13, "team_best": 1.43482101155561, "team_solves": 259, "active": 10, "usd_logged": 2.138176, "usd_real": 1.6546816, "t": 1083.68}
+{"kind": "round", "round": 14, "team_best": 1.43482101155561, "team_solves": 273, "active": 10, "usd_logged": 2.294794, "usd_real": 1.7686756, "t": 1144.06}
+{"kind": "round", "round": 15, "team_best": 1.43482101155561, "team_solves": 286, "active": 10, "usd_logged": 2.448204, "usd_real": 1.8794616, "t": 1191.24}
+{"kind": "round", "round": 16, "team_best": 1.4848991685262458, "team_solves": 299, "active": 10, "usd_logged": 2.5953460000000006, "usd_real": 1.9839796, "t": 1233.56}
+{"kind": "round", "round": 17, "team_best": 1.992915453756444, "team_solves": 315, "active": 10, "usd_logged": 2.755646000000001, "usd_real": 2.1017707999999997, "t": 1280.99}
+{"kind": "model_error", "round": 18, "agent": "agent-3", "error": "invalid_edits", "t": 1318.56}
+{"kind": "round", "round": 18, "team_best": 1.992915453756444, "team_solves": 329, "active": 10, "usd_logged": 2.907692000000001, "usd_real": 2.2111928, "t": 1331.1}
+{"kind": "round", "round": 19, "team_best": 1.992915453756444, "team_solves": 339, "active": 9, "usd_logged": 3.0510120000000005, "usd_real": 2.3163816, "t": 1375.8}
+{"kind": "round", "round": 20, "team_best": 1.992915453756444, "team_solves": 353, "active": 9, "usd_logged": 3.1856180000000003, "usd_real": 2.4134324000000005, "t": 1413.14}
+{"kind": "round", "round": 21, "team_best": 1.992915453756444, "team_solves": 364, "active": 9, "usd_logged": 3.3218080000000003, "usd_real": 2.511376, "t": 1441.93}
+{"kind": "round", "round": 22, "team_best": 1.992915453756444, "team_solves": 378, "active": 9, "usd_logged": 3.45397, "usd_real": 2.6052916, "t": 1488.05}
+{"kind": "round", "round": 23, "team_best": 1.992915453756444, "team_solves": 393, "active": 9, "usd_logged": 3.5995320000000004, "usd_real": 2.7167544, "t": 1521.36}
+{"kind": "round", "round": 24, "team_best": 2.0634952286882577, "team_solves": 405, "active": 9, "usd_logged": 3.7263520000000003, "usd_real": 2.8057888, "t": 1552.3}
+{"kind": "round", "round": 25, "team_best": 2.1370141060129098, "team_solves": 414, "active": 9, "usd_logged": 3.8626460000000002, "usd_real": 2.9037212, "t": 1579.8}
+{"kind": "round", "round": 26, "team_best": 2.2134424010725375, "team_solves": 426, "active": 8, "usd_logged": 3.9720219999999995, "usd_real": 2.978998, "t": 1625.08}
+{"kind": "round", "round": 27, "team_best": 2.2134424010725375, "team_solves": 436, "active": 8, "usd_logged": 4.085708, "usd_real": 3.0627319999999996, "t": 1647.3}
+{"kind": "round", "round": 28, "team_best": 2.252721307592218, "team_solves": 446, "active": 8, "usd_logged": 4.204516, "usd_real": 3.1517031999999996, "t": 1688.98}
+{"kind": "round", "round": 29, "team_best": 2.26065976065109, "team_solves": 454, "active": 8, "usd_logged": 4.31099, "usd_real": 3.2240780000000004, "t": 1713.65}
+{"kind": "round", "round": 30, "team_best": 2.268626627341867, "team_solves": 465, "active": 7, "usd_logged": 4.411128, "usd_real": 3.2944944000000005, "t": 1752.66}
+{"kind": "finish", "round": 31, "agent": "agent-2", "note": "Final best valid reward is 2.269. The 8.15-reflux heavy column preserved the C6-paraffin blend and improved profit; the full solve budget is now used.", "t": 1784.44}
+{"kind": "round", "round": 31, "team_best": 2.268626627341867, "team_solves": 472, "active": 7, "usd_logged": 4.499684, "usd_real": 3.3532136, "t": 1787.3}
+{"kind": "finish", "round": 32, "agent": "agent-4", "note": "Preserve the best valid reward of 0.000. With three solves left and every evaluated separation strongly uneconomic, there is no credible remaining adjustment that can produce a profitable plant.", "t": 1801.75}
+{"kind": "finish", "round": 32, "agent": "agent-8", "note": "Finalize the proven best design (reward 0.536): root 70 stages, reflux 5.0, boil-up 8.0, pressure drop 0.2; B column 80 stages, reflux 10.4, boil-up 10.0, pressure drop 0.1. Lower B reflux values missed the C6-paraffin blend specification, so no further solve is worthwhile.", "t": 1801.75}
+{"kind": "round", "round": 32, "team_best": 2.268626627341867, "team_solves": 475, "active": 5, "usd_logged": 4.559318, "usd_real": 3.3915356000000005, "t": 1801.75}
+{"kind": "round", "round": 33, "team_best": 2.268626627341867, "team_solves": 479, "active": 2, "usd_logged": 4.5863, "usd_real": 3.4099928, "t": 1816.09}
+{"kind": "round", "round": 34, "team_best": 2.268626627341867, "team_solves": 483, "active": 1, "usd_logged": 4.603164, "usd_real": 3.4225944, "t": 1832.96}
+{"kind": "round", "round": 35, "team_best": 2.268626627341867, "team_solves": 484, "active": 1, "usd_logged": 4.620026, "usd_real": 3.4351940000000005, "t": 1843.02}
+{"kind": "round", "round": 36, "team_best": 2.268626627341867, "team_solves": 485, "active": 1, "usd_logged": 4.633186, "usd_real": 3.4440916000000006, "t": 1858.53}
+{"kind": "round", "round": 37, "team_best": 2.268626627341867, "team_solves": 486, "active": 1, "usd_logged": 4.645964, "usd_real": 3.4526072000000005, "t": 1861.57}
+{"kind": "round", "round": 38, "team_best": 2.268626627341867, "team_solves": 487, "active": 1, "usd_logged": 4.66394, "usd_real": 3.4663208000000005, "t": 1873.28}
+{"kind": "round", "round": 39, "team_best": 2.268626627341867, "team_solves": 488, "active": 1, "usd_logged": 4.678266, "usd_real": 3.4763844, "t": 1884.41}
+{"kind": "round", "round": 40, "team_best": 2.268626627341867, "team_solves": 489, "active": 1, "usd_logged": 4.6922239999999995, "usd_real": 3.48608, "t": 1894.11}
+{"kind": "round", "round": 41, "team_best": 2.268626627341867, "team_solves": 489, "active": 1, "usd_logged": 4.7059999999999995, "usd_real": 3.4955936, "t": 1900.37}
+{"kind": "round", "round": 42, "team_best": 2.268626627341867, "team_solves": 490, "active": 1, "usd_logged": 4.719854, "usd_real": 3.5051852, "t": 1907.51}
+{"kind": "round", "round": 43, "team_best": 2.268626627341867, "team_solves": 491, "active": 1, "usd_logged": 4.73339, "usd_real": 3.5144588000000003, "t": 1912.77}
+{"kind": "round", "round": 44, "team_best": 2.268626627341867, "team_solves": 491, "active": 1, "usd_logged": 4.747414, "usd_real": 3.5242204000000004, "t": 1919.77}
+{"kind": "round", "round": 45, "team_best": 2.268626627341867, "team_solves": 492, "active": 1, "usd_logged": 4.76135, "usd_real": 3.5338940000000005, "t": 1928.14}
+{"kind": "round", "round": 46, "team_best": 2.268626627341867, "team_solves": 492, "active": 1, "usd_logged": 4.773499999999999, "usd_real": 3.5417816000000006, "t": 1932.06}
+{"kind": "finish", "round": 47, "agent": "agent-3", "note": "The best valid plant scores 1.933. Remaining tests offered only negligible savings with substantial risk of losing blend purity, and heavy-product recovery was uneconomic.", "t": 1935.86}
+{"kind": "round", "round": 47, "team_best": 2.268626627341867, "team_solves": 492, "active": 1, "usd_logged": 4.78334, "usd_real": 3.5473592000000003, "t": 1935.86}

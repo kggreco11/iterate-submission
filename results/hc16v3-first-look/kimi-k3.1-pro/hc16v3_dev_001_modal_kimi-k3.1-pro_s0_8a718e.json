@@ -1,0 +1,676 @@
+{
+ "label": "kimi-k3.1-pro (seed 0, 200 solves)",
+ "task": "hc16v3_dev_001",
+ "components": [
+  "Ethane",
+  "Propylene",
+  "Propane",
+  "Isobutane",
+  "N-butane",
+  "Isopentane",
+  "N-pentane",
+  "2,2-dimethylbutane",
+  "2-methylpentane",
+  "3-methylpentane",
+  "N-hexane",
+  "Methylcyclopentane",
+  "Cyclohexane",
+  "N-heptane",
+  "N-octane",
+  "N-nonane"
+ ],
+ "upper_bound_reward": 6.590661038679775,
+ "reward_norm": 524121777.9830234,
+ "backend": "chemsep",
+ "budget": 200,
+ "solves_used": 195,
+ "best_reward": 0.269515976630343,
+ "wall_s": 983.4492344000028,
+ "curve": {
+  "20": 0.0,
+  "40": 0.0,
+  "80": 0.0,
+  "120": 0.21755963196723205,
+  "200": 0.269515976630343
+ },
+ "trace": [
+  {
+   "solves": 0,
+   "wall_s": 0.03433029999723658,
+   "reward": 0.0,
+   "revenue": 0.0,
+   "tac": 0.0,
+   "columns": {},
+   "products": [
+    {
+     "node": "",
+     "component": "Propane",
+     "kind": "none",
+     "purity": 0.19576726666666666,
+     "value": 0.0,
+     "flow_mol_s": 3300.0
+    }
+   ]
+  },
+  {
+   "solves": 97,
+   "wall_s": 405.31742730000406,
+   "reward": 0.13668401362048177,
+   "revenue": 189745634.03944027,
+   "tac": 118106565.79881757,
+   "columns": {
+    "": {
+     "n_stages": 40,
+     "reflux": 4.0,
+     "reboil": 1.0,
+     "dp": 0.0,
+     "tac": 108950297.25257239
+    },
+    "T": {
+     "n_stages": 40,
+     "reflux": 3.0,
+     "reboil": 2.0,
+     "dp": 0.0,
+     "tac": 9156268.546245193
+    }
+   },
+   "products": [
+    {
+     "node": "TT",
+     "component": "Ethane",
+     "kind": "none",
+     "purity": 0.36861375671794455,
+     "value": 0.0,
+     "flow_mol_s": 281.745589
+    },
+    {
+     "node": "TB",
+     "component": "Propane",
+     "kind": "blend: C3 mix",
+     "purity": 0.6895594197751383,
+     "value": 189745634.03944027,
+     "flow_mol_s": 602.655941
+    },
+    {
+     "node": "B",
+     "component": "N-butane",
+     "kind": "none",
+     "purity": 0.20452897620853355,
+     "value": 0.0,
+     "flow_mol_s": 2415.59847
+    }
+   ]
+  },
+  {
+   "solves": 99,
+   "wall_s": 421.16170899997815,
+   "reward": 0.16309296427187142,
+   "revenue": 218595730.07082933,
+   "tac": 133115155.66013438,
+   "columns": {
+    "": {
+     "n_stages": 40,
+     "reflux": 4.0,
+     "reboil": 1.0,
+     "dp": 0.0,
+     "tac": 108950297.25257239
+    },
+    "T": {
+     "n_stages": 60,
+     "reflux": 6.0,
+     "reboil": 2.0,
+     "dp": 0.0,
+     "tac": 24164858.40756198
+    }
+   },
+   "products": [
+    {
+     "node": "TT",
+     "component": "Ethane",
+     "kind": "none",
+     "purity": 0.5463153246397903,
+     "value": 0.0,
+     "flow_mol_s": 190.150551
+    },
+    {
+     "node": "TB",
+     "component": "Propane",
+     "kind": "blend: C3 mix",
+     "purity": 0.6854621302593799,
+     "value": 218595730.07082933,
+     "flow_mol_s": 694.250979
+    },
+    {
+     "node": "B",
+     "component": "N-butane",
+     "kind": "none",
+     "purity": 0.20452897620853355,
+     "value": 0.0,
+     "flow_mol_s": 2415.59847
+    }
+   ]
+  },
+  {
+   "solves": 103,
+   "wall_s": 435.155259399995,
+   "reward": 0.20673359614370018,
+   "revenue": 228897057.48935217,
+   "tac": 120543477.50969172,
+   "columns": {
+    "": {
+     "n_stages": 30,
+     "reflux": 3.0,
+     "reboil": 1.0,
+     "dp": 0.0,
+     "tac": 102770980.1291049
+    },
+    "T": {
+     "n_stages": 50,
+     "reflux": 5.0,
+     "reboil": 2.0,
+     "dp": 0.0,
+     "tac": 17772497.38058681
+    }
+   },
+   "products": [
+    {
+     "node": "TT",
+     "component": "Ethane",
+     "kind": "none",
+     "purity": 0.44482075782119423,
+     "value": 0.0,
+     "flow_mol_s": 233.52316000000002
+    },
+    {
+     "node": "TB",
+     "component": "Propane",
+     "kind": "blend: C3 mix",
+     "purity": 0.6945001235433705,
+     "value": 228897057.48935217,
+     "flow_mol_s": 740.371576
+    },
+    {
+     "node": "B",
+     "component": "N-butane",
+     "kind": "none",
+     "purity": 0.21043269003152046,
+     "value": 0.0,
+     "flow_mol_s": 2326.105264
+    }
+   ]
+  },
+  {
+   "solves": 106,
+   "wall_s": 450.16920609999215,
+   "reward": 0.21542987327945157,
+   "revenue": 240951461.42399058,
+   "tac": 128039973.210107,
+   "columns": {
+    "": {
+     "n_stages": 30,
+     "reflux": 3.0,
+     "reboil": 1.15,
+     "dp": 0.0,
+     "tac": 111353981.71457121
+    },
+    "T": {
+     "n_stages": 50,
+     "reflux": 5.0,
+     "reboil": 2.0,
+     "dp": 0.0,
+     "tac": 16685991.495535785
+    }
+   },
+   "products": [
+    {
+     "node": "TT",
+     "component": "Ethane",
+     "kind": "none",
+     "purity": 0.4206955586291711,
+     "value": 0.0,
+     "flow_mol_s": 246.920206
+    },
+    {
+     "node": "TB",
+     "component": "Propane",
+     "kind": "blend: C3 mix",
+     "purity": 0.6978944354116716,
+     "value": 240951461.42399058,
+     "flow_mol_s": 783.464354
+    },
+    {
+     "node": "B",
+     "component": "N-butane",
+     "kind": "none",
+     "purity": 0.21491184339140731,
+     "value": 0.0,
+     "flow_mol_s": 2269.61544
+    }
+   ]
+  },
+  {
+   "solves": 117,
+   "wall_s": 502.9997645999829,
+   "reward": 0.21755963196723205,
+   "revenue": 246631195.87001756,
+   "tac": 132603454.74601968,
+   "columns": {
+    "": {
+     "n_stages": 30,
+     "reflux": 3.0,
+     "reboil": 1.25,
+     "dp": 0.0,
+     "tac": 116655384.58799727
+    },
+    "T": {
+     "n_stages": 50,
+     "reflux": 5.0,
+     "reboil": 2.0,
+     "dp": 0.0,
+     "tac": 15948070.15802241
+    }
+   },
+   "products": [
+    {
+     "node": "TT",
+     "component": "Ethane",
+     "kind": "none",
+     "purity": 0.4067938721691279,
+     "value": 0.0,
+     "flow_mol_s": 255.360442
+    },
+    {
+     "node": "TB",
+     "component": "Propane",
+     "kind": "blend: C3 mix",
+     "purity": 0.6962330237814791,
+     "value": 246631195.87001756,
+     "flow_mol_s": 809.3923409999999
+    },
+    {
+     "node": "B",
+     "component": "N-butane",
+     "kind": "none",
+     "purity": 0.21688556161168457,
+     "value": 0.0,
+     "flow_mol_s": 2235.247217
+    }
+   ]
+  },
+  {
+   "solves": 143,
+   "wall_s": 675.5453420999984,
+   "reward": 0.23150000501545479,
+   "revenue": 244481279.10587937,
+   "tac": 123147084.87410037,
+   "columns": {
+    "": {
+     "n_stages": 30,
+     "reflux": 3.0,
+     "reboil": 1.25,
+     "dp": 0.0,
+     "tac": 116655384.58799727
+    },
+    "T": {
+     "n_stages": 30,
+     "reflux": 2.0,
+     "reboil": 1.0,
+     "dp": 0.0,
+     "tac": 6491700.2861031005
+    }
+   },
+   "products": [
+    {
+     "node": "TT",
+     "component": "Ethane",
+     "kind": "none",
+     "purity": 0.37707227767651863,
+     "value": 0.0,
+     "flow_mol_s": 254.14101399999998
+    },
+    {
+     "node": "TB",
+     "component": "Propane",
+     "kind": "blend: C3 mix",
+     "purity": 0.6638545313299047,
+     "value": 244481279.10587937,
+     "flow_mol_s": 810.611769
+    },
+    {
+     "node": "B",
+     "component": "N-butane",
+     "kind": "none",
+     "purity": 0.21688556161168457,
+     "value": 0.0,
+     "flow_mol_s": 2235.247217
+    }
+   ]
+  },
+  {
+   "solves": 158,
+   "wall_s": 768.7620494999865,
+   "reward": 0.25240195612656807,
+   "revenue": 261333368.16189957,
+   "tac": 129044006.15044965,
+   "columns": {
+    "": {
+     "n_stages": 30,
+     "reflux": 3.0,
+     "reboil": 1.25,
+     "dp": 0.0,
+     "tac": 116655384.58799727
+    },
+    "T": {
+     "n_stages": 60,
+     "reflux": 3.0,
+     "reboil": 1.0,
+     "dp": 0.0,
+     "tac": 12388621.562452372
+    }
+   },
+   "products": [
+    {
+     "node": "TT",
+     "component": "Ethane",
+     "kind": "none",
+     "purity": 0.4847070281813493,
+     "value": 0.0,
+     "flow_mol_s": 203.360703
+    },
+    {
+     "node": "TB",
+     "component": "Propane",
+     "kind": "blend: C3 mix",
+     "purity": 0.6676342322534473,
+     "value": 261333368.16189957,
+     "flow_mol_s": 861.3920799999999
+    },
+    {
+     "node": "B",
+     "component": "N-butane",
+     "kind": "none",
+     "purity": 0.21688556161168457,
+     "value": 0.0,
+     "flow_mol_s": 2235.247217
+    }
+   ]
+  },
+  {
+   "solves": 159,
+   "wall_s": 771.0603567999788,
+   "reward": 0.26823383498005504,
+   "revenue": 278272074.0424918,
+   "tac": 137684879.53754044,
+   "columns": {
+    "": {
+     "n_stages": 30,
+     "reflux": 3.0,
+     "reboil": 1.25,
+     "dp": 0.0,
+     "tac": 116655384.58799727
+    },
+    "T": {
+     "n_stages": 80,
+     "reflux": 5.0,
+     "reboil": 1.0,
+     "dp": 0.0,
+     "tac": 21029494.94954316
+    }
+   },
+   "products": [
+    {
+     "node": "TT",
+     "component": "Ethane",
+     "kind": "none",
+     "purity": 0.659623505225254,
+     "value": 0.0,
+     "flow_mol_s": 149.823912
+    },
+    {
+     "node": "TB",
+     "component": "Propane",
+     "kind": "blend: C3 mix",
+     "purity": 0.6685191673222431,
+     "value": 278272074.0424918,
+     "flow_mol_s": 914.9288709999998
+    },
+    {
+     "node": "B",
+     "component": "N-butane",
+     "kind": "none",
+     "purity": 0.21688556161168457,
+     "value": 0.0,
+     "flow_mol_s": 2235.247217
+    }
+   ]
+  },
+  {
+   "solves": 163,
+   "wall_s": 799.4019166999788,
+   "reward": 0.26848755885780207,
+   "revenue": 278206173.94131815,
+   "tac": 137485997.2264453,
+   "columns": {
+    "": {
+     "n_stages": 30,
+     "reflux": 3.0,
+     "reboil": 1.25,
+     "dp": 0.0,
+     "tac": 116655384.58799727
+    },
+    "T": {
+     "n_stages": 70,
+     "reflux": 5.0,
+     "reboil": 1.0,
+     "dp": 0.0,
+     "tac": 20830612.63844802
+    }
+   },
+   "products": [
+    {
+     "node": "TT",
+     "component": "Ethane",
+     "kind": "none",
+     "purity": 0.6581372531131192,
+     "value": 0.0,
+     "flow_mol_s": 149.784741
+    },
+    {
+     "node": "TB",
+     "component": "Propane",
+     "kind": "blend: C3 mix",
+     "purity": 0.6678822275193739,
+     "value": 278206173.94131815,
+     "flow_mol_s": 914.968042
+    },
+    {
+     "node": "B",
+     "component": "N-butane",
+     "kind": "none",
+     "purity": 0.21688556161168457,
+     "value": 0.0,
+     "flow_mol_s": 2235.247217
+    }
+   ]
+  },
+  {
+   "solves": 173,
+   "wall_s": 875.8029519999982,
+   "reward": 0.268952535092986,
+   "revenue": 277921135.7332063,
+   "tac": 136957254.84722894,
+   "columns": {
+    "": {
+     "n_stages": 30,
+     "reflux": 3.0,
+     "reboil": 1.25,
+     "dp": 0.0,
+     "tac": 116655384.58799727
+    },
+    "T": {
+     "n_stages": 50,
+     "reflux": 5.0,
+     "reboil": 1.0,
+     "dp": 0.0,
+     "tac": 20301870.25923167
+    }
+   },
+   "products": [
+    {
+     "node": "TT",
+     "component": "Ethane",
+     "kind": "none",
+     "purity": 0.651746221767876,
+     "value": 0.0,
+     "flow_mol_s": 149.63526099999999
+    },
+    {
+     "node": "TB",
+     "component": "Propane",
+     "kind": "blend: C3 mix",
+     "purity": 0.6654942500379749,
+     "value": 277921135.7332063,
+     "flow_mol_s": 915.117522
+    },
+    {
+     "node": "B",
+     "component": "N-butane",
+     "kind": "none",
+     "purity": 0.21688556161168457,
+     "value": 0.0,
+     "flow_mol_s": 2235.247217
+    }
+   ]
+  },
+  {
+   "solves": 175,
+   "wall_s": 888.4877437999821,
+   "reward": 0.26937939460627375,
+   "revenue": 277150576.0854246,
+   "tac": 135962968.83239394,
+   "columns": {
+    "": {
+     "n_stages": 30,
+     "reflux": 3.0,
+     "reboil": 1.25,
+     "dp": 0.0,
+     "tac": 116655384.58799727
+    },
+    "T": {
+     "n_stages": 30,
+     "reflux": 5.0,
+     "reboil": 1.0,
+     "dp": 0.0,
+     "tac": 19307584.244396683
+    }
+   },
+   "products": [
+    {
+     "node": "TT",
+     "component": "Ethane",
+     "kind": "none",
+     "purity": 0.6345754791517182,
+     "value": 0.0,
+     "flow_mol_s": 149.30093599999998
+    },
+    {
+     "node": "TB",
+     "component": "Propane",
+     "kind": "blend: C3 mix",
+     "purity": 0.6601278395804034,
+     "value": 277150576.0854246,
+     "flow_mol_s": 915.4518469999999
+    },
+    {
+     "node": "B",
+     "component": "N-butane",
+     "kind": "none",
+     "purity": 0.21688556161168457,
+     "value": 0.0,
+     "flow_mol_s": 2235.247217
+    }
+   ]
+  },
+  {
+   "solves": 178,
+   "wall_s": 901.3385488999775,
+   "reward": 0.269515976630343,
+   "revenue": 276220708.4495563,
+   "tac": 134961515.58322993,
+   "columns": {
+    "": {
+     "n_stages": 30,
+     "reflux": 3.0,
+     "reboil": 1.25,
+     "dp": 0.0,
+     "tac": 116655384.58799727
+    },
+    "T": {
+     "n_stages": 20,
+     "reflux": 5.0,
+     "reboil": 1.0,
+     "dp": 0.0,
+     "tac": 18306130.99523265
+    }
+   },
+   "products": [
+    {
+     "node": "TT",
+     "component": "Ethane",
+     "kind": "none",
+     "purity": 0.6139729007996474,
+     "value": 0.0,
+     "flow_mol_s": 148.986315
+    },
+    {
+     "node": "TB",
+     "component": "Propane",
+     "kind": "blend: C3 mix",
+     "purity": 0.6548211594325147,
+     "value": 276220708.4495563,
+     "flow_mol_s": 915.766469
+    },
+    {
+     "node": "B",
+     "component": "N-butane",
+     "kind": "none",
+     "purity": 0.21688556161168457,
+     "value": 0.0,
+     "flow_mol_s": 2235.247217
+    }
+   ]
+  }
+ ],
+ "entry": "llm:modal:kimi-k3.1-pro",
+ "seed": 0,
+ "split": "dev",
+ "llm": {
+  "run_id": "hc16v3_dev_001_modal_kimi-k3.1-pro_s0_8a718e",
+  "agent_id": "agent-0",
+  "provider": "modal",
+  "model": "kimi-k3.1-pro",
+  "requests": 176,
+  "failed_requests": 0,
+  "input_tokens": 581025,
+  "output_tokens": 113327,
+  "usd_estimated_total": 2.2953200000000007,
+  "requests_with_unknown_cost": 0,
+  "price_source": "https://modal.com/docs/guide/supported-models; 2026-11-14; uncached estimate",
+  "wall_s": 983.4475710391998,
+  "status": "finished",
+  "turns": 175,
+  "best_valid_reward": 0.269515976630343,
+  "solves_used": 195,
+  "max_usd_cap": 10.0,
+  "task": "hc16v3_dev_001",
+  "seed": 0
+ },
+ "service": {
+  "backend": "chemsep",
+  "solves": 195,
+  "failed": 7,
+  "median_s": 0.2428146000020206,
+  "mean_s": 0.582306943590102,
+  "retry_rescued": 23
+ }
+}

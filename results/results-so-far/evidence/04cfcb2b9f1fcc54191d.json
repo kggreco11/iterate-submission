@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-niche-20940918",
+ "agent_id": "agent-5",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 57,
+ "failed_requests": 0,
+ "input_tokens": 277835,
+ "output_tokens": 58505,
+ "usd_estimated_total": 0.15355649999999998,
+ "requests_with_unknown_cost": 0,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 4628.585915088654,
+ "status": "finished",
+ "island": 0,
+ "strategy": null,
+ "best_valid_reward": 0.0,
+ "solves_used": 47,
+ "first_positive_at_solves": null,
+ "usd_cached_price_estimate": 0.11381249999999994,
+ "notebook": "FACTOR: M$/yr = flow*price*28.8. Full-feed blend values (max, if perfectly cut): C3mix 73, C4mix 186, C5mix 618, C6parmix 1181, C6naphmix 396; pure C7 332, C8 359, C9 104. Gaps(K): C2/C3 40, C3/C4 30, C4/C5 28, C5/2,2DMB 14, C6par/C6naph 3 IMPOSSIBLE.\nCOSTS: 20st r1 dp0.4 = 96.4M (floor). 45st r3 = 240. 50st r10 = 634. Columns VERY expensive vs product.\nKEY INSIGHT: C6parmix (1181M) is the biggest prize but the C6par/C6naph 3K gap makes it unreachable. So the reachable big blend is C5mix (618M, gaps 28K and 14K). Strategy: peel C3- / C4mix / C5mix top-down = 877M revenue vs ~3x150M cost \u2192 potentially positive reward ~1.0.\nAll 44 prior solves: empty(0) best; every single/multi probe negative.\nPLAN (6 left): this turn builds 3-col tree (45/50/55 st, r4-6) to test whether C4mix (col2T) and C5mix (col3T) reach 95%. If yes, tune the two blend cuts. If cuts leak, consider side draw or extra stages.",
+ "task": "hc16v3_dev_002"
+}

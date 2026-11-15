@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-78e50fff",
+ "agent_id": "agent-33",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 66,
+ "failed_requests": 0,
+ "input_tokens": 397520,
+ "output_tokens": 67417,
+ "usd_estimated_total": 0.20015639999999998,
+ "requests_with_unknown_cost": 0,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 5634.429332971573,
+ "status": "finished",
+ "island": 6,
+ "strategy": null,
+ "best_valid_reward": 1.2047539088619803,
+ "solves_used": 49,
+ "first_positive_at_solves": 48,
+ "usd_cached_price_estimate": 0.15391512000000002,
+ "notebook": "Turn 32. Solves 49/50 (this revert is a free re-simulation of already-evaluated settings). FINAL: R1303-style 2-column low-pressure cascade = reward 1.205, the best valid design evaluated.\n\nANCHOR (my best): '' 40/3.0/3.0/0.8 -> T (1601 mol/s C3/C4/C5 mush, $0) + B; 'B' 50/6.0/6.0/0.8 -> BT 910 mol/s = 97% C6-paraffin mix, sells $1067.1M/yr; BB 789 mol/s C7/C8/cyclo, $0. Cost $538.7M/yr. Reward (1067.1-538.7)/439 = 1.205.\n\nEVIDENCE: (1) LOW PRESSURE (dp=0.8, ~5 bar) sharpens volatilities cheaply - the whole winning cut is done with just 40/3 and 50/6. (2) Every extra column on T or BB lost money: T-split cols cost $685-1273M/yr for worthless C4/C5 mush (best TB 88% C5, needs 95%); BB col (agent-34 R1448, 60/12) cost $111M and gave 45% cyclo/31% nC7 - worthless. A 3rd column must clear ~$250-290M/yr and none can. (3) High column counts at 24 bar always lose.\n\nDECISION: bank 1.205. No budget left for further gambles worth taking; finishing at the known optimum.",
+ "task": "hc16v3_dev_002"
+}

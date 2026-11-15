@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-solo-a3c6b51b",
+ "agent_id": "agent-0",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 419,
+ "failed_requests": 1,
+ "input_tokens": 1899080,
+ "output_tokens": 415645,
+ "usd_estimated_total": 1.0684980000000008,
+ "requests_with_unknown_cost": 0,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 1936.649124622345,
+ "status": "finished",
+ "island": 0,
+ "strategy": null,
+ "best_valid_reward": 0.0,
+ "solves_used": 184,
+ "first_positive_at_solves": null,
+ "usd_cached_price_estimate": 0.8079847200000005,
+ "notebook": "Turn 209: 17 solves left at start. Best valid = 0.000 (empty plant). Every column tried so far loses money (cheapest single ~$105M/yr, blends never reached 95%).\n\nValue math (value = flow*price*2.88e7): C6 paraffin mix 970 mol/s ~$1147M/yr (85% of mean); C5 mix 695 mol/s ~$618M/yr; C4 mix 544 mol/s ~$186M/yr. Individual pure streams $100-400M/yr each but need many sharp columns.\n\nTried: 2-column C5-mix designs -> reward -0.94 to -1.46 (cost too high / purity <95%). Non-convergence a recurring problem at high reflux.\n\nNEW IDEA this turn: single root column with LIQUID SIDE DRAW to pick off a mid-volatility blend cut in one column, avoiding 2nd column cost. Blends: C3mix, C4mix, C5mix, C6paraffin mix, C6naphthene mix (all 85% of mean price).\n\nPlan with remaining solves: (1) read side-draw composition/cost from this run; (2) if promising, re-tune stage/reflux/side-draw fraction; (3) otherwise revert to empty (0.000) and finish. Keep designs converged above all.",
+ "task": "hc16v3_dev_002"
+}

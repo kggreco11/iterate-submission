@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-strategies-8574f67c",
+ "agent_id": "agent-7",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 109,
+ "failed_requests": 4,
+ "input_tokens": 626886,
+ "output_tokens": 107715,
+ "usd_estimated_total": 0.31732379999999993,
+ "requests_with_unknown_cost": 3,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 4851.392123222351,
+ "status": "finished",
+ "island": 3,
+ "strategy": "Middle-out: make the first split in the middle of the volatility range, then work outwards on both sides.",
+ "best_valid_reward": 0.0,
+ "solves_used": 48,
+ "first_positive_at_solves": null,
+ "usd_cached_price_estimate": 0.24253596,
+ "notebook": "Turn 52. 47/50 solves. Best VALID = 0.000 (empty). All multi-col designs negative; column costs $50-245M/yr dominate and no stream reached 95%.\n\nValue math: pure total $3615M. Blends: C4 $176M, C5 $611M, C6par $1181M (unreachable, naphthenes interleave), C6nap $397M. C5 mix is the best FEASIBLE target: 695 mol/s at mean*0.85=$619M/yr. Needs only C4/C5 (40K gap) and C5/C6 (14K gap) splits.\n\nMy prior 2-col tree (root 50/4/4/0.1 C5/C6; T 45/5/5/0.1 C4/C5) gave TB = C4 50% / C5 48% \u2014 the T column FAILED to lift n-butane overhead (n-butane 272.7 vs isopentane 301 = 28K gap, needs high reflux/stages). So bottoms was impure.\n\nPlan this turn: keep root 50/4/4/0.1, crank T column to 70 stages/reflux 8/boil 8/0.1 to force n-butane up. 3 solves left; if this rewards >0 keep, else revert to empty (0.000) and finish.\n\nOther plants: agent-6 [R398] 45/3/3 root, 40/3/3 T -> same failure (TB = 62% n-butane). [R394] empty = 0.000. No island partner has beaten 0 either.",
+ "task": "hc16v3_dev_002"
+}

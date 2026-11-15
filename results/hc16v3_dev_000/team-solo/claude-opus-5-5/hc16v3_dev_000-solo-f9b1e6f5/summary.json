@@ -1,0 +1,118 @@
+{
+  "run_id": "hc16v3_dev_000-solo-f9b1e6f5",
+  "preset": "solo",
+  "model": "claude-opus-5-5",
+  "task": "hc16v3_dev_000",
+  "status": "all_done",
+  "wall_s": 328.2,
+  "team_best": 2.1884241628997265,
+  "team_solves": 52,
+  "best_at": {
+    "100": 2.1884241628997265,
+    "250": 2.1884241628997265,
+    "500": 2.1884241628997265,
+    "1000": 2.1884241628997265
+  },
+  "team_first_positive_at_team_solves": 15,
+  "agents_off_zero": 1,
+  "workers": 1,
+  "best_record": "R16",
+  "best_columns": 8,
+  "best_design": {
+    "": [
+      50,
+      2.0,
+      2.91,
+      0.3
+    ],
+    "T": [
+      30,
+      1.5,
+      2.6,
+      0.0
+    ],
+    "B": [
+      40,
+      2.0,
+      5.4,
+      0.5
+    ],
+    "BB": [
+      60,
+      3.5,
+      13.3,
+      0.3
+    ],
+    "TT": [
+      40,
+      2.5,
+      9.9,
+      0.0
+    ],
+    "BT": [
+      50,
+      1.7,
+      8.3,
+      0.0
+    ],
+    "BTB": [
+      60,
+      1.45,
+      29.5,
+      0.0
+    ],
+    "BTT": [
+      110,
+      8.0,
+      10.9,
+      0.0
+    ]
+  },
+  "copies": 0,
+  "grafts": 0,
+  "records": 18,
+  "distinct_structures": 11,
+  "usd_logged": 1.080584,
+  "usd_cached_price_estimate": 1.080584,
+  "requests": 19,
+  "agents": {
+    "agent-0": {
+      "status": "finished",
+      "island": 0,
+      "best_valid_reward": 2.1884241628997265,
+      "solves_used": 52,
+      "first_positive_at_solves": 15,
+      "requests": 19,
+      "usd_estimated_total": 1.080584,
+      "usd_cached_price_estimate": 1.080584
+    }
+  },
+  "config": {
+    "n": 1,
+    "budget": 200,
+    "unsold_info": true,
+    "effort": "low",
+    "think_budget": null,
+    "plan": false,
+    "think_every": null,
+    "think_when_stuck": null,
+    "cheap_effort": "none",
+    "islands": [
+      1
+    ],
+    "share_within": false,
+    "migrate_every": null,
+    "route": "ring",
+    "info": "full",
+    "copy": true,
+    "graft": true,
+    "copy_rule": null,
+    "niche_board": false,
+    "strategies": null,
+    "notebook": true,
+    "cull_every": null,
+    "supervisor_every": null,
+    "max_shown": 4,
+    "preset": "solo"
+  }
+}

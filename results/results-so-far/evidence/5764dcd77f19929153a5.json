@@ -1,0 +1,162 @@
+{
+  "run_id": "hc16v3_dev_002-ring-5x2-k10-90279e64",
+  "preset": "ring-5x2-k10",
+  "model": "deepseek-v4.1-flash",
+  "task": "hc16v3_dev_002",
+  "status": "all_done",
+  "wall_s": 5064.8,
+  "team_best": 0.0,
+  "team_solves": 483,
+  "best_at": {
+    "100": 0.0,
+    "250": 0.0,
+    "500": 0.0,
+    "1000": 0.0
+  },
+  "team_first_positive_at_team_solves": null,
+  "agents_off_zero": 0,
+  "workers": 10,
+  "best_record": null,
+  "best_columns": 0,
+  "best_design": null,
+  "copies": 6,
+  "grafts": 0,
+  "records": 484,
+  "distinct_structures": 96,
+  "usd_logged": 3.1262961,
+  "usd_cached_price_estimate": 2.40233322,
+  "requests": 1081,
+  "agents": {
+    "agent-0": {
+      "status": "budget_exhausted",
+      "island": 0,
+      "best_valid_reward": 0.0,
+      "solves_used": 50,
+      "first_positive_at_solves": null,
+      "requests": 67,
+      "usd_estimated_total": 0.1983344999999999,
+      "usd_cached_price_estimate": 0.1527153
+    },
+    "agent-1": {
+      "status": "finished",
+      "island": 0,
+      "best_valid_reward": 0.0,
+      "solves_used": 43,
+      "first_positive_at_solves": null,
+      "requests": 76,
+      "usd_estimated_total": 0.22783859999999997,
+      "usd_cached_price_estimate": 0.1751691599999999
+    },
+    "agent-2": {
+      "status": "finished",
+      "island": 1,
+      "best_valid_reward": 0.0,
+      "solves_used": 49,
+      "first_positive_at_solves": null,
+      "requests": 122,
+      "usd_estimated_total": 0.36628950000000005,
+      "usd_cached_price_estimate": 0.28286166000000007
+    },
+    "agent-3": {
+      "status": "finished",
+      "island": 1,
+      "best_valid_reward": 0.0,
+      "solves_used": 48,
+      "first_positive_at_solves": null,
+      "requests": 129,
+      "usd_estimated_total": 0.3753882,
+      "usd_cached_price_estimate": 0.28884996
+    },
+    "agent-4": {
+      "status": "finished",
+      "island": 2,
+      "best_valid_reward": 0.0,
+      "solves_used": 48,
+      "first_positive_at_solves": null,
+      "requests": 131,
+      "usd_estimated_total": 0.3800619,
+      "usd_cached_price_estimate": 0.2928324599999999
+    },
+    "agent-5": {
+      "status": "budget_exhausted",
+      "island": 2,
+      "best_valid_reward": 0.0,
+      "solves_used": 50,
+      "first_positive_at_solves": null,
+      "requests": 81,
+      "usd_estimated_total": 0.23071560000000005,
+      "usd_cached_price_estimate": 0.17832264000000006
+    },
+    "agent-6": {
+      "status": "finished",
+      "island": 3,
+      "best_valid_reward": 0.0,
+      "solves_used": 48,
+      "first_positive_at_solves": null,
+      "requests": 129,
+      "usd_estimated_total": 0.3685794000000001,
+      "usd_cached_price_estimate": 0.28121172000000005
+    },
+    "agent-7": {
+      "status": "finished",
+      "island": 3,
+      "best_valid_reward": 0.0,
+      "solves_used": 47,
+      "first_positive_at_solves": null,
+      "requests": 108,
+      "usd_estimated_total": 0.302733,
+      "usd_cached_price_estimate": 0.23299091999999993
+    },
+    "agent-8": {
+      "status": "budget_exhausted",
+      "island": 4,
+      "best_valid_reward": 0.0,
+      "solves_used": 50,
+      "first_positive_at_solves": null,
+      "requests": 129,
+      "usd_estimated_total": 0.3721343999999999,
+      "usd_cached_price_estimate": 0.28483583999999995
+    },
+    "agent-9": {
+      "status": "budget_exhausted",
+      "island": 4,
+      "best_valid_reward": 0.0,
+      "solves_used": 50,
+      "first_positive_at_solves": null,
+      "requests": 109,
+      "usd_estimated_total": 0.30422099999999996,
+      "usd_cached_price_estimate": 0.23254356000000004
+    }
+  },
+  "config": {
+    "n": 10,
+    "budget": 50,
+    "effort": "low",
+    "think_budget": 1500,
+    "plan": false,
+    "think_every": null,
+    "think_when_stuck": null,
+    "cheap_effort": "none",
+    "islands": [
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "share_within": true,
+    "migrate_every": 10,
+    "route": "ring",
+    "info": "full",
+    "copy": true,
+    "graft": true,
+    "copy_rule": null,
+    "niche_board": false,
+    "strategies": null,
+    "notebook": true,
+    "cull_every": null,
+    "supervisor_every": null,
+    "max_shown": 4,
+    "preset": "ring-5x2-k10"
+  }
+}

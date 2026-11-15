@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-78e50fff",
+ "agent_id": "agent-25",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 135,
+ "failed_requests": 0,
+ "input_tokens": 909996,
+ "output_tokens": 137843,
+ "usd_estimated_total": 0.43841040000000003,
+ "requests_with_unknown_cost": 0,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 5634.420321941376,
+ "status": "finished",
+ "island": 5,
+ "strategy": null,
+ "best_valid_reward": 1.514436498522342,
+ "solves_used": 45,
+ "first_positive_at_solves": 24,
+ "usd_cached_price_estimate": 0.34468368000000016,
+ "notebook": "Turn 67. LOCKED best = 1.514: '' 36/2.5/2.5/0.8, 'B' 36/3.8/3.8/0.8. Rev $1061.5M (BT=C6-paraffin blend 918 mol/s), cost $397.3M. 45 solves used, 5 left.\n\nEconomics: C6-paraffin blend = $1061M. T (1583 mol/s C3/C4/C5) and BB (799 mol/s C7/C8/C9+cyclohexane) both $0. Pure-value total ~$3615M so lots unmonetized, but every prior attempt to monetize T or BB added more column cost than revenue (turn 58 T-column -> -0.306; turn 62 BB-split -> 1.433; reflux trims collapse BT <95%). Costs dominate: feed column alone $207M/yr, B column $190M/yr; a single new high-reflux column on T cost ~$1B/yr in the failed test.\n\nTeam island best = 1.514 (agents 27/28/31), matching mine; nobody has found a better structure.\n\nPlan: with only 5 solves I keep the proven 1.514 valid design scored. Marginal tweaks are already shown to break the 95% blend. I judge the expected value of further risky edits (huge reflux columns to split T/BB) to be negative given the expensive-plant cost model. Lock 1.514 and finish.",
+ "task": "hc16v3_dev_002"
+}

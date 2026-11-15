@@ -1,0 +1,36 @@
+
+hc16v3_dev_000: Opus best 2.767 (re-simulated 2.767, 11 columns)
+  columns whose removal RAISES the reward: 0 []
+  least valuable columns (reward change if removed): [('TBTT', -0.194, '$10M'), ('TTT', -0.217, '$43M'), ('TBTBB', -0.238, '$21M'), ('TBTBBB', -0.263, '$6M')]
+  after prune: reward 2.767 (+0.000), 11 columns
+  after add  : reward 2.767 (+0.000), 11 columns
+  after tune : reward 2.832 (+0.065), 11 columns
+  impure streams left: 1, total value if they were pure products: $355M/yr; best single new column raised reward by +0.000
+  final 2.832: improvement over Opus +0.065 reward = $+54M/yr (232 solves)
+
+hc16v3_dev_001: Opus best 2.853 (re-simulated 2.853, 12 columns)
+  columns whose removal RAISES the reward: 0 []
+  least valuable columns (reward change if removed): [('BTT', -0.032, '$6M'), ('BBT', -0.046, '$8M'), ('BT', -0.122, '$16M'), ('TBB', -0.221, '$34M')]
+  after prune: reward 2.853 (+0.000), 12 columns
+  after add  : reward 2.932 (+0.079), 15 columns
+  after tune : reward 3.027 (+0.174), 15 columns
+  impure streams left: 4, total value if they were pure products: $313M/yr; best single new column raised reward by +0.030
+  final 3.027: improvement over Opus +0.174 reward = $+91M/yr (302 solves)
+
+hc16v3_dev_002: Opus best 5.132 (re-simulated 5.132, 9 columns)
+  columns whose removal RAISES the reward: 0 []
+  least valuable columns (reward change if removed): [('TTT', -0.127, '$11M'), ('TT', -0.467, '$29M'), ('BBT', -0.551, '$70M'), ('BBBB', -1.125, '$57M')]
+  after prune: reward 5.132 (+0.000), 9 columns
+  after add  : reward 5.132 (+0.000), 9 columns
+  after tune : reward 5.163 (+0.031), 9 columns
+  impure streams left: 2, total value if they were pure products: $254M/yr; best single new column raised reward by +0.000
+  final 5.163: improvement over Opus +0.031 reward = $+14M/yr (245 solves)
+
+hc16v3_dev_003: Opus best 4.442 (re-simulated 4.442, 14 columns)
+  columns whose removal RAISES the reward: 0 []
+  least valuable columns (reward change if removed): [('TB', -0.037, '$23M'), ('TBT', -0.079, '$11M'), ('BBBTB', -0.106, '$7M'), ('BTT', -0.107, '$3M')]
+  after prune: reward 4.442 (+0.000), 14 columns
+  after add  : reward 4.519 (+0.076), 17 columns
+  after tune : reward 4.533 (+0.090), 17 columns
+  impure streams left: 5, total value if they were pure products: $119M/yr; best single new column raised reward by +0.047
+  final 4.533: improvement over Opus +0.090 reward = $+52M/yr (304 solves)

@@ -1,0 +1,7 @@
+{
+  "repository": null,
+  "ref_observed": "b55bc90e32b418ebd1bb4687c09820404c3153bd",
+  "path": "docs/phase3/authors_design_replay.json",
+  "sha256": "369ca4a82a0b528791ec6cf4c190bad3b068fd53013d54900e7fdba52ae6db6f",
+  "note": "Recorded upstream simulator reference, not a result of this project. Repository identity is omitted from this publication; the source revision and reference-data hash are retained."
+}

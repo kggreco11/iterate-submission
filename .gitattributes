@@ -1,0 +1,14 @@
+*.tmpl text eol=lf
+*.sep text eol=lf
+
+# Preserve upstream vendor whitespace and raw Windows evidence bytes.
+demo/vendor/** -whitespace
+results/reference-20261114/reference.calls.jsonl whitespace=cr-at-eol
+
+# Generated reports and preserved evidence retain their original whitespace.
+results/experimental-history-20261115/** -whitespace
+results/results-so-far/*.svg -whitespace
+results/results-so-far/*.csv whitespace=cr-at-eol
+results/results-so-far/corpus-evidence/** -whitespace
+results/results-so-far/final-study-evidence/** -whitespace
+results/results-so-far/evidence/** -whitespace

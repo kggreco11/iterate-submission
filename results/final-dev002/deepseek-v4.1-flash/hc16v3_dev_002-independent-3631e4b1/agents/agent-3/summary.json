@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-independent-3631e4b1",
+ "agent_id": "agent-3",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 117,
+ "failed_requests": 3,
+ "input_tokens": 518717,
+ "output_tokens": 109698,
+ "usd_estimated_total": 0.2872527000000002,
+ "requests_with_unknown_cost": 3,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 5076.086197137833,
+ "status": "budget_exhausted",
+ "island": 3,
+ "strategy": null,
+ "best_valid_reward": 0.6602442942053072,
+ "solves_used": 50,
+ "first_positive_at_solves": 43,
+ "usd_cached_price_estimate": 0.21253398,
+ "notebook": "Solves 49/50 -> using the 50th now. Best valid = 0.660: 2 columns, feed 60/7/7 pd=0.5 + B 60/7/7, product BT = C6-paraffin mix (~96%, $1104.9M/yr revenue), column cost ~$815M (feed col $493.9M = dominant, B col $321.4M). T (1549 mol/s C3/C4/C5) and BB (806 mol/s C7/C8/C9) sell for $0. Value = flow(mol/s) x price x 28.8 ($M/yr).\n\nLessons: 45-stage/R=5 shrink broke purity (-1.657); pd=0.2 broke purity; third T-column for C5 mix was net negative (-0.086). The 2-column train is the confirmed optimum; cost is dominated by the feed column.\n\nLast experiment: cut feed-column reflux/boil-up to 5.5/6.0 (60 stages, pd 0.5), keep B column 60/7/7. If BT still >=95% C6-paraffin mix, cost drops and reward rises; otherwise revert (free) to the 0.660 design and finish.",
+ "task": "hc16v3_dev_002"
+}

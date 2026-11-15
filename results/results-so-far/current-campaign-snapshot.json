@@ -1,0 +1,151 @@
+{
+  "captured_epoch": 1794776850.1385226,
+  "status": {
+    "state": "running",
+    "error_type": null,
+    "outcomes": [
+      {
+        "condition": "single_baseline",
+        "summary": {
+          "status": "all_finished_or_exhausted"
+        }
+      }
+    ]
+  },
+  "agents": [
+    {
+      "agent": "agent-0",
+      "queries": 123,
+      "best": 0.4349039742055987,
+      "round": 43,
+      "activity": "memory_read",
+      "calls": 43,
+      "output": 38767,
+      "reasoning": 28902,
+      "usd": 1.37165,
+      "error": null,
+      "condition": "sharing_immediate"
+    },
+    {
+      "agent": "agent-1",
+      "queries": 145,
+      "best": 0.43522320289880273,
+      "round": 43,
+      "activity": "memory_read",
+      "calls": 43,
+      "output": 37247,
+      "reasoning": 25837,
+      "usd": 1.3513219999999997,
+      "error": null,
+      "condition": "sharing_immediate"
+    },
+    {
+      "agent": "agent-2",
+      "queries": 139,
+      "best": 0.4387034600189925,
+      "round": 43,
+      "activity": "memory_read",
+      "calls": 43,
+      "output": 38323,
+      "reasoning": 27925,
+      "usd": 1.3668660000000001,
+      "error": null,
+      "condition": "sharing_immediate"
+    },
+    {
+      "agent": "agent-3",
+      "queries": 134,
+      "best": 0.4391136196113109,
+      "round": 43,
+      "activity": "memory_read",
+      "calls": 43,
+      "output": 43205,
+      "reasoning": 32117,
+      "usd": 1.4187240000000005,
+      "error": null,
+      "condition": "sharing_immediate"
+    },
+    {
+      "agent": "agent-4",
+      "queries": 138,
+      "best": 0.4391706989572729,
+      "round": 43,
+      "activity": "memory_read",
+      "calls": 43,
+      "output": 40295,
+      "reasoning": 28618,
+      "usd": 1.391756,
+      "error": null,
+      "condition": "sharing_immediate"
+    },
+    {
+      "agent": "agent-0",
+      "queries": 395,
+      "best": 2.3238008676187856,
+      "round": 267,
+      "activity": "finish",
+      "calls": 267,
+      "output": 209877,
+      "reasoning": 171628,
+      "usd": 4.725004000000004,
+      "error": null,
+      "condition": "single_baseline"
+    }
+  ],
+  "recent": [
+    {
+      "condition": "single_baseline",
+      "agent": "agent-0",
+      "round": 261,
+      "queries": 390,
+      "valid": true,
+      "reward": 2.3238008676187856,
+      "best": 2.3238008676187856
+    },
+    {
+      "condition": "single_baseline",
+      "agent": "agent-0",
+      "round": 262,
+      "queries": 393,
+      "valid": true,
+      "reward": 2.2803600290946737,
+      "best": 2.3238008676187856
+    },
+    {
+      "condition": "single_baseline",
+      "agent": "agent-0",
+      "round": 263,
+      "queries": 393,
+      "valid": true,
+      "reward": 2.3238008676187856,
+      "best": 2.3238008676187856
+    },
+    {
+      "condition": "single_baseline",
+      "agent": "agent-0",
+      "round": 264,
+      "queries": 394,
+      "valid": true,
+      "reward": 2.28474101348481,
+      "best": 2.3238008676187856
+    },
+    {
+      "condition": "single_baseline",
+      "agent": "agent-0",
+      "round": 265,
+      "queries": 395,
+      "valid": true,
+      "reward": 2.2903573006150983,
+      "best": 2.3238008676187856
+    },
+    {
+      "condition": "single_baseline",
+      "agent": "agent-0",
+      "round": 266,
+      "queries": 395,
+      "valid": true,
+      "reward": 2.3238008676187856,
+      "best": 2.3238008676187856
+    }
+  ]
+}

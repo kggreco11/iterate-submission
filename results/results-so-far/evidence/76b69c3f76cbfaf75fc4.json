@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-f29cf5a2",
+ "agent_id": "agent-3",
+ "provider": "modal",
+ "model": "kimi-k3.1-pro",
+ "requests": 23,
+ "failed_requests": 1,
+ "input_tokens": 180485,
+ "output_tokens": 19572,
+ "usd_estimated_total": 0.5566900000000001,
+ "requests_with_unknown_cost": 1,
+ "price_source": "https://modal.com/docs/guide/supported-models; 2026-11-14; uncached estimate",
+ "wall_s": 1954.6807794570923,
+ "status": "finished",
+ "island": 1,
+ "strategy": null,
+ "best_valid_reward": 0.5455400377663223,
+ "solves_used": 48,
+ "first_positive_at_solves": 19,
+ "usd_cached_price_estimate": 0.46222599999999997,
+ "notebook": "PLAN: Preserve the best evaluated design now that local tuning has plateaued. Revert to the turn-19 optimum (reward 0.546) and stop.\nTurn 20's BTTT 33/3.8 setting slightly underperformed the best 33/3.7 configuration. Larger-column trims are uneconomic or destroy blend purity; root-tops and heavy recovery were also uneconomic. No further speculative solve is justified with two remaining.",
+ "task": "hc16v3_dev_002"
+}

@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-independent-3631e4b1",
+ "agent_id": "agent-2",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 156,
+ "failed_requests": 5,
+ "input_tokens": 697006,
+ "output_tokens": 152011,
+ "usd_estimated_total": 0.39151499999999995,
+ "requests_with_unknown_cost": 3,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 5076.087683916092,
+ "status": "budget_exhausted",
+ "island": 2,
+ "strategy": null,
+ "best_valid_reward": 0.0,
+ "solves_used": 50,
+ "first_positive_at_solves": null,
+ "usd_cached_price_estimate": 0.29198219999999997,
+ "notebook": "T78. 49/50 solves. Best valid = 0.000 (empty). Non-empty valid designs were all negative (~$120-160M/yr per column), so a non-empty attempt has no downside: if it fails, the score stays at 0.000.\n\nLAST solve (50): ONE feed column that makes a C5-mix middle cut via a liquid side draw, avoiding the extra column's cost.\n- Feed column: 110 stages, reflux 10, reboil 5, pd 0.05.\n- Tops T = C4-and-lighter (sell/fuel), bottoms B = C6+ (sell), side draw S at stage 68 (NOT the feed stage 55), liquid, frac 0.21 = ~695 mol/s C5s.\n- C5 mix blend: mean (0.0383+0.0344)/2 = 0.03635; x0.85 = 0.0309/mol -> ~$618M/yr if S is >=95% iC5+nC5.\n- Removed child column 'B' so B is sold as-is.\n\nKey facts: proven converging settings ~45-70 stages, reflux 3-6, reboil 2-3, pd 0.05. Big-gap splits safe; 3 K cuts (nC6/MCP) hard; iC4/nC4 273 vs iC5 301 = 28 K easy; nC5 309 vs 2,2-DMB 323 = 14 K moderate. High reflux+stages picked to force a sharp C5 cut despite leak-in.\n\nIf it converges: score = (revenue - cost)/439; check S purity. If it fails: finish on the 0.000 fallback.",
+ "task": "hc16v3_dev_002"
+}

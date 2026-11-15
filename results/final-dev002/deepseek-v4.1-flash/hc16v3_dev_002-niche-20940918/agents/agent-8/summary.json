@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-niche-20940918",
+ "agent_id": "agent-8",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 92,
+ "failed_requests": 3,
+ "input_tokens": 425674,
+ "output_tokens": 89400,
+ "usd_estimated_total": 0.23498219999999997,
+ "requests_with_unknown_cost": 3,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 4628.5856058597565,
+ "status": "finished",
+ "island": 0,
+ "strategy": null,
+ "best_valid_reward": 0.0,
+ "solves_used": 49,
+ "first_positive_at_solves": null,
+ "usd_cached_price_estimate": 0.1731198,
+ "notebook": "Turn 45: 49/50 solves used. Best valid = 0 (empty plant). Current 90-stage R=4 feed column with liquid side draw stage 55 FAILED to converge -> invalid.\n\nLessons this run: (1) tall high-reflux columns (200 st, R=12) fail to converge; keep to moderate 60-90 st, R<=4-6. (2) side_draw stage must not equal the feed stage; feed is the middle stage (n/2). (3) Every single-column and cascade attempt lost money: no stream reached 95% purity, and a minimal column costs ~$120-150M/yr while the empty plant is 0. (4) Single cuts can't isolate 95% products here because each cut fraction is contaminated by lighter components (e.g. C4-and-lighter tops is ~13% C3-). (5) Mid-weight blend cuts (C4/C5/C6 mixes) would need side draws or cascades whose energy/capital cost exceeds the blend value at this cost level.\n\nPlan: revert to empty valid design to lock in 0, then finish. The empty design guarantees validity and is my best attainable score.",
+ "task": "hc16v3_dev_002"
+}

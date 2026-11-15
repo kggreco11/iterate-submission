@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-strategies-8574f67c",
+ "agent_id": "agent-9",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 124,
+ "failed_requests": 4,
+ "input_tokens": 710672,
+ "output_tokens": 123087,
+ "usd_estimated_total": 0.36090599999999995,
+ "requests_with_unknown_cost": 3,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 4851.392416238785,
+ "status": "finished",
+ "island": 4,
+ "strategy": "Premium-heavy: push the most valuable products to 99% purity to earn the premium grade.",
+ "best_valid_reward": 0.0,
+ "solves_used": 47,
+ "first_positive_at_solves": null,
+ "usd_cached_price_estimate": 0.27775464000000005,
+ "notebook": "T60: 46 solves used, best valid 0.000 (empty). 4 solves left. Spending one now on a single root column 45st/R2.0/boil1.5/dp0.05 with a liquid side draw at stage 30 (frac 0.25) to try to grab a C5-mix-rich middle cut from the widest-gap C4/C5 split. Any converged positive reward beats the 0.000 floor; negative costs nothing since empty plant is my best-valid. ECONOMICS: C5mix (iC5+nC5, 695 mol/s) = $618M/yr, boundary gaps nC4/nC5=28K (easy) and nC5/2,2DMB=13.7K. C6par mix 970 mol/s = $1182M but MCP/nC6 gap only 3K (too tight). LESSONS: R>=6 and >40st tend to fail; 30-40st/R1.5-2.5 converge but under-separate. If this fails, revert to empty and finish at 0.000.",
+ "task": "hc16v3_dev_002"
+}

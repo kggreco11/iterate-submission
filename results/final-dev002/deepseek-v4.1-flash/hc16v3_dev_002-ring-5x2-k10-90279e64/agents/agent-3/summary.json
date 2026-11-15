@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-90279e64",
+ "agent_id": "agent-3",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 129,
+ "failed_requests": 1,
+ "input_tokens": 728342,
+ "output_tokens": 130738,
+ "usd_estimated_total": 0.3753882,
+ "requests_with_unknown_cost": 1,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 5064.7812712192535,
+ "status": "finished",
+ "island": 1,
+ "strategy": null,
+ "best_valid_reward": 0.0,
+ "solves_used": 48,
+ "first_positive_at_solves": null,
+ "usd_cached_price_estimate": 0.28884996,
+ "notebook": "Turn 63, 48 solves used (this call may make 49). Best valid = 0.000 (empty). Team = 0.000. After ~48 solves I never reached a stream >=95% pure in this expensive scenario: every column cost $100-1500M/yr against zero revenue. Key barriers: (1) feed at 24 bar crushes relative volatility, so even large pressure drops (dp 0.85 -> ~3.6 bar) didn't yield the sharp cuts needed; (2) the required cuts are tight (e.g. n-hexane 341.9 vs methylcyclopentane 345 = 3.1K) and need many stages/high reflux, which is unaffordable; (3) side-draw purity is limited so middle cuts (C5mix, C6parmix) stayed below 95%. I'm locking in the guaranteed-valid empty design at 0.000 rather than risk spending the last solves on another failing cascade. Key target values if ever achievable: C6parmix 1181, C5mix 618, nC5 439 M$/yr.",
+ "task": "hc16v3_dev_002"
+}

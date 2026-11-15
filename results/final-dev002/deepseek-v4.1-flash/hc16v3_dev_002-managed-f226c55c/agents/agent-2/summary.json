@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-managed-f226c55c",
+ "agent_id": "agent-2",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 40,
+ "failed_requests": 0,
+ "input_tokens": 182017,
+ "output_tokens": 40201,
+ "usd_estimated_total": 0.10284629999999996,
+ "requests_with_unknown_cost": 0,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 5543.913635730743,
+ "status": "stopped",
+ "island": 2,
+ "strategy": null,
+ "best_valid_reward": 0.0,
+ "solves_used": 20,
+ "first_positive_at_solves": null,
+ "usd_cached_price_estimate": 0.07685717999999998,
+ "notebook": "Turn 20. Solves 20/50 (free revert). Best valid = -0.639 (3-col 40/2/2 tree), empty = 0.000.\n\nCOST DOMINATES. Column costs seen: 15st/R1=95M, 30st/R3=195M, 40st/R6=342M, 60st/R4=246M, 40/2/2=146M(feed),106M(B),27M(T). Rule: keep R<=3, stages 30-45, dp 0.1.\n\nValue = flow*price*28.8 M$/yr (8000h). All-pure feed = 3615M/yr. Denom 439.\n\nBLEND TARGETS (bp order): iC5 301, nC5 309 | 2,2DMB 323, 2MP 333, 3MP 336, nC6 342 | MCP 345, CHx 354 | nC7 372, nC8 399, nC9 424. Gaps: 309->323 ok, 342->345 tight, 354->372 good.\n- C6par (970, mean .0497): 1180M/yr -> TOP TARGET\n- C5mix (695, .03635): 618M/yr\n- C6nap (269, .0602): 396M/yr\n- C4mix (544, .014): 186M/yr\n- C3mix (286, .01045): 73M/yr\n- pure nC7 332M, nC8 359M, nC9 104M, C2 4M\n\nPlan: build 4-5 col tree: feed-> C3mix tops / C4+ bottoms; then C4mix tops / C5+ bottoms; then C5mix tops / C6+ bottoms; then split C6par/C6nap/C7+ . Keep R<=3, 35-45 stages.",
+ "task": "hc16v3_dev_002"
+}

@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-3isl-k10-9d054776",
+ "agent_id": "agent-0",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 56,
+ "failed_requests": 0,
+ "input_tokens": 314371,
+ "output_tokens": 57236,
+ "usd_estimated_total": 0.1629945,
+ "requests_with_unknown_cost": 0,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 4928.6716504096985,
+ "status": "finished",
+ "island": 0,
+ "strategy": null,
+ "best_valid_reward": 0.0,
+ "solves_used": 42,
+ "first_positive_at_solves": null,
+ "usd_cached_price_estimate": 0.12497849999999998,
+ "notebook": "Turn 27, solves 42/50. Best valid 0.000 (empty). Value($M/yr)=flow*price*28.8; reward=(rev-cost)/439.\n\nCOST: 40st R2.5 col ~ $173M/yr at full 3300 feed. Every extra column adds $100-300M. Revenue must beat that.\n\nPRIZES ($M/yr if pure/blend): C6par mix 1181 (density 1.22 $/mol), C5 mix 618 (0.89), C6naph mix 396, n-octane 359, n-heptane 332, C4 mix 186 (0.34), C3 mix 73 (0.26), ethane 4.\n\nGAPS: C3/C4 30K, C4/C5 28K easy; C5/C6par 13.7K hard; C6par/C6naph 3.1K (n-hexane 341.9 vs MCP 345.0) essentially impossible; C6naph/C7 18K; C7/C8 27K.\n\nLESSON: my 5-col high-reflux train rev $99.6M vs cost $662M = deep negative. MORE COLUMNS HURT badly. All agents negative; nobody has beaten 0 yet. The C6par mix is the top prize but needs the 3.1K C6par/naph split, unreachable. C5 mix needs the 13.7K split AND clean C4 removal.\n\nDECISION: With only 8 solves left and every multi-column design deeply negative, the empty plant (reward exactly 0) is my best VALID score. I reverted to it. Any further columns I add cannot plausibly earn $150-300M/yr within budget, and an invalid/non-converged design scores nothing. Holding 0 and finishing.",
+ "task": "hc16v3_dev_002"
+}

@@ -1,0 +1,6 @@
+condition,agent,queries,best_reward,final_valid,final_reward,status,input_tokens,output_tokens,usd,requests,failed_requests,unknown_cost_requests,policy_events
+independent_without_past,agent-0,394,1.8032317987401165,True,1.8032317987401165,user_stopped_run,1528956,249716,5.555071999999999,346,0,0,346
+independent_without_past,agent-1,399,2.1580376870753137,True,2.1462802543344908,user_stopped_run,1108561,181160,4.028721999999999,274,0,0,274
+independent_without_past,agent-2,379,2.14195910929953,False,1.9839640012388085,user_stopped_run,1626594,288287,6.1360579999999985,347,0,0,347
+independent_without_past,agent-3,400,2.239458539106287,True,2.2387656386754915,user_stopped_run,1431813,219329,5.0569159999999975,275,0,0,275
+independent_without_past,agent-4,334,1.760222033172221,True,1.760222033172221,user_stopped_run,1373620,240815,5.1553899999999935,396,0,0,396

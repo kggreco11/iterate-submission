@@ -1,0 +1,248 @@
+[
+  {
+    "id": "cfg0_n20_rb2_rr3_dp0.0",
+    "case": {
+      "id": "cfg0_n20_rb2_rr3_dp0.0",
+      "kind": "sweep",
+      "flowsheet": "cfg0",
+      "components": [
+        "Ethane",
+        "Propane",
+        "Isobutane",
+        "N-butane",
+        "Isopentane",
+        "N-pentane"
+      ],
+      "feed_flows_mol_s": [
+        16.639,
+        1104.849,
+        1192.371,
+        513.488,
+        342.769,
+        172.383
+      ],
+      "temperature_K": 378.0,
+      "pressure_Pa": 1763055.0,
+      "n_stages": 20,
+      "reflux_ratio": 3.0,
+      "reboil_ratio": 2.0,
+      "pressure_drop_fraction": 0.0
+    },
+    "expected": {
+      "success": true,
+      "tac_usd_per_year": 12228000.0,
+      "condenser_duty_W": -98526700.0,
+      "reboiler_duty_W": 46457800.0,
+      "tops": {
+        "flows": [
+          16.63882113635243,
+          1084.8752504082743,
+          563.2892314022405,
+          116.5069539178512,
+          1.8727573268540305,
+          0.42961493982318577
+        ],
+        "T_K": 338.18921890277636,
+        "P_Pa": 1763060.0
+      },
+      "bottoms": {
+        "flows": [
+          0.0001788636280787125,
+          19.973749590879105,
+          629.0817686023203,
+          396.9810460801167,
+          340.8962426719098,
+          171.9533850597576
+        ],
+        "T_K": 384.53158594278653,
+        "P_Pa": 1763060.0
+      },
+      "runtime_s": 25.30014150000352,
+      "error": null,
+      "diagnostics": {
+        "timing": {
+          "load_s": 1.5252092000009725,
+          "set_s": 3.0233612000010908,
+          "solve_s": 20.64520519999496,
+          "read_s": 0.07430089999979828
+        },
+        "column_inlet_after_valve": {
+          "flows": [
+            16.639,
+            1104.849,
+            1192.371,
+            513.488,
+            342.769,
+            172.383
+          ],
+          "temperature": 378.0000081266218,
+          "pressure": 1763055.0
+        }
+      }
+    }
+  },
+  {
+    "id": "cfg0_n80_rb4_rr3_dp0.3",
+    "case": {
+      "id": "cfg0_n80_rb4_rr3_dp0.3",
+      "kind": "sweep",
+      "flowsheet": "cfg0",
+      "components": [
+        "Ethane",
+        "Propane",
+        "Isobutane",
+        "N-butane",
+        "Isopentane",
+        "N-pentane"
+      ],
+      "feed_flows_mol_s": [
+        16.639,
+        1104.849,
+        1192.371,
+        513.488,
+        342.769,
+        172.383
+      ],
+      "temperature_K": 378.0,
+      "pressure_Pa": 1763055.0,
+      "n_stages": 80,
+      "reflux_ratio": 3.0,
+      "reboil_ratio": 4.0,
+      "pressure_drop_fraction": 0.3
+    },
+    "expected": {
+      "success": true,
+      "tac_usd_per_year": 21296000.0,
+      "condenser_duty_W": -140244000.0,
+      "reboiler_duty_W": 77927900.0,
+      "tops": {
+        "flows": [
+          16.638999999829764,
+          1104.8489999270423,
+          996.2006705775477,
+          112.86190960675671,
+          3.4527264448999096e-08,
+          2.9880713299692536e-10
+        ],
+        "T_K": 325.8880977259117,
+        "P_Pa": 1234140.0
+      },
+      "bottoms": {
+        "flows": [
+          1.0930288888444945e-07,
+          6.163950634758919e-08,
+          196.17032954510051,
+          400.6260902538734,
+          342.7689999115261,
+          172.38299997257116
+        ],
+        "T_K": 374.5692485288707,
+        "P_Pa": 1234140.0
+      },
+      "runtime_s": 9.549174800005858,
+      "error": null,
+      "diagnostics": {
+        "timing": {
+          "load_s": 0.9888325000065379,
+          "set_s": 0.8801221000030637,
+          "solve_s": 6.633709899993846,
+          "read_s": 0.05128089999197982
+        },
+        "column_inlet_after_valve": {
+          "flows": [
+            16.639,
+            1104.849,
+            1192.371,
+            513.488,
+            342.769,
+            172.383
+          ],
+          "temperature": 370.6790102684309,
+          "pressure": 1234138.5
+        }
+      }
+    }
+  },
+  {
+    "id": "cfg0_n160_rb4_rr3_dp0.0",
+    "case": {
+      "id": "cfg0_n160_rb4_rr3_dp0.0",
+      "kind": "sweep",
+      "flowsheet": "cfg0",
+      "components": [
+        "Ethane",
+        "Propane",
+        "Isobutane",
+        "N-butane",
+        "Isopentane",
+        "N-pentane"
+      ],
+      "feed_flows_mol_s": [
+        16.639,
+        1104.849,
+        1192.371,
+        513.488,
+        342.769,
+        172.383
+      ],
+      "temperature_K": 378.0,
+      "pressure_Pa": 1763055.0,
+      "n_stages": 160,
+      "reflux_ratio": 3.0,
+      "reboil_ratio": 4.0,
+      "pressure_drop_fraction": 0.0
+    },
+    "expected": {
+      "success": true,
+      "tac_usd_per_year": 21500000.0,
+      "condenser_duty_W": -121825000.0,
+      "reboiler_duty_W": 69836200.0,
+      "tops": {
+        "flows": [
+          16.638999999999918,
+          1104.8489999999952,
+          920.7250973169603,
+          150.6685191682326,
+          3.859519082482759e-12,
+          0.0
+        ],
+        "T_K": 342.8373900427663,
+        "P_Pa": 1763060.0
+      },
+      "bottoms": {
+        "flows": [
+          1.681468016492189e-07,
+          7.945409607358591e-12,
+          271.6459026433072,
+          362.8194807787031,
+          342.76899994985854,
+          172.38299997478802
+        ],
+        "T_K": 392.2623897070625,
+        "P_Pa": 1763060.0
+      },
+      "runtime_s": 5.630100199996377,
+      "error": null,
+      "diagnostics": {
+        "timing": {
+          "load_s": 1.0438323999987915,
+          "set_s": 0.09963579999748617,
+          "solve_s": 4.4014940000051865,
+          "read_s": 0.05690280000271741
+        },
+        "column_inlet_after_valve": {
+          "flows": [
+            16.639,
+            1104.849,
+            1192.371,
+            513.488,
+            342.769,
+            172.383
+          ],
+          "temperature": 378.0000081266218,
+          "pressure": 1763055.0
+        }
+      }
+    }
+  }
+]

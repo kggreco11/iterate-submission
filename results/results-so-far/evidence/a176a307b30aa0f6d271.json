@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-78e50fff",
+ "agent_id": "agent-21",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 134,
+ "failed_requests": 0,
+ "input_tokens": 867483,
+ "output_tokens": 134754,
+ "usd_estimated_total": 0.4219497000000001,
+ "requests_with_unknown_cost": 0,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 5634.413566827774,
+ "status": "finished",
+ "island": 4,
+ "strategy": null,
+ "best_valid_reward": 1.474272003341892,
+ "solves_used": 49,
+ "first_positive_at_solves": 36,
+ "usd_cached_price_estimate": 0.32891418,
+ "notebook": "Turn 67. Solves 49/50 (revert should be free - columns unchanged). Best=1.474: feed col 36/2.6/2.6/0.8 -> T(1587,$0)+B; B col 36/4.0/4.0/0.8 -> BT C6-paraffin mix $1060.6M + BB(797,$0). Cost $414M ($214.6+$199.4).\n\nTurn 66 double-effect on feed col FAILED (reward -0.904): HP condenser 309 K is not >=10 K hotter than LP reboiler 380 K, so NO heat link -> just paid for two columns ($109M+$205M+$82M). Double effect only pays when HP condenser is hotter than LP reboiler, which needs a narrow-boiling split, not this wide feed.\n\nIsland-4 all converged at 1.474 (R1803/2019/2020 exactly mine). Every extra-column probe NEGATIVE: T-col to C5 mix (t61: 0.837), BB-col for C6-naphthene (t56/57: ~1.37), taller B col (R1895: 1.393), side draw on feed col (t65: -0.682). Reason: unlocked streams fail 95% purity; column costs $200-280M/yr exceed blend value.\n\nLESSONS: (1) Only column that pays is the one isolating the C6-paraffin mix BT; the T stream (C3/C4/C5) and BB stream (C6-naphthene/C7/C8/C9) are too mixed to reach 95% at affordable cost. (2) Double effect needs narrow-boiling split, not feasible here.\n\nFINAL PLAN: revert to 1.474, finish. No budgets worth risking.",
+ "task": "hc16v3_dev_002"
+}

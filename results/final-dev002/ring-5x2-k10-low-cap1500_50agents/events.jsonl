@@ -1,0 +1,34 @@
+{"kind": "round", "round": 1, "team_best": 0.0, "team_solves": 57, "active": 50, "usd_logged": 0.21911729999999988, "usd_real": 0.18006449999999993, "t": 102.89}
+{"kind": "round", "round": 2, "team_best": 0.0, "team_solves": 119, "active": 50, "usd_logged": 0.4862211, "usd_real": 0.3888310199999999, "t": 227.62}
+{"kind": "model_error", "round": 3, "agent": "agent-46", "error": "multiple_tools", "t": 316.03}
+{"kind": "round", "round": 3, "team_best": 0.0, "team_solves": 173, "active": 50, "usd_logged": 0.7617102, "usd_real": 0.59844876, "t": 333.2}
+{"kind": "model_error", "round": 4, "agent": "agent-13", "error": "multiple_tools", "t": 412.34}
+{"kind": "model_error", "round": 4, "agent": "agent-38", "error": "multiple_tools", "t": 418.46}
+{"kind": "model_error", "round": 4, "agent": "agent-39", "error": "multiple_tools", "t": 419.93}
+{"kind": "round", "round": 4, "team_best": 0.0, "team_solves": 228, "active": 50, "usd_logged": 1.0459059, "usd_real": 0.8171187000000001, "t": 445.73}
+{"kind": "round", "round": 5, "team_best": 0.0, "team_solves": 290, "active": 50, "usd_logged": 1.3328963999999999, "usd_real": 1.0356803999999995, "t": 541.08}
+{"kind": "model_error", "round": 6, "agent": "agent-5", "error": "multiple_tools", "t": 604.7}
+{"kind": "round", "round": 6, "team_best": 0.0, "team_solves": 351, "active": 50, "usd_logged": 1.6282260000000004, "usd_real": 1.2635488799999999, "t": 664.11}
+{"kind": "round", "round": 7, "team_best": 0.0, "team_solves": 414, "active": 50, "usd_logged": 1.9218546, "usd_real": 1.4881957199999996, "t": 769.31}
+{"kind": "round", "round": 8, "team_best": 0.0, "team_solves": 468, "active": 50, "usd_logged": 2.2223241000000002, "usd_real": 1.7197525799999995, "t": 888.38}
+{"kind": "round", "round": 9, "team_best": 0.449019979178932, "team_solves": 525, "active": 50, "usd_logged": 2.5221251999999996, "usd_real": 1.9495351200000002, "t": 1043.16}
+{"kind": "round", "round": 10, "team_best": 0.449019979178932, "team_solves": 594, "active": 50, "usd_logged": 2.8270649999999993, "usd_real": 2.1856314000000006, "t": 1145.6}
+{"kind": "model_error", "round": 11, "agent": "agent-18", "error": "multiple_tools", "t": 1227.22}
+{"kind": "model_error", "round": 11, "agent": "agent-31", "error": "multiple_tools", "t": 1231.88}
+{"kind": "round", "round": 11, "team_best": 0.449019979178932, "team_solves": 653, "active": 50, "usd_logged": 3.1416410999999993, "usd_real": 2.4336449399999998, "t": 1259.58}
+{"kind": "round", "round": 12, "team_best": 0.449019979178932, "team_solves": 694, "active": 50, "usd_logged": 3.455853, "usd_real": 2.6792898000000003, "t": 1376.37}
+{"kind": "round", "round": 13, "team_best": 0.449019979178932, "team_solves": 751, "active": 50, "usd_logged": 3.7721918999999993, "usd_real": 2.92630134, "t": 1488.66}
+{"kind": "round", "round": 14, "team_best": 0.449019979178932, "team_solves": 809, "active": 50, "usd_logged": 4.0826646, "usd_real": 3.1683452399999994, "t": 1607.6}
+{"kind": "round", "round": 15, "team_best": 1.2222347041098125, "team_solves": 866, "active": 50, "usd_logged": 4.3999638, "usd_real": 3.4161097200000006, "t": 1697.88}
+{"kind": "round", "round": 16, "team_best": 1.2222347041098125, "team_solves": 933, "active": 50, "usd_logged": 4.7146839, "usd_real": 3.6609494999999996, "t": 1790.27}
+{"kind": "round", "round": 17, "team_best": 1.2222347041098125, "team_solves": 997, "active": 50, "usd_logged": 5.045884800000002, "usd_real": 3.9201964799999995, "t": 1899.81}
+{"kind": "round", "round": 18, "team_best": 1.2222347041098125, "team_solves": 1053, "active": 50, "usd_logged": 5.376583199999999, "usd_real": 4.180738079999999, "t": 2018.06}
+{"kind": "round", "round": 19, "team_best": 1.449827172448881, "team_solves": 1107, "active": 50, "usd_logged": 5.7041319, "usd_real": 4.4386138200000005, "t": 2145.14}
+{"kind": "round", "round": 20, "team_best": 1.449827172448881, "team_solves": 1190, "active": 50, "usd_logged": 6.0293124, "usd_real": 4.694328719999999, "t": 2251.54}
+{"kind": "round", "round": 21, "team_best": 1.5735138700509612, "team_solves": 1245, "active": 50, "usd_logged": 6.368840699999998, "usd_real": 4.963561980000001, "t": 2356.74}
+{"kind": "round", "round": 22, "team_best": 1.5735138700509612, "team_solves": 1298, "active": 50, "usd_logged": 6.7126524000000005, "usd_real": 5.23859928, "t": 2468.58}
+{"kind": "round", "round": 23, "team_best": 1.5735138700509612, "team_solves": 1333, "active": 50, "usd_logged": 7.055598, "usd_real": 5.514014639999999, "t": 2567.69}
+{"kind": "round", "round": 24, "team_best": 1.5735138700509612, "team_solves": 1372, "active": 50, "usd_logged": 7.394274300000001, "usd_real": 5.78495334, "t": 2679.42}
+{"kind": "round", "round": 25, "team_best": 1.5735138700509612, "team_solves": 1410, "active": 50, "usd_logged": 7.733540699999998, "usd_real": 6.052887899999997, "t": 2770.26}
+{"kind": "round", "round": 26, "team_best": 1.5735138700509612, "team_solves": 1460, "active": 50, "usd_logged": 8.077885499999999, "usd_real": 6.3270759, "t": 3549.52}
+{"kind": "round", "round": 27, "team_best": 1.5735138700509612, "team_solves": 1510, "active": 50, "usd_logged": 8.417662799999999, "usd_real": 6.60215688, "t": 3663.34}

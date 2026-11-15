@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-761c0ffe",
+ "agent_id": "agent-34",
+ "provider": "modal",
+ "model": "kimi-k3.1-pro",
+ "requests": 22,
+ "failed_requests": 1,
+ "input_tokens": 170563,
+ "output_tokens": 19461,
+ "usd_estimated_total": 0.535736,
+ "requests_with_unknown_cost": 1,
+ "price_source": "https://modal.com/docs/guide/supported-models; 2026-11-14; uncached estimate",
+ "wall_s": 3608.6420035362244,
+ "status": "budget_exhausted",
+ "island": 6,
+ "strategy": null,
+ "best_valid_reward": 2.8406444737393053,
+ "solves_used": 50,
+ "first_positive_at_solves": 21,
+ "usd_cached_price_estimate": 0.4420784,
+ "notebook": "PLAN: Use the final two solves to extend the two independently profitable recovery trends from island-best R934, then stop.\nR934 scores 2.857 with B pressure drop 0.35 and TTTB boil-up 9.0. Increasing B pressure drop from 0.25 to 0.30 to 0.35 has consistently recovered more saleable C6 blend, while higher TTTB boil-up consistently recovers more C3 at negligible cost. Test B dp 0.40 and boil-up 10.0 together; R934 remains the proven fallback if this final probe does not improve.",
+ "task": "hc16v3_dev_002"
+}

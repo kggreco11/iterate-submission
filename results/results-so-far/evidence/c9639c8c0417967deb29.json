@@ -1,0 +1,10 @@
+{
+  "stop_reason": "simulator_budget",
+  "solves_used": 50,
+  "input_tokens": 733517,
+  "output_tokens": 5594,
+  "cost_usd": null,
+  "wall_s": 1203.0573492499534,
+  "remote_directory": "C:\\iterate-hackathon\\luna-pilot-20261114T211810Z",
+  "best_reward": 0.7750372318540354
+}

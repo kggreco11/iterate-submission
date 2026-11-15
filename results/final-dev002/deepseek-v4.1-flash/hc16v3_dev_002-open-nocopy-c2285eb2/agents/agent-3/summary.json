@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-open-nocopy-c2285eb2",
+ "agent_id": "agent-3",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 83,
+ "failed_requests": 3,
+ "input_tokens": 456929,
+ "output_tokens": 84612,
+ "usd_estimated_total": 0.23861310000000005,
+ "requests_with_unknown_cost": 3,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 4844.605530738831,
+ "status": "finished",
+ "island": 0,
+ "strategy": null,
+ "best_valid_reward": 0.0,
+ "solves_used": 49,
+ "first_positive_at_solves": null,
+ "usd_cached_price_estimate": 0.18615101999999994,
+ "notebook": "SOLVES: 49/50 used. Best valid = 0.000 (empty). All real trains gave negative rewards (-0.3 to -0.7).\nECONOMICS: pure total $3615M. Blends @85% mean: C6paraffin(970)=$1181M, C5mix(695)=$618M, C6naph(269)=$396M, C4mix(544)=$186M, C3mix(286)=$73M.\nCOST: brutal (~$130-230M/yr per column at high reflux). Getting 95% purity needs sharp cuts + high reflux => cost > revenue. Every valid non-empty design I built scored negative.\nCONVERGENCE: root feed cuts must be gentle or multi-column trains diverge. Only 2-col templates converged; 3-5 col trains failed. T=60/4/3 gives only ~88% C3mix / ~84-90% C4mix.\nDECISION: With 1 solve left and downside protected (best valid stays 0.000), the realistic outcome is empty=0.000. I reverted to the valid empty/clean design to lock in a guaranteed valid score instead of risking an invalid last solve.\n[agent-9 R325] 2-col C4-/C5+ train, cost $455M, revenue $0 \u2014 confirms blends can't be reached cheaply. [agent-8 R324] empty, 0.000.",
+ "task": "hc16v3_dev_002"
+}

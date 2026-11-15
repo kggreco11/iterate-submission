@@ -1,0 +1,189 @@
+{
+  "run_id": "hc16v3_dev_002-open-5f533da2",
+  "preset": "open",
+  "model": "deepseek-v4.1-flash",
+  "task": "hc16v3_dev_002",
+  "status": "all_done",
+  "wall_s": 5132.7,
+  "team_best": 0.8391166258861061,
+  "team_solves": 464,
+  "best_at": {
+    "100": 0.0,
+    "250": 0.0,
+    "500": 0.8391166258861061,
+    "1000": 0.8391166258861061
+  },
+  "team_first_positive_at_team_solves": 431,
+  "agents_off_zero": 4,
+  "workers": 10,
+  "best_record": "R515",
+  "best_columns": 5,
+  "best_design": {
+    "": [
+      60,
+      3.0,
+      3.0,
+      0.1
+    ],
+    "B": [
+      80,
+      6.0,
+      6.0,
+      0.1
+    ],
+    "BT": [
+      90,
+      8.0,
+      8.0,
+      0.1
+    ],
+    "BTT": [
+      60,
+      4.0,
+      4.0,
+      0.1
+    ],
+    "BTTB": [
+      65,
+      7.0,
+      7.0,
+      0.1
+    ]
+  },
+  "copies": 17,
+  "grafts": 0,
+  "records": 518,
+  "distinct_structures": 77,
+  "usd_logged": 3.4188768000000005,
+  "usd_cached_price_estimate": 2.6697542400000005,
+  "requests": 1166,
+  "agents": {
+    "agent-0": {
+      "status": "budget_exhausted",
+      "island": 0,
+      "best_valid_reward": 0.0,
+      "solves_used": 50,
+      "first_positive_at_solves": null,
+      "requests": 118,
+      "usd_estimated_total": 0.333687,
+      "usd_cached_price_estimate": 0.25841532
+    },
+    "agent-1": {
+      "status": "finished",
+      "island": 0,
+      "best_valid_reward": 0.0,
+      "solves_used": 42,
+      "first_positive_at_solves": null,
+      "requests": 110,
+      "usd_estimated_total": 0.30981810000000004,
+      "usd_cached_price_estimate": 0.24028338
+    },
+    "agent-2": {
+      "status": "finished",
+      "island": 0,
+      "best_valid_reward": 0.6425236871663502,
+      "solves_used": 48,
+      "first_positive_at_solves": 41,
+      "requests": 141,
+      "usd_estimated_total": 0.4198401,
+      "usd_cached_price_estimate": 0.32818698000000013
+    },
+    "agent-3": {
+      "status": "finished",
+      "island": 0,
+      "best_valid_reward": 0.0,
+      "solves_used": 49,
+      "first_positive_at_solves": null,
+      "requests": 107,
+      "usd_estimated_total": 0.3023760000000001,
+      "usd_cached_price_estimate": 0.2331868799999999
+    },
+    "agent-4": {
+      "status": "budget_exhausted",
+      "island": 0,
+      "best_valid_reward": 0.6425236871663502,
+      "solves_used": 50,
+      "first_positive_at_solves": 45,
+      "requests": 132,
+      "usd_estimated_total": 0.3893558999999998,
+      "usd_cached_price_estimate": 0.3041309400000001
+    },
+    "agent-5": {
+      "status": "finished",
+      "island": 0,
+      "best_valid_reward": 0.0,
+      "solves_used": 47,
+      "first_positive_at_solves": null,
+      "requests": 115,
+      "usd_estimated_total": 0.3277647,
+      "usd_cached_price_estimate": 0.25560342
+    },
+    "agent-6": {
+      "status": "finished",
+      "island": 0,
+      "best_valid_reward": 0.0,
+      "solves_used": 31,
+      "first_positive_at_solves": null,
+      "requests": 67,
+      "usd_estimated_total": 0.19038059999999998,
+      "usd_cached_price_estimate": 0.14883947999999997
+    },
+    "agent-7": {
+      "status": "finished",
+      "island": 0,
+      "best_valid_reward": 0.8391166258861061,
+      "solves_used": 47,
+      "first_positive_at_solves": 35,
+      "requests": 181,
+      "usd_estimated_total": 0.5842983,
+      "usd_cached_price_estimate": 0.46458246000000014
+    },
+    "agent-8": {
+      "status": "budget_exhausted",
+      "island": 0,
+      "best_valid_reward": 0.0,
+      "solves_used": 50,
+      "first_positive_at_solves": null,
+      "requests": 77,
+      "usd_estimated_total": 0.22172370000000002,
+      "usd_cached_price_estimate": 0.17244114000000002
+    },
+    "agent-9": {
+      "status": "budget_exhausted",
+      "island": 0,
+      "best_valid_reward": 0.22993091408159474,
+      "solves_used": 50,
+      "first_positive_at_solves": 49,
+      "requests": 118,
+      "usd_estimated_total": 0.33963240000000006,
+      "usd_cached_price_estimate": 0.26408423999999997
+    }
+  },
+  "config": {
+    "n": 10,
+    "budget": 50,
+    "effort": "low",
+    "think_budget": 1500,
+    "plan": false,
+    "think_every": null,
+    "think_when_stuck": null,
+    "cheap_effort": "none",
+    "islands": [
+      10
+    ],
+    "share_within": true,
+    "migrate_every": null,
+    "route": "ring",
+    "info": "full",
+    "copy": true,
+    "graft": true,
+    "copy_rule": null,
+    "niche_board": false,
+    "strategies": null,
+    "notebook": true,
+    "cull_every": null,
+    "supervisor_every": null,
+    "max_shown": 4,
+    "preset": "open"
+  }
+}

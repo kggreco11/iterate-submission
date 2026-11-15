@@ -1,0 +1,72 @@
+{"kind": "round", "round": 1, "team_best": 0.0, "team_solves": 10, "active": 10, "usd_logged": 0.0450255, "usd_real": 0.035348700000000004, "t": 92.77}
+{"kind": "round", "round": 2, "team_best": 0.0, "team_solves": 20, "active": 10, "usd_logged": 0.09746369999999999, "usd_real": 0.07562178, "t": 183.66}
+{"kind": "round", "round": 3, "team_best": 0.0, "team_solves": 33, "active": 10, "usd_logged": 0.15243719999999997, "usd_real": 0.11704776, "t": 279.38}
+{"kind": "round", "round": 4, "team_best": 0.0, "team_solves": 44, "active": 10, "usd_logged": 0.20867039999999998, "usd_real": 0.15904224, "t": 376.94}
+{"kind": "round", "round": 5, "team_best": 0.0, "team_solves": 54, "active": 10, "usd_logged": 0.2649063, "usd_real": 0.20124677999999996, "t": 467.51}
+{"kind": "round", "round": 6, "team_best": 0.0, "team_solves": 60, "active": 10, "usd_logged": 0.32162730000000006, "usd_real": 0.24393642, "t": 551.6}
+{"kind": "round", "round": 7, "team_best": 0.0, "team_solves": 71, "active": 10, "usd_logged": 0.3775449, "usd_real": 0.28575354, "t": 641.48}
+{"kind": "model_error", "round": 8, "agent": "agent-5", "error": "multiple_tools", "t": 729.58}
+{"kind": "round", "round": 8, "team_best": 0.0, "team_solves": 84, "active": 10, "usd_logged": 0.43781819999999994, "usd_real": 0.33192636, "t": 735.14}
+{"kind": "round", "round": 9, "team_best": 0.0, "team_solves": 103, "active": 10, "usd_logged": 0.49909499999999996, "usd_real": 0.37910267999999997, "t": 827.12}
+{"kind": "round", "round": 10, "team_best": 0.0, "team_solves": 113, "active": 10, "usd_logged": 0.5620172999999999, "usd_real": 0.42833921999999996, "t": 932.79}
+{"kind": "model_error", "round": 11, "agent": "agent-5", "error": "multiple_tools", "t": 1005.29}
+{"kind": "round", "round": 11, "team_best": 0.0, "team_solves": 121, "active": 10, "usd_logged": 0.6218442, "usd_real": 0.47448035999999993, "t": 1011.4}
+{"kind": "round", "round": 12, "team_best": 0.0, "team_solves": 136, "active": 10, "usd_logged": 0.681732, "usd_real": 0.5210279999999999, "t": 1092.01}
+{"kind": "round", "round": 13, "team_best": 0.0, "team_solves": 149, "active": 10, "usd_logged": 0.7447389, "usd_real": 0.57062562, "t": 1191.42}
+{"kind": "round", "round": 14, "team_best": 0.0, "team_solves": 162, "active": 10, "usd_logged": 0.8070021, "usd_real": 0.6205163399999999, "t": 1310.25}
+{"kind": "round", "round": 15, "team_best": 0.0, "team_solves": 172, "active": 10, "usd_logged": 0.8687417999999999, "usd_real": 0.66857028, "t": 1406.23}
+{"kind": "round", "round": 16, "team_best": 0.0, "team_solves": 176, "active": 10, "usd_logged": 0.9272964000000001, "usd_real": 0.71378472, "t": 1494.28}
+{"kind": "model_error", "round": 17, "agent": "agent-9", "error": "multiple_tools", "t": 1586.89}
+{"kind": "round", "round": 17, "team_best": 0.0, "team_solves": 186, "active": 10, "usd_logged": 0.9869562, "usd_real": 0.76010436, "t": 1590.03}
+{"kind": "round", "round": 18, "team_best": 0.0, "team_solves": 208, "active": 10, "usd_logged": 1.0477073999999997, "usd_real": 0.80689332, "t": 1669.99}
+{"kind": "round", "round": 19, "team_best": 0.0, "team_solves": 219, "active": 10, "usd_logged": 1.1109449999999998, "usd_real": 0.85561572, "t": 1741.37}
+{"kind": "round", "round": 20, "team_best": 0.0, "team_solves": 226, "active": 10, "usd_logged": 1.1716323, "usd_real": 0.9025481400000002, "t": 1823.74}
+{"kind": "round", "round": 21, "team_best": 0.0, "team_solves": 248, "active": 10, "usd_logged": 1.2306272999999999, "usd_real": 0.9472353, "t": 1934.02}
+{"kind": "round", "round": 22, "team_best": 0.0, "team_solves": 268, "active": 10, "usd_logged": 1.2951285000000001, "usd_real": 0.99770514, "t": 2038.46}
+{"kind": "round", "round": 23, "team_best": 0.0, "team_solves": 278, "active": 10, "usd_logged": 1.3590461999999999, "usd_real": 1.04710764, "t": 2145.49}
+{"kind": "round", "round": 24, "team_best": 0.0, "team_solves": 289, "active": 10, "usd_logged": 1.4181417, "usd_real": 1.0916879400000001, "t": 2242.12}
+{"kind": "round", "round": 25, "team_best": 0.0, "team_solves": 305, "active": 10, "usd_logged": 1.4763984, "usd_real": 1.13542944, "t": 2335.88}
+{"kind": "round", "round": 26, "team_best": 0.0, "team_solves": 310, "active": 10, "usd_logged": 1.5369264, "usd_real": 1.1835849600000001, "t": 2435.79}
+{"kind": "round", "round": 27, "team_best": 0.0, "team_solves": 318, "active": 10, "usd_logged": 1.5940854, "usd_real": 1.2274729199999999, "t": 2530.02}
+{"kind": "finish", "round": 28, "agent": "agent-0", "note": "With 42/50 solves spent and every multi-column design (mine and teammates') deeply negative, no column cascade can plausibly return $150-300M/yr net within the remaining budget in this high-cost scenario. The empty plant is my best VALID design at reward exactly 0. Stopping to preserve that valid score rather than risk an invalid or negative evaluation.", "t": 2637.88}
+{"kind": "round", "round": 28, "team_best": 0.0, "team_solves": 324, "active": 10, "usd_logged": 1.6532499000000003, "usd_real": 1.27212222, "t": 2642.29}
+{"kind": "round", "round": 29, "team_best": 0.0, "team_solves": 332, "active": 9, "usd_logged": 1.7076909, "usd_real": 1.31432898, "t": 2713.68}
+{"kind": "round", "round": 30, "team_best": 0.0, "team_solves": 338, "active": 9, "usd_logged": 1.7626437000000001, "usd_real": 1.3553195399999998, "t": 3537.98}
+{"kind": "finish", "round": 31, "agent": "agent-5", "note": "Stop. 40/50 solves used and no valid profitable design found: my 4-column cascades produced $0 revenue (no cut reached 95% blend purity) while costing $1.0B+/yr, and every probe confirmed that the 95% purity spec is unreachable in cheap columns. Empty design (reward 0.000) is my best valid result. Conserving solves is pointless at this stage since any further attempt likely repeats the negative-reward pattern.", "t": 3606.34}
+{"kind": "round", "round": 31, "team_best": 0.0, "team_solves": 346, "active": 9, "usd_logged": 1.8167087999999998, "usd_real": 1.3995004800000002, "t": 3607.89}
+{"kind": "round", "round": 32, "team_best": 0.0, "team_solves": 351, "active": 8, "usd_logged": 1.8667092, "usd_real": 1.4383725600000001, "t": 3673.74}
+{"kind": "round", "round": 33, "team_best": 0.0, "team_solves": 356, "active": 8, "usd_logged": 1.9144053, "usd_real": 1.47535506, "t": 3733.16}
+{"kind": "round", "round": 34, "team_best": 0.0, "team_solves": 366, "active": 8, "usd_logged": 1.9615272, "usd_real": 1.5113486399999996, "t": 3793.95}
+{"kind": "round", "round": 35, "team_best": 0.0, "team_solves": 370, "active": 8, "usd_logged": 2.010708, "usd_real": 1.54960848, "t": 3855.03}
+{"kind": "round", "round": 36, "team_best": 0.0, "team_solves": 377, "active": 8, "usd_logged": 2.0583342, "usd_real": 1.58610636, "t": 3919.43}
+{"kind": "round", "round": 37, "team_best": 0.0, "team_solves": 396, "active": 8, "usd_logged": 2.1053901, "usd_real": 1.6219648199999999, "t": 3987.01}
+{"kind": "round", "round": 38, "team_best": 0.0, "team_solves": 399, "active": 8, "usd_logged": 2.1538881, "usd_real": 1.6594036199999997, "t": 4048.35}
+{"kind": "finish", "round": 39, "agent": "agent-3", "note": "With 9 solves left and every built plant losing money (columns cost $100-450M/yr while cuts leak so nothing reaches 95% purity), the empty plant's 0.000 remains my best valid score. Protecting it is the rational choice.", "t": 4113.12}
+{"kind": "round", "round": 39, "team_best": 0.0, "team_solves": 400, "active": 8, "usd_logged": 2.2001847, "usd_real": 1.6962998999999996, "t": 4124.02}
+{"kind": "round", "round": 40, "team_best": 0.0, "team_solves": 408, "active": 7, "usd_logged": 2.2414205999999997, "usd_real": 1.7284119599999996, "t": 4180.44}
+{"kind": "round", "round": 41, "team_best": 0.0, "team_solves": 414, "active": 7, "usd_logged": 2.2842483, "usd_real": 1.7615628599999995, "t": 4241.04}
+{"kind": "round", "round": 42, "team_best": 0.0, "team_solves": 417, "active": 7, "usd_logged": 2.3260916999999997, "usd_real": 1.7941441799999998, "t": 4297.67}
+{"kind": "round", "round": 43, "team_best": 0.0, "team_solves": 419, "active": 7, "usd_logged": 2.3683929, "usd_real": 1.82725242, "t": 4353.52}
+{"kind": "round", "round": 44, "team_best": 0.0, "team_solves": 425, "active": 7, "usd_logged": 2.4092264999999995, "usd_real": 1.8579253799999997, "t": 4417.81}
+{"kind": "round", "round": 45, "team_best": 0.0, "team_solves": 427, "active": 6, "usd_logged": 2.4441705, "usd_real": 1.8848514599999997, "t": 4480.94}
+{"kind": "round", "round": 46, "team_best": 0.0, "team_solves": 428, "active": 6, "usd_logged": 2.4782354999999994, "usd_real": 1.9104146999999998, "t": 4523.58}
+{"kind": "round", "round": 47, "team_best": 0.0, "team_solves": 432, "active": 6, "usd_logged": 2.5122368999999996, "usd_real": 1.9359834599999999, "t": 4571.95}
+{"kind": "round", "round": 48, "team_best": 0.0, "team_solves": 440, "active": 6, "usd_logged": 2.5473380999999997, "usd_real": 1.9623755399999998, "t": 4627.08}
+{"kind": "round", "round": 49, "team_best": 0.0, "team_solves": 441, "active": 6, "usd_logged": 2.582324399999999, "usd_real": 1.98865272, "t": 4668.27}
+{"kind": "model_error", "round": 50, "agent": "agent-6", "error": "multiple_tools", "t": 4700.25}
+{"kind": "round", "round": 50, "team_best": 0.0, "team_solves": 442, "active": 6, "usd_logged": 2.616760199999999, "usd_real": 2.0143793999999997, "t": 4700.8}
+{"kind": "finish", "round": 51, "agent": "agent-2", "note": "49/50 solves spent. Empty design (reward 0.000) is my best valid result; every multi-column build I evaluated was strongly net-negative, and the team's best valid plant is also negative (-1.317). With one remaining solve, no design I can construct with a single column would beat 0.000 (a single column costs >=~$124M/yr while no achievable-purity product stream can be produced without multiple columns). Locking in 0.000.", "t": 4731.15}
+{"kind": "finish", "round": 51, "agent": "agent-6", "note": "Spent 43/50 solves. My own best valid design is the empty plant (reward 0.000); every column topology I evaluated was net-negative (-0.060 to -0.329) because in this expensive-plant scenario each tall/high-reflux column costs $100-280M/yr while the 95%/99% purity (or blend) qualification is nearly unreachable for this 16-component, close-boiling feed. Teammates on island 2 (R403, R404) independently reached the same conclusion and also hold the empty 0.000 anchor. With only 7 solves left and universal negative evidence, no further experiment is justified \u2014 locking in the valid 0.000 design to protect the team anchor.", "t": 4731.15}
+{"kind": "round", "round": 51, "team_best": 0.0, "team_solves": 444, "active": 6, "usd_logged": 2.6504210999999995, "usd_real": 2.03981502, "t": 4731.15}
+{"kind": "finish", "round": 52, "agent": "agent-8", "note": "I have 6 simulated-column solves left but every probe I and the rest of the team ran produced non-converging or negative plants; the empty design is my only valid result (reward 0.000). Rather than risk the budget on an unvalidated multi-column heavy-cut plant I cannot afford to develop, I stop on the best valid design.", "t": 4758.15}
+{"kind": "round", "round": 52, "team_best": 0.0, "team_solves": 444, "active": 3, "usd_logged": 2.6676377999999996, "usd_real": 2.0533683599999994, "t": 4758.15}
+{"kind": "round", "round": 53, "team_best": 0.0, "team_solves": 448, "active": 2, "usd_logged": 2.6797703999999998, "usd_real": 2.0628743999999997, "t": 4783.3}
+{"kind": "round", "round": 54, "team_best": 0.0, "team_solves": 449, "active": 2, "usd_logged": 2.6924990999999996, "usd_real": 2.07270006, "t": 4804.8}
+{"kind": "round", "round": 55, "team_best": 0.0, "team_solves": 449, "active": 2, "usd_logged": 2.7051242999999996, "usd_real": 2.0824222199999998, "t": 4824.94}
+{"kind": "round", "round": 56, "team_best": 0.0, "team_solves": 452, "active": 2, "usd_logged": 2.7174383999999994, "usd_real": 2.09183328, "t": 4852.03}
+{"kind": "round", "round": 57, "team_best": 0.0, "team_solves": 452, "active": 1, "usd_logged": 2.7239192999999995, "usd_real": 2.0968626599999998, "t": 4866.68}
+{"kind": "round", "round": 58, "team_best": 0.0, "team_solves": 454, "active": 1, "usd_logged": 2.7303779999999995, "usd_real": 2.10186984, "t": 4886.48}
+{"kind": "round", "round": 59, "team_best": 0.0, "team_solves": 454, "active": 1, "usd_logged": 2.7369299999999996, "usd_real": 2.1072467999999995, "t": 4901.58}
+{"kind": "round", "round": 60, "team_best": 0.0, "team_solves": 454, "active": 1, "usd_logged": 2.7433340999999993, "usd_real": 2.11268322, "t": 4917.1}
+{"kind": "finish", "round": 61, "agent": "agent-4", "note": "With 45/50 solves spent and every built cascade returning zero revenue (no stream in any evaluated design ever reached the 95% purity/blend threshold), the guaranteed-valid empty plant (reward 0.000) is my best achievable score. A qualifying cut would require revenue above $166-215M/yr column cost, but the tightest reachable gaps (C4/C5 28K, C5/C6 13.7K, and the 3.1K n-hexane/methylcyclopentane split needed for the richest C6-paraffin blend) were never resolved sharply enough at the columns this cost level can afford. I therefore stop on the protected 0.000 baseline rather than risk an invalid or negative design with the last 5 solves.", "t": 4928.45}
+{"kind": "round", "round": 61, "team_best": 0.0, "team_solves": 454, "active": 1, "usd_logged": 2.7494255999999995, "usd_real": 2.1178070399999998, "t": 4928.45}

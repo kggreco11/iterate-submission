@@ -1,0 +1,74 @@
+{
+ "run_id": "hc16v3_dev_002-C0-8713fe15",
+ "code": "C0",
+ "name": "solo",
+ "task": "hc16v3_dev_002",
+ "status": "failed: AttributeError: 'str' object has no attribute 'get'",
+ "wall_s": 1792.0,
+ "team_best": 2.6557989675167972,
+ "team_solves": 256,
+ "team_budget": 500,
+ "best_at": {
+  "50": 0.0,
+  "100": 0.4086862391969495,
+  "250": 2.6557989675167972,
+  "500": 2.6557989675167972
+ },
+ "team_first_positive_at_team_solves": 93,
+ "agents_off_zero": 1,
+ "solving_agents": 1,
+ "best_record": "R159",
+ "best_design": {
+  "": [
+   48,
+   4.4,
+   5.4,
+   0.35
+  ],
+  "T": [
+   32,
+   3.3,
+   5.2,
+   0.2
+  ],
+  "B": [
+   57,
+   6.5,
+   6.5,
+   0.7
+  ],
+  "TT": [
+   40,
+   4.5,
+   2.5,
+   0.2
+  ],
+  "TTT": [
+   36,
+   3.5,
+   1.5,
+   0.2
+  ]
+ },
+ "copies": 0,
+ "records": 194,
+ "usd": 2.9642839999999993,
+ "requests": 211,
+ "input_tokens": 731952,
+ "output_tokens": 150038,
+ "backend_calls": 256,
+ "agents": {
+  "agent-0": {
+   "role": "solver",
+   "team": null,
+   "status": "active",
+   "best_valid_reward": 2.6557989675167972,
+   "solves_used": 256,
+   "first_positive_at_solves": 93,
+   "requests": 211,
+   "input_tokens": 731952,
+   "output_tokens": 150038,
+   "usd_estimated_total": 2.9642839999999993
+  }
+ }
+}

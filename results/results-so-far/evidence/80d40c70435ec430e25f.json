@@ -1,0 +1,193 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-f29cf5a2",
+ "preset": "ring-5x2-k10",
+ "model": "kimi-k3.1-pro",
+ "task": "hc16v3_dev_002",
+ "status": "all_done",
+ "wall_s": 1954.7,
+ "team_best": 2.2295208079014324,
+ "team_solves": 498,
+ "best_at": {
+  "100": 0.0,
+  "250": 0.5172895487677528,
+  "500": 2.2295208079014324,
+  "1000": 2.2295208079014324
+ },
+ "team_first_positive_at_team_solves": 128,
+ "agents_off_zero": 10,
+ "workers": 10,
+ "best_record": "R216",
+ "best_columns": 4,
+ "best_design": {
+  "": [
+   70,
+   9.0,
+   9.0,
+   0.4
+  ],
+  "B": [
+   50,
+   8.5,
+   8.5,
+   0.4,
+   null,
+   [
+    0.5,
+    0.85
+   ]
+  ],
+  "T": [
+   60,
+   2.0,
+   3.25,
+   0.4
+  ],
+  "TT": [
+   15,
+   1.5,
+   1.5,
+   0.4
+  ]
+ },
+ "copies": 53,
+ "grafts": 0,
+ "records": 216,
+ "distinct_structures": 92,
+ "usd_logged": 5.169698,
+ "usd_cached_price_estimate": 4.1947604,
+ "requests": 242,
+ "agents": {
+  "agent-0": {
+   "status": "budget_exhausted",
+   "island": 0,
+   "best_valid_reward": 1.3472804463094101,
+   "solves_used": 50,
+   "first_positive_at_solves": 40,
+   "requests": 19,
+   "usd_estimated_total": 0.5005639999999999,
+   "usd_cached_price_estimate": 0.41508559999999994
+  },
+  "agent-1": {
+   "status": "budget_exhausted",
+   "island": 0,
+   "best_valid_reward": 1.3472804463094101,
+   "solves_used": 50,
+   "first_positive_at_solves": 41,
+   "requests": 19,
+   "usd_estimated_total": 0.42234599999999994,
+   "usd_cached_price_estimate": 0.34988519999999995
+  },
+  "agent-2": {
+   "status": "budget_exhausted",
+   "island": 1,
+   "best_valid_reward": 0.5447032481532609,
+   "solves_used": 50,
+   "first_positive_at_solves": 23,
+   "requests": 16,
+   "usd_estimated_total": 0.36293200000000003,
+   "usd_cached_price_estimate": 0.2991112000000001
+  },
+  "agent-3": {
+   "status": "finished",
+   "island": 1,
+   "best_valid_reward": 0.5455400377663223,
+   "solves_used": 48,
+   "first_positive_at_solves": 19,
+   "requests": 23,
+   "usd_estimated_total": 0.5566900000000001,
+   "usd_cached_price_estimate": 0.46222599999999997
+  },
+  "agent-4": {
+   "status": "budget_exhausted",
+   "island": 2,
+   "best_valid_reward": 1.9562343595531926,
+   "solves_used": 50,
+   "first_positive_at_solves": 38,
+   "requests": 22,
+   "usd_estimated_total": 0.466598,
+   "usd_cached_price_estimate": 0.3762812000000001
+  },
+  "agent-5": {
+   "status": "budget_exhausted",
+   "island": 2,
+   "best_valid_reward": 1.9562343595531926,
+   "solves_used": 50,
+   "first_positive_at_solves": 16,
+   "requests": 30,
+   "usd_estimated_total": 0.6239520000000001,
+   "usd_cached_price_estimate": 0.505872
+  },
+  "agent-6": {
+   "status": "budget_exhausted",
+   "island": 3,
+   "best_valid_reward": 0.3292123374189787,
+   "solves_used": 50,
+   "first_positive_at_solves": 15,
+   "requests": 25,
+   "usd_estimated_total": 0.49786,
+   "usd_cached_price_estimate": 0.4020136
+  },
+  "agent-7": {
+   "status": "budget_exhausted",
+   "island": 3,
+   "best_valid_reward": 0.323642993329818,
+   "solves_used": 50,
+   "first_positive_at_solves": 16,
+   "requests": 26,
+   "usd_estimated_total": 0.5381520000000001,
+   "usd_cached_price_estimate": 0.43412639999999997
+  },
+  "agent-8": {
+   "status": "budget_exhausted",
+   "island": 4,
+   "best_valid_reward": 2.2168294189366664,
+   "solves_used": 50,
+   "first_positive_at_solves": 26,
+   "requests": 30,
+   "usd_estimated_total": 0.5697979999999999,
+   "usd_cached_price_estimate": 0.4473404
+  },
+  "agent-9": {
+   "status": "budget_exhausted",
+   "island": 4,
+   "best_valid_reward": 2.2295208079014324,
+   "solves_used": 50,
+   "first_positive_at_solves": 19,
+   "requests": 32,
+   "usd_estimated_total": 0.630806,
+   "usd_cached_price_estimate": 0.5028188
+  }
+ },
+ "config": {
+  "n": 10,
+  "budget": 50,
+  "unsold_info": true,
+  "effort": "low",
+  "think_budget": null,
+  "plan": false,
+  "think_every": null,
+  "think_when_stuck": null,
+  "cheap_effort": "none",
+  "islands": [
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "share_within": true,
+  "migrate_every": 10,
+  "route": "ring",
+  "info": "full",
+  "copy": true,
+  "graft": true,
+  "copy_rule": null,
+  "niche_board": false,
+  "strategies": null,
+  "notebook": true,
+  "cull_every": null,
+  "supervisor_every": null,
+  "max_shown": 4,
+  "preset": "ring-5x2-k10"
+ }
+}

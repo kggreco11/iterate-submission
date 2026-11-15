@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-open-5f533da2",
+ "agent_id": "agent-6",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 67,
+ "failed_requests": 3,
+ "input_tokens": 369242,
+ "output_tokens": 66340,
+ "usd_estimated_total": 0.19038059999999998,
+ "requests_with_unknown_cost": 3,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 5132.7171239852905,
+ "status": "finished",
+ "island": 0,
+ "strategy": null,
+ "best_valid_reward": 0.0,
+ "solves_used": 31,
+ "first_positive_at_solves": null,
+ "usd_cached_price_estimate": 0.14883947999999997,
+ "notebook": "Goal: maximize (revenue-cost)/439. Empty=0. Max pure $3615M/yr; blend ceiling ~$3246M/yr.\nBlend revenues ($M/yr): C3mix 73, C4mix 186, C5mix 618, C6par 1180, C6nap 396; pure nC7 332, nC8 358, nC9 103, C2 4.\nVolatility order: C2 | C3mix | C4mix | C5mix | C6par | C6nap | nC7 | nC8 | nC9.\nCosts: 30st R0.5=$61M; 45st R3=$195M; 60st R6=$253M; 100st R8=$445M. Reflux dominates cost.\nGaps(K): C4/C5 28 easy, C5/C6par 14, C6par/C6nap ~3 (brutal), C6/C7 18, C7/C8 27, C8/C9 25 easy; tight: C3 6, iC4/nC4 12.\nKEY FAILURE: 100st R8 feed col still gave NO stream >=95%. T=40% C4mix, B=C6+ mix. Sharp single-component purity seems very hard.\nNEW IDEA: side draws can deliver a middle cut (blend) from ONE column. Try low-reflux 60st col with liquid side draw to see where the middle cut lands and its purity. If C5mix or C6par middle cut reaches >=95%, one-column blend is hugely profitable.\nPlan: 1) probe side-draw location/purity cheaply. 2) if promising, tune stage/fraction/phase. 3) build minimal cascade only where needed.",
+ "task": "hc16v3_dev_002"
+}

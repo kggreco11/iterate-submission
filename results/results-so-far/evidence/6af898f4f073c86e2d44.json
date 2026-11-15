@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-761c0ffe",
+ "agent_id": "agent-42",
+ "provider": "modal",
+ "model": "kimi-k3.1-pro",
+ "requests": 22,
+ "failed_requests": 0,
+ "input_tokens": 145212,
+ "output_tokens": 19850,
+ "usd_estimated_total": 0.48892400000000014,
+ "requests_with_unknown_cost": 0,
+ "price_source": "https://modal.com/docs/guide/supported-models; 2026-11-14; uncached estimate",
+ "wall_s": 3608.6454758644104,
+ "status": "budget_exhausted",
+ "island": 8,
+ "strategy": null,
+ "best_valid_reward": 0.5418458400662197,
+ "solves_used": 50,
+ "first_positive_at_solves": 23,
+ "usd_cached_price_estimate": 0.3896216000000001,
+ "notebook": "PLAN: Use the final solve on one last low-risk ethane-stripper reflux extension, then retain the best valid design.\nThe 50/40/65-stage core at root 4.0/5.9, second 7.0/12.0, third 7.0/4.0 is strongest. Stripper reflux increases from 4.0 to 4.5 to 5.0 each gave a small net gain by recovering saleable C3; boil-up 0.5 preserves blend purity. Test 5.5. Heavy recovery was repeatedly uneconomic.",
+ "task": "hc16v3_dev_002"
+}

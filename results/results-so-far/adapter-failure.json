@@ -1,0 +1,21 @@
+{
+  "run_id": "swarm-cbcf28936bb446238df1435cb4b23c13",
+  "task": "hc16v3_dev_000",
+  "model": "deepseek-v4.1-flash",
+  "agents": 1,
+  "sharing": "single_baseline",
+  "budget_per_agent": 400,
+  "budget_total": 400,
+  "status": "aborted",
+  "state": "failed_or_partial",
+  "queries": 1,
+  "backend_calls": 1,
+  "reward": 0.0,
+  "model_usd": 0.0058809,
+  "wall_s": 15.04699999999957,
+  "net_usd_per_year": null,
+  "evidence": "evidence/67130b6e37564e3b4d37.json",
+  "cost_note": "saved estimate; unknown-cost requests: 0",
+  "original_evidence": "runs/v3-screening-400-prep/original-failure-status.json",
+  "experiment": "adapter-attempts"
+}

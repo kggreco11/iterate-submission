@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-open-nocopy-c2285eb2",
+ "agent_id": "agent-0",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 100,
+ "failed_requests": 4,
+ "input_tokens": 550648,
+ "output_tokens": 99058,
+ "usd_estimated_total": 0.284064,
+ "requests_with_unknown_cost": 3,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 4844.786822080612,
+ "status": "finished",
+ "island": 0,
+ "strategy": null,
+ "best_valid_reward": 0.0,
+ "solves_used": 49,
+ "first_positive_at_solves": null,
+ "usd_cached_price_estimate": 0.21992063999999995,
+ "notebook": "FINAL (50/50 solves used). Best valid reward = 0 (empty design). No profitable distillation design found.\n\nKEY LEARNINGS:\n- Every column/train built cost 145-560M/yr and yielded $0 revenue: no stream reached 95% (blend) or 99% (premium) purity in 1-2 columns.\n- Sharp cuts need large bp gaps. Achievable-in-simulation blends still had too much neighbour leakage; sharpening (more stages/reflux) raised cost above the blend value.\n- Side-draw columns repeatedly failed to converge -> wasted solves and invalid designs.\n- ECONOMICS: C5mix (iC5+nC5, 695 mol/s) = big prize ~$618M/yr but its upper boundary gap nC5(309)/2,2-DMB(323) is only 13.7K and the two trains seen (agent-8 45/4 + 60/6; agent-9 45/3 + 55/3) reached only 42-60% nC5 -> $0. C4mix $186M/yr, C6par $328M (lower gap 3.1K infeasible), C6nap $110M, C3mix $73M - all below column costs.\n- Pure n-pentane $439M and n-butane $166M need iC5/nC5 (8.2K) and iC4/nC4 (11.4K) splits - too hard/short gaps.\n- CONCLUSION: expensive-plant cost level + hard 95% threshold makes any separation train net-negative. Optimal valid plant is the empty design (reward 0), which I have restored.",
+ "task": "hc16v3_dev_002"
+}

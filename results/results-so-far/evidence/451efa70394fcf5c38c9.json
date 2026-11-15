@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-78e50fff",
+ "agent_id": "agent-19",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 66,
+ "failed_requests": 0,
+ "input_tokens": 388698,
+ "output_tokens": 68078,
+ "usd_estimated_total": 0.198303,
+ "requests_with_unknown_cost": 0,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 5634.410566329956,
+ "status": "budget_exhausted",
+ "island": 3,
+ "strategy": null,
+ "best_valid_reward": 0.0,
+ "solves_used": 50,
+ "first_positive_at_solves": null,
+ "usd_cached_price_estimate": 0.15482652,
+ "notebook": "Solves 48/50. Best valid = 0.000 (empty plant; empty design scores 0). Island plants negative: agent-16 empty 0.000, agent-18 -2.622 (3 cols, $1150M cost, 0 revenue), agent-17 -0.396 (2 cheap cols, $174M cost, 0 revenue).\nECON: column cost dominates (~28M for a small 30/2 col up to 540M for 60/10 col). Value_M = flow*price*28.8. Blends: C5mix(695)=618M, C6par(970)=1180M, C4mix(544)=186M, C3mix(286)=73M, C6nap(269)=396M.\nKEY GEOMETRY: C4mix cuts are EASY (i-C4 261.3 / n-C4 272.7 vs isopentane 301 = ~30-40K). C5mix needs 13.7K cut (nC5 309.2 vs 2,2DMB 322.9). C6par/C6nap cut only 3.1K (nC6 341.9 vs MCP 345) => needs tall high-reflux column, expensive. No single column reached 95% purity.\nFINAL: 2 solves left. Score locked at 0.000. No demonstrated path to net-positive (all cascades cost 170-1150M for $0 revenue). Will revert to best valid 0.000 and finish.",
+ "task": "hc16v3_dev_002"
+}

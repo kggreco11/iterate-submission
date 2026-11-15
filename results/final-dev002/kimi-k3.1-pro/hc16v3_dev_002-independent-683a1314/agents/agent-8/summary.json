@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-independent-683a1314",
+ "agent_id": "agent-8",
+ "provider": "modal",
+ "model": "kimi-k3.1-pro",
+ "requests": 35,
+ "failed_requests": 3,
+ "input_tokens": 118091,
+ "output_tokens": 21793,
+ "usd_estimated_total": 0.45411199999999996,
+ "requests_with_unknown_cost": 3,
+ "price_source": "https://modal.com/docs/guide/supported-models; 2026-11-14; uncached estimate",
+ "wall_s": 1935.9012718200684,
+ "status": "finished",
+ "island": 8,
+ "strategy": null,
+ "best_valid_reward": 0.5358718388728113,
+ "solves_used": 49,
+ "first_positive_at_solves": 36,
+ "usd_cached_price_estimate": 0.32658560000000003,
+ "notebook": "PLAN: Finalize the proven best plant after exhausting optimization solves. Best is root 70/5/8/0.2 with B 80/10.4/10/0.1: revenue $961.0M/yr, cost $726.0M/yr, reward 0.536. B reflux 10.35 and 10.3 both fell just below blend specification; 10.4 is the minimum successful tested value. Stage reductions were inferior. Revert to best and finish.",
+ "task": "hc16v3_dev_002"
+}

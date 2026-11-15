@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-90279e64",
+ "agent_id": "agent-2",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 122,
+ "failed_requests": 2,
+ "input_tokens": 700453,
+ "output_tokens": 130128,
+ "usd_estimated_total": 0.36628950000000005,
+ "requests_with_unknown_cost": 1,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 5064.778753519058,
+ "status": "finished",
+ "island": 1,
+ "strategy": null,
+ "best_valid_reward": 0.0,
+ "solves_used": 49,
+ "first_positive_at_solves": null,
+ "usd_cached_price_estimate": 0.28286166000000007,
+ "notebook": "Final: empty design (reward 0.000), valid, locked in. Spent final solve transferring the known-good empty plan from teammate agent-3 (R458) to guarantee my evaluated best remains a valid 0.000 rather than risking a non-converged topology.\n\nKey economics learned this run (cost regime = expensive plant):\n- Value($M/yr) = mol/s * price($/mol) * 28.8. Full separation potential $3615M/yr but needs ~15 columns; each column costs $150-440M/yr in this scenario, so any real cascade is net negative.\n- Full blend purity target (>=95%) is unreachable with a single column: every sellable blend (C3, C4, C5, C6-paraffin, C6-naphthene) needs both a light-end and heavy-end cut, i.e. at least two sharp columns. Single columns with side draws peaked ~66% on C5.\n- My cascades all produced revenue $0 (impure = worthless) with column cost >0, giving negative rewards (-0.3 to -2.8). Empty = 0.000 dominates.\n- Easiest gap nC4(272.7)->iC5(301)=28K still requires removing C3/iC4 above and nC5/C6+ below \u2014 two columns minimum, cost > revenue.\n- Teammate agent-3 confirmed the same conclusion: high reflux (R=4) 55-stage feed column costs $340M/yr yet yields impure T and B ($0 revenue).\n\nConclusion: in this expensive-plant scenario the empty design is the best attainable outcome. No further solves worth spending.",
+ "task": "hc16v3_dev_002"
+}

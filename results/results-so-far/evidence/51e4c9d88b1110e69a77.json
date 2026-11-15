@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-761c0ffe",
+ "agent_id": "agent-16",
+ "provider": "modal",
+ "model": "kimi-k3.1-pro",
+ "requests": 27,
+ "failed_requests": 0,
+ "input_tokens": 191184,
+ "output_tokens": 20400,
+ "usd_estimated_total": 0.586368,
+ "requests_with_unknown_cost": 0,
+ "price_source": "https://modal.com/docs/guide/supported-models; 2026-11-14; uncached estimate",
+ "wall_s": 3608.633140563965,
+ "status": "budget_exhausted",
+ "island": 3,
+ "strategy": null,
+ "best_valid_reward": 2.001065037505762,
+ "solves_used": 50,
+ "first_positive_at_solves": 22,
+ "usd_cached_price_estimate": 0.46748159999999994,
+ "notebook": "PLAN: Continue the successful one-sided root reflux reduction while holding boil-up at 6.0; stop immediately if either C5 or C6 blend loses specification.\nBest 2.001: root60/5.9/6 dp.5, B90/9/9, T50/5/7, TT30/4/2.5, TTT25/2/.35. Root reflux-only cut to 5.9 saved cost and increased both blend revenues. Simultaneous 5.5/5.5 fails C6; root dp.4 and B reflux8.5 also fail. C3 .35 is optimal versus .25 failure and .4/.5 lower recovery. Heavy BB splitting is uneconomic. Test root reflux 5.8 only.",
+ "task": "hc16v3_dev_002"
+}

@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-cull-db97bd5c",
+ "agent_id": "agent-4",
+ "provider": "modal",
+ "model": "kimi-k3.1-pro",
+ "requests": 23,
+ "failed_requests": 3,
+ "input_tokens": 70386,
+ "output_tokens": 17172,
+ "usd_estimated_total": 0.31249200000000005,
+ "requests_with_unknown_cost": 3,
+ "price_source": "https://modal.com/docs/guide/supported-models; 2026-11-14; uncached estimate",
+ "wall_s": 2100.9990577697754,
+ "status": "culled",
+ "island": 4,
+ "strategy": null,
+ "best_valid_reward": 0.0,
+ "solves_used": 32,
+ "first_positive_at_solves": null,
+ "usd_cached_price_estimate": 0.2424504,
+ "notebook": "PLAN: Direct sequence: root removes C4- overhead, B isolates C5 blend, and new T column separates C3 overhead from C4 bottoms. Current step: obtain the first sellable products. Root T=895 contains C3/C4 and only ~3% C5, so a C3/C4 split can yield two blends. At B=80/6/1.0, BT=426 was 87% C5 with 9% DMB and recovered only ~53% of feed C5. Reduce B boil-up to 0.65 to suppress DMB while retaining useful C5 recovery. T uses a moderate 40/3/1.2 cut. After revenue appears, optimize costs and recovery rather than separating C6+ components individually.",
+ "task": "hc16v3_dev_002"
+}

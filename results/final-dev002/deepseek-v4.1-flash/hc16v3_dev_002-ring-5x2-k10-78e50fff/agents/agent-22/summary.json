@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-78e50fff",
+ "agent_id": "agent-22",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 100,
+ "failed_requests": 0,
+ "input_tokens": 609919,
+ "output_tokens": 101175,
+ "usd_estimated_total": 0.30438570000000026,
+ "requests_with_unknown_cost": 0,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 5634.413563966751,
+ "status": "finished",
+ "island": 4,
+ "strategy": null,
+ "best_valid_reward": 1.474272003341892,
+ "solves_used": 48,
+ "first_positive_at_solves": 41,
+ "usd_cached_price_estimate": 0.23581865999999999,
+ "notebook": "Turn 50: Best valid = 1.474 (feed '' 36/2.6/2.6/0.8 -> T worthless; B 36/4.0/4.0/0.8 -> BT = C6-paraffin mix $1060.6M/yr; BB worthless; total column cost $414M/yr). Reverted to clear the loss-making T column (turn 49 gave -0.346).\n\nAll 4 island peers (R1803, R1997, R2007, R2009) converged on the identical 1.474 two-column design; nothing better found in 48 solves by anyone. Confirmed failures: taller/higher-reflux T column (turns 45,47) -> negative, because T's condenser must knock down C3 (propylene/propane ~18%), forcing refrigeration that costs ~$800M/yr, far exceeding any C5-mix revenue (~$620M). Cheaper feed column (R2007) or taller B (R1895) both worse.\n\nConclusion: T (1587 mol/s; C3 18% + C4 34% + C5 44%) is unseparable at a profit \u2014 its volatility range needs a very cold condenser. BB (nC7/nC8/cyclohexane/nonane mix) needs sharp cuts between close boilers, also unprofitable. The C6-paraffin blend BT (2-methylpentane+3-methylpentane+2,2-dimethylbutane+n-hexane, 95%+) is the only money-maker. 1.474 is the optimum; finished.",
+ "task": "hc16v3_dev_002"
+}

@@ -1,0 +1,234 @@
+[ChemSep]
+Version=8.23
+Compiled=2020-8-30 01:31 25a91646f93c
+Name=column.sep
+Title=Distillation column
+User=
+Date=2026-01-01
+Time=00:00:00
+
+[Paths]
+Device drivers path={{CHEMSEP}}\bin\
+Help and Info path={{CHEMSEP}}\help\
+Component data path={{CHEMSEP}}\pcd\
+Property data path={{CHEMSEP}}\ipd\
+Section data path={{CHEMSEP}}\ild\
+Executables path={{CHEMSEP}}\bin\
+Temporary path=.\
+Scripts path={{CHEMSEP}}\bin\
+
+[Units]
+Temperature=K
+Flow=kmol/s
+Mass flow=kg/s
+Vapour volumetric flow=m3/s
+Liquid volumetric flow=m3/s
+Pressure=N/m2
+Heat=J/s
+Enthalpy=J/kmol
+Entropy=J/kmol/K
+Fraction=_
+Length=m
+1/Length=1/m
+Area=m2
+Volume=m3
+Moles=kmol
+Mass=kg
+Angle=rad
+Velocity=m/s
+Surface tension=N/m
+Density=kg/m3
+Molar density=kmol/m3
+Viscosity=N/m2.s
+Molecular weight=kg/kmol
+Heat capacity=J/kmol/K
+Thermal conductivity=J/s/m/K
+Diffusivity=1e-8 m2/s
+Interaction parameter=J/mol
+Time=s
+
+[Components]
+{{COMPONENTS}}
+
+[Operation]
+2 Operation Column
+1 Operation kind Simple Distillation
+1 Condenser Total (Liquid product)
+1 Reboiler Partial (Liquid product)
+25 Stages
+1 Feed stages
+0 Sidestream stages
+F=24
+S=
+0 Pumparound stages
+P=
+0 Interconnections
+I=
+0 Extra condensers
+C=
+0 Extra reboilers
+R=
+
+[Simulation Model]
+*  Simulation model *
+
+[Properties]
+350 BIP estimation temperature
+0 Estimation BIPs
+
+[Thermodynamics]
+2 K model EOS
+* * Activity coefficient *
+*  Wilson model *
+*  UNIQUAC model *
+3 Equation of State Cubic
+5 Cubic EOS Peng-Robinson 76
+*  Virial EOS *
+*  Vapour pressure *
+0 Henry's law
+*  Henry's default *
+
+[Enthalpy]
+6 Enthalpy Peng-Robinson 76
+1 Enthalpy reference state Vapour
+298.15 Enthalpy reference temperature
+1 Formation enthalpies Excluded
+298.15 Exergy surroundings temperature
+
+[Physical property models]
+1 1 No Check T range
+*  Cubic EOS *
+*  Virial EOS *
+*  Vapour model *
+*  Liquid mixture density *
+*  Liquid component density *
+*  Vapour mixture viscosity *
+*  Vapour mixture viscosity pressure correction *
+*  Vapour component viscosity *
+*  Liquid mixture viscosity *
+*  Liquid component viscosity *
+* Vapour mixture Cp
+1 Vapour component Cp T correlation
+*  Liquid mixture Cp *
+* Liquid component Cp
+*  Vapour mixture conductivity *
+*  Vapour component conductivity *
+*  Liquid mixture conductivity *
+*  Liquid component conductivity *
+*  Mixture surface tension *
+*  Component surface tension *
+*  Vignes MS D-model *
+*  D mixture model *
+*  Vapour Diffusion Coefficients *
+12 Default Liquid Diffusion Coefficients Kooijman 2002
+*  Interfacial tension *
+
+[Property Data]
+
+{{KIJ}}
+[Reaction data]
+0 Number of reactions
+
+[Specifications]
+Top
+Bottom
+
+[Heaters/Coolers]
+0 Number
+0 Column duty Qcolumn
+2 First stage
+24 Last stage
+0 Qcolumn lost to surroundings
+
+[Efficiencies]
+1 Default efficiency
+0 Number
+
+[Pressures]
+1 Column pressure Constant pressure
+1322291 Condenser pressure
+1322291 Top pressure
+* Pressure Drop
+1773188 Bottom pressure
+
+[Feeds]
+1 Number
+*  Feed state *
+12 Stage Feed1{split}
+371.8318 Temperature
+1322291 Pressure
+1 Vapour fraction
+6 componentflows
+0.00167125 Component 1 flow
+1.10971 Component 2 flow
+1.197618 Component 3 flow
+0.515748 Component 4 flow
+0.344278 Component 5 flow
+0.173141 Component 6 flow
+
+[Condenser]
+1 Spec Reflux ratio
+3 Value Qcondenser
+* Subcooling
+*  Type *
+* Initialization guess * *
+
+[Reboiler]
+1 Spec Boilup ratio
+2.25 Value Qreboiler
+* Superheating
+*  Type *
+* Initialization guess * *
+
+[Monitored Variables]
+*
+
+
+[Solve options]
+1 Initialization Automatic
+1 Method Newton's method
+0.5 Flow Step limit
+10 Temperature Step limit
+1 Composition Step limit
+1 Flux Step limit
+0.000001 Accuracy
+300 Maximum iterations
+1 Iteration count & function vector
+0 T/V/L profiles
+0 X/Y profiles
+0 Variable and function vectors
+0 Jacobian
+1 History Screen
+History file=
+1 Feeds type Stage below
+0 Interactive
+0 Log thermodynamics
+0 Log enthalpy/entropy
+0 Log physical properties
+0 Log timing
+0 CO numeric differencing
+* Log from iteration
+0 CS K-value
+0 CS enthalpy
+0 CS entropy
+0 CS flash
+0 CS activity coefficient
+0 CS vapor pressuure
+0 CS density
+0 CS viscosity
+0 CS thermal conductivity
+0 CS heat capacity
+0 CS surface tension
+0 CS diffusivity
+0 Trace treshold
+
+[Programs]
+Temporary file=SCRATCH.TMP
+User program=
+1 Compiler Gfortran
+1 Show windows Hidden
+
+[User-Data]
+[End User-Data]
+
+[End of Input]

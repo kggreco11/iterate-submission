@@ -1,0 +1,44 @@
+{
+ "run_id": "hc16v3_dev_002-solo-feca83f5",
+ "config": {
+  "n": 1,
+  "budget": 200,
+  "unsold_info": true,
+  "effort": "low",
+  "think_budget": null,
+  "plan": false,
+  "think_every": null,
+  "think_when_stuck": null,
+  "cheap_effort": "none",
+  "islands": [
+   1
+  ],
+  "share_within": false,
+  "migrate_every": null,
+  "route": "ring",
+  "info": "full",
+  "copy": true,
+  "graft": true,
+  "copy_rule": null,
+  "niche_board": false,
+  "strategies": null,
+  "notebook": true,
+  "cull_every": null,
+  "supervisor_every": null,
+  "max_shown": 4,
+  "preset": "solo"
+ },
+ "task": "hc16v3_dev_002",
+ "model": "kimi-k3.1-pro",
+ "provider": "modal",
+ "seed": 0,
+ "islands": [
+  1
+ ],
+ "budgets": {
+  "agent-0": 200
+ },
+ "strategies": {},
+ "started": "2026-11-15 12:36:35",
+ "simulator_retries": "ChemSep alternative initialisations on"
+}

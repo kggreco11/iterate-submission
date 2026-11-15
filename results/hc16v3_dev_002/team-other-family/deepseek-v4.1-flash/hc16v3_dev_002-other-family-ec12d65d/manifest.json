@@ -1,0 +1,14 @@
+{
+  "schema": "report-bundle-v1",
+  "task": "hc16v3_dev_002",
+  "model": "deepseek-v4.1-flash",
+  "run_id": "hc16v3_dev_002-other-family-ec12d65d",
+  "condition": "team-other-family",
+  "status": "all_done",
+  "report": "index.html",
+  "sha256": {
+    "index.html": "aecd00748c7885b850981ed14aa1777f801c707fa5de533cf53b6125dc53692b",
+    "report-data.json": "109870b8a3ac304c086a6b724f7626173f9162f1c1842c131702aa6bf3d9f405",
+    "summary.json": "fe4adfa172c104af72555825689902326b656414ffc88ae020409eae779e1ca3"
+  }
+}

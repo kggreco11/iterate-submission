@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-open-5f533da2",
+ "agent_id": "agent-1",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 110,
+ "failed_requests": 3,
+ "input_tokens": 604711,
+ "output_tokens": 107004,
+ "usd_estimated_total": 0.30981810000000004,
+ "requests_with_unknown_cost": 3,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 5132.719130039215,
+ "status": "finished",
+ "island": 0,
+ "strategy": null,
+ "best_valid_reward": 0.0,
+ "solves_used": 42,
+ "first_positive_at_solves": null,
+ "usd_cached_price_estimate": 0.24028338,
+ "notebook": "Solves 40/50. Floor=0. Best team=0; nobody positive yet.\nVALUE: annual=flow*price*2.88e7. Blend prizes: C6parmix(970)$1181M, C5mix(695)$618M, C6naphtmix(269)$396M, C4mix(544)$186M, C3mix(286)$73M.\nBp gaps: nC4(272.7)|iC5(301)=28K EASY; nC5(309)|2,2DMB(323)=14K; nC6(342)|MCP(345)=3K COSTLY.\nCONVERGENCE: 45st/R1.3-1.5/dp0.1 converges (~$120M). 55-60st or R>=6 risky/expensive.\nOthers: R440 40/2.0 col $150M impure; R433 similar. Lesson: columns ~$100-150M, must get >=95% purity to earn.\nPLAN (10 left): try 40/2.5 front col (C3/C4ish tops) + 45/3.0 bottoms col to polish C4mix to 95%. Read compositions, then retune reflux to hit purity. Keep a valid design always; revert to empty floor if needed.",
+ "task": "hc16v3_dev_002"
+}

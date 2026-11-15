@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-niche-20940918",
+ "agent_id": "agent-9",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 85,
+ "failed_requests": 3,
+ "input_tokens": 404254,
+ "output_tokens": 85004,
+ "usd_estimated_total": 0.22328099999999992,
+ "requests_with_unknown_cost": 3,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 4628.587603569031,
+ "status": "finished",
+ "island": 0,
+ "strategy": null,
+ "best_valid_reward": 0.0,
+ "solves_used": 48,
+ "first_positive_at_solves": null,
+ "usd_cached_price_estimate": 0.16687907999999996,
+ "notebook": "Turn 41, solves 49/50 after this. Best valid = 0.000 (empty plant). All cascades so far negative: column costs 100-365M/yr, revenues ~0 (never reached 95% purity).\n\nLessons:\n- Cost ~0.11 M/yr per mol/s at 40st R=6; 60st R=6 = $244.6M/yr.\n- Revenue = flow*2.88e7*price. nC4 450 mol/s=166M; nC5 442=439M; iC5 253=280M.\n- Blends: C6 paraffin 1182M, C5 618M, C6 naphthene 396M, C4 186M, C3 73M \u2014 all need near-perfect multicut separation, far above cost.\n- Single-column cuts can't reach 95%: C4/C5 tops ~63% C4; C3/C4 tops carries C2.\n- Side draw must not sit on feed stage (30 for 60-stage col).\nConclusion: economics don't support separation at this cost level; empty plant 0.000 likely best. Trying one 2-col cascade then finishing.",
+ "task": "hc16v3_dev_002"
+}

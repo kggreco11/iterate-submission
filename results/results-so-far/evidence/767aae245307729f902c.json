@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-78e50fff",
+ "agent_id": "agent-40",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 91,
+ "failed_requests": 1,
+ "input_tokens": 586113,
+ "output_tokens": 92701,
+ "usd_estimated_total": 0.2870751000000002,
+ "requests_with_unknown_cost": 0,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 5634.436128616333,
+ "status": "budget_exhausted",
+ "island": 8,
+ "strategy": null,
+ "best_valid_reward": 2.1162352922797694,
+ "solves_used": 50,
+ "first_positive_at_solves": 39,
+ "usd_cached_price_estimate": 0.22624949999999996,
+ "notebook": "BEST so far: my 7-col train reward 2.116 (rev 1557.4, cost 629.3). TREE: root 40/1.6/1.6/0.6 -> T & B; T 45/3.0/2.5/0.3 -> TT(discard) & TB; B 45/3.5/3.0/0.5 -> BT & BB(discard); TB 55/5.0/4.0/0.1 -> TBT(nC4 98%,$118M) & TBB(C5mix $379M); BT 50/4.0/3.5/0.1 -> BTT & BTB(C6paraffin $646M); BTT 50/5.0/4.0/0.1 -> BTTT(C5mix $150M) & BTTB; BTTB 55/5.5/4.5/0.1 -> BTTBT(C5mix-purified nC5 96%,$96M) & BTTBB(C6paraffin $168M).\n\nLEARNED: turn42 cols under TT & BB -> rev IDENTICAL, cost +190 -> waste streams (TT C3/C4/ethane, BB broad C6-C9) yield NO pure/blend product. Extra cols cost ~$80-140M/yr each. Agent-44 tightening TB 65/7/5 killed reward. Trimming stages/reflux on BTTB (65->55) cut cost with no rev loss (2.068->2.116).\n\nISLAND: all designs are the same R1457 family; nobody has beaten 2.116. Nobody found value in TT or BB.\n\nPLAN (now 5 solves, using 2 on this test): raise pressure on root & B (dp 0.6/0.5 -> 0.25) to cut refrigeration cost if their condensers are cold. If cost drops and rev holds, keep; else revert. Then spend last solves trimming expensive mid columns.",
+ "task": "hc16v3_dev_002"
+}

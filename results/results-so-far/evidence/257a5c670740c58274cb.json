@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-open-nocopy-c2285eb2",
+ "agent_id": "agent-2",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 121,
+ "failed_requests": 5,
+ "input_tokens": 660911,
+ "output_tokens": 121245,
+ "usd_estimated_total": 0.3437673,
+ "requests_with_unknown_cost": 3,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 4844.605023145676,
+ "status": "finished",
+ "island": 0,
+ "strategy": null,
+ "best_valid_reward": 0.0,
+ "solves_used": 46,
+ "first_positive_at_solves": null,
+ "usd_cached_price_estimate": 0.26531610000000005,
+ "notebook": "Turn 58, 46 solves used. BEST VALID = 0.000 (empty plant).\n\nWHAT I LEARNED:\n- Feed is 3300 mol/s; columns are enormous and expensive (min ~$61M/yr, my 55st R10 col cost $472M, 60st R8 col $258M).\n- Revenue per mol is tiny ($0.01-0.06), so most trains give NEGATIVE reward. All my builds (turns 46-57) scored -0.1 to -1.7.\n- Splits are far harder than boiling-point gaps suggest: 45-60 stage columns at R4-R10 gave tops only ~32-38% of target component \u2014 nowhere near the 95%/99% purity needed to sell. Wide-boiling feed with mid-column feed stage lets light ends pile into tops.\n- Blend economics: C5mix $619M/yr, C4mix $186M, C6 paraffin mix ~$1180M, but each needs 2-3 sharp columns costing ~$250-470M EACH, wiping out the margin.\n- Team: agents 9 and 4 both also sit at 0.000 empty \u2014 consistent signal that profitable separation is very hard in this expensive-plant scenario.\n\nDECISION: With 4 solves left and a consistent record of negative rewards, the rational move is to hold the empty valid plant (reward 0) rather than gamble on an unproven multi-column train that risks an invalid design and a worse score. Empty plant = non-negative floor.\n\nPLAN: Finish / hold empty. Only reconsider if a clearly cheap single-column blend cut becomes evident \u2014 but none has emerged after 46 solves.",
+ "task": "hc16v3_dev_002"
+}

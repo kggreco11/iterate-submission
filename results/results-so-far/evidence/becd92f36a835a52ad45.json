@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-strategies-8574f67c",
+ "agent_id": "agent-8",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 93,
+ "failed_requests": 3,
+ "input_tokens": 521314,
+ "output_tokens": 94701,
+ "usd_estimated_total": 0.27003540000000004,
+ "requests_with_unknown_cost": 3,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 4851.393742799759,
+ "status": "budget_exhausted",
+ "island": 4,
+ "strategy": "Premium-heavy: push the most valuable products to 99% purity to earn the premium grade.",
+ "best_valid_reward": 0.0,
+ "solves_used": 50,
+ "first_positive_at_solves": null,
+ "usd_cached_price_estimate": 0.2085877199999999,
+ "notebook": "T45. Solves 48/50 (this call = 49). Floor = empty plant 0.000 (evaluated, valid) => locked; no downside.\n\nCONVERGENCE: 30st/R1.5 & 40st/R1.8 converge (~$90-120M/yr). 45st & 60st FAIL (agent-9). Sharp 95% splits unreachable within my remaining solves.\n\nVALUE ($M/yr = flow*price*2.88e7): nC5 439 | C5 mix 695@0.0309=$618 | C6 para mix 970@$1187 | C4 mix $186 | C3 mix $73. Columns ~$100-120M/yr each. Feed balances poorly at low stages: root 30/1.5 gives T=647 (C3 32%,nC4 30%) with C5 leaking.\n\nPLAN: this call = moderate 35/1.8 root + 30/1.5 column on B. Tests whether 35 stages still converges (agent-9 had 45 fail, 40 OK) and locks a valid accounting. Revert always available. Last solve held for a possible C5-mix tuning attempt; else finish at 0.000 floor.",
+ "task": "hc16v3_dev_002"
+}

@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-independent-683a1314",
+ "agent_id": "agent-5",
+ "provider": "modal",
+ "model": "kimi-k3.1-pro",
+ "requests": 32,
+ "failed_requests": 3,
+ "input_tokens": 104301,
+ "output_tokens": 26265,
+ "usd_estimated_total": 0.47125199999999995,
+ "requests_with_unknown_cost": 3,
+ "price_source": "https://modal.com/docs/guide/supported-models; 2026-11-14; uncached estimate",
+ "wall_s": 1935.898036956787,
+ "status": "budget_exhausted",
+ "island": 5,
+ "strategy": null,
+ "best_valid_reward": 0.3645218932876319,
+ "solves_used": 50,
+ "first_positive_at_solves": 41,
+ "usd_cached_price_estimate": 0.3605448,
+ "notebook": "PLAN: Final optimization of the proven three-column C4/C5-blend plant. Restore the convergent best root unchanged and test only modest child-column stage/reflux reductions; stop after this last economic comparison. Best valid 0.360: root 60/4/6, T 60/5/10, TT 40/3/4; revenue 627.5M, cost 469.7M; TB 97% C5 and TTB about 99% C4. Turn 27's larger cuts saved only 42M but lost the 459M C5 product. Turn 28 failed at the modified root 55/3.8/6, so do not alter root again. Current children retain full boil-up and have 2% purity headroom, making them the safest final cost-saving candidates. TTT is unsellable and not worth another column.",
+ "task": "hc16v3_dev_002"
+}

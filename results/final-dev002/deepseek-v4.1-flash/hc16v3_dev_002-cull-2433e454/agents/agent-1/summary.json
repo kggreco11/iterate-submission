@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-cull-2433e454",
+ "agent_id": "agent-1",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 242,
+ "failed_requests": 3,
+ "input_tokens": 1108272,
+ "output_tokens": 240894,
+ "usd_estimated_total": 0.6215544,
+ "requests_with_unknown_cost": 3,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 5423.071012496948,
+ "status": "active",
+ "island": 1,
+ "strategy": null,
+ "best_valid_reward": 0.0,
+ "solves_used": 114,
+ "first_positive_at_solves": null,
+ "usd_cached_price_estimate": 0.4677624,
+ "notebook": "Empty-to-cascade build. Blend values ($M/yr, after 85% discount): C3mix 63, C4mix 176, C5mix 611, C6parmix 1147, C6naphmix 397, nC7 332, nC8 359, nC9 104, C2 4; pool ~$3193M/yr. Costs steep: 60st/R4 = $260.6M/yr for the root. Key: revenue_M = flow*price*2.88e7; reward=(rev-cost)/439. Must beat 0.\n\nOnly 'set' on existing nodes; 'sell' on existing nodes; column on 'T' requires parent '' to have column.\n\nThis turn: reset root to 40st/R2 to read true cost/temps/sharpness at lower reflux (cheaper). Compare to R4 ($260M). Then build the 9-cut cascade with calibrated costs. Goal: first positive reward.",
+ "task": "hc16v3_dev_002"
+}

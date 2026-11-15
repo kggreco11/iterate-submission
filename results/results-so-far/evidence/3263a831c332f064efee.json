@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-78e50fff",
+ "agent_id": "agent-14",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 87,
+ "failed_requests": 1,
+ "input_tokens": 761093,
+ "output_tokens": 89247,
+ "usd_estimated_total": 0.3354243000000001,
+ "requests_with_unknown_cost": 1,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 5634.404431343079,
+ "status": "budget_exhausted",
+ "island": 2,
+ "strategy": null,
+ "best_valid_reward": 1.3021703918578826,
+ "solves_used": 50,
+ "first_positive_at_solves": 14,
+ "usd_cached_price_estimate": 0.2739074999999999,
+ "notebook": "T43. Solves 44/50 (6 left). Best 1.302 = island/team best (R1759 platform: ''=40/1.6/1.6/0.6, B=55/3.8/3.0/0.1, T=45/3.0/2.5/0.3, BT=70/9/7/0.1, TB=55/5/4/0.1, BTT=80/12/10/0.1, BTTB=100/12/10/0.1). Revenue $1322.7M, cost $751.6M.\n\nDead streams: TT 535 (C3mix+C4mix, ethane 6% poison, needs deethanizer+refrig), BB 1145 (C6-C9, no clean cut), BTTBB 113 (22DMB 82-85% dead - agent-13 tried 150/20, still 82%; mass balance says top over-purifies nC5). All attempts to monetise these lost money.\n\nCost breakdown: ''140.6, B178.0, BT143.6, T89.0, BTT81.6, TB71.0, BTTB48.0.\n\nPLAN (6 solves): only cost trims can help since revenue is maxed for this topology. Test '' dp 0.6->0.3 (lower pressure = higher rel volatility but more refrigeration; may net save). If that fails, try B reflux 3.4 and BT reflux 8, BTTB lower reflux. Revert on any revenue loss.\n\nLESSON: any new column must yield >95% pure component/blend else it earns $0 and only adds cost. This topology already captures all easy cuts.",
+ "task": "hc16v3_dev_002"
+}

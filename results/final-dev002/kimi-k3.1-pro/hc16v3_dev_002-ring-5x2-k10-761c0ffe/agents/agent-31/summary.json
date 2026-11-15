@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-761c0ffe",
+ "agent_id": "agent-31",
+ "provider": "modal",
+ "model": "kimi-k3.1-pro",
+ "requests": 26,
+ "failed_requests": 3,
+ "input_tokens": 192419,
+ "output_tokens": 17120,
+ "usd_estimated_total": 0.5560379999999999,
+ "requests_with_unknown_cost": 3,
+ "price_source": "https://modal.com/docs/guide/supported-models; 2026-11-14; uncached estimate",
+ "wall_s": 3608.6400158405304,
+ "status": "budget_exhausted",
+ "island": 6,
+ "strategy": null,
+ "best_valid_reward": 2.8657794423193215,
+ "solves_used": 50,
+ "first_positive_at_solves": 25,
+ "usd_cached_price_estimate": 0.45569879999999996,
+ "notebook": "PLAN: Finish the validated recovery trends. Final solve: extend only TTTB boil-up from 11 to 13, retaining B dp 0.35. R1014 confirms boil-up 12 remains profitable (2.865); 15 alone likely still gains revenue but its companion B change was unfavorable.\nB dp 0.35 is optimal among tested; 0.40 destroys C6 blend, and 0.36 with reflux 5.1 costs more than it gains. TTTB recovery rises from 226 mol/s at 11 to 230 at 12 and 241 at 15. Use 13 for final incremental recovery without excessive duty. Heavy BB and tiny light wastes are uneconomic.",
+ "task": "hc16v3_dev_002"
+}

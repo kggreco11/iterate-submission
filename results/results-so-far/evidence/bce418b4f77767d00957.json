@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-761c0ffe",
+ "agent_id": "agent-5",
+ "provider": "modal",
+ "model": "kimi-k3.1-pro",
+ "requests": 29,
+ "failed_requests": 0,
+ "input_tokens": 173426,
+ "output_tokens": 25710,
+ "usd_estimated_total": 0.6039519999999999,
+ "requests_with_unknown_cost": 0,
+ "price_source": "https://modal.com/docs/guide/supported-models; 2026-11-14; uncached estimate",
+ "wall_s": 3608.627132177353,
+ "status": "budget_exhausted",
+ "island": 1,
+ "strategy": null,
+ "best_valid_reward": 1.3060000870463833,
+ "solves_used": 50,
+ "first_positive_at_solves": 32,
+ "usd_cached_price_estimate": 0.4759648,
+ "notebook": "PLAN: 1) Restore the best known valid configuration, R1172 at reward 1.306 (root 50/5/5.5/0.5, T 60/8/12/0.3, B 35/4.64/3/0.3). 2) Finish with the solve budget exhausted. Learned: B reflux 4.8 gives 1.274, 4.7 gives 1.294, 4.65 gives 1.304, and 4.64 gives 1.306; 4.62 and 4.6 cross the C6 blend-purity cliff and lose all BT revenue. Root and C5-finisher reductions also underperform, so the three-column plant at 4.64 is the final choice.",
+ "task": "hc16v3_dev_002"
+}

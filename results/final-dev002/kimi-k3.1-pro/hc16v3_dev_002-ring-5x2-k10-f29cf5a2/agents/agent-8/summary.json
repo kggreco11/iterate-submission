@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-f29cf5a2",
+ "agent_id": "agent-8",
+ "provider": "modal",
+ "model": "kimi-k3.1-pro",
+ "requests": 30,
+ "failed_requests": 3,
+ "input_tokens": 175979,
+ "output_tokens": 21784,
+ "usd_estimated_total": 0.5697979999999999,
+ "requests_with_unknown_cost": 3,
+ "price_source": "https://modal.com/docs/guide/supported-models; 2026-11-14; uncached estimate",
+ "wall_s": 1954.684517621994,
+ "status": "budget_exhausted",
+ "island": 4,
+ "strategy": null,
+ "best_valid_reward": 2.2168294189366664,
+ "solves_used": 50,
+ "first_positive_at_solves": 26,
+ "usd_cached_price_estimate": 0.4473404,
+ "notebook": "PLAN: Final interpolation of the heat-integrated C6 column. Best is 2.204 at B=50/9/9, LP dp 0.85; use the remaining two solves on B=8.75/8.75. B=8/8 narrowly lost C6 blend purity, while 9/9 is valid, so 8.75 should retain the blend and trim duties. Keep root 70/9/9, T 60/2/3.25 and TT 15/1.5/1.5 fixed: these are validated and root/T have known purity cliffs. B=10/10 gives slightly more revenue but costs $23.6M/yr more than 9/9, so it is inferior. The C3/C4 trim saves cost without changing sales.",
+ "task": "hc16v3_dev_002"
+}

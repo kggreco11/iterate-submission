@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-managed-f226c55c",
+ "agent_id": "agent-0",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 20,
+ "failed_requests": 0,
+ "input_tokens": 85066,
+ "output_tokens": 19817,
+ "usd_estimated_total": 0.049300199999999995,
+ "requests_with_unknown_cost": 0,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 5544.097468137741,
+ "status": "stopped",
+ "island": 0,
+ "strategy": null,
+ "best_valid_reward": 0.0,
+ "solves_used": 13,
+ "first_positive_at_solves": null,
+ "usd_cached_price_estimate": 0.03713508000000001,
+ "notebook": "Revenue($M/yr)=flow*price*28.8. Max all-pure ~3615 M$/yr (reward 8.23). Column cost is the killer: 45-stage/reflux8 = $372M/yr; 60/12=$154M; 50/10=$80M. Each column must earn >~$60M/yr.\n\nStrategy: split at big bp gaps (easy), blend tight groups (save columns). Gaps: ethane|prop(41K), prop|iC4(30K), nC4|iC5(28K), nC7|nC8(27K), nC8|nC9(25K). Hard: propylene/propane(5.6K), iC4/nC4(11K), iC5/nC5(8K), C6 group.\n\nTarget cascade:\n- feed -> T = C2+C3+C4, B = C5+ (split at nC4|iC5, 28K easy)\n- T -> TT = C2+C3, TB = C4mix (iC4+nC4, blend ~186M, saves hard 11K split)\n- TT -> TTT = ethane (cheap 4M, maybe skip), TTB = C3mix (~73M, saves 5.6K split)\n- B -> BT = C5mix (iC5+nC5, ~618M), BB = C6+ (then C6 par/naph/nC7/nC8/nC9 splits)\n\nNow building: feed(40/3), T(40/4), TB(40/4) for C4mix, TT(40/6) for C3mix+ethane. Measure costs and purities before going deeper.",
+ "task": "hc16v3_dev_002"
+}

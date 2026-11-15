@@ -1,0 +1,2847 @@
+{
+  "captured_at": 1794771988.5275662,
+  "run": "C:\\iterate-hackathon\\azure-runtime-v3-kimi-independent-400-20261114-r1\\runs\\independent\\hc16v3_dev_000\\independent_without_past\\kimi-k3.1-pro\\swarm-3c4ef43770314f2d96d51757b37f47c7",
+  "config": {
+    "run_id": "swarm-3c4ef43770314f2d96d51757b37f47c7",
+    "agents": [
+      "agent-0",
+      "agent-1",
+      "agent-2",
+      "agent-3",
+      "agent-4"
+    ],
+    "allocations": [
+      400,
+      400,
+      400,
+      400,
+      400
+    ],
+    "mode": "equal-per-agent",
+    "rounds": 800,
+    "repetition": 0,
+    "task": "hc16v3_dev_000",
+    "budget": 400,
+    "backend": "chemsep",
+    "model": "kimi-k3.1-pro",
+    "solver_retries": 0,
+    "simulator_workers": 1,
+    "memory": "NoMemory",
+    "memory_timeout_s": null,
+    "condition": "independent_without_past",
+    "sharing": false,
+    "max_input_bytes": 32000,
+    "memory_blocking": false,
+    "context_protocol": "compact-v3"
+  },
+  "status": {
+    "process_ids": [
+      2472,
+      2276,
+      3480,
+      3344
+    ],
+    "stopped_at": "2026-11-15T19:41:57.6663966Z",
+    "state": "user_stopped"
+  },
+  "stop": {
+    "process_ids": [
+      2472,
+      2276,
+      3480,
+      3344
+    ],
+    "stopped_at": "2026-11-15T19:41:57.6663966Z",
+    "state": "user_stopped"
+  },
+  "summary": null,
+  "agents": {
+    "agent-0": {
+      "queries": 394,
+      "best": 1.8032317987401165,
+      "curve": [
+        {
+          "queries": 456,
+          "agent_queries": 100,
+          "elapsed_s": 1084.0159999999998,
+          "usd": 4.59948,
+          "input_tokens": 1156995,
+          "output_tokens": 228549,
+          "round": 60,
+          "reward": 0.23797799045666562
+        },
+        {
+          "queries": 585,
+          "agent_queries": 124,
+          "elapsed_s": 1493.407,
+          "usd": 6.288061999999995,
+          "input_tokens": 1616081,
+          "output_tokens": 305590,
+          "round": 83,
+          "reward": 0.23839219926578528
+        },
+        {
+          "queries": 616,
+          "agent_queries": 131,
+          "elapsed_s": 1577.485,
+          "usd": 6.810025999999997,
+          "input_tokens": 1757088,
+          "output_tokens": 329585,
+          "round": 90,
+          "reward": 0.35911028398356926
+        },
+        {
+          "queries": 622,
+          "agent_queries": 132,
+          "elapsed_s": 1589.172,
+          "usd": 6.878423999999997,
+          "input_tokens": 1777277,
+          "output_tokens": 332387,
+          "round": 91,
+          "reward": 1.0021218597814041
+        },
+        {
+          "queries": 626,
+          "agent_queries": 134,
+          "elapsed_s": 1608.6879999999999,
+          "usd": 6.959011999999997,
+          "input_tokens": 1797296,
+          "output_tokens": 336442,
+          "round": 92,
+          "reward": 1.0411592688197038
+        },
+        {
+          "queries": 643,
+          "agent_queries": 136,
+          "elapsed_s": 1643.328,
+          "usd": 7.166165999999996,
+          "input_tokens": 1858448,
+          "output_tokens": 344927,
+          "round": 95,
+          "reward": 1.1541914619301785
+        },
+        {
+          "queries": 733,
+          "agent_queries": 157,
+          "elapsed_s": 1902.7029999999997,
+          "usd": 8.382429999999998,
+          "input_tokens": 2210115,
+          "output_tokens": 396220,
+          "round": 112,
+          "reward": 1.2263927338015561
+        },
+        {
+          "queries": 822,
+          "agent_queries": 174,
+          "elapsed_s": 2119.219,
+          "usd": 9.492159999999993,
+          "input_tokens": 2520680,
+          "output_tokens": 445080,
+          "round": 127,
+          "reward": 1.2455101030146345
+        },
+        {
+          "queries": 925,
+          "agent_queries": 191,
+          "elapsed_s": 2393.61,
+          "usd": 10.934925999999988,
+          "input_tokens": 2917038,
+          "output_tokens": 510085,
+          "round": 146,
+          "reward": 1.2487083902498335
+        },
+        {
+          "queries": 1078,
+          "agent_queries": 216,
+          "elapsed_s": 2956.188,
+          "usd": 13.582029999999978,
+          "input_tokens": 3605305,
+          "output_tokens": 637142,
+          "round": 178,
+          "reward": 1.494449046312762
+        },
+        {
+          "queries": 1088,
+          "agent_queries": 218,
+          "elapsed_s": 2978.266,
+          "usd": 13.74932199999998,
+          "input_tokens": 3650506,
+          "output_tokens": 644831,
+          "round": 180,
+          "reward": 1.5817205413842166
+        },
+        {
+          "queries": 1190,
+          "agent_queries": 237,
+          "elapsed_s": 3372.516,
+          "usd": 15.554937999999984,
+          "input_tokens": 4142684,
+          "output_tokens": 726957,
+          "round": 202,
+          "reward": 1.5985092079970071
+        },
+        {
+          "queries": 1195,
+          "agent_queries": 238,
+          "elapsed_s": 3394.75,
+          "usd": 15.640403999999984,
+          "input_tokens": 4165147,
+          "output_tokens": 731011,
+          "round": 203,
+          "reward": 1.6056422540973037
+        },
+        {
+          "queries": 1197,
+          "agent_queries": 239,
+          "elapsed_s": 3409.016,
+          "usd": 15.732699999999985,
+          "input_tokens": 4187530,
+          "output_tokens": 735764,
+          "round": 204,
+          "reward": 1.6284077414890052
+        },
+        {
+          "queries": 1315,
+          "agent_queries": 268,
+          "elapsed_s": 3864.016,
+          "usd": 17.644140000000004,
+          "input_tokens": 4701870,
+          "output_tokens": 824040,
+          "round": 226,
+          "reward": 1.6738004330508562
+        },
+        {
+          "queries": 1549,
+          "agent_queries": 306,
+          "elapsed_s": 4447.2660000000005,
+          "usd": 20.358073999999995,
+          "input_tokens": 5481227,
+          "output_tokens": 939562,
+          "round": 259,
+          "reward": 1.7393842710984466
+        },
+        {
+          "queries": 1641,
+          "agent_queries": 314,
+          "elapsed_s": 4777.2660000000005,
+          "usd": 21.756052,
+          "input_tokens": 5893091,
+          "output_tokens": 996987,
+          "round": 277,
+          "reward": 1.7788859055689996
+        },
+        {
+          "queries": 1647,
+          "agent_queries": 318,
+          "elapsed_s": 4839.953,
+          "usd": 21.950698,
+          "input_tokens": 5933759,
+          "output_tokens": 1008318,
+          "round": 280,
+          "reward": 1.7925286228728337
+        },
+        {
+          "queries": 1770,
+          "agent_queries": 378,
+          "elapsed_s": 5310.219,
+          "usd": 23.612003999999992,
+          "input_tokens": 6410027,
+          "output_tokens": 1079195,
+          "round": 315,
+          "reward": 1.8032317987401165
+        }
+      ],
+      "counts": {
+        "submissions": 345,
+        "valid": 306,
+        "invalid": 33,
+        "rejected": 6,
+        "duplicate": 135,
+        "source_copy": 0,
+        "citations": 0,
+        "topology_change": 113,
+        "one_node_change": 210,
+        "below_own_best": 162
+      },
+      "best_design": {
+        "": [
+          30,
+          3.0,
+          4.0,
+          0.2
+        ],
+        "B": [
+          45,
+          4.0,
+          10.0,
+          0.2
+        ],
+        "BB": [
+          60,
+          5.5,
+          22.0,
+          0.2
+        ],
+        "T": [
+          35,
+          3.0,
+          4.0,
+          0.2
+        ],
+        "BT": [
+          45,
+          3.5,
+          4.0,
+          0.2
+        ],
+        "BTB": [
+          45,
+          4.0,
+          6.0,
+          0.2
+        ],
+        "TT": [
+          40,
+          4.0,
+          10.0,
+          0.2
+        ],
+        "BTT": [
+          80,
+          8.0,
+          8.0,
+          0.2
+        ],
+        "BTTB": [
+          100,
+          12.0,
+          12.0,
+          0.2
+        ],
+        "TTB": [
+          35,
+          4.0,
+          10.0,
+          0.2
+        ],
+        "TTBB": [
+          30,
+          3.0,
+          5.0,
+          0.2
+        ],
+        "TTBBB": [
+          25,
+          3.0,
+          5.0,
+          0.2
+        ]
+      },
+      "last": {
+        "reward": 1.8032317987401165,
+        "valid": true,
+        "round": 345
+      },
+      "usage": {
+        "input_tokens": 1528956,
+        "output_tokens": 249716,
+        "usd": 5.555071999999999,
+        "requests": 346,
+        "failed_requests": 0,
+        "unknown_cost_requests": 0,
+        "policy_events": 346
+      },
+      "usage_sha256": "ee2da2d49dfc9d79795fd1883edae55e06314959c41c502be1d432b9f0d9eca7"
+    },
+    "agent-1": {
+      "queries": 399,
+      "best": 2.1580376870753137,
+      "curve": [
+        {
+          "queries": 253,
+          "agent_queries": 37,
+          "elapsed_s": 484.063,
+          "usd": 2.290733999999999,
+          "input_tokens": 556107,
+          "output_tokens": 117852,
+          "round": 30,
+          "reward": 0.27255138480829433
+        },
+        {
+          "queries": 407,
+          "agent_queries": 61,
+          "elapsed_s": 951.3439999999999,
+          "usd": 4.049916,
+          "input_tokens": 1016003,
+          "output_tokens": 201791,
+          "round": 53,
+          "reward": 0.45418366473735766
+        },
+        {
+          "queries": 597,
+          "agent_queries": 95,
+          "elapsed_s": 1535.4689999999998,
+          "usd": 6.523293999999996,
+          "input_tokens": 1676787,
+          "output_tokens": 316972,
+          "round": 86,
+          "reward": 0.47809593110080684
+        },
+        {
+          "queries": 740,
+          "agent_queries": 125,
+          "elapsed_s": 1917.6879999999999,
+          "usd": 8.468491999999998,
+          "input_tokens": 2231086,
+          "output_tokens": 400632,
+          "round": 113,
+          "reward": 0.47948370328785767
+        },
+        {
+          "queries": 942,
+          "agent_queries": 171,
+          "elapsed_s": 2458.5,
+          "usd": 11.207199999999991,
+          "input_tokens": 2979380,
+          "output_tokens": 524844,
+          "round": 149,
+          "reward": 1.0715168612888692
+        },
+        {
+          "queries": 990,
+          "agent_queries": 187,
+          "elapsed_s": 2625.938,
+          "usd": 12.013351999999987,
+          "input_tokens": 3195631,
+          "output_tokens": 562209,
+          "round": 159,
+          "reward": 1.1171652282982072
+        },
+        {
+          "queries": 1198,
+          "agent_queries": 246,
+          "elapsed_s": 3409.282,
+          "usd": 15.732699999999985,
+          "input_tokens": 4187530,
+          "output_tokens": 735764,
+          "round": 204,
+          "reward": 1.1503727838134372
+        },
+        {
+          "queries": 1207,
+          "agent_queries": 251,
+          "elapsed_s": 3429.907,
+          "usd": 15.818349999999985,
+          "input_tokens": 4210785,
+          "output_tokens": 739678,
+          "round": 205,
+          "reward": 1.1649382465741007
+        },
+        {
+          "queries": 1231,
+          "agent_queries": 257,
+          "elapsed_s": 3541.125,
+          "usd": 16.346249999999994,
+          "input_tokens": 4349960,
+          "output_tokens": 764633,
+          "round": 211,
+          "reward": 1.3461166504121893
+        },
+        {
+          "queries": 1243,
+          "agent_queries": 259,
+          "elapsed_s": 3604.844,
+          "usd": 16.643505999999995,
+          "input_tokens": 4420513,
+          "output_tokens": 780248,
+          "round": 214,
+          "reward": 1.3612464771966397
+        },
+        {
+          "queries": 1259,
+          "agent_queries": 262,
+          "elapsed_s": 3669.203,
+          "usd": 16.903714,
+          "input_tokens": 4490522,
+          "output_tokens": 792267,
+          "round": 217,
+          "reward": 1.4031317354960096
+        },
+        {
+          "queries": 1348,
+          "agent_queries": 288,
+          "elapsed_s": 3972.3910000000005,
+          "usd": 18.052058000000006,
+          "input_tokens": 4820754,
+          "output_tokens": 841055,
+          "round": 231,
+          "reward": 1.4196282284247754
+        },
+        {
+          "queries": 1375,
+          "agent_queries": 298,
+          "elapsed_s": 4044.8910000000005,
+          "usd": 18.476633999999997,
+          "input_tokens": 4939977,
+          "output_tokens": 859668,
+          "round": 236,
+          "reward": 1.4524629764386703
+        },
+        {
+          "queries": 1410,
+          "agent_queries": 312,
+          "elapsed_s": 4084.6100000000006,
+          "usd": 18.725363999999992,
+          "input_tokens": 5010217,
+          "output_tokens": 870493,
+          "round": 239,
+          "reward": 1.466424205991281
+        },
+        {
+          "queries": 1414,
+          "agent_queries": 313,
+          "elapsed_s": 4093.438,
+          "usd": 18.793407999999992,
+          "input_tokens": 5033269,
+          "output_tokens": 872687,
+          "round": 240,
+          "reward": 1.494168033266721
+        },
+        {
+          "queries": 1544,
+          "agent_queries": 356,
+          "elapsed_s": 4421.110000000001,
+          "usd": 20.200385999999998,
+          "input_tokens": 5433378,
+          "output_tokens": 933363,
+          "round": 257,
+          "reward": 1.6011398602724485
+        },
+        {
+          "queries": 1546,
+          "agent_queries": 357,
+          "elapsed_s": 4434.5160000000005,
+          "usd": 20.281977999999995,
+          "input_tokens": 5457019,
+          "output_tokens": 936794,
+          "round": 258,
+          "reward": 2.1091226069883815
+        },
+        {
+          "queries": 1575,
+          "agent_queries": 364,
+          "elapsed_s": 4554.8910000000005,
+          "usd": 20.864381999999992,
+          "input_tokens": 5626676,
+          "output_tokens": 961103,
+          "round": 265,
+          "reward": 2.1576351684475834
+        },
+        {
+          "queries": 1605,
+          "agent_queries": 383,
+          "elapsed_s": 4644.1720000000005,
+          "usd": 21.27004199999999,
+          "input_tokens": 5748766,
+          "output_tokens": 977251,
+          "round": 270,
+          "reward": 2.1580376870753137
+        }
+      ],
+      "counts": {
+        "submissions": 273,
+        "valid": 236,
+        "invalid": 29,
+        "rejected": 8,
+        "duplicate": 112,
+        "source_copy": 0,
+        "citations": 0,
+        "topology_change": 122,
+        "one_node_change": 149,
+        "below_own_best": 118
+      },
+      "best_design": {
+        "": [
+          35,
+          2.5,
+          2.5,
+          0.25
+        ],
+        "T": [
+          25,
+          1.8,
+          1.8,
+          0.2
+        ],
+        "TB": [
+          35,
+          4.0,
+          1.5,
+          0.35
+        ],
+        "B": [
+          35,
+          2.5,
+          2.5,
+          0.35
+        ],
+        "BB": [
+          55,
+          4.0,
+          4.0,
+          0.35
+        ],
+        "BBB": [
+          35,
+          3.0,
+          3.0,
+          0.35
+        ],
+        "BBBB": [
+          45,
+          4.0,
+          4.0,
+          0.35
+        ],
+        "BBBBB": [
+          90,
+          12.0,
+          4.0,
+          0.35
+        ],
+        "BBT": [
+          45,
+          4.0,
+          4.0,
+          0.35
+        ],
+        "BBTB": [
+          40,
+          4.0,
+          18.0,
+          0.35
+        ],
+        "BT": [
+          45,
+          3.5,
+          3.5,
+          0.35
+        ],
+        "BTB": [
+          90,
+          8.0,
+          8.0,
+          0.35
+        ],
+        "BTT": [
+          45,
+          4.0,
+          4.0,
+          0.35
+        ],
+        "BBTT": [
+          45,
+          4.0,
+          4.0,
+          0.35
+        ],
+        "BBTTB": [
+          35,
+          3.0,
+          3.0,
+          0.35
+        ]
+      },
+      "last": {
+        "reward": 2.1462802543344908,
+        "valid": true,
+        "round": 273
+      },
+      "usage": {
+        "input_tokens": 1108561,
+        "output_tokens": 181160,
+        "usd": 4.028721999999999,
+        "requests": 274,
+        "failed_requests": 0,
+        "unknown_cost_requests": 0,
+        "policy_events": 274
+      },
+      "usage_sha256": "729fd7a2725313f7f465466448e0f64d28ecacb18d27c9d280ca06af839fdac2"
+    },
+    "agent-2": {
+      "queries": 379,
+      "best": 2.14195910929953,
+      "curve": [
+        {
+          "queries": 134,
+          "agent_queries": 23,
+          "elapsed_s": 217.282,
+          "usd": 1.038842,
+          "input_tokens": 239256,
+          "output_tokens": 56033,
+          "round": 14,
+          "reward": 0.5211358910039599
+        },
+        {
+          "queries": 289,
+          "agent_queries": 64,
+          "elapsed_s": 604.0160000000001,
+          "usd": 2.7919719999999995,
+          "input_tokens": 692991,
+          "output_tokens": 140599,
+          "round": 37,
+          "reward": 0.559560600903001
+        },
+        {
+          "queries": 307,
+          "agent_queries": 70,
+          "elapsed_s": 670.438,
+          "usd": 3.0182739999999995,
+          "input_tokens": 752292,
+          "output_tokens": 151369,
+          "round": 40,
+          "reward": 0.6593666277658866
+        },
+        {
+          "queries": 316,
+          "agent_queries": 74,
+          "elapsed_s": 686.344,
+          "usd": 3.0979699999999992,
+          "input_tokens": 772240,
+          "output_tokens": 155349,
+          "round": 41,
+          "reward": 0.8185344299303472
+        },
+        {
+          "queries": 329,
+          "agent_queries": 78,
+          "elapsed_s": 721.75,
+          "usd": 3.185449999999999,
+          "input_tokens": 792950,
+          "output_tokens": 159955,
+          "round": 42,
+          "reward": 1.5192054994406174
+        },
+        {
+          "queries": 420,
+          "agent_queries": 100,
+          "elapsed_s": 988.8280000000001,
+          "usd": 4.196844,
+          "input_tokens": 1056122,
+          "output_tokens": 208460,
+          "round": 55,
+          "reward": 1.8834555537307924
+        },
+        {
+          "queries": 428,
+          "agent_queries": 101,
+          "elapsed_s": 1008.4220000000001,
+          "usd": 4.289695999999998,
+          "input_tokens": 1075928,
+          "output_tokens": 213784,
+          "round": 56,
+          "reward": 1.8974612937245119
+        },
+        {
+          "queries": 623,
+          "agent_queries": 127,
+          "elapsed_s": 1589.5159999999998,
+          "usd": 6.878423999999997,
+          "input_tokens": 1777277,
+          "output_tokens": 332387,
+          "round": 91,
+          "reward": 1.9138620864207432
+        },
+        {
+          "queries": 820,
+          "agent_queries": 158,
+          "elapsed_s": 2102.75,
+          "usd": 9.404273999999992,
+          "input_tokens": 2499842,
+          "output_tokens": 440459,
+          "round": 126,
+          "reward": 1.939021441999845
+        },
+        {
+          "queries": 1019,
+          "agent_queries": 186,
+          "elapsed_s": 2729.422,
+          "usd": 12.57642399999998,
+          "input_tokens": 3346972,
+          "output_tokens": 588248,
+          "round": 166,
+          "reward": 1.9486218321639157
+        },
+        {
+          "queries": 1063,
+          "agent_queries": 192,
+          "elapsed_s": 2889.11,
+          "usd": 13.30342399999998,
+          "input_tokens": 3539617,
+          "output_tokens": 622419,
+          "round": 175,
+          "reward": 1.9890029443587443
+        },
+        {
+          "queries": 1094,
+          "agent_queries": 197,
+          "elapsed_s": 2980.235,
+          "usd": 13.74932199999998,
+          "input_tokens": 3650506,
+          "output_tokens": 644831,
+          "round": 180,
+          "reward": 2.0579505696227534
+        },
+        {
+          "queries": 1118,
+          "agent_queries": 206,
+          "elapsed_s": 3076.157,
+          "usd": 14.148867999999984,
+          "input_tokens": 3762584,
+          "output_tokens": 662370,
+          "round": 185,
+          "reward": 2.0655899342058106
+        },
+        {
+          "queries": 1179,
+          "agent_queries": 223,
+          "elapsed_s": 3315.578,
+          "usd": 15.247747999999987,
+          "input_tokens": 4052569,
+          "output_tokens": 714261,
+          "round": 198,
+          "reward": 2.096925488622296
+        },
+        {
+          "queries": 1215,
+          "agent_queries": 228,
+          "elapsed_s": 3468.578,
+          "usd": 15.989637999999987,
+          "input_tokens": 4257024,
+          "output_tokens": 747559,
+          "round": 207,
+          "reward": 2.1163377232010325
+        },
+        {
+          "queries": 1232,
+          "agent_queries": 231,
+          "elapsed_s": 3541.719,
+          "usd": 16.346249999999994,
+          "input_tokens": 4349960,
+          "output_tokens": 764633,
+          "round": 211,
+          "reward": 2.1171071177239176
+        },
+        {
+          "queries": 1299,
+          "agent_queries": 247,
+          "elapsed_s": 3820.0,
+          "usd": 17.419552,
+          "input_tokens": 4630511,
+          "output_tokens": 815853,
+          "round": 223,
+          "reward": 2.11855925348451
+        },
+        {
+          "queries": 1381,
+          "agent_queries": 264,
+          "elapsed_s": 4046.969,
+          "usd": 18.476633999999997,
+          "input_tokens": 4939977,
+          "output_tokens": 859668,
+          "round": 236,
+          "reward": 2.1320976297496985
+        },
+        {
+          "queries": 1469,
+          "agent_queries": 289,
+          "elapsed_s": 4205.2660000000005,
+          "usd": 19.21891599999999,
+          "input_tokens": 5149448,
+          "output_tokens": 892002,
+          "round": 245,
+          "reward": 2.14195910929953
+        }
+      ],
+      "counts": {
+        "submissions": 346,
+        "valid": 298,
+        "invalid": 41,
+        "rejected": 7,
+        "duplicate": 140,
+        "source_copy": 0,
+        "citations": 0,
+        "topology_change": 107,
+        "one_node_change": 211,
+        "below_own_best": 149
+      },
+      "best_design": {
+        "": [
+          40,
+          2.3,
+          2.8,
+          0.45
+        ],
+        "B": [
+          40,
+          2.5,
+          3.0,
+          0.3
+        ],
+        "T": [
+          40,
+          2.0,
+          3.0,
+          0.1
+        ],
+        "TT": [
+          50,
+          5.0,
+          10.0,
+          0.1
+        ],
+        "BT": [
+          75,
+          7.0,
+          7.0,
+          0.1
+        ],
+        "BB": [
+          90,
+          10.0,
+          5.0,
+          0.2
+        ],
+        "BBB": [
+          70,
+          5.0,
+          20.0,
+          0.1,
+          null,
+          [
+            0.5,
+            0.75
+          ]
+        ],
+        "TTB": [
+          35,
+          3.0,
+          8.0,
+          0.1
+        ],
+        "TTBT": [
+          70,
+          8.0,
+          4.0,
+          0.1
+        ],
+        "TTBB": [
+          60,
+          8.0,
+          10.0,
+          0.1
+        ],
+        "BTB": [
+          120,
+          18.0,
+          11.5,
+          0.1
+        ],
+        "TTBTT": [
+          50,
+          6.0,
+          6.0,
+          0.1
+        ],
+        "TTBBB": [
+          40,
+          4.0,
+          5.0,
+          0.1
+        ]
+      },
+      "last": {
+        "reward": 1.9839640012388085,
+        "valid": false,
+        "round": 346
+      },
+      "usage": {
+        "input_tokens": 1626594,
+        "output_tokens": 288287,
+        "usd": 6.1360579999999985,
+        "requests": 347,
+        "failed_requests": 0,
+        "unknown_cost_requests": 0,
+        "policy_events": 347
+      },
+      "usage_sha256": "c3ecd66c150d1a43256bf543cf3381557c07b1c207320e2072354026fb1a226f"
+    },
+    "agent-3": {
+      "queries": 400,
+      "best": 2.239458539106287,
+      "curve": [
+        {
+          "queries": 26,
+          "agent_queries": 9,
+          "elapsed_s": 31.796999999999997,
+          "usd": 0.135388,
+          "input_tokens": 27714,
+          "output_tokens": 7996,
+          "round": 2,
+          "reward": 0.2165144516803411
+        },
+        {
+          "queries": 35,
+          "agent_queries": 14,
+          "elapsed_s": 44.59400000000002,
+          "usd": 0.20811200000000002,
+          "input_tokens": 44626,
+          "output_tokens": 11886,
+          "round": 3,
+          "reward": 0.4230613154906327
+        },
+        {
+          "queries": 45,
+          "agent_queries": 20,
+          "elapsed_s": 64.98499999999999,
+          "usd": 0.29507000000000005,
+          "input_tokens": 60905,
+          "output_tokens": 17326,
+          "round": 4,
+          "reward": 0.7623664814571457
+        },
+        {
+          "queries": 55,
+          "agent_queries": 25,
+          "elapsed_s": 80.12500000000003,
+          "usd": 0.3629980000000001,
+          "input_tokens": 76929,
+          "output_tokens": 20914,
+          "round": 5,
+          "reward": 0.8636411224473484
+        },
+        {
+          "queries": 64,
+          "agent_queries": 31,
+          "elapsed_s": 95.43800000000002,
+          "usd": 0.43323200000000006,
+          "input_tokens": 93816,
+          "output_tokens": 24560,
+          "round": 6,
+          "reward": 0.9428149157965073
+        },
+        {
+          "queries": 77,
+          "agent_queries": 39,
+          "elapsed_s": 111.10999999999999,
+          "usd": 0.49899400000000005,
+          "input_tokens": 110552,
+          "output_tokens": 27789,
+          "round": 7,
+          "reward": 1.462356087480197
+        },
+        {
+          "queries": 99,
+          "agent_queries": 48,
+          "elapsed_s": 149.71900000000002,
+          "usd": 0.701564,
+          "input_tokens": 164397,
+          "output_tokens": 37277,
+          "round": 10,
+          "reward": 1.599174914000143
+        },
+        {
+          "queries": 107,
+          "agent_queries": 50,
+          "elapsed_s": 162.203,
+          "usd": 0.774624,
+          "input_tokens": 182177,
+          "output_tokens": 41027,
+          "round": 11,
+          "reward": 1.6117631462672057
+        },
+        {
+          "queries": 148,
+          "agent_queries": 58,
+          "elapsed_s": 253.516,
+          "usd": 1.2105160000000001,
+          "input_tokens": 279643,
+          "output_tokens": 65123,
+          "round": 16,
+          "reward": 1.6690473407372741
+        },
+        {
+          "queries": 229,
+          "agent_queries": 75,
+          "elapsed_s": 401.1410000000001,
+          "usd": 2.000544,
+          "input_tokens": 477917,
+          "output_tokens": 104471,
+          "round": 26,
+          "reward": 1.6993021130874808
+        },
+        {
+          "queries": 254,
+          "agent_queries": 85,
+          "elapsed_s": 484.735,
+          "usd": 2.290733999999999,
+          "input_tokens": 556107,
+          "output_tokens": 117852,
+          "round": 30,
+          "reward": 1.713669647550736
+        },
+        {
+          "queries": 317,
+          "agent_queries": 99,
+          "elapsed_s": 687.172,
+          "usd": 3.0979699999999992,
+          "input_tokens": 772240,
+          "output_tokens": 155349,
+          "round": 41,
+          "reward": 1.936048273706093
+        },
+        {
+          "queries": 424,
+          "agent_queries": 119,
+          "elapsed_s": 990.516,
+          "usd": 4.196844,
+          "input_tokens": 1056122,
+          "output_tokens": 208460,
+          "round": 55,
+          "reward": 1.94413441186554
+        },
+        {
+          "queries": 444,
+          "agent_queries": 125,
+          "elapsed_s": 1045.5939999999998,
+          "usd": 4.432408,
+          "input_tokens": 1116464,
+          "output_tokens": 219948,
+          "round": 58,
+          "reward": 1.9502401941718672
+        },
+        {
+          "queries": 532,
+          "agent_queries": 160,
+          "elapsed_s": 1325.61,
+          "usd": 5.545615999999995,
+          "input_tokens": 1416738,
+          "output_tokens": 271214,
+          "round": 73,
+          "reward": 1.9940706400449568
+        },
+        {
+          "queries": 690,
+          "agent_queries": 199,
+          "elapsed_s": 1804.36,
+          "usd": 7.848677999999996,
+          "input_tokens": 2046454,
+          "output_tokens": 375577,
+          "round": 104,
+          "reward": 2.0153024697094497
+        },
+        {
+          "queries": 926,
+          "agent_queries": 277,
+          "elapsed_s": 2394.203,
+          "usd": 10.934925999999988,
+          "input_tokens": 2917038,
+          "output_tokens": 510085,
+          "round": 146,
+          "reward": 2.0570096816665377
+        },
+        {
+          "queries": 1042,
+          "agent_queries": 303,
+          "elapsed_s": 2827.0,
+          "usd": 12.998231999999978,
+          "input_tokens": 3453761,
+          "output_tokens": 609071,
+          "round": 171,
+          "reward": 2.1715396946027994
+        },
+        {
+          "queries": 1169,
+          "agent_queries": 322,
+          "elapsed_s": 3295.282,
+          "usd": 15.161085999999987,
+          "input_tokens": 4030003,
+          "output_tokens": 710108,
+          "round": 197,
+          "reward": 2.1966956442111276
+        },
+        {
+          "queries": 1241,
+          "agent_queries": 338,
+          "elapsed_s": 3579.5,
+          "usd": 16.526097999999998,
+          "input_tokens": 4397119,
+          "output_tokens": 773186,
+          "round": 213,
+          "reward": 2.2000881597271715
+        },
+        {
+          "queries": 1250,
+          "agent_queries": 339,
+          "elapsed_s": 3607.891,
+          "usd": 16.643505999999995,
+          "input_tokens": 4420513,
+          "output_tokens": 780248,
+          "round": 214,
+          "reward": 2.2009490232229676
+        },
+        {
+          "queries": 1254,
+          "agent_queries": 340,
+          "elapsed_s": 3624.235,
+          "usd": 16.721929999999997,
+          "input_tokens": 4444025,
+          "output_tokens": 783388,
+          "round": 215,
+          "reward": 2.2011328072356653
+        },
+        {
+          "queries": 1258,
+          "agent_queries": 341,
+          "elapsed_s": 3654.5,
+          "usd": 16.813864,
+          "input_tokens": 4467237,
+          "output_tokens": 787939,
+          "round": 216,
+          "reward": 2.204739065623291
+        },
+        {
+          "queries": 1262,
+          "agent_queries": 342,
+          "elapsed_s": 3670.657,
+          "usd": 16.903714,
+          "input_tokens": 4490522,
+          "output_tokens": 792267,
+          "round": 217,
+          "reward": 2.204810859198103
+        },
+        {
+          "queries": 1272,
+          "agent_queries": 342,
+          "elapsed_s": 3697.266,
+          "usd": 17.008176000000002,
+          "input_tokens": 4513798,
+          "output_tokens": 798058,
+          "round": 218,
+          "reward": 2.2133019456880856
+        },
+        {
+          "queries": 1273,
+          "agent_queries": 343,
+          "elapsed_s": 3714.61,
+          "usd": 17.088140000000003,
+          "input_tokens": 4537785,
+          "output_tokens": 801257,
+          "round": 219,
+          "reward": 2.2134769761145425
+        },
+        {
+          "queries": 1282,
+          "agent_queries": 344,
+          "elapsed_s": 3729.453,
+          "usd": 17.171836,
+          "input_tokens": 4561118,
+          "output_tokens": 804960,
+          "round": 220,
+          "reward": 2.2135510353134897
+        },
+        {
+          "queries": 1287,
+          "agent_queries": 345,
+          "elapsed_s": 3792.719,
+          "usd": 17.268031999999994,
+          "input_tokens": 4584856,
+          "output_tokens": 809832,
+          "round": 221,
+          "reward": 2.2136482787446146
+        },
+        {
+          "queries": 1314,
+          "agent_queries": 349,
+          "elapsed_s": 3850.532,
+          "usd": 17.573932000000003,
+          "input_tokens": 4677961,
+          "output_tokens": 821801,
+          "round": 225,
+          "reward": 2.2158920236524624
+        },
+        {
+          "queries": 1317,
+          "agent_queries": 350,
+          "elapsed_s": 3865.016,
+          "usd": 17.644140000000004,
+          "input_tokens": 4701870,
+          "output_tokens": 824040,
+          "round": 226,
+          "reward": 2.217525594140069
+        },
+        {
+          "queries": 1340,
+          "agent_queries": 354,
+          "elapsed_s": 3941.125,
+          "usd": 17.909096000000005,
+          "input_tokens": 4773033,
+          "output_tokens": 836303,
+          "round": 229,
+          "reward": 2.2281028850386866
+        },
+        {
+          "queries": 1360,
+          "agent_queries": 356,
+          "elapsed_s": 3984.8910000000005,
+          "usd": 18.136752,
+          "input_tokens": 4844911,
+          "output_tokens": 844693,
+          "round": 232,
+          "reward": 2.2298724198149835
+        },
+        {
+          "queries": 1374,
+          "agent_queries": 358,
+          "elapsed_s": 4025.7350000000006,
+          "usd": 18.37391,
+          "input_tokens": 4916290,
+          "output_tokens": 854133,
+          "round": 235,
+          "reward": 2.233592148052415
+        },
+        {
+          "queries": 1382,
+          "agent_queries": 359,
+          "elapsed_s": 4047.407,
+          "usd": 18.476633999999997,
+          "input_tokens": 4939977,
+          "output_tokens": 859668,
+          "round": 236,
+          "reward": 2.234439287927647
+        },
+        {
+          "queries": 1585,
+          "agent_queries": 393,
+          "elapsed_s": 4601.2970000000005,
+          "usd": 21.098805999999986,
+          "input_tokens": 5699793,
+          "output_tokens": 969922,
+          "round": 268,
+          "reward": 2.2344914440456227
+        },
+        {
+          "queries": 1588,
+          "agent_queries": 394,
+          "elapsed_s": 4622.5,
+          "usd": 21.19024999999999,
+          "input_tokens": 5724095,
+          "output_tokens": 974206,
+          "round": 269,
+          "reward": 2.2359418855253947
+        },
+        {
+          "queries": 1607,
+          "agent_queries": 395,
+          "elapsed_s": 4645.25,
+          "usd": 21.27004199999999,
+          "input_tokens": 5748766,
+          "output_tokens": 977251,
+          "round": 270,
+          "reward": 2.2364639522411167
+        },
+        {
+          "queries": 1624,
+          "agent_queries": 396,
+          "elapsed_s": 4666.235000000001,
+          "usd": 21.36359199999999,
+          "input_tokens": 5773346,
+          "output_tokens": 981690,
+          "round": 271,
+          "reward": 2.236984933553769
+        },
+        {
+          "queries": 1628,
+          "agent_queries": 397,
+          "elapsed_s": 4688.360000000001,
+          "usd": 21.43897999999999,
+          "input_tokens": 5797990,
+          "output_tokens": 984300,
+          "round": 272,
+          "reward": 2.2379992005347114
+        },
+        {
+          "queries": 1631,
+          "agent_queries": 398,
+          "elapsed_s": 4706.7660000000005,
+          "usd": 21.517899999999994,
+          "input_tokens": 5822520,
+          "output_tokens": 987286,
+          "round": 273,
+          "reward": 2.2384153047715953
+        },
+        {
+          "queries": 1634,
+          "agent_queries": 399,
+          "elapsed_s": 4722.4220000000005,
+          "usd": 21.589295999999997,
+          "input_tokens": 5846873,
+          "output_tokens": 989555,
+          "round": 274,
+          "reward": 2.239458539106287
+        }
+      ],
+      "counts": {
+        "submissions": 275,
+        "valid": 240,
+        "invalid": 32,
+        "rejected": 3,
+        "duplicate": 99,
+        "source_copy": 0,
+        "citations": 0,
+        "topology_change": 76,
+        "one_node_change": 164,
+        "below_own_best": 105
+      },
+      "best_design": {
+        "": [
+          30,
+          2.0,
+          3.0,
+          0.5
+        ],
+        "B": [
+          40,
+          3.0,
+          4.0,
+          0.1
+        ],
+        "BB": [
+          35,
+          2.75,
+          3.75,
+          0.1
+        ],
+        "BBT": [
+          52,
+          5.3,
+          7.2,
+          0.1
+        ],
+        "BBB": [
+          70,
+          6.0,
+          12.0,
+          0.1
+        ],
+        "T": [
+          35,
+          2.5,
+          3.0,
+          0.1
+        ],
+        "TT": [
+          14,
+          2.9,
+          4.0,
+          0.1
+        ],
+        "TB": [
+          60,
+          4.5,
+          4.5,
+          0.1
+        ],
+        "BT": [
+          105,
+          9.5,
+          9.5,
+          0.5
+        ],
+        "BTB": [
+          85,
+          8.0,
+          8.0,
+          0.1
+        ],
+        "TBB": [
+          90,
+          9.0,
+          16.0,
+          0.1
+        ],
+        "BTBB": [
+          60,
+          6.0,
+          9.5,
+          0.1
+        ]
+      },
+      "last": {
+        "reward": 2.2387656386754915,
+        "valid": true,
+        "round": 275
+      },
+      "usage": {
+        "input_tokens": 1431813,
+        "output_tokens": 219329,
+        "usd": 5.0569159999999975,
+        "requests": 275,
+        "failed_requests": 0,
+        "unknown_cost_requests": 0,
+        "policy_events": 275
+      },
+      "usage_sha256": "0d92b1660a3f430516360b9b7f72572cf1102114bb0f33b75aaaf4df48116c5a"
+    },
+    "agent-4": {
+      "queries": 334,
+      "best": 1.760222033172221,
+      "curve": [
+        {
+          "queries": 36,
+          "agent_queries": 3,
+          "elapsed_s": 44.875,
+          "usd": 0.20811200000000002,
+          "input_tokens": 44626,
+          "output_tokens": 11886,
+          "round": 3,
+          "reward": 0.013324939079091247
+        },
+        {
+          "queries": 255,
+          "agent_queries": 27,
+          "elapsed_s": 485.125,
+          "usd": 2.290733999999999,
+          "input_tokens": 556107,
+          "output_tokens": 117852,
+          "round": 30,
+          "reward": 0.03989588861026592
+        },
+        {
+          "queries": 271,
+          "agent_queries": 29,
+          "elapsed_s": 542.594,
+          "usd": 2.5063739999999997,
+          "input_tokens": 615022,
+          "output_tokens": 127633,
+          "round": 33,
+          "reward": 0.05283108850806927
+        },
+        {
+          "queries": 853,
+          "agent_queries": 111,
+          "elapsed_s": 2154.953,
+          "usd": 9.682411999999994,
+          "input_tokens": 2582316,
+          "output_tokens": 451778,
+          "round": 130,
+          "reward": 0.05337277023830788
+        },
+        {
+          "queries": 1502,
+          "agent_queries": 194,
+          "elapsed_s": 4332.1410000000005,
+          "usd": 19.80955599999999,
+          "input_tokens": 5315563,
+          "output_tokens": 917843,
+          "round": 252,
+          "reward": 0.060132760847165054
+        },
+        {
+          "queries": 1652,
+          "agent_queries": 218,
+          "elapsed_s": 4876.360000000001,
+          "usd": 22.064182,
+          "input_tokens": 5961171,
+          "output_tokens": 1014184,
+          "round": 282,
+          "reward": 0.06499632969136936
+        },
+        {
+          "queries": 1814,
+          "agent_queries": 261,
+          "elapsed_s": 5582.0,
+          "usd": 24.626800000000003,
+          "input_tokens": 6698885,
+          "output_tokens": 1122903,
+          "round": 336,
+          "reward": 0.5424881528064021
+        },
+        {
+          "queries": 1866,
+          "agent_queries": 294,
+          "elapsed_s": 5796.828,
+          "usd": 25.260908000000015,
+          "input_tokens": 6885324,
+          "output_tokens": 1149026,
+          "round": 355,
+          "reward": 0.6558011266605517
+        },
+        {
+          "queries": 1872,
+          "agent_queries": 300,
+          "elapsed_s": 5822.5160000000005,
+          "usd": 25.303472000000014,
+          "input_tokens": 6896941,
+          "output_tokens": 1150959,
+          "round": 358,
+          "reward": 0.7425488903099681
+        },
+        {
+          "queries": 1876,
+          "agent_queries": 304,
+          "elapsed_s": 5860.313,
+          "usd": 25.386046000000018,
+          "input_tokens": 6920433,
+          "output_tokens": 1154518,
+          "round": 364,
+          "reward": 0.778084859069544
+        },
+        {
+          "queries": 1883,
+          "agent_queries": 311,
+          "elapsed_s": 5912.7660000000005,
+          "usd": 25.50475000000002,
+          "input_tokens": 6956905,
+          "output_tokens": 1159094,
+          "round": 373,
+          "reward": 0.9496633777802322
+        },
+        {
+          "queries": 1887,
+          "agent_queries": 315,
+          "elapsed_s": 5951.703,
+          "usd": 25.603262000000022,
+          "input_tokens": 6983901,
+          "output_tokens": 1163546,
+          "round": 379,
+          "reward": 1.1397327617041373
+        },
+        {
+          "queries": 1893,
+          "agent_queries": 321,
+          "elapsed_s": 5984.735000000001,
+          "usd": 25.666690000000024,
+          "input_tokens": 6998120,
+          "output_tokens": 1167045,
+          "round": 382,
+          "reward": 1.4467974263215624
+        },
+        {
+          "queries": 1899,
+          "agent_queries": 327,
+          "elapsed_s": 6035.610000000001,
+          "usd": 25.800652000000024,
+          "input_tokens": 7034281,
+          "output_tokens": 1173209,
+          "round": 389,
+          "reward": 1.4995848730168322
+        },
+        {
+          "queries": 1906,
+          "agent_queries": 334,
+          "elapsed_s": 6085.610000000001,
+          "usd": 25.90035400000002,
+          "input_tokens": 7063912,
+          "output_tokens": 1177253,
+          "round": 395,
+          "reward": 1.6809268042306629
+        },
+        {
+          "queries": 1906,
+          "agent_queries": 334,
+          "elapsed_s": 6108.985000000001,
+          "usd": 25.932158000000022,
+          "input_tokens": 7069544,
+          "output_tokens": 1179307,
+          "round": 396,
+          "reward": 1.760222033172221
+        }
+      ],
+      "counts": {
+        "submissions": 396,
+        "valid": 347,
+        "invalid": 41,
+        "rejected": 8,
+        "duplicate": 163,
+        "source_copy": 0,
+        "citations": 0,
+        "topology_change": 199,
+        "one_node_change": 220,
+        "below_own_best": 189
+      },
+      "best_design": {
+        "": [
+          25,
+          1.5,
+          1.5,
+          0.3
+        ],
+        "B": [
+          25,
+          1.5,
+          1.5,
+          0.7
+        ],
+        "BB": [
+          45,
+          4.0,
+          4.0,
+          0.7
+        ],
+        "BBB": [
+          40,
+          3.0,
+          3.0,
+          0.8
+        ],
+        "BBBB": [
+          40,
+          3.0,
+          3.0,
+          0.8
+        ],
+        "T": [
+          45,
+          3.0,
+          3.0,
+          0.7,
+          [
+            32,
+            "liquid",
+            0.2
+          ]
+        ],
+        "BBT": [
+          35,
+          3.0,
+          3.0,
+          0.8
+        ],
+        "BBTB": [
+          50,
+          3.5,
+          5.0,
+          0.8
+        ],
+        "TB": [
+          55,
+          3.5,
+          1.5,
+          0.7
+        ],
+        "BT": [
+          60,
+          4.0,
+          2.0,
+          0.7
+        ],
+        "BTB": [
+          75,
+          5.0,
+          2.5,
+          0.8
+        ],
+        "BTT": [
+          45,
+          2.5,
+          2.5,
+          0.8
+        ],
+        "BBTBB": [
+          40,
+          3.0,
+          3.0,
+          0.8
+        ]
+      },
+      "last": {
+        "reward": 1.760222033172221,
+        "valid": true,
+        "round": 396
+      },
+      "usage": {
+        "input_tokens": 1373620,
+        "output_tokens": 240815,
+        "usd": 5.1553899999999935,
+        "requests": 396,
+        "failed_requests": 0,
+        "unknown_cost_requests": 0,
+        "policy_events": 396
+      },
+      "usage_sha256": "075f540b96b62d31a7e491bc93fc15bbeb45e33581ce2c92b097b686acfb8e4d"
+    }
+  },
+  "curve": [
+    {
+      "queries": 26,
+      "agent_queries": 9,
+      "elapsed_s": 31.796999999999997,
+      "usd": 0.135388,
+      "input_tokens": 27714,
+      "output_tokens": 7996,
+      "round": 2,
+      "reward": 0.2165144516803411
+    },
+    {
+      "queries": 35,
+      "agent_queries": 14,
+      "elapsed_s": 44.59400000000002,
+      "usd": 0.20811200000000002,
+      "input_tokens": 44626,
+      "output_tokens": 11886,
+      "round": 3,
+      "reward": 0.4230613154906327
+    },
+    {
+      "queries": 45,
+      "agent_queries": 20,
+      "elapsed_s": 64.98499999999999,
+      "usd": 0.29507000000000005,
+      "input_tokens": 60905,
+      "output_tokens": 17326,
+      "round": 4,
+      "reward": 0.7623664814571457
+    },
+    {
+      "queries": 55,
+      "agent_queries": 25,
+      "elapsed_s": 80.12500000000003,
+      "usd": 0.3629980000000001,
+      "input_tokens": 76929,
+      "output_tokens": 20914,
+      "round": 5,
+      "reward": 0.8636411224473484
+    },
+    {
+      "queries": 64,
+      "agent_queries": 31,
+      "elapsed_s": 95.43800000000002,
+      "usd": 0.43323200000000006,
+      "input_tokens": 93816,
+      "output_tokens": 24560,
+      "round": 6,
+      "reward": 0.9428149157965073
+    },
+    {
+      "queries": 77,
+      "agent_queries": 39,
+      "elapsed_s": 111.10999999999999,
+      "usd": 0.49899400000000005,
+      "input_tokens": 110552,
+      "output_tokens": 27789,
+      "round": 7,
+      "reward": 1.462356087480197
+    },
+    {
+      "queries": 99,
+      "agent_queries": 48,
+      "elapsed_s": 149.71900000000002,
+      "usd": 0.701564,
+      "input_tokens": 164397,
+      "output_tokens": 37277,
+      "round": 10,
+      "reward": 1.599174914000143
+    },
+    {
+      "queries": 107,
+      "agent_queries": 50,
+      "elapsed_s": 162.203,
+      "usd": 0.774624,
+      "input_tokens": 182177,
+      "output_tokens": 41027,
+      "round": 11,
+      "reward": 1.6117631462672057
+    },
+    {
+      "queries": 148,
+      "agent_queries": 58,
+      "elapsed_s": 253.516,
+      "usd": 1.2105160000000001,
+      "input_tokens": 279643,
+      "output_tokens": 65123,
+      "round": 16,
+      "reward": 1.6690473407372741
+    },
+    {
+      "queries": 229,
+      "agent_queries": 75,
+      "elapsed_s": 401.1410000000001,
+      "usd": 2.000544,
+      "input_tokens": 477917,
+      "output_tokens": 104471,
+      "round": 26,
+      "reward": 1.6993021130874808
+    },
+    {
+      "queries": 254,
+      "agent_queries": 85,
+      "elapsed_s": 484.735,
+      "usd": 2.290733999999999,
+      "input_tokens": 556107,
+      "output_tokens": 117852,
+      "round": 30,
+      "reward": 1.713669647550736
+    },
+    {
+      "queries": 317,
+      "agent_queries": 99,
+      "elapsed_s": 687.172,
+      "usd": 3.0979699999999992,
+      "input_tokens": 772240,
+      "output_tokens": 155349,
+      "round": 41,
+      "reward": 1.936048273706093
+    },
+    {
+      "queries": 424,
+      "agent_queries": 119,
+      "elapsed_s": 990.516,
+      "usd": 4.196844,
+      "input_tokens": 1056122,
+      "output_tokens": 208460,
+      "round": 55,
+      "reward": 1.94413441186554
+    },
+    {
+      "queries": 444,
+      "agent_queries": 125,
+      "elapsed_s": 1045.5939999999998,
+      "usd": 4.432408,
+      "input_tokens": 1116464,
+      "output_tokens": 219948,
+      "round": 58,
+      "reward": 1.9502401941718672
+    },
+    {
+      "queries": 532,
+      "agent_queries": 160,
+      "elapsed_s": 1325.61,
+      "usd": 5.545615999999995,
+      "input_tokens": 1416738,
+      "output_tokens": 271214,
+      "round": 73,
+      "reward": 1.9940706400449568
+    },
+    {
+      "queries": 690,
+      "agent_queries": 199,
+      "elapsed_s": 1804.36,
+      "usd": 7.848677999999996,
+      "input_tokens": 2046454,
+      "output_tokens": 375577,
+      "round": 104,
+      "reward": 2.0153024697094497
+    },
+    {
+      "queries": 926,
+      "agent_queries": 277,
+      "elapsed_s": 2394.203,
+      "usd": 10.934925999999988,
+      "input_tokens": 2917038,
+      "output_tokens": 510085,
+      "round": 146,
+      "reward": 2.0570096816665377
+    },
+    {
+      "queries": 1042,
+      "agent_queries": 303,
+      "elapsed_s": 2827.0,
+      "usd": 12.998231999999978,
+      "input_tokens": 3453761,
+      "output_tokens": 609071,
+      "round": 171,
+      "reward": 2.1715396946027994
+    },
+    {
+      "queries": 1169,
+      "agent_queries": 322,
+      "elapsed_s": 3295.282,
+      "usd": 15.161085999999987,
+      "input_tokens": 4030003,
+      "output_tokens": 710108,
+      "round": 197,
+      "reward": 2.1966956442111276
+    },
+    {
+      "queries": 1241,
+      "agent_queries": 338,
+      "elapsed_s": 3579.5,
+      "usd": 16.526097999999998,
+      "input_tokens": 4397119,
+      "output_tokens": 773186,
+      "round": 213,
+      "reward": 2.2000881597271715
+    },
+    {
+      "queries": 1250,
+      "agent_queries": 339,
+      "elapsed_s": 3607.891,
+      "usd": 16.643505999999995,
+      "input_tokens": 4420513,
+      "output_tokens": 780248,
+      "round": 214,
+      "reward": 2.2009490232229676
+    },
+    {
+      "queries": 1254,
+      "agent_queries": 340,
+      "elapsed_s": 3624.235,
+      "usd": 16.721929999999997,
+      "input_tokens": 4444025,
+      "output_tokens": 783388,
+      "round": 215,
+      "reward": 2.2011328072356653
+    },
+    {
+      "queries": 1258,
+      "agent_queries": 341,
+      "elapsed_s": 3654.5,
+      "usd": 16.813864,
+      "input_tokens": 4467237,
+      "output_tokens": 787939,
+      "round": 216,
+      "reward": 2.204739065623291
+    },
+    {
+      "queries": 1262,
+      "agent_queries": 342,
+      "elapsed_s": 3670.657,
+      "usd": 16.903714,
+      "input_tokens": 4490522,
+      "output_tokens": 792267,
+      "round": 217,
+      "reward": 2.204810859198103
+    },
+    {
+      "queries": 1272,
+      "agent_queries": 342,
+      "elapsed_s": 3697.266,
+      "usd": 17.008176000000002,
+      "input_tokens": 4513798,
+      "output_tokens": 798058,
+      "round": 218,
+      "reward": 2.2133019456880856
+    },
+    {
+      "queries": 1273,
+      "agent_queries": 343,
+      "elapsed_s": 3714.61,
+      "usd": 17.088140000000003,
+      "input_tokens": 4537785,
+      "output_tokens": 801257,
+      "round": 219,
+      "reward": 2.2134769761145425
+    },
+    {
+      "queries": 1282,
+      "agent_queries": 344,
+      "elapsed_s": 3729.453,
+      "usd": 17.171836,
+      "input_tokens": 4561118,
+      "output_tokens": 804960,
+      "round": 220,
+      "reward": 2.2135510353134897
+    },
+    {
+      "queries": 1287,
+      "agent_queries": 345,
+      "elapsed_s": 3792.719,
+      "usd": 17.268031999999994,
+      "input_tokens": 4584856,
+      "output_tokens": 809832,
+      "round": 221,
+      "reward": 2.2136482787446146
+    },
+    {
+      "queries": 1314,
+      "agent_queries": 349,
+      "elapsed_s": 3850.532,
+      "usd": 17.573932000000003,
+      "input_tokens": 4677961,
+      "output_tokens": 821801,
+      "round": 225,
+      "reward": 2.2158920236524624
+    },
+    {
+      "queries": 1317,
+      "agent_queries": 350,
+      "elapsed_s": 3865.016,
+      "usd": 17.644140000000004,
+      "input_tokens": 4701870,
+      "output_tokens": 824040,
+      "round": 226,
+      "reward": 2.217525594140069
+    },
+    {
+      "queries": 1340,
+      "agent_queries": 354,
+      "elapsed_s": 3941.125,
+      "usd": 17.909096000000005,
+      "input_tokens": 4773033,
+      "output_tokens": 836303,
+      "round": 229,
+      "reward": 2.2281028850386866
+    },
+    {
+      "queries": 1360,
+      "agent_queries": 356,
+      "elapsed_s": 3984.8910000000005,
+      "usd": 18.136752,
+      "input_tokens": 4844911,
+      "output_tokens": 844693,
+      "round": 232,
+      "reward": 2.2298724198149835
+    },
+    {
+      "queries": 1374,
+      "agent_queries": 358,
+      "elapsed_s": 4025.7350000000006,
+      "usd": 18.37391,
+      "input_tokens": 4916290,
+      "output_tokens": 854133,
+      "round": 235,
+      "reward": 2.233592148052415
+    },
+    {
+      "queries": 1382,
+      "agent_queries": 359,
+      "elapsed_s": 4047.407,
+      "usd": 18.476633999999997,
+      "input_tokens": 4939977,
+      "output_tokens": 859668,
+      "round": 236,
+      "reward": 2.234439287927647
+    },
+    {
+      "queries": 1585,
+      "agent_queries": 393,
+      "elapsed_s": 4601.2970000000005,
+      "usd": 21.098805999999986,
+      "input_tokens": 5699793,
+      "output_tokens": 969922,
+      "round": 268,
+      "reward": 2.2344914440456227
+    },
+    {
+      "queries": 1588,
+      "agent_queries": 394,
+      "elapsed_s": 4622.5,
+      "usd": 21.19024999999999,
+      "input_tokens": 5724095,
+      "output_tokens": 974206,
+      "round": 269,
+      "reward": 2.2359418855253947
+    },
+    {
+      "queries": 1607,
+      "agent_queries": 395,
+      "elapsed_s": 4645.25,
+      "usd": 21.27004199999999,
+      "input_tokens": 5748766,
+      "output_tokens": 977251,
+      "round": 270,
+      "reward": 2.2364639522411167
+    },
+    {
+      "queries": 1624,
+      "agent_queries": 396,
+      "elapsed_s": 4666.235000000001,
+      "usd": 21.36359199999999,
+      "input_tokens": 5773346,
+      "output_tokens": 981690,
+      "round": 271,
+      "reward": 2.236984933553769
+    },
+    {
+      "queries": 1628,
+      "agent_queries": 397,
+      "elapsed_s": 4688.360000000001,
+      "usd": 21.43897999999999,
+      "input_tokens": 5797990,
+      "output_tokens": 984300,
+      "round": 272,
+      "reward": 2.2379992005347114
+    },
+    {
+      "queries": 1631,
+      "agent_queries": 398,
+      "elapsed_s": 4706.7660000000005,
+      "usd": 21.517899999999994,
+      "input_tokens": 5822520,
+      "output_tokens": 987286,
+      "round": 273,
+      "reward": 2.2384153047715953
+    },
+    {
+      "queries": 1634,
+      "agent_queries": 399,
+      "elapsed_s": 4722.4220000000005,
+      "usd": 21.589295999999997,
+      "input_tokens": 5846873,
+      "output_tokens": 989555,
+      "round": 274,
+      "reward": 2.239458539106287
+    },
+    {
+      "queries": 1906,
+      "elapsed_s": 6108.985000000001,
+      "usd": 25.932157999999987,
+      "input_tokens": 7069544,
+      "output_tokens": 1179307,
+      "reward": 2.239458539106287
+    }
+  ],
+  "winner": {
+    "agent": "agent-3",
+    "round": 274,
+    "design": {
+      "": [
+        30,
+        2.0,
+        3.0,
+        0.5
+      ],
+      "B": [
+        40,
+        3.0,
+        4.0,
+        0.1
+      ],
+      "BB": [
+        35,
+        2.75,
+        3.75,
+        0.1
+      ],
+      "BBT": [
+        52,
+        5.3,
+        7.2,
+        0.1
+      ],
+      "BBB": [
+        70,
+        6.0,
+        12.0,
+        0.1
+      ],
+      "T": [
+        35,
+        2.5,
+        3.0,
+        0.1
+      ],
+      "TT": [
+        14,
+        2.9,
+        4.0,
+        0.1
+      ],
+      "TB": [
+        60,
+        4.5,
+        4.5,
+        0.1
+      ],
+      "BT": [
+        105,
+        9.5,
+        9.5,
+        0.5
+      ],
+      "BTB": [
+        85,
+        8.0,
+        8.0,
+        0.1
+      ],
+      "TBB": [
+        90,
+        9.0,
+        16.0,
+        0.1
+      ],
+      "BTBB": [
+        60,
+        6.0,
+        9.5,
+        0.1
+      ]
+    },
+    "measured": {
+      "reward": 2.239458539106287,
+      "valid": true,
+      "revenue": 3223305790.648773,
+      "tac": 1363998448.7324538,
+      "sold": [
+        {
+          "node": "TTT",
+          "value": 118007306.1040235,
+          "why": "no column",
+          "flows": [
+            13.181747,
+            34.723395,
+            369.660246,
+            0.221464,
+            0.173543,
+            0.000197,
+            1.4e-05,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "kind": "blend: C3 mix"
+        },
+        {
+          "node": "TTB",
+          "value": 0.0,
+          "why": "no column",
+          "flows": [
+            0.000232,
+            2.331549,
+            121.038628,
+            48.988012,
+            151.765915,
+            24.915548,
+            3.062865,
+            9.8e-05,
+            8e-06,
+            1e-06,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "kind": "none"
+        },
+        {
+          "node": "TBT",
+          "value": 368832606.5879089,
+          "why": "no column",
+          "flows": [
+            0.0,
+            0.0,
+            0.0,
+            0.001334,
+            0.057545,
+            229.734122,
+            179.383481,
+            0.014877,
+            0.00027,
+            2.4e-05,
+            1e-06,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "kind": "blend: C5 mix"
+        },
+        {
+          "node": "TBBT",
+          "value": 263415544.2762592,
+          "why": "no column",
+          "flows": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            43.690882,
+            248.495693,
+            0.000136,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "kind": "blend: C5 mix"
+        },
+        {
+          "node": "TBBB",
+          "value": 182798561.35399213,
+          "why": "no column",
+          "flows": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.000196,
+            2.095807,
+            13.058989,
+            76.341224,
+            44.647484,
+            26.625787,
+            5.6777,
+            0.563906,
+            0.004689,
+            1e-06,
+            0.0
+          ],
+          "kind": "blend: C6 paraffin mix"
+        },
+        {
+          "node": "BTT",
+          "value": 482177223.2891102,
+          "why": "no column",
+          "flows": [
+            0.0,
+            0.0,
+            0.0,
+            2e-06,
+            5.3e-05,
+            0.134618,
+            1.04526,
+            2.245639,
+            112.224049,
+            145.372406,
+            163.974668,
+            20.149673,
+            0.004047,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "kind": "blend: C6 paraffin mix"
+        },
+        {
+          "node": "BTBT",
+          "value": 0.0,
+          "why": "no column",
+          "flows": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.027358,
+            1.72545,
+            145.804273,
+            64.900296,
+            0.228733,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "kind": "none"
+        },
+        {
+          "node": "BTBBT",
+          "value": 189457114.74892223,
+          "why": "no column",
+          "flows": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.000161,
+            2.591916,
+            35.005985,
+            93.34923,
+            0.185071,
+            0.0,
+            0.0
+          ],
+          "kind": "blend: C6 naphthene mix"
+        },
+        {
+          "node": "BTBBB",
+          "value": 134432211.77824587,
+          "why": "no column",
+          "flows": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            7e-06,
+            0.000266,
+            0.258788,
+            91.084279,
+            0.024682,
+            1e-06
+          ],
+          "kind": "premium"
+        },
+        {
+          "node": "BBTT",
+          "value": 325287552.00743806,
+          "why": "no column",
+          "flows": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            7e-06,
+            0.003841,
+            0.013369,
+            0.158565,
+            0.120204,
+            1.104269,
+            220.397937,
+            0.047436,
+            0.0
+          ],
+          "kind": "premium"
+        },
+        {
+          "node": "BBTB",
+          "value": 415946959.82707995,
+          "why": "no column",
+          "flows": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            2e-06,
+            1.08855,
+            178.458269,
+            0.638994
+          ],
+          "kind": "premium"
+        },
+        {
+          "node": "BBBT",
+          "value": 565137489.3390459,
+          "why": "no column",
+          "flows": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1e-06,
+            2e-06,
+            0.000124,
+            1.90886,
+            242.467112,
+            0.007596
+          ],
+          "kind": "premium"
+        },
+        {
+          "node": "BBBB",
+          "value": 177813221.33674708,
+          "why": "no column",
+          "flows": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            6.45526,
+            126.335081
+          ],
+          "kind": "pure"
+        }
+      ],
+      "validation": {
+        "eligible": true,
+        "errors": [],
+        "max_abs_residuals_mol_s": {
+          "root feed": 0.0,
+          "/tops continuity": 4.080640252368539e-07,
+          "/bottoms continuity": 4.3036440899868467e-07,
+          "/component balance": 8.731171874387655e-08,
+          "T/tops continuity": 3.9689365394224296e-07,
+          "T/bottoms continuity": 3.968517810967742e-07,
+          "T/component balance": 1.396642801410053e-09,
+          "TT/tops continuity": 2.636852877713203e-07,
+          "TT/bottoms continuity": 2.643986434236467e-07,
+          "TT/component balance": 5.161950866749976e-09,
+          "TB/tops continuity": 4.2092813146155095e-07,
+          "TB/bottoms continuity": 3.1728754379400925e-07,
+          "TB/component balance": 2.1036406110397365e-06,
+          "TBB/tops continuity": 2.0600426609007627e-07,
+          "TBB/bottoms continuity": 2.0591386219994605e-07,
+          "TBB/component balance": 2.496562956366688e-10,
+          "B/tops continuity": 4.14472822285461e-07,
+          "B/bottoms continuity": 4.1445763922405565e-07,
+          "B/component balance": 7.690346137678716e-10,
+          "BT/tops continuity": 4.927866541493131e-07,
+          "BT/bottoms continuity": 4.927645436136885e-07,
+          "BT/component balance": 4.523315055848798e-11,
+          "BTB/tops continuity": 4.115877345611807e-07,
+          "BTB/bottoms continuity": 4.1116460236523267e-07,
+          "BTB/component balance": 4.558700084089651e-10,
+          "BTBB/tops continuity": 3.09966924599836e-07,
+          "BTBB/bottoms continuity": 3.0996709199371253e-07,
+          "BTBB/component balance": 6.394884621840902e-13,
+          "BB/tops continuity": 4.484716928931931e-07,
+          "BB/bottoms continuity": 4.4849548551324824e-07,
+          "BB/component balance": 8.536574114259565e-09,
+          "BBT/tops continuity": 4.7121682200668147e-07,
+          "BBT/bottoms continuity": 4.712091177250244e-07,
+          "BBT/component balance": 8.753886504564434e-12,
+          "BBB/tops continuity": 4.876890325380273e-07,
+          "BBB/bottoms continuity": 4.875471972809464e-07,
+          "BBB/component balance": 1.41824330057716e-10,
+          "overall component balance": 2.0000000517939043e-06
+        },
+        "tolerances": {
+          "absolute_mol_s": 1e-05,
+          "relative": 1e-06,
+          "status": "provisional"
+        },
+        "energy_balance_verified": false
+      }
+    }
+  },
+  "counts": {
+    "prompts": 1638,
+    "included_memories": 0,
+    "incumbent_included": 0,
+    "submissions": 1635,
+    "valid": 1427,
+    "invalid": 176,
+    "rejected": 32,
+    "duplicate": 649,
+    "source_copy": 0,
+    "citations": 0,
+    "topology_change": 617,
+    "one_node_change": 954,
+    "below_own_best": 723,
+    "retrieved_findings": 0
+  },
+  "backend_calls": null,
+  "cache_hits": null,
+  "backend_evidence_available": false,
+  "source_manifest": {
+    "sepdesign\\baselines.py": "e8aa72f88e992e5707f3378ce82ccdb01959c85dd2e4f89c37ab688d69e591a3",
+    "sepdesign\\benchmark.py": "52f1c86455ee5feaafe7ac4af75499da1087db74798d84018e8a46039f6aa182",
+    "sepdesign\\chemsep_backend.py": "07f8363b4045df60971e83844269778ce87cc4e4c2b8200170a9277c822756d1",
+    "sepdesign\\chemsep_lib.py": "a4fe8925f09ed0d76d74c4cb9d123f75e8a711889fc5ae67230465b2c6d1bb21",
+    "sepdesign\\column_rules.py": "6e1f3cc69093e2c68fc04ef4fd838938cebc260cd7c9be248fbcdc3e341823ce",
+    "sepdesign\\cost_model.py": "c9f37cd9cfa956e41b881eee6b2d8c633fa8d07eb14231e5bb7b8d3463f0aa65",
+    "sepdesign\\env.py": "a5d73aa76aec24e45f31a5be391120a4982ca4db92e6dad5280d9c6bc429fb87",
+    "sepdesign\\experiments.py": "1c251a8dcec69f7899b70a78c3204ac63a065862cea023449f7f17bf0d5ef96a",
+    "sepdesign\\families.py": "116c540e1f43125bc859024ae18f0b4028cfe500ea17ffa416183c82b46101bd",
+    "sepdesign\\hc12.py": "267afbed4394092bda8eb3cf76aeb3755fdff74dcca321a15636043ba4dde33a",
+    "sepdesign\\hc16.py": "ac58887af11ea8625960ed3873dbab94ac7933a09901514753d60bc0c0ed7444",
+    "sepdesign\\ledger.py": "20e8479ecb06a57facdeb9872308614250df9e5b59d7feb6de54f3a9428f30ed",
+    "sepdesign\\mock_backend.py": "d1c5af70f877f2079b68c146260dedf57817fe1cc9c802a8139822c85d8029a6",
+    "sepdesign\\multi_effect.py": "494f85a7f04b2711afc5b768585d83deda52ead1266de51827cbcc4cc1c32360",
+    "sepdesign\\report.py": "38d0e089a9da18eb16d1200ff949d1e79cece254644d3b297f83574a6a026b9a",
+    "sepdesign\\report_archive.py": "23fbef2338bdfb27dc64fa53ffbc2fc1aed1b955039b2eb7847fed238fc90893",
+    "sepdesign\\runlog.py": "5acd8a55d7c509ffe97c1a6cf938052cb216c7fe8b1a0c9ce1d82ed6cc99ce05",
+    "sepdesign\\runtime.py": "a2ec22bb397bd3aca67212a02c2b1a67d8d3b6d9db888a82ab52f7df802fdce2",
+    "sepdesign\\service.py": "6f9ae32f33fb51fd225c4aa04e17a3b7ccdd2ff27f6c01d824c0c23cbfe845f2",
+    "sepdesign\\swarm.py": "6ca9e1730f7ffe6b0b200ede2888fbe0bafef8b9d9129a1d95003e89b6ab5c68",
+    "sepdesign\\swarm_context.py": "81cf80347d82780d21724679217168b6ab7680792a6a68ed2b6c06ba70e583d2",
+    "sepdesign\\swarm_memory.py": "82f441eb14e6797feaa48e56dbebf11c08830fafa91d48be984a59193053c6f4",
+    "sepdesign\\swarm_report.py": "e1871238903cf55a8c97f9300b9287b5bfe7f3f7256a8583af75fc78260760e6",
+    "sepdesign\\tasks.py": "43a88af255377de153272a043fd10f7d7a9d6b4b02f2f178eee0e62bc6ca2b98",
+    "sepdesign\\taskset.py": "42ff19e9e2f2c728bc65d0ca66a20eb2d626d0141b6b9945561441f5906fae49",
+    "sepdesign\\thermo.py": "bd66f32fdffffe12878e2e50f1a2b8d4cb709e39472a4c9ceeee22c0d11159de",
+    "sepdesign\\validation.py": "f723f8a98477c6f92e408e260803a9da2aa7e8ea2162d707496f84d1122f652e",
+    "sepdesign\\__init__.py": "cc7ea247ab2a62175e48f0b99d6800181d0c07385b90e26aa40c76ba608906b3",
+    "agents\\example_agent.py": "d777648513f608c38017f819f341357d84b2ad3611720224fa3ff34fcc1f1cea",
+    "agents\\kimi.py": "10694839e19dd840f9d88ff28b2980f7eab1a0cecaa01ce0d4e944eb70025169",
+    "agents\\llm_agent.py": "c11e8b4dd03e651eee01a3da059d6fc6151cc0ab887c49de73356e64bddc4dde",
+    "agents\\luna_pilot.py": "d957a25617ca5f543dbb94aa8eb35ae41a9ae7a1ea11a5a7c0acb8fe07c60b55",
+    "scripts\\run_controls.py": "144d4cf93c98c5e2ee91056a18de704aff5b8ed9ed4f769a0fdf93a151648dd8",
+    "scripts\\run_swarm.py": "2867157e03578953e85b978a64023e60dd2554e61463ed8b0e7e097c58aabd8a",
+    "tasks\\campaign.json": "ef15344bd0b5fd06a7d6fd3103b1f38dae0b03386cbee0fcaec807a926a79736"
+  },
+  "trajectory_sha256": "a933ce08116f5e9a46920a29fba5a3aa35d20e54ae763f321f3a00aba9494ec3",
+  "event_count": 5308,
+  "task": {
+    "task_id": "hc16v3_dev_000",
+    "components": [
+      "Ethane",
+      "Propylene",
+      "Propane",
+      "Isobutane",
+      "N-butane",
+      "Isopentane",
+      "N-pentane",
+      "2,2-dimethylbutane",
+      "2-methylpentane",
+      "3-methylpentane",
+      "N-hexane",
+      "Methylcyclopentane",
+      "Cyclohexane",
+      "N-heptane",
+      "N-octane",
+      "N-nonane"
+    ],
+    "feed_flows_mol_s": [
+      13.181979,
+      37.054944,
+      490.698874,
+      49.210812,
+      151.997056,
+      298.475564,
+      434.083122,
+      15.319746,
+      188.596749,
+      191.758894,
+      339.155217,
+      125.854126,
+      95.509099,
+      314.669386,
+      427.45276,
+      126.981672
+    ],
+    "temperature_K": 400.0,
+    "pressure_Pa": 1850000.0,
+    "prices_usd_per_mol": [
+      0.0033442502864612462,
+      0.015638519587597457,
+      0.008202998224297618,
+      0.016125013606883207,
+      0.017015591557391376,
+      0.03852463182527016,
+      0.035129942483450145,
+      0.05954903539516727,
+      0.043498713119604966,
+      0.04271583309463649,
+      0.04013545555141195,
+      0.05261637947785061,
+      0.06797492214403807,
+      0.04270573347413309,
+      0.067441550213688,
+      0.048870591892870345
+    ],
+    "required_purity": 0.95,
+    "annual_operating_hours": 8000.0,
+    "stream_limit": 48,
+    "min_recovery_fraction": 0.01,
+    "action_bounds": {
+      "reflux_ratio": [
+        0.1,
+        30.0
+      ],
+      "reboil_ratio": [
+        0.1,
+        30.0
+      ]
+    },
+    "meta": {
+      "family": "hc16v3",
+      "split": "dev"
+    },
+    "economics": {
+      "premium": {
+        "purity": 0.99,
+        "multiplier": 1.2
+      },
+      "groups": [
+        {
+          "name": "C3 mix",
+          "members": [
+            "Propylene",
+            "Propane"
+          ],
+          "min_fraction": 0.95,
+          "discount": 0.85
+        },
+        {
+          "name": "C4 mix",
+          "members": [
+            "Isobutane",
+            "N-butane"
+          ],
+          "min_fraction": 0.95,
+          "discount": 0.85
+        },
+        {
+          "name": "C5 mix",
+          "members": [
+            "Isopentane",
+            "N-pentane"
+          ],
+          "min_fraction": 0.95,
+          "discount": 0.85
+        },
+        {
+          "name": "C6 paraffin mix",
+          "members": [
+            "2,2-dimethylbutane",
+            "2-methylpentane",
+            "3-methylpentane",
+            "N-hexane"
+          ],
+          "min_fraction": 0.95,
+          "discount": 0.85
+        },
+        {
+          "name": "C6 naphthene mix",
+          "members": [
+            "Methylcyclopentane",
+            "Cyclohexane"
+          ],
+          "min_fraction": 0.95,
+          "discount": 0.85
+        }
+      ],
+      "cost": {
+        "energy_multiplier": 6.0,
+        "capital_multiplier": 10.0
+      }
+    },
+    "levers": {
+      "side_draw": true,
+      "double_effect": true
+    },
+    "experiment": {
+      "simulator_budget_per_agent": 400
+    }
+  },
+  "notes": [
+    "Forced termination: summary and service-event files may be absent. Query counts cover logged submissions; an in-flight operation may not be represented. Elapsed time ends at last logged event, not necessarily process termination. Costs include all saved usage records."
+  ]
+}

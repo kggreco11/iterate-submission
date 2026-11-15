@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-cull-db97bd5c",
+ "agent_id": "agent-8",
+ "provider": "modal",
+ "model": "kimi-k3.1-pro",
+ "requests": 62,
+ "failed_requests": 3,
+ "input_tokens": 248337,
+ "output_tokens": 47310,
+ "usd_estimated_total": 0.9697739999999999,
+ "requests_with_unknown_cost": 3,
+ "price_source": "https://modal.com/docs/guide/supported-models; 2026-11-14; uncached estimate",
+ "wall_s": 2101.0034856796265,
+ "status": "budget_exhausted",
+ "island": 8,
+ "strategy": null,
+ "best_valid_reward": 2.4483417015133777,
+ "solves_used": 105,
+ "first_positive_at_solves": 16,
+ "usd_cached_price_estimate": 0.7590732,
+ "notebook": "PLAN: Preserve the 2.448 plant and use the final solves for small capital reductions. Step 30: test B at 58 stages; 59 retained every product specification, so one further reduction may lower cost.\nBest valid 2.448: root31/4.5/1.8/.5; T60/7/4/.3; TT30/3/1/.1; B59/8/2.8/.3; BB60/8/2.5/.1; BBB80/9.5/6/.1. Revenue2009.3 cost935.9. B reflux7.5 and BB reflux7.5/7.9 catastrophic. BBB70/10/6=2.405, reflux9 and boil-up7 failed, dp.3 failed; BBB75,78 failed;79 works;100/8 and90/8.5 fail purity. Heavy-end split unprofitable. Root reflux4.3 nonconverged;33,32,31 stages valid. BBB boil-up5.95=2.446,5.8=2.438.",
+ "task": "hc16v3_dev_002"
+}

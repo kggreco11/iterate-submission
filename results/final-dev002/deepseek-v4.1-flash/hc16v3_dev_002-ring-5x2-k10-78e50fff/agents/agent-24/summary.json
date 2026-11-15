@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-78e50fff",
+ "agent_id": "agent-24",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 102,
+ "failed_requests": 0,
+ "input_tokens": 621253,
+ "output_tokens": 101170,
+ "usd_estimated_total": 0.30777990000000016,
+ "requests_with_unknown_cost": 0,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 5634.416570186615,
+ "status": "finished",
+ "island": 4,
+ "strategy": null,
+ "best_valid_reward": 1.474272003341892,
+ "solves_used": 46,
+ "first_positive_at_solves": 43,
+ "usd_cached_price_estimate": 0.23748485999999996,
+ "notebook": "Budget 49/50 used. Best valid = 1.474 ('' 36/2.6/2.6/0.8 + 'B' 36/4.0/4.0/0.8). BT = C6 paraffin mix $1060.6M; cost $414M; reward = (1060.6-414)/439 = 1.474. Team islands 4 (agents 20,21,22,31) all at 1.474; no better structure found in ~48 solves.\n\nLESSONS: dp 0.8 is structural (0.15 killed the split). Trimming B (28-30st/R2-3.2) broke BT purity -> $0. Taller B (60st/R5) gave $1074.9M but cost +$50M -> net 1.393, worse. T-split to C3/C4/C5 mixes fails: even 60-200st/R8-30 gives TB only 88-93% C5 (<95%) and huge cost ($350-1030M) vs C5-mix value ~$172M. T and BB earn $0; any added column on them is net-negative at this cost level. C6 paraffins/naphthenes too close-boiling to separate profitably (blend 1060.6 vs pure 1349 but needs 3+ tall columns).\n\nPlan: locked in proven 2-column 1.474 plant. Finishing at 1.474.",
+ "task": "hc16v3_dev_002"
+}

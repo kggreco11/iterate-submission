@@ -1,0 +1,13 @@
+{
+  "completed_run_count": 32,
+  "unique_run_ids": 32,
+  "local_markdown_links": "pass",
+  "evidence_snapshot_hashes": "pass",
+  "allocations": "pass",
+  "v3_400_completed_queries": 4736,
+  "v3_400_completed_backend_calls": 3155,
+  "v3_400_completed_model_usd": 48.190418,
+  "next_campaign_max_queries": 12400,
+  "note": "Read-only arithmetic, links and provenance verification; no model or simulator calls.",
+  "additional_screening_runs": 12
+}

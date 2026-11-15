@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-independent-3631e4b1",
+ "agent_id": "agent-4",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 107,
+ "failed_requests": 3,
+ "input_tokens": 474951,
+ "output_tokens": 103230,
+ "usd_estimated_total": 0.2663613,
+ "requests_with_unknown_cost": 3,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 5076.086555719376,
+ "status": "budget_exhausted",
+ "island": 4,
+ "strategy": null,
+ "best_valid_reward": 0.0,
+ "solves_used": 50,
+ "first_positive_at_solves": null,
+ "usd_cached_price_estimate": 0.19848545999999997,
+ "notebook": "BUDGET 48/50 (2 left). Best valid=0 (empty). Facts: 30-stage reflux/boil 2.0 pd 0.02 converges reliably at 1-2 levels; 40-stage and deeper trees often fail. My 3-column tree earns $0 -> -0.603. Value math: val($M/yr)=flow*price*28.8. KEY TARGET: C5 mix (isopentane 253 + n-pentane 442 = 695 mol/s) at 85%*mean(0.0383,0.0344)=0.0309 -> ~618 M/yr. Only need TWO columns: A(feed) T=C4- light, B=C5+; B-column T=C5 mix, B=C6+. This turn: 45-stage reflux/boil 4.0, pd 0.03 (sharp enough to hit 95% C5 mix). If it fails/invalid, final solve = revert to empty (0) or re-set conservatively. Avoid wasting last solves on unverified 40-stage: note this 45-stage attempt is the gamble.",
+ "task": "hc16v3_dev_002"
+}

@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-independent-683a1314",
+ "agent_id": "agent-7",
+ "provider": "modal",
+ "model": "kimi-k3.1-pro",
+ "requests": 28,
+ "failed_requests": 3,
+ "input_tokens": 103634,
+ "output_tokens": 21497,
+ "usd_estimated_total": 0.422238,
+ "requests_with_unknown_cost": 3,
+ "price_source": "https://modal.com/docs/guide/supported-models; 2026-11-14; uncached estimate",
+ "wall_s": 1935.8992722034454,
+ "status": "budget_exhausted",
+ "island": 7,
+ "strategy": null,
+ "best_valid_reward": 1.435108017022815,
+ "solves_used": 50,
+ "first_positive_at_solves": 24,
+ "usd_cached_price_estimate": 0.320286,
+ "notebook": "PLAN: Preserve the proven 1.435 plant and use the final solve on the highest-value residual separation. Current step: strengthen TBBBB so its tops meet C5 blend purity and its bottoms meet C6 paraffin blend purity simultaneously. Both outlets are currently unsold despite about $102M/yr combined potential; each is only 15-20% contaminated by the adjacent key. Increasing stages, reflux, and boil-up should remove DMB overhead and pentane into bottoms. Do not alter any other proven column.",
+ "task": "hc16v3_dev_002"
+}

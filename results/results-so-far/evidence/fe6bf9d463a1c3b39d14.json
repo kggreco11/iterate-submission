@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-90279e64",
+ "agent_id": "agent-8",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 129,
+ "failed_requests": 4,
+ "input_tokens": 719448,
+ "output_tokens": 130250,
+ "usd_estimated_total": 0.3721343999999999,
+ "requests_with_unknown_cost": 3,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 5064.821347951889,
+ "status": "budget_exhausted",
+ "island": 4,
+ "strategy": null,
+ "best_valid_reward": 0.0,
+ "solves_used": 50,
+ "first_positive_at_solves": null,
+ "usd_cached_price_estimate": 0.28483583999999995,
+ "notebook": "FLOOR 0.000 (empty). One solve left (50/50). Invalid doesn't erase floor so gamble is free.\nThis solve: single 60-stage feed column, reflux 3.0, boilup 3.0, dp 0.05 \u2014 attempting to see if a taller column can push one end toward >=95% (likely n-butane or C5-mix).",
+ "task": "hc16v3_dev_002"
+}

@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-761c0ffe",
+ "agent_id": "agent-44",
+ "provider": "modal",
+ "model": "kimi-k3.1-pro",
+ "requests": 23,
+ "failed_requests": 0,
+ "input_tokens": 154392,
+ "output_tokens": 21975,
+ "usd_estimated_total": 0.528534,
+ "requests_with_unknown_cost": 0,
+ "price_source": "https://modal.com/docs/guide/supported-models; 2026-11-14; uncached estimate",
+ "wall_s": 3608.647463321686,
+ "status": "budget_exhausted",
+ "island": 8,
+ "strategy": null,
+ "best_valid_reward": 0.5419739087832017,
+ "solves_used": 50,
+ "first_positive_at_solves": 28,
+ "usd_cached_price_estimate": 0.4253148,
+ "notebook": "PLAN: Complete the validated ethane-stripper optimization with the final solve. Reflux increases from 4.0 to 4.5, 5.0, and 5.5 each produced a small net gain at boil-up 0.5. Test 6.0 while holding the proven R899 core fixed, then stop and retain the best valid design.\nLEARNED: Boil-up 0.5 is near optimum; 0.1 collapses C3 sales. Higher reflux recovered additional C3 bottoms with slightly greater revenue than cost. All upstream cuts remain fixed because earlier changes damaged much more valuable C4/C5 sales. At reflux 5.5 reward is 0.542, revenue $803.3M/yr, cost $565.7M/yr, C3 bottoms 281 mol/s.",
+ "task": "hc16v3_dev_002"
+}

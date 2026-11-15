@@ -1,0 +1,24 @@
+{
+  "all_12_columns_solved": true,
+  "all_outlet_flows_finite_nonnegative": true,
+  "strict_component_balance_pass": false,
+  "balance_failures": [
+    {
+      "inlet_stream": 6,
+      "component": "Isopentane",
+      "residual_mol_s": 2.55648478173498e-05,
+      "tolerance_mol_s": 9.2655778e-06,
+      "relative_to_inlet": 3.09292930705338e-07
+    },
+    {
+      "inlet_stream": 6,
+      "component": "N-pentane",
+      "residual_mol_s": 1.3753130416738202e-06,
+      "tolerance_mol_s": 1.2733644e-06,
+      "relative_to_inlet": 5.031061256234609e-07
+    }
+  ],
+  "annualized_cost_difference": 0.0,
+  "annual_revenue_difference": 4.76837158203125e-07,
+  "energy_balance_verified": false
+}

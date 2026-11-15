@@ -1,0 +1,14 @@
+{
+  "schema": "report-bundle-v1",
+  "task": "hc16v3_dev_002",
+  "model": "claude-opus-5-5",
+  "run_id": "hc16v3_dev_002-solo-c5cb4e8e",
+  "condition": "team-solo",
+  "status": "all_done",
+  "report": "index.html",
+  "sha256": {
+    "index.html": "b81e6969d1fc90c45b17c781bb420677b770863c1508fe849fa4e437268e2a72",
+    "report-data.json": "286939f81f86124d621448d9f4e6ffed143421c1890acbdfdaa68750b6cfc217",
+    "summary.json": "82c455e759ca6416b62f5fe22373620f0dbed9dfe25d1a04da28cf5473c24288"
+  }
+}

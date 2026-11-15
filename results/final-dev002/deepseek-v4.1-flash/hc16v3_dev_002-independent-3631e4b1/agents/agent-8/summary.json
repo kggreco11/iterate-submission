@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-independent-3631e4b1",
+ "agent_id": "agent-8",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 117,
+ "failed_requests": 4,
+ "input_tokens": 513480,
+ "output_tokens": 110676,
+ "usd_estimated_total": 0.28685519999999987,
+ "requests_with_unknown_cost": 3,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 5076.084278106689,
+ "status": "finished",
+ "island": 8,
+ "strategy": null,
+ "best_valid_reward": 0.0,
+ "solves_used": 49,
+ "first_positive_at_solves": null,
+ "usd_cached_price_estimate": 0.21137616000000006,
+ "notebook": "Turn 57. 49/50 solves used. Best valid = 0.000 (empty design). Summary of everything learned: (1) In this expensive-plant scenario a single tall column (120 stages, reflux 10) costs ~$434M/yr \u2014 comparable to or larger than the value of the most valuable pure stream (~$438M/yr n-pentane). So distillation of this feed is essentially break-even at best and negative for any multi-column cascade. (2) Every cascade I built (up to 6 columns, low and high reflux) gave reward between -0.44 and -0.99. (3) Side draws reached only ~65% C5 purity at best, far short of the 95% blend threshold, because adjacent volatilities (isopentane 301 vs n-pentane 309 vs 2,2-dimethylbutane 323) leak into any middle cut. (4) Cheaper/short columns don't separate enough to sell anything pure or as a qualifying blend. Conclusion: with only 1 solve left and all evidence pointing to the empty design (0.000) as my best valid result, I revert to it to lock in a valid score of 0.000 rather than risk another negative plant. No further experiments are worth the risk.",
+ "task": "hc16v3_dev_002"
+}

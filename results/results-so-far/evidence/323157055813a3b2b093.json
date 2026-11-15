@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-761c0ffe",
+ "agent_id": "agent-24",
+ "provider": "modal",
+ "model": "kimi-k3.1-pro",
+ "requests": 27,
+ "failed_requests": 0,
+ "input_tokens": 182209,
+ "output_tokens": 23614,
+ "usd_estimated_total": 0.6005580000000001,
+ "requests_with_unknown_cost": 0,
+ "price_source": "https://modal.com/docs/guide/supported-models; 2026-11-14; uncached estimate",
+ "wall_s": 3608.636892557144,
+ "status": "budget_exhausted",
+ "island": 4,
+ "strategy": null,
+ "best_valid_reward": 1.8851573344880774,
+ "solves_used": 50,
+ "first_positive_at_solves": 16,
+ "usd_cached_price_estimate": 0.48247799999999996,
+ "notebook": "PLAN: Use one of the final two solves on a modest capital trim of T, then retain it only if the C5 blend and validity survive; otherwise finish on R1104.\nLearned: TT boil-up 4.3 is valid; 4.25 and 4.0 fail. Root 60 stages and root boil-up 8.25 fail convergence, so retain 65/7.5/8.5. B75 beats B70 because lost C6 revenue exceeds savings. TT50 gives essentially the same result as TT55; TT reflux 5.75 saves cost but loses equal revenue. Current best R1104: root 65/7.5/8.5/.25, B75/7.75/7.75/.2, T55/6/8/.2, TT55/6/4.3/.2, reward 1.885. T50 is the last probe: C5 purity is only 96%, so revert if the n-butane leak exceeds its margin.",
+ "task": "hc16v3_dev_002"
+}

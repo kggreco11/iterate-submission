@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-independent-683a1314",
+ "agent_id": "agent-1",
+ "provider": "modal",
+ "model": "kimi-k3.1-pro",
+ "requests": 36,
+ "failed_requests": 3,
+ "input_tokens": 122449,
+ "output_tokens": 26365,
+ "usd_estimated_total": 0.508548,
+ "requests_with_unknown_cost": 3,
+ "price_source": "https://modal.com/docs/guide/supported-models; 2026-11-14; uncached estimate",
+ "wall_s": 1935.8969988822937,
+ "status": "budget_exhausted",
+ "island": 1,
+ "strategy": null,
+ "best_valid_reward": 0.6035933868541798,
+ "solves_used": 50,
+ "first_positive_at_solves": 25,
+ "usd_cached_price_estimate": 0.37675919999999996,
+ "notebook": "PLAN: Restore the proven C4/C5 plant, then spend the final solves only on conservative cost reductions that preserve both blend specifications.\nBest valid reward .587: root 58/6/2.15/dp.5, B 58/6.8/2.38/dp.1, T 50/6/5/dp.1. Revenue $734.1M, cost $476.6M. Heavy split abandoned: excessive cost and BBT missed C6 spec. TT remains unsold and is not worth risking profitable C4 bottoms. Current test makes a very mild root-only trim to 56 stages and reflux 5.9; fixed cut rates should preserve both sales while reducing the largest column cost.",
+ "task": "hc16v3_dev_002"
+}

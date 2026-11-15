@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-open-41ad914b",
+ "agent_id": "agent-8",
+ "provider": "modal",
+ "model": "kimi-k3.1-pro",
+ "requests": 37,
+ "failed_requests": 0,
+ "input_tokens": 296162,
+ "output_tokens": 28171,
+ "usd_estimated_total": 0.874034,
+ "requests_with_unknown_cost": 0,
+ "price_source": "https://modal.com/docs/guide/supported-models; 2026-11-14; uncached estimate",
+ "wall_s": 1959.1568279266357,
+ "status": "budget_exhausted",
+ "island": 0,
+ "strategy": null,
+ "best_valid_reward": 2.953373657755877,
+ "solves_used": 50,
+ "first_positive_at_solves": 10,
+ "usd_cached_price_estimate": 0.7096435999999999,
+ "notebook": "PLAN: Use the final solve at the demonstrated intermediate optimum TT boil-up 0.75, then finish; this remains sellable while improving both revenue and duty.\nBest known design is R321 at reward 2.953: feed 50/3.0/2.0/dp0.2; B 120/9.5/3.6/dp0.1; T 40/3.0/2.5/dp0.1; BB 100/6.0/7.1/dp0.35; TT 30/5.0/0.75/dp0.1. TT 0.7 failed C3 blend purity, 0.8 was valid at 2.952, and 0.75 is valid and slightly better at 2.953. Other settings are saturated or uneconomic; heavy recovery, C4 splitting, side draws, and extra TT stages do not pay.",
+ "task": "hc16v3_dev_002"
+}

@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-niche-20940918",
+ "agent_id": "agent-6",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 81,
+ "failed_requests": 5,
+ "input_tokens": 369969,
+ "output_tokens": 77137,
+ "usd_estimated_total": 0.2035551000000001,
+ "requests_with_unknown_cost": 3,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 4628.587206840515,
+ "status": "finished",
+ "island": 0,
+ "strategy": null,
+ "best_valid_reward": 0.0,
+ "solves_used": 41,
+ "first_positive_at_solves": null,
+ "usd_cached_price_estimate": 0.15067830000000002,
+ "notebook": "25 solved, 9 left. BEST=0.000 (empty). Prior plants: revenue 0 (no stream >=95%) + big cost -> negative. Annual $ = flow(mol/s)*price*2.88e7. Prizes: C5 mix ~618, C6para ~1147, C6naph ~397, nC8 359, nC7 332, nC6 332. Costs ~100-400M/col. HARD cuts: C6para/C6naph 3.1K, C5/C6 13.7K. EASY: C2/C3 41K, C3/C4 30K, C4/C5 28K, C6naph/C7 17.7K, C7/C8 27K, C8/C9 25K. Plan: one surgical experiment now (6-col train: deC4 -> deC5 -> deC7 -> deC8 -> deC9, low RR to guarantee convergence, selling C5mix, nC7, nC8, nC9). If valid & reward>0 keep; else finish at 0.",
+ "task": "hc16v3_dev_002"
+}

@@ -1,0 +1,2172 @@
+{
+ "summary": {
+  "columns": 160,
+  "solved": 133,
+  "solved_share": 0.83125,
+  "needed_retry": 47,
+  "max_closure": 1.2314103522117655e-10,
+  "median_solve_s": 0.7090342500014231,
+  "max_side_share_error": 1.137739902290491e-11
+ },
+ "rows": [
+  {
+   "task": "hc16v3_dev_000",
+   "n": 55,
+   "side": {
+    "stage": 30,
+    "phase": "liquid",
+    "fraction": 0.359
+   },
+   "ok": true,
+   "solve_s": 0.35435369997867383,
+   "solved_by": "stock",
+   "closure": 6.890111377067638e-16,
+   "side_share": 0.3590000000000032
+  },
+  {
+   "task": "hc16v3_dev_000",
+   "n": 116,
+   "side": {
+    "stage": 91,
+    "phase": "vapour",
+    "fraction": 0.313
+   },
+   "ok": true,
+   "solve_s": 0.6481707000057213,
+   "solved_by": "stock",
+   "closure": 3.582857916075172e-15,
+   "side_share": 0.31299999999999706
+  },
+  {
+   "task": "hc16v3_dev_000",
+   "n": 115,
+   "side": {
+    "stage": 76,
+    "phase": "liquid",
+    "fraction": 0.207
+   },
+   "ok": false,
+   "solve_s": 7.271695400006138
+  },
+  {
+   "task": "hc16v3_dev_000",
+   "n": 102,
+   "side": {
+    "stage": 58,
+    "phase": "vapour",
+    "fraction": 0.332
+   },
+   "ok": true,
+   "solve_s": 0.6048225999984425,
+   "solved_by": "stock",
+   "closure": 6.614506921984933e-15,
+   "side_share": 0.33200000000000096
+  },
+  {
+   "task": "hc16v3_dev_000",
+   "n": 105,
+   "side": {
+    "stage": 26,
+    "phase": "vapour",
+    "fraction": 0.21
+   },
+   "ok": true,
+   "solve_s": 1.8129046999965794,
+   "solved_by": "m3",
+   "closure": 1.6260662849879627e-14,
+   "side_share": 0.21000000000000116
+  },
+  {
+   "task": "hc16v3_dev_000",
+   "n": 113,
+   "side": {
+    "stage": 58,
+    "phase": "vapour",
+    "fraction": 0.082
+   },
+   "ok": true,
+   "solve_s": 3.1955331999924965,
+   "solved_by": "m4",
+   "closure": 0.0,
+   "side_share": 0.08199999999999993
+  },
+  {
+   "task": "hc16v3_dev_000",
+   "n": 114,
+   "side": {
+    "stage": 90,
+    "phase": "vapour",
+    "fraction": 0.189
+   },
+   "ok": true,
+   "solve_s": 0.8329847000131849,
+   "solved_by": "stock",
+   "closure": 6.338902466902227e-15,
+   "side_share": 0.1889999999999991
+  },
+  {
+   "task": "hc16v3_dev_000",
+   "n": 107,
+   "side": {
+    "stage": 50,
+    "phase": "liquid",
+    "fraction": 0.251
+   },
+   "ok": true,
+   "solve_s": 0.6218812000006437,
+   "solved_by": "stock",
+   "closure": 4.547473508864641e-15,
+   "side_share": 0.25099999999999917
+  },
+  {
+   "task": "hc16v3_dev_000",
+   "n": 56,
+   "side": {
+    "stage": 12,
+    "phase": "vapour",
+    "fraction": 0.215
+   },
+   "ok": true,
+   "solve_s": 0.3822486999852117,
+   "solved_by": "stock",
+   "closure": 1.446923389184204e-14,
+   "side_share": 0.2149999999999988
+  },
+  {
+   "task": "hc16v3_dev_000",
+   "n": 101,
+   "side": {
+    "stage": 45,
+    "phase": "vapour",
+    "fraction": 0.3
+   },
+   "ok": false,
+   "solve_s": 25.635888899996644
+  },
+  {
+   "task": "hc16v3_dev_000",
+   "n": 109,
+   "side": {
+    "stage": 50,
+    "phase": "vapour",
+    "fraction": 0.332
+   },
+   "ok": true,
+   "solve_s": 0.5530281999963336,
+   "solved_by": "stock",
+   "closure": 3.99626459869923e-15,
+   "side_share": 0.33200000000000174
+  },
+  {
+   "task": "hc16v3_dev_000",
+   "n": 91,
+   "side": {
+    "stage": 42,
+    "phase": "liquid",
+    "fraction": 0.279
+   },
+   "ok": false,
+   "solve_s": 5.738715100014815
+  },
+  {
+   "task": "hc16v3_dev_000",
+   "n": 116,
+   "side": {
+    "stage": 78,
+    "phase": "liquid",
+    "fraction": 0.141
+   },
+   "ok": true,
+   "solve_s": 0.6992743999871891,
+   "solved_by": "stock",
+   "closure": 6.7523091495262855e-15,
+   "side_share": 0.14099999999999907
+  },
+  {
+   "task": "hc16v3_dev_000",
+   "n": 102,
+   "side": {
+    "stage": 77,
+    "phase": "liquid",
+    "fraction": 0.341
+   },
+   "ok": true,
+   "solve_s": 0.5492307000095025,
+   "solved_by": "stock",
+   "closure": 1.0886375975766869e-14,
+   "side_share": 0.3410000000000016
+  },
+  {
+   "task": "hc16v3_dev_000",
+   "n": 80,
+   "side": {
+    "stage": 43,
+    "phase": "vapour",
+    "fraction": 0.209
+   },
+   "ok": false,
+   "solve_s": 4.15446069999598
+  },
+  {
+   "task": "hc16v3_dev_000",
+   "n": 63,
+   "side": {
+    "stage": 38,
+    "phase": "vapour",
+    "fraction": 0.366
+   },
+   "ok": true,
+   "solve_s": 0.4461267000006046,
+   "solved_by": "stock",
+   "closure": 1.5158245029548804e-14,
+   "side_share": 0.36599999999999827
+  },
+  {
+   "task": "hc16v3_dev_000",
+   "n": 87,
+   "side": {
+    "stage": 20,
+    "phase": "liquid",
+    "fraction": 0.082
+   },
+   "ok": true,
+   "solve_s": 2.794300400011707,
+   "solved_by": "m4",
+   "closure": 3.3072534609924663e-15,
+   "side_share": 0.0819999999999995
+  },
+  {
+   "task": "hc16v3_dev_000",
+   "n": 97,
+   "side": {
+    "stage": 26,
+    "phase": "liquid",
+    "fraction": 0.313
+   },
+   "ok": true,
+   "solve_s": 3.2193710999854375,
+   "solved_by": "m4",
+   "closure": 1.0610771520684163e-14,
+   "side_share": 0.31299999999999906
+  },
+  {
+   "task": "hc16v3_dev_000",
+   "n": 74,
+   "side": {
+    "stage": 55,
+    "phase": "vapour",
+    "fraction": 0.291
+   },
+   "ok": true,
+   "solve_s": 0.4787590999912936,
+   "solved_by": "stock",
+   "closure": 9.646155927894694e-15,
+   "side_share": 0.2910000000000001
+  },
+  {
+   "task": "hc16v3_dev_000",
+   "n": 57,
+   "side": {
+    "stage": 44,
+    "phase": "vapour",
+    "fraction": 0.08
+   },
+   "ok": true,
+   "solve_s": 0.3589959000237286,
+   "solved_by": "stock",
+   "closure": 2.893846778368408e-15,
+   "side_share": 0.08000000000000039
+  },
+  {
+   "task": "hc16v3_dev_000",
+   "n": 60,
+   "side": {
+    "stage": 18,
+    "phase": "vapour",
+    "fraction": 0.187
+   },
+   "ok": true,
+   "solve_s": 0.4047425000171643,
+   "solved_by": "stock",
+   "closure": 1.1024178203308221e-15,
+   "side_share": 0.18699999999999906
+  },
+  {
+   "task": "hc16v3_dev_000",
+   "n": 59,
+   "side": {
+    "stage": 43,
+    "phase": "vapour",
+    "fraction": 0.361
+   },
+   "ok": true,
+   "solve_s": 1.8775380000006407,
+   "solved_by": "m4",
+   "closure": 2.24617630892405e-14,
+   "side_share": 0.36099999999999455
+  },
+  {
+   "task": "hc16v3_dev_000",
+   "n": 46,
+   "side": {
+    "stage": 30,
+    "phase": "liquid",
+    "fraction": 0.229
+   },
+   "ok": true,
+   "solve_s": 0.3157173999934457,
+   "solved_by": "stock",
+   "closure": 0.0,
+   "side_share": 0.2289999999999996
+  },
+  {
+   "task": "hc16v3_dev_000",
+   "n": 81,
+   "side": {
+    "stage": 57,
+    "phase": "vapour",
+    "fraction": 0.25
+   },
+   "ok": true,
+   "solve_s": 0.4627418000018224,
+   "solved_by": "stock",
+   "closure": 1.2402200478721748e-14,
+   "side_share": 0.25000000000000067
+  },
+  {
+   "task": "hc16v3_dev_000",
+   "n": 61,
+   "side": {
+    "stage": 19,
+    "phase": "vapour",
+    "fraction": 0.259
+   },
+   "ok": true,
+   "solve_s": 0.4524274000141304,
+   "solved_by": "stock",
+   "closure": 9.646155927894694e-16,
+   "side_share": 0.25900000000000006
+  },
+  {
+   "task": "hc16v3_dev_000",
+   "n": 48,
+   "side": {
+    "stage": 34,
+    "phase": "liquid",
+    "fraction": 0.208
+   },
+   "ok": true,
+   "solve_s": 0.3119902999897022,
+   "solved_by": "stock",
+   "closure": 1.1437584885932279e-14,
+   "side_share": 0.20800000000000038
+  },
+  {
+   "task": "hc16v3_dev_000",
+   "n": 64,
+   "side": {
+    "stage": 41,
+    "phase": "liquid",
+    "fraction": 0.325
+   },
+   "ok": true,
+   "solve_s": 0.3720185999991372,
+   "solved_by": "stock",
+   "closure": 1.3780222754135276e-16,
+   "side_share": 0.32499999999999896
+  },
+  {
+   "task": "hc16v3_dev_000",
+   "n": 106,
+   "side": {
+    "stage": 34,
+    "phase": "vapour",
+    "fraction": 0.237
+   },
+   "ok": true,
+   "solve_s": 3.022597700008191,
+   "solved_by": "m4",
+   "closure": 3.720660143616525e-15,
+   "side_share": 0.23700000000000032
+  },
+  {
+   "task": "hc16v3_dev_000",
+   "n": 50,
+   "side": {
+    "stage": 33,
+    "phase": "vapour",
+    "fraction": 0.4
+   },
+   "ok": true,
+   "solve_s": 0.3236151000019163,
+   "solved_by": "stock",
+   "closure": 8.268133652481166e-16,
+   "side_share": 0.40000000000000463
+  },
+  {
+   "task": "hc16v3_dev_000",
+   "n": 93,
+   "side": {
+    "stage": 33,
+    "phase": "liquid",
+    "fraction": 0.235
+   },
+   "ok": true,
+   "solve_s": 0.47942889999831095,
+   "solved_by": "stock",
+   "closure": 9.50835370035334e-15,
+   "side_share": 0.235
+  },
+  {
+   "task": "hc16v3_dev_000",
+   "n": 107,
+   "side": {
+    "stage": 52,
+    "phase": "liquid",
+    "fraction": 0.358
+   },
+   "ok": true,
+   "solve_s": 0.6260842000192497,
+   "solved_by": "stock",
+   "closure": 4.685275736405994e-15,
+   "side_share": 0.358000000000003
+  },
+  {
+   "task": "hc16v3_dev_000",
+   "n": 82,
+   "side": {
+    "stage": 39,
+    "phase": "liquid",
+    "fraction": 0.386
+   },
+   "ok": true,
+   "solve_s": 0.5250137000111863,
+   "solved_by": "stock",
+   "closure": 8.543738107563871e-15,
+   "side_share": 0.38600000000000073
+  },
+  {
+   "task": "hc16v3_dev_000",
+   "n": 85,
+   "side": {
+    "stage": 69,
+    "phase": "liquid",
+    "fraction": 0.088
+   },
+   "ok": true,
+   "solve_s": 0.46635329999844544,
+   "solved_by": "stock",
+   "closure": 1.6536267304962332e-15,
+   "side_share": 0.08799999999999873
+  },
+  {
+   "task": "hc16v3_dev_000",
+   "n": 75,
+   "side": {
+    "stage": 48,
+    "phase": "vapour",
+    "fraction": 0.285
+   },
+   "ok": true,
+   "solve_s": 0.43139190002693795,
+   "solved_by": "stock",
+   "closure": 5.098682419030052e-15,
+   "side_share": 0.28499999999999764
+  },
+  {
+   "task": "hc16v3_dev_000",
+   "n": 56,
+   "side": {
+    "stage": 15,
+    "phase": "liquid",
+    "fraction": 0.29
+   },
+   "ok": true,
+   "solve_s": 1.1373766000033356,
+   "solved_by": "m3",
+   "closure": 2.37350556717226e-12,
+   "side_share": 0.28999999999766235
+  },
+  {
+   "task": "hc16v3_dev_000",
+   "n": 85,
+   "side": {
+    "stage": 61,
+    "phase": "vapour",
+    "fraction": 0.147
+   },
+   "ok": true,
+   "solve_s": 0.5264110999996774,
+   "solved_by": "stock",
+   "closure": 5.512089101654111e-16,
+   "side_share": 0.14700000000000035
+  },
+  {
+   "task": "hc16v3_dev_000",
+   "n": 48,
+   "side": {
+    "stage": 27,
+    "phase": "liquid",
+    "fraction": 0.194
+   },
+   "ok": true,
+   "solve_s": 0.9881167999992613,
+   "solved_by": "m3",
+   "closure": 4.727718822488731e-11,
+   "side_share": 0.1939999999886226
+  },
+  {
+   "task": "hc16v3_dev_000",
+   "n": 72,
+   "side": {
+    "stage": 39,
+    "phase": "vapour",
+    "fraction": 0.093
+   },
+   "ok": true,
+   "solve_s": 0.5873099000018556,
+   "solved_by": "stock",
+   "closure": 3.910000404258343e-12,
+   "side_share": 0.09300000000000033
+  },
+  {
+   "task": "hc16v3_dev_000",
+   "n": 111,
+   "side": {
+    "stage": 92,
+    "phase": "vapour",
+    "fraction": 0.263
+   },
+   "ok": true,
+   "solve_s": 0.718794100015657,
+   "solved_by": "stock",
+   "closure": 2.7560445508270553e-16,
+   "side_share": 0.2630000000000009
+  },
+  {
+   "task": "hc16v3_dev_000",
+   "n": 118,
+   "side": {
+    "stage": 23,
+    "phase": "vapour",
+    "fraction": 0.199
+   },
+   "ok": true,
+   "solve_s": 2.400878799991915,
+   "solved_by": "m3",
+   "closure": 1.6122860622338273e-14,
+   "side_share": 0.19900000000000084
+  },
+  {
+   "task": "hc16v3_dev_001",
+   "n": 53,
+   "side": {
+    "stage": 38,
+    "phase": "liquid",
+    "fraction": 0.19
+   },
+   "ok": true,
+   "solve_s": 1.2766363999980967,
+   "solved_by": "m3",
+   "closure": 7.854726969857108e-15,
+   "side_share": 0.18999999999999959
+  },
+  {
+   "task": "hc16v3_dev_001",
+   "n": 84,
+   "side": {
+    "stage": 53,
+    "phase": "vapour",
+    "fraction": 0.156
+   },
+   "ok": true,
+   "solve_s": 2.4603519999946,
+   "solved_by": "m4",
+   "closure": 9.646155927894694e-16,
+   "side_share": 0.15599999999999922
+  },
+  {
+   "task": "hc16v3_dev_001",
+   "n": 72,
+   "side": {
+    "stage": 54,
+    "phase": "vapour",
+    "fraction": 0.345
+   },
+   "ok": true,
+   "solve_s": 0.5117250999901444,
+   "solved_by": "stock",
+   "closure": 1.1757286053828218e-12,
+   "side_share": 0.34500000000000186
+  },
+  {
+   "task": "hc16v3_dev_001",
+   "n": 68,
+   "side": {
+    "stage": 37,
+    "phase": "vapour",
+    "fraction": 0.37
+   },
+   "ok": true,
+   "solve_s": 0.4635272999876179,
+   "solved_by": "stock",
+   "closure": 2.7036797043613415e-13,
+   "side_share": 0.36999999999983213
+  },
+  {
+   "task": "hc16v3_dev_001",
+   "n": 80,
+   "side": {
+    "stage": 53,
+    "phase": "liquid",
+    "fraction": 0.164
+   },
+   "ok": true,
+   "solve_s": 2.548008399986429,
+   "solved_by": "m4",
+   "closure": 5.374286874112758e-15,
+   "side_share": 0.16399999999999923
+  },
+  {
+   "task": "hc16v3_dev_001",
+   "n": 73,
+   "side": {
+    "stage": 46,
+    "phase": "vapour",
+    "fraction": 0.249
+   },
+   "ok": true,
+   "solve_s": 0.49135240001487546,
+   "solved_by": "stock",
+   "closure": 3.3072534609924663e-15,
+   "side_share": 0.24899999999999956
+  },
+  {
+   "task": "hc16v3_dev_001",
+   "n": 62,
+   "side": {
+    "stage": 27,
+    "phase": "vapour",
+    "fraction": 0.074
+   },
+   "ok": false,
+   "solve_s": 3.4264066999894567
+  },
+  {
+   "task": "hc16v3_dev_001",
+   "n": 69,
+   "side": {
+    "stage": 24,
+    "phase": "liquid",
+    "fraction": 0.238
+   },
+   "ok": true,
+   "solve_s": 0.4326301999972202,
+   "solved_by": "stock",
+   "closure": 6.890111377067638e-16,
+   "side_share": 0.23799999999999982
+  },
+  {
+   "task": "hc16v3_dev_001",
+   "n": 114,
+   "side": {
+    "stage": 34,
+    "phase": "liquid",
+    "fraction": 0.052
+   },
+   "ok": true,
+   "solve_s": 2.1461474999960046,
+   "solved_by": "m3",
+   "closure": 1.240220047872175e-15,
+   "side_share": 0.05199999999999971
+  },
+  {
+   "task": "hc16v3_dev_001",
+   "n": 82,
+   "side": {
+    "stage": 54,
+    "phase": "vapour",
+    "fraction": 0.212
+   },
+   "ok": true,
+   "solve_s": 1.4356487000186462,
+   "solved_by": "m3",
+   "closure": 5.512089101654111e-16,
+   "side_share": 0.21199999999999905
+  },
+  {
+   "task": "hc16v3_dev_001",
+   "n": 88,
+   "side": {
+    "stage": 43,
+    "phase": "liquid",
+    "fraction": 0.219
+   },
+   "ok": false,
+   "solve_s": 42.91286630000104
+  },
+  {
+   "task": "hc16v3_dev_001",
+   "n": 73,
+   "side": {
+    "stage": 53,
+    "phase": "liquid",
+    "fraction": 0.084
+   },
+   "ok": true,
+   "solve_s": 4.097272199986037,
+   "solved_by": "m4",
+   "closure": 2.7560445508270553e-16,
+   "side_share": 0.0840000000000007
+  },
+  {
+   "task": "hc16v3_dev_001",
+   "n": 51,
+   "side": {
+    "stage": 28,
+    "phase": "liquid",
+    "fraction": 0.395
+   },
+   "ok": true,
+   "solve_s": 0.3970236999739427,
+   "solved_by": "stock",
+   "closure": 7.44132028723305e-15,
+   "side_share": 0.39499999999999985
+  },
+  {
+   "task": "hc16v3_dev_001",
+   "n": 117,
+   "side": {
+    "stage": 74,
+    "phase": "vapour",
+    "fraction": 0.345
+   },
+   "ok": false,
+   "solve_s": 27.876554799993755
+  },
+  {
+   "task": "hc16v3_dev_001",
+   "n": 106,
+   "side": {
+    "stage": 20,
+    "phase": "vapour",
+    "fraction": 0.351
+   },
+   "ok": false,
+   "solve_s": 7.3031775999988895
+  },
+  {
+   "task": "hc16v3_dev_001",
+   "n": 59,
+   "side": {
+    "stage": 35,
+    "phase": "liquid",
+    "fraction": 0.264
+   },
+   "ok": true,
+   "solve_s": 0.394099199998891,
+   "solved_by": "stock",
+   "closure": 1.3643798548869338e-12,
+   "side_share": 0.2639999999987494
+  },
+  {
+   "task": "hc16v3_dev_001",
+   "n": 72,
+   "side": {
+    "stage": 56,
+    "phase": "liquid",
+    "fraction": 0.129
+   },
+   "ok": true,
+   "solve_s": 1.3250439999974333,
+   "solved_by": "m3",
+   "closure": 2.2048356406616442e-15,
+   "side_share": 0.12899999999999973
+  },
+  {
+   "task": "hc16v3_dev_001",
+   "n": 92,
+   "side": {
+    "stage": 20,
+    "phase": "liquid",
+    "fraction": 0.191
+   },
+   "ok": false,
+   "solve_s": 6.813752800022485
+  },
+  {
+   "task": "hc16v3_dev_001",
+   "n": 114,
+   "side": {
+    "stage": 46,
+    "phase": "liquid",
+    "fraction": 0.279
+   },
+   "ok": false,
+   "solve_s": 16.604918400000315
+  },
+  {
+   "task": "hc16v3_dev_001",
+   "n": 109,
+   "side": {
+    "stage": 72,
+    "phase": "vapour",
+    "fraction": 0.236
+   },
+   "ok": true,
+   "solve_s": 0.7259840999904554,
+   "solved_by": "stock",
+   "closure": 1.4331431664300688e-14,
+   "side_share": 0.23599999999998889
+  },
+  {
+   "task": "hc16v3_dev_001",
+   "n": 80,
+   "side": {
+    "stage": 55,
+    "phase": "vapour",
+    "fraction": 0.35
+   },
+   "ok": true,
+   "solve_s": 0.4068932000081986,
+   "solved_by": "stock",
+   "closure": 3.1694512334511135e-15,
+   "side_share": 0.3499999999999985
+  },
+  {
+   "task": "hc16v3_dev_001",
+   "n": 88,
+   "side": {
+    "stage": 60,
+    "phase": "vapour",
+    "fraction": 0.375
+   },
+   "ok": true,
+   "solve_s": 0.5266503999882843,
+   "solved_by": "stock",
+   "closure": 1.3780222754135276e-16,
+   "side_share": 0.37499999999999933
+  },
+  {
+   "task": "hc16v3_dev_001",
+   "n": 104,
+   "side": {
+    "stage": 60,
+    "phase": "vapour",
+    "fraction": 0.117
+   },
+   "ok": false,
+   "solve_s": 8.601688599999761
+  },
+  {
+   "task": "hc16v3_dev_001",
+   "n": 70,
+   "side": {
+    "stage": 15,
+    "phase": "liquid",
+    "fraction": 0.324
+   },
+   "ok": true,
+   "solve_s": 0.42965440000989474,
+   "solved_by": "stock",
+   "closure": 7.44132028723305e-15,
+   "side_share": 0.3239999999999986
+  },
+  {
+   "task": "hc16v3_dev_001",
+   "n": 106,
+   "side": {
+    "stage": 33,
+    "phase": "liquid",
+    "fraction": 0.351
+   },
+   "ok": true,
+   "solve_s": 3.3506188000028487,
+   "solved_by": "m4",
+   "closure": 9.50835370035334e-15,
+   "side_share": 0.3509999999999967
+  },
+  {
+   "task": "hc16v3_dev_001",
+   "n": 98,
+   "side": {
+    "stage": 34,
+    "phase": "liquid",
+    "fraction": 0.124
+   },
+   "ok": true,
+   "solve_s": 0.6398696000105701,
+   "solved_by": "stock",
+   "closure": 1.3780222754135276e-16,
+   "side_share": 0.12399999999999942
+  },
+  {
+   "task": "hc16v3_dev_001",
+   "n": 112,
+   "side": {
+    "stage": 55,
+    "phase": "liquid",
+    "fraction": 0.249
+   },
+   "ok": true,
+   "solve_s": 3.3909012000076473,
+   "solved_by": "m4",
+   "closure": 2.7560445508270553e-16,
+   "side_share": 0.2489999999999998
+  },
+  {
+   "task": "hc16v3_dev_001",
+   "n": 99,
+   "side": {
+    "stage": 18,
+    "phase": "vapour",
+    "fraction": 0.207
+   },
+   "ok": false,
+   "solve_s": 7.024326599988854
+  },
+  {
+   "task": "hc16v3_dev_001",
+   "n": 46,
+   "side": {
+    "stage": 19,
+    "phase": "liquid",
+    "fraction": 0.142
+   },
+   "ok": true,
+   "solve_s": 21.503345899982378,
+   "solved_by": "m4",
+   "closure": 6.338902466902227e-15,
+   "side_share": 0.14200000000000038
+  },
+  {
+   "task": "hc16v3_dev_001",
+   "n": 72,
+   "side": {
+    "stage": 14,
+    "phase": "vapour",
+    "fraction": 0.194
+   },
+   "ok": true,
+   "solve_s": 1.5443567000038456,
+   "solved_by": "m3",
+   "closure": 1.6674069532503684e-14,
+   "side_share": 0.19399999999999984
+  },
+  {
+   "task": "hc16v3_dev_001",
+   "n": 100,
+   "side": {
+    "stage": 54,
+    "phase": "liquid",
+    "fraction": 0.07
+   },
+   "ok": true,
+   "solve_s": 3.335105099977227,
+   "solved_by": "m4",
+   "closure": 4.134066826240583e-16,
+   "side_share": 0.0699999999999998
+  },
+  {
+   "task": "hc16v3_dev_001",
+   "n": 61,
+   "side": {
+    "stage": 51,
+    "phase": "liquid",
+    "fraction": 0.235
+   },
+   "ok": true,
+   "solve_s": 0.35601560000213794,
+   "solved_by": "stock",
+   "closure": 3.99626459869923e-15,
+   "side_share": 0.2350000000000006
+  },
+  {
+   "task": "hc16v3_dev_001",
+   "n": 59,
+   "side": {
+    "stage": 25,
+    "phase": "liquid",
+    "fraction": 0.162
+   },
+   "ok": true,
+   "solve_s": 2.7519379000004847,
+   "solved_by": "m4",
+   "closure": 3.720660143616525e-15,
+   "side_share": 0.1620000000000008
+  },
+  {
+   "task": "hc16v3_dev_001",
+   "n": 63,
+   "side": {
+    "stage": 29,
+    "phase": "liquid",
+    "fraction": 0.172
+   },
+   "ok": true,
+   "solve_s": 3.3476627000200097,
+   "solved_by": "m4",
+   "closure": 1.929231185578939e-15,
+   "side_share": 0.17200000000000115
+  },
+  {
+   "task": "hc16v3_dev_001",
+   "n": 98,
+   "side": {
+    "stage": 75,
+    "phase": "liquid",
+    "fraction": 0.193
+   },
+   "ok": true,
+   "solve_s": 0.7475670000130776,
+   "solved_by": "stock",
+   "closure": 7.44132028723305e-15,
+   "side_share": 0.19299999999999945
+  },
+  {
+   "task": "hc16v3_dev_001",
+   "n": 104,
+   "side": {
+    "stage": 43,
+    "phase": "vapour",
+    "fraction": 0.209
+   },
+   "ok": false,
+   "solve_s": 7.925744500011206
+  },
+  {
+   "task": "hc16v3_dev_001",
+   "n": 86,
+   "side": {
+    "stage": 35,
+    "phase": "liquid",
+    "fraction": 0.204
+   },
+   "ok": true,
+   "solve_s": 3.1379617000056896,
+   "solved_by": "m4",
+   "closure": 1.929231185578939e-15,
+   "side_share": 0.20400000000000007
+  },
+  {
+   "task": "hc16v3_dev_001",
+   "n": 97,
+   "side": {
+    "stage": 26,
+    "phase": "liquid",
+    "fraction": 0.357
+   },
+   "ok": false,
+   "solve_s": 4.681363600015175
+  },
+  {
+   "task": "hc16v3_dev_001",
+   "n": 107,
+   "side": {
+    "stage": 40,
+    "phase": "vapour",
+    "fraction": 0.376
+   },
+   "ok": true,
+   "solve_s": 0.6397080000024289,
+   "solved_by": "stock",
+   "closure": 8.130331424939813e-15,
+   "side_share": 0.3760000000000009
+  },
+  {
+   "task": "hc16v3_dev_001",
+   "n": 79,
+   "side": {
+    "stage": 32,
+    "phase": "vapour",
+    "fraction": 0.171
+   },
+   "ok": true,
+   "solve_s": 21.40268259998993,
+   "solved_by": "m4",
+   "closure": 1.2650244488296184e-13,
+   "side_share": 0.17100000000000087
+  },
+  {
+   "task": "hc16v3_dev_002",
+   "n": 85,
+   "side": {
+    "stage": 68,
+    "phase": "liquid",
+    "fraction": 0.28
+   },
+   "ok": true,
+   "solve_s": 0.46885809997911565,
+   "solved_by": "stock",
+   "closure": 1.2314103522117655e-10,
+   "side_share": 0.28000000000000097
+  },
+  {
+   "task": "hc16v3_dev_002",
+   "n": 64,
+   "side": {
+    "stage": 29,
+    "phase": "liquid",
+    "fraction": 0.337
+   },
+   "ok": true,
+   "solve_s": 1.97325800001272,
+   "solved_by": "m4",
+   "closure": 1.860330072935735e-14,
+   "side_share": 0.3370000000000005
+  },
+  {
+   "task": "hc16v3_dev_002",
+   "n": 65,
+   "side": {
+    "stage": 10,
+    "phase": "liquid",
+    "fraction": 0.351
+   },
+   "ok": true,
+   "solve_s": 1.8269312999909744,
+   "solved_by": "m4",
+   "closure": 6.476704698368856e-15,
+   "side_share": 0.3509999999999952
+  },
+  {
+   "task": "hc16v3_dev_002",
+   "n": 104,
+   "side": {
+    "stage": 77,
+    "phase": "vapour",
+    "fraction": 0.169
+   },
+   "ok": false,
+   "solve_s": 11.069690299977083
+  },
+  {
+   "task": "hc16v3_dev_002",
+   "n": 69,
+   "side": {
+    "stage": 33,
+    "phase": "liquid",
+    "fraction": 0.147
+   },
+   "ok": true,
+   "solve_s": 1.9846858000091743,
+   "solved_by": "m4",
+   "closure": 8.268133657492156e-16,
+   "side_share": 0.14699999999999924
+  },
+  {
+   "task": "hc16v3_dev_002",
+   "n": 42,
+   "side": {
+    "stage": 31,
+    "phase": "liquid",
+    "fraction": 0.174
+   },
+   "ok": true,
+   "solve_s": 0.8518088999844622,
+   "solved_by": "m3",
+   "closure": 5.512089104994771e-16,
+   "side_share": 0.17399999999999863
+  },
+  {
+   "task": "hc16v3_dev_002",
+   "n": 102,
+   "side": {
+    "stage": 40,
+    "phase": "liquid",
+    "fraction": 0.303
+   },
+   "ok": true,
+   "solve_s": 0.5226786999846809,
+   "solved_by": "stock",
+   "closure": 1.2264398258613365e-14,
+   "side_share": 0.30299999999999877
+  },
+  {
+   "task": "hc16v3_dev_002",
+   "n": 47,
+   "side": {
+    "stage": 39,
+    "phase": "vapour",
+    "fraction": 0.28
+   },
+   "ok": true,
+   "solve_s": 0.32694919998175465,
+   "solved_by": "stock",
+   "closure": 1.515824503873562e-15,
+   "side_share": 0.28000000000000097
+  },
+  {
+   "task": "hc16v3_dev_002",
+   "n": 96,
+   "side": {
+    "stage": 64,
+    "phase": "liquid",
+    "fraction": 0.357
+   },
+   "ok": false,
+   "solve_s": 23.342434799997136
+  },
+  {
+   "task": "hc16v3_dev_002",
+   "n": 94,
+   "side": {
+    "stage": 30,
+    "phase": "vapour",
+    "fraction": 0.275
+   },
+   "ok": true,
+   "solve_s": 0.5980164999782573,
+   "solved_by": "stock",
+   "closure": 8.130331429867288e-15,
+   "side_share": 0.27499999999999936
+  },
+  {
+   "task": "hc16v3_dev_002",
+   "n": 113,
+   "side": {
+    "stage": 26,
+    "phase": "liquid",
+    "fraction": 0.301
+   },
+   "ok": true,
+   "solve_s": 0.6630936000146903,
+   "solved_by": "stock",
+   "closure": 3.85846237349634e-15,
+   "side_share": 0.30099999999999977
+  },
+  {
+   "task": "hc16v3_dev_002",
+   "n": 112,
+   "side": {
+    "stage": 85,
+    "phase": "liquid",
+    "fraction": 0.205
+   },
+   "ok": false,
+   "solve_s": 7.687187200004701
+  },
+  {
+   "task": "hc16v3_dev_002",
+   "n": 97,
+   "side": {
+    "stage": 28,
+    "phase": "liquid",
+    "fraction": 0.364
+   },
+   "ok": false,
+   "solve_s": 4.615444800001569
+  },
+  {
+   "task": "hc16v3_dev_002",
+   "n": 119,
+   "side": {
+    "stage": 62,
+    "phase": "liquid",
+    "fraction": 0.207
+   },
+   "ok": true,
+   "solve_s": 1.0085451999912038,
+   "solved_by": "stock",
+   "closure": 7.409625779389221e-13,
+   "side_share": 0.20699999999957408
+  },
+  {
+   "task": "hc16v3_dev_002",
+   "n": 42,
+   "side": {
+    "stage": 30,
+    "phase": "liquid",
+    "fraction": 0.366
+   },
+   "ok": true,
+   "solve_s": 1.3900238999922294,
+   "solved_by": "m4",
+   "closure": 1.0059562616615457e-14,
+   "side_share": 0.36600000000000127
+  },
+  {
+   "task": "hc16v3_dev_002",
+   "n": 72,
+   "side": {
+    "stage": 46,
+    "phase": "vapour",
+    "fraction": 0.324
+   },
+   "ok": true,
+   "solve_s": 4.445648599998094,
+   "solved_by": "m4",
+   "closure": 8.957144795616502e-15,
+   "side_share": 0.3239999999999994
+  },
+  {
+   "task": "hc16v3_dev_002",
+   "n": 43,
+   "side": {
+    "stage": 33,
+    "phase": "liquid",
+    "fraction": 0.212
+   },
+   "ok": true,
+   "solve_s": 0.30240390001563355,
+   "solved_by": "stock",
+   "closure": 1.515824503873562e-15,
+   "side_share": 0.21199999999999922
+  },
+  {
+   "task": "hc16v3_dev_002",
+   "n": 109,
+   "side": {
+    "stage": 35,
+    "phase": "vapour",
+    "fraction": 0.371
+   },
+   "ok": false,
+   "solve_s": 5.312688000005437
+  },
+  {
+   "task": "hc16v3_dev_002",
+   "n": 45,
+   "side": {
+    "stage": 32,
+    "phase": "liquid",
+    "fraction": 0.2
+   },
+   "ok": true,
+   "solve_s": 0.30301200001849793,
+   "solved_by": "stock",
+   "closure": 6.476704698368856e-15,
+   "side_share": 0.19999999999999793
+  },
+  {
+   "task": "hc16v3_dev_002",
+   "n": 44,
+   "side": {
+    "stage": 16,
+    "phase": "vapour",
+    "fraction": 0.317
+   },
+   "ok": true,
+   "solve_s": 0.31939499999862164,
+   "solved_by": "stock",
+   "closure": 6.8901113812434635e-16,
+   "side_share": 0.3170000000000021
+  },
+  {
+   "task": "hc16v3_dev_002",
+   "n": 116,
+   "side": {
+    "stage": 94,
+    "phase": "vapour",
+    "fraction": 0.267
+   },
+   "ok": true,
+   "solve_s": 0.6404683000000659,
+   "solved_by": "stock",
+   "closure": 5.925495787869379e-15,
+   "side_share": 0.26700000000000085
+  },
+  {
+   "task": "hc16v3_dev_002",
+   "n": 90,
+   "side": {
+    "stage": 30,
+    "phase": "liquid",
+    "fraction": 0.213
+   },
+   "ok": true,
+   "solve_s": 0.5119536999845877,
+   "solved_by": "stock",
+   "closure": 1.7914289591233004e-15,
+   "side_share": 0.2129999999999997
+  },
+  {
+   "task": "hc16v3_dev_002",
+   "n": 86,
+   "side": {
+    "stage": 26,
+    "phase": "liquid",
+    "fraction": 0.193
+   },
+   "ok": true,
+   "solve_s": 0.5290475999936461,
+   "solved_by": "stock",
+   "closure": 2.6182423248725162e-15,
+   "side_share": 0.19299999999999973
+  },
+  {
+   "task": "hc16v3_dev_002",
+   "n": 42,
+   "side": {
+    "stage": 20,
+    "phase": "vapour",
+    "fraction": 0.352
+   },
+   "ok": true,
+   "solve_s": 0.3551469999947585,
+   "solved_by": "stock",
+   "closure": 1.1161980437614412e-14,
+   "side_share": 0.35199999999999976
+  },
+  {
+   "task": "hc16v3_dev_002",
+   "n": 92,
+   "side": {
+    "stage": 58,
+    "phase": "liquid",
+    "fraction": 0.109
+   },
+   "ok": false,
+   "solve_s": 4.009129400015809
+  },
+  {
+   "task": "hc16v3_dev_002",
+   "n": 98,
+   "side": {
+    "stage": 62,
+    "phase": "liquid",
+    "fraction": 0.081
+   },
+   "ok": true,
+   "solve_s": 0.5688327999960165,
+   "solved_by": "stock",
+   "closure": 6.7523091536185945e-15,
+   "side_share": 0.08099999999999954
+  },
+  {
+   "task": "hc16v3_dev_002",
+   "n": 110,
+   "side": {
+    "stage": 53,
+    "phase": "vapour",
+    "fraction": 0.209
+   },
+   "ok": true,
+   "solve_s": 2.0675088000134565,
+   "solved_by": "m3",
+   "closure": 8.268133657492156e-16,
+   "side_share": 0.2089999999999986
+  },
+  {
+   "task": "hc16v3_dev_002",
+   "n": 53,
+   "side": {
+    "stage": 31,
+    "phase": "vapour",
+    "fraction": 0.063
+   },
+   "ok": true,
+   "solve_s": 0.3520037999842316,
+   "solved_by": "stock",
+   "closure": 4.271869056370948e-15,
+   "side_share": 0.06299999999999972
+  },
+  {
+   "task": "hc16v3_dev_002",
+   "n": 93,
+   "side": {
+    "stage": 56,
+    "phase": "liquid",
+    "fraction": 0.062
+   },
+   "ok": false,
+   "solve_s": 5.078462599980412
+  },
+  {
+   "task": "hc16v3_dev_002",
+   "n": 101,
+   "side": {
+    "stage": 81,
+    "phase": "liquid",
+    "fraction": 0.261
+   },
+   "ok": true,
+   "solve_s": 0.5978340000147,
+   "solved_by": "stock",
+   "closure": 5.374286877369902e-15,
+   "side_share": 0.26100000000000034
+  },
+  {
+   "task": "hc16v3_dev_002",
+   "n": 118,
+   "side": {
+    "stage": 34,
+    "phase": "liquid",
+    "fraction": 0.146
+   },
+   "ok": true,
+   "solve_s": 3.857018999988213,
+   "solved_by": "m4",
+   "closure": 4.685275739245555e-15,
+   "side_share": 0.1459999999999997
+  },
+  {
+   "task": "hc16v3_dev_002",
+   "n": 89,
+   "side": {
+    "stage": 46,
+    "phase": "liquid",
+    "fraction": 0.269
+   },
+   "ok": true,
+   "solve_s": 0.5563549999787938,
+   "solved_by": "stock",
+   "closure": 1.515824503873562e-15,
+   "side_share": 0.269000000000001
+  },
+  {
+   "task": "hc16v3_dev_002",
+   "n": 56,
+   "side": {
+    "stage": 29,
+    "phase": "liquid",
+    "fraction": 0.28
+   },
+   "ok": true,
+   "solve_s": 1.356626699998742,
+   "solved_by": "m3",
+   "closure": 3.85846237349634e-15,
+   "side_share": 0.28000000000000086
+  },
+  {
+   "task": "hc16v3_dev_002",
+   "n": 79,
+   "side": {
+    "stage": 16,
+    "phase": "vapour",
+    "fraction": 0.118
+   },
+   "ok": true,
+   "solve_s": 0.4782515999977477,
+   "solved_by": "stock",
+   "closure": 1.1830321241595027e-11,
+   "side_share": 0.11799999999999934
+  },
+  {
+   "task": "hc16v3_dev_002",
+   "n": 48,
+   "side": {
+    "stage": 14,
+    "phase": "liquid",
+    "fraction": 0.08
+   },
+   "ok": true,
+   "solve_s": 0.3262793000030797,
+   "solved_by": "stock",
+   "closure": 9.232749250866241e-15,
+   "side_share": 0.07999999999999985
+  },
+  {
+   "task": "hc16v3_dev_002",
+   "n": 53,
+   "side": {
+    "stage": 12,
+    "phase": "liquid",
+    "fraction": 0.235
+   },
+   "ok": true,
+   "solve_s": 0.3579007999796886,
+   "solved_by": "stock",
+   "closure": 2.2048356419979083e-15,
+   "side_share": 0.2349999999999986
+  },
+  {
+   "task": "hc16v3_dev_002",
+   "n": 69,
+   "side": {
+    "stage": 22,
+    "phase": "liquid",
+    "fraction": 0.351
+   },
+   "ok": true,
+   "solve_s": 1.9387117000005674,
+   "solved_by": "m4",
+   "closure": 2.067033414373039e-15,
+   "side_share": 0.35100000000000164
+  },
+  {
+   "task": "hc16v3_dev_002",
+   "n": 51,
+   "side": {
+    "stage": 15,
+    "phase": "liquid",
+    "fraction": 0.299
+   },
+   "ok": true,
+   "solve_s": 0.3633472000074107,
+   "solved_by": "stock",
+   "closure": 9.783958161365718e-15,
+   "side_share": 0.29900000000000304
+  },
+  {
+   "task": "hc16v3_dev_002",
+   "n": 52,
+   "side": {
+    "stage": 15,
+    "phase": "liquid",
+    "fraction": 0.287
+   },
+   "ok": true,
+   "solve_s": 0.35464540001703426,
+   "solved_by": "stock",
+   "closure": 1.322901385198745e-14,
+   "side_share": 0.28699999999999903
+  },
+  {
+   "task": "hc16v3_dev_002",
+   "n": 53,
+   "side": {
+    "stage": 24,
+    "phase": "vapour",
+    "fraction": 0.15
+   },
+   "ok": true,
+   "solve_s": 0.3351159000012558,
+   "solved_by": "stock",
+   "closure": 2.8938467801222546e-15,
+   "side_share": 0.15000000000000036
+  },
+  {
+   "task": "hc16v3_dev_003",
+   "n": 103,
+   "side": {
+    "stage": 79,
+    "phase": "vapour",
+    "fraction": 0.232
+   },
+   "ok": false,
+   "solve_s": 13.276445700001204
+  },
+  {
+   "task": "hc16v3_dev_003",
+   "n": 107,
+   "side": {
+    "stage": 34,
+    "phase": "vapour",
+    "fraction": 0.333
+   },
+   "ok": true,
+   "solve_s": 3.4618199999968056,
+   "solved_by": "m4",
+   "closure": 1.887890518460709e-14,
+   "side_share": 0.3329999999999763
+  },
+  {
+   "task": "hc16v3_dev_003",
+   "n": 90,
+   "side": {
+    "stage": 68,
+    "phase": "liquid",
+    "fraction": 0.224
+   },
+   "ok": true,
+   "solve_s": 0.6315069999836851,
+   "solved_by": "stock",
+   "closure": 1.5158245038735619e-15,
+   "side_share": 0.22400000000000064
+  },
+  {
+   "task": "hc16v3_dev_003",
+   "n": 64,
+   "side": {
+    "stage": 12,
+    "phase": "liquid",
+    "fraction": 0.292
+   },
+   "ok": true,
+   "solve_s": 1.2138021999853663,
+   "solved_by": "m3",
+   "closure": 6.0632980154942475e-15,
+   "side_share": 0.29200000000000154
+  },
+  {
+   "task": "hc16v3_dev_003",
+   "n": 76,
+   "side": {
+    "stage": 28,
+    "phase": "vapour",
+    "fraction": 0.262
+   },
+   "ok": true,
+   "solve_s": 0.49209859999245964,
+   "solved_by": "stock",
+   "closure": 5.787693560244508e-15,
+   "side_share": 0.2620000000000027
+  },
+  {
+   "task": "hc16v3_dev_003",
+   "n": 49,
+   "side": {
+    "stage": 14,
+    "phase": "vapour",
+    "fraction": 0.362
+   },
+   "ok": true,
+   "solve_s": 0.32464919998892583,
+   "solved_by": "stock",
+   "closure": 1.0197364844240324e-14,
+   "side_share": 0.3620000000000025
+  },
+  {
+   "task": "hc16v3_dev_003",
+   "n": 100,
+   "side": {
+    "stage": 41,
+    "phase": "vapour",
+    "fraction": 0.081
+   },
+   "ok": true,
+   "solve_s": 0.6871217000007164,
+   "solved_by": "stock",
+   "closure": 3.7206601458714696e-15,
+   "side_share": 0.08100000000000103
+  },
+  {
+   "task": "hc16v3_dev_003",
+   "n": 60,
+   "side": {
+    "stage": 34,
+    "phase": "liquid",
+    "fraction": 0.296
+   },
+   "ok": true,
+   "solve_s": 0.4415743999998085,
+   "solved_by": "stock",
+   "closure": 4.1340668287460776e-16,
+   "side_share": 0.296000000000002
+  },
+  {
+   "task": "hc16v3_dev_003",
+   "n": 66,
+   "side": {
+    "stage": 11,
+    "phase": "vapour",
+    "fraction": 0.185
+   },
+   "ok": true,
+   "solve_s": 0.4504642999963835,
+   "solved_by": "stock",
+   "closure": 5.588844945781822e-12,
+   "side_share": 0.18500000000000083
+  },
+  {
+   "task": "hc16v3_dev_003",
+   "n": 76,
+   "side": {
+    "stage": 60,
+    "phase": "liquid",
+    "fraction": 0.135
+   },
+   "ok": true,
+   "solve_s": 1.5873951999819838,
+   "solved_by": "m3",
+   "closure": 0.0,
+   "side_share": 0.13499999999999887
+  },
+  {
+   "task": "hc16v3_dev_003",
+   "n": 106,
+   "side": {
+    "stage": 48,
+    "phase": "vapour",
+    "fraction": 0.219
+   },
+   "ok": false,
+   "solve_s": 7.316617200005567
+  },
+  {
+   "task": "hc16v3_dev_003",
+   "n": 118,
+   "side": {
+    "stage": 29,
+    "phase": "liquid",
+    "fraction": 0.382
+   },
+   "ok": true,
+   "solve_s": 0.7403766000061296,
+   "solved_by": "stock",
+   "closure": 5.51208910499477e-15,
+   "side_share": 0.3819999999999981
+  },
+  {
+   "task": "hc16v3_dev_003",
+   "n": 77,
+   "side": {
+    "stage": 56,
+    "phase": "vapour",
+    "fraction": 0.334
+   },
+   "ok": true,
+   "solve_s": 0.5932933999865782,
+   "solved_by": "stock",
+   "closure": 1.2677804941487972e-14,
+   "side_share": 0.3340000000000007
+  },
+  {
+   "task": "hc16v3_dev_003",
+   "n": 101,
+   "side": {
+    "stage": 35,
+    "phase": "liquid",
+    "fraction": 0.229
+   },
+   "ok": true,
+   "solve_s": 1.972026100003859,
+   "solved_by": "m3",
+   "closure": 9.646155933740848e-15,
+   "side_share": 0.22899999999999915
+  },
+  {
+   "task": "hc16v3_dev_003",
+   "n": 87,
+   "side": {
+    "stage": 19,
+    "phase": "liquid",
+    "fraction": 0.37
+   },
+   "ok": true,
+   "solve_s": 1.6450018000032287,
+   "solved_by": "m3",
+   "closure": 9.646155933740848e-16,
+   "side_share": 0.3700000000000011
+  },
+  {
+   "task": "hc16v3_dev_003",
+   "n": 111,
+   "side": {
+    "stage": 92,
+    "phase": "vapour",
+    "fraction": 0.163
+   },
+   "ok": true,
+   "solve_s": 0.6889567000034731,
+   "solved_by": "stock",
+   "closure": 2.0670334143730388e-15,
+   "side_share": 0.1630000000000003
+  },
+  {
+   "task": "hc16v3_dev_003",
+   "n": 106,
+   "side": {
+    "stage": 52,
+    "phase": "liquid",
+    "fraction": 0.246
+   },
+   "ok": true,
+   "solve_s": 23.471991899976274,
+   "solved_by": "m2",
+   "closure": 6.614506925993724e-15,
+   "side_share": 0.24599999999999853
+  },
+  {
+   "task": "hc16v3_dev_003",
+   "n": 100,
+   "side": {
+    "stage": 64,
+    "phase": "vapour",
+    "fraction": 0.248
+   },
+   "ok": true,
+   "solve_s": 0.6088341999857221,
+   "solved_by": "stock",
+   "closure": 1.460703612823614e-14,
+   "side_share": 0.24799999999999975
+  },
+  {
+   "task": "hc16v3_dev_003",
+   "n": 80,
+   "side": {
+    "stage": 56,
+    "phase": "vapour",
+    "fraction": 0.297
+   },
+   "ok": true,
+   "solve_s": 1.4425666999886744,
+   "solved_by": "m3",
+   "closure": 1.102417820998954e-15,
+   "side_share": 0.29700000000000043
+  },
+  {
+   "task": "hc16v3_dev_003",
+   "n": 105,
+   "side": {
+    "stage": 43,
+    "phase": "vapour",
+    "fraction": 0.2
+   },
+   "ok": false,
+   "solve_s": 6.116998700017575
+  },
+  {
+   "task": "hc16v3_dev_003",
+   "n": 80,
+   "side": {
+    "stage": 66,
+    "phase": "vapour",
+    "fraction": 0.376
+   },
+   "ok": true,
+   "solve_s": 2.8628817000135314,
+   "solved_by": "m4",
+   "closure": 6.0632980154942475e-15,
+   "side_share": 0.37599999999999845
+  },
+  {
+   "task": "hc16v3_dev_003",
+   "n": 51,
+   "side": {
+    "stage": 39,
+    "phase": "liquid",
+    "fraction": 0.292
+   },
+   "ok": true,
+   "solve_s": 0.31974509998690337,
+   "solved_by": "stock",
+   "closure": 1.5709453949235094e-14,
+   "side_share": 0.2920000000000015
+  },
+  {
+   "task": "hc16v3_dev_003",
+   "n": 55,
+   "side": {
+    "stage": 33,
+    "phase": "vapour",
+    "fraction": 0.062
+   },
+   "ok": true,
+   "solve_s": 0.36035840000840835,
+   "solved_by": "stock",
+   "closure": 5.787693560244508e-15,
+   "side_share": 0.06199999999999995
+  },
+  {
+   "task": "hc16v3_dev_003",
+   "n": 103,
+   "side": {
+    "stage": 78,
+    "phase": "liquid",
+    "fraction": 0.261
+   },
+   "ok": true,
+   "solve_s": 3.036609499977203,
+   "solved_by": "m4",
+   "closure": 4.1340668287460776e-16,
+   "side_share": 0.2609999999999996
+  },
+  {
+   "task": "hc16v3_dev_003",
+   "n": 53,
+   "side": {
+    "stage": 41,
+    "phase": "liquid",
+    "fraction": 0.191
+   },
+   "ok": true,
+   "solve_s": 0.2984508999797981,
+   "solved_by": "stock",
+   "closure": 1.7914289591233004e-14,
+   "side_share": 0.19099999999999115
+  },
+  {
+   "task": "hc16v3_dev_003",
+   "n": 88,
+   "side": {
+    "stage": 49,
+    "phase": "liquid",
+    "fraction": 0.212
+   },
+   "ok": true,
+   "solve_s": 1.7668782999971882,
+   "solved_by": "m3",
+   "closure": 2.756044552497385e-15,
+   "side_share": 0.21200000000000133
+  },
+  {
+   "task": "hc16v3_dev_003",
+   "n": 41,
+   "side": {
+    "stage": 29,
+    "phase": "liquid",
+    "fraction": 0.358
+   },
+   "ok": true,
+   "solve_s": 0.34442319997469895,
+   "solved_by": "stock",
+   "closure": 1.3229013851987448e-14,
+   "side_share": 0.35799999999999665
+  },
+  {
+   "task": "hc16v3_dev_003",
+   "n": 66,
+   "side": {
+    "stage": 14,
+    "phase": "vapour",
+    "fraction": 0.099
+   },
+   "ok": false,
+   "solve_s": 4.327024699974572
+  },
+  {
+   "task": "hc16v3_dev_003",
+   "n": 115,
+   "side": {
+    "stage": 41,
+    "phase": "vapour",
+    "fraction": 0.246
+   },
+   "ok": false,
+   "solve_s": 7.652433100010967
+  },
+  {
+   "task": "hc16v3_dev_003",
+   "n": 89,
+   "side": {
+    "stage": 25,
+    "phase": "liquid",
+    "fraction": 0.112
+   },
+   "ok": false,
+   "solve_s": 5.36630470000091
+  },
+  {
+   "task": "hc16v3_dev_003",
+   "n": 100,
+   "side": {
+    "stage": 48,
+    "phase": "liquid",
+    "fraction": 0.379
+   },
+   "ok": true,
+   "solve_s": 0.6575433000107296,
+   "solved_by": "stock",
+   "closure": 4.409671283995816e-15,
+   "side_share": 0.3790000000000003
+  },
+  {
+   "task": "hc16v3_dev_003",
+   "n": 69,
+   "side": {
+    "stage": 16,
+    "phase": "vapour",
+    "fraction": 0.19
+   },
+   "ok": true,
+   "solve_s": 0.47927410001284443,
+   "solved_by": "stock",
+   "closure": 3.4450556906217313e-15,
+   "side_share": 0.1900000000000013
+  },
+  {
+   "task": "hc16v3_dev_003",
+   "n": 64,
+   "side": {
+    "stage": 49,
+    "phase": "vapour",
+    "fraction": 0.227
+   },
+   "ok": true,
+   "solve_s": 1.524588300002506,
+   "solved_by": "m3",
+   "closure": 2.204835641997908e-15,
+   "side_share": 0.2269999999999988
+  },
+  {
+   "task": "hc16v3_dev_003",
+   "n": 60,
+   "side": {
+    "stage": 18,
+    "phase": "vapour",
+    "fraction": 0.248
+   },
+   "ok": true,
+   "solve_s": 2.222792299988214,
+   "solved_by": "m4",
+   "closure": 1.3780222762486925e-15,
+   "side_share": 0.2480000000000011
+  },
+  {
+   "task": "hc16v3_dev_003",
+   "n": 78,
+   "side": {
+    "stage": 17,
+    "phase": "vapour",
+    "fraction": 0.39
+   },
+   "ok": true,
+   "solve_s": 0.44384719998924993,
+   "solved_by": "stock",
+   "closure": 1.9016707412231957e-14,
+   "side_share": 0.3900000000000013
+  },
+  {
+   "task": "hc16v3_dev_003",
+   "n": 65,
+   "side": {
+    "stage": 31,
+    "phase": "liquid",
+    "fraction": 0.397
+   },
+   "ok": true,
+   "solve_s": 0.4283536000002641,
+   "solved_by": "stock",
+   "closure": 2.3426378696227775e-15,
+   "side_share": 0.39700000000000263
+  },
+  {
+   "task": "hc16v3_dev_003",
+   "n": 78,
+   "side": {
+    "stage": 60,
+    "phase": "vapour",
+    "fraction": 0.276
+   },
+   "ok": true,
+   "solve_s": 0.4682652999763377,
+   "solved_by": "stock",
+   "closure": 1.5158245038735619e-15,
+   "side_share": 0.2760000000000006
+  },
+  {
+   "task": "hc16v3_dev_003",
+   "n": 61,
+   "side": {
+    "stage": 15,
+    "phase": "liquid",
+    "fraction": 0.092
+   },
+   "ok": true,
+   "solve_s": 0.4656951999932062,
+   "solved_by": "stock",
+   "closure": 1.0059562616615455e-14,
+   "side_share": 0.0920000000000011
+  },
+  {
+   "task": "hc16v3_dev_003",
+   "n": 60,
+   "side": {
+    "stage": 35,
+    "phase": "liquid",
+    "fraction": 0.101
+   },
+   "ok": true,
+   "solve_s": 0.39465209998888895,
+   "solved_by": "stock",
+   "closure": 2.300456607746805e-11,
+   "side_share": 0.1009999999909823
+  },
+  {
+   "task": "hc16v3_dev_003",
+   "n": 41,
+   "side": {
+    "stage": 30,
+    "phase": "liquid",
+    "fraction": 0.074
+   },
+   "ok": true,
+   "solve_s": 0.2972224999975879,
+   "solved_by": "stock",
+   "closure": 9.508353706115979e-15,
+   "side_share": 0.07399999999999969
+  }
+ ]
+}

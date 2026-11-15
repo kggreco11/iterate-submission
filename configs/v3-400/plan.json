@@ -1,0 +1,66 @@
+{
+  "protocol": "memory-controls-2x2-v2",
+  "task": "hc16v3_dev_000",
+  "model": "kimi-k3.1-pro",
+  "task_sha256": "4b893ed55248f4d93f4e1487f3ade05ceb3f4cd4438e97ab370df983d03d52e8",
+  "budget_unit": "charged distinct column queries per agent",
+  "budget": 400,
+  "rounds": 800,
+  "repetitions": 1,
+  "spend_threshold": null,
+  "assigned_hypotheses": false,
+  "trials": [
+    {
+      "condition": "single_without_past",
+      "agents": 1,
+      "memory": "exact",
+      "repetition": 0,
+      "budget_per_agent": 400,
+      "total_budget": 400,
+      "allocations": [
+        400
+      ]
+    },
+    {
+      "condition": "single_with_past",
+      "agents": 1,
+      "memory": "past",
+      "repetition": 0,
+      "budget_per_agent": 400,
+      "total_budget": 400,
+      "allocations": [
+        400
+      ]
+    },
+    {
+      "condition": "swarm_without_past",
+      "agents": 5,
+      "memory": "exact",
+      "repetition": 0,
+      "budget_per_agent": 400,
+      "total_budget": 2000,
+      "allocations": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ]
+    },
+    {
+      "condition": "swarm_with_past",
+      "agents": 5,
+      "memory": "past",
+      "repetition": 0,
+      "budget_per_agent": 400,
+      "total_budget": 2000,
+      "allocations": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ]
+    }
+  ]
+}

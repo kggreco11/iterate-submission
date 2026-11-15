@@ -1,0 +1,136 @@
+{
+  "task_id": "hc16v2_dev_003",
+  "components": [
+    "Ethane",
+    "Propylene",
+    "Propane",
+    "Isobutane",
+    "N-butane",
+    "Isopentane",
+    "N-pentane",
+    "2,2-dimethylbutane",
+    "2-methylpentane",
+    "3-methylpentane",
+    "N-hexane",
+    "Methylcyclopentane",
+    "Cyclohexane",
+    "N-heptane",
+    "N-octane",
+    "N-nonane"
+  ],
+  "feed_flows_mol_s": [
+    13.182406,
+    35.697021,
+    634.456505,
+    108.439847,
+    376.993511,
+    397.660617,
+    276.88145,
+    78.220299,
+    167.981016,
+    291.528211,
+    186.983551,
+    22.338163,
+    176.478779,
+    294.413384,
+    97.512974,
+    141.232264
+  ],
+  "temperature_K": 400.0,
+  "pressure_Pa": 1350000.0,
+  "prices_usd_per_mol": [
+    0.004222617810816693,
+    0.018144461333938357,
+    0.010764635876393739,
+    0.01566957347358257,
+    0.013118425996543816,
+    0.050642185772546075,
+    0.03305916887505768,
+    0.0542013379892573,
+    0.04973706283570506,
+    0.05796401892029592,
+    0.04356258809073711,
+    0.05500691406512815,
+    0.06120013971118352,
+    0.04693320081374352,
+    0.03958878533528733,
+    0.05128453897451911
+  ],
+  "required_purity": 0.95,
+  "annual_operating_hours": 8000.0,
+  "stream_limit": 48,
+  "min_recovery_fraction": 0.01,
+  "action_bounds": {
+    "reflux_ratio": [
+      0.1,
+      30.0
+    ],
+    "reboil_ratio": [
+      0.1,
+      30.0
+    ]
+  },
+  "meta": {
+    "family": "hc16v2",
+    "split": "dev"
+  },
+  "economics": {
+    "premium": {
+      "purity": 0.99,
+      "multiplier": 1.2
+    },
+    "groups": [
+      {
+        "name": "C3 mix",
+        "members": [
+          "Propylene",
+          "Propane"
+        ],
+        "min_fraction": 0.95,
+        "discount": 0.85
+      },
+      {
+        "name": "C4 mix",
+        "members": [
+          "Isobutane",
+          "N-butane"
+        ],
+        "min_fraction": 0.95,
+        "discount": 0.85
+      },
+      {
+        "name": "C5 mix",
+        "members": [
+          "Isopentane",
+          "N-pentane"
+        ],
+        "min_fraction": 0.95,
+        "discount": 0.85
+      },
+      {
+        "name": "C6 paraffin mix",
+        "members": [
+          "2,2-dimethylbutane",
+          "2-methylpentane",
+          "3-methylpentane",
+          "N-hexane"
+        ],
+        "min_fraction": 0.95,
+        "discount": 0.85
+      },
+      {
+        "name": "C6 naphthene mix",
+        "members": [
+          "Methylcyclopentane",
+          "Cyclohexane"
+        ],
+        "min_fraction": 0.95,
+        "discount": 0.85
+      }
+    ],
+    "cost": {
+      "energy_multiplier": 2.0,
+      "capital_multiplier": 10.0
+    }
+  }
+}

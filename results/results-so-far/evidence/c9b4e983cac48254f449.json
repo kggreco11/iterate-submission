@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-90279e64",
+ "agent_id": "agent-6",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 129,
+ "failed_requests": 4,
+ "input_tokens": 716166,
+ "output_tokens": 128108,
+ "usd_estimated_total": 0.3685794000000001,
+ "requests_with_unknown_cost": 2,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 5064.823426961899,
+ "status": "finished",
+ "island": 3,
+ "strategy": null,
+ "best_valid_reward": 0.0,
+ "solves_used": 48,
+ "first_positive_at_solves": null,
+ "usd_cached_price_estimate": 0.28121172000000005,
+ "notebook": "Budget 3 solves left after this one. Best valid = empty plant 0.000. Current = 2 cols, reward -0.445, no revenue.\n\nPlan: test whether a single modest feed column (38 st, R=B=1.4, dp=0.05) with a LIQUID side draw at stage 12 can pull a C5-rich middle cut that qualifies as a C5 mix (>=95% iso+n-pentane) \u2014 that blend is worth ~$172M/yr which would more than pay for one column. Only one column, so cost ~$110M < $172M => positive reward. If it converges and earns, great; if not, revert to empty (0.000) as final safe result.\n\nConvergence regime learned: stages<=40, R,B<=1.5, dp<=0.1 always converges. Stricter is worse.",
+ "task": "hc16v3_dev_002"
+}

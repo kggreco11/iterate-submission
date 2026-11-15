@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-cull-db97bd5c",
+ "agent_id": "agent-6",
+ "provider": "modal",
+ "model": "kimi-k3.1-pro",
+ "requests": 13,
+ "failed_requests": 3,
+ "input_tokens": 35809,
+ "output_tokens": 11447,
+ "usd_estimated_total": 0.186088,
+ "requests_with_unknown_cost": 3,
+ "price_source": "https://modal.com/docs/guide/supported-models; 2026-11-14; uncached estimate",
+ "wall_s": 2101.002048254013,
+ "status": "culled",
+ "island": 6,
+ "strategy": null,
+ "best_valid_reward": 0.0,
+ "solves_used": 28,
+ "first_positive_at_solves": null,
+ "usd_cached_price_estimate": 0.1608592,
+ "notebook": "PLAN: Three-column blend train: root C4/C5 split, C3/C4 splitter on tops, C5/C6 splitter on bottoms. Set boil-up from the desired distillate fraction, establish qualifying blends, then reduce cost. Key diagnosis: previous R=B=4 forced ~44% distillate, whereas root needs 26%; excess boil-up pulled C5 overhead and C4 into C5 product. Use root R6/B2.5, C3 splitter R5/B3.5, C5 splitter R5/B2.2. Revenues if qualified: C3 ~$73M, C4 ~$186M, C5 ~$618M.",
+ "task": "hc16v3_dev_002"
+}

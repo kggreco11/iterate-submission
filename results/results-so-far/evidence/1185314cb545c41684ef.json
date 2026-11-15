@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-761c0ffe",
+ "agent_id": "agent-36",
+ "provider": "modal",
+ "model": "kimi-k3.1-pro",
+ "requests": 27,
+ "failed_requests": 1,
+ "input_tokens": 180176,
+ "output_tokens": 21725,
+ "usd_estimated_total": 0.5776020000000002,
+ "requests_with_unknown_cost": 1,
+ "price_source": "https://modal.com/docs/guide/supported-models; 2026-11-14; uncached estimate",
+ "wall_s": 3608.643015384674,
+ "status": "budget_exhausted",
+ "island": 7,
+ "strategy": null,
+ "best_valid_reward": 1.3418033193467973,
+ "solves_used": 50,
+ "first_positive_at_solves": 28,
+ "usd_cached_price_estimate": 0.4682772000000001,
+ "notebook": "PLAN: Restore the best demonstrated 1.341 configuration and use final solves to trim the light splitter while retaining the saleable C5 blend. Final step: adopt R1111 (1.352) and use the last solve to probe TB reflux 3.2, just below its demonstrated 3.25 boundary.\nR1111 is the best available design: T40 with TB reflux 3.25 retains both blends and saves $4.5M/yr versus TB3.5. TB3.0 collapses C5 sales, so the last probe must be cautious. B90, root60, root reflux4.5, TT recovery, TBB polishing, and BB recovery were all unprofitable. If TB3.2 fails, R1111 remains the demonstrated fallback.",
+ "task": "hc16v3_dev_002"
+}

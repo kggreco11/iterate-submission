@@ -1,0 +1,50 @@
+{
+ "run_id": "hc16v3_dev_002-F7-d73b7f06",
+ "code": "F7",
+ "name": "supervisor",
+ "task": "hc16v3_dev_002",
+ "team_budget": 500,
+ "agents": 10,
+ "roles": [
+  "supervisor",
+  "worker",
+  "worker",
+  "worker",
+  "worker",
+  "worker",
+  "worker",
+  "worker",
+  "worker",
+  "worker"
+ ],
+ "teams": [
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null
+ ],
+ "budgets": {
+  "agent-1": 56,
+  "agent-2": 56,
+  "agent-3": 56,
+  "agent-4": 56,
+  "agent-5": 56,
+  "agent-6": 55,
+  "agent-7": 55,
+  "agent-8": 55,
+  "agent-9": 55
+ },
+ "strategies": {},
+ "max_rounds": 150,
+ "provider": "modal",
+ "model": "kimi-k3.1-pro",
+ "seed": 0,
+ "simulator_retries": "ChemSep alternative initialisations on",
+ "started": "2026-11-14 18:41:11"
+}

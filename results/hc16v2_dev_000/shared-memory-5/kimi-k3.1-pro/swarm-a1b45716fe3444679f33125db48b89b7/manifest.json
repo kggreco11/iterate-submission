@@ -1,0 +1,24 @@
+{
+  "schema": "report-bundle-v1",
+  "run_id": "swarm-a1b45716fe3444679f33125db48b89b7",
+  "task": "hc16v2_dev_000",
+  "condition": "shared-memory-5",
+  "model": "kimi-k3.1-pro",
+  "status": "all_finished_or_exhausted",
+  "report": "index.html",
+  "sha256": {
+    "summary.json": "7043dc0af29aeb62ef3d1dcfd454926dbb8be3d332bf6d7cf38281dca38abad7",
+    "index.html": "a8ac81a36da07cca56c8ba1977f3a952c95767c79da5b592d7ae9e78166ae7f6",
+    "report-data.json": "426b51f8f0a25858236ca697c5f323e3ae0ef39fa72e8cb45b3d234388c1720e",
+    "agents/agent-2/index.html": "eff6f2537357bb862e5007fb79cf81ebd8404868030152e8702c121665091080",
+    "agents/agent-2/report-data.json": "2adae843dae34b2dbf8f9d9ab70d0d4a1e73512814580a3db77f9483c0d40a34",
+    "agents/agent-3/index.html": "07f5e09ea91424a3dae96b544e9972660ba3c90ea0a1993a9df87d80617744ae",
+    "agents/agent-3/report-data.json": "ab6b94207848cdbd253d113097ed22c3aa9427c405a156eee6467cae8e53fbaa",
+    "agents/agent-4/index.html": "8de3e8e552955effe856a438eab6c588afdad90d599f2b4e6419afaa6f5a4a57",
+    "agents/agent-4/report-data.json": "6737efc9530b616f72b7e5d722eca5fc30b0ea12790dbf40e2dd09c791fc3aa7",
+    "agents/agent-1/index.html": "2eb6ef067ccd24150a0b3c722c49ffaab582e04d141a7c9b3f0a7f7b95b32b82",
+    "agents/agent-1/report-data.json": "49fdd1979f454628811769f61004d349af77f88c5ffa760d371bc10d715a2358",
+    "agents/agent-0/index.html": "a56c4615f900fb147b1de52e0d9da5ae40eaff9a26badf3ecd4b5ad8855e5a36",
+    "agents/agent-0/report-data.json": "27bf3ba2421f0730b6d0765ea9706f9c0d7acda6ed47c61b7a53ebb3eea574d1"
+  }
+}

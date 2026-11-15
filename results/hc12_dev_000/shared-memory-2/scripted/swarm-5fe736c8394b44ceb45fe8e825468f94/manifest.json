@@ -1,0 +1,9 @@
+{
+  "status": "round_limit",
+  "error": null,
+  "evidence_gaps": [
+    "Mock/scripted runs are plumbing only; no performance claim.",
+    "Memory and compute dollar charges unknown.",
+    "Live run preceded source-hash and raw-backend-response instrumentation; checked simulator results are retained in trajectory. No physical ChemSep invocation."
+  ]
+}

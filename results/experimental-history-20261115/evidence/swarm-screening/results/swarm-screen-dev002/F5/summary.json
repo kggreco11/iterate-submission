@@ -1,0 +1,164 @@
+{
+ "run_id": "hc16v3_dev_002-F5-972fa1b1",
+ "code": "F5",
+ "name": "teams",
+ "task": "hc16v3_dev_002",
+ "status": "all_done",
+ "wall_s": 1555.2,
+ "team_best": 1.4629434506230694,
+ "team_solves": 500,
+ "team_budget": 500,
+ "best_at": {
+  "50": 0.0,
+  "100": 0.0,
+  "250": 1.209394960328318,
+  "500": 1.4629434506230694
+ },
+ "team_first_positive_at_team_solves": 200,
+ "agents_off_zero": 10,
+ "solving_agents": 10,
+ "best_record": "R287",
+ "best_design": {
+  "": [
+   45,
+   2.7,
+   3.55,
+   0.5
+  ],
+  "B": [
+   75,
+   4.6,
+   4.8,
+   0.6
+  ]
+ },
+ "copies": 125,
+ "records": 293,
+ "usd": 4.012712,
+ "requests": 470,
+ "input_tokens": 1152246,
+ "output_tokens": 170822,
+ "backend_calls": 356,
+ "agents": {
+  "agent-0": {
+   "role": "solver",
+   "team": "A",
+   "status": "budget_exhausted",
+   "best_valid_reward": 1.456196112969184,
+   "solves_used": 50,
+   "first_positive_at_solves": 20,
+   "requests": 45,
+   "input_tokens": 118082,
+   "output_tokens": 18242,
+   "usd_estimated_total": 0.41858399999999996
+  },
+  "agent-1": {
+   "role": "solver",
+   "team": "A",
+   "status": "budget_exhausted",
+   "best_valid_reward": 1.446075179312372,
+   "solves_used": 50,
+   "first_positive_at_solves": 23,
+   "requests": 49,
+   "input_tokens": 128932,
+   "output_tokens": 20024,
+   "usd_estimated_total": 0.45810399999999984
+  },
+  "agent-2": {
+   "role": "solver",
+   "team": "A",
+   "status": "budget_exhausted",
+   "best_valid_reward": 1.3672062932457576,
+   "solves_used": 50,
+   "first_positive_at_solves": 29,
+   "requests": 42,
+   "input_tokens": 106483,
+   "output_tokens": 16814,
+   "usd_estimated_total": 0.38110600000000006
+  },
+  "agent-3": {
+   "role": "solver",
+   "team": "A",
+   "status": "budget_exhausted",
+   "best_valid_reward": 1.4501618046547518,
+   "solves_used": 50,
+   "first_positive_at_solves": 21,
+   "requests": 50,
+   "input_tokens": 118078,
+   "output_tokens": 17396,
+   "usd_estimated_total": 0.41011600000000004
+  },
+  "agent-4": {
+   "role": "solver",
+   "team": "A",
+   "status": "budget_exhausted",
+   "best_valid_reward": 1.4629434506230694,
+   "solves_used": 50,
+   "first_positive_at_solves": 25,
+   "requests": 47,
+   "input_tokens": 120852,
+   "output_tokens": 17040,
+   "usd_estimated_total": 0.4121039999999999
+  },
+  "agent-5": {
+   "role": "solver",
+   "team": "B",
+   "status": "budget_exhausted",
+   "best_valid_reward": 1.446075179312372,
+   "solves_used": 50,
+   "first_positive_at_solves": 23,
+   "requests": 53,
+   "input_tokens": 116869,
+   "output_tokens": 16610,
+   "usd_estimated_total": 0.3998379999999999
+  },
+  "agent-6": {
+   "role": "solver",
+   "team": "B",
+   "status": "budget_exhausted",
+   "best_valid_reward": 1.4597138266706025,
+   "solves_used": 50,
+   "first_positive_at_solves": 27,
+   "requests": 46,
+   "input_tokens": 112574,
+   "output_tokens": 17750,
+   "usd_estimated_total": 0.402648
+  },
+  "agent-7": {
+   "role": "solver",
+   "team": "B",
+   "status": "budget_exhausted",
+   "best_valid_reward": 1.412163015932848,
+   "solves_used": 50,
+   "first_positive_at_solves": 24,
+   "requests": 43,
+   "input_tokens": 109195,
+   "output_tokens": 15158,
+   "usd_estimated_total": 0.36996999999999997
+  },
+  "agent-8": {
+   "role": "solver",
+   "team": "B",
+   "status": "budget_exhausted",
+   "best_valid_reward": 1.4391876116563593,
+   "solves_used": 50,
+   "first_positive_at_solves": 24,
+   "requests": 49,
+   "input_tokens": 112941,
+   "output_tokens": 15894,
+   "usd_estimated_total": 0.3848220000000001
+  },
+  "agent-9": {
+   "role": "solver",
+   "team": "B",
+   "status": "budget_exhausted",
+   "best_valid_reward": 1.412163015932848,
+   "solves_used": 50,
+   "first_positive_at_solves": 24,
+   "requests": 46,
+   "input_tokens": 108240,
+   "output_tokens": 15894,
+   "usd_estimated_total": 0.37542000000000003
+  }
+ }
+}

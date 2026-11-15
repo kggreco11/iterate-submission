@@ -1,0 +1,14 @@
+{
+  "run_id": "luna-pilot-20261114T211810Z",
+  "task": "hc12_dev_000",
+  "condition": "single-agent",
+  "model": "gpt-6-luna",
+  "status": "finished",
+  "schema": "report-bundle-v1",
+  "report": "index.html",
+  "evidence": "Legacy self-contained HTML and summary; no standardized report-data payload available",
+  "sha256": {
+    "index.html": "9b4a06864809cebc91bb91230e6bf13253daaf93b94fba54ef91fee31bd8ddc1",
+    "summary.json": "c9639c8c0417967deb296287dfeab9a513d3a21524d7f354945ca7d17cf8fa94"
+  }
+}

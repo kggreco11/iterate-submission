@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-niche-20940918",
+ "agent_id": "agent-7",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 98,
+ "failed_requests": 1,
+ "input_tokens": 477868,
+ "output_tokens": 100468,
+ "usd_estimated_total": 0.2639219999999998,
+ "requests_with_unknown_cost": 0,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 4628.58513045311,
+ "status": "budget_exhausted",
+ "island": 0,
+ "strategy": null,
+ "best_valid_reward": 0.0,
+ "solves_used": 50,
+ "first_positive_at_solves": null,
+ "usd_cached_price_estimate": 0.19742856000000003,
+ "notebook": "FEED 3300 mol/s C2..C9. reward=(rev-cost)/439; empty=0.000.\n\nPrizes (M$/yr if pure): C6-paraffin mix 970 mol/s ~1180; C5 mix 695 ~618; C6-naphthene mix 269 ~396; nC8 233 ~359; n-heptane 205 ~332; nC6 213 ~332; C4 mix 544 ~186; C3 mix 286 ~73.\n\nLESSON: my multi-column trees keep failing to converge. dp 0.1-0.15, reflux 3-6 converge best. Only 3 solves left.\n\nFinal plan: one simple uniform 3-column 45/3/2/dp0.15 ladder to attempt a mid blend cut; if invalid revert to empty (0.000). Then finish.",
+ "task": "hc16v3_dev_002"
+}

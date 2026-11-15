@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-761c0ffe",
+ "agent_id": "agent-37",
+ "provider": "modal",
+ "model": "kimi-k3.1-pro",
+ "requests": 32,
+ "failed_requests": 1,
+ "input_tokens": 222754,
+ "output_tokens": 25571,
+ "usd_estimated_total": 0.7012179999999999,
+ "requests_with_unknown_cost": 1,
+ "price_source": "https://modal.com/docs/guide/supported-models; 2026-11-14; uncached estimate",
+ "wall_s": 3608.643499135971,
+ "status": "budget_exhausted",
+ "island": 7,
+ "strategy": null,
+ "best_valid_reward": 1.3580644318158381,
+ "solves_used": 50,
+ "first_positive_at_solves": 17,
+ "usd_cached_price_estimate": 0.5652820000000001,
+ "notebook": "PLAN: Final bracket of the T-reflux purity cliff using the last two solves. Restore the 1.358 core and test T reflux 5.99: 5.95 failed C5 qualification, while 6.0 works. If valid this retains both blends with a small duty saving; the banked 1.358 design remains protected.\nTB 3.12 is optimal; 3.115/3.11 lose C5 qualification. Feed reflux 4.5 and root 60 stages destroy blend purity; T at 35 stages reached only ~1.342. B reflux 7.8 loses C6 qualification; B dp 0.3 adds $14M revenue but $17M cost. BB/TT/TBB add-ons have not paid. Best core: root 70/5/8/0.15, B 100/8/8/0.2, T 40/6/10/0.1, TB 50/3.12/30/0.1, revenue $1545.9M/yr and cost $950.3M/yr.",
+ "task": "hc16v3_dev_002"
+}

@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Plant replay</title>
+<style>
+  :root { --bg:#f6f7f9; --panel:#ffffff; --ink:#1b2430; --muted:#6b7686; --line:#c9d0da; --accent:#1f6feb; --good:#1a7f4b; --bad:#8a94a3; --col:#2b3a4f; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#10151c; --panel:#18202b; --ink:#e7ecf3; --muted:#93a0b2; --line:#33404f; --accent:#58a6ff; --good:#3fb97a; --bad:#6b7686; --col:#9db4d3; } }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:14px/1.4 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  header { padding:14px 20px 6px; display:flex; flex-wrap:wrap; gap:12px 24px; align-items:baseline; }
+  h1 { font-size:18px; margin:0; font-weight:650; }
+  .sub { color:var(--muted); }
+  main { padding:0 20px 20px; display:grid; gap:14px; grid-template-columns: minmax(0,1fr) 270px; }
+  @media (max-width: 900px) { main { grid-template-columns: minmax(0,1fr); } }
+  .panel { background:var(--panel); border:1px solid var(--line); border-radius:10px; padding:12px; }
+  #plant { width:100%; height:auto; display:block; }
+  .controls { display:flex; gap:10px; align-items:center; flex-wrap:wrap; margin-top:10px; }
+  button, select { font:inherit; color:var(--ink); background:var(--panel); border:1px solid var(--line); border-radius:8px; padding:6px 12px; cursor:pointer; }
+  button:hover { border-color:var(--accent); }
+  input[type=range] { flex:1; min-width:160px; accent-color:var(--accent); }
+  .stat { display:flex; justify-content:space-between; padding:5px 0; border-bottom:1px solid var(--line); }
+  .stat:last-child { border-bottom:0; }
+  .stat b { font-variant-numeric: tabular-nums; }
+  .big { font-size:26px; font-weight:700; font-variant-numeric: tabular-nums; }
+  h2 { font-size:12px; text-transform:uppercase; letter-spacing:.06em; color:var(--muted); margin:14px 0 6px; font-weight:600; }
+  .chips { display:flex; flex-wrap:wrap; gap:5px; }
+  .chip { font-size:11px; padding:2px 7px; border-radius:999px; border:1px solid var(--line); color:var(--muted); }
+  .chip.on { color:#fff; border-color:transparent; }
+  .col rect { fill:var(--panel); stroke:var(--col); stroke-width:2; }
+  .col text { fill:var(--ink); font-size:11px; }
+  .edge { stroke:var(--line); stroke-width:2; fill:none; }
+  .edge-label { fill:var(--muted); font-size:10px; }
+  .prod text { font-size:10.5px; fill:#fff; }
+  .prod.off rect { fill:var(--bad) !important; opacity:.55; }
+  .prod.off text { fill:var(--ink); }
+  .new { animation: pop .9s ease-out; }
+  @keyframes pop { 0% { opacity:0; transform:scale(.6); transform-box:fill-box; transform-origin:center; } 100% { opacity:1; transform:scale(1); } }
+  .curve-axis { stroke:var(--line); }
+  .curve-line { stroke:var(--accent); stroke-width:2; fill:none; }
+  .curve-dot { fill:var(--accent); }
+  .curve-text { fill:var(--muted); font-size:10px; }
+  .cmp-line { stroke-width:1.6; fill:none; opacity:.75; }
+</style>
+</head>
+<body>
+<header>
+  <h1 id="title">Plant replay</h1>
+  <span class="sub" id="subtitle"></span>
+  <select id="runsel" aria-label="Run"></select>
+</header>
+<main>
+  <section class="panel">
+    <div id="plantwrap" style="overflow-x:auto"><svg id="plant" role="img" aria-label="Separation plant built over time"></svg></div>
+    <div class="controls">
+      <button id="play">Play</button>
+      <button id="restart">Restart</button>
+      <input id="slider" type="range" min="0" max="0" value="0" aria-label="Snapshot">
+      <select id="speed" aria-label="Speed"><option value="1500">slow</option><option value="800" selected>normal</option><option value="300">fast</option></select>
+    </div>
+    <svg id="curve" style="width:100%;height:150px;margin-top:10px" role="img" aria-label="Best reward against solves"></svg>
+  </section>
+  <aside class="panel">
+    <div class="sub">Plant score</div>
+    <div class="big" id="reward">-</div>
+    <div class="sub" id="bound"></div>
+    <h2>This design</h2>
+    <div class="stat"><span>Solves used</span><b id="solves">-</b></div>
+    <div class="stat"><span>Columns</span><b id="ncols">-</b></div>
+    <div class="stat"><span>Product value / yr</span><b id="rev">-</b></div>
+    <div class="stat"><span>Plant cost / yr</span><b id="tac">-</b></div>
+    <div class="stat"><span>Pure products (95%+)</span><b id="npure">-</b></div>
+    <h2>Components recovered</h2>
+    <div class="chips" id="chips"></div>
+  </aside>
+</main>
+<script>
+const RUNS = /*DATA*/[];
+const $ = id => document.getElementById(id);
+const SVGNS = "http://www.w3.org/2000/svg";
+function el(name, attrs, parent, text) { const e = document.createElementNS(SVGNS, name); for (const k in attrs) e.setAttribute(k, attrs[k]); if (text !== undefined) e.textContent = text; if (parent) parent.appendChild(e); return e; }
+const fmtM = v => (Math.abs(v) >= 1e9 ? (v/1e9).toFixed(2) + " B" : (v/1e6).toFixed(1) + " M") ;
+let run = null, idx = 0, timer = null;
+
+function compColor(i, n) { const h = 215 - (215 * i / Math.max(n - 1, 1)); return `hsl(${h} 62% 42%)`; }
+
+function buildTree(snap) {
+  const cols = snap.columns, prods = {}; snap.products.forEach(p => prods[p.node] = p);
+  const leaves = [];
+  function walk(path) {
+    if (cols[path]) { const t = walk(path + "T"), b = walk(path + "B"); return { path, col: cols[path], kids: [t, b].filter(Boolean) }; }
+    if (prods[path]) { const n = { path, prod: prods[path], kids: [] }; leaves.push(n); return n; }
+    return null;
+  }
+  const root = walk("");
+  return { root, leaves };
+}
+
+function layout(root) {
+  let slot = 0; const SW = 78, LH = 112;
+  (function place(n, depth) { n.depth = depth; if (!n.kids.length) { n.x = slot++ * SW + SW / 2; } else { n.kids.forEach(k => place(k, depth + 1)); n.x = (n.kids[0].x + n.kids[n.kids.length - 1].x) / 2; } n.y = 70 + depth * LH; })(root, 0);
+  let maxDepth = 0; (function m(n) { maxDepth = Math.max(maxDepth, n.depth); n.kids.forEach(m); })(root);
+  return { w: Math.max(slot, 1) * SW + 20, h: 110 + (maxDepth + 1) * LH, SW, LH };
+}
+
+let prevPaths = new Set();
+function drawPlant(snap) {
+  const svg = $("plant"); svg.innerHTML = "";
+  const { root, leaves } = buildTree(snap);
+  const names = run.components;
+  if (!root) { svg.style.width = "100%"; svg.setAttribute("viewBox", "0 0 400 120"); el("text", { x: 20, y: 60, fill: "currentColor" }, svg, "No columns yet: the feed would be sold as it is."); return; }
+  const L = layout(root);
+  svg.setAttribute("viewBox", `0 0 ${L.w} ${L.h}`);
+  svg.style.width = Math.max($("plantwrap").clientWidth - 4, L.w * 0.62) + "px";
+  const nowPaths = new Set();
+  const maxN = 200, hOf = n => 26 + 64 * Math.sqrt(Math.min(n, maxN) / maxN);
+  el("text", { x: root.x, y: 18, "text-anchor": "middle", class: "edge-label", style: "font-size:11px" }, svg, "Feed: " + names.length + " hydrocarbons");
+  el("line", { x1: root.x, y1: 24, x2: root.x, y2: root.y - hOf(root.col.n_stages) / 2, class: "edge" }, svg);
+  (function draw(n) {
+    nowPaths.add(n.path);
+    const isNew = !prevPaths.has(n.path);
+    if (n.col) {
+      const h = hOf(n.col.n_stages), w = 30;
+      n.kids.forEach(k => {
+        const kh = k.col ? hOf(k.col.n_stages) : 34;
+        const sx = n.x + (k.path.endsWith("T") ? -6 : 6);
+        el("path", { d: `M ${sx} ${n.y + h / 2} L ${sx} ${n.y + h / 2 + 8} L ${k.x} ${n.y + h / 2 + 8} L ${k.x} ${k.y - kh / 2}`, class: "edge" }, svg);
+        el("text", { x: (sx + k.x) / 2, y: n.y + h / 2 + 5, "text-anchor": "middle", class: "edge-label" }, svg, k.path.endsWith("T") ? "tops" : "bottoms");
+      });
+      const g = el("g", { class: "col" + (isNew ? " new" : "") }, svg);
+      el("rect", { x: n.x - w / 2, y: n.y - h / 2, width: w, height: h, rx: 5 }, g);
+      for (let i = 1; i < Math.min(8, Math.ceil(n.col.n_stages / 12)); i++) el("line", { x1: n.x - w / 2 + 3, x2: n.x + w / 2 - 3, y1: n.y - h / 2 + i * h / Math.min(8, Math.ceil(n.col.n_stages / 12)), y2: n.y - h / 2 + i * h / Math.min(8, Math.ceil(n.col.n_stages / 12)), stroke: "var(--line)", "stroke-width": 1 }, g);
+      el("text", { x: n.x, y: n.y + h / 2 + 24, "text-anchor": "middle" }, g, `${n.col.n_stages} stages`);
+      el("text", { x: n.x, y: n.y + h / 2 + 36, "text-anchor": "middle", style: "fill:var(--muted)" }, g, `reflux ${n.col.reflux.toFixed(1)}`);
+    } else {
+      const p = n.prod, ci = names.indexOf(p.component), sold = p.value > 0;
+      const g = el("g", { class: "prod" + (sold ? "" : " off") + (isNew ? " new" : "") }, svg);
+      el("rect", { x: n.x - 33, y: n.y - 17, width: 66, height: 34, rx: 6, fill: compColor(ci, names.length) }, g);
+      el("text", { x: n.x, y: n.y - 2, "text-anchor": "middle", style: "font-weight:600" }, g, p.component.length > 11 ? p.component.slice(0, 10) + "." : p.component);
+      el("text", { x: n.x, y: n.y + 11, "text-anchor": "middle" }, g, sold ? (p.purity * 100).toFixed(0) + "% sold" : "mixed " + (p.purity * 100).toFixed(0) + "%");
+    }
+    n.kids.forEach(draw);
+  })(root);
+  prevPaths = nowPaths;
+}
+
+function drawCurve(i) {
+  const svg = $("curve"); svg.innerHTML = ""; const W = 620, H = 150, m = { l: 40, r: 10, t: 10, b: 24 };
+  svg.setAttribute("viewBox", `0 0 ${W} ${H}`);
+  const all = RUNS.filter(r => r.task === run.task);
+  const xmax = Math.max(...all.map(r => r.trace.length ? r.trace[r.trace.length - 1].solves : 1), 1), ymax = Math.max(...all.map(r => Math.max(...r.trace.map(t => t.reward), 0.1))) * 1.1;
+  const X = s => m.l + (W - m.l - m.r) * s / xmax, Y = v => H - m.b - (H - m.t - m.b) * v / ymax;
+  el("line", { x1: m.l, x2: W - m.r, y1: H - m.b, y2: H - m.b, class: "curve-axis" }, svg); el("line", { x1: m.l, x2: m.l, y1: m.t, y2: H - m.b, class: "curve-axis" }, svg);
+  el("text", { x: W / 2, y: H - 4, "text-anchor": "middle", class: "curve-text" }, svg, "column solves used");
+  el("text", { x: 4, y: m.t + 8, class: "curve-text" }, svg, ymax.toFixed(1)); el("text", { x: 4, y: H - m.b, class: "curve-text" }, svg, "0");
+  const step = (tr, upto) => { let d = ""; let py = null; tr.slice(0, upto).forEach((t, k) => { const x = X(t.solves), y = Y(t.reward); d += (k === 0 ? `M ${x} ${y}` : ` L ${x} ${py} L ${x} ${y}`); py = y; }); if (tr.length && upto >= tr.length) d += ` L ${X(xmax)} ${py}`; return d; };
+  all.filter(r => r !== run).forEach((r, k) => el("path", { d: step(r.trace, r.trace.length), class: "cmp-line", stroke: "var(--muted)", "stroke-dasharray": "4 3" }, svg));
+  el("path", { d: step(run.trace, i + 1), class: "curve-line" }, svg);
+  const t = run.trace[i]; if (t) el("circle", { cx: X(t.solves), cy: Y(t.reward), r: 4, class: "curve-dot" }, svg);
+}
+
+function show(i) {
+  idx = Math.max(0, Math.min(i, run.trace.length - 1)); const t = run.trace[idx]; $("slider").value = idx;
+  drawPlant(t); drawCurve(idx);
+  $("reward").textContent = t.reward.toFixed(2); $("solves").textContent = t.solves; $("ncols").textContent = Object.keys(t.columns).length;
+  $("rev").textContent = "$" + fmtM(t.revenue); $("tac").textContent = "$" + fmtM(t.tac);
+  const pure = t.products.filter(p => p.value > 0); $("npure").textContent = pure.length;
+  const got = new Set(pure.map(p => p.component)); const chips = $("chips"); chips.innerHTML = "";
+  run.components.forEach((c, k) => { const s = document.createElement("span"); s.className = "chip" + (got.has(c) ? " on" : ""); if (got.has(c)) s.style.background = compColor(k, run.components.length); s.textContent = c; chips.appendChild(s); });
+}
+function play() { if (timer) { clearInterval(timer); timer = null; $("play").textContent = "Play"; return; } $("play").textContent = "Pause"; if (idx >= run.trace.length - 1) show(0); timer = setInterval(() => { if (idx >= run.trace.length - 1) { clearInterval(timer); timer = null; $("play").textContent = "Play"; return; } show(idx + 1); }, +$("speed").value); }
+function load(k) { if (timer) play(); run = RUNS[k]; prevPaths = new Set(); $("title").textContent = "Plant replay: " + run.label; $("subtitle").textContent = run.task + " | " + run.components.length + " components | " + (run.trace.length) + " improvements";
+  $("bound").textContent = "upper bound (sell every component pure, no cost): " + run.upper_bound.toFixed(1); $("slider").max = run.trace.length - 1; show(0); }
+RUNS.forEach((r, k) => { const o = document.createElement("option"); o.value = k; o.textContent = r.label; $("runsel").appendChild(o); });
+$("runsel").onchange = e => load(+e.target.value); $("play").onclick = play; $("restart").onclick = () => { if (timer) play(); show(0); play(); }; $("slider").oninput = e => { if (timer) play(); show(+e.target.value); };
+if (RUNS.length) load(0);
+</script>
+</body>
+</html>

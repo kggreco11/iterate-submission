@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-78e50fff",
+ "agent_id": "agent-0",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 92,
+ "failed_requests": 0,
+ "input_tokens": 827491,
+ "output_tokens": 93812,
+ "usd_estimated_total": 0.3608217,
+ "requests_with_unknown_cost": 0,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 5634.555552482605,
+ "status": "finished",
+ "island": 0,
+ "strategy": null,
+ "best_valid_reward": 1.8891545644235561,
+ "solves_used": 46,
+ "first_positive_at_solves": 29,
+ "usd_cached_price_estimate": 0.3023461800000001,
+ "notebook": "Turn 45. Locked best = R1323-equivalent, reward 1.889 (rev 1463.8, cost 635.3, 7 cols). Earners: BTB C6-par $646M, TBB C5mix $379M, BTTBB C6mix $164M, BTTT C5mix $156M, TBT nC4 $118M. Waste: TT $0 (C3 53%/C4 40%/C2 6%), BB $0 (1037: nC8 23%/nC7 20%/CyC6 18%/nC6 14%), BTTBT $0 (96, 94% nC5).\n\nLearnings: TT C3/C4 split FAILED (ethane co-distills with C3). BTTB sharpen 70/6/5 = 1.875 (R1369); 75/6/5 = 1.875 too. BB column probes (R1824 45/5/4/0.2; turn-41) all regressed -> BB monetization unprofitable (close-boiler gaps too tight, one more column never repays cost). C6 naphthene mix ~$102M if isolable - it isn't.\n\nSolves 46/50 -> 4 left, revert free. Just reverted to lock 1.889. Plan: hold; if any final probe, only cheap ones (small sub-columns) since column costs dominate. Likely finish at 1.889 = team best.",
+ "task": "hc16v3_dev_002"
+}

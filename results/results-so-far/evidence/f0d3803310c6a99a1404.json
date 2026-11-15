@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-761c0ffe",
+ "agent_id": "agent-45",
+ "provider": "modal",
+ "model": "kimi-k3.1-pro",
+ "requests": 32,
+ "failed_requests": 3,
+ "input_tokens": 175900,
+ "output_tokens": 21225,
+ "usd_estimated_total": 0.56405,
+ "requests_with_unknown_cost": 3,
+ "price_source": "https://modal.com/docs/guide/supported-models; 2026-11-14; uncached estimate",
+ "wall_s": 3608.64746594429,
+ "status": "budget_exhausted",
+ "island": 9,
+ "strategy": null,
+ "best_valid_reward": 1.2462413550079852,
+ "solves_used": 50,
+ "first_positive_at_solves": 20,
+ "usd_cached_price_estimate": 0.4328372000000001,
+ "notebook": "PLAN: Final solve: adopt validated island-best R1189 (1.226) and make one conservative proportional reduction of both heavy-column ratios, seeking another small net energy gain; if purity fails, R1189 remains the best evaluated design.\nR1189 root 55/4.75/6/0.3, B 70/6/6/0.8 gives revenue 1154.4, cost 616.7, reward 1.226. Reducing B from 6.25/6.5 to 6/6 preserved C6 purity and gained $6.9M/yr profit. B reflux 6.2 with boil 6.5 fails, so boil-up reduction is essential. Final probe 5.8/5.8 tests the same direction without changing the proven root.",
+ "task": "hc16v3_dev_002"
+}

@@ -1,0 +1,16 @@
+{
+  "schema": "report-bundle-v1",
+  "run_id": "hc16v2_dev_000_anthropic_claude-opus-5-5_s0_ab9fe8",
+  "task": "hc16v2_dev_000",
+  "model": "claude-opus-5-5",
+  "condition": "single-agent",
+  "status": "complete",
+  "stop_reason": "finished",
+  "report": "index.html",
+  "evidence": "report-data.json; full raw simulator logs may remain on the execution host",
+  "sha256": {
+    "index.html": "6a64aa400deb96c3e3114aff24c6fbd0652374d8ba74577cd4b3c334aafb80e3",
+    "report-data.json": "08e822d69ea5633d91036f12a62895f4b7973152c5846982a3babf74533160b4",
+    "summary.json": "b4f984cb251bdc81a01e98625afd9dadad24b23419b2e5c03a28a1d83e9900d3"
+  }
+}

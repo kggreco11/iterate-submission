@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-78e50fff",
+ "agent_id": "agent-29",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 72,
+ "failed_requests": 0,
+ "input_tokens": 438612,
+ "output_tokens": 74197,
+ "usd_estimated_total": 0.22062000000000007,
+ "requests_with_unknown_cost": 0,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 5634.424325227737,
+ "status": "budget_exhausted",
+ "island": 5,
+ "strategy": null,
+ "best_valid_reward": 1.4329028501180923,
+ "solves_used": 50,
+ "first_positive_at_solves": 43,
+ "usd_cached_price_estimate": 0.17209776,
+ "notebook": "SOLVES 50/50 (used last on this copy). Best valid locked = copy of R1623 (reward 1.474).\n\nSTRUCTURE THAT WORKS: 2 columns only. Feed column splits a worthless light T (C3/C4/C5, $0) from B; B column splits BT = C6-paraffin blend (~$1060M/yr) from worthless heavies BB. ALL revenue is the C6-paraffin blend (2,2-DMB+2-MP+3-MP+nC6). Blends pay NO premium, so don't chase pure grades. Any 3rd column (T-split or BB-split) added $600M+ cost for $0 revenue \u2014 never worth it.\n\nKEY TRADE: the feed column's reflux sets the nC5 leak into B (too low -> nC5 contaminates BT, blend drops <95%); the B column's reflux/stages set the MCP impurity (~4% floor, MCP bp 345K sits inside the C6 window). BT has ~4% MCP \u2014 the binding constraint \u2014 so cant shrink columns much further without breaking 95%.\n\nCROSS-AGENT FINDINGS: R1623 (36/2.6/2.6 + 36/4.0/4.0) = 1.474 beats R1621 (36/2.5 + 40/4.5)=1.454 (cheaper B column wins despite slightly lower rev). My 38/2.6+B40/4.5=1.433, 40/3/3+B40/4.5=1.344, 32/2/2 fails (BT 94%).\n\nDECISION: budget exhausted; R1623 is the best seen (1.474). Locking it. If a solve becomes available, next probe: B column 32-34 stages at R~3.5 while keeping BT>=95%.",
+ "task": "hc16v3_dev_002"
+}

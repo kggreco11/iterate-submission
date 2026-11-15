@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-761c0ffe",
+ "agent_id": "agent-41",
+ "provider": "modal",
+ "model": "kimi-k3.1-pro",
+ "requests": 24,
+ "failed_requests": 3,
+ "input_tokens": 138613,
+ "output_tokens": 17652,
+ "usd_estimated_total": 0.4537459999999999,
+ "requests_with_unknown_cost": 3,
+ "price_source": "https://modal.com/docs/guide/supported-models; 2026-11-14; uncached estimate",
+ "wall_s": 3608.6454842090607,
+ "status": "budget_exhausted",
+ "island": 8,
+ "strategy": null,
+ "best_valid_reward": 0.5416572797706051,
+ "solves_used": 50,
+ "first_positive_at_solves": 33,
+ "usd_cached_price_estimate": 0.36296839999999997,
+ "notebook": "PLAN: Use the final solve to bracket the ethane-stripper reflux optimum on the unchanged best core; retain the best valid result automatically.\nBest is about 0.541. TTT reflux 4.0 gives revenue $802.0M and cost $564.7M; reflux 4.5 gives $802.5M and $565.1M, a marginal net gain. Test 5.0 once to see whether recovery continues to outweigh duty. Keep boil-up 0.5 because 0.1 destroys C3 blend purity. Root 45 stages is not beneficial; avoid it. The 40-stage T column and root boil-up 5.9 are validated savings.",
+ "task": "hc16v3_dev_002"
+}

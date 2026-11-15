@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-other-family-ec12d65d",
+ "agent_id": "agent-4",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 115,
+ "failed_requests": 3,
+ "input_tokens": 640807,
+ "output_tokens": 115483,
+ "usd_estimated_total": 0.33082170000000005,
+ "requests_with_unknown_cost": 3,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 4948.908680677414,
+ "status": "finished",
+ "island": 0,
+ "strategy": null,
+ "best_valid_reward": 0.0,
+ "solves_used": 48,
+ "first_positive_at_solves": null,
+ "usd_cached_price_estimate": 0.25306170000000006,
+ "notebook": "T55. 48 solves used, 2 left. Best valid = 0.000 (empty). Island 0 all at 0.000.\n\nLEARNINGS: Every column I built cost far more than it earned. T42 1col(90st R5)=-0.677; T52 1col(30st R1.2 dp.75)=-0.253 ($111M/yr); T53 40st R8=-1.179 ($517M). T54 2col=-1.774. Others: agent-9 2cols(40/4,55/6 dp.5)=-1.337; agent-3 1col 55st R5 dp.2 + side draw 29% = -0.521 ($228M). Pattern: cost grows fast; no column ever reached 95% purity, so revenue=0 everywhere.\n\nKEY MATH (units: $M/yr = flow*price*28.8): n-pentane pure 442*0.0344*28.8=$438M; one decent column costs $200-450M/yr. C5mix 695 mol/s @85%mean=$618M but needs 95% purity => >=2 columns => cost ~$600M. C6-paraffin mix valuable but requires 2MP/3MP/nC6 splits at 3-8K gaps = infeasible. So single-column purification prizes generally don't beat column cost at this expense level.\n\nCONCLUSION: For this feed/price/expense combo, no configuration I found is net-positive; empty (0.000) is my best valid. With 2 solves left the rational move is to secure 0.000 rather than risk an invalid design.",
+ "task": "hc16v3_dev_002"
+}

@@ -1,0 +1,28 @@
+{
+  "commit": "b54ec03500f1f4808dd4342fe2c910dc49522957",
+  "source": "results/final-dev002",
+  "files": {
+    "ring-3isl-k10-low-cap1500-config.json": "9e1c28079df3eb9c7ce0a8fc2824e09161db8ce9ac0ae966b15ef76a2f3c10f7",
+    "summary.json": "fc696f815985f5f30ecf7c7908e8e10e4bd9ba270565c73af19b78f4c1f1d44b",
+    "strategies-low-cap1500-config.json": "9bf4f07625190d689f7cbb754fe0673e79bd794c38229ac02ce81cd5e2a332b1",
+    "ring-5x2-k10-low_50agents-config.json": "44e079e90405e324ba3b75aa67fc471bbac4ec0efcd2887e4787eb27b9be6d17",
+    "ring-5x2-k10-low-cap1500_50agents-config.json": "aa5e20154583c3e3a39026c7d0f602b637ed14a93aa0ba33b81e9eed6cac93ec",
+    "open-low-config.json": "2bbcbb7509e7c21f9511c2d3db22ca65370c4fabc315ecb174b3331c7a691b7b",
+    "solo-low-cap1500-config.json": "834e5c3676cec16e9dd1dd0e538e0960f3cab8bbc7477185fb2e7af088ae24c7",
+    "summary.md": "0d96cfb669d21947b27ed3b6fc987f6233c8e49a4acbaf54f80c58bc5e603647",
+    "independent-low-cap1500-config.json": "b6fb751b83e8142519554ea5ea8f230472712258c76bf98c48ba7200acd5be98",
+    "open-low-cap1500-config.json": "44dd54f3e051d6513d6033e973acc9486b483767c7b904b2923ab5090135a46e",
+    "open-nocopy-low-cap1500-config.json": "4e508ff6c3faf1aa08c947fdc8ec76e5b61c0dfaae054993d5a3c205096097e8",
+    "managed-low-cap1500-config.json": "0f7cadaae2c57d2fd1ec23d094176b1851d80bd7b627f62b26362724c28760bb",
+    "niche-low-cap1500-config.json": "efe2f54dc4b3714b790ebc19277cd66ca588070bbc40b06b1e8935dee8b7c074",
+    "solo-low-config.json": "7a13d23ef87937d7786c39b5945db3dbafc5216c37a38989587cd89eb3b12099",
+    "cull-low-config.json": "567bac57535f0cb097a1bba18f6285f32e05c7842404f258565f1cafde8ecfb6",
+    "cull-low-cap1500-config.json": "d78d51386174a08f746228cb06d5249c5349c02febc4dcaa17f58039abcf4718",
+    "reviewed-snapshot.json": "b058860a180dcb2c2e3f53e79fc758ecbb73de606db3d31d2ce98c99bbdcc37b",
+    "ring-5x2-k10-low-cap1500-config.json": "9f3472c5562bf458babd87479b19467a9fce4735775d829d964ee43b8ea72b7f",
+    "independent-low-config.json": "3ff732b4fce0261075b3df40fa4afeab9327d45b81264ff050f977942195f18b",
+    "source-narrative.md": "940325105db8adad93b7c4fd4a85e3a3819d7cfd3dc2ec275297ba8e4b2dae06",
+    "other-family-low-cap1500-config.json": "0ca71b1ff62b9bfb036585147df14566d258a7778cf2c135b02304152013a825",
+    "ring-5x2-k10-low-config.json": "52dd6a6424ab167b30209bc27b433081c7d264f40616653a393a0c0f1cea1eb4"
+  }
+}

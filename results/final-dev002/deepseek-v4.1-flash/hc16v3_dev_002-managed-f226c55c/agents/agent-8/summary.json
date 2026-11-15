@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-managed-f226c55c",
+ "agent_id": "agent-8",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 99,
+ "failed_requests": 0,
+ "input_tokens": 453306,
+ "output_tokens": 96882,
+ "usd_estimated_total": 0.25225020000000004,
+ "requests_with_unknown_cost": 0,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 5543.9125735759735,
+ "status": "stopped",
+ "island": 8,
+ "strategy": null,
+ "best_valid_reward": 0.0,
+ "solves_used": 44,
+ "first_positive_at_solves": null,
+ "usd_cached_price_estimate": 0.18672443999999994,
+ "notebook": "Solves 44/50. Best valid 0.000 (empty). Costs: 35 stages R=3 on 3300 mol/s = $194.6M/yr; 30 st R=2.5 on 1048 = $40.9M/yr. Revenue = flow*price*28.8 $M/yr. Targets: C6 paraffin mix (970 mol/s, 0.0497*0.85=0.0423) = $1181M/yr; C5 mix (695 mol/s, 0.0309) = $618M/yr; C4 mix (544, 0.0119) = $186M/yr. Pure 1.2x at >=99%. Total pure feed value $3615M/yr. Since a blend needs >=95% members, one column on the whole feed can only deliver a blend via a SIDE DRAW middle cut. Testing: one 70-stage R=5 feed column with 30% liquid side draw to try to hit 95% C6 mix; T/B sold as-is. If S is >=95% C6 paraffins, net could be ~+$700M. 6 solves left.",
+ "task": "hc16v3_dev_002"
+}

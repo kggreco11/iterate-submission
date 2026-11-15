@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-78e50fff",
+ "agent_id": "agent-26",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 71,
+ "failed_requests": 0,
+ "input_tokens": 434265,
+ "output_tokens": 71754,
+ "usd_estimated_total": 0.2163843,
+ "requests_with_unknown_cost": 0,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 5634.421324014664,
+ "status": "budget_exhausted",
+ "island": 5,
+ "strategy": null,
+ "best_valid_reward": 1.474272003341892,
+ "solves_used": 50,
+ "first_positive_at_solves": 44,
+ "usd_cached_price_estimate": 0.16889885999999996,
+ "notebook": "T36, solves 48/50 (2 left). Current best: my own 1.454 (feed 36/2.5/2.5 + B 40/4.5/4.5). \n\nVALUE MAP: revenue comes ONLY from BT = C6-paraffin blend (2,2DMB+2MP+3MP+nC6), ~$1060M/yr at 96%. T (1601 mol/s C4/C5-rich) and BB (797, C7/C8/cyclohex) both earn $0. Column cost dominates the denominator.\n\nKEY LEARNINGS: (1) Shrinking columns is the main lever \u2014 cost is size+reflux+temperature. (2) Feed column must keep enough C5/C6 sharpness: 32/2/2 FAILED (n-pentane leaked into BT -> 94% < 95%), 40/3/3 works. (3) B column shrank 50/6/6->40/4.5/4.5->36/4/4 with revenue barely dropping \u2014 the C6-par blend cut is not very demanding, so trim aggressively.\n\nOTHER PLANTS: R1623 (1.474, feed 36/2.6 + B 36/4) is strictly better than mine \u2014 copied it now. R1624 (1.433, 38/2.6 + 40/4.5) slightly worse. R1622 (T column 50/5/5 to try to monetize C5 mix) -> -0.220, hopeless: extra column costs $686M, far exceeds C5-mix value. Confirms: adding columns is NOT worth it here; only one blend pays.\n\nPLAN (last solve): after locking R1623, make one low-risk trim to B (e.g. 34/4/4 or feed 36/2.4) to shave cost while keeping BT>=95%. If it fails, R1623 stays my best valid. Then finish.",
+ "task": "hc16v3_dev_002"
+}

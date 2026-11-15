@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-independent-683a1314",
+ "agent_id": "agent-6",
+ "provider": "modal",
+ "model": "kimi-k3.1-pro",
+ "requests": 21,
+ "failed_requests": 3,
+ "input_tokens": 69989,
+ "output_tokens": 19411,
+ "usd_estimated_total": 0.33408800000000005,
+ "requests_with_unknown_cost": 3,
+ "price_source": "https://modal.com/docs/guide/supported-models; 2026-11-14; uncached estimate",
+ "wall_s": 1935.8997523784637,
+ "status": "budget_exhausted",
+ "island": 6,
+ "strategy": null,
+ "best_valid_reward": 0.0,
+ "solves_used": 50,
+ "first_positive_at_solves": null,
+ "usd_cached_price_estimate": 0.2582864,
+ "notebook": "PLAN: Final solve\u2014use the measured cut response to put both C5 and C6-paraffin blends on specification, with extra C6 rectification to limit naphthene leakage and a slightly lower T boil-up to avoid the failed boil-up-9 case.\nRoot gives exact C5-/C6+ split (T=1556). At T=70/6/6, about 124 mol/s n-butane remained in TB; boil-up 9 failed, so use 8. At B=80/6/6, BT contained 89% paraffins with n-pentane and methylcyclopentane contamination; increase stages and reflux at fixed boil-up to sharpen that split. Qualifying TB and BT are worth roughly $567M and $1009M/yr.",
+ "task": "hc16v3_dev_002"
+}

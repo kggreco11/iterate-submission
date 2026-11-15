@@ -1,0 +1,415 @@
+{
+  "task": {
+    "task_id": "hackathon-config0-reference",
+    "components": [
+      "Ethane",
+      "Propane",
+      "Isobutane",
+      "N-butane",
+      "Isopentane",
+      "N-pentane"
+    ],
+    "feed_flows_mol_s": [
+      16.639287,
+      1104.848666,
+      1192.371316,
+      513.488401,
+      342.769315,
+      172.383015
+    ],
+    "temperature_K": 378.0,
+    "pressure_Pa": 1763055.0,
+    "prices_usd_per_mol": [
+      0.0037571397076943494,
+      0.008994774871571286,
+      0.015789271719143936,
+      0.014451063385968571,
+      0.03929660249843611,
+      0.03929660249843611
+    ],
+    "required_purity": 0.95,
+    "annual_operating_hours": 8000.0,
+    "stream_limit": 18,
+    "fail_penalty": 0.5,
+    "min_recovery_fraction": 0.01,
+    "flowsheet": "cfg0",
+    "meta": {}
+  },
+  "worker": {
+    "protocol": 1,
+    "name": "azure01",
+    "url": "http://127.0.0.1:5701",
+    "pid": 4472,
+    "identity": "chemsep-01\\chemsepadmin",
+    "session": "",
+    "code_hash": "af312cef9ed57075",
+    "configs": [
+      0
+    ],
+    "cofe_pids": [
+      6240
+    ],
+    "started": 1794688910.854071,
+    "uptime_s": 257.93061685562134,
+    "busy": false,
+    "busy_s": 0.0,
+    "n_solves": 3,
+    "n_solver_failures": 0,
+    "n_transient": 0,
+    "solve_s_total": 18.06042760000014
+  },
+  "summary": {
+    "reward": 2.5297178934716276,
+    "revenue": 1488052864.7451398,
+    "tac": 116419000.0,
+    "profit": 1371633864.7451398,
+    "recovery": 0.9146284825045938,
+    "columns": 12,
+    "failures": 0,
+    "forced_off_spec": 2,
+    "abandoned": 0,
+    "unresolved": 0,
+    "done": true,
+    "spec_success": false,
+    "best_purity": [
+      0.0150811817367032,
+      0.9849188146378575,
+      0.9999970917070575,
+      1.0,
+      0.99934427569576,
+      0.9999265967206987
+    ]
+  },
+  "expected_summary": {
+    "reward": 2.5297178934716267,
+    "revenue": 1488052864.7451394,
+    "tac": 116419000.0,
+    "profit": 1371633864.7451394,
+    "recovery": 0.9146284825045936,
+    "columns": 12,
+    "failures": 0,
+    "forced_off_spec": 2,
+    "abandoned": 0,
+    "unresolved": 0,
+    "done": true,
+    "spec_success": false,
+    "best_purity": [
+      0.0150811817367032,
+      0.9849188146378575,
+      0.9999970917070575,
+      1.0,
+      0.99934427569576,
+      0.9999265967206987
+    ]
+  },
+  "outlets": [
+    {
+      "stream": 4,
+      "disposition": "product_on_spec",
+      "flows_mol_s": [
+        16.639287,
+        1086.675243,
+        4e-06,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "total_mol_s": 1103.3145339999999,
+      "dominant_component": "Propane",
+      "purity": 0.9849188146378575,
+      "temperature_K": 322.41422656238296,
+      "pressure_Pa": 1745430.0
+    },
+    {
+      "stream": 5,
+      "disposition": "product_on_spec",
+      "flows_mol_s": [
+        0.0,
+        18.173423,
+        1048.158771,
+        10.960864,
+        0.0,
+        0.0
+      ],
+      "total_mol_s": 1077.2930579999997,
+      "dominant_component": "Isobutane",
+      "purity": 0.9729560245620743,
+      "temperature_K": 365.42146739617084,
+      "pressure_Pa": 1745430.0
+    },
+    {
+      "stream": 10,
+      "disposition": "product_on_spec",
+      "flows_mol_s": [
+        0.0,
+        0.0,
+        4e-06,
+        0.000792,
+        208.758741,
+        0.136182
+      ],
+      "total_mol_s": 208.89571899999999,
+      "dominant_component": "Isopentane",
+      "purity": 0.99934427569576,
+      "temperature_K": 311.6632372937443,
+      "pressure_Pa": 143513.0
+    },
+    {
+      "stream": 13,
+      "disposition": "product_on_spec",
+      "flows_mol_s": [
+        0.0,
+        0.0,
+        0.000319,
+        204.031595,
+        2.3e-05,
+        1e-06
+      ],
+      "total_mol_s": 204.031938,
+      "dominant_component": "N-butane",
+      "purity": 0.9999983188906435,
+      "temperature_K": 302.9473084504057,
+      "pressure_Pa": 281807.0
+    },
+    {
+      "stream": 14,
+      "disposition": "product_on_spec",
+      "flows_mol_s": [
+        0.0,
+        0.0,
+        0.006963,
+        163.206372,
+        0.0,
+        0.0
+      ],
+      "total_mol_s": 163.213335,
+      "dominant_component": "N-butane",
+      "purity": 0.999957338044713,
+      "temperature_K": 302.946737563709,
+      "pressure_Pa": 281807.0
+    },
+    {
+      "stream": 17,
+      "disposition": "product_on_spec",
+      "flows_mol_s": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.017551,
+        115.277465
+      ],
+      "total_mol_s": 115.295016,
+      "dominant_component": "N-pentane",
+      "purity": 0.9998477731249025,
+      "temperature_K": 315.88649729215064,
+      "pressure_Pa": 126291.0
+    },
+    {
+      "stream": 18,
+      "disposition": "product_on_spec",
+      "flows_mol_s": [
+        0.0,
+        2e-06,
+        104.184525,
+        0.000301,
+        0.0,
+        0.0
+      ],
+      "total_mol_s": 104.18482799999998,
+      "dominant_component": "Isobutane",
+      "purity": 0.9999970917070575,
+      "temperature_K": 276.3944464248973,
+      "pressure_Pa": 174720.0
+    },
+    {
+      "stream": 20,
+      "disposition": "product_on_spec",
+      "flows_mol_s": [
+        0.0,
+        0.0,
+        0.0,
+        67.383625,
+        0.0,
+        0.0
+      ],
+      "total_mol_s": 67.383625,
+      "dominant_component": "N-butane",
+      "purity": 1.0,
+      "temperature_K": 284.33536163290313,
+      "pressure_Pa": 154994.0
+    },
+    {
+      "stream": 21,
+      "disposition": "forced_off_spec_stream_limit",
+      "flows_mol_s": [
+        0.0,
+        0.0,
+        0.0,
+        3.97744,
+        82.65579,
+        2.733644
+      ],
+      "total_mol_s": 89.366874,
+      "dominant_component": "Isopentane",
+      "purity": 0.9249041205133794,
+      "temperature_K": 311.6821031182745,
+      "pressure_Pa": 154994.0
+    },
+    {
+      "stream": 22,
+      "disposition": "product_on_spec",
+      "flows_mol_s": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        51.333324,
+        0.822414
+      ],
+      "total_mol_s": 52.155738,
+      "dominant_component": "Isopentane",
+      "purity": 0.9842315719892603,
+      "temperature_K": 294.90959613231814,
+      "pressure_Pa": 82089.1
+    },
+    {
+      "stream": 23,
+      "disposition": "product_on_spec",
+      "flows_mol_s": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.003921,
+        53.413311
+      ],
+      "total_mol_s": 53.417232,
+      "dominant_component": "N-pentane",
+      "purity": 0.9999265967206987,
+      "temperature_K": 303.18570587753044,
+      "pressure_Pa": 82089.1
+    },
+    {
+      "stream": 24,
+      "disposition": "forced_off_spec_stream_limit",
+      "flows_mol_s": [
+        0.0,
+        0.0,
+        40.020721,
+        24.55391,
+        0.0,
+        0.0
+      ],
+      "total_mol_s": 64.574631,
+      "dominant_component": "Isobutane",
+      "purity": 0.619759189951856,
+      "temperature_K": 271.36096691646674,
+      "pressure_Pa": 127546.0
+    },
+    {
+      "stream": 25,
+      "disposition": "product_on_spec",
+      "flows_mol_s": [
+        0.0,
+        0.0,
+        0.0,
+        39.373477,
+        0.0,
+        0.0
+      ],
+      "total_mol_s": 39.373477,
+      "dominant_component": "N-butane",
+      "purity": 1.0,
+      "temperature_K": 278.79388338478316,
+      "pressure_Pa": 127546.0
+    }
+  ],
+  "component_recovery_to_own_on_spec_product": [
+    0.0,
+    0.9835512106234464,
+    0.96642990361905,
+    0.9230881711775999,
+    0.7587962329708539,
+    0.9785811902640176
+  ],
+  "overall_component_residual_mol_s": [
+    0.0,
+    1.99999976757681e-06,
+    -9.000000090964022e-06,
+    -2.5000000050567905e-05,
+    3.4999999968476914e-05,
+    1.9999999949504854e-06
+  ],
+  "column_balance_checks": [
+    {
+      "stream": 1,
+      "max_balance_error_mol_s": 1.5568937214993639e-06,
+      "passed": true
+    },
+    {
+      "stream": 2,
+      "max_balance_error_mol_s": 6.884874892421067e-09,
+      "passed": true
+    },
+    {
+      "stream": 3,
+      "max_balance_error_mol_s": 1.461930310142634e-07,
+      "passed": true
+    },
+    {
+      "stream": 6,
+      "max_balance_error_mol_s": 2.55648478173498e-05,
+      "passed": false
+    },
+    {
+      "stream": 7,
+      "max_balance_error_mol_s": 4.7852779516688315e-08,
+      "passed": true
+    },
+    {
+      "stream": 8,
+      "max_balance_error_mol_s": 1.071033750577044e-07,
+      "passed": true
+    },
+    {
+      "stream": 9,
+      "max_balance_error_mol_s": 3.83296341510686e-06,
+      "passed": true
+    },
+    {
+      "stream": 11,
+      "max_balance_error_mol_s": 1.1096120289266764e-07,
+      "passed": true
+    },
+    {
+      "stream": 12,
+      "max_balance_error_mol_s": 4.84498997366245e-07,
+      "passed": true
+    },
+    {
+      "stream": 15,
+      "max_balance_error_mol_s": 5.597367675136411e-06,
+      "passed": true
+    },
+    {
+      "stream": 16,
+      "max_balance_error_mol_s": 1.6652350609547284e-08,
+      "passed": true
+    },
+    {
+      "stream": 19,
+      "max_balance_error_mol_s": 1.9560502551030368e-08,
+      "passed": true
+    }
+  ],
+  "actual_simulator_calls": 12,
+  "cache_hits": 0,
+  "wall_s": 74.18938302993774,
+  "source_sha256": {
+    "btx/replay.py": "58ad5a77b0a52e76760d223cfc58a49fce5b4b4ee7394cacbc3d645804c1abde",
+    "btx/task.py": "011a820b7388c59aaa39d3a59ed9128636913eae5800c32f50d6e2c355bbd7f9",
+    "btx/backends.py": "d83c89d70c086ff3c9b28db60f04d00c2d2e2bca9ae9ea2a4c7c6a2b63db8d1f"
+  },
+  "reference_sha256": "369ca4a82a0b528791ec6cf4c190bad3b068fd53013d54900e7fdba52ae6db6f"
+}

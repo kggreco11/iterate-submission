@@ -1,0 +1,14 @@
+{
+ "run_id": "swarm-5fe736c8394b44ceb45fe8e825468f94",
+ "agent_id": "agent-1",
+ "provider": "scripted",
+ "model": "scripted",
+ "requests": 2,
+ "failed_requests": 0,
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "usd_estimated_total": 0.0,
+ "requests_with_unknown_cost": 1,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 89.6583321094513
+}

@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-78e50fff",
+ "agent_id": "agent-8",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 98,
+ "failed_requests": 0,
+ "input_tokens": 1033773,
+ "output_tokens": 101142,
+ "usd_estimated_total": 0.4315023000000001,
+ "requests_with_unknown_cost": 0,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 5634.398699045181,
+ "status": "finished",
+ "island": 1,
+ "strategy": null,
+ "best_valid_reward": 1.7512974572311615,
+ "solves_used": 44,
+ "first_positive_at_solves": 10,
+ "usd_cached_price_estimate": 0.3664603800000002,
+ "notebook": "Budget 50; 44-45 used. Best=1.751 = 9-column tree ('','B','T','BB','BT','TB','BBT','BTT','BTTB'; TB=55/5/4, BTT=60/6/5, BTTB=40/6/5). Re-asserted via revert so a valid high design stays on file.\n\nLESSONS: (1) TT (535 mol/s: C3 39/nC4 24/iC4 16/C3= 14/C2 6) is $0; splitting it loses more in column cost than it earns (my probe->1.590; agent9 70/8/6 probe->1.509; agent6 TB-deeper->1.683). (2) TBT nC4 98% already sells pure ($118M); pushing TB deeper flips it to cheaper C4-mix (agent6 R1603 ->1.683). (3) All $0 streams (TT 535, BBB 636, BBTB 271, BTTBB 123) too contaminated; deep splits (90-stage->1.465; 80-stage->1.451) lose >$130M. (4) Cost-trimming the feed/B columns broke purity (-0.311). (5) Largest buried value = C6 naphthenes (MCP+CH 269 mol/s) in BBTB/BBT/BBB, but CH(353.9) vs C6 paraffins(333-342) is very hard and unproven.\n\nCONCLUSION: 1.751 is a genuine local optimum for this topology; no plausible upside within remaining budget. FINAL: finish at 1.751.",
+ "task": "hc16v3_dev_002"
+}

@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-open-5f533da2",
+ "agent_id": "agent-9",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 118,
+ "failed_requests": 4,
+ "input_tokens": 660548,
+ "output_tokens": 117890,
+ "usd_estimated_total": 0.33963240000000006,
+ "requests_with_unknown_cost": 3,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 5132.714555740356,
+ "status": "budget_exhausted",
+ "island": 0,
+ "strategy": null,
+ "best_valid_reward": 0.22993091408159474,
+ "solves_used": 50,
+ "first_positive_at_solves": 49,
+ "usd_cached_price_estimate": 0.26408423999999997,
+ "notebook": "Turn 58 FINAL. Solves 49/50, so one solve left. Best valid = 0.230 (turn 57), already locked in; current plant = that design, so this last edit is pure upside with no downside risk.\n\nCURRENT 0.230 PLANT: '' 60/3/0.1 -> T sold 0, B; 'B' 80/6/0.1 -> BB sold 0, BT; 'BT' 90/8/0.1 -> BTT (551 mol/s, nC5 66% + iC5 27% = 93%, just under the 95% C5-mix bar, sold 0), BTB (599 mol/s, DMB+2MP+3MP+nC6 = 98%, C6 paraffin mix $711M). Cost $610M. Revenue $711M.\n\nKEY ECONOMICS: value($M/yr)=flow*price*28.8. C5mix mean $0.03635*0.85 = ~$0.031/mol; full C5mix pool iC5+nC5=695 mol/s -> ~$618M max. C6parmix pool 970 mol/s -> ~$1180M max. Columns cost $120-440M/yr each; only 2-3 affordable. Hard split nC6/MCP (3K) -> C6naphthene mix not viable. nC5/DMB gap 13.7K -> C5mix feasible with a sharp column.\n\nPLAN: the BTT stream is 93% C5mix, agonisingly close to 95%. Final edit sharpens BT (110 stages, R=12) to try to cross 95% C5 mix (worth ~$490M) while keeping BTB as C6 paraffin mix. If invalid, no loss (0.230 stands).\n\nLESSONS: cost dominates; moderate 2-3 column trees with hi-reflux dedicated heart-cuts beat many cheap columns; front column should take C4- overhead (~$186M C4mix pool) instead of leaving it unsold. Safety net is what matters - keep a valid high score banked before spending solves.",
+ "task": "hc16v3_dev_002"
+}

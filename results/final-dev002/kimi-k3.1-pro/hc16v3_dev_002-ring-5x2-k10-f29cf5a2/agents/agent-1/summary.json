@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-f29cf5a2",
+ "agent_id": "agent-1",
+ "provider": "modal",
+ "model": "kimi-k3.1-pro",
+ "requests": 19,
+ "failed_requests": 3,
+ "input_tokens": 115498,
+ "output_tokens": 19135,
+ "usd_estimated_total": 0.42234599999999994,
+ "requests_with_unknown_cost": 3,
+ "price_source": "https://modal.com/docs/guide/supported-models; 2026-11-14; uncached estimate",
+ "wall_s": 1954.6795246601105,
+ "status": "budget_exhausted",
+ "island": 0,
+ "strategy": null,
+ "best_valid_reward": 1.3472804463094101,
+ "solves_used": 50,
+ "first_positive_at_solves": 41,
+ "usd_cached_price_estimate": 0.34988519999999995,
+ "notebook": "PLAN: Continue the successful reduction of feed-tops splitter boil-up to recover more saleable C5 blend and reduce energy. Step: use the final solve to test T=50/3/4/0.2, retaining the fixed proven heavy train.\nReducing T reboil monotonically improved reward: 8 gave 1.192, 7 gave 1.284, and 6 gave 1.347. At 6, TB remains a qualifying C5 blend and revenue reaches $1477.2M/yr while splitter cost falls to $107.4M/yr. Thus 4 should recover still more C5 overhead and reduce duty; blend purity has ample margin. Light-end recovery columns previously lost money, so do not add any. Best valid design remains automatically preserved if this test disappoints.",
+ "task": "hc16v3_dev_002"
+}

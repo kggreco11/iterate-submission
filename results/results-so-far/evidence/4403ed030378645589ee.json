@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-761c0ffe",
+ "agent_id": "agent-21",
+ "provider": "modal",
+ "model": "kimi-k3.1-pro",
+ "requests": 28,
+ "failed_requests": 0,
+ "input_tokens": 194149,
+ "output_tokens": 25238,
+ "usd_estimated_total": 0.640678,
+ "requests_with_unknown_cost": 0,
+ "price_source": "https://modal.com/docs/guide/supported-models; 2026-11-14; uncached estimate",
+ "wall_s": 3608.6351397037506,
+ "status": "budget_exhausted",
+ "island": 4,
+ "strategy": null,
+ "best_valid_reward": 1.885254750708047,
+ "solves_used": 50,
+ "first_positive_at_solves": 17,
+ "usd_cached_price_estimate": 0.5176444,
+ "notebook": "PLAN: (1) Adopt the clearly superior R1157 backbone at 1.936, (2) use remaining solves only for modest root-reflux reductions, which improved both cost and revenue at 7.25, (3) stop immediately if blend qualification or net reward worsens. Step 2: test 7.0 while retaining all other validated columns. R1157 shows root reflux 7.25 versus 7.5 saves $6.2M/yr and adds $15.3M/yr through better light/heavy recovery, so this direction dominates terminal stage trims, which were neutral. Avoid touching T, B, or TT.",
+ "task": "hc16v3_dev_002"
+}

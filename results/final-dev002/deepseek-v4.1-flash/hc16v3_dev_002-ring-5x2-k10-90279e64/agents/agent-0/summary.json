@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-90279e64",
+ "agent_id": "agent-0",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 67,
+ "failed_requests": 1,
+ "input_tokens": 384563,
+ "output_tokens": 69138,
+ "usd_estimated_total": 0.1983344999999999,
+ "requests_with_unknown_cost": 1,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 5064.962589263916,
+ "status": "budget_exhausted",
+ "island": 0,
+ "strategy": null,
+ "best_valid_reward": 0.0,
+ "solves_used": 50,
+ "first_positive_at_solves": null,
+ "usd_cached_price_estimate": 0.1527153,
+ "notebook": "Turn 33. Solves 49/50. Banked best = EMPTY (0.000). Any gamble is free.\n\nECON: C6parmix(970 mol/s)=$1186M > C5mix(695)=$618M > C6naph(269)=$396M > nC8 $358M > nC7/nC6 $332M > C4mix $186M > C3mix $73M.\nGAPS: C3/C4 231->261 (30K easy); C4/C5 273->301 (28K); C5/C6 309->323 (14K moderate); C6/C7 354->372 (18K); nC6/MCP 342->345 (3K brutal).\n\nLESSONS: root 30/1/1 nearly inert (T only 503/3300 mol/s) -> low reflux = no separation; must spend on stages+reflux. Side draw at stage22/frac0.22 gave C4-rich S (49% C3), not C5mix: side draws leak badly. Cost floor ~$95M/yr for a 3300 mol/s column; 60-stage cols $200-295M. R=1 columns cheap but useless. Convergence split-dependent; 60/4 failed for me, agent-1's 70/5 worked.\n\nTHIS SOLVE: root separates C5-/C6+ (14K is the hardest gap in the chain) then T of that gives C6parmix overhead vs C7+ bottoms. Goal C6parmix >=95% (2,2DMB+2MP+3MP+nC6). If it converges and any stream qualifies, revenue dwarfs ~$250M cost => positive reward. If not, still 0. Last solve reserved to refine or finish.",
+ "task": "hc16v3_dev_002"
+}

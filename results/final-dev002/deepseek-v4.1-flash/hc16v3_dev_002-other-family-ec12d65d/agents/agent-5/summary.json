@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-other-family-ec12d65d",
+ "agent_id": "agent-5",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 107,
+ "failed_requests": 3,
+ "input_tokens": 597945,
+ "output_tokens": 107805,
+ "usd_estimated_total": 0.30874949999999995,
+ "requests_with_unknown_cost": 3,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 4948.908677577972,
+ "status": "finished",
+ "island": 0,
+ "strategy": null,
+ "best_valid_reward": 0.0,
+ "solves_used": 48,
+ "first_positive_at_solves": null,
+ "usd_cached_price_estimate": 0.23797061999999994,
+ "notebook": "Turn 51, solves 46/50. BEST VALID = 0.000 (empty). All cascades net-negative or non-convergent.\n\nECONOMICS: value = flow*price*28.8 $M/yr.\n- C5 mix 695 mol/s ~$618M (iC5/nC4 gap 28.3K; nC5/2,2DMB gap 13.7K)\n- C6-par mix ~$1181M (nC6/MCP gap only 3.1K - very hard)\n- C4 mix 544 ~$186M (C3/iC4 gap 30.3K); C3 mix 286 ~$73M\nBlend = 85% of mean; needs >=95% members. Premium 1.2x if pure >=99%.\n\nKEY: To get C5 mix, need root split C4-/C5+ then B column C5/C6+ (13.7K gap, sharp). Reflux ~2-3, dp 0.2 to lower T and aid convergence.\n\nWHY LOSING: columns cost $200-450M/yr each; sharp cuts need high reflux which fails to converge; mild reflux never hits 95%. Other agents (R449, R448) also stuck at 0.000/negative.\n\nRISK-FREE: best valid is 0.000 (empty), so any positive net design wins. Trying is costless since fallback stays 0.000.\n\nPLAN: Run this 2-col C5 train; if revenue $0 or invalid, revert to empty and finish on 0.000.",
+ "task": "hc16v3_dev_002"
+}

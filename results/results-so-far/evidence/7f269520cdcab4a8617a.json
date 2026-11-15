@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-761c0ffe",
+ "agent_id": "agent-35",
+ "provider": "modal",
+ "model": "kimi-k3.1-pro",
+ "requests": 30,
+ "failed_requests": 0,
+ "input_tokens": 213566,
+ "output_tokens": 23517,
+ "usd_estimated_total": 0.6623020000000001,
+ "requests_with_unknown_cost": 0,
+ "price_source": "https://modal.com/docs/guide/supported-models; 2026-11-14; uncached estimate",
+ "wall_s": 3608.643014907837,
+ "status": "budget_exhausted",
+ "island": 7,
+ "strategy": null,
+ "best_valid_reward": 1.3580644318158381,
+ "solves_used": 50,
+ "first_positive_at_solves": 26,
+ "usd_cached_price_estimate": 0.5261355999999999,
+ "notebook": "PLAN: Restore the best demonstrated four-column blend plant and stop optimization with one solve remaining; no further risky purity-cliff probes are justified.\nCopy R1185 exactly. It is valid at reward 1.358 and preserves both saleable blends: C6 paraffin at BT and C5 mix at TBT. Its TB reflux setting of 3.12 gives the lowest demonstrated cost without losing C5 purity. TB 3.11 and lower-T-reflux variants both lose the C5 revenue, so further changes risk large losses for negligible duty savings. Root and B remain fixed because BT is exactly at blend specification.",
+ "task": "hc16v3_dev_002"
+}

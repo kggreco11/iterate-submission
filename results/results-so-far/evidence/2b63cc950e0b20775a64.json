@@ -1,0 +1,21 @@
+{
+ "run_id": "hc12_dev_001_anthropic_claude-opus-5-5_s0_9f3549",
+ "agent_id": "agent-0",
+ "provider": "anthropic",
+ "model": "claude-opus-5-5",
+ "requests": 28,
+ "failed_requests": 3,
+ "input_tokens": 112325,
+ "output_tokens": 37539,
+ "usd_estimated_total": 1.2000799999999998,
+ "requests_with_unknown_cost": 3,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 463.58089232444763,
+ "status": "api_error: BadRequestError",
+ "turns": 25,
+ "best_valid_reward": 4.746881482734964,
+ "solves_used": 64,
+ "max_usd_cap": 12.0,
+ "task": "hc12_dev_001",
+ "seed": 0
+}

@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-78e50fff",
+ "agent_id": "agent-46",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 75,
+ "failed_requests": 1,
+ "input_tokens": 524960,
+ "output_tokens": 77185,
+ "usd_estimated_total": 0.25011,
+ "requests_with_unknown_cost": 0,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 5634.442633152008,
+ "status": "finished",
+ "island": 9,
+ "strategy": null,
+ "best_valid_reward": 2.0678011994837777,
+ "solves_used": 39,
+ "first_positive_at_solves": 35,
+ "usd_cached_price_estimate": 0.19972151999999999,
+ "notebook": "SOLVES: 39/50. Anchor = R1457, reward 2.068 (TB 60/5.5/4.5). FINISH at 2.068.\n\nConfirmed with full island view: TB sharpening to 75/7.5/6.0 (mine, 2.003) and 75/7.5/5.5 (R1596, 2.027) both LOSE vs 2.068 -> TBT nC4 1.2x premium (+$24M/yr) < extra reflux/stages cost. TT de-ethanizer -> 1.828. All recent experiments negative.\n\nStructure (2.068): feed col C5-/C6+ (40/1.6/1.6/0.6); T does C4-/C5 (45/3.0/2.5/0.3); TT (535 mol/s C3/C4/ethane, 53% C3/40% C4/6% ethane) UNSOLD; TB->TBT nC4 96% ($119M) + TBB C5mix ($375M); B->BT->BTB C6par mix ($646M) + BTT->BTTT C5mix ($156M) + BTTB->BTTBT nC5 98% ($92M) + BTTBB C6par ($168M). BB (1037 mol/s C6-C9 close boilers) UNSOLD.\n\nWhy nothing more helps: (1) TT is 53% C3/40% C4/6% ethane \u2014 neither C3 mix nor C4 mix reaches 95% without a sharp ethane + C3/C4 split; 2 extra columns (~$180M/yr) far exceed blend revenue (~$100M/yr). (2) BB has no close-boiler set summing to 95% (C6 naphthene mix only 24%); C6/C7/C8 separations need tall high-reflux columns costing more than the blend value. (3) Every remaining \"win\" is over-separation into low-price blends.\n\nLesson: revenue = flow \u00d7 price \u00d7 28.8 M/yr; blends pay 0.85\u00d7mean member price. Design already harvests all high-value blends and two pure cuts; dead streams structurally unprofitable. Best valid = 2.068.",
+ "task": "hc16v3_dev_002"
+}

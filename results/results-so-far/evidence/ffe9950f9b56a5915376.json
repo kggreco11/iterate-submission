@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-niche-20940918",
+ "agent_id": "agent-1",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 66,
+ "failed_requests": 3,
+ "input_tokens": 317678,
+ "output_tokens": 68081,
+ "usd_estimated_total": 0.17700060000000004,
+ "requests_with_unknown_cost": 3,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 4628.586921930313,
+ "status": "budget_exhausted",
+ "island": 0,
+ "strategy": null,
+ "best_valid_reward": 0.0,
+ "solves_used": 50,
+ "first_positive_at_solves": null,
+ "usd_cached_price_estimate": 0.13290204000000003,
+ "notebook": "T32. Solves 44/50 -> 6 left. Best 0.000 (empty); all built plants negative because leaky streams earn 0 while columns cost 100-270M each.\\n\\nECONOMY: value($M/yr)=flow*2.88e7*price. Blend groups partition feed at natural bp gaps:\\nethane34 | C3mix286 (225/231) | C4mix544 (261/273) | C5mix695 (301/309) | C6parmix970 (323-342) | C6napmix269 (345/354) | nC7 205 | nC8 233 | nC9 62.\\nGaps: only nC6(341.9)|MCP(345.0)=3.1K is hard; all others 9-40K. Blends pay 0.85*mean.\\nEstimated blend revenue ~ ethane4+C3 73+C4 186+C5 233+C6par 380+C6nap 122+nC7 313+nC8 343+nC9 97 = ~1750M/yr; 8 columns ~1400M -> reward ~0.8 IF cuts are clean.\\nPLAN: one clean 8-column tree at blend boundaries, moderate settings (40-70 stages, reflux 4-8, dp 0.1), extra stages at the C6par/C6nap gap. Evaluate; keep as best if positive.",
+ "task": "hc16v3_dev_002"
+}

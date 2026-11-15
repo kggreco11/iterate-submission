@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-independent-683a1314",
+ "agent_id": "agent-0",
+ "provider": "modal",
+ "model": "kimi-k3.1-pro",
+ "requests": 35,
+ "failed_requests": 3,
+ "input_tokens": 121791,
+ "output_tokens": 24103,
+ "usd_estimated_total": 0.48461200000000015,
+ "requests_with_unknown_cost": 3,
+ "price_source": "https://modal.com/docs/guide/supported-models; 2026-11-14; uncached estimate",
+ "wall_s": 1936.0509097576141,
+ "status": "budget_exhausted",
+ "island": 0,
+ "strategy": null,
+ "best_valid_reward": 0.8588290701541574,
+ "solves_used": 50,
+ "first_positive_at_solves": 13,
+ "usd_cached_price_estimate": 0.3528232000000001,
+ "notebook": "PLAN: (1) preserve the profitable sharp C5-/C6+ root split and C6-paraffin blend, (2) remove downstream columns whose outlets do not sell, (3) reduce over-specification and cost, (4) add only clearly profitable recovery. Step 3: use the last solve on the final root-duty decrement with the proven C6 column fixed.\nBest valid is root50/4.05/6.05/.3 plus B80/7.9/7.9/0: reward .859, revenue $984.5M, cost $607.8M. Root45 destroys its split; root50/4/5 destroys it. B70/7/7 makes BT 94%, B60/5/5 91%, B75/8/8 narrowly fails; B75/8.5/8.5 sells but costs more. B80/7.5/7.5 narrowly misses 95%. Only the C6 blend is sold. One solve remains: test root 4.0/6.0; if it fails, the .859 design remains best.",
+ "task": "hc16v3_dev_002"
+}

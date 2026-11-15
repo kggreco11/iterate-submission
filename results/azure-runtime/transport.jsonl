@@ -1,0 +1,8 @@
+{"operation": "deploy", "control_plane_s": 32.74942012503743, "returncode": 0}
+{"operation": "launch", "control_plane_s": 32.75028920802288, "returncode": 0}
+{"operation": "report", "control_plane_s": 32.19254754204303, "returncode": 0}
+{"operation": "export", "control_plane_s": 32.190781167009845, "returncode": 0}
+{"operation": "export", "control_plane_s": 33.659156792098656, "returncode": 0}
+{"operation": "export", "control_plane_s": 31.665956875076517, "returncode": 0}
+{"operation": "export", "control_plane_s": 32.20712854107842, "returncode": 0}
+{"operation": "export", "control_plane_s": 33.18137291702442, "returncode": 0}

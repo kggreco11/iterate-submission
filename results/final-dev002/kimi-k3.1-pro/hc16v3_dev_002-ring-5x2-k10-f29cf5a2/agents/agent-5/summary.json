@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-f29cf5a2",
+ "agent_id": "agent-5",
+ "provider": "modal",
+ "model": "kimi-k3.1-pro",
+ "requests": 30,
+ "failed_requests": 3,
+ "input_tokens": 203061,
+ "output_tokens": 21783,
+ "usd_estimated_total": 0.6239520000000001,
+ "requests_with_unknown_cost": 3,
+ "price_source": "https://modal.com/docs/guide/supported-models; 2026-11-14; uncached estimate",
+ "wall_s": 1954.6815581321716,
+ "status": "budget_exhausted",
+ "island": 2,
+ "strategy": null,
+ "best_valid_reward": 1.9562343595531926,
+ "solves_used": 50,
+ "first_positive_at_solves": 16,
+ "usd_cached_price_estimate": 0.505872,
+ "notebook": "PLAN: Preserve the 1.956 R188 baseline and spend the final two solves on modest capital savings. Step 8: reduce only the feed column from 50 to 45 stages and TB from 45 to 40, holding all duties and pressures fixed. The earlier 60-stage high-duty TB test failed: it added $30M/yr cost but did not reach the 99% N-butane premium. B boil-up below 4.0 and BTT below 6.0 also lost value, so leave those and all successful blend splitters unchanged. These final small stage trims should retain the existing cuts and 96% N-butane purity while shaving equipment cost; the protected best remains 1.956 if they do not.",
+ "task": "hc16v3_dev_002"
+}

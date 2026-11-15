@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-78e50fff",
+ "agent_id": "agent-49",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 87,
+ "failed_requests": 0,
+ "input_tokens": 673653,
+ "output_tokens": 89285,
+ "usd_estimated_total": 0.3092379,
+ "requests_with_unknown_cost": 0,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 5634.445145368576,
+ "status": "finished",
+ "island": 9,
+ "strategy": null,
+ "best_valid_reward": 2.0678011994837777,
+ "solves_used": 40,
+ "first_positive_at_solves": 33,
+ "usd_cached_price_estimate": 0.25124621999999996,
+ "notebook": "Turn 43. Final answer = R1457 anchor, reward 2.068 (7 cols, rev $1556.4M, cost $649.5M). Solves 40/50, ~10 left but no remaining idea beats the anchor.\n\nEvidence: TT split experiments 1.81-1.99 (R1821 1.898); BB probe 1.751 (R1880) and 1.684 (my turn 38); TB sharpen 2.027 (R1596, +$20M cost for +$2M rev); B sharpen 2.022. Every structural move fails \u2014 extra columns cost $50-170M/yr each vs ~$40M potential from the dead TT (C3mix $20M + C4mix $20M) and far less from BB without 4+ close-boiling columns.\n\nRevenue is dominated by blends already near their practical max: BTB C6-paraffin $646M, TBB C5mix $375M, BTTT C5mix $156M, BTTBB C6-par $168M, plus nC4 TBT $119M and pure nC5 BTTBT $92M.\n\nPlan: bank the 2.068 anchor (revert/rebuild identical config). No further experiments \u2014 budget nearly spent and all neighbors negative.",
+ "task": "hc16v3_dev_002"
+}

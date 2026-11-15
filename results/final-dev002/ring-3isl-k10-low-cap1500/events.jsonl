@@ -1,0 +1,36 @@
+{"kind": "round", "round": 1, "team_best": 0.0, "team_solves": 10, "active": 10, "usd_logged": 0.0450255, "usd_real": 0.035348700000000004, "t": 92.77}
+{"kind": "round", "round": 2, "team_best": 0.0, "team_solves": 20, "active": 10, "usd_logged": 0.09746369999999999, "usd_real": 0.07562178, "t": 183.66}
+{"kind": "round", "round": 3, "team_best": 0.0, "team_solves": 33, "active": 10, "usd_logged": 0.15243719999999997, "usd_real": 0.11704776, "t": 279.38}
+{"kind": "round", "round": 4, "team_best": 0.0, "team_solves": 44, "active": 10, "usd_logged": 0.20867039999999998, "usd_real": 0.15904224, "t": 376.94}
+{"kind": "round", "round": 5, "team_best": 0.0, "team_solves": 54, "active": 10, "usd_logged": 0.2649063, "usd_real": 0.20124677999999996, "t": 467.51}
+{"kind": "round", "round": 6, "team_best": 0.0, "team_solves": 60, "active": 10, "usd_logged": 0.32162730000000006, "usd_real": 0.24393642, "t": 551.6}
+{"kind": "round", "round": 7, "team_best": 0.0, "team_solves": 71, "active": 10, "usd_logged": 0.3775449, "usd_real": 0.28575354, "t": 641.48}
+{"kind": "model_error", "round": 8, "agent": "agent-5", "error": "multiple_tools", "t": 729.58}
+{"kind": "round", "round": 8, "team_best": 0.0, "team_solves": 84, "active": 10, "usd_logged": 0.43781819999999994, "usd_real": 0.33192636, "t": 735.14}
+{"kind": "round", "round": 9, "team_best": 0.0, "team_solves": 103, "active": 10, "usd_logged": 0.49909499999999996, "usd_real": 0.37910267999999997, "t": 827.12}
+{"kind": "round", "round": 10, "team_best": 0.0, "team_solves": 113, "active": 10, "usd_logged": 0.5620172999999999, "usd_real": 0.42833921999999996, "t": 932.79}
+{"kind": "model_error", "round": 11, "agent": "agent-5", "error": "multiple_tools", "t": 1005.29}
+{"kind": "round", "round": 11, "team_best": 0.0, "team_solves": 121, "active": 10, "usd_logged": 0.6218442, "usd_real": 0.47448035999999993, "t": 1011.4}
+{"kind": "round", "round": 12, "team_best": 0.0, "team_solves": 136, "active": 10, "usd_logged": 0.681732, "usd_real": 0.5210279999999999, "t": 1092.01}
+{"kind": "round", "round": 13, "team_best": 0.0, "team_solves": 149, "active": 10, "usd_logged": 0.7447389, "usd_real": 0.57062562, "t": 1191.42}
+{"kind": "round", "round": 14, "team_best": 0.0, "team_solves": 162, "active": 10, "usd_logged": 0.8070021, "usd_real": 0.6205163399999999, "t": 1310.25}
+{"kind": "round", "round": 15, "team_best": 0.0, "team_solves": 172, "active": 10, "usd_logged": 0.8687417999999999, "usd_real": 0.66857028, "t": 1406.23}
+{"kind": "round", "round": 16, "team_best": 0.0, "team_solves": 176, "active": 10, "usd_logged": 0.9272964000000001, "usd_real": 0.71378472, "t": 1494.28}
+{"kind": "model_error", "round": 17, "agent": "agent-9", "error": "multiple_tools", "t": 1586.89}
+{"kind": "round", "round": 17, "team_best": 0.0, "team_solves": 186, "active": 10, "usd_logged": 0.9869562, "usd_real": 0.76010436, "t": 1590.03}
+{"kind": "round", "round": 18, "team_best": 0.0, "team_solves": 208, "active": 10, "usd_logged": 1.0477073999999997, "usd_real": 0.80689332, "t": 1669.99}
+{"kind": "round", "round": 19, "team_best": 0.0, "team_solves": 219, "active": 10, "usd_logged": 1.1109449999999998, "usd_real": 0.85561572, "t": 1741.37}
+{"kind": "round", "round": 20, "team_best": 0.0, "team_solves": 226, "active": 10, "usd_logged": 1.1716323, "usd_real": 0.9025481400000002, "t": 1823.74}
+{"kind": "round", "round": 21, "team_best": 0.0, "team_solves": 248, "active": 10, "usd_logged": 1.2306272999999999, "usd_real": 0.9472353, "t": 1934.02}
+{"kind": "round", "round": 22, "team_best": 0.0, "team_solves": 268, "active": 10, "usd_logged": 1.2951285000000001, "usd_real": 0.99770514, "t": 2038.46}
+{"kind": "round", "round": 23, "team_best": 0.0, "team_solves": 278, "active": 10, "usd_logged": 1.3590461999999999, "usd_real": 1.04710764, "t": 2145.49}
+{"kind": "round", "round": 24, "team_best": 0.0, "team_solves": 289, "active": 10, "usd_logged": 1.4181417, "usd_real": 1.0916879400000001, "t": 2242.12}
+{"kind": "round", "round": 25, "team_best": 0.0, "team_solves": 305, "active": 10, "usd_logged": 1.4763984, "usd_real": 1.13542944, "t": 2335.88}
+{"kind": "round", "round": 26, "team_best": 0.0, "team_solves": 310, "active": 10, "usd_logged": 1.5369264, "usd_real": 1.1835849600000001, "t": 2435.79}
+{"kind": "round", "round": 27, "team_best": 0.0, "team_solves": 318, "active": 10, "usd_logged": 1.5940854, "usd_real": 1.2274729199999999, "t": 2530.02}
+{"kind": "finish", "round": 28, "agent": "agent-0", "note": "With 42/50 solves spent and every multi-column design (mine and teammates') deeply negative, no column cascade can plausibly return $150-300M/yr net within the remaining budget in this high-cost scenario. The empty plant is my best VALID design at reward exactly 0. Stopping to preserve that valid score rather than risk an invalid or negative evaluation.", "t": 2637.88}
+{"kind": "round", "round": 28, "team_best": 0.0, "team_solves": 324, "active": 10, "usd_logged": 1.6532499000000003, "usd_real": 1.27212222, "t": 2642.29}
+{"kind": "round", "round": 29, "team_best": 0.0, "team_solves": 332, "active": 9, "usd_logged": 1.7076909, "usd_real": 1.31432898, "t": 2713.68}
+{"kind": "round", "round": 30, "team_best": 0.0, "team_solves": 338, "active": 9, "usd_logged": 1.7626437000000001, "usd_real": 1.3553195399999998, "t": 3537.98}
+{"kind": "finish", "round": 31, "agent": "agent-5", "note": "Stop. 40/50 solves used and no valid profitable design found: my 4-column cascades produced $0 revenue (no cut reached 95% blend purity) while costing $1.0B+/yr, and every probe confirmed that the 95% purity spec is unreachable in cheap columns. Empty design (reward 0.000) is my best valid result. Conserving solves is pointless at this stage since any further attempt likely repeats the negative-reward pattern.", "t": 3606.34}
+{"kind": "round", "round": 31, "team_best": 0.0, "team_solves": 346, "active": 9, "usd_logged": 1.8167087999999998, "usd_real": 1.3995004800000002, "t": 3607.89}

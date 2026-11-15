@@ -1,0 +1,843 @@
+{
+  "run_id": "swarm-a1b45716fe3444679f33125db48b89b7",
+  "status": "all_finished_or_exhausted",
+  "error": null,
+  "wall_s": 3285.000000000002,
+  "agents": {
+    "agent-0": {
+      "distinct_queries": 94,
+      "best_valid_reward": 3.258352919736397,
+      "best_design": {
+        "": [
+          45,
+          3.0,
+          4.0,
+          0.2
+        ],
+        "T": [
+          40,
+          3.0,
+          4.0,
+          0.15
+        ],
+        "TT": [
+          50,
+          4.0,
+          5.0,
+          0.15
+        ],
+        "B": [
+          60,
+          5.0,
+          5.0,
+          0.15
+        ],
+        "BB": [
+          50,
+          4.0,
+          4.0,
+          0.15
+        ],
+        "BBB": [
+          120,
+          12.0,
+          12.0,
+          0.15
+        ],
+        "BT": [
+          120,
+          10.0,
+          22.0,
+          0.15
+        ],
+        "BBT": [
+          60,
+          5.0,
+          8.0,
+          0.15
+        ],
+        "BBTB": [
+          70,
+          6.0,
+          8.0,
+          0.15
+        ],
+        "TTB": [
+          80,
+          7.0,
+          12.0,
+          0.15
+        ],
+        "BBTT": [
+          60,
+          5.0,
+          5.0,
+          0.15
+        ],
+        "BBBB": [
+          85,
+          7.0,
+          7.0,
+          0.15
+        ],
+        "BTB": [
+          140,
+          12.0,
+          16.0,
+          0.15
+        ],
+        "TTBB": [
+          70,
+          5.0,
+          7.0,
+          0.15
+        ],
+        "BBTTT": [
+          160,
+          16.0,
+          18.0,
+          0.15
+        ],
+        "TTBT": [
+          70,
+          8.0,
+          10.0,
+          0.15
+        ],
+        "TTBBB": [
+          60,
+          5.0,
+          7.0,
+          0.15
+        ],
+        "BTBT": [
+          200,
+          20.0,
+          18.0,
+          0.15
+        ],
+        "TTBTB": [
+          60,
+          6.0,
+          8.0,
+          0.15
+        ],
+        "BBTTTT": [
+          90,
+          9.0,
+          10.0,
+          0.15
+        ],
+        "TTBTBT": [
+          50,
+          5.0,
+          6.0,
+          0.15
+        ],
+        "TTBBBB": [
+          50,
+          5.0,
+          6.0,
+          0.15
+        ],
+        "BBTTTTB": [
+          70,
+          7.0,
+          8.0,
+          0.15
+        ]
+      },
+      "usage": {
+        "run_id": "swarm-a1b45716fe3444679f33125db48b89b7",
+        "agent_id": "agent-0",
+        "provider": "modal",
+        "model": "kimi-k3.1-pro",
+        "requests": 32,
+        "failed_requests": 0,
+        "input_tokens": 1805254,
+        "output_tokens": 48214,
+        "usd_estimated_total": 4.092648,
+        "requests_with_unknown_cost": 0,
+        "price_source": "https://modal.com/docs/guide/supported-models; 2026-11-14; uncached estimate",
+        "wall_s": 3284.820795059204,
+        "reconciled": true
+      }
+    },
+    "agent-1": {
+      "distinct_queries": 100,
+      "best_valid_reward": 3.3504927924201664,
+      "best_design": {
+        "": [
+          45,
+          3.0,
+          4.0,
+          0.2
+        ],
+        "T": [
+          40,
+          3.0,
+          4.0,
+          0.15
+        ],
+        "TT": [
+          50,
+          4.0,
+          5.0,
+          0.15
+        ],
+        "B": [
+          60,
+          5.0,
+          5.0,
+          0.15
+        ],
+        "BB": [
+          50,
+          4.0,
+          4.0,
+          0.15
+        ],
+        "BBB": [
+          70,
+          6.0,
+          7.0,
+          0.15
+        ],
+        "BT": [
+          120,
+          8.0,
+          12.0,
+          0.15
+        ],
+        "TTB": [
+          70,
+          6.0,
+          8.0,
+          0.15
+        ],
+        "BBT": [
+          50,
+          4.0,
+          5.0,
+          0.15
+        ],
+        "BBTT": [
+          50,
+          4.0,
+          4.0,
+          0.15
+        ],
+        "BBBB": [
+          100,
+          8.0,
+          10.0,
+          0.15
+        ],
+        "BTB": [
+          180,
+          22.0,
+          22.0,
+          0.45
+        ],
+        "TTBT": [
+          40,
+          4.0,
+          5.0,
+          0.15
+        ],
+        "TTBB": [
+          70,
+          6.0,
+          10.0,
+          0.15
+        ],
+        "BBTB": [
+          80,
+          6.0,
+          8.0,
+          0.15
+        ],
+        "BBTTT": [
+          100,
+          8.0,
+          10.0,
+          0.15
+        ],
+        "TTBTB": [
+          70,
+          7.0,
+          8.0,
+          0.15
+        ],
+        "BBTBB": [
+          70,
+          6.0,
+          8.0,
+          0.15
+        ],
+        "BBBBT": [
+          70,
+          6.0,
+          8.0,
+          0.15
+        ],
+        "TTBBB": [
+          50,
+          4.0,
+          6.0,
+          0.15
+        ],
+        "BBTTTT": [
+          70,
+          6.0,
+          8.0,
+          0.15
+        ],
+        "BBTBBT": [
+          60,
+          5.0,
+          7.0,
+          0.15
+        ],
+        "BBBBTB": [
+          60,
+          5.0,
+          7.0,
+          0.15
+        ],
+        "BTBB": [
+          100,
+          8.0,
+          10.0,
+          0.15
+        ],
+        "BBTTTTT": [
+          90,
+          8.0,
+          8.0,
+          0.15
+        ],
+        "BBTTTTB": [
+          90,
+          8.0,
+          9.0,
+          0.15
+        ],
+        "BBTBBTT": [
+          50,
+          4.0,
+          6.0,
+          0.15
+        ],
+        "BBBBTBB": [
+          80,
+          7.0,
+          8.0,
+          0.15
+        ],
+        "TTBTBT": [
+          80,
+          8.0,
+          8.0,
+          0.15
+        ],
+        "TTBBBB": [
+          70,
+          6.0,
+          8.0,
+          0.15
+        ],
+        "BTBBT": [
+          160,
+          18.0,
+          18.0,
+          0.45
+        ]
+      },
+      "usage": {
+        "run_id": "swarm-a1b45716fe3444679f33125db48b89b7",
+        "agent_id": "agent-1",
+        "provider": "modal",
+        "model": "kimi-k3.1-pro",
+        "requests": 28,
+        "failed_requests": 0,
+        "input_tokens": 1593608,
+        "output_tokens": 42081,
+        "usd_estimated_total": 3.608026000000001,
+        "requests_with_unknown_cost": 0,
+        "price_source": "https://modal.com/docs/guide/supported-models; 2026-11-14; uncached estimate",
+        "wall_s": 3284.805168867111,
+        "reconciled": true
+      }
+    },
+    "agent-2": {
+      "distinct_queries": 83,
+      "best_valid_reward": 2.836583226372106,
+      "best_design": {
+        "": [
+          45,
+          3.0,
+          4.0,
+          0.2
+        ],
+        "T": [
+          40,
+          3.0,
+          4.0,
+          0.15
+        ],
+        "TT": [
+          70,
+          6.0,
+          8.0,
+          0.15
+        ],
+        "B": [
+          60,
+          5.0,
+          5.0,
+          0.15
+        ],
+        "BB": [
+          50,
+          4.0,
+          4.0,
+          0.15
+        ],
+        "BBB": [
+          100,
+          8.0,
+          8.0,
+          0.15
+        ],
+        "TTB": [
+          100,
+          8.0,
+          12.0,
+          0.15
+        ],
+        "BBT": [
+          70,
+          6.0,
+          6.0,
+          0.15
+        ],
+        "BBTT": [
+          70,
+          6.0,
+          6.0,
+          0.15
+        ],
+        "BBBB": [
+          140,
+          12.0,
+          12.0,
+          0.15
+        ],
+        "BT": [
+          100,
+          8.0,
+          8.0,
+          0.15
+        ],
+        "BBTB": [
+          90,
+          7.0,
+          9.0,
+          0.15
+        ],
+        "TTBB": [
+          70,
+          5.0,
+          8.0,
+          0.15
+        ],
+        "BBTTT": [
+          160,
+          14.0,
+          14.0,
+          0.15
+        ],
+        "BBTBB": [
+          70,
+          6.0,
+          6.0,
+          0.15
+        ],
+        "TTBBB": [
+          55,
+          4.0,
+          7.0,
+          0.15
+        ],
+        "BBTBBT": [
+          70,
+          6.0,
+          7.0,
+          0.15
+        ],
+        "TTBBBB": [
+          50,
+          4.0,
+          6.0,
+          0.15
+        ],
+        "TTBT": [
+          50,
+          4.0,
+          5.0,
+          0.15
+        ],
+        "TTBTB": [
+          80,
+          6.0,
+          6.0,
+          0.15
+        ],
+        "TTBTBT": [
+          50,
+          4.0,
+          6.0,
+          0.15
+        ]
+      },
+      "usage": {
+        "run_id": "swarm-a1b45716fe3444679f33125db48b89b7",
+        "agent_id": "agent-2",
+        "provider": "modal",
+        "model": "kimi-k3.1-pro",
+        "requests": 33,
+        "failed_requests": 0,
+        "input_tokens": 1846541,
+        "output_tokens": 39338,
+        "usd_estimated_total": 4.086462,
+        "requests_with_unknown_cost": 0,
+        "price_source": "https://modal.com/docs/guide/supported-models; 2026-11-14; uncached estimate",
+        "wall_s": 3284.805168867111,
+        "reconciled": true
+      }
+    },
+    "agent-3": {
+      "distinct_queries": 100,
+      "best_valid_reward": 3.356596375168566,
+      "best_design": {
+        "": [
+          45,
+          3.0,
+          4.0,
+          0.2
+        ],
+        "T": [
+          60,
+          5.0,
+          7.0,
+          0.15
+        ],
+        "TT": [
+          100,
+          10.0,
+          12.0,
+          0.15
+        ],
+        "B": [
+          60,
+          5.0,
+          5.0,
+          0.15
+        ],
+        "BB": [
+          50,
+          4.0,
+          4.0,
+          0.15
+        ],
+        "BBB": [
+          70,
+          7.0,
+          7.0,
+          0.15
+        ],
+        "BBBB": [
+          80,
+          8.0,
+          8.0,
+          0.15
+        ],
+        "BT": [
+          160,
+          12.0,
+          18.0,
+          0.15
+        ],
+        "BBT": [
+          65,
+          5.0,
+          5.0,
+          0.15
+        ],
+        "BBTB": [
+          80,
+          7.0,
+          7.0,
+          0.15
+        ],
+        "BBTT": [
+          60,
+          6.0,
+          6.0,
+          0.15
+        ],
+        "BTB": [
+          200,
+          30.0,
+          30.0,
+          0.9
+        ],
+        "BBTBB": [
+          80,
+          7.0,
+          7.0,
+          0.15
+        ],
+        "BBTTT": [
+          160,
+          18.0,
+          20.0,
+          0.15
+        ],
+        "BBTBBT": [
+          70,
+          6.0,
+          6.0,
+          0.15
+        ],
+        "TTB": [
+          70,
+          5.0,
+          11.0,
+          0.15
+        ],
+        "BBTBBTB": [
+          70,
+          7.0,
+          7.0,
+          0.15
+        ],
+        "TTBT": [
+          50,
+          4.0,
+          4.0,
+          0.15
+        ],
+        "TTBB": [
+          70,
+          6.0,
+          6.0,
+          0.15
+        ],
+        "TTBTT": [
+          60,
+          6.0,
+          6.0,
+          0.15
+        ],
+        "BTBB": [
+          100,
+          8.0,
+          10.0,
+          0.15
+        ],
+        "BBTTTT": [
+          50,
+          4.0,
+          4.0,
+          0.15
+        ],
+        "TTBTTB": [
+          40,
+          3.0,
+          4.0,
+          0.15
+        ],
+        "TTBBT": [
+          40,
+          3.0,
+          4.0,
+          0.15
+        ],
+        "BBTBBTBT": [
+          40,
+          3.0,
+          4.0,
+          0.15
+        ],
+        "TTBTTBT": [
+          40,
+          4.0,
+          5.0,
+          0.15
+        ],
+        "TTBBTB": [
+          40,
+          4.0,
+          5.0,
+          0.15
+        ],
+        "BBTTTTT": [
+          60,
+          6.0,
+          8.0,
+          0.15
+        ],
+        "BBTTTTB": [
+          50,
+          5.0,
+          5.0,
+          0.15
+        ],
+        "BTBBT": [
+          160,
+          20.0,
+          22.0,
+          0.15
+        ]
+      },
+      "usage": {
+        "run_id": "swarm-a1b45716fe3444679f33125db48b89b7",
+        "agent_id": "agent-3",
+        "provider": "modal",
+        "model": "kimi-k3.1-pro",
+        "requests": 30,
+        "failed_requests": 0,
+        "input_tokens": 1687995,
+        "output_tokens": 49101,
+        "usd_estimated_total": 3.867,
+        "requests_with_unknown_cost": 0,
+        "price_source": "https://modal.com/docs/guide/supported-models; 2026-11-14; uncached estimate",
+        "wall_s": 3284.805168867111,
+        "reconciled": true
+      }
+    },
+    "agent-4": {
+      "distinct_queries": 77,
+      "best_valid_reward": 2.7998493975702585,
+      "best_design": {
+        "": [
+          45,
+          3.0,
+          4.0,
+          0.2
+        ],
+        "T": [
+          40,
+          3.0,
+          4.0,
+          0.15
+        ],
+        "TT": [
+          50,
+          4.0,
+          5.0,
+          0.15
+        ],
+        "B": [
+          60,
+          5.0,
+          5.0,
+          0.15
+        ],
+        "BB": [
+          50,
+          4.0,
+          4.0,
+          0.15
+        ],
+        "BBB": [
+          70,
+          6.0,
+          6.0,
+          0.15
+        ],
+        "BT": [
+          160,
+          10.0,
+          16.0,
+          0.15
+        ],
+        "BBT": [
+          70,
+          6.0,
+          10.0,
+          0.15
+        ],
+        "BBBB": [
+          80,
+          7.0,
+          7.0,
+          0.15
+        ],
+        "BBTT": [
+          50,
+          4.0,
+          4.0,
+          0.15
+        ],
+        "BBTB": [
+          180,
+          16.0,
+          16.0,
+          0.15
+        ],
+        "BBTTT": [
+          140,
+          12.0,
+          12.0,
+          0.15
+        ],
+        "BBTBB": [
+          160,
+          14.0,
+          2.0,
+          0.15
+        ],
+        "BBTTTT": [
+          100,
+          8.0,
+          10.0,
+          0.15
+        ],
+        "BTB": [
+          80,
+          6.0,
+          8.0,
+          0.15
+        ]
+      },
+      "usage": {
+        "run_id": "swarm-a1b45716fe3444679f33125db48b89b7",
+        "agent_id": "agent-4",
+        "provider": "modal",
+        "model": "kimi-k3.1-pro",
+        "requests": 33,
+        "failed_requests": 0,
+        "input_tokens": 1839715,
+        "output_tokens": 39351,
+        "usd_estimated_total": 4.072940000000001,
+        "requests_with_unknown_cost": 0,
+        "price_source": "https://modal.com/docs/guide/supported-models; 2026-11-14; uncached estimate",
+        "wall_s": 3284.805168867111,
+        "reconciled": true
+      }
+    }
+  },
+  "team_distinct_queries": 454,
+  "backend_calls": 409,
+  "cache_hits": 2211,
+  "submissions": 156,
+  "team_input_tokens": 8773113,
+  "team_output_tokens": 218085,
+  "known_llm_usd": 19.727076000000004,
+  "unknown_cost_requests": 0,
+  "memory_usd": null,
+  "simulator_usd": null
+}

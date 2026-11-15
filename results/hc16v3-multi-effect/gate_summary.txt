@@ -1,0 +1,83 @@
+
+hc16v2_dev_000: Opus 3.629, reward normaliser $830M/yr  (current cost level: energy x2, capital x10)
+  column | Tc-Tr span K | reboiler MW | feasible pairs (heat flows, split kept) | best net saving $M/yr | best pair
+  BBT    |     9 |    14 |  1 |    +2.3 | f=0.6, dp 0.0/0.45, dT 14 K, link 5 MW
+  BTBB   |    10 |     3 |  0 |    -0.3 | f=0.6, dp 0.0/0.15, dT -3 K, link 0 MW
+  TB     |    10 |    99 |  3 |   -15.5 | f=0.4, dp 0.6/0.75, dT 7 K, link 0 MW
+  BTBT   |    11 |    36 |  6 |    +7.9 | f=0.5, dp 0.0/0.6, dT 25 K, link 18 MW
+  TTB    |    12 |    14 | 11 |    -1.3 | f=0.6, dp 0.3/0.6, dT 10 K, link 0 MW
+  BT     |    15 |   153 |  3 |   +33.7 | f=0.5, dp 0.0/0.6, dT 22 K, link 77 MW
+  BTT    |    20 |     9 |  0 |    +nan | -
+  BBB    |    27 |    54 |  0 |    -1.9 | f=0.6, dp 0.0/0.15, dT -19 K, link 0 MW
+  BTB    |    27 |    29 |  0 |    -1.0 | f=0.5, dp 0.0/0.3, dT -13 K, link 0 MW
+  TBT    |    29 |     9 |  0 |    -1.2 | f=0.4, dp 0.0/0.15, dT -23 K, link 0 MW
+  BB     |    34 |    49 |  0 |    -1.9 | f=0.4, dp 0.0/0.15, dT -27 K, link 0 MW
+  TT     |    51 |    26 |  0 |    +nan | -
+  B      |    57 |    63 |  0 |    +nan | -
+  T      |    86 |    42 |  0 |    +nan | -
+  feed   |   125 |   141 |  0 |    +nan | -
+  (net saving = best single column at any tried pressure minus the best pair: pressure re-tuning alone is not credited)
+  total over columns where the pair pays: $44M/yr = +0.053 reward (1.5% of Opus)
+
+hc16v2_dev_001: Opus 4.631, reward normaliser $524M/yr  (current cost level: energy x2, capital x10)
+  column | Tc-Tr span K | reboiler MW | feasible pairs (heat flows, split kept) | best net saving $M/yr | best pair
+  TTB    |     8 |    96 |  6 |   -14.4 | f=0.6, dp 0.0/0.15, dT -2 K, link 0 MW
+  TBB    |     9 |    45 |  3 |    -3.1 | f=0.5, dp 0.7/0.85, dT 16 K, link 24 MW
+  BBBT   |    22 |    10 |  0 |    -0.8 | f=0.6, dp 0.0/0.15, dT -16 K, link 0 MW
+  BBT    |    27 |    15 |  0 |    -0.8 | f=0.6, dp 0.0/0.15, dT -21 K, link 0 MW
+  BBB    |    27 |    39 |  0 |    -1.4 | f=0.6, dp 0.3/0.6, dT -6 K, link 0 MW
+  TB     |    45 |    40 |  0 |    -1.3 | f=0.6, dp 0.0/0.15, dT -37 K, link 0 MW
+  TT     |    49 |    11 |  0 |    -2.2 | f=0.6, dp 0.0/0.15, dT -43 K, link 0 MW
+  B      |    54 |   130 |  0 |    -5.3 | f=0.6, dp 0.6/0.75, dT -33 K, link 0 MW
+  BB     |    57 |    22 |  0 |    +nan | -
+  T      |    71 |    60 |  0 |    +nan | -
+  feed   |   154 |    89 |  0 |    +nan | -
+  (net saving = best single column at any tried pressure minus the best pair: pressure re-tuning alone is not credited)
+  total over columns where the pair pays: $0M/yr = +0.000 reward (0.0% of Opus)
+
+hc16v2_dev_002: Opus 7.380, reward normaliser $439M/yr  (current cost level: energy x2, capital x10)
+  column | Tc-Tr span K | reboiler MW | feasible pairs (heat flows, split kept) | best net saving $M/yr | best pair
+  BTTT   |     3 |     5 |  9 |    -1.0 | f=0.4, dp 0.0/0.3, dT 10 K, link 2 MW
+  TBB    |     4 |    27 |  1 |    -0.4 | f=0.4, dp 0.0/0.3, dT 9 K, link 0 MW
+  BBTT   |     5 |    38 |  6 |    +5.7 | f=0.5, dp 0.0/0.45, dT 19 K, link 19 MW
+  BT     |     7 |    28 |  0 |    +nan | -
+  TB     |    10 |   101 |  3 |   -10.8 | f=0.4, dp 0.7/0.85, dT 16 K, link 44 MW
+  TBT    |    11 |     3 |  0 |    +nan | -
+  BTT    |    12 |    23 |  3 |    +0.4 | f=0.4, dp 0.0/0.6, dT 20 K, link 9 MW
+  TBBB   |    12 |     3 |  6 |    -0.9 | f=0.4, dp 0.0/0.45, dT 11 K, link 1 MW
+  BBT    |    12 |    38 |  6 |    +7.3 | f=0.5, dp 0.0/0.45, dT 13 K, link 19 MW
+  TTB    |    13 |    45 |  4 |    -4.8 | f=0.6, dp 0.5/0.65, dT 1 K, link 0 MW
+  BBBB   |    27 |    27 |  0 |    -1.2 | f=0.6, dp 0.0/0.15, dT -20 K, link 0 MW
+  BBB    |    34 |    38 |  0 |    -1.7 | f=0.4, dp 0.0/0.15, dT -27 K, link 0 MW
+  BB     |    41 |    52 |  0 |    +nan | -
+  B      |    42 |   126 |  0 |    +nan | -
+  TTT    |    49 |     3 |  0 |    +nan | -
+  TT     |    63 |    32 |  0 |    +nan | -
+  T      |    76 |    54 |  0 |    +nan | -
+  feed   |   106 |   144 |  0 |    +nan | -
+  (net saving = best single column at any tried pressure minus the best pair: pressure re-tuning alone is not credited)
+  total over columns where the pair pays: $13M/yr = +0.030 reward (0.4% of Opus)
+
+hc16v2_dev_003: Opus 5.193, reward normaliser $580M/yr  (current cost level: energy x2, capital x10)
+  column | Tc-Tr span K | reboiler MW | feasible pairs (heat flows, split kept) | best net saving $M/yr | best pair
+  BBBTB  |     4 |    13 |  0 |    -0.6 | f=0.4, dp 0.0/0.15, dT 2 K, link 0 MW
+  BBBTT  |     4 |    35 |  4 |    +5.6 | f=0.5, dp 0.0/0.45, dT 18 K, link 18 MW
+  BT     |     9 |    76 |  3 |   -21.9 | f=0.6, dp 0.75/0.9, dT 17 K, link 32 MW
+  BBBT   |    15 |    51 |  3 |    +8.7 | f=0.5, dp 0.0/0.6, dT 20 K, link 25 MW
+  BTT    |    25 |     7 |  0 |    -1.1 | f=0.6, dp 0.0/0.15, dT -20 K, link 0 MW
+  BBBBB  |    27 |    21 |  0 |    -1.7 | f=0.6, dp 0.0/0.15, dT -20 K, link 0 MW
+  BB     |    35 |    79 |  0 |    +nan | -
+  BBB    |    43 |    71 |  0 |    -4.0 | f=0.6, dp 0.0/0.15, dT -36 K, link 0 MW
+  BBBB   |    43 |    43 |  0 |    -2.4 | f=0.4, dp 0.0/0.15, dT -36 K, link 0 MW
+  T      |    52 |    47 |  0 |    -2.5 | f=0.4, dp 0.0/0.3, dT -37 K, link 0 MW
+  B      |    55 |    63 |  0 |    +nan | -
+  feed   |   118 |    65 |  0 |    +nan | -
+  (net saving = best single column at any tried pressure minus the best pair: pressure re-tuning alone is not credited)
+  total over columns where the pair pays: $14M/yr = +0.025 reward (0.5% of Opus)
+
+Share of columns (all plants) where the best pair beats the best single column (any tried pressure) by more than 1% of its cost, by cost level:
+energy x \ capital x | x5 | x10 | x20 | x40
+x2 | 9/56 | 8/56 | 7/56 | 1/56
+x4 | 9/56 | 9/56 | 8/56 | 7/56
+x6 | 10/56 | 9/56 | 9/56 | 7/56
+x10 | 10/56 | 9/56 | 9/56 | 8/56

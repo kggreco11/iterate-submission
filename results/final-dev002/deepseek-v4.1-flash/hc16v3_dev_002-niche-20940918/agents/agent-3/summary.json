@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-niche-20940918",
+ "agent_id": "agent-3",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 95,
+ "failed_requests": 4,
+ "input_tokens": 453222,
+ "output_tokens": 94784,
+ "usd_estimated_total": 0.24970740000000005,
+ "requests_with_unknown_cost": 3,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 4628.587015390396,
+ "status": "finished",
+ "island": 0,
+ "strategy": null,
+ "best_valid_reward": 0.0,
+ "solves_used": 49,
+ "first_positive_at_solves": null,
+ "usd_cached_price_estimate": 0.18459635999999993,
+ "notebook": "Solves 50/50 (budget spent). Best valid = 0.000 (empty plant).\n\nKEY LESSONS:\n- Value formula: flow(mol/s)*price($/mol)*8000h*3600s/1e6 = $M/yr (table matches e.g. nC4 450*0.0128*28.8=166).\n- C5mix blend (iC5+nC5=695 mol/s, 85% mean 0.0309) = ~$618M/yr IF >=95% pure. Cut gaps: nC4(272.7)/iC5(301.0)=28K easy; nC5(309.2)/2,2-DMB(322.9)=13.7K moderate.\n- My 2/3-column trees cost $200-360M/yr and none reached 95% => revenue 0, negative reward. Cost is dominated by the big first feed column (~$130-213M/yr).\n- Empty plant = 0.000 is the safe score; any impure multi-column plant loses money.\n\nSTRATEGY: To ever profit, must get >=95% on >=1 blend/pure stream with minimal columns. A 1-column sharp feed split (e.g. C4-/C5+) can't make C5mix alone (needs both ends cut). A 2-column train (C4- tops / C5+ bottoms, then C5 tops / C6+ bottoms) is the minimal C5mix route but must be made cheaper (fewer stages, low reflux) than tried.\n\nFINAL: budget exhausted; reverted to empty = 0.000.\n",
+ "task": "hc16v3_dev_002"
+}

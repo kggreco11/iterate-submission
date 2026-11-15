@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-3isl-k10-9d054776",
+ "agent_id": "agent-3",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 78,
+ "failed_requests": 0,
+ "input_tokens": 454508,
+ "output_tokens": 79944,
+ "usd_estimated_total": 0.2322852,
+ "requests_with_unknown_cost": 0,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 4928.489782810211,
+ "status": "finished",
+ "island": 1,
+ "strategy": null,
+ "best_valid_reward": 0.0,
+ "solves_used": 41,
+ "first_positive_at_solves": null,
+ "usd_cached_price_estimate": 0.1790628,
+ "notebook": "Solves 41/50. Best valid = 0.000 (empty). My 8-col cascade: cost $844M/yr, revenue $0 \u2014 cuts not sharp enough for 95% blend purity, severe leaks.\n\nLESSON: revenue requires >=95% of a blend's members (or a pure component). Moderate reflux columns leak and qualify nothing. Empty plant (0.000) beats negative designs, and is my current best.\n\nBlend values (M$/yr): C3mix 73, C4mix 186, C5mix 618, C6parmix 1180, C6naphmix 396, nC7 332, nC8 358, nC9 103. Pure total 3615 but needs 16 sharp cuts \u2014 far too costly at this cost level.\n\nKey tradeoff: at this cost level each column costs 30-450M/yr, so I need each column to yield >100M revenue, requiring fairly sharp separation (high reflux + many stages). My prior cascades spread too thin with too many mediocre columns.\n\nWith 9 solves left there is little I can safely build; any 1-2 column attempt is likely to leak and score negative. Protecting 0.000 is rational. If I experiment, do ONE wide-gap easy split (C4-/C5+ or C5mix/C6+) with high reflux and verify a single blend qualifies before adding more.",
+ "task": "hc16v3_dev_002"
+}

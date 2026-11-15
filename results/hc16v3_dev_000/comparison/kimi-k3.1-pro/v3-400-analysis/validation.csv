@@ -1,0 +1,123 @@
+check,passed,detail
+swarm-5006f87b620d4f0da586b996e2358009 frozen task hash,True,
+swarm-5006f87b620d4f0da586b996e2358009 experiment settings,True,
+swarm-5006f87b620d4f0da586b996e2358009 charged-query total,True,
+swarm-5006f87b620d4f0da586b996e2358009 backend curve mapping,True,"Sequential service events mapped using measured column executions, including cache calls and budget cleanup; endpoint reconciled."
+swarm-5006f87b620d4f0da586b996e2358009 usage curve mapping,True,One saved usage event per policy outcome; parallel round costs counted before submissions.
+swarm-5006f87b620d4f0da586b996e2358009 agent-0 usage reconciliation,True,"{""requests"": true, ""input_tokens"": true, ""output_tokens"": true, ""usd_estimated_total"": true, ""failed_requests"": true, ""requests_with_unknown_cost"": true}"
+swarm-5006f87b620d4f0da586b996e2358009 best reward,True,
+swarm-5006f87b620d4f0da586b996e2358009 submission outcome accounting,True,
+swarm-5006f87b620d4f0da586b996e2358009 backend response accounting,True,
+swarm-5006f87b620d4f0da586b996e2358009 monotone queries,True,
+swarm-5006f87b620d4f0da586b996e2358009 monotone backend_calls,True,
+swarm-5006f87b620d4f0da586b996e2358009 monotone elapsed_s,True,
+swarm-5006f87b620d4f0da586b996e2358009 monotone input_tokens,True,
+swarm-5006f87b620d4f0da586b996e2358009 monotone output_tokens,True,
+swarm-5006f87b620d4f0da586b996e2358009 monotone usd,True,
+swarm-5006f87b620d4f0da586b996e2358009 plant net objective,True,
+swarm-5006f87b620d4f0da586b996e2358009 winning design eligible,True,
+swarm-5006f87b620d4f0da586b996e2358009 independent stream repricing,True,
+swarm-5006f87b620d4f0da586b996e2358009 terminal component closure,True,max residual 1.00000005e-06 mol/s
+swarm-5006f87b620d4f0da586b996e2358009 column cost breakdown,True,
+swarm-31f3e9cd061945c9980b5677cfaea9b7 frozen task hash,True,
+swarm-31f3e9cd061945c9980b5677cfaea9b7 experiment settings,True,
+swarm-31f3e9cd061945c9980b5677cfaea9b7 charged-query total,True,
+swarm-31f3e9cd061945c9980b5677cfaea9b7 backend curve mapping,True,"Sequential service events mapped using measured column executions, including cache calls and budget cleanup; endpoint reconciled."
+swarm-31f3e9cd061945c9980b5677cfaea9b7 usage curve mapping,True,One saved usage event per policy outcome; parallel round costs counted before submissions.
+swarm-31f3e9cd061945c9980b5677cfaea9b7 agent-0 usage reconciliation,True,"{""requests"": true, ""input_tokens"": true, ""output_tokens"": true, ""usd_estimated_total"": true, ""failed_requests"": true, ""requests_with_unknown_cost"": true}"
+swarm-31f3e9cd061945c9980b5677cfaea9b7 best reward,True,
+swarm-31f3e9cd061945c9980b5677cfaea9b7 submission outcome accounting,True,
+swarm-31f3e9cd061945c9980b5677cfaea9b7 backend response accounting,True,
+swarm-31f3e9cd061945c9980b5677cfaea9b7 monotone queries,True,
+swarm-31f3e9cd061945c9980b5677cfaea9b7 monotone backend_calls,True,
+swarm-31f3e9cd061945c9980b5677cfaea9b7 monotone elapsed_s,True,
+swarm-31f3e9cd061945c9980b5677cfaea9b7 monotone input_tokens,True,
+swarm-31f3e9cd061945c9980b5677cfaea9b7 monotone output_tokens,True,
+swarm-31f3e9cd061945c9980b5677cfaea9b7 monotone usd,True,
+swarm-ee547757b06143bbbd3cab016ebc93f5 frozen task hash,True,
+swarm-ee547757b06143bbbd3cab016ebc93f5 experiment settings,True,
+swarm-ee547757b06143bbbd3cab016ebc93f5 charged-query total,True,
+swarm-ee547757b06143bbbd3cab016ebc93f5 backend curve mapping,True,"Sequential service events mapped using measured column executions, including cache calls and budget cleanup; endpoint reconciled."
+swarm-ee547757b06143bbbd3cab016ebc93f5 usage curve mapping,True,One saved usage event per policy outcome; parallel round costs counted before submissions.
+swarm-ee547757b06143bbbd3cab016ebc93f5 agent-0 usage reconciliation,True,"{""requests"": true, ""input_tokens"": true, ""output_tokens"": true, ""usd_estimated_total"": true, ""failed_requests"": true, ""requests_with_unknown_cost"": true}"
+swarm-ee547757b06143bbbd3cab016ebc93f5 best reward,True,
+swarm-ee547757b06143bbbd3cab016ebc93f5 submission outcome accounting,True,
+swarm-ee547757b06143bbbd3cab016ebc93f5 backend response accounting,True,
+swarm-ee547757b06143bbbd3cab016ebc93f5 monotone queries,True,
+swarm-ee547757b06143bbbd3cab016ebc93f5 monotone backend_calls,True,
+swarm-ee547757b06143bbbd3cab016ebc93f5 monotone elapsed_s,True,
+swarm-ee547757b06143bbbd3cab016ebc93f5 monotone input_tokens,True,
+swarm-ee547757b06143bbbd3cab016ebc93f5 monotone output_tokens,True,
+swarm-ee547757b06143bbbd3cab016ebc93f5 monotone usd,True,
+swarm-ee547757b06143bbbd3cab016ebc93f5 plant net objective,True,
+swarm-ee547757b06143bbbd3cab016ebc93f5 winning design eligible,True,
+swarm-ee547757b06143bbbd3cab016ebc93f5 independent stream repricing,True,
+swarm-ee547757b06143bbbd3cab016ebc93f5 terminal component closure,True,max residual 6.00000004e-06 mol/s
+swarm-ee547757b06143bbbd3cab016ebc93f5 column cost breakdown,True,
+swarm-99005c2897f049e8bf38ddfb0eefd900 frozen task hash,True,
+swarm-99005c2897f049e8bf38ddfb0eefd900 experiment settings,True,
+swarm-99005c2897f049e8bf38ddfb0eefd900 charged-query total,True,
+swarm-99005c2897f049e8bf38ddfb0eefd900 backend curve mapping,True,"Sequential service events mapped using measured column executions, including cache calls and budget cleanup; endpoint reconciled."
+swarm-99005c2897f049e8bf38ddfb0eefd900 usage curve mapping,True,One saved usage event per policy outcome; parallel round costs counted before submissions.
+swarm-99005c2897f049e8bf38ddfb0eefd900 agent-0 usage reconciliation,True,"{""requests"": true, ""input_tokens"": true, ""output_tokens"": true, ""usd_estimated_total"": true, ""failed_requests"": true, ""requests_with_unknown_cost"": true}"
+swarm-99005c2897f049e8bf38ddfb0eefd900 agent-1 usage reconciliation,True,"{""requests"": true, ""input_tokens"": true, ""output_tokens"": true, ""usd_estimated_total"": true, ""failed_requests"": true, ""requests_with_unknown_cost"": true}"
+swarm-99005c2897f049e8bf38ddfb0eefd900 agent-2 usage reconciliation,True,"{""requests"": true, ""input_tokens"": true, ""output_tokens"": true, ""usd_estimated_total"": true, ""failed_requests"": true, ""requests_with_unknown_cost"": true}"
+swarm-99005c2897f049e8bf38ddfb0eefd900 agent-3 usage reconciliation,True,"{""requests"": true, ""input_tokens"": true, ""output_tokens"": true, ""usd_estimated_total"": true, ""failed_requests"": true, ""requests_with_unknown_cost"": true}"
+swarm-99005c2897f049e8bf38ddfb0eefd900 agent-4 usage reconciliation,True,"{""requests"": true, ""input_tokens"": true, ""output_tokens"": true, ""usd_estimated_total"": true, ""failed_requests"": true, ""requests_with_unknown_cost"": true}"
+swarm-99005c2897f049e8bf38ddfb0eefd900 best reward,True,
+swarm-99005c2897f049e8bf38ddfb0eefd900 submission outcome accounting,True,
+swarm-99005c2897f049e8bf38ddfb0eefd900 backend response accounting,True,
+swarm-99005c2897f049e8bf38ddfb0eefd900 monotone queries,True,
+swarm-99005c2897f049e8bf38ddfb0eefd900 monotone backend_calls,True,
+swarm-99005c2897f049e8bf38ddfb0eefd900 monotone elapsed_s,True,
+swarm-99005c2897f049e8bf38ddfb0eefd900 monotone input_tokens,True,
+swarm-99005c2897f049e8bf38ddfb0eefd900 monotone output_tokens,True,
+swarm-99005c2897f049e8bf38ddfb0eefd900 monotone usd,True,
+swarm-99005c2897f049e8bf38ddfb0eefd900 plant net objective,True,
+swarm-99005c2897f049e8bf38ddfb0eefd900 winning design eligible,True,
+swarm-99005c2897f049e8bf38ddfb0eefd900 independent stream repricing,True,
+swarm-99005c2897f049e8bf38ddfb0eefd900 terminal component closure,True,max residual 9.99999999e-07 mol/s
+swarm-99005c2897f049e8bf38ddfb0eefd900 column cost breakdown,True,
+swarm-8a058019985042109091388a28c89fd3 frozen task hash,True,
+swarm-8a058019985042109091388a28c89fd3 experiment settings,True,
+swarm-8a058019985042109091388a28c89fd3 charged-query total,True,
+swarm-8a058019985042109091388a28c89fd3 backend curve mapping,True,"Sequential service events mapped using measured column executions, including cache calls and budget cleanup; endpoint reconciled."
+swarm-8a058019985042109091388a28c89fd3 usage curve mapping,True,One saved usage event per policy outcome; parallel round costs counted before submissions.
+swarm-8a058019985042109091388a28c89fd3 agent-0 usage reconciliation,True,"{""requests"": true, ""input_tokens"": true, ""output_tokens"": true, ""usd_estimated_total"": true, ""failed_requests"": true, ""requests_with_unknown_cost"": true}"
+swarm-8a058019985042109091388a28c89fd3 agent-1 usage reconciliation,True,"{""requests"": true, ""input_tokens"": true, ""output_tokens"": true, ""usd_estimated_total"": true, ""failed_requests"": true, ""requests_with_unknown_cost"": true}"
+swarm-8a058019985042109091388a28c89fd3 agent-2 usage reconciliation,True,"{""requests"": true, ""input_tokens"": true, ""output_tokens"": true, ""usd_estimated_total"": true, ""failed_requests"": true, ""requests_with_unknown_cost"": true}"
+swarm-8a058019985042109091388a28c89fd3 agent-3 usage reconciliation,True,"{""requests"": true, ""input_tokens"": true, ""output_tokens"": true, ""usd_estimated_total"": true, ""failed_requests"": true, ""requests_with_unknown_cost"": true}"
+swarm-8a058019985042109091388a28c89fd3 agent-4 usage reconciliation,True,"{""requests"": true, ""input_tokens"": true, ""output_tokens"": true, ""usd_estimated_total"": true, ""failed_requests"": true, ""requests_with_unknown_cost"": true}"
+swarm-8a058019985042109091388a28c89fd3 best reward,True,
+swarm-8a058019985042109091388a28c89fd3 submission outcome accounting,True,
+swarm-8a058019985042109091388a28c89fd3 backend response accounting,True,
+swarm-8a058019985042109091388a28c89fd3 monotone queries,True,
+swarm-8a058019985042109091388a28c89fd3 monotone backend_calls,True,
+swarm-8a058019985042109091388a28c89fd3 monotone elapsed_s,True,
+swarm-8a058019985042109091388a28c89fd3 monotone input_tokens,True,
+swarm-8a058019985042109091388a28c89fd3 monotone output_tokens,True,
+swarm-8a058019985042109091388a28c89fd3 monotone usd,True,
+swarm-72cb1e123ba9413e9c715b38544c0067 frozen task hash,True,
+swarm-72cb1e123ba9413e9c715b38544c0067 experiment settings,True,
+swarm-72cb1e123ba9413e9c715b38544c0067 charged-query total,True,
+swarm-72cb1e123ba9413e9c715b38544c0067 backend curve mapping,True,"Sequential service events mapped using measured column executions, including cache calls and budget cleanup; endpoint reconciled."
+swarm-72cb1e123ba9413e9c715b38544c0067 usage curve mapping,True,One saved usage event per policy outcome; parallel round costs counted before submissions.
+swarm-72cb1e123ba9413e9c715b38544c0067 agent-0 usage reconciliation,True,"{""requests"": true, ""input_tokens"": true, ""output_tokens"": true, ""usd_estimated_total"": true, ""failed_requests"": true, ""requests_with_unknown_cost"": true}"
+swarm-72cb1e123ba9413e9c715b38544c0067 agent-1 usage reconciliation,True,"{""requests"": true, ""input_tokens"": true, ""output_tokens"": true, ""usd_estimated_total"": true, ""failed_requests"": true, ""requests_with_unknown_cost"": true}"
+swarm-72cb1e123ba9413e9c715b38544c0067 agent-2 usage reconciliation,True,"{""requests"": true, ""input_tokens"": true, ""output_tokens"": true, ""usd_estimated_total"": true, ""failed_requests"": true, ""requests_with_unknown_cost"": true}"
+swarm-72cb1e123ba9413e9c715b38544c0067 agent-3 usage reconciliation,True,"{""requests"": true, ""input_tokens"": true, ""output_tokens"": true, ""usd_estimated_total"": true, ""failed_requests"": true, ""requests_with_unknown_cost"": true}"
+swarm-72cb1e123ba9413e9c715b38544c0067 agent-4 usage reconciliation,True,"{""requests"": true, ""input_tokens"": true, ""output_tokens"": true, ""usd_estimated_total"": true, ""failed_requests"": true, ""requests_with_unknown_cost"": true}"
+swarm-72cb1e123ba9413e9c715b38544c0067 best reward,True,
+swarm-72cb1e123ba9413e9c715b38544c0067 submission outcome accounting,True,
+swarm-72cb1e123ba9413e9c715b38544c0067 backend response accounting,True,
+swarm-72cb1e123ba9413e9c715b38544c0067 monotone queries,True,
+swarm-72cb1e123ba9413e9c715b38544c0067 monotone backend_calls,True,
+swarm-72cb1e123ba9413e9c715b38544c0067 monotone elapsed_s,True,
+swarm-72cb1e123ba9413e9c715b38544c0067 monotone input_tokens,True,
+swarm-72cb1e123ba9413e9c715b38544c0067 monotone output_tokens,True,
+swarm-72cb1e123ba9413e9c715b38544c0067 monotone usd,True,
+swarm-72cb1e123ba9413e9c715b38544c0067 plant net objective,True,
+swarm-72cb1e123ba9413e9c715b38544c0067 winning design eligible,True,
+swarm-72cb1e123ba9413e9c715b38544c0067 independent stream repricing,True,
+swarm-72cb1e123ba9413e9c715b38544c0067 terminal component closure,True,max residual 1.99999999e-06 mol/s
+swarm-72cb1e123ba9413e9c715b38544c0067 column cost breakdown,True,

@@ -1,0 +1,14 @@
+{
+  "schema": "report-bundle-v1",
+  "task": "hc16v3_dev_002",
+  "model": "kimi-k3.1-pro",
+  "run_id": "hc16v3_dev_002-ring-5x2-k10-f29cf5a2",
+  "condition": "team-ring-5x2-k10",
+  "status": "all_done",
+  "report": "index.html",
+  "sha256": {
+    "index.html": "7331881ec1b57c54cff67bf9cee0fc46747aac3457160938fc56f6eddb2d8fc6",
+    "report-data.json": "d5f4e32bb9ff966739d24e02da049d1f8d127c8c5ce81059e28674fd0e971353",
+    "summary.json": "207c9277a4026aea857fb6bf0671557b4d416d3f6b2f9767a197aa9d69f2ac0b"
+  }
+}

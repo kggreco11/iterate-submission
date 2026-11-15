@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-cull-db97bd5c",
+ "agent_id": "agent-2",
+ "provider": "modal",
+ "model": "kimi-k3.1-pro",
+ "requests": 67,
+ "failed_requests": 3,
+ "input_tokens": 241077,
+ "output_tokens": 48651,
+ "usd_estimated_total": 0.9686640000000001,
+ "requests_with_unknown_cost": 3,
+ "price_source": "https://modal.com/docs/guide/supported-models; 2026-11-14; uncached estimate",
+ "wall_s": 2100.9920461177826,
+ "status": "finished",
+ "island": 2,
+ "strategy": null,
+ "best_valid_reward": 0.21539855273752428,
+ "solves_used": 102,
+ "first_positive_at_solves": 94,
+ "usd_cached_price_estimate": 0.7219056,
+ "notebook": "PLAN: Restore the best valid two-column C5-blend plant and finish; no further trials are justified with three solves left. Best is 0.215: root 70/3/5/0.2 and T 80/6/10/0.2, revenue $565.8M/yr, cost $471.4M/yr. TB is 96% C5 with about 3% DMB, so root duty cuts destroy saleability. TT and B are unsold and further recovery was uneconomic. T=70/5/10 reduced reward to 0.146 and T reflux 5.7 gave 0.195. Root reflux 2.9 caused TB C5 purity to fall to 94%, eliminating all revenue and giving -1.077. Reject that trial and retain the proven best design.",
+ "task": "hc16v3_dev_002"
+}

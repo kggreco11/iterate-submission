@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-761c0ffe",
+ "agent_id": "agent-8",
+ "provider": "modal",
+ "model": "kimi-k3.1-pro",
+ "requests": 28,
+ "failed_requests": 0,
+ "input_tokens": 164738,
+ "output_tokens": 22160,
+ "usd_estimated_total": 0.551076,
+ "requests_with_unknown_cost": 0,
+ "price_source": "https://modal.com/docs/guide/supported-models; 2026-11-14; uncached estimate",
+ "wall_s": 3608.629136323929,
+ "status": "budget_exhausted",
+ "island": 1,
+ "strategy": null,
+ "best_valid_reward": 1.3060000870463833,
+ "solves_used": 50,
+ "first_positive_at_solves": 33,
+ "usd_cached_price_estimate": 0.42838799999999994,
+ "notebook": "PLAN: Spend the final solve on the last narrowly bracketed C6 reflux probe, then stop with the best valid design secured. R1118 at 4.65 gives reward 1.304, $1409.6M/yr revenue and $837.7M/yr cost. R1146 at 4.62 loses C6 blend purity and all BT revenue, so the cliff is tightly bracketed. Probe 4.64: it may slightly improve recovery and cost, while the already evaluated 4.65 design remains the fallback best. Root and T are fixed; earlier changes there lost revenue or failed convergence.",
+ "task": "hc16v3_dev_002"
+}

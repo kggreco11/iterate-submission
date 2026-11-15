@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-761c0ffe",
+ "agent_id": "agent-4",
+ "provider": "modal",
+ "model": "kimi-k3.1-pro",
+ "requests": 23,
+ "failed_requests": 0,
+ "input_tokens": 164075,
+ "output_tokens": 19242,
+ "usd_estimated_total": 0.5205700000000001,
+ "requests_with_unknown_cost": 0,
+ "price_source": "https://modal.com/docs/guide/supported-models; 2026-11-14; uncached estimate",
+ "wall_s": 3608.6266407966614,
+ "status": "budget_exhausted",
+ "island": 0,
+ "strategy": null,
+ "best_valid_reward": 0.529951075811396,
+ "solves_used": 50,
+ "first_positive_at_solves": 10,
+ "usd_cached_price_estimate": 0.4244932,
+ "notebook": "PLAN: Final solve: apply the independently proven TTT boil-up 0.65 trim to the best 0.529 design (root reflux 3.8), then finish. It should reduce reboiler duty while keeping the C3 blend sellable.\nBest 0.529: root 45/3.8/4/.2, T 50/2.5/2.5/.1, TB 60/3.5/3.5/.1, TT 60/4/4/.1 side L20 .25, TTT 40/3/.7/.1. Root reflux 3.8 increased C5 recovery substantially and revenue by $14.7M/yr while cutting root cost. TTT .65 preserved C3 sales in R994 and saved about $0.3M/yr. Root dp .3, boil-up 4.2, and reflux 3 were harmful. Avoid heavy expansion.",
+ "task": "hc16v3_dev_002"
+}

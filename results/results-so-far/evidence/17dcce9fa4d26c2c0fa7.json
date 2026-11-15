@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-761c0ffe",
+ "agent_id": "agent-3",
+ "provider": "modal",
+ "model": "kimi-k3.1-pro",
+ "requests": 21,
+ "failed_requests": 0,
+ "input_tokens": 147004,
+ "output_tokens": 17456,
+ "usd_estimated_total": 0.468568,
+ "requests_with_unknown_cost": 0,
+ "price_source": "https://modal.com/docs/guide/supported-models; 2026-11-14; uncached estimate",
+ "wall_s": 3608.625640630722,
+ "status": "budget_exhausted",
+ "island": 0,
+ "strategy": null,
+ "best_valid_reward": 0.48642403190413697,
+ "solves_used": 50,
+ "first_positive_at_solves": 18,
+ "usd_cached_price_estimate": 0.3779056,
+ "notebook": "PLAN: With three solves left, adopt R909 (best 0.493) and test a modest root reflux reduction, the only remaining change with meaningful cost upside. Revert if blend recovery or purity declines; otherwise retain the best.\n\nR909 uses TTT 40/3.0/0.7 and scores 0.493. Root boil-up changes are harmful; dp 0.3 is much worse. Root stages 45 are essentially tied with 50. Root duty is $260M, so a 5% reflux cut has more upside than further small-column tuning. TTT 0.6 fails C3 purity, 0.7 is optimal known, 0.8 slightly worse. Preserve TB and TT settings.",
+ "task": "hc16v3_dev_002"
+}

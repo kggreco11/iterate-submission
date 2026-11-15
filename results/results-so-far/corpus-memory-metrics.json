@@ -1,0 +1,11 @@
+{
+  "prompt_count": 765,
+  "candidate_instances": 15025,
+  "admitted_candidate_instances": 7427,
+  "nonincumbent_source_age_median_rounds": 66.0,
+  "median_prompt_bytes": 31446,
+  "prompts_at_least_95pct_capacity": 750,
+  "corpus_keys": 565,
+  "corpus_observations": 727,
+  "best_plant_topologies": 1
+}

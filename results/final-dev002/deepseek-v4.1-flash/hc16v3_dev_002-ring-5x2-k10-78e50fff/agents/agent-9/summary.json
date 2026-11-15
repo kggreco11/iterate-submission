@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-78e50fff",
+ "agent_id": "agent-9",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 112,
+ "failed_requests": 0,
+ "input_tokens": 1216610,
+ "output_tokens": 111376,
+ "usd_estimated_total": 0.49863419999999997,
+ "requests_with_unknown_cost": 0,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 5634.3979432582855,
+ "status": "finished",
+ "island": 1,
+ "strategy": null,
+ "best_valid_reward": 1.7512974572311615,
+ "solves_used": 47,
+ "first_positive_at_solves": 8,
+ "usd_cached_price_estimate": 0.42232572000000007,
+ "notebook": "Solves 47/50. Best 1.751 (9 cols): rev $1548M, cost $780M. Topology ''->T/B; T->TT($0)/TB; TB->TBT(nC4 98% $118M)/TBB(C5mix $379M); B->BT->BTT->BTTT(C5mix $144M)/BTTB($0); BTB(C6par $588M); BB->BBT->BBTT(C6par $238M)/BBTB($0); BBB($0). All 50 agents converge => near-optimum for greedy tree.\n\nLessons: (1) pure nC4 $118M > C4mix $113M. (2) Every probe on $0 streams (TT, BBB, BBTB, BTTB, BTTBB) LOST money: extra col ~$70M/yr > freed revenue. (3) C6mix 0.0423 < pure nC6 0.0542. (4) C5mix 0.0309 < nC5 0.0344/iC5 0.0383. (5) Feed-col trim collapsed purities (-0.398). (6) Double-effect on feed col FAILED (no heat link, 2 cols cost more). (7) Deepening TB to 99% nC4 dropped reward (R1603 1.683) - lost C5 mix revenue.\n\nPlan: revert to 1.751 baseline; hold as final. No further risky probes with 3 solves left.",
+ "task": "hc16v3_dev_002"
+}

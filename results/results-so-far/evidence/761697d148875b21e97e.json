@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-f29cf5a2",
+ "agent_id": "agent-9",
+ "provider": "modal",
+ "model": "kimi-k3.1-pro",
+ "requests": 32,
+ "failed_requests": 3,
+ "input_tokens": 190988,
+ "output_tokens": 24883,
+ "usd_estimated_total": 0.630806,
+ "requests_with_unknown_cost": 3,
+ "price_source": "https://modal.com/docs/guide/supported-models; 2026-11-14; uncached estimate",
+ "wall_s": 1954.6875388622284,
+ "status": "budget_exhausted",
+ "island": 4,
+ "strategy": null,
+ "best_valid_reward": 2.2295208079014324,
+ "solves_used": 50,
+ "first_positive_at_solves": 19,
+ "usd_cached_price_estimate": 0.5028188,
+ "notebook": "PLAN: Adopt R213's 2.217 baseline, then use the final two solves for one careful C6 duty reduction to 8.5/8.5. Avoid changes to root, T, or TT because prior recovery/purity margins are narrow. This is that final interpolation test.\nR213 uses B DE 50/8.75/8.75 with LP dp0.85: the 99 MW heat link saves $202.7M and the C6 blend remains clean. Its net B cost is $200.9M versus $206.8M at 9/9, with essentially identical revenue. TT 15/1.5/1.5 is the proven cheap splitter. B at 8/8 contaminated the blend, so 8.5 is the final reasonable interpolation; if it fails, R213 remains the best valid design.",
+ "task": "hc16v3_dev_002"
+}

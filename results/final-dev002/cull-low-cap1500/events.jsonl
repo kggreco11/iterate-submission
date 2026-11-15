@@ -1,0 +1,46 @@
+{"kind": "round", "round": 1, "team_best": 0.0, "team_solves": 8, "active": 10, "usd_logged": 0.043784399999999994, "usd_real": 0.034591439999999994, "t": 92.11}
+{"kind": "round", "round": 2, "team_best": 0.0, "team_solves": 17, "active": 10, "usd_logged": 0.08771219999999999, "usd_real": 0.06981012, "t": 180.83}
+{"kind": "round", "round": 3, "team_best": 0.0, "team_solves": 25, "active": 10, "usd_logged": 0.135717, "usd_real": 0.10482036, "t": 270.6}
+{"kind": "round", "round": 4, "team_best": 0.0, "team_solves": 35, "active": 10, "usd_logged": 0.1815876, "usd_real": 0.13776552, "t": 381.7}
+{"kind": "round", "round": 5, "team_best": 0.0, "team_solves": 45, "active": 10, "usd_logged": 0.23061959999999998, "usd_real": 0.1735956, "t": 471.33}
+{"kind": "round", "round": 6, "team_best": 0.0, "team_solves": 55, "active": 10, "usd_logged": 0.2801139, "usd_real": 0.20926589999999998, "t": 554.82}
+{"kind": "round", "round": 7, "team_best": 0.0, "team_solves": 61, "active": 10, "usd_logged": 0.3302715, "usd_real": 0.24580686, "t": 641.28}
+{"kind": "round", "round": 8, "team_best": 0.0, "team_solves": 73, "active": 10, "usd_logged": 0.3812324999999999, "usd_real": 0.28356594, "t": 729.76}
+{"kind": "round", "round": 9, "team_best": 0.0, "team_solves": 81, "active": 10, "usd_logged": 0.4320998999999999, "usd_real": 0.32247558, "t": 818.52}
+{"kind": "cull", "round": 10, "stopped": ["agent-5", "agent-6", "agent-7", "agent-8", "agent-9"], "kept": ["agent-0", "agent-1", "agent-2", "agent-3", "agent-4"], "solves_moved": 199, "t": 913.16}
+{"kind": "round", "round": 10, "team_best": 0.0, "team_solves": 89, "active": 10, "usd_logged": 0.48229439999999996, "usd_real": 0.35988287999999996, "t": 913.16}
+{"kind": "round", "round": 11, "team_best": 0.0, "team_solves": 93, "active": 5, "usd_logged": 0.5071125000000001, "usd_real": 0.38055378, "t": 977.93}
+{"kind": "round", "round": 12, "team_best": 0.0, "team_solves": 95, "active": 5, "usd_logged": 0.5322518999999999, "usd_real": 0.40154598, "t": 1041.18}
+{"kind": "round", "round": 13, "team_best": 0.0, "team_solves": 101, "active": 5, "usd_logged": 0.5576709, "usd_real": 0.4208824199999999, "t": 1130.84}
+{"kind": "round", "round": 14, "team_best": 0.0, "team_solves": 108, "active": 5, "usd_logged": 0.5833413000000001, "usd_real": 0.44067762000000005, "t": 1221.94}
+{"kind": "round", "round": 15, "team_best": 0.0, "team_solves": 113, "active": 5, "usd_logged": 0.6096444000000001, "usd_real": 0.46082903999999997, "t": 1305.97}
+{"kind": "round", "round": 16, "team_best": 0.0, "team_solves": 124, "active": 5, "usd_logged": 0.6362897999999999, "usd_real": 0.4811154, "t": 1402.91}
+{"kind": "round", "round": 17, "team_best": 0.0, "team_solves": 126, "active": 5, "usd_logged": 0.6629084999999999, "usd_real": 0.5008220999999999, "t": 1489.51}
+{"kind": "round", "round": 18, "team_best": 0.0, "team_solves": 132, "active": 5, "usd_logged": 0.6888110999999999, "usd_real": 0.5198127000000001, "t": 1582.57}
+{"kind": "round", "round": 19, "team_best": 0.0, "team_solves": 134, "active": 5, "usd_logged": 0.7149416999999998, "usd_real": 0.5390313, "t": 1654.99}
+{"kind": "cull", "round": 20, "stopped": ["agent-3", "agent-4"], "kept": ["agent-0", "agent-1", "agent-2"], "solves_moved": 154, "t": 1719.33}
+{"kind": "round", "round": 20, "team_best": 0.0, "team_solves": 136, "active": 5, "usd_logged": 0.7408964999999998, "usd_real": 0.5580741, "t": 1719.33}
+{"kind": "round", "round": 21, "team_best": 0.0, "team_solves": 140, "active": 3, "usd_logged": 0.7567754999999998, "usd_real": 0.5714647800000001, "t": 1787.34}
+{"kind": "round", "round": 22, "team_best": 0.0, "team_solves": 141, "active": 3, "usd_logged": 0.7724616, "usd_real": 0.5846625599999999, "t": 1863.21}
+{"kind": "round", "round": 23, "team_best": 0.0, "team_solves": 142, "active": 3, "usd_logged": 0.7875368999999999, "usd_real": 0.59586714, "t": 1935.04}
+{"kind": "round", "round": 24, "team_best": 0.0, "team_solves": 145, "active": 3, "usd_logged": 0.802827, "usd_real": 0.6072865199999999, "t": 2035.02}
+{"kind": "round", "round": 25, "team_best": 0.0, "team_solves": 148, "active": 3, "usd_logged": 0.8184686999999999, "usd_real": 0.6187810200000001, "t": 2128.31}
+{"kind": "round", "round": 26, "team_best": 0.0, "team_solves": 151, "active": 3, "usd_logged": 0.8337306, "usd_real": 0.6301722000000001, "t": 2222.48}
+{"kind": "round", "round": 27, "team_best": 0.0, "team_solves": 152, "active": 3, "usd_logged": 0.8492754, "usd_real": 0.6420536400000001, "t": 2307.48}
+{"kind": "round", "round": 28, "team_best": 0.0, "team_solves": 154, "active": 3, "usd_logged": 0.8654922, "usd_real": 0.6549526800000001, "t": 2405.89}
+{"kind": "round", "round": 29, "team_best": 0.0, "team_solves": 155, "active": 3, "usd_logged": 0.8813271, "usd_real": 0.66691686, "t": 2480.97}
+{"kind": "cull", "round": 30, "stopped": ["agent-2"], "kept": ["agent-0", "agent-1"], "solves_moved": 118, "t": 2564.68}
+{"kind": "round", "round": 30, "team_best": 0.0, "team_solves": 161, "active": 3, "usd_logged": 0.8943801, "usd_real": 0.6769977, "t": 2564.68}
+{"kind": "round", "round": 31, "team_best": 0.0, "team_solves": 166, "active": 2, "usd_logged": 0.9047327999999999, "usd_real": 0.68569152, "t": 2639.15}
+{"kind": "round", "round": 32, "team_best": 0.0, "team_solves": 166, "active": 2, "usd_logged": 0.9152621999999999, "usd_real": 0.6944238, "t": 2704.08}
+{"kind": "round", "round": 33, "team_best": 0.0, "team_solves": 169, "active": 2, "usd_logged": 0.9255126, "usd_real": 0.7019093999999999, "t": 2769.75}
+{"kind": "round", "round": 34, "team_best": 0.0, "team_solves": 173, "active": 2, "usd_logged": 0.9359789999999999, "usd_real": 0.709611, "t": 3110.03}
+{"kind": "round", "round": 35, "team_best": 0.0, "team_solves": 173, "active": 2, "usd_logged": 0.9465051, "usd_real": 0.7173722999999999, "t": 3153.15}
+{"kind": "round", "round": 36, "team_best": 0.0, "team_solves": 173, "active": 2, "usd_logged": 0.9571098, "usd_real": 0.72548868, "t": 3226.09}
+{"kind": "round", "round": 37, "team_best": 0.0, "team_solves": 175, "active": 2, "usd_logged": 0.9675681, "usd_real": 0.7338733799999999, "t": 3285.32}
+{"kind": "round", "round": 38, "team_best": 0.0, "team_solves": 180, "active": 2, "usd_logged": 0.9782013, "usd_real": 0.74201826, "t": 3346.35}
+{"kind": "round", "round": 39, "team_best": 0.0, "team_solves": 185, "active": 2, "usd_logged": 0.9891014999999999, "usd_real": 0.75043014, "t": 3409.14}
+{"kind": "round", "round": 40, "team_best": 0.0, "team_solves": 185, "active": 2, "usd_logged": 0.9997541999999999, "usd_real": 0.7585945199999999, "t": 3472.47}
+{"kind": "round", "round": 41, "team_best": 0.0, "team_solves": 186, "active": 2, "usd_logged": 1.0098753, "usd_real": 0.76678026, "t": 3526.58}
+{"kind": "round", "round": 42, "team_best": 0.0, "team_solves": 188, "active": 2, "usd_logged": 1.0201029, "usd_real": 0.7747960199999999, "t": 3593.49}
+{"kind": "round", "round": 43, "team_best": 0.0, "team_solves": 188, "active": 2, "usd_logged": 1.0299828, "usd_real": 0.7821876000000001, "t": 3653.32}

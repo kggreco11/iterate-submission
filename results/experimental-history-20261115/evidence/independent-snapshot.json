@@ -1,0 +1,32 @@
+{
+  "provenance": "Selected fields transcribed from tool-observed snapshot before concurrent checkout removal.",
+  "captured_at": 1794770073.9422734,
+  "status": "running based on active round events; saved state string starting",
+  "agents": [
+    {
+      "agent": 0,
+      "queries": 307,
+      "best": 1.7393842710984466
+    },
+    {
+      "agent": 1,
+      "queries": 359,
+      "best": 2.1091226069883815
+    },
+    {
+      "agent": 2,
+      "queries": 301,
+      "best": 2.14195910929953
+    },
+    {
+      "agent": 3,
+      "queries": 387,
+      "best": 2.234439287927647
+    },
+    {
+      "agent": 4,
+      "queries": 201,
+      "best": 0.060132760847165054
+    }
+  ]
+}

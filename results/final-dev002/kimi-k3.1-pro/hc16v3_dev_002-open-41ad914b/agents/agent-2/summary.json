@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-open-41ad914b",
+ "agent_id": "agent-2",
+ "provider": "modal",
+ "model": "kimi-k3.1-pro",
+ "requests": 36,
+ "failed_requests": 1,
+ "input_tokens": 288626,
+ "output_tokens": 26782,
+ "usd_estimated_total": 0.8450719999999999,
+ "requests_with_unknown_cost": 0,
+ "price_source": "https://modal.com/docs/guide/supported-models; 2026-11-14; uncached estimate",
+ "wall_s": 1959.152142047882,
+ "status": "budget_exhausted",
+ "island": 0,
+ "strategy": null,
+ "best_valid_reward": 2.953373657755877,
+ "solves_used": 50,
+ "first_positive_at_solves": 10,
+ "usd_cached_price_estimate": 0.6889760000000001,
+ "notebook": "PLAN: Finish the proven TT boil-up sweep with one intermediate final test, then retain the best valid design.\nBest is 2.952 with root 50/3/2/0.2, B 120/9.5/3.6/0.1, T 40/3/2.5/0.1, BB 100/6/7.1/0.35, TT 30/5/0.8/0.1. Reducing TT boil-up from 1.4 to 0.8 improved both recovery and cost, but 0.7 dropped TTB just below the 95% C3 blend threshold and lost about $70M/yr. Use the last solve at 0.75 to seek the limiting profitable recovery without sacrificing the blend. BB pressure gains saturated at 0.35; 0.40 was negative. BB boil-up 7.2 loses C6 purity, and lower B reflux/stages or B dp 0.2 failed. Structural additions are uneconomic. The 2.952 design remains the fallback.",
+ "task": "hc16v3_dev_002"
+}

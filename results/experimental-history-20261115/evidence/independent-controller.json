@@ -1,0 +1,8 @@
+{
+  "provenance": "Selected fields transcribed from observed controller",
+  "run_id": "v3-kimi-independent-400-20261114-r1",
+  "source_sha256": "a981fa8b0720c6c0743a7283b1ffbac08689c07b38cd36bc308c8c58d2c9927d",
+  "state": "launched",
+  "model_alias": "kimi-k3.1-pro",
+  "model_id": "deployment-identifier-omitted"
+}

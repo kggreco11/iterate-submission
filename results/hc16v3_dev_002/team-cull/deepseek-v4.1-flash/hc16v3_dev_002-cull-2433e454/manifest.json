@@ -1,0 +1,14 @@
+{
+  "schema": "report-bundle-v1",
+  "task": "hc16v3_dev_002",
+  "model": "deepseek-v4.1-flash",
+  "run_id": "hc16v3_dev_002-cull-2433e454",
+  "condition": "team-cull",
+  "status": "round_limit",
+  "report": "index.html",
+  "sha256": {
+    "index.html": "dcb1655dcbf3aee93deee60d84cb7c7e672686e382bb7c2595a8a8d7f89f3546",
+    "report-data.json": "c8de971fc5f66d031f88b2ad5b3d527346b69f1d240d4ad90e1517a4678996cb",
+    "summary.json": "ecc9bf81e4ea27ba5ed58a6348063ed0ed1d2f5afe161f8ce32caf736b5ed436"
+  }
+}

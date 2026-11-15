@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-761c0ffe",
+ "agent_id": "agent-27",
+ "provider": "modal",
+ "model": "kimi-k3.1-pro",
+ "requests": 19,
+ "failed_requests": 0,
+ "input_tokens": 171345,
+ "output_tokens": 19954,
+ "usd_estimated_total": 0.54223,
+ "requests_with_unknown_cost": 0,
+ "price_source": "https://modal.com/docs/guide/supported-models; 2026-11-14; uncached estimate",
+ "wall_s": 3608.6379511356354,
+ "status": "budget_exhausted",
+ "island": 5,
+ "strategy": null,
+ "best_valid_reward": 3.550150955680578,
+ "solves_used": 50,
+ "first_positive_at_solves": 10,
+ "usd_cached_price_estimate": 0.4567516,
+ "notebook": "PLAN: Use the final solve on the small cyclohexane/heptane finisher; retain the proven 3.550 design if the stronger stripping does not pay.\nThe 60/8/10 finisher lifted heptane bottoms from 82% to 93%, just below specification. Increasing boil-up to 15 should remove the remaining cyclohexane and unlock a premium heptane product while keeping the 100% cyclohexane overhead. All other proven columns remain unchanged.",
+ "task": "hc16v3_dev_002"
+}

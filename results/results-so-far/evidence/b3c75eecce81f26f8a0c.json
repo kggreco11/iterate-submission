@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-cull-2433e454",
+ "agent_id": "agent-0",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 241,
+ "failed_requests": 3,
+ "input_tokens": 1091533,
+ "output_tokens": 235850,
+ "usd_estimated_total": 0.6104798999999996,
+ "requests_with_unknown_cost": 3,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 5423.246702671051,
+ "status": "active",
+ "island": 0,
+ "strategy": null,
+ "best_valid_reward": 0.0,
+ "solves_used": 86,
+ "first_positive_at_solves": null,
+ "usd_cached_price_estimate": 0.4557893399999997,
+ "notebook": "T120. 86 solves used, 115 left. best valid=0 (empty plant). Learned: single columns cost ~$100-146M/yr and sell nothing \u2192 negative; sharp splits need high reflux. 3-column build failed to converge; must add columns one at a time and verify convergence.\n\nRevenue if all sold ($M/yr): C3mix 73, C4mix 186, C5mix 618, C6paraffin 1181, C6naphthene 396, pure nC7 332, nC8 359, nC9 104, ethane 4. Total ~3254. Columns likely ~$80-150M each, so a 9-column cascade (~$1000M) could net ~$2000M \u2192 reward ~4.5. MAJOR: even a partial cascade (e.g. just C5mix+C6paraffin+heavies) is worth far more than empty.\n\nKey: ethane (34 mol/s, $4M/yr) is worthless to separate \u2014 too small. Plan: leave ethane with propylene/propane and accept C3mix may fail 95%; focus on big earners.\n\nBlend cuts (b.p.): C3mix 225-231; C4mix 261-273; C5mix 301-309; C6paraffin 323-342; C6naphthene 345-354; then pure nC7 372, nC8 399, nC9 424.\n\nPlan cascade (volatility order): feed col splits C4-and-lighter / C5mix / C6+ ... Actually simpler: col1 top=light (C2-C4), bottom=C5+; col2 polishes C5mix; col3 splits C6paraffin/C6naphthene/nC7+.\n\nNext: this 40/6/5 feed column = sharp C5/C6 cut; read T/B compositions to confirm split quality and cost before adding children.",
+ "task": "hc16v3_dev_002"
+}

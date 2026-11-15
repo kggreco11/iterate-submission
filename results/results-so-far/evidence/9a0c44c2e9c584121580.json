@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-3isl-k10-9d054776",
+ "agent_id": "agent-9",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 113,
+ "failed_requests": 2,
+ "input_tokens": 645978,
+ "output_tokens": 115172,
+ "usd_estimated_total": 0.3319997999999999,
+ "requests_with_unknown_cost": 1,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 4928.482302904129,
+ "status": "budget_exhausted",
+ "island": 2,
+ "strategy": null,
+ "best_valid_reward": 0.0,
+ "solves_used": 50,
+ "first_positive_at_solves": null,
+ "usd_cached_price_estimate": 0.25755755999999996,
+ "notebook": "T56. Solves 49/50 -> this is my LAST solve. Banked best valid = 0.000 (empty plant). Any worse/invalid result leaves best at 0.000, so no downside to trying.\n\nKEY ECONOMICS (value = flow x price x 28.8e6 $/yr per mol/s):\n- C6 paraffin mix (2,2DMB+2MP+3MP+nC6=970 mol/s) @0.85*0.0423 = $1182M/yr. Biggest prize but C6 paraffins vs C6 naphthenes gap is only 3.1K (nC6 341.9 vs MCP 345.0) -> infeasible cheaply.\n- C5 mix (iC5+nC5=695 mol/s) @0.85*0.03635 = $618M/yr. Gap nC5 309.2 -> 2,2DMB 322.9 = 13.7K (moderate).\n- C6 naphthene mix (MCP+CyC6=269) $396M/yr; C4 mix (iC4+nC4=544) $186M/yr; C3 mix $73M/yr.\nColumn cost brutal: 45-stage ~$343M/yr, 55-stage ~$292M/yr. So 2 columns ~$600M/yr -> need >$600M/yr revenue.\n\nBIG BP GAPS (easy cuts): C4/C5 = 28K, C5/C6-paraffin: nC5 309.2 -> 2,2DMB 322.9 = 13.7K, CyC6 353.9 -> nC7 371.6 = 17.7K.\n\nFAILURE MODE from probes: cuts straddle 95% threshold; need cut exactly on a large gap + enough stages.\n\nFINAL ATTEMPT: column 1 (60/8/8) cuts lights (C3+C4) overhead from C5+ bottoms; column 2 (60/8/8) on that tops... no, on bottoms (C5+) splitting C5 mix overhead from C6+ bottoms. Two columns, aim revenue ~$618M+$186M >~$600M cost. Marginal but the only shot. Empty plant remains best if this fails.",
+ "task": "hc16v3_dev_002"
+}

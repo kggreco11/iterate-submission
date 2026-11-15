@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-open-nocopy-c2285eb2",
+ "agent_id": "agent-4",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 129,
+ "failed_requests": 3,
+ "input_tokens": 704791,
+ "output_tokens": 129247,
+ "usd_estimated_total": 0.36653370000000024,
+ "requests_with_unknown_cost": 3,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 4844.604526996613,
+ "status": "finished",
+ "island": 0,
+ "strategy": null,
+ "best_valid_reward": 0.0,
+ "solves_used": 44,
+ "first_positive_at_solves": null,
+ "usd_cached_price_estimate": 0.28365882,
+ "notebook": "T62. Solves 44/50. Best valid = 0.000 (empty plant). Every column train tried by me and by agent-9 (island 0) runs -0.5 to -2.1: costs (~$500-920M/yr for 2 columns) swamp revenue even when a blend/pure cut is nearly achieved.\n\nFEED: 3300 mol/s, 16 components, dense C5-C8 cluster. Value = flow*price*2.88e7 $/yr. Big prizes: C6par mix 1181, C5mix 618, nC5 439, C6naph 396, nC8 359.\nGaps (K): C3/iC4 30.3, nC4/iC5 28.3, nC8/nC9 25.2; C6 cluster unresolvable (MCP/nC6 3.1).\nColumns are enormous (3300 mol/s) => 25st/1/1 ~$95M, 40/3/3 ~$195M, 55-75 stage sharp trains ~$900M/yr.\n\nKEY LESSON: no reachable separation's revenue exceeds its column cost on this feed. 95% purity requires tall/high-reflux columns that cost more than the product is worth. The empty design (reward 0.000) is the rational, best valid answer.\n\nPLAN: revert to empty (0.000), finish. Save the remaining solves \u2014 no cheap single column can reach 95% on any valuable cut here.",
+ "task": "hc16v3_dev_002"
+}

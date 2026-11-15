@@ -1,0 +1,14 @@
+{
+  "schema": "report-bundle-v1",
+  "task": "hc16v3_dev_002",
+  "model": "deepseek-v4.1-flash",
+  "run_id": "hc16v3_dev_002-ring-5x2-k10-90279e64",
+  "condition": "team-ring-5x2-k10",
+  "status": "all_done",
+  "report": "index.html",
+  "sha256": {
+    "index.html": "146475702a0cacb585c6c423a20bb346fb5eb738bee348c2ec441265decf2a52",
+    "report-data.json": "6d418551773202340f2efd6d9d728ad87dba9dd940a57cf6a683678f8d96254e",
+    "summary.json": "5764dcd77f19929153a521891323d8e4d17965c7116f9d718a3c846691b6a6dd"
+  }
+}

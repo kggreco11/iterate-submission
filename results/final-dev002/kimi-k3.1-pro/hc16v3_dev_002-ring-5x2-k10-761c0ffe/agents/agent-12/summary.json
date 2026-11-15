@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-761c0ffe",
+ "agent_id": "agent-12",
+ "provider": "modal",
+ "model": "kimi-k3.1-pro",
+ "requests": 27,
+ "failed_requests": 0,
+ "input_tokens": 177929,
+ "output_tokens": 21606,
+ "usd_estimated_total": 0.5719180000000001,
+ "requests_with_unknown_cost": 0,
+ "price_source": "https://modal.com/docs/guide/supported-models; 2026-11-14; uncached estimate",
+ "wall_s": 3608.631149291992,
+ "status": "budget_exhausted",
+ "island": 2,
+ "strategy": null,
+ "best_valid_reward": 2.097867470589872,
+ "solves_used": 50,
+ "first_positive_at_solves": 23,
+ "usd_cached_price_estimate": 0.4538380000000001,
+ "notebook": "PLAN: Use the final two solves to adopt teammate R1123's demonstrated 2.098 optimum, then finish. Its two changes are independently beneficial: TT boil-up 2.0 raises C4 recovery and slightly lowers cost while retaining blend sale, and heavy-column 6.0/6.0 saves about $20M with only an $8M C6 revenue loss. All other settings remain the validated root 55/5.5/6.0/0.5 and T 50/5.0/7.5/0.2. Do not trim root reflux, which destroys blend purity; do not add columns for BB or TTT. Current plant is 2.058, so exact copy is the safest final improvement.",
+ "task": "hc16v3_dev_002"
+}

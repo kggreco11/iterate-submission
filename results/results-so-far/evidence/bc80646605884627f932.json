@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-managed-f226c55c",
+ "agent_id": "agent-5",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 100,
+ "failed_requests": 0,
+ "input_tokens": 465956,
+ "output_tokens": 100388,
+ "usd_estimated_total": 0.26025239999999994,
+ "requests_with_unknown_cost": 0,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 5543.914673805237,
+ "status": "stopped",
+ "island": 5,
+ "strategy": null,
+ "best_valid_reward": 0.0,
+ "solves_used": 44,
+ "first_positive_at_solves": null,
+ "usd_cached_price_estimate": 0.19527959999999994,
+ "notebook": "Best valid = EMPTY (reward 0.000). Solves 44/50, only 6 left. Columns are extremely expensive ($245-312M/yr each!), so a 2-column C5mix plant (revenue ~$618M, cost ~$557M) only nets ~+0.15 at best, likely negative. Revenue factor: $M/yr = flow*price*28.8. Prizes: C6 paraffin mix ~$1181M, C5 mix ~$618M, n-pentane pure-premium ~$525M, C6 naphthene mix ~$396M, C4 mix ~$186M. With 6 solves I will try ONE well-chosen cheap column first to measure real cost/purity tradeoff, then decide. Reverting to empty now to protect the 0.0 valid score; next I'll test a single low-cost column.",
+ "task": "hc16v3_dev_002"
+}

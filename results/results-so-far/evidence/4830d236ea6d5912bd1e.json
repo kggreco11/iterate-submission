@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-open-5f533da2",
+ "agent_id": "agent-4",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 132,
+ "failed_requests": 3,
+ "input_tokens": 776685,
+ "output_tokens": 130292,
+ "usd_estimated_total": 0.3893558999999998,
+ "requests_with_unknown_cost": 3,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 5132.718039512634,
+ "status": "budget_exhausted",
+ "island": 0,
+ "strategy": null,
+ "best_valid_reward": 0.6425236871663502,
+ "solves_used": 50,
+ "first_positive_at_solves": 45,
+ "usd_cached_price_estimate": 0.3041309400000001,
+ "notebook": "Turn 65, solves 49/50 (1 left). Best valid = 0.638 (my own, turn 64).\n\nBASE 0.638: ''60/3/3, B80/6/6, BT90/8/8, BTT60/4.5/4.5. Revenue $937.1M, cost $657.4M. Earns C5mix (BTTT 255, 60/40 NP/IP = $226M) + C6par (BTB 599, $711M). Unsold: T(1046, C4/C3), BB(1104, C6/C7+), BTTB(297).\n\nLEARNINGS:\n- Trimming BTT reflux monotonic-ly helps: 60/5/5=0.632, 60/4.5/4.5=0.638 (rev -2, cost -5). Continue trimming.\n- Intensifying BTT hurts (70/6/6=0.617, 80/9/9=0.565, 120/14/10=0.425).\n- Extra columns never pay: T-branch (+100M rev, +172M cost => 0.467); BB column (R490) => -0.029.\n- Value = flow*price*28.8. C5mix 0.0309, C6par ~0.0416, C4mix 0.0119, C3mix 0.00888.\n\nPLAN: last solve trims BTT 4.5->4.0 to shave cost on the proven gradient. No downside since best valid (0.638) is retained even if it's worse/invalid. Then finish.",
+ "task": "hc16v3_dev_002"
+}

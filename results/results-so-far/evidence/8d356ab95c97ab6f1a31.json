@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-78e50fff",
+ "agent_id": "agent-3",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 74,
+ "failed_requests": 0,
+ "input_tokens": 617014,
+ "output_tokens": 74279,
+ "usd_estimated_total": 0.27423899999999996,
+ "requests_with_unknown_cost": 0,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 5634.39296913147,
+ "status": "budget_exhausted",
+ "island": 0,
+ "strategy": null,
+ "best_valid_reward": 1.8891545644235561,
+ "solves_used": 50,
+ "first_positive_at_solves": 34,
+ "usd_cached_price_estimate": 0.22329756,
+ "notebook": "Solves 48/50. BEST=1.889 (R1323 tree). Wasted: TT 535 mol/s (53% C3, can't hit 95% blend due to 6% ethane; C4 bottoms ~73M/yr but col ~50M), BB 1037 mol/s ($0: nC8 23,nC7 20,cyclohex 18,nC6 14 \u2192 needs 3 cols to purify, too costly with budget), BTTBT 96 mol/s (94% nC5). Prior dead ends: TT split(t32), BB extra cols(t26/31), BTTB dp(R1509=1.888), sharper B(t35). Only light lever untried: B reflux 3.5->3.8 to sharpen C6-paraffin transfer into BTB. Testing now; revert if no gain.",
+ "task": "hc16v3_dev_002"
+}

@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-78e50fff",
+ "agent_id": "agent-32",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 107,
+ "failed_requests": 0,
+ "input_tokens": 700754,
+ "output_tokens": 108073,
+ "usd_estimated_total": 0.3399137999999999,
+ "requests_with_unknown_cost": 0,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 5634.427330255508,
+ "status": "finished",
+ "island": 6,
+ "strategy": null,
+ "best_valid_reward": 1.6564165090242078,
+ "solves_used": 49,
+ "first_positive_at_solves": 33,
+ "usd_cached_price_estimate": 0.2678907599999999,
+ "notebook": "T54. Solves 49/50 \u2014 ONE solve left. Best = R2053 (my turn-53 design): feed 34/2.6/2.6/0.8 + B 40/4.0/4.0/0.45 DOUBLE EFFECT f=0.5, LP dp 0.9. Reward 1.656, revenue $1047.4M, cost $320.9M. Heat link FORMED: HP condenser 367K vs LP reboiler 344K, 53 MW, saves $37.3M/yr, shared exchanger $1.9M/yr. B cost $106.5M.\n\nKey lessons: (1) The double effect on B is the big win \u2014 hp dp 0.45 (retain 0.55) + LP dp 0.9 (retain 0.10) gave enough T gap for the link. (2) Feed column 34/2.6/2.6/0.8 is the $214.5M cost driver; trims that keep BT C6-paraffin blend >=95% hold revenue ~$1050-1060M. (3) BT purity sits right at the 95% blend threshold \u2014 feed-split changes risk collapsing revenue. (4) Extra columns on T or BB were all money-losing (R2037 0.511, R2031 0.826) because C3-C5 and C7-C9 splits are expensive and the cuts stay impure.\n\nDecision: with one solve left, do not gamble. Revert to the best valid design (free re-eval, unchanged settings) and finish. Final score 1.656.",
+ "task": "hc16v3_dev_002"
+}

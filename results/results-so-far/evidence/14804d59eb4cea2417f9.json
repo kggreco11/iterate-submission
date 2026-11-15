@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-open-5f533da2",
+ "agent_id": "agent-8",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 77,
+ "failed_requests": 4,
+ "input_tokens": 428567,
+ "output_tokens": 77628,
+ "usd_estimated_total": 0.22172370000000002,
+ "requests_with_unknown_cost": 3,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 5132.71355009079,
+ "status": "budget_exhausted",
+ "island": 0,
+ "strategy": null,
+ "best_valid_reward": 0.0,
+ "solves_used": 50,
+ "first_positive_at_solves": null,
+ "usd_cached_price_estimate": 0.17244114000000002,
+ "notebook": "Turn37. 3 solves left (47/50). Best valid = 0 (empty). All my real designs score negative because revenue stays $0 \u2014 I never hit 95% purity.\\n\\nKey unit check: value($M/yr)=flow(mol/s)*price($/mol)*28.8. Pure nC8 tops=233*0.0534*28.8=$358M/yr; nC9=$104M. Column costs run $60-120M/yr each. So ONE clean heavy cut could beat cost.\\n\\nPlan: build a modest 3-column cascade that splits light C4/C5 (T branch) separately from heavy (B branch), to probe where purity CAN be reached cheaply. Keep reflux low. Only 3 solves: one shot at a structure, then adjust.\\n\\nLesson: top-down cascades on this ~16-comp mix never reach 95%; need wide-gap heavy cuts (nC7/nC8 27K, nC8/nC9 25K) with low flow. Other agents (R319,R321) all stuck at $0 revenue too.",
+ "task": "hc16v3_dev_002"
+}

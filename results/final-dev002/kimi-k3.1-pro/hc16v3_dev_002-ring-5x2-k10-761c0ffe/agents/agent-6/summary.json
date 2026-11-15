@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-761c0ffe",
+ "agent_id": "agent-6",
+ "provider": "modal",
+ "model": "kimi-k3.1-pro",
+ "requests": 23,
+ "failed_requests": 0,
+ "input_tokens": 134118,
+ "output_tokens": 20940,
+ "usd_estimated_total": 0.47763599999999995,
+ "requests_with_unknown_cost": 0,
+ "price_source": "https://modal.com/docs/guide/supported-models; 2026-11-14; uncached estimate",
+ "wall_s": 3608.6271443367004,
+ "status": "budget_exhausted",
+ "island": 1,
+ "strategy": null,
+ "best_valid_reward": 1.2742645264266568,
+ "solves_used": 50,
+ "first_positive_at_solves": 40,
+ "usd_cached_price_estimate": 0.3776424,
+ "notebook": "PLAN: Preserve R957 as the best design and spend the final solve on one isolated, conservative C6-column energy reduction; keep it only if blend purity and revenue survive.\nR957 scores 1.236 with root 50/5/5.5/0.5, C5 finisher T 60/8/12/0.3, and C6 finisher B 35/5/3/0.3. Reducing T reflux to 7.5 lost $81M/yr revenue for only $7.4M/yr savings; root height 45 was slightly worse. R998 showed the C6 purity cliff lies between B 35/5/3 and 30/4.5/3, so avoid another large cut. Final test: only B reflux 5.0 to 4.8 at fixed height, boil-up and pressure. This needs one new solve, leaves the other columns cached, and R957 remains the fallback if purity or economics worsen.",
+ "task": "hc16v3_dev_002"
+}

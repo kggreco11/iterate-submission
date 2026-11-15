@@ -1,0 +1,13 @@
+entry,task,n_runs,mean_final_best
+first_cut_greedy,hc12_dev_000,1,0.8818
+first_cut_greedy,hc12_dev_001,1,0.9753
+first_cut_greedy,hc12_dev_002,1,0.3046
+first_cut_greedy,hc12_dev_003,1,0.0000
+random,hc12_dev_000,3,1.2624
+random,hc12_dev_001,3,1.4760
+random,hc12_dev_002,3,1.2831
+random,hc12_dev_003,3,1.7725
+random_then_greedy,hc12_dev_000,3,1.5336
+random_then_greedy,hc12_dev_001,3,1.2262
+random_then_greedy,hc12_dev_002,3,1.5074
+random_then_greedy,hc12_dev_003,3,1.8235

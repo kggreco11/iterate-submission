@@ -1,0 +1,188 @@
+{
+ "run_id": "hc16v3_dev_002-F4-3108579c",
+ "code": "F4",
+ "name": "strategies",
+ "task": "hc16v3_dev_002",
+ "status": "all_done",
+ "wall_s": 1373.0,
+ "team_best": 0.9205797840180432,
+ "team_solves": 499,
+ "team_budget": 500,
+ "best_at": {
+  "50": 0.0,
+  "100": 0.005800457278271537,
+  "250": 0.4488295098267374,
+  "500": 0.9205797840180432
+ },
+ "team_first_positive_at_team_solves": 75,
+ "agents_off_zero": 10,
+ "solving_agents": 10,
+ "best_record": "R266",
+ "best_design": {
+  "": [
+   70,
+   3.0,
+   5.0,
+   0.2
+  ],
+  "T": [
+   60,
+   2.0,
+   2.0,
+   0.2
+  ],
+  "TB": [
+   60,
+   4.0,
+   3.0,
+   0.2
+  ],
+  "TT": [
+   60,
+   4.0,
+   4.0,
+   0.2
+  ],
+  "TBT": [
+   45,
+   2.5,
+   4.0,
+   0.2
+  ],
+  "TTT": [
+   35,
+   1.5,
+   0.35,
+   0.2
+  ]
+ },
+ "copies": 41,
+ "records": 273,
+ "usd": 3.72386,
+ "requests": 398,
+ "input_tokens": 1028440,
+ "output_tokens": 166698,
+ "backend_calls": 373,
+ "agents": {
+  "agent-0": {
+   "role": "solver",
+   "team": null,
+   "status": "finished",
+   "best_valid_reward": 0.9205797840180432,
+   "solves_used": 49,
+   "first_positive_at_solves": 7,
+   "requests": 50,
+   "input_tokens": 143715,
+   "output_tokens": 19530,
+   "usd_estimated_total": 0.48273
+  },
+  "agent-1": {
+   "role": "solver",
+   "team": null,
+   "status": "budget_exhausted",
+   "best_valid_reward": 0.899313245556603,
+   "solves_used": 50,
+   "first_positive_at_solves": 8,
+   "requests": 33,
+   "input_tokens": 90832,
+   "output_tokens": 13884,
+   "usd_estimated_total": 0.320504
+  },
+  "agent-2": {
+   "role": "solver",
+   "team": null,
+   "status": "budget_exhausted",
+   "best_valid_reward": 0.8913049278653926,
+   "solves_used": 50,
+   "first_positive_at_solves": 20,
+   "requests": 37,
+   "input_tokens": 92165,
+   "output_tokens": 15623,
+   "usd_estimated_total": 0.34056000000000003
+  },
+  "agent-3": {
+   "role": "solver",
+   "team": null,
+   "status": "budget_exhausted",
+   "best_valid_reward": 0.9131202517263816,
+   "solves_used": 50,
+   "first_positive_at_solves": 12,
+   "requests": 39,
+   "input_tokens": 98480,
+   "output_tokens": 15902,
+   "usd_estimated_total": 0.35598
+  },
+  "agent-4": {
+   "role": "solver",
+   "team": null,
+   "status": "budget_exhausted",
+   "best_valid_reward": 0.899313245556603,
+   "solves_used": 50,
+   "first_positive_at_solves": 26,
+   "requests": 37,
+   "input_tokens": 98973,
+   "output_tokens": 17840,
+   "usd_estimated_total": 0.37634600000000007
+  },
+  "agent-5": {
+   "role": "solver",
+   "team": null,
+   "status": "budget_exhausted",
+   "best_valid_reward": 0.8890417190904631,
+   "solves_used": 50,
+   "first_positive_at_solves": 27,
+   "requests": 36,
+   "input_tokens": 89294,
+   "output_tokens": 16123,
+   "usd_estimated_total": 0.33981799999999995
+  },
+  "agent-6": {
+   "role": "solver",
+   "team": null,
+   "status": "budget_exhausted",
+   "best_valid_reward": 0.9205797840180432,
+   "solves_used": 50,
+   "first_positive_at_solves": 10,
+   "requests": 44,
+   "input_tokens": 111109,
+   "output_tokens": 16492,
+   "usd_estimated_total": 0.3871379999999999
+  },
+  "agent-7": {
+   "role": "solver",
+   "team": null,
+   "status": "budget_exhausted",
+   "best_valid_reward": 0.899313245556603,
+   "solves_used": 50,
+   "first_positive_at_solves": 18,
+   "requests": 42,
+   "input_tokens": 107236,
+   "output_tokens": 17347,
+   "usd_estimated_total": 0.38794200000000006
+  },
+  "agent-8": {
+   "role": "solver",
+   "team": null,
+   "status": "budget_exhausted",
+   "best_valid_reward": 0.899313245556603,
+   "solves_used": 50,
+   "first_positive_at_solves": 11,
+   "requests": 41,
+   "input_tokens": 94970,
+   "output_tokens": 16331,
+   "usd_estimated_total": 0.35325
+  },
+  "agent-9": {
+   "role": "solver",
+   "team": null,
+   "status": "budget_exhausted",
+   "best_valid_reward": 0.901492771475153,
+   "solves_used": 50,
+   "first_positive_at_solves": 21,
+   "requests": 39,
+   "input_tokens": 101666,
+   "output_tokens": 17626,
+   "usd_estimated_total": 0.37959199999999993
+  }
+ }
+}

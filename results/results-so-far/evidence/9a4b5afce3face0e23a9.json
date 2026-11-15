@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-cull-db97bd5c",
+ "agent_id": "agent-3",
+ "provider": "modal",
+ "model": "kimi-k3.1-pro",
+ "requests": 23,
+ "failed_requests": 3,
+ "input_tokens": 69545,
+ "output_tokens": 17128,
+ "usd_estimated_total": 0.3103699999999999,
+ "requests_with_unknown_cost": 3,
+ "price_source": "https://modal.com/docs/guide/supported-models; 2026-11-14; uncached estimate",
+ "wall_s": 2100.997051000595,
+ "status": "culled",
+ "island": 3,
+ "strategy": null,
+ "best_valid_reward": 0.0,
+ "solves_used": 24,
+ "first_positive_at_solves": null,
+ "usd_cached_price_estimate": 0.23157319999999995,
+ "notebook": "PLAN: Recover high-value blends with a compact train: root C5/C6 split; polish overhead to a C5 blend by rejecting C4 and lighter; split root bottoms into C6 paraffin and naphthene/heavy products. Step 3: restore a convergent three-column baseline, then sharpen selectively. The severe 90-stage root failed; revert to the best valid root (-0.469) and use balanced 60-stage child columns. Prior best three-column plant had TB 72% C5 and BT 81% C6 paraffin. Root must retain almost no C5 in bottoms, and T must reject C4. C5 blend ~$618M/yr, C6 paraffin ~$1.2B/yr, C6 naphthene ~$396M/yr.",
+ "task": "hc16v3_dev_002"
+}

@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-open-5f533da2",
+ "agent_id": "agent-3",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 107,
+ "failed_requests": 3,
+ "input_tokens": 591236,
+ "output_tokens": 104171,
+ "usd_estimated_total": 0.3023760000000001,
+ "requests_with_unknown_cost": 3,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 5132.718039989471,
+ "status": "finished",
+ "island": 0,
+ "strategy": null,
+ "best_valid_reward": 0.0,
+ "solves_used": 49,
+ "first_positive_at_solves": null,
+ "usd_cached_price_estimate": 0.2331868799999999,
+ "notebook": "Solves 49/50. Best valid = 0.000 (empty plant). Every multi-column attempt was negative (column cost ~$100M+/yr each) or failed to converge. Convergence window: 40-60 stages, R 1.0-2.0, dp 0.05-0.2; R>=2.5 failed. Blend prizes ($M/yr): C6 paraffin mix ~$1.18B (biggest), C5 mix ~$618M, C6 naphthene ~$396M, C4 mix ~$186M, C3 mix ~$73M. Money needs >=95% single component or >=95% blend membership; my impure streams earned $0 while still paying column costs \u2014 that's why rewards went negative. Side-draw column (60/2.0/2.0/0.1, liquid s32 0.35) failed to converge. Final action: revert to empty plant to lock in the valid 0.000. No profitable design was achievable within my solve budget.",
+ "task": "hc16v3_dev_002"
+}

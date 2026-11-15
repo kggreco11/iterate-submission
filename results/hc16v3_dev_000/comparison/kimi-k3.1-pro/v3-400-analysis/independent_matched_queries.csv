@@ -1,0 +1,24 @@
+condition,query_cap,best_reward
+Single / no Past,200,2.1954742779135397
+Single / Past,200,1.2575836831536273
+Shared swarm / no Past,200,1.176632833156801
+Shared swarm / Past,200,1.8134053115534945
+Independent five / early stop,200,1.6690473407372741
+Single / no Past,395,2.438316239162845
+Single / Past,395,1.3786229796436442
+Shared swarm / no Past,395,2.102920138625188
+Shared swarm / Past,395,2.044937985281715
+Independent five / early stop,395,1.936048273706093
+Single / Past,400,1.380001359904163
+Shared swarm / no Past,400,2.1970946824205764
+Shared swarm / Past,400,2.044937985281715
+Independent five / early stop,400,1.936048273706093
+Shared swarm / no Past,800,2.257156115199089
+Shared swarm / Past,800,2.182772851515067
+Independent five / early stop,800,2.0153024697094497
+Shared swarm / no Past,1200,2.56789473370791
+Shared swarm / Past,1200,2.3904054361503517
+Independent five / early stop,1200,2.1966956442111276
+Shared swarm / no Past,1600,2.6221822751955273
+Shared swarm / Past,1600,2.4545458103649684
+Independent five / early stop,1600,2.2359418855253947

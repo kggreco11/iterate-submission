@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-761c0ffe",
+ "agent_id": "agent-14",
+ "provider": "modal",
+ "model": "kimi-k3.1-pro",
+ "requests": 36,
+ "failed_requests": 0,
+ "input_tokens": 249047,
+ "output_tokens": 28349,
+ "usd_estimated_total": 0.7815840000000001,
+ "requests_with_unknown_cost": 0,
+ "price_source": "https://modal.com/docs/guide/supported-models; 2026-11-14; uncached estimate",
+ "wall_s": 3608.63263130188,
+ "status": "budget_exhausted",
+ "island": 2,
+ "strategy": null,
+ "best_valid_reward": 2.1751116346724895,
+ "solves_used": 50,
+ "first_positive_at_solves": 16,
+ "usd_cached_price_estimate": 0.6177696,
+ "notebook": "PLAN: Spend the final solve on a low-risk capital reduction: shorten only TTT from 30 to 25 stages while retaining its best 2.5/3.0 duties. If C3 purity is lost, the cached 2.175 design remains best. Best settings: root 55/5.5/6/0.5; B 70/5/5/0.1; T 50/5/7.5/0.2; TT 45/3/2/0.2; TTT 30/2.5/3/0. It sells C5, C6-paraffin, C4, and C3 blends. TTT boil-up 4.5, 40/4/6, and reflux 2.0 were worse; never reduce B below 5/5 because the C6 blend fails.",
+ "task": "hc16v3_dev_002"
+}

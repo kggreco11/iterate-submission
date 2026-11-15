@@ -1,0 +1,990 @@
+[
+ {
+  "task": "hc12_dev_000",
+  "opus_reported_best": 4.235386984061482,
+  "base_reward": 4.235386984061482,
+  "base_valid": true,
+  "norm_usd": 772068382.0789609,
+  "columns": 16,
+  "steps": [
+   {
+    "step": "prune",
+    "reward": 4.235386984061482,
+    "columns": 16
+   },
+   {
+    "step": "add",
+    "reward": 4.255711019317625,
+    "columns": 19
+   },
+   {
+    "step": "tune",
+    "reward": 4.263021257257654,
+    "columns": 19
+   }
+  ],
+  "marginal": [
+   {
+    "path": "BTTTT",
+    "subtree_columns": 1,
+    "reward_if_removed": 4.186850106852906,
+    "delta": -0.04853687720857636,
+    "valid": true,
+    "column_cost_musd": 0.8369283189788735
+   },
+   {
+    "path": "TTT",
+    "subtree_columns": 1,
+    "reward_if_removed": 4.106036355199131,
+    "delta": -0.12935062886235116,
+    "valid": true,
+    "column_cost_musd": 3.1764759424809608
+   },
+   {
+    "path": "BTTTB",
+    "subtree_columns": 1,
+    "reward_if_removed": 4.022019594274665,
+    "delta": -0.2133673897868169,
+    "valid": true,
+    "column_cost_musd": 5.130024288778917
+   },
+   {
+    "path": "BTBT",
+    "subtree_columns": 1,
+    "reward_if_removed": 4.012402061615915,
+    "delta": -0.22298492244556734,
+    "valid": true,
+    "column_cost_musd": 3.4164533252741687
+   },
+   {
+    "path": "BTTT",
+    "subtree_columns": 3,
+    "reward_if_removed": 3.9778598502013636,
+    "delta": -0.2575271338601186,
+    "valid": true,
+    "column_cost_musd": 3.379446097895378
+   },
+   {
+    "path": "TTB",
+    "subtree_columns": 1,
+    "reward_if_removed": 3.968209057819956,
+    "delta": -0.26717792624152636,
+    "valid": true,
+    "column_cost_musd": 14.27316078531478
+   },
+   {
+    "path": "TT",
+    "subtree_columns": 3,
+    "reward_if_removed": 3.8493104070396074,
+    "delta": -0.3860765770218748,
+    "valid": true,
+    "column_cost_musd": 8.069641807296803
+   },
+   {
+    "path": "BTBB",
+    "subtree_columns": 1,
+    "reward_if_removed": 3.836399921920052,
+    "delta": -0.3989870621414302,
+    "valid": true,
+    "column_cost_musd": 6.4522225468244265
+   },
+   {
+    "path": "BTB",
+    "subtree_columns": 3,
+    "reward_if_removed": 3.6587223013664096,
+    "delta": -0.5766646826950725,
+    "valid": true,
+    "column_cost_musd": 34.98033526806092
+   },
+   {
+    "path": "BTT",
+    "subtree_columns": 4,
+    "reward_if_removed": 3.3593956909464184,
+    "delta": -0.8759912931150637,
+    "valid": true,
+    "column_cost_musd": 23.486976540563848
+   },
+   {
+    "path": "TB",
+    "subtree_columns": 1,
+    "reward_if_removed": 3.1672868719489697,
+    "delta": -1.0681001121125124,
+    "valid": true,
+    "column_cost_musd": 32.27547869151851
+   },
+   {
+    "path": "BT",
+    "subtree_columns": 8,
+    "reward_if_removed": 2.8336935745386453,
+    "delta": -1.4016934095228368,
+    "valid": true,
+    "column_cost_musd": 39.346586100028
+   },
+   {
+    "path": "T",
+    "subtree_columns": 5,
+    "reward_if_removed": 2.807498445096423,
+    "delta": -1.427888538965059,
+    "valid": true,
+    "column_cost_musd": 20.296249569082796
+   },
+   {
+    "path": "BB",
+    "subtree_columns": 1,
+    "reward_if_removed": 2.739557267530803,
+    "delta": -1.4958297165306793,
+    "valid": true,
+    "column_cost_musd": 16.405204403171634
+   },
+   {
+    "path": "B",
+    "subtree_columns": 10,
+    "reward_if_removed": 1.3655401593214986,
+    "delta": -2.8698468247399838,
+    "valid": true,
+    "column_cost_musd": 21.367997177068396
+   },
+   {
+    "path": "",
+    "subtree_columns": 16,
+    "reward_if_removed": 0.0,
+    "delta": -4.235386984061482,
+    "valid": true,
+    "column_cost_musd": 48.13721259664824
+   }
+  ],
+  "adds": [
+   {
+    "impure_streams": [
+     {
+      "path": "BTTTTT",
+      "unrealised_value_musd": 10.729566581671332
+     },
+     {
+      "path": "BTBTB",
+      "unrealised_value_musd": 17.50057867305337
+     }
+    ],
+    "best_gain": 0.00906051657431206,
+    "best_move": {
+     "path": "BTBTB",
+     "settings": [
+      120,
+      20.0,
+      20.0,
+      0.0
+     ]
+    }
+   },
+   {
+    "impure_streams": [
+     {
+      "path": "BTTTTT",
+      "unrealised_value_musd": 10.729566581671332
+     },
+     {
+      "path": "BTBTBB",
+      "unrealised_value_musd": 9.0188564608992
+     }
+    ],
+    "best_gain": 0.007200587832022265,
+    "best_move": {
+     "path": "BTTTTT",
+     "settings": [
+      60,
+      20.0,
+      20.0,
+      0.0
+     ]
+    }
+   },
+   {
+    "impure_streams": [
+     {
+      "path": "BTTTTTB",
+      "unrealised_value_musd": 4.78323029202119
+     },
+     {
+      "path": "BTBTBB",
+      "unrealised_value_musd": 9.0188564608992
+     }
+    ],
+    "best_gain": 0.004062930849808133,
+    "best_move": {
+     "path": "BTTTTTB",
+     "settings": [
+      60,
+      20.0,
+      8.0,
+      0.0
+     ]
+    }
+   }
+  ],
+  "final_reward": 4.263021257257654,
+  "improvement_vs_opus": 0.0276342731961714,
+  "solves_used": 288
+ },
+ {
+  "task": "hc12_dev_001",
+  "opus_reported_best": 4.746881482734964,
+  "base_reward": 4.746881482734964,
+  "base_valid": true,
+  "norm_usd": 549948514.3519647,
+  "columns": 15,
+  "steps": [
+   {
+    "step": "prune",
+    "reward": 4.746881482734964,
+    "columns": 15
+   },
+   {
+    "step": "add",
+    "reward": 4.99781787017857,
+    "columns": 18
+   },
+   {
+    "step": "tune",
+    "reward": 5.060380232336767,
+    "columns": 18
+   }
+  ],
+  "marginal": [
+   {
+    "path": "TT",
+    "subtree_columns": 1,
+    "reward_if_removed": 4.589730825748132,
+    "delta": -0.15715065698683173,
+    "valid": true,
+    "column_cost_musd": 2.735133773994714
+   },
+   {
+    "path": "TB",
+    "subtree_columns": 2,
+    "reward_if_removed": 4.448413810700532,
+    "delta": -0.29846767203443214,
+    "valid": true,
+    "column_cost_musd": 13.682723583777651
+   },
+   {
+    "path": "TBB",
+    "subtree_columns": 1,
+    "reward_if_removed": 4.42353380243303,
+    "delta": -0.32334768030193395,
+    "valid": true,
+    "column_cost_musd": 8.070865911653996
+   },
+   {
+    "path": "BTBB",
+    "subtree_columns": 1,
+    "reward_if_removed": 4.3732225974778185,
+    "delta": -0.37365888525714563,
+    "valid": true,
+    "column_cost_musd": 8.025078247232148
+   },
+   {
+    "path": "BBTB",
+    "subtree_columns": 1,
+    "reward_if_removed": 4.320988890988044,
+    "delta": -0.42589259174692007,
+    "valid": true,
+    "column_cost_musd": 29.0370057328696
+   },
+   {
+    "path": "T",
+    "subtree_columns": 4,
+    "reward_if_removed": 4.304193870841027,
+    "delta": -0.44268761189393757,
+    "valid": true,
+    "column_cost_musd": 7.111228673678084
+   },
+   {
+    "path": "BBTT",
+    "subtree_columns": 1,
+    "reward_if_removed": 4.2153375198348835,
+    "delta": -0.5315439629000807,
+    "valid": true,
+    "column_cost_musd": 8.857444965808961
+   },
+   {
+    "path": "BTB",
+    "subtree_columns": 2,
+    "reward_if_removed": 4.167305932762678,
+    "delta": -0.5795755499722866,
+    "valid": true,
+    "column_cost_musd": 16.43007690093014
+   },
+   {
+    "path": "BBT",
+    "subtree_columns": 3,
+    "reward_if_removed": 3.838411808731308,
+    "delta": -0.9084696740036562,
+    "valid": true,
+    "column_cost_musd": 26.92926326225748
+   },
+   {
+    "path": "BTT",
+    "subtree_columns": 1,
+    "reward_if_removed": 3.5570497174485523,
+    "delta": -1.1898317652864119,
+    "valid": true,
+    "column_cost_musd": 30.10932688140478
+   },
+   {
+    "path": "BT",
+    "subtree_columns": 4,
+    "reward_if_removed": 3.040740485353026,
+    "delta": -1.706140997381938,
+    "valid": true,
+    "column_cost_musd": 34.7932175248421
+   },
+   {
+    "path": "BBB",
+    "subtree_columns": 1,
+    "reward_if_removed": 2.9508345589578813,
+    "delta": -1.7960469237770829,
+    "valid": true,
+    "column_cost_musd": 25.95605056731851
+   },
+   {
+    "path": "BB",
+    "subtree_columns": 5,
+    "reward_if_removed": 2.0744022434518095,
+    "delta": -2.6724792392831547,
+    "valid": true,
+    "column_cost_musd": 17.618897709507067
+   },
+   {
+    "path": "B",
+    "subtree_columns": 10,
+    "reward_if_removed": 0.39598458554904886,
+    "delta": -4.350896897185915,
+    "valid": true,
+    "column_cost_musd": 15.246409359448936
+   },
+   {
+    "path": "",
+    "subtree_columns": 15,
+    "reward_if_removed": 0.0,
+    "delta": -4.746881482734964,
+    "valid": true,
+    "column_cost_musd": 25.684259954111784
+   }
+  ],
+  "adds": [
+   {
+    "impure_streams": [
+     {
+      "path": "TBT",
+      "unrealised_value_musd": 72.20726857962458
+     },
+     {
+      "path": "TBBB",
+      "unrealised_value_musd": 41.470244769737256
+     },
+     {
+      "path": "BTBBB",
+      "unrealised_value_musd": 65.62280466284173
+     },
+     {
+      "path": "BBTTT",
+      "unrealised_value_musd": 90.46731722911886
+     },
+     {
+      "path": "BBTBB",
+      "unrealised_value_musd": 155.8876249602217
+     }
+    ],
+    "best_gain": 0.10417185123485684,
+    "best_move": {
+     "path": "BBTBB",
+     "settings": [
+      120,
+      20.0,
+      20.0,
+      0.0
+     ]
+    }
+   },
+   {
+    "impure_streams": [
+     {
+      "path": "TBT",
+      "unrealised_value_musd": 72.20726857962458
+     },
+     {
+      "path": "TBBB",
+      "unrealised_value_musd": 41.470244769737256
+     },
+     {
+      "path": "BTBBB",
+      "unrealised_value_musd": 65.62280466284173
+     },
+     {
+      "path": "BBTTT",
+      "unrealised_value_musd": 90.46731722911886
+     },
+     {
+      "path": "BBTBBB",
+      "unrealised_value_musd": 83.54033626597375
+     }
+    ],
+    "best_gain": 0.09809266137696682,
+    "best_move": {
+     "path": "BBTTT",
+     "settings": [
+      120,
+      8.0,
+      20.0,
+      0.0
+     ]
+    }
+   },
+   {
+    "impure_streams": [
+     {
+      "path": "TBT",
+      "unrealised_value_musd": 72.20726857962458
+     },
+     {
+      "path": "TBBB",
+      "unrealised_value_musd": 41.470244769737256
+     },
+     {
+      "path": "BTBBB",
+      "unrealised_value_musd": 65.62280466284173
+     },
+     {
+      "path": "BBTTTB",
+      "unrealised_value_musd": 31.817579488779675
+     },
+     {
+      "path": "BBTBBB",
+      "unrealised_value_musd": 83.54033626597375
+     }
+    ],
+    "best_gain": 0.048671874831781814,
+    "best_move": {
+     "path": "BBTTTB",
+     "settings": [
+      60,
+      20.0,
+      3.0,
+      0.0
+     ]
+    }
+   }
+  ],
+  "final_reward": 5.060380232336767,
+  "improvement_vs_opus": 0.3134987496018029,
+  "solves_used": 341
+ },
+ {
+  "task": "hc12_dev_002",
+  "opus_reported_best": 3.375774735612426,
+  "base_reward": 3.375774735612426,
+  "base_valid": true,
+  "norm_usd": 768971335.7003118,
+  "columns": 13,
+  "steps": [
+   {
+    "step": "prune",
+    "reward": 3.379889369691004,
+    "columns": 12
+   },
+   {
+    "step": "add",
+    "reward": 3.5207562345541112,
+    "columns": 15
+   },
+   {
+    "step": "tune",
+    "reward": 3.5413847241108227,
+    "columns": 15
+   }
+  ],
+  "marginal": [
+   {
+    "path": "TBTT",
+    "subtree_columns": 1,
+    "reward_if_removed": 3.379889369691004,
+    "delta": 0.004114634078578039,
+    "valid": true,
+    "column_cost_musd": 3.1640356633218274
+   },
+   {
+    "path": "TTTBT",
+    "subtree_columns": 1,
+    "reward_if_removed": 3.290692727588659,
+    "delta": -0.08508200802376686,
+    "valid": true,
+    "column_cost_musd": 2.7557420552392227
+   },
+   {
+    "path": "TTTBB",
+    "subtree_columns": 1,
+    "reward_if_removed": 3.197632330093785,
+    "delta": -0.17814240551864113,
+    "valid": true,
+    "column_cost_musd": 3.2030069002459447
+   },
+   {
+    "path": "TTTB",
+    "subtree_columns": 3,
+    "reward_if_removed": 3.1321963781879454,
+    "delta": -0.24357835742448053,
+    "valid": true,
+    "column_cost_musd": 15.107254014245914
+   },
+   {
+    "path": "TTT",
+    "subtree_columns": 4,
+    "reward_if_removed": 3.0305336378578733,
+    "delta": -0.3452410977545526,
+    "valid": true,
+    "column_cost_musd": 10.974580930974833
+   },
+   {
+    "path": "TBT",
+    "subtree_columns": 2,
+    "reward_if_removed": 2.805445162342144,
+    "delta": -0.570329573270282,
+    "valid": true,
+    "column_cost_musd": 16.236343790846963
+   },
+   {
+    "path": "TBB",
+    "subtree_columns": 1,
+    "reward_if_removed": 2.7459216130322215,
+    "delta": -0.6298531225802044,
+    "valid": true,
+    "column_cost_musd": 25.257387359652814
+   },
+   {
+    "path": "TTB",
+    "subtree_columns": 1,
+    "reward_if_removed": 2.5334515829696156,
+    "delta": -0.8423231526428103,
+    "valid": true,
+    "column_cost_musd": 12.295406451265936
+   },
+   {
+    "path": "TB",
+    "subtree_columns": 4,
+    "reward_if_removed": 2.2461587443306006,
+    "delta": -1.1296159912818253,
+    "valid": true,
+    "column_cost_musd": 54.26377306813291
+   },
+   {
+    "path": "TT",
+    "subtree_columns": 6,
+    "reward_if_removed": 2.2117385594992482,
+    "delta": -1.1640361761131777,
+    "valid": true,
+    "column_cost_musd": 18.0924147087661
+   },
+   {
+    "path": "B",
+    "subtree_columns": 1,
+    "reward_if_removed": 2.129098777714488,
+    "delta": -1.246675957897938,
+    "valid": true,
+    "column_cost_musd": 17.81665102074747
+   },
+   {
+    "path": "T",
+    "subtree_columns": 11,
+    "reward_if_removed": 1.137706983559503,
+    "delta": -2.238067752052923,
+    "valid": true,
+    "column_cost_musd": 42.7428221097205
+   },
+   {
+    "path": "",
+    "subtree_columns": 13,
+    "reward_if_removed": 0.0,
+    "delta": -3.375774735612426,
+    "valid": true,
+    "column_cost_musd": 83.79401774691978
+   }
+  ],
+  "adds": [
+   {
+    "impure_streams": [
+     {
+      "path": "TTTBTT",
+      "unrealised_value_musd": 23.960181683604908
+     },
+     {
+      "path": "TTTBBB",
+      "unrealised_value_musd": 27.781526036617926
+     },
+     {
+      "path": "TBTT",
+      "unrealised_value_musd": 166.24554732702043
+     },
+     {
+      "path": "TBBT",
+      "unrealised_value_musd": 573.7440608355763
+     }
+    ],
+    "best_gain": 0.0858218453701931,
+    "best_move": {
+     "path": "TBTT",
+     "settings": [
+      60,
+      8.0,
+      8.0,
+      0.0
+     ]
+    }
+   },
+   {
+    "impure_streams": [
+     {
+      "path": "TTTBTT",
+      "unrealised_value_musd": 23.960181683604908
+     },
+     {
+      "path": "TTTBBB",
+      "unrealised_value_musd": 27.781526036617926
+     },
+     {
+      "path": "TBTTB",
+      "unrealised_value_musd": 96.56158185678866
+     },
+     {
+      "path": "TBBT",
+      "unrealised_value_musd": 573.7440608355763
+     }
+    ],
+    "best_gain": 0.03172893416582179,
+    "best_move": {
+     "path": "TTTBBB",
+     "settings": [
+      60,
+      20.0,
+      3.0,
+      0.0
+     ]
+    }
+   },
+   {
+    "impure_streams": [
+     {
+      "path": "TTTBTT",
+      "unrealised_value_musd": 23.960181683604908
+     },
+     {
+      "path": "TBTTB",
+      "unrealised_value_musd": 96.56158185678866
+     },
+     {
+      "path": "TBBT",
+      "unrealised_value_musd": 573.7440608355763
+     }
+    ],
+    "best_gain": 0.023316085327092395,
+    "best_move": {
+     "path": "TTTBTT",
+     "settings": [
+      60,
+      3.0,
+      20.0,
+      0.0
+     ]
+    }
+   }
+  ],
+  "final_reward": 3.5413847241108227,
+  "improvement_vs_opus": 0.1656099884983968,
+  "solves_used": 303
+ },
+ {
+  "task": "hc12_dev_003",
+  "opus_reported_best": 3.345414250805145,
+  "base_reward": 3.345414250805145,
+  "base_valid": true,
+  "norm_usd": 771666460.4286138,
+  "columns": 16,
+  "steps": [
+   {
+    "step": "prune",
+    "reward": 3.345414250805145,
+    "columns": 16
+   },
+   {
+    "step": "add",
+    "reward": 3.459415861399814,
+    "columns": 19
+   },
+   {
+    "step": "tune",
+    "reward": 3.5254257514889398,
+    "columns": 19
+   }
+  ],
+  "marginal": [
+   {
+    "path": "TBB",
+    "subtree_columns": 1,
+    "reward_if_removed": 3.2646727980718486,
+    "delta": -0.08074145273329636,
+    "valid": true,
+    "column_cost_musd": 2.0702950854861077
+   },
+   {
+    "path": "TT",
+    "subtree_columns": 1,
+    "reward_if_removed": 3.2384903115130173,
+    "delta": -0.10692393929212773,
+    "valid": true,
+    "column_cost_musd": 1.829923244988071
+   },
+   {
+    "path": "TBT",
+    "subtree_columns": 1,
+    "reward_if_removed": 3.2239131815198054,
+    "delta": -0.12150106928533955,
+    "valid": true,
+    "column_cost_musd": 4.92999034247223
+   },
+   {
+    "path": "BTBB",
+    "subtree_columns": 1,
+    "reward_if_removed": 3.2193855733291503,
+    "delta": -0.12602867747599467,
+    "valid": true,
+    "column_cost_musd": 3.9219871839157308
+   },
+   {
+    "path": "TB",
+    "subtree_columns": 3,
+    "reward_if_removed": 3.1726758209238795,
+    "delta": -0.17273842988126553,
+    "valid": true,
+    "column_cost_musd": 22.76731834780378
+   },
+   {
+    "path": "T",
+    "subtree_columns": 5,
+    "reward_if_removed": 3.0754075759957766,
+    "delta": -0.27000667480936835,
+    "valid": true,
+    "column_cost_musd": 7.4509754928675775
+   },
+   {
+    "path": "BTB",
+    "subtree_columns": 2,
+    "reward_if_removed": 3.033822600472861,
+    "delta": -0.311591650332284,
+    "valid": true,
+    "column_cost_musd": 10.464851048555303
+   },
+   {
+    "path": "BBTB",
+    "subtree_columns": 2,
+    "reward_if_removed": 2.9993601972806045,
+    "delta": -0.34605405352454044,
+    "valid": true,
+    "column_cost_musd": 32.83131339145728
+   },
+   {
+    "path": "BBTBT",
+    "subtree_columns": 1,
+    "reward_if_removed": 2.9568142074325796,
+    "delta": -0.3886000433725654,
+    "valid": true,
+    "column_cost_musd": 4.7933023005514395
+   },
+   {
+    "path": "BBTT",
+    "subtree_columns": 1,
+    "reward_if_removed": 2.5859842254510097,
+    "delta": -0.7594300253541353,
+    "valid": true,
+    "column_cost_musd": 5.665041862860993
+   },
+   {
+    "path": "BT",
+    "subtree_columns": 3,
+    "reward_if_removed": 2.311719035333877,
+    "delta": -1.0336952154712682,
+    "valid": true,
+    "column_cost_musd": 32.4247989402307
+   },
+   {
+    "path": "BBT",
+    "subtree_columns": 4,
+    "reward_if_removed": 2.3045882897523797,
+    "delta": -1.0408259610527653,
+    "valid": true,
+    "column_cost_musd": 49.8945009206961
+   },
+   {
+    "path": "BBB",
+    "subtree_columns": 1,
+    "reward_if_removed": 2.2566140558841035,
+    "delta": -1.0888001949210415,
+    "valid": true,
+    "column_cost_musd": 11.69046446823884
+   },
+   {
+    "path": "BB",
+    "subtree_columns": 6,
+    "reward_if_removed": 1.249726377858759,
+    "delta": -2.095687872946386,
+    "valid": true,
+    "column_cost_musd": 26.18903473679368
+   },
+   {
+    "path": "B",
+    "subtree_columns": 10,
+    "reward_if_removed": 0.23461769693110826,
+    "delta": -3.1107965538740365,
+    "valid": true,
+    "column_cost_musd": 14.34260532290654
+   },
+   {
+    "path": "",
+    "subtree_columns": 16,
+    "reward_if_removed": 0.0,
+    "delta": -3.345414250805145,
+    "valid": true,
+    "column_cost_musd": 27.308487297502793
+   }
+  ],
+  "adds": [
+   {
+    "impure_streams": [
+     {
+      "path": "TTT",
+      "unrealised_value_musd": 5.94875679757204
+     },
+     {
+      "path": "TBTB",
+      "unrealised_value_musd": 14.840652726644054
+     },
+     {
+      "path": "TBBB",
+      "unrealised_value_musd": 17.940621983203354
+     },
+     {
+      "path": "BTBBB",
+      "unrealised_value_musd": 23.03525677910795
+     },
+     {
+      "path": "BBTTT",
+      "unrealised_value_musd": 128.5540001602312
+     },
+     {
+      "path": "BBTBTT",
+      "unrealised_value_musd": 60.34695022572477
+     },
+     {
+      "path": "BBTBB",
+      "unrealised_value_musd": 389.9418261815823
+     }
+    ],
+    "best_gain": 0.043997626871981055,
+    "best_move": {
+     "path": "BBTTT",
+     "settings": [
+      60,
+      20.0,
+      8.0,
+      0.0
+     ]
+    }
+   },
+   {
+    "impure_streams": [
+     {
+      "path": "TTT",
+      "unrealised_value_musd": 5.94875679757204
+     },
+     {
+      "path": "TBTB",
+      "unrealised_value_musd": 14.840652726644054
+     },
+     {
+      "path": "TBBB",
+      "unrealised_value_musd": 17.940621983203354
+     },
+     {
+      "path": "BTBBB",
+      "unrealised_value_musd": 23.03525677910795
+     },
+     {
+      "path": "BBTTTB",
+      "unrealised_value_musd": 90.86867364717911
+     },
+     {
+      "path": "BBTBTT",
+      "unrealised_value_musd": 60.34695022572477
+     },
+     {
+      "path": "BBTBB",
+      "unrealised_value_musd": 389.9418261815823
+     }
+    ],
+    "best_gain": 0.04242046053497894,
+    "best_move": {
+     "path": "BBTBTT",
+     "settings": [
+      60,
+      20.0,
+      20.0,
+      0.0
+     ]
+    }
+   },
+   {
+    "impure_streams": [
+     {
+      "path": "TTT",
+      "unrealised_value_musd": 5.94875679757204
+     },
+     {
+      "path": "TBTB",
+      "unrealised_value_musd": 14.840652726644054
+     },
+     {
+      "path": "TBBB",
+      "unrealised_value_musd": 17.940621983203354
+     },
+     {
+      "path": "BTBBB",
+      "unrealised_value_musd": 23.03525677910795
+     },
+     {
+      "path": "BBTTTB",
+      "unrealised_value_musd": 90.86867364717911
+     },
+     {
+      "path": "BBTBTTB",
+      "unrealised_value_musd": 26.090441259247587
+     },
+     {
+      "path": "BBTBB",
+      "unrealised_value_musd": 389.9418261815823
+     }
+    ],
+    "best_gain": 0.02758352318770907,
+    "best_move": {
+     "path": "BBTBTTB",
+     "settings": [
+      60,
+      20.0,
+      3.0,
+      0.0
+     ]
+    }
+   }
+  ],
+  "final_reward": 3.5254257514889398,
+  "improvement_vs_opus": 0.1800115006837948,
+  "solves_used": 378
+ }
+]

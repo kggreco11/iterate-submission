@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-cull-db97bd5c",
+ "agent_id": "agent-7",
+ "provider": "modal",
+ "model": "kimi-k3.1-pro",
+ "requests": 13,
+ "failed_requests": 3,
+ "input_tokens": 35308,
+ "output_tokens": 10841,
+ "usd_estimated_total": 0.179026,
+ "requests_with_unknown_cost": 3,
+ "price_source": "https://modal.com/docs/guide/supported-models; 2026-11-14; uncached estimate",
+ "wall_s": 2101.002536058426,
+ "status": "culled",
+ "island": 7,
+ "strategy": null,
+ "best_valid_reward": 0.0,
+ "solves_used": 25,
+ "first_positive_at_solves": null,
+ "usd_cached_price_estimate": 0.1408948,
+ "notebook": "PLAN: Establish a profitable two-column C5-blend train (C4-/C5+ then C5/C6+), verify purity and cost, then optimize severity and consider heavy products only if profitable. Step 10: move the root cut down to C4 by sharply reducing boil-up and reduce column size/duties.\nThe C6-paraffin route was unattractive: N-hexane/MCP volatility is close and extreme severity cost $1.52B/yr without sales. C5 blend maximum revenue is about $618M/yr and its two splits are easier. The prior root boil-up of 6 carried most C5 overhead; reducing it to 1.8 should retain C5 in the bottoms. Moderate stages and reflux should cut the very large energy and equipment costs.",
+ "task": "hc16v3_dev_002"
+}

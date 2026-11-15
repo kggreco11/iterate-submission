@@ -1,0 +1,44 @@
+{
+ "label": "transport-20261114-v2",
+ "task": "hc12_dev_000",
+ "components": [
+  "Ethane",
+  "Propane",
+  "Isobutane",
+  "N-butane",
+  "Isopentane",
+  "N-pentane",
+  "2,2-dimethylbutane",
+  "2-methylpentane",
+  "N-hexane",
+  "Methylcyclopentane",
+  "N-heptane",
+  "N-octane"
+ ],
+ "upper_bound_reward": 4.736298330380447,
+ "backend": "chemsep",
+ "budget": 12,
+ "solves_used": 12,
+ "best_reward": 0.0,
+ "wall_s": 3.67118709999977,
+ "curve": {},
+ "trace": [
+  {
+   "solves": 0,
+   "wall_s": 0.0010975000004691537,
+   "reward": 0.0,
+   "revenue": 0.0,
+   "tac": 0.0,
+   "columns": {},
+   "products": [
+    {
+     "node": "",
+     "component": "Isopentane",
+     "purity": 0.1554904211650029,
+     "value": 0.0,
+     "flow_mol_s": 3300.000001
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-78e50fff",
+ "agent_id": "agent-38",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 99,
+ "failed_requests": 1,
+ "input_tokens": 566871,
+ "output_tokens": 98685,
+ "usd_estimated_total": 0.2884833000000001,
+ "requests_with_unknown_cost": 0,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 5634.434283733368,
+ "status": "budget_exhausted",
+ "island": 7,
+ "strategy": null,
+ "best_valid_reward": 0.0,
+ "solves_used": 50,
+ "first_positive_at_solves": null,
+ "usd_cached_price_estimate": 0.22040009999999993,
+ "notebook": "Solves 47/50, best valid was 0.000 (empty). Every cascade I built was deeply negative; full-feed columns cost $100-450M/yr and 16-component mixtures can't reach 95% purity in 1-2 columns. Island-8 plant R1955 (agent-40) achieves reward 2.116: 7-column cascade, revenue $1557M/yr, cost $629M/yr. Key design lessons: (1) first column runs at HIGH dp (0.6) and low reflux (1.6) to cheaply bulk-split; (2) deep sub-columns at low dp (0.1) with moderate reflux reach 98% N-butane, C5-mix blend (N-pentane+Isopentane ~97%), and C6-paraffin blend (2-methylpentane+3-Me-pentane+N-hexane+22DMB). It sells: TBT N-butane $118M, TBB C5mix $379M, BTB C6paraffin $646M, BTTT C5mix $150M, BTTBT N-pentane $96M, BTTBB C6paraffin $168M. Blends are where the money is. Copied it wholesale to lock in 2.116. Plan: hold this; if a solve remains, try trimming one leaf column's cost.",
+ "task": "hc16v3_dev_002"
+}

@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-cull-2433e454",
+ "agent_id": "agent-5",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 19,
+ "failed_requests": 0,
+ "input_tokens": 77386,
+ "output_tokens": 17807,
+ "usd_estimated_total": 0.044584199999999984,
+ "requests_with_unknown_cost": 0,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 5423.075380325317,
+ "status": "culled",
+ "island": 5,
+ "strategy": null,
+ "best_valid_reward": 0.0,
+ "solves_used": 11,
+ "first_positive_at_solves": null,
+ "usd_cached_price_estimate": 0.03269556,
+ "notebook": "Feed 3300 mol/s, 16 comps C2(184.6K)..C9(424K). All-pure value $3615M/yr; normalizer $439M/yr (n-pentane). Blends are contiguous in boiling order and lose only ~12-15% vs pure: C3mix(propyl+propane), C4mix(iC4+nC4), C5mix(iC5+nC5), C6par(22DMB+2MP+3MP+nC6), C6naph(MCP+cyC6). Natural train: C2 / C3mix / C4mix / C5mix / C6par / C6naph / C7 / C8 / C9 = 9 groups, 8 cuts. Ethane tiny (34 mol/s, $4M) - cheap easy split, may just make a small C2 top. Cost scaling observed: 15st/r1=$95M, 30st/r2=$146M(total), 40st/r3=$195M; root30=$120M, sub30 on 647mol/s=$16M => cost ~ throughput*stages*reflux. 5 stages fails converge; keep >=15. Hardest split 3MP/nC6 (~336-342K) vs MCP(345K)=3K. Plan: rebuild root, then sequential train of ~8 columns producing contiguous blend cuts; tune reflux/stages to reach 95%. Calibrate cost vs throughput first with this probe.",
+ "task": "hc16v3_dev_002"
+}

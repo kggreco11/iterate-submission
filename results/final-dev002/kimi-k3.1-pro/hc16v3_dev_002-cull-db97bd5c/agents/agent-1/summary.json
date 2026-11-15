@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-cull-db97bd5c",
+ "agent_id": "agent-1",
+ "provider": "modal",
+ "model": "kimi-k3.1-pro",
+ "requests": 19,
+ "failed_requests": 3,
+ "input_tokens": 68190,
+ "output_tokens": 19820,
+ "usd_estimated_total": 0.33458,
+ "requests_with_unknown_cost": 3,
+ "price_source": "https://modal.com/docs/guide/supported-models; 2026-11-14; uncached estimate",
+ "wall_s": 2100.988790035248,
+ "status": "budget_exhausted",
+ "island": 1,
+ "strategy": null,
+ "best_valid_reward": 1.319374275954434,
+ "solves_used": 67,
+ "first_positive_at_solves": 45,
+ "usd_cached_price_estimate": 0.27985999999999994,
+ "notebook": "PLAN: Restore the best five-blend plant, then tune only one expensive separator at a time. Step 16: test T at 45 stages with unchanged ratios; keep only if product revenue is essentially intact.\nBest valid: reward 1.319, revenue 1462.0, cost 883.4. Products: C5 603.1, C6 paraffin 338.3+278.9, C4 186.2, C3 55.5. Biggest costs: root 318.2, T 252.1, TTB 121.4, TT 109.8. Turn 13 lost 1209.9M revenue for only 37.2M savings: coordinated ratio/capital cuts destroyed nearly every blend. Turn 15 trimming T from 55 to 50 stages left results unchanged. TBT and TTBT are near 95% blend purity; preserve boil-up/cut positions. B, TTTTT, and TBB do not justify extra columns.",
+ "task": "hc16v3_dev_002"
+}

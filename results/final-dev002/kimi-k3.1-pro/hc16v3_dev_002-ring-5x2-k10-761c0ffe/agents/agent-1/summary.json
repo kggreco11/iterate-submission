@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-761c0ffe",
+ "agent_id": "agent-1",
+ "provider": "modal",
+ "model": "kimi-k3.1-pro",
+ "requests": 23,
+ "failed_requests": 0,
+ "input_tokens": 166212,
+ "output_tokens": 17953,
+ "usd_estimated_total": 0.511954,
+ "requests_with_unknown_cost": 0,
+ "price_source": "https://modal.com/docs/guide/supported-models; 2026-11-14; uncached estimate",
+ "wall_s": 3608.6266458034515,
+ "status": "budget_exhausted",
+ "island": 0,
+ "strategy": null,
+ "best_valid_reward": 0.49444033116027414,
+ "solves_used": 50,
+ "first_positive_at_solves": 9,
+ "usd_cached_price_estimate": 0.4121908000000001,
+ "notebook": "PLAN: Adopt R995's proven 0.529 root-reflux 3.8 configuration, then apply the independently validated TTT boil-up 0.65 to gain its small duty/recovery benefit. With three solves left, this copy needs only one new TTT solve. Preserve all other columns. If successful, use at most one final solve on a modest TTT-only cost trim; avoid any root, TT, or TB change because their downstream columns would exceed the remaining budget.",
+ "task": "hc16v3_dev_002"
+}

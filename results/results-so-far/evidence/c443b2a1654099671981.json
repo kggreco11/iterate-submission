@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-niche-20940918",
+ "agent_id": "agent-2",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 115,
+ "failed_requests": 4,
+ "input_tokens": 541378,
+ "output_tokens": 111132,
+ "usd_estimated_total": 0.2957718000000002,
+ "requests_with_unknown_cost": 3,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 4628.585866928101,
+ "status": "finished",
+ "island": 0,
+ "strategy": null,
+ "best_valid_reward": 0.0,
+ "solves_used": 49,
+ "first_positive_at_solves": null,
+ "usd_cached_price_estimate": 0.21918684000000002,
+ "notebook": "Goal: max (rev-cost)/439; 47 solves used, 3 left. Best=0.000 (empty). Lessons: every single column I ran cost $139-342M/yr and produced no 95% stream, so all lost money. Cost is dominated by cold-condenser refrigeration and huge diameter at 24 bar; keep dp=0 (warm) and modest reflux. Blends are the money pool: C6par ~$1181M/yr if 95% pure, C5mix ~$172M; but even a pure n-pentane tops (~$146M prem) barely beats one column's cost, so I need multiple sellable cuts per column. With only 3 solves and no working separation found, the realistic best is the empty design at 0.000. Plan: revert/finish at 0.000.",
+ "task": "hc16v3_dev_002"
+}

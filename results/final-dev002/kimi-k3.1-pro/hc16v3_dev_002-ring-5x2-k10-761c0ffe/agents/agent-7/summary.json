@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-761c0ffe",
+ "agent_id": "agent-7",
+ "provider": "modal",
+ "model": "kimi-k3.1-pro",
+ "requests": 26,
+ "failed_requests": 0,
+ "input_tokens": 151340,
+ "output_tokens": 23610,
+ "usd_estimated_total": 0.53878,
+ "requests_with_unknown_cost": 0,
+ "price_source": "https://modal.com/docs/guide/supported-models; 2026-11-14; uncached estimate",
+ "wall_s": 3608.6271381378174,
+ "status": "budget_exhausted",
+ "island": 1,
+ "strategy": null,
+ "best_valid_reward": 1.30400020502499,
+ "solves_used": 50,
+ "first_positive_at_solves": 40,
+ "usd_cached_price_estimate": 0.42530799999999996,
+ "notebook": "PLAN: Preserve the validated 1.294 design and spend the final solve on the midpoint C6 reflux probe (4.65), since 4.7 is profitable while 4.6 misses blend purity. Root and C5 finisher remain fixed; the best valid design is retained regardless.\nB35/4.7 gives 1.294, increasing BT recovery and lowering cost versus 4.8. R1091 shows B35/4.6 loses BT sale entirely, so the purity cliff lies between 4.6 and 4.7. Earlier aggressive stage/reflux cuts and T-column changes were unsuccessful.",
+ "task": "hc16v3_dev_002"
+}

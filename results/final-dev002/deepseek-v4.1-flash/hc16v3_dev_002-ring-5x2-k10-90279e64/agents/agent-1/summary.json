@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-90279e64",
+ "agent_id": "agent-1",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 76,
+ "failed_requests": 0,
+ "input_tokens": 454114,
+ "output_tokens": 76337,
+ "usd_estimated_total": 0.22783859999999997,
+ "requests_with_unknown_cost": 0,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 5064.780327320099,
+ "status": "finished",
+ "island": 0,
+ "strategy": null,
+ "best_valid_reward": 0.0,
+ "solves_used": 43,
+ "first_positive_at_solves": null,
+ "usd_cached_price_estimate": 0.1751691599999999,
+ "notebook": "Solves 42/50. Best banked=0.000 (empty). 8 left. COSTS: root 3300 mol/s col ~$95M at 30/1/1; $343M at 55/6/6. Small cols cheap ($18M for 40/3 on 503 mol/s). Cost scales hard with reflux x flow x stages. REVENUE ($M/yr, = mol/s * price * 2.88e7): n-pentane pure $438; C5mix(695) $618; C6paraffin blend(970) $1181; n-butane pure $166; n-octane pure $359; iC5 pure $280; full separation upper bound $3615. Pure needs >=95% (premium 1.2x at >=99%). Gaps(K): C4/C5 28, iC5/nC5 8.2, C5/C6 13.7, C6/C7 29.6, MCP/CH 8.9, C8/C9 25.2, 2,2DMB/nC6 19. LESSON: no plant in island positive yet; all fail 95% purity; column cost dwarfs revenue for sharp cuts. PLAN: test whether side-draw middle cut can reach 95% C5mix cheaply; trim useless T column to minimum. If uneconomic, accept 0.000 (empty design) and finish.",
+ "task": "hc16v3_dev_002"
+}

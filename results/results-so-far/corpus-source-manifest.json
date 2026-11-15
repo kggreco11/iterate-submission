@@ -1,0 +1,74 @@
+[
+  {
+    "path": "corpus-evidence/sharing_immediate/source-manifest.json",
+    "sha256": "06269dd81456d899153d7b41f8e3cd9325b138e6f443e22819671fd156ee3a30"
+  },
+  {
+    "path": "corpus-evidence/sharing_immediate/summary.json",
+    "sha256": "2c4d9436c5f013ee76d8c926bbc20e1557a8e857b8b634420beaf1b8acc1fe25"
+  },
+  {
+    "path": "corpus-evidence/sharing_immediate/transfer-provenance.json",
+    "sha256": "fe2f382c63313544ac06733040270060424c4f9d94cc16ec89978487eb9dde25"
+  },
+  {
+    "path": "corpus-evidence/sharing_immediate/config.json",
+    "sha256": "fc541e0c9a7455fff1ad7700cea5172479e144b71f2a23be0afc326c73805c40"
+  },
+  {
+    "path": "corpus-evidence/sharing_immediate/task.json",
+    "sha256": "ef15344bd0b5fd06a7d6fd3103b1f38dae0b03386cbee0fcaec807a926a79736"
+  },
+  {
+    "path": "corpus-evidence/sharing_immediate/screening-audit.json",
+    "sha256": "2896b10c4a7679e21c8a2dc6a5d4a77ad3eaaa4d03d234155e629bdd33cc15fa"
+  },
+  {
+    "path": "corpus-evidence/sharing_immediate/prompt-admission.json",
+    "sha256": "f08f1b1f11047af6c34b3d6b68c82da9cc0eacb720dd5b77ddfa2ec6dc1d9140"
+  },
+  {
+    "path": "corpus-evidence/sharing_immediate/swarm_corpus.py",
+    "sha256": "531d92ae87229c035f8994f7879c591df5414cb04c5f21956a352c37e23149d4"
+  },
+  {
+    "path": "corpus-evidence/sharing_immediate/analysis.json",
+    "sha256": "5d0fe7f197798ddedb84ca4d57a5780035477461f56ca44927b207916e653f4c"
+  },
+  {
+    "path": "corpus-evidence/single_baseline/source-manifest.json",
+    "sha256": "06269dd81456d899153d7b41f8e3cd9325b138e6f443e22819671fd156ee3a30"
+  },
+  {
+    "path": "corpus-evidence/single_baseline/summary.json",
+    "sha256": "af79ec86d7c52899ba8108740c14b505e322c641f4ac87bdfc6b7c45bb04825f"
+  },
+  {
+    "path": "corpus-evidence/single_baseline/transfer-provenance.json",
+    "sha256": "c27c1fdfce34c6adfe56d84e075b3a5b1c830c89eebf5d17e99b16b7e05887c0"
+  },
+  {
+    "path": "corpus-evidence/single_baseline/config.json",
+    "sha256": "49782599712151c07db008412c95e7de7721acc7fe4166973008f98b4ae7953c"
+  },
+  {
+    "path": "corpus-evidence/single_baseline/task.json",
+    "sha256": "ef15344bd0b5fd06a7d6fd3103b1f38dae0b03386cbee0fcaec807a926a79736"
+  },
+  {
+    "path": "corpus-evidence/single_baseline/screening-audit.json",
+    "sha256": "354c611d72a017d370d605271c8302b2ad7a20bbf9b9f6c8df66a092ab32122b"
+  },
+  {
+    "path": "corpus-evidence/single_baseline/analysis.json",
+    "sha256": "dfa5a6deaf01a7c12946c354beb1daa6dbaf2373ebab71588603a30aeb5773ae"
+  },
+  {
+    "path": "corpus-evidence/sharing_delay_25/transfer-provenance.json",
+    "sha256": "2da7733df2739cbe46466536b125d63abaf7e5cae317acc8bbd40a890d4f4b7b"
+  },
+  {
+    "path": "corpus-evidence/sharing_delay_25/task.json",
+    "sha256": "ef15344bd0b5fd06a7d6fd3103b1f38dae0b03386cbee0fcaec807a926a79736"
+  }
+]

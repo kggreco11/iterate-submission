@@ -1,0 +1,150 @@
+{
+  "state": "terminal",
+  "summary": {
+    "run_id": "swarm-29261c7f6db84dbe933850ae04d462b3",
+    "status": "round_limit",
+    "error": null,
+    "wall_s": 368.7039999999997,
+    "agents": {
+      "agent-0": {
+        "distinct_queries": 5,
+        "best_valid_reward": 0.8354681742424244,
+        "best_design": {
+          "": [
+            35,
+            2.0,
+            2.0,
+            0.1
+          ],
+          "B": [
+            50,
+            2.0,
+            13.0,
+            0.5
+          ]
+        },
+        "usage": {
+          "run_id": "swarm-29261c7f6db84dbe933850ae04d462b3",
+          "agent_id": "agent-0",
+          "provider": "openai",
+          "model": "gpt-6.1-sol",
+          "requests": 5,
+          "failed_requests": 0,
+          "input_tokens": 147114,
+          "output_tokens": 991,
+          "usd_estimated_total": 0.0,
+          "requests_with_unknown_cost": 5,
+          "price_source": "team model config, USD per million tokens, 2026-11-14",
+          "wall_s": 368.47660875320435,
+          "reconciled": true
+        }
+      },
+      "agent-1": {
+        "distinct_queries": 6,
+        "best_valid_reward": 0.7858074441397059,
+        "best_design": {
+          "": [
+            35,
+            2.0,
+            2.0,
+            0.1
+          ],
+          "B": [
+            50,
+            2.0,
+            14.0,
+            0.5
+          ]
+        },
+        "usage": {
+          "run_id": "swarm-29261c7f6db84dbe933850ae04d462b3",
+          "agent_id": "agent-1",
+          "provider": "openai",
+          "model": "gpt-6.1-sol",
+          "requests": 5,
+          "failed_requests": 0,
+          "input_tokens": 147149,
+          "output_tokens": 911,
+          "usd_estimated_total": 0.0,
+          "requests_with_unknown_cost": 5,
+          "price_source": "team model config, USD per million tokens, 2026-11-14",
+          "wall_s": 367.49821853637695,
+          "reconciled": true
+        }
+      },
+      "agent-2": {
+        "distinct_queries": 6,
+        "best_valid_reward": 0.7858074441397059,
+        "best_design": {
+          "": [
+            35,
+            2.0,
+            2.0,
+            0.1
+          ],
+          "B": [
+            50,
+            2.0,
+            14.0,
+            0.5
+          ]
+        },
+        "usage": {
+          "run_id": "swarm-29261c7f6db84dbe933850ae04d462b3",
+          "agent_id": "agent-2",
+          "provider": "openai",
+          "model": "gpt-6.1-sol",
+          "requests": 5,
+          "failed_requests": 0,
+          "input_tokens": 147149,
+          "output_tokens": 879,
+          "usd_estimated_total": 0.0,
+          "requests_with_unknown_cost": 5,
+          "price_source": "team model config, USD per million tokens, 2026-11-14",
+          "wall_s": 367.49821853637695,
+          "reconciled": true
+        }
+      }
+    },
+    "team_distinct_queries": 17,
+    "backend_calls": 13,
+    "cache_hits": 18,
+    "submissions": 15,
+    "team_input_tokens": 441412,
+    "team_output_tokens": 2781,
+    "known_llm_usd": 0.0,
+    "unknown_cost_requests": 15,
+    "memory_usd": null,
+    "simulator_usd": null
+  },
+  "events": {
+    "policy_outcome": 15,
+    "submission": 15,
+    "memory_write": 15,
+    "barrier": 5,
+    "memory_read": 15
+  },
+  "submissions_by_round": {
+    "1": 3,
+    "2": 3,
+    "3": 3,
+    "4": 3,
+    "5": 3
+  },
+  "submissions_by_agent": {
+    "agent-0": 5,
+    "agent-1": 5,
+    "agent-2": 5
+  },
+  "reads_with_findings": 15,
+  "citations": 12,
+  "copied_designs": 2,
+  "rejected": 0,
+  "last_event": {
+    "kind": "memory_read",
+    "round": 5,
+    "elapsed_s": 368.6880000000001
+  },
+  "memory_requests": 201,
+  "memory_errors": 0
+}

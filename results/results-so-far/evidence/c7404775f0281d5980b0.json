@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-independent-683a1314",
+ "agent_id": "agent-2",
+ "provider": "modal",
+ "model": "kimi-k3.1-pro",
+ "requests": 34,
+ "failed_requests": 3,
+ "input_tokens": 121034,
+ "output_tokens": 22164,
+ "usd_estimated_total": 0.4637079999999999,
+ "requests_with_unknown_cost": 3,
+ "price_source": "https://modal.com/docs/guide/supported-models; 2026-11-14; uncached estimate",
+ "wall_s": 1935.8962478637695,
+ "status": "finished",
+ "island": 2,
+ "strategy": null,
+ "best_valid_reward": 2.268626627341867,
+ "solves_used": 49,
+ "first_positive_at_solves": 25,
+ "usd_cached_price_estimate": 0.34931439999999997,
+ "notebook": "PLAN: Final bracket of heavy-column reflux while BT remains sellable; retain best valid design and finish. Best 2.261: root60/3.5/5.8/.1; T50/3.5/6/.1; TT40/2.5/4/.1; B90/8.2/6.2/.5. B reflux 9.5=2.063, 9.0=2.137, 8.5=2.213, 8.25=2.253, 8.2=2.261; 8.0 loses C6 blend. Root50/3 destroyed C5/C4; T45/3.25=1.987; T40/3 failed C4. Last exploratory solve tests 8.15 for a small cost saving; if purity fails, best remains 2.261.",
+ "task": "hc16v3_dev_002"
+}

@@ -1,0 +1,29 @@
+{
+  "protocol": "independent-five-control-v1",
+  "task": "hc16v3_dev_000",
+  "model": "kimi-k3.1-pro",
+  "task_sha256": "4b893ed55248f4d93f4e1487f3ade05ceb3f4cd4438e97ab370df983d03d52e8",
+  "budget_unit": "charged distinct column queries per agent",
+  "budget": 400,
+  "rounds": 800,
+  "repetitions": 1,
+  "spend_threshold": null,
+  "assigned_hypotheses": false,
+  "trials": [
+    {
+      "condition": "independent_without_past",
+      "agents": 5,
+      "memory": "none",
+      "repetition": 0,
+      "budget_per_agent": 400,
+      "total_budget": 2000,
+      "allocations": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ]
+    }
+  ]
+}

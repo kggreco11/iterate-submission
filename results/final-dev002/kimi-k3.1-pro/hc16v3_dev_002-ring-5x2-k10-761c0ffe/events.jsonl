@@ -1,0 +1,45 @@
+{"kind": "round", "round": 1, "team_best": 0.0, "team_solves": 128, "active": 50, "usd_logged": 0.67936, "usd_real": 0.5851263999999999, "t": 158.55}
+{"kind": "round", "round": 2, "team_best": 0.0, "team_solves": 304, "active": 50, "usd_logged": 1.7372859999999999, "usd_real": 1.4458299999999995, "t": 1056.83}
+{"kind": "round", "round": 3, "team_best": 0.0, "team_solves": 450, "active": 50, "usd_logged": 2.892493999999999, "usd_real": 2.3859596, "t": 1282.62}
+{"kind": "round", "round": 4, "team_best": 0.72845398627069, "team_solves": 570, "active": 50, "usd_logged": 4.016868, "usd_real": 3.2926055999999995, "t": 1467.31}
+{"kind": "round", "round": 5, "team_best": 1.5550543907834968, "team_solves": 670, "active": 50, "usd_logged": 5.052750000000002, "usd_real": 4.103271599999999, "t": 1658.02}
+{"kind": "round", "round": 6, "team_best": 1.9816338206613513, "team_solves": 783, "active": 50, "usd_logged": 6.062535999999998, "usd_real": 4.8878416, "t": 1774.05}
+{"kind": "round", "round": 7, "team_best": 1.9816338206613513, "team_solves": 903, "active": 50, "usd_logged": 7.074671999999998, "usd_real": 5.6796, "t": 1928.17}
+{"kind": "round", "round": 8, "team_best": 2.1514705520747452, "team_solves": 1002, "active": 50, "usd_logged": 8.170239999999998, "usd_real": 6.5484544, "t": 2047.53}
+{"kind": "round", "round": 9, "team_best": 2.337441598739403, "team_solves": 1088, "active": 50, "usd_logged": 9.283304, "usd_real": 7.432155199999999, "t": 2146.92}
+{"kind": "round", "round": 10, "team_best": 2.6027624773874676, "team_solves": 1195, "active": 50, "usd_logged": 10.395031999999993, "usd_real": 8.316593599999997, "t": 2261.47}
+{"kind": "round", "round": 11, "team_best": 2.730364196580179, "team_solves": 1296, "active": 50, "usd_logged": 11.591637999999998, "usd_real": 9.2845276, "t": 2369.46}
+{"kind": "round", "round": 12, "team_best": 2.8969276463745155, "team_solves": 1393, "active": 50, "usd_logged": 12.776914000000001, "usd_real": 10.240786000000002, "t": 2470.24}
+{"kind": "round", "round": 13, "team_best": 3.1021467127945135, "team_solves": 1487, "active": 49, "usd_logged": 13.90926, "usd_real": 11.149759199999998, "t": 2581.46}
+{"kind": "model_error", "round": 14, "agent": "agent-29", "error": "invalid_edits", "t": 2616.08}
+{"kind": "round", "round": 14, "team_best": 3.2186915004623398, "team_solves": 1576, "active": 49, "usd_logged": 15.087233999999999, "usd_real": 12.103323600000003, "t": 2667.87}
+{"kind": "round", "round": 15, "team_best": 3.2186915004623398, "team_solves": 1662, "active": 49, "usd_logged": 16.198646, "usd_real": 12.989980399999999, "t": 2729.07}
+{"kind": "finish", "round": 16, "agent": "agent-9", "note": "With one solve remaining, no new saleable configuration can be evaluated reliably. Retain the best valid score of 0 rather than risk another negative-cost, zero-revenue design.", "t": 2792.42}
+{"kind": "round", "round": 16, "team_best": 3.4428538949137377, "team_solves": 1745, "active": 49, "usd_logged": 17.405143999999996, "usd_real": 13.972760000000001, "t": 2816.79}
+{"kind": "round", "round": 17, "team_best": 3.5439433277800303, "team_solves": 1821, "active": 48, "usd_logged": 18.532770000000003, "usd_real": 14.879893200000001, "t": 2892.06}
+{"kind": "model_error", "round": 18, "agent": "agent-48", "error": "multiple_tools", "t": 2936.99}
+{"kind": "round", "round": 18, "team_best": 3.550150955680578, "team_solves": 1901, "active": 48, "usd_logged": 19.66772400000001, "usd_real": 15.793663199999996, "t": 2959.06}
+{"kind": "round", "round": 19, "team_best": 3.5732355178790103, "team_solves": 1975, "active": 48, "usd_logged": 20.842626, "usd_real": 16.748072399999998, "t": 3025.78}
+{"kind": "round", "round": 20, "team_best": 3.6821631807239683, "team_solves": 2042, "active": 44, "usd_logged": 21.870048, "usd_real": 17.5755072, "t": 3070.81}
+{"kind": "round", "round": 21, "team_best": 3.6821631807239683, "team_solves": 2096, "active": 42, "usd_logged": 22.857141999999993, "usd_real": 18.371138799999997, "t": 3115.58}
+{"kind": "round", "round": 22, "team_best": 3.6821631807239683, "team_solves": 2143, "active": 37, "usd_logged": 23.733711999999997, "usd_real": 19.078249600000003, "t": 3161.71}
+{"kind": "round", "round": 23, "team_best": 3.6821631807239683, "team_solves": 2196, "active": 34, "usd_logged": 24.54110200000001, "usd_real": 19.7293132, "t": 3221.18}
+{"kind": "finish", "round": 24, "agent": "agent-30", "note": "Retain the validated 2.866 design. The final sweep brackets the economic optimum: boil-up 13 remains slightly profitable, while 15 adds more cost than recovered C3 value; the heavy-column setting is already confirmed best.", "t": 3272.5}
+{"kind": "round", "round": 24, "team_best": 3.7393421768162822, "team_solves": 2238, "active": 29, "usd_logged": 25.233289999999997, "usd_real": 20.2892516, "t": 3276.9}
+{"kind": "round", "round": 25, "team_best": 3.7393421768162822, "team_solves": 2293, "active": 28, "usd_logged": 25.876595999999996, "usd_real": 20.804570399999996, "t": 3345.0}
+{"kind": "round", "round": 26, "team_best": 3.7393421768162822, "team_solves": 2344, "active": 28, "usd_logged": 26.525764, "usd_real": 21.325751200000003, "t": 3400.75}
+{"kind": "round", "round": 27, "team_best": 3.863232499223289, "team_solves": 2392, "active": 25, "usd_logged": 27.09400399999999, "usd_real": 21.7794824, "t": 3441.16}
+{"kind": "round", "round": 28, "team_best": 3.8659927367711795, "team_solves": 2431, "active": 22, "usd_logged": 27.57925399999999, "usd_real": 22.163701999999997, "t": 3472.72}
+{"kind": "round", "round": 29, "team_best": 3.8659927367711795, "team_solves": 2451, "active": 16, "usd_logged": 27.925381999999992, "usd_real": 22.4371388, "t": 3489.06}
+{"kind": "finish", "round": 30, "agent": "agent-10", "note": "Preserve the validated 2.138 design. The last heavy-column reduction to 4.5/4.5 catastrophically lost the C6 blend, confirming 5.0/5.0 is the practical limit; remaining one-solve tweaks offer negligible upside compared with the purity risk.", "t": 3509.89}
+{"kind": "round", "round": 30, "team_best": 3.8659927367711795, "team_solves": 2464, "active": 11, "usd_logged": 28.181241999999997, "usd_real": 22.642656400000003, "t": 3534.63}
+{"kind": "round", "round": 31, "team_best": 3.8659927367711795, "team_solves": 2471, "active": 8, "usd_logged": 28.344287999999995, "usd_real": 22.769183999999996, "t": 3546.29}
+{"kind": "round", "round": 32, "team_best": 3.8659927367711795, "team_solves": 2477, "active": 7, "usd_logged": 28.486572, "usd_real": 22.879557600000002, "t": 3557.24}
+{"kind": "round", "round": 33, "team_best": 3.8659927367711795, "team_solves": 2480, "active": 5, "usd_logged": 28.588274, "usd_real": 22.958219599999996, "t": 3567.99}
+{"kind": "round", "round": 34, "team_best": 3.8659927367711795, "team_solves": 2483, "active": 5, "usd_logged": 28.683709999999998, "usd_real": 23.030615599999994, "t": 3574.94}
+{"kind": "round", "round": 35, "team_best": 3.8659927367711795, "team_solves": 2486, "active": 5, "usd_logged": 28.778527999999998, "usd_real": 23.102393600000003, "t": 3580.75}
+{"kind": "round", "round": 36, "team_best": 3.8659927367711795, "team_solves": 2490, "active": 5, "usd_logged": 28.875421999999993, "usd_real": 23.1762476, "t": 3589.58}
+{"kind": "round", "round": 37, "team_best": 3.8659927367711795, "team_solves": 2495, "active": 4, "usd_logged": 28.957659999999994, "usd_real": 23.2400536, "t": 3600.89}
+{"kind": "round", "round": 38, "team_best": 3.8659927367711795, "team_solves": 2496, "active": 2, "usd_logged": 28.99243599999999, "usd_real": 23.2656136, "t": 3605.85}
+{"kind": "finish", "round": 39, "agent": "agent-46", "note": "The proven 1.307 design is restored and remains the best valid result. Further ratio reductions cross the C6 blend-purity cliff, while higher boil-up also destroys saleability; the final untested interpolation has negligible expected upside and substantial downside, so stopping is optimal.", "t": 3608.56}
+{"kind": "round", "round": 39, "team_best": 3.8659927367711795, "team_solves": 2496, "active": 1, "usd_logged": 29.007789999999993, "usd_real": 23.2763596, "t": 3608.56}

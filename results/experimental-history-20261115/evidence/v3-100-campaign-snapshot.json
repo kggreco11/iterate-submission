@@ -1,0 +1,53 @@
+{
+  "provenance": "Selected fields transcribed from tool-observed original snapshot before concurrent checkout removal; not a byte-identical export.",
+  "captured_at": 1794715402.4925926,
+  "summary": {
+    "outcomes": [
+      {
+        "condition": "single_without_past",
+        "agents": 1,
+        "run": "swarm-5495ec4fea6c47a19b99c3e0cf21d42f",
+        "memory": "exact",
+        "total_budget": 100,
+        "status": "all_finished_or_exhausted",
+        "queries": 100,
+        "backend_calls": 100,
+        "best_valid_reward": 0.425524749227997,
+        "estimated_model_usd": 1.325916,
+        "wall_s": 507.157,
+        "input_tokens": 353213,
+        "output_tokens": 61949
+      },
+      {
+        "condition": "single_with_past",
+        "agents": 1,
+        "run": "swarm-66df0079cddd45de96f67a6ed20fe47d",
+        "memory": "past",
+        "total_budget": 100,
+        "status": "all_finished_or_exhausted",
+        "queries": 100,
+        "backend_calls": 100,
+        "best_valid_reward": 0.6059543601737726,
+        "estimated_model_usd": 1.818298,
+        "wall_s": 510.157,
+        "input_tokens": 637224,
+        "output_tokens": 54385
+      },
+      {
+        "condition": "swarm_without_past",
+        "agents": 5,
+        "run": "swarm-543232b4170f4d8b9496a6824c30f029",
+        "memory": "exact",
+        "total_budget": 500,
+        "status": "all_finished_or_exhausted",
+        "queries": 488,
+        "backend_calls": 309,
+        "best_valid_reward": 2.069849127779756,
+        "estimated_model_usd": 5.77808,
+        "wall_s": 949.047,
+        "input_tokens": 1723220,
+        "output_tokens": 233164
+      }
+    ]
+  }
+}

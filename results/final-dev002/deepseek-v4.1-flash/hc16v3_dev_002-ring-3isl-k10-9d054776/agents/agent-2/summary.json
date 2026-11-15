@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-3isl-k10-9d054776",
+ "agent_id": "agent-2",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 102,
+ "failed_requests": 0,
+ "input_tokens": 577527,
+ "output_tokens": 99215,
+ "usd_estimated_total": 0.2923160999999999,
+ "requests_with_unknown_cost": 0,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 4928.490332126617,
+ "status": "finished",
+ "island": 0,
+ "strategy": null,
+ "best_valid_reward": 0.0,
+ "solves_used": 49,
+ "first_positive_at_solves": null,
+ "usd_cached_price_estimate": 0.22416378000000012,
+ "notebook": "49/50 solves. Empty = 0.000 is my best valid design; every multi-column build I evaluated was net-negative (revenue $0 from no stream reaching 95% purity, column costs $124-570M/yr). Team best (island 0) is also negative (-0.336). Reverting to lock 0.000.\n\nKey economics learned: revenue = flow(mol/s) x price x 28.8 ($M/yr). Most valuable cuts would be C5 mix (~$618M/yr) or C6 paraffin mix (~$1180M/yr), but columns cost $124M/yr even for 40 stages/reflux 1.5, and 95% purity on these close-boiling cuts (isoC5/nC5 gap 8K; C6 paraffins vs naphthenes gap 3K) needs very high reflux+stages whose cost exceeds product value at this expensive-plant cost level.\n\nLesson: at this cost level and with this complex 16-component feed, no achievable-purity separation is profitable; the empty design (0) dominates. Final answer: empty.",
+ "task": "hc16v3_dev_002"
+}

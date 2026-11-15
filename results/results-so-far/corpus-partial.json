@@ -1,0 +1,43 @@
+{
+  "config": {
+    "run_id": "swarm-eb4d2bf04dd5484aa658878907d4add5",
+    "agents": [
+      "agent-0",
+      "agent-1",
+      "agent-2",
+      "agent-3",
+      "agent-4"
+    ],
+    "allocations": [
+      400,
+      400,
+      400,
+      400,
+      400
+    ],
+    "mode": "equal-per-agent",
+    "rounds": 800,
+    "repetition": 0,
+    "task": "hc16v3_dev_000",
+    "budget": 400,
+    "backend": "chemsep",
+    "model": "kimi-k3.1-pro",
+    "solver_retries": 0,
+    "simulator_workers": 1,
+    "memory": "ExactMemory",
+    "memory_timeout_s": null,
+    "condition": "sharing_delay_25",
+    "sharing": true,
+    "sharing_after": 100,
+    "max_input_bytes": 32000,
+    "memory_blocking": false,
+    "context_protocol": "compact-v3-corpus-v1"
+  },
+  "status": "user_stopped_partial",
+  "logged_queries_lower_bound": 20,
+  "recorded_model_usd": 0.22408,
+  "submissions": 15,
+  "sharing_activation_observed": false,
+  "trajectory_sha256": "46fb734028ade8a5db04e96503c526b4dafae15b72c3029cbb791d3a0ff14dbd",
+  "note": "No final service summary; in-flight work may be missing. Delay50 cancelled without starting."
+}

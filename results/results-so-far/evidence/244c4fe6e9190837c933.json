@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-761c0ffe",
+ "agent_id": "agent-46",
+ "provider": "modal",
+ "model": "kimi-k3.1-pro",
+ "requests": 40,
+ "failed_requests": 1,
+ "input_tokens": 236641,
+ "output_tokens": 23894,
+ "usd_estimated_total": 0.712222,
+ "requests_with_unknown_cost": 1,
+ "price_source": "https://modal.com/docs/guide/supported-models; 2026-11-14; uncached estimate",
+ "wall_s": 3608.6494669914246,
+ "status": "finished",
+ "island": 9,
+ "strategy": null,
+ "best_valid_reward": 1.3072211982246889,
+ "solves_used": 49,
+ "first_positive_at_solves": 12,
+ "usd_cached_price_estimate": 0.5383851999999999,
+ "notebook": "PLAN: Lock in the proven 1.307 two-column C6-paraffin plant; optimization is complete and the final action is to restore that best valid design.\n\nThe 69-stage midpoint probe gave 1.305, below the best. Root 55/4.75/6/.3 remains optimal. Heavy column 70/5.20/5.20/.8 retains full $1155.3M/yr blend revenue at $582.0M/yr total column cost. Lower balanced duties fail purity; the 69-stage trim also loses purity at 5.20 and is inferior at 5.225. Restore R1243 exactly and stop.",
+ "task": "hc16v3_dev_002"
+}

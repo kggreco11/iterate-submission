@@ -1,0 +1,277 @@
+{
+  "run_id": "swarm-15b64983de0a4bb0b40c91cca8b7f55f",
+  "sharing_activation": {
+    "round": 1,
+    "threshold": 0,
+    "counts": {
+      "agent-0": 0,
+      "agent-1": 0,
+      "agent-2": 0,
+      "agent-3": 0,
+      "agent-4": 0
+    },
+    "overshoot": {
+      "agent-0": 0,
+      "agent-1": 0,
+      "agent-2": 0,
+      "agent-3": 0,
+      "agent-4": 0
+    },
+    "inactive": [],
+    "active": [
+      "agent-0",
+      "agent-1",
+      "agent-2",
+      "agent-3",
+      "agent-4"
+    ]
+  },
+  "status": "all_finished_or_exhausted",
+  "error": null,
+  "wall_s": 2606.8909999999996,
+  "agents": {
+    "agent-0": {
+      "distinct_queries": 397,
+      "best_valid_reward": 0.5208792323774969,
+      "best_design": {
+        "": [
+          31,
+          2.14,
+          2.42,
+          0.27
+        ],
+        "T": [
+          30,
+          1.85,
+          1.84,
+          0.08
+        ],
+        "TB": [
+          40,
+          2.2,
+          2.2,
+          0.1
+        ],
+        "TBT": [
+          30,
+          2.15,
+          4.7,
+          0.12
+        ]
+      },
+      "usage": {
+        "run_id": "swarm-15b64983de0a4bb0b40c91cca8b7f55f",
+        "agent_id": "agent-0",
+        "provider": "modal",
+        "model": "kimi-k3.1-pro",
+        "requests": 166,
+        "failed_requests": 0,
+        "input_tokens": 1965465,
+        "output_tokens": 131119,
+        "usd_estimated_total": 5.242119999999999,
+        "requests_with_unknown_cost": 0,
+        "price_source": "https://modal.com/docs/guide/supported-models; 2026-11-15; uncached estimate",
+        "wall_s": 2607.035486459732,
+        "reconciled": true
+      }
+    },
+    "agent-1": {
+      "distinct_queries": 400,
+      "best_valid_reward": 0.5149470942681592,
+      "best_design": {
+        "": [
+          31,
+          2.16,
+          2.41,
+          0.27
+        ],
+        "T": [
+          29,
+          1.85,
+          1.83,
+          0.08
+        ],
+        "TB": [
+          40,
+          2.2,
+          2.2,
+          0.1
+        ],
+        "TBT": [
+          29,
+          2.14,
+          4.9,
+          0.12
+        ]
+      },
+      "usage": {
+        "run_id": "swarm-15b64983de0a4bb0b40c91cca8b7f55f",
+        "agent_id": "agent-1",
+        "provider": "modal",
+        "model": "kimi-k3.1-pro",
+        "requests": 143,
+        "failed_requests": 0,
+        "input_tokens": 1683294,
+        "output_tokens": 115381,
+        "usd_estimated_total": 4.520398,
+        "requests_with_unknown_cost": 0,
+        "price_source": "https://modal.com/docs/guide/supported-models; 2026-11-15; uncached estimate",
+        "wall_s": 2607.035486459732,
+        "reconciled": true
+      }
+    },
+    "agent-2": {
+      "distinct_queries": 393,
+      "best_valid_reward": 0.5193086707025265,
+      "best_design": {
+        "": [
+          31,
+          2.14,
+          2.42,
+          0.27
+        ],
+        "T": [
+          30,
+          1.85,
+          1.84,
+          0.08
+        ],
+        "TB": [
+          40,
+          2.2,
+          2.2,
+          0.1
+        ],
+        "TBT": [
+          30,
+          2.15,
+          4.9,
+          0.12
+        ]
+      },
+      "usage": {
+        "run_id": "swarm-15b64983de0a4bb0b40c91cca8b7f55f",
+        "agent_id": "agent-2",
+        "provider": "modal",
+        "model": "kimi-k3.1-pro",
+        "requests": 149,
+        "failed_requests": 0,
+        "input_tokens": 1765188,
+        "output_tokens": 115470,
+        "usd_estimated_total": 4.6850760000000005,
+        "requests_with_unknown_cost": 0,
+        "price_source": "https://modal.com/docs/guide/supported-models; 2026-11-15; uncached estimate",
+        "wall_s": 2607.035486459732,
+        "reconciled": true
+      }
+    },
+    "agent-3": {
+      "distinct_queries": 400,
+      "best_valid_reward": 0.5208897639568836,
+      "best_design": {
+        "": [
+          31,
+          2.14,
+          2.42,
+          0.27
+        ],
+        "T": [
+          30,
+          1.85,
+          1.84,
+          0.08
+        ],
+        "TB": [
+          40,
+          2.2,
+          2.2,
+          0.1
+        ],
+        "TBT": [
+          30,
+          2.15,
+          4.68,
+          0.12
+        ]
+      },
+      "usage": {
+        "run_id": "swarm-15b64983de0a4bb0b40c91cca8b7f55f",
+        "agent_id": "agent-3",
+        "provider": "modal",
+        "model": "kimi-k3.1-pro",
+        "requests": 162,
+        "failed_requests": 0,
+        "input_tokens": 1922546,
+        "output_tokens": 135098,
+        "usd_estimated_total": 5.196071999999999,
+        "requests_with_unknown_cost": 0,
+        "price_source": "https://modal.com/docs/guide/supported-models; 2026-11-15; uncached estimate",
+        "wall_s": 2607.035486459732,
+        "reconciled": true
+      }
+    },
+    "agent-4": {
+      "distinct_queries": 400,
+      "best_valid_reward": 0.5169469861864552,
+      "best_design": {
+        "": [
+          31,
+          2.15,
+          2.41,
+          0.27
+        ],
+        "T": [
+          30,
+          1.85,
+          1.84,
+          0.08
+        ],
+        "TB": [
+          40,
+          2.2,
+          2.2,
+          0.1
+        ],
+        "TBT": [
+          30,
+          2.15,
+          4.9,
+          0.12
+        ]
+      },
+      "usage": {
+        "run_id": "swarm-15b64983de0a4bb0b40c91cca8b7f55f",
+        "agent_id": "agent-4",
+        "provider": "modal",
+        "model": "kimi-k3.1-pro",
+        "requests": 145,
+        "failed_requests": 0,
+        "input_tokens": 1717738,
+        "output_tokens": 116206,
+        "usd_estimated_total": 4.597535999999999,
+        "requests_with_unknown_cost": 0,
+        "price_source": "https://modal.com/docs/guide/supported-models; 2026-11-15; uncached estimate",
+        "wall_s": 2607.035486459732,
+        "reconciled": true
+      }
+    }
+  },
+  "team_distinct_queries": 1990,
+  "backend_calls": 1308,
+  "cache_hits": 1818,
+  "submissions": 763,
+  "team_input_tokens": 9054231,
+  "team_output_tokens": 613274,
+  "known_llm_usd": 24.241201999999998,
+  "unknown_cost_requests": 0,
+  "memory_usd": null,
+  "simulator_usd": null,
+  "clean_slate": {
+    "verified": true,
+    "readers": 5,
+    "remote": false
+  },
+  "pending_ingestions": 0,
+  "duplicate_design_submissions": 189,
+  "max_input_bytes": 32000
+}

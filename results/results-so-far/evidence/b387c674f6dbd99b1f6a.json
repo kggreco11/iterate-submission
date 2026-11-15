@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-independent-3631e4b1",
+ "agent_id": "agent-6",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 125,
+ "failed_requests": 4,
+ "input_tokens": 559454,
+ "output_tokens": 122660,
+ "usd_estimated_total": 0.31502819999999987,
+ "requests_with_unknown_cost": 3,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 5076.084541320801,
+ "status": "finished",
+ "island": 6,
+ "strategy": null,
+ "best_valid_reward": 0.0,
+ "solves_used": 48,
+ "first_positive_at_solves": null,
+ "usd_cached_price_estimate": 0.23630052000000004,
+ "notebook": "Solves 48/50, best=0.000 (empty). All 3 of my real builds (4-column carbon-number cascades at 50 stages/reflux 6) reached reasonable purity but revenue was below the heavy column cost \u2014 expensive-plant energy/equipment makes each column very costly, so multi-column splits at this rate don't pay. With only 2 solves left and no evaluated profitable config, the guaranteed 0.000 empty baseline is safer than a blind speculative build that could be invalid or negative. Bank 0.000.",
+ "task": "hc16v3_dev_002"
+}

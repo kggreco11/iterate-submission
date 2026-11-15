@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-cull-2433e454",
+ "agent_id": "agent-6",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 20,
+ "failed_requests": 0,
+ "input_tokens": 85148,
+ "output_tokens": 19470,
+ "usd_estimated_total": 0.0489084,
+ "requests_with_unknown_cost": 0,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 5423.07587146759,
+ "status": "culled",
+ "island": 6,
+ "strategy": null,
+ "best_valid_reward": 0.0,
+ "solves_used": 10,
+ "first_positive_at_solves": null,
+ "usd_cached_price_estimate": 0.036743279999999996,
+ "notebook": "Turn 10. Solves 9/50. Empty=0, single non-separating column negative (-0.44). Value factor: flow(mol/s)*price*28.8 = $M/yr. Pure-sum max 3611 $M/yr (reward 8.23). Blend values $M/yr: C3mix 73, C4mix 186, C5mix 619, C6paraffin 1181, C6naph 396. Single pure: C5mix as blend worth 619 but separating N-pentane(439)+isopentane(280)=719 gains ~100; C6paraffin blend 1181 vs separated (285+389+343+332)=1349 gains 168; N-heptane 332, N-octane 359, N-nonane 104.\n\nColumn cost ~$100-195M/yr at 45 stages R3. Need income >> cost. Strategy: minimize columns. A good target: separate light ends (C2/C3), then C4mix, C5mix, C6paraffin, C6naphthene, C7, C8(+C9). That's many columns though.\n\nPlan: raise reflux to 8 to see if a sharper first cut gives pure-enough streams, calibrate cost vs reflux.",
+ "task": "hc16v3_dev_002"
+}

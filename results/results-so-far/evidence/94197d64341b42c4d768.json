@@ -1,0 +1,78 @@
+{
+  "date": "2026-11-14 America/Los_Angeles",
+  "scope": "Mechanism verification only; no model-performance improvement claim",
+  "offline": {
+    "task": "hc16v3_dev_000",
+    "past_backend": "offline stalled-retrieval stand-in",
+    "condition_queries": {
+      "single": 100,
+      "independent": 500,
+      "exact": 500,
+      "past": 500
+    },
+    "condition_allocations": {
+      "single": [
+        100
+      ],
+      "independent": [
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "exact": [
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "past": [
+        100,
+        100,
+        100,
+        100,
+        100
+      ]
+    },
+    "prompt_count": 1600,
+    "max_input_bytes": 14759,
+    "input_byte_limit": 32000,
+    "prompt_incumbent_checks": 1000,
+    "all_clean_slate": true,
+    "model_api_calls": 0,
+    "chemsep_calls": 0,
+    "passed": true,
+    "configuration": "Ignored synthetic smoke fixture; per-agent allowance 100; no next campaign task configured"
+  },
+  "live_past": {
+    "first_scope": "smoke-60b6a8063deb4696936e560c15cc00d0",
+    "first_clean_slate": {
+      "verified": true,
+      "audience": "smoke-60b6a8063deb4696936e560c15cc00d0",
+      "readers": 2,
+      "remote": true,
+      "raw_findings": 0
+    },
+    "current_source_visible": true,
+    "second_scope": "smoke-49b473e712b94b61a9cccb7253da0e0b",
+    "second_clean_slate": {
+      "verified": true,
+      "audience": "smoke-49b473e712b94b61a9cccb7253da0e0b",
+      "readers": 1,
+      "remote": true,
+      "raw_findings": 0
+    },
+    "outsider_raw_findings": 0,
+    "outsider_accepted_findings": 0,
+    "outsider_raw_sources": [],
+    "passed": true
+  },
+  "regressions": {
+    "before": "2 failing real-runner tests: missing feedback and rejected citation publication",
+    "after": "140 passed; entire local test suite including optional credential-launch tests",
+    "test_dependency": "cryptography 50.0.2 installed only in ignored runs/test-deps",
+    "command": "PYTHONPATH=runs/test-deps python -m pytest -q"
+  }
+}

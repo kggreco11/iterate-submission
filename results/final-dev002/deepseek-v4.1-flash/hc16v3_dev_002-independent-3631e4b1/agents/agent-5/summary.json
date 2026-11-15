@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-independent-3631e4b1",
+ "agent_id": "agent-5",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 116,
+ "failed_requests": 3,
+ "input_tokens": 505888,
+ "output_tokens": 107684,
+ "usd_estimated_total": 0.2809871999999999,
+ "requests_with_unknown_cost": 3,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 5076.086550712585,
+ "status": "budget_exhausted",
+ "island": 5,
+ "strategy": null,
+ "best_valid_reward": 0.0,
+ "solves_used": 50,
+ "first_positive_at_solves": null,
+ "usd_cached_price_estimate": 0.20730528000000006,
+ "notebook": "Turn 57. Solves 48/50 (2 left). Best valid 0.000 (empty). Current 2-col train -0.386.\n\nFACTS:\n- R>=3, 70-stage on feed FAIL to converge (turns 48,53). Convergence is binding.\n- Modest low-reflux columns converge (turn 50: valid -0.593).\n- Every real train NEGATIVE so far; ~66-85 M/yr per column; nothing reached 95% purity.\n- Empty = 0.000 is my only non-negative result.\n- Value factor: mol/s * $/mol * 28.8e6 = $/yr.\n\nPLAN (2 solves): single low-reflux 60-stage column on feed (R1.2) to read a single cheap split's natural purity/cost. Then revert to empty (free) and finish at 0.000 if not clearly positive.",
+ "task": "hc16v3_dev_002"
+}

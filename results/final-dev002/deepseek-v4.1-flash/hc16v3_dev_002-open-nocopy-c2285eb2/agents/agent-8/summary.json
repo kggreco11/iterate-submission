@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-open-nocopy-c2285eb2",
+ "agent_id": "agent-8",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 105,
+ "failed_requests": 3,
+ "input_tokens": 570228,
+ "output_tokens": 101822,
+ "usd_estimated_total": 0.2932548,
+ "requests_with_unknown_cost": 3,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 4844.600037574768,
+ "status": "budget_exhausted",
+ "island": 0,
+ "strategy": null,
+ "best_valid_reward": 0.0,
+ "solves_used": 50,
+ "first_positive_at_solves": null,
+ "usd_cached_price_estimate": 0.22607015999999996,
+ "notebook": "Best=0 (empty). 48/50 used. Econ M$/yr at full recovery: C6par 1181, C5mix 618, nC5 439, nC8 359. Column cost 150-340M/yr each.\n\nFINDINGS (mine + agents 2,4,7,9): ALL 2-4 col trains gave ZERO revenue. Modest reflux never reached 95% blend purity at C5/2,2DMB cut (13.7K); best C5mix tops ~59-68%. High reflux (R=8, 80-120 st) cost 255-340M/col and still 0 revenue. Even the easy nC4/iC5 cut (28K) left 8-13% iC5 in C4 tops, so no clean C4mix.\n\nPLAN (last 2 solves): Try one focused C5mix train with very high reflux: feed col (80 st, R=10) cuts C4- overhead; B col (90 st, R=10) sharpens C5/2,2DMB to lift C5mix tops toward 95%. No downside: a valid negative design still leaves best=0. Then finish.",
+ "task": "hc16v3_dev_002"
+}

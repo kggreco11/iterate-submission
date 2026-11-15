@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-cull-db97bd5c",
+ "agent_id": "agent-9",
+ "provider": "modal",
+ "model": "kimi-k3.1-pro",
+ "requests": 13,
+ "failed_requests": 3,
+ "input_tokens": 37126,
+ "output_tokens": 11487,
+ "usd_estimated_total": 0.189122,
+ "requests_with_unknown_cost": 3,
+ "price_source": "https://modal.com/docs/guide/supported-models; 2026-11-14; uncached estimate",
+ "wall_s": 2101.003987312317,
+ "status": "culled",
+ "island": 9,
+ "strategy": null,
+ "best_valid_reward": 0.0,
+ "solves_used": 32,
+ "first_positive_at_solves": null,
+ "usd_cached_price_estimate": 0.1635476,
+ "notebook": "PLAN: Rebuild only the two-column C5 blend train with much lighter duties than earlier attempts; if C5 sells, optimise stage counts and reflux downward for positive net reward, otherwise try a single-column side draw.\nC5 blend is worth about $611M/yr and is the cheapest valuable cut: root removes C4 and lighter across a wide boiling gap, B removes C6+ across the pentane/dimethylbutane gap. Avoid the unsuccessful C3 recovery and expensive C6 train. Current settings are deliberately moderate (40/2/2 then 50/3/3) to test whether two columns can beat their cost.",
+ "task": "hc16v3_dev_002"
+}

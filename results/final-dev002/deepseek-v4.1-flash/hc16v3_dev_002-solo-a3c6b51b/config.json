@@ -1,0 +1,43 @@
+{
+ "run_id": "hc16v3_dev_002-solo-a3c6b51b",
+ "config": {
+  "n": 1,
+  "budget": 200,
+  "effort": "low",
+  "think_budget": 1500,
+  "plan": false,
+  "think_every": null,
+  "think_when_stuck": null,
+  "cheap_effort": "none",
+  "islands": [
+   1
+  ],
+  "share_within": false,
+  "migrate_every": null,
+  "route": "ring",
+  "info": "full",
+  "copy": true,
+  "graft": true,
+  "copy_rule": null,
+  "niche_board": false,
+  "strategies": null,
+  "notebook": true,
+  "cull_every": null,
+  "supervisor_every": null,
+  "max_shown": 4,
+  "preset": "solo"
+ },
+ "task": "hc16v3_dev_002",
+ "model": "deepseek-v4.1-flash",
+ "provider": "modal",
+ "seed": 0,
+ "islands": [
+  1
+ ],
+ "budgets": {
+  "agent-0": 200
+ },
+ "strategies": {},
+ "started": "2026-11-15 11:53:19",
+ "simulator_retries": "ChemSep alternative initialisations on"
+}

@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-761c0ffe",
+ "agent_id": "agent-0",
+ "provider": "modal",
+ "model": "kimi-k3.1-pro",
+ "requests": 22,
+ "failed_requests": 0,
+ "input_tokens": 155677,
+ "output_tokens": 17861,
+ "usd_estimated_total": 0.489964,
+ "requests_with_unknown_cost": 0,
+ "price_source": "https://modal.com/docs/guide/supported-models; 2026-11-14; uncached estimate",
+ "wall_s": 3608.8014266490936,
+ "status": "budget_exhausted",
+ "island": 0,
+ "strategy": null,
+ "best_valid_reward": 0.4884443161091438,
+ "solves_used": 50,
+ "first_positive_at_solves": 10,
+ "usd_cached_price_estimate": 0.3990712,
+ "notebook": "PLAN: Restore R953 (0.494), then use the remaining budget only on the TT/TTT subsystem; test a modestly larger side draw for extra C3 recovery, and revert if purity or revenue worsens.\nR953 combines the proven 45-stage root with TTT boil-up 0.7. Its five products total $603.1M/yr and cost $386.7M/yr. Root pressure drop 0.3 was decisively bad; dp 0.2 is essential. TTT boil-up 0.6 failed on ethane, 0.8 recovered less C3, and 0.7 is best. The current test raises TT liquid side draw from 0.25 to 0.28: TTS is 97% C3 and TTB contains 4% propane, so a slightly larger draw may recover more C3 while remaining above both 95% blend specifications. This changes only TT and TTT, fitting the three-solve remainder. Preserve R953 as fallback.",
+ "task": "hc16v3_dev_002"
+}

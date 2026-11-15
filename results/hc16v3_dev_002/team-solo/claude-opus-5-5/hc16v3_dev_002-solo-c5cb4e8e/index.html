@@ -1,0 +1,670 @@
+<!doctype html><meta charset="utf-8"><title>Team run evidence</title><style>body{font:16px system-ui;max-width:1100px;margin:40px auto}td,th{padding:8px;text-align:left}pre{white-space:pre-wrap}details{margin:12px 0}</style><h1>claude-opus-5-5 · solo</h1><p>Run: hc16v3_dev_002-solo-c5cb4e8e</p><p>Status: all_done</p><p>Saved plant records are available below.</p><p>Single run; unequal team budgets and model thinking settings. The dev002 experiments predate migration-selection and managed-budget fixes; organization names describe intended configurations.</p><p><a href="report-data.json">Queryable source JSON</a> · <a href="summary.json">Summary JSON</a></p><h2>Recorded summary</h2><pre>{
+  &quot;run_id&quot;: &quot;hc16v3_dev_002-solo-c5cb4e8e&quot;,
+  &quot;preset&quot;: &quot;solo&quot;,
+  &quot;model&quot;: &quot;claude-opus-5-5&quot;,
+  &quot;task&quot;: &quot;hc16v3_dev_002&quot;,
+  &quot;status&quot;: &quot;all_done&quot;,
+  &quot;wall_s&quot;: 666.7,
+  &quot;team_best&quot;: 5.331251291941548,
+  &quot;team_solves&quot;: 74,
+  &quot;best_at&quot;: {
+    &quot;100&quot;: 5.331251291941548,
+    &quot;250&quot;: 5.331251291941548,
+    &quot;500&quot;: 5.331251291941548,
+    &quot;1000&quot;: 5.331251291941548
+  },
+  &quot;team_first_positive_at_team_solves&quot;: 7,
+  &quot;agents_off_zero&quot;: 1,
+  &quot;workers&quot;: 1,
+  &quot;best_record&quot;: &quot;R35&quot;,
+  &quot;best_columns&quot;: 10,
+  &quot;best_design&quot;: {
+    &quot;&quot;: [
+      40,
+      2.0,
+      2.2,
+      0.75
+    ],
+    &quot;T&quot;: [
+      30,
+      1.2,
+      2.74,
+      0.0
+    ],
+    &quot;B&quot;: [
+      80,
+      3.5,
+      3.4,
+      0.5
+    ],
+    &quot;TT&quot;: [
+      40,
+      1.5,
+      1.4,
+      0.0
+    ],
+    &quot;BB&quot;: [
+      75,
+      3.0,
+      6.4,
+      0.5
+    ],
+    &quot;BBB&quot;: [
+      40,
+      2.0,
+      10.6,
+      0.0
+    ],
+    &quot;BBT&quot;: [
+      70,
+      3.0,
+      6.3,
+      0.0
+    ],
+    &quot;TTT&quot;: [
+      30,
+      3.0,
+      0.5,
+      0.0
+    ],
+    &quot;BBTT&quot;: [
+      100,
+      6.0,
+      6.35,
+      0.0
+    ],
+    &quot;BBTB&quot;: [
+      25,
+      1.0,
+      22.0,
+      0.0
+    ]
+  },
+  &quot;copies&quot;: 0,
+  &quot;grafts&quot;: 0,
+  &quot;records&quot;: 36,
+  &quot;distinct_structures&quot;: 15,
+  &quot;usd_logged&quot;: 2.1240559999999995,
+  &quot;usd_cached_price_estimate&quot;: 2.1240559999999995,
+  &quot;requests&quot;: 37,
+  &quot;agents&quot;: {
+    &quot;agent-0&quot;: {
+      &quot;status&quot;: &quot;finished&quot;,
+      &quot;island&quot;: 0,
+      &quot;best_valid_reward&quot;: 5.331251291941548,
+      &quot;solves_used&quot;: 74,
+      &quot;first_positive_at_solves&quot;: 7,
+      &quot;requests&quot;: 37,
+      &quot;usd_estimated_total&quot;: 2.1240559999999995,
+      &quot;usd_cached_price_estimate&quot;: 2.1240559999999995
+    }
+  },
+  &quot;config&quot;: {
+    &quot;n&quot;: 1,
+    &quot;budget&quot;: 200,
+    &quot;unsold_info&quot;: true,
+    &quot;effort&quot;: &quot;low&quot;,
+    &quot;think_budget&quot;: null,
+    &quot;plan&quot;: false,
+    &quot;think_every&quot;: null,
+    &quot;think_when_stuck&quot;: null,
+    &quot;cheap_effort&quot;: &quot;none&quot;,
+    &quot;islands&quot;: [
+      1
+    ],
+    &quot;share_within&quot;: false,
+    &quot;migrate_every&quot;: null,
+    &quot;route&quot;: &quot;ring&quot;,
+    &quot;info&quot;: &quot;full&quot;,
+    &quot;copy&quot;: true,
+    &quot;graft&quot;: true,
+    &quot;copy_rule&quot;: null,
+    &quot;niche_board&quot;: false,
+    &quot;strategies&quot;: null,
+    &quot;notebook&quot;: true,
+    &quot;cull_every&quot;: null,
+    &quot;supervisor_every&quot;: null,
+    &quot;max_shown&quot;: 4,
+    &quot;preset&quot;: &quot;solo&quot;
+  }
+}</pre><h2>Evaluated plants</h2><table><tr><th>ID</th><th>Agent</th><th>Round</th><th>Reward</th><th>Valid</th><th>Solves</th></tr><tr><td>R1</td><td>agent-0</td><td>1</td><td>-0.2517330041054281</td><td>True</td><td>1</td></tr><tr><td>R2</td><td>agent-0</td><td>2</td><td>-1.1737020638821314</td><td>True</td><td>4</td></tr><tr><td>R3</td><td>agent-0</td><td>3</td><td>0.3756417740227832</td><td>True</td><td>7</td></tr><tr><td>R4</td><td>agent-0</td><td>4</td><td>2.672677592830188</td><td>True</td><td>8</td></tr><tr><td>R5</td><td>agent-0</td><td>5</td><td>2.9775881976490637</td><td>True</td><td>9</td></tr><tr><td>R6</td><td>agent-0</td><td>6</td><td>3.627354654609171</td><td>True</td><td>11</td></tr><tr><td>R7</td><td>agent-0</td><td>7</td><td>3.5556412041190444</td><td>True</td><td>14</td></tr><tr><td>R8</td><td>agent-0</td><td>8</td><td>3.4840828492554996</td><td>True</td><td>17</td></tr><tr><td>R9</td><td>agent-0</td><td>9</td><td>3.433519159012569</td><td>True</td><td>20</td></tr><tr><td>R10</td><td>agent-0</td><td>10</td><td>4.13374277432021</td><td>True</td><td>23</td></tr><tr><td>R11</td><td>agent-0</td><td>11</td><td>4.345316190900713</td><td>True</td><td>26</td></tr><tr><td>R12</td><td>agent-0</td><td>12</td><td>2.9775881976490637</td><td>False</td><td>27</td></tr><tr><td>R13</td><td>agent-0</td><td>13</td><td>2.9775881976490637</td><td>False</td><td>28</td></tr><tr><td>R14</td><td>agent-0</td><td>14</td><td>4.293114875181942</td><td>True</td><td>31</td></tr><tr><td>R15</td><td>agent-0</td><td>15</td><td>3.0005381355659098</td><td>True</td><td>33</td></tr><tr><td>R16</td><td>agent-0</td><td>16</td><td>4.365259552677721</td><td>True</td><td>34</td></tr><tr><td>R17</td><td>agent-0</td><td>17</td><td>4.368449303065222</td><td>True</td><td>36</td></tr><tr><td>R18</td><td>agent-0</td><td>18</td><td>4.489456028968343</td><td>True</td><td>38</td></tr><tr><td>R19</td><td>agent-0</td><td>19</td><td>4.402652140886009</td><td>True</td><td>40</td></tr><tr><td>R20</td><td>agent-0</td><td>20</td><td>4.293817457378775</td><td>True</td><td>42</td></tr><tr><td>R21</td><td>agent-0</td><td>21</td><td>5.069521819101054</td><td>True</td><td>44</td></tr><tr><td>R22</td><td>agent-0</td><td>22</td><td>5.085707610709584</td><td>True</td><td>46</td></tr><tr><td>R23</td><td>agent-0</td><td>23</td><td>5.240981700394872</td><td>True</td><td>48</td></tr><tr><td>R24</td><td>agent-0</td><td>24</td><td>5.259025761952597</td><td>True</td><td>49</td></tr><tr><td>R25</td><td>agent-0</td><td>25</td><td>5.110645529950576</td><td>True</td><td>50</td></tr><tr><td>R26</td><td>agent-0</td><td>26</td><td>1.6240616226691407</td><td>True</td><td>59</td></tr><tr><td>R27</td><td>agent-0</td><td>27</td><td>0.8465343522768483</td><td>False</td><td>61</td></tr><tr><td>R28</td><td>agent-0</td><td>28</td><td>5.260951000451333</td><td>True</td><td>62</td></tr><tr><td>R29</td><td>agent-0</td><td>29</td><td>3.1259174707502204</td><td>False</td><td>63</td></tr><tr><td>R30</td><td>agent-0</td><td>30</td><td>5.25839498069283</td><td>True</td><td>64</td></tr><tr><td>R31</td><td>agent-0</td><td>31</td><td>3.1259174707502204</td><td>False</td><td>65</td></tr><tr><td>R32</td><td>agent-0</td><td>32</td><td>3.1259174707502204</td><td>False</td><td>66</td></tr><tr><td>R33</td><td>agent-0</td><td>33</td><td>5.303022546477202</td><td>True</td><td>67</td></tr><tr><td>R34</td><td>agent-0</td><td>34</td><td>5.3043239162835745</td><td>True</td><td>68</td></tr><tr><td>R35</td><td>agent-0</td><td>35</td><td>5.331251291941548</td><td>True</td><td>71</td></tr><tr><td>R36</td><td>agent-0</td><td>36</td><td>3.9461671058797885</td><td>True</td><td>74</td></tr></table><details><summary>R1 — agent-0</summary><pre>reward -0.252 | revenue $0.0M/yr | column cost $110.4M/yr | 1 columns | solves used 1/200
+[feed] 3300 mol/s (N-butane 14%, N-pentane 13%, 2-methylpentane 10%, Isopentane 8%, N-octane 7%, 3-methylpentane 7%) -&gt; column 30 stages, reflux 2.0, boil-up 1.1, dp 0.5, cost $110.4M/yr
+[T] 870 mol/s (N-butane 44%, Propane 24%, Isobutane 10%, Propylene 9%, Isopentane 5%, Ethane 4%) -&gt; sold for $0.0M/yr (not pure enough: worth 0)
+[B] 2430 mol/s (N-pentane 17%, 2-methylpentane 14%, N-octane 10%, 3-methylpentane 9%, N-hexane 9%, Isopentane 9%) -&gt; sold for $0.0M/yr (not pure enough: worth 0)</pre></details><details><summary>R2 — agent-0</summary><pre>reward -1.174 | revenue $0.0M/yr | column cost $514.7M/yr | 3 columns | solves used 4/200
+[feed] 3300 mol/s (N-butane 14%, N-pentane 13%, 2-methylpentane 10%, Isopentane 8%, N-octane 7%, 3-methylpentane 7%) -&gt; column 40 stages, reflux 2.0, boil-up 2.5, dp 0.75, cost $197.1M/yr
+[T] 1662 mol/s (N-butane 27%, N-pentane 27%, Isopentane 15%, Propane 13%, Isobutane 6%, 2,2-dimethylbutane 6%) -&gt; column 30 stages, reflux 1.5, boil-up 3.0, dp 0.0, cost $94.1M/yr
+[B] 1638 mol/s (2-methylpentane 20%, N-octane 14%, 3-methylpentane 14%, N-hexane 13%, N-heptane 13%, Cyclohexane 11%) -&gt; column 60 stages, reflux 4.0, boil-up 6.0, dp 0.5, cost $223.5M/yr
+[TT] 891 mol/s (N-butane 50%, Propane 23%, Isobutane 11%, Propylene 9%, Ethane 4%, Isopentane 2%) -&gt; sold for $0.0M/yr (not pure enough: worth 0)
+[TB] 772 mol/s (N-pentane 56%, Isopentane 30%, 2,2-dimethylbutane 12%, 2-methylpentane 1%, 3-methylpentane 0%, N-butane 0%) -&gt; sold for $0.0M/yr (not pure enough: worth 0)
+[BT] 1002 mol/s (2-methylpentane 33%, 3-methylpentane 23%, N-hexane 21%, 2,2-dimethylbutane 9%, Methylcyclopentane 8%, Cyclohexane 5%) -&gt; sold for $0.0M/yr (not pure enough: worth 0)
+[BB] 635 mol/s (N-octane 37%, N-heptane 32%, Cyclohexane 21%, N-nonane 10%, Methylcyclopentane 0%, N-hexane 0%) -&gt; sold for $0.0M/yr (not pure enough: worth 0)</pre></details><details><summary>R3 — agent-0</summary><pre>reward 0.376 | revenue $603.1M/yr | column cost $438.3M/yr | 3 columns | solves used 7/200
+[feed] 3300 mol/s (N-butane 14%, N-pentane 13%, 2-methylpentane 10%, Isopentane 8%, N-octane 7%, 3-methylpentane 7%) -&gt; column 40 stages, reflux 2.0, boil-up 2.2, dp 0.75, cost $182.3M/yr
+[T] 1572 mol/s (N-butane 29%, N-pentane 27%, Isopentane 16%, Propane 13%, Isobutane 6%, Propylene 5%) -&gt; column 30 stages, reflux 1.5, boil-up 3.2, dp 0.0, cost $93.2M/yr
+[B] 1728 mol/s (2-methylpentane 20%, N-octane 14%, 3-methylpentane 13%, N-hexane 12%, N-heptane 12%, Cyclohexane 11%) -&gt; column 60 stages, reflux 3.0, boil-up 3.6, dp 0.5, cost $162.8M/yr
+[TT] 872 mol/s (N-butane 52%, Propane 24%, Isobutane 11%, Propylene 9%, Ethane 4%, Isopentane 1%) -&gt; sold for $0.0M/yr (not pure enough: worth 0)
+[TB] 700 mol/s (N-pentane 61%, Isopentane 35%, 2,2-dimethylbutane 3%, 2-methylpentane 0%, N-butane 0%, 3-methylpentane 0%) -&gt; sold for $603.1M/yr (blend: C5 mix)
+[BT] 952 mol/s (2-methylpentane 36%, 3-methylpentane 24%, 2,2-dimethylbutane 17%, N-hexane 17%, Methylcyclopentane 5%, N-pentane 1%) -&gt; sold for $0.0M/yr (not pure enough: worth 0)
+[BB] 776 mol/s (N-octane 30%, N-heptane 26%, Cyclohexane 23%, N-nonane 8%, N-hexane 7%, Methylcyclopentane 5%) -&gt; sold for $0.0M/yr (not pure enough: worth 0)</pre></details><details><summary>R4 — agent-0</summary><pre>reward 2.673 | revenue $1616.4M/yr | column cost $444.3M/yr | 3 columns | solves used 8/200
+[feed] 3300 mol/s (N-butane 14%, N-pentane 13%, 2-methylpentane 10%, Isopentane 8%, N-octane 7%, 3-methylpentane 7%) -&gt; column 40 stages, reflux 2.0, boil-up 2.2, dp 0.75, cost $182.3M/yr
+[T] 1572 mol/s (N-butane 29%, N-pentane 27%, Isopentane 16%, Propane 13%, Isobutane 6%, Propylene 5%) -&gt; column 30 stages, reflux 1.5, boil-up 3.2, dp 0.0, cost $93.2M/yr
+[B] 1728 mol/s (2-methylpentane 20%, N-octane 14%, 3-methylpentane 13%, N-hexane 12%, N-heptane 12%, Cyclohexane 11%) -&gt; column 80 stages, reflux 3.5, boil-up 3.4, dp 0.5, cost $168.8M/yr
+[TT] 872 mol/s (N-butane 52%, Propane 24%, Isobutane 11%, Propylene 9%, Ethane 4%, Isopentane 1%) -&gt; sold for $0.0M/yr (not pure enough: worth 0)
+[TB] 700 mol/s (N-pentane 61%, Isopentane 35%, 2,2-dimethylbutane 3%, 2-methylpentane 0%, N-butane 0%, 3-methylpentane 0%) -&gt; sold for $603.1M/yr (blend: C5 mix)
+[BT] 874 mol/s (2-methylpentane 39%, 3-methylpentane 24%, 2,2-dimethylbutane 19%, N-hexane 13%, Methylcyclopentane 3%, N-pentane 1%) -&gt; sold for $1013.3M/yr (blend: C6 paraffin mix)
+[BB] 854 mol/s (N-octane 27%, N-heptane 24%, Cyclohexane 22%, N-hexane 12%, N-nonane 7%, Methylcyclopentane 6%) -&gt; sold for $0.0M/yr (not pure enough: worth 0)</pre></details><details><summary>R5 — agent-0</summary><pre>reward 2.978 | revenue $1797.7M/yr | column cost $491.9M/yr | 4 columns | solves used 9/200
+[feed] 3300 mol/s (N-butane 14%, N-pentane 13%, 2-methylpentane 10%, Isopentane 8%, N-octane 7%, 3-methylpentane 7%) -&gt; column 40 stages, reflux 2.0, boil-up 2.2, dp 0.75, cost $182.3M/yr
+[T] 1572 mol/s (N-butane 29%, N-pentane 27%, Isopentane 16%, Propane 13%, Isobutane 6%, Propylene 5%) -&gt; column 30 stages, reflux 1.5, boil-up 3.2, dp 0.0, cost $93.2M/yr
+[B] 1728 mol/s (2-methylpentane 20%, N-octane 14%, 3-methylpentane 13%, N-hexane 12%, N-heptane 12%, Cyclohexane 11%) -&gt; column 80 stages, reflux 3.5, boil-up 3.4, dp 0.5, cost $168.8M/yr
+[TT] 872 mol/s (N-butane 52%, Propane 24%, Isobutane 11%, Propylene 9%, Ethane 4%, Isopentane 1%) -&gt; column 30 stages, reflux 2.0, boil-up 1.8, dp 0.0, cost $47.6M/yr
+[TB] 700 mol/s (N-pentane 61%, Isopentane 35%, 2,2-dimethylbutane 3%, 2-methylpentane 0%, N-butane 0%, 3-methylpentane 0%) -&gt; sold for $603.1M/yr (blend: C5 mix)
+[BT] 874 mol/s (2-methylpentane 39%, 3-methylpentane 24%, 2,2-dimethylbutane 19%, N-hexane 13%, Methylcyclopentane 3%, N-pentane 1%) -&gt; sold for $1013.3M/yr (blend: C6 paraffin mix)
+[BB] 854 mol/s (N-octane 27%, N-heptane 24%, Cyclohexane 22%, N-hexane 12%, N-nonane 7%, Methylcyclopentane 6%) -&gt; sold for $0.0M/yr (not pure enough: worth 0)
+[TTT] 335 mol/s (Propane 62%, Propylene 23%, Ethane 10%, Isobutane 4%, N-butane 1%) -&gt; sold for $0.0M/yr (not pure enough: worth 0)
+[TTB] 537 mol/s (N-butane 83%, Isobutane 15%, Isopentane 1%, N-pentane 0%, Propane 0%, Propylene 0%) -&gt; sold for $181.3M/yr (blend: C4 mix)</pre></details><details><summary>R6 — agent-0</summary><pre>reward 3.627 | revenue $2205.9M/yr | column cost $615.1M/yr | 6 columns | solves used 11/200
+[feed] 3300 mol/s (N-butane 14%, N-pentane 13%, 2-methylpentane 10%, Isopentane 8%, N-octane 7%, 3-methylpentane 7%) -&gt; column 40 stages, reflux 2.0, boil-up 2.2, dp 0.75, cost $182.3M/yr
+[T] 1572 mol/s (N-butane 29%, N-pentane 27%, Isopentane 16%, Propane 13%, Isobutane 6%, Propylene 5%) -&gt; column 30 stages, reflux 1.5, boil-up 3.2, dp 0.0, cost $93.2M/yr
+[B] 1728 mol/s (2-methylpentane 20%, N-octane 14%, 3-methylpentane 13%, N-hexane 12%, N-heptane 12%, Cyclohexane 11%) -&gt; column 80 stages, reflux 3.5, boil-up 3.4, dp 0.5, cost $168.8M/yr
+[TT] 872 mol/s (N-butane 52%, Propane 24%, Isobutane 11%, Propylene 9%, Ethane 4%, Isopentane 1%) -&gt; column 30 stages, reflux 2.0, boil-up 1.8, dp 0.0, cost $47.6M/yr
+[TB] 700 mol/s (N-pentane 61%, Isopentane 35%, 2,2-dimethylbutane 3%, 2-methylpentane 0%, N-butane 0%, 3-methylpentane 0%) -&gt; sold for $603.1M/yr (blend: C5 mix)
+[BT] 874 mol/s (2-methylpentane 39%, 3-methylpentane 24%, 2,2-dimethylbutane 19%, N-hexane 13%, Methylcyclopentane 3%, N-pentane 1%) -&gt; sold for $1013.3M/yr (blend: C6 paraffin mix)
+[BB] 854 mol/s (N-octane 27%, N-heptane 24%, Cyclohexane 22%, N-hexane 12%, N-nonane 7%, Methylcyclopentane 6%) -&gt; column 30 stages, reflux 1.5, boil-up 4.7, dp 0.5, cost $79.2M/yr
+[TTT] 335 mol/s (Propane 62%, Propylene 23%, Ethane 10%, Isobutane 4%, N-butane 1%) -&gt; sold for $0.0M/yr (not pure enough: worth 0)
+[TTB] 537 mol/s (N-butane 83%, Isobutane 15%, Isopentane 1%, N-pentane 0%, Propane 0%, Propylene 0%) -&gt; sold for $181.3M/yr (blend: C4 mix)
+[BBT] 597 mol/s (N-heptane 34%, Cyclohexane 31%, N-hexane 17%, Methylcyclopentane 9%, N-octane 6%, 3-methylpentane 2%) -&gt; sold for $0.0M/yr (not pure enough: worth 0)
+[BBB] 258 mol/s (N-octane 76%, N-nonane 24%, N-heptane 0%, Cyclohexane 0%, N-hexane 0%, Methylcyclopentane 0%) -&gt; column 25 stages, reflux 2.0, boil-up 10.6, dp 0.0, cost $44.0M/yr
+[BBBT] 203 mol/s (N-octane 96%, N-nonane 4%, N-heptane 0%, Cyclohexane 0%, N-hexane 0%, Methylcyclopentane 0%) -&gt; sold for $299.9M/yr
+[BBBB] 54 mol/s (N-nonane 100%, N-octane 0%) -&gt; sold for $108.3M/yr (premium)</pre></details><details><summary>R7 — agent-0</summary><pre>reward 3.556 | revenue $2241.3M/yr | column cost $681.9M/yr | 7 columns | solves used 14/200
+[feed] 3300 mol/s (N-butane 14%, N-pentane 13%, 2-methylpentane 10%, Isopentane 8%, N-octane 7%, 3-methylpentane 7%) -&gt; column 40 stages, reflux 2.0, boil-up 2.2, dp 0.75, cost $182.3M/yr
+[T] 1572 mol/s (N-butane 29%, N-pentane 27%, Isopentane 16%, Propane 13%, Isobutane 6%, Propylene 5%) -&gt; column 30 stages, reflux 1.5, boil-up 3.2, dp 0.0, cost $93.2M/yr
+[B] 1728 mol/s (2-methylpentane 20%, N-octane 14%, 3-methylpentane 13%, N-hexane 12%, N-heptane 12%, Cyclohexane 11%) -&gt; column 80 stages, reflux 3.5, boil-up 3.4, dp 0.5, cost $168.8M/yr
+[TT] 872 mol/s (N-butane 52%, Propane 24%, Isobutane 11%, Propylene 9%, Ethane 4%, Isopentane 1%) -&gt; column 30 stages, reflux 2.0, boil-up 1.8, dp 0.0, cost $47.6M/yr
+[TB] 700 mol/s (N-pentane 61%, Isopentane 35%, 2,2-dimethylbutane 3%, 2-methylpentane 0%, N-butane 0%, 3-methylpentane 0%) -&gt; sold for $603.1M/yr (blend: C5 mix)
+[BT] 874 mol/s (2-methylpentane 39%, 3-methylpentane 24%, 2,2-dimethylbutane 19%, N-hexane 13%, Methylcyclopentane 3%, N-pentane 1%) -&gt; sold for $1013.3M/yr (blend: C6 paraffin mix)
+[BB] 854 mol/s (N-octane 27%, N-heptane 24%, Cyclohexane 22%, N-hexane 12%, N-nonane 7%, Methylcyclopentane 6%) -&gt; column 40 stages, reflux 2.0, boil-up 4.8, dp 0.5, cost $90.1M/yr
+[TTT] 335 mol/s (Propane 62%, Propylene 23%, Ethane 10%, Isobutane 4%, N-butane 1%) -&gt; sold for $0.0M/yr (not pure enough: worth 0)
+[TTB] 537 mol/s (N-butane 83%, Isobutane 15%, Isopentane 1%, N-pentane 0%, Propane 0%, Propylene 0%) -&gt; sold for $181.3M/yr (blend: C4 mix)
+[BBT] 567 mol/s (N-heptane 36%, Cyclohexane 33%, N-hexane 18%, Methylcyclopentane 9%, 3-methylpentane 2%, N-octane 2%) -&gt; column 30 stages, reflux 1.5, boil-up 4.4, dp 0.0, cost $51.3M/yr
+[BBB] 287 mol/s (N-octane 78%, N-nonane 22%, N-heptane 0%) -&gt; column 25 stages, reflux 2.0, boil-up 10.6, dp 0.0, cost $48.6M/yr
+[BBTT] 370 mol/s (Cyclohexane 47%, N-hexane 27%, Methylcyclopentane 14%, N-heptane 7%, 3-methylpentane 4%, 2-methylpentane 0%) -&gt; sold for $0.0M/yr (not pure enough: worth 0)
+[BBTB] 198 mol/s (N-heptane 90%, Cyclohexane 5%, N-octane 4%, N-hexane 0%, Methylcyclopentane 0%, 3-methylpentane 0%) -&gt; sold for $0.0M/yr (not pure enough: worth 0)
+[BBBT] 227 mol/s (N-octane 99%, N-nonane 1%, N-heptane 0%) -&gt; sold for $344.5M/yr
+[BBBB] 60 mol/s (N-nonane 99%, N-octane 1%) -&gt; sold for $99.1M/yr</pre></details><details><summary>R8 — agent-0</summary><pre>reward 3.484 | revenue $2249.6M/yr | column cost $721.6M/yr | 7 columns | solves used 17/200
+[feed] 3300 mol/s (N-butane 14%, N-pentane 13%, 2-methylpentane 10%, Isopentane 8%, N-octane 7%, 3-methylpentane 7%) -&gt; column 40 stages, reflux 2.0, boil-up 2.2, dp 0.75, cost $182.3M/yr
+[T] 1572 mol/s (N-butane 29%, N-pentane 27%, Isopentane 16%, Propane 13%, Isobutane 6%, Propylene 5%) -&gt; column 30 stages, reflux 1.5, boil-up 3.2, dp 0.0, cost $93.2M/yr
+[B] 1728 mol/s (2-methylpentane 20%, N-octane 14%, 3-methylpentane 13%, N-hexane 12%, N-heptane 12%, Cyclohexane 11%) -&gt; column 80 stages, reflux 3.5, boil-up 3.4, dp 0.5, cost $168.8M/yr
+[TT] 872 mol/s (N-butane 52%, Propane 24%, Isobutane 11%, Propylene 9%, Ethane 4%, Isopentane 1%) -&gt; column 30 stages, reflux 2.0, boil-up 1.8, dp 0.0, cost $47.6M/yr
+[TB] 700 mol/s (N-pentane 61%, Isopentane 35%, 2,2-dimethylbutane 3%, 2-methylpentane 0%, N-butane 0%, 3-methylpentane 0%) -&gt; sold for $603.1M/yr (blend: C5 mix)
+[BT] 874 mol/s (2-methylpentane 39%, 3-methylpentane 24%, 2,2-dimethylbutane 19%, N-hexane 13%, Methylcyclopentane 3%, N-pentane 1%) -&gt; sold for $1013.3M/yr (blend: C6 paraffin mix)
+[BB] 854 mol/s (N-octane 27%, N-heptane 24%, Cyclohexane 22%, N-hexane 12%, N-nonane 7%, Methylcyclopentane 6%) -&gt; column 50 stages, reflux 2.5, boil-up 5.9, dp 0.5, cost $108.4M/yr
+[TTT] 335 mol/s (Propane 62%, Propylene 23%, Ethane 10%, Isobutane 4%, N-butane 1%) -&gt; sold for $0.0M/yr (not pure enough: worth 0)
+[TTB] 537 mol/s (N-butane 83%, Isobutane 15%, Isopentane 1%, N-pentane 0%, Propane 0%, Propylene 0%) -&gt; sold for $181.3M/yr (blend: C4 mix)
+[BBT] 574 mol/s (N-heptane 36%, Cyclohexane 32%, N-hexane 17%, Methylcyclopentane 9%, N-octane 3%, 3-methylpentane 2%) -&gt; column 45 stages, reflux 2.5, boil-up 6.4, dp 0.0, cost $73.8M/yr
+[BBB] 281 mol/s (N-octane 78%, N-nonane 22%, N-heptane 0%) -&gt; column 25 stages, reflux 2.0, boil-up 10.6, dp 0.0, cost $47.6M/yr
+[BBTT] 380 mol/s (Cyclohexane 49%, N-hexane 26%, Methylcyclopentane 14%, N-heptane 7%, 3-methylpentane 4%, 2-methylpentane 0%) -&gt; sold for $0.0M/yr (not pure enough: worth 0)
+[BBTB] 194 mol/s (N-heptane 92%, N-octane 8%, Cyclohexane 0%, N-hexane 0%, Methylcyclopentane 0%) -&gt; sold for $0.0M/yr (not pure enough: worth 0)
+[BBBT] 222 mol/s (N-octane 98%, N-nonane 2%, N-heptane 0%) -&gt; sold for $334.9M/yr
+[BBBB] 59 mol/s (N-nonane 99%, N-octane 1%) -&gt; sold for $116.9M/yr (premium)</pre></details><details><summary>R9 — agent-0</summary><pre>reward 3.434 | revenue $2245.5M/yr | column cost $739.7M/yr | 7 columns | solves used 20/200
+[feed] 3300 mol/s (N-butane 14%, N-pentane 13%, 2-methylpentane 10%, Isopentane 8%, N-octane 7%, 3-methylpentane 7%) -&gt; column 40 stages, reflux 2.0, boil-up 2.2, dp 0.75, cost $182.3M/yr
+[T] 1572 mol/s (N-butane 29%, N-pentane 27%, Isopentane 16%, Propane 13%, Isobutane 6%, Propylene 5%) -&gt; column 30 stages, reflux 1.5, boil-up 3.2, dp 0.0, cost $93.2M/yr
+[B] 1728 mol/s (2-methylpentane 20%, N-octane 14%, 3-methylpentane 13%, N-hexane 12%, N-heptane 12%, Cyclohexane 11%) -&gt; column 80 stages, reflux 3.5, boil-up 3.4, dp 0.5, cost $168.8M/yr
+[TT] 872 mol/s (N-butane 52%, Propane 24%, Isobutane 11%, Propylene 9%, Ethane 4%, Isopentane 1%) -&gt; column 30 stages, reflux 2.0, boil-up 1.8, dp 0.0, cost $47.6M/yr
+[TB] 700 mol/s (N-pentane 61%, Isopentane 35%, 2,2-dimethylbutane 3%, 2-methylpentane 0%, N-butane 0%, 3-methylpentane 0%) -&gt; sold for $603.1M/yr (blend: C5 mix)
+[BT] 874 mol/s (2-methylpentane 39%, 3-methylpentane 24%, 2,2-dimethylbutane 19%, N-hexane 13%, Methylcyclopentane 3%, N-pentane 1%) -&gt; sold for $1013.3M/yr (blend: C6 paraffin mix)
+[BB] 854 mol/s (N-octane 27%, N-heptane 24%, Cyclohexane 22%, N-hexane 12%, N-nonane 7%, Methylcyclopentane 6%) -&gt; column 70 stages, reflux 3.0, boil-up 6.9, dp 0.5, cost $126.4M/yr
+[TTT] 335 mol/s (Propane 62%, Propylene 23%, Ethane 10%, Isobutane 4%, N-butane 1%) -&gt; sold for $0.0M/yr (not pure enough: worth 0)
+[TTB] 537 mol/s (N-butane 83%, Isobutane 15%, Isopentane 1%, N-pentane 0%, Propane 0%, Propylene 0%) -&gt; sold for $181.3M/yr (blend: C4 mix)
+[BBT] 576 mol/s (N-heptane 36%, Cyclohexane 32%, N-hexane 17%, Methylcyclopentane 9%, N-octane 3%, 3-methylpentane 2%) -&gt; column 45 stages, reflux 2.5, boil-up 6.4, dp 0.0, cost $74.1M/yr
+[BBB] 278 mol/s (N-octane 78%, N-nonane 22%) -&gt; column 25 stages, reflux 2.0, boil-up 10.6, dp 0.0, cost $47.2M/yr
+[BBTT] 381 mol/s (Cyclohexane 49%, N-hexane 26%, Methylcyclopentane 14%, N-heptane 7%, 3-methylpentane 4%, 2-methylpentane 0%) -&gt; sold for $0.0M/yr (not pure enough: worth 0)
+[BBTB] 195 mol/s (N-heptane 91%, N-octane 9%, Cyclohexane 0%, N-hexane 0%, Methylcyclopentane 0%) -&gt; sold for $0.0M/yr (not pure enough: worth 0)
+[BBBT] 220 mol/s (N-octane 98%, N-nonane 2%) -&gt; sold for $331.6M/yr
+[BBBB] 59 mol/s (N-nonane 99%, N-octane 1%) -&gt; sold for $116.2M/yr (premium)</pre></details><details><summary>R10 — agent-0</summary><pre>reward 4.134 | revenue $2548.7M/yr | column cost $735.9M/yr | 7 columns | solves used 23/200
+[feed] 3300 mol/s (N-butane 14%, N-pentane 13%, 2-methylpentane 10%, Isopentane 8%, N-octane 7%, 3-methylpentane 7%) -&gt; column 40 stages, reflux 2.0, boil-up 2.2, dp 0.75, cost $182.3M/yr
+[T] 1572 mol/s (N-butane 29%, N-pentane 27%, Isopentane 16%, Propane 13%, Isobutane 6%, Propylene 5%) -&gt; column 30 stages, reflux 1.5, boil-up 3.2, dp 0.0, cost $93.2M/yr
+[B] 1728 mol/s (2-methylpentane 20%, N-octane 14%, 3-methylpentane 13%, N-hexane 12%, N-heptane 12%, Cyclohexane 11%) -&gt; column 80 stages, reflux 3.5, boil-up 3.4, dp 0.5, cost $168.8M/yr
+[TT] 872 mol/s (N-butane 52%, Propane 24%, Isobutane 11%, Propylene 9%, Ethane 4%, Isopentane 1%) -&gt; column 30 stages, reflux 2.0, boil-up 1.8, dp 0.0, cost $47.6M/yr
+[TB] 700 mol/s (N-pentane 61%, Isopentane 35%, 2,2-dimethylbutane 3%, 2-methylpentane 0%, N-butane 0%, 3-methylpentane 0%) -&gt; sold for $603.1M/yr (blend: C5 mix)
+[BT] 874 mol/s (2-methylpentane 39%, 3-methylpentane 24%, 2,2-dimethylbutane 19%, N-hexane 13%, Methylcyclopentane 3%, N-pentane 1%) -&gt; sold for $1013.3M/yr (blend: C6 paraffin mix)
+[BB] 854 mol/s (N-octane 27%, N-heptane 24%, Cyclohexane 22%, N-hexane 12%, N-nonane 7%, Methylcyclopentane 6%) -&gt; column 70 stages, reflux 3.0, boil-up 6.4, dp 0.5, cost $122.5M/yr
+[TTT] 335 mol/s (Propane 62%, Propylene 23%, Ethane 10%, Isobutane 4%, N-butane 1%) -&gt; sold for $0.0M/yr (not pure enough: worth 0)
+[TTB] 537 mol/s (N-butane 83%, Isobutane 15%, Isopentane 1%, N-pentane 0%, Propane 0%, Propylene 0%) -&gt; sold for $181.3M/yr (blend: C4 mix)
+[BBT] 564 mol/s (N-heptane 36%, Cyclohexane 33%, N-hexane 18%, Methylcyclopentane 9%, 3-methylpentane 3%, N-octane 1%) -&gt; column 45 stages, reflux 2.5, boil-up 6.4, dp 0.0, cost $72.2M/yr
+[BBB] 291 mol/s (N-octane 79%, N-nonane 21%, N-heptane 0%) -&gt; column 25 stages, reflux 2.0, boil-up 10.6, dp 0.0, cost $49.2M/yr
+[BBTT] 372 mol/s (Cyclohexane 50%, N-hexane 27%, Methylcyclopentane 14%, N-heptane 5%, 3-methylpentane 4%, 2-methylpentane 0%) -&gt; sold for $0.0M/yr (not pure enough: worth 0)
+[BBTB] 191 mol/s (N-heptane 97%, N-octane 3%, Cyclohexane 0%, N-hexane 0%, Methylcyclopentane 0%) -&gt; sold for $301.4M/yr
+[BBBT] 230 mol/s (N-octane 99%, N-nonane 1%, N-heptane 0%) -&gt; sold for $349.8M/yr
+[BBBB] 61 mol/s (N-nonane 98%, N-octane 2%) -&gt; sold for $99.8M/yr</pre></details><details><summary>R11 — agent-0</summary><pre>reward 4.345 | revenue $2643.1M/yr | column cost $737.5M/yr | 7 columns | solves used 26/200
+[feed] 3300 mol/s (N-butane 14%, N-pentane 13%, 2-methylpentane 10%, Isopentane 8%, N-octane 7%, 3-methylpentane 7%) -&gt; column 40 stages, reflux 2.0, boil-up 2.2, dp 0.75, cost $182.3M/yr
+[T] 1572 mol/s (N-butane 29%, N-pentane 27%, Isopentane 16%, Propane 13%, Isobutane 6%, Propylene 5%) -&gt; column 30 stages, reflux 1.5, boil-up 3.2, dp 0.0, cost $93.2M/yr
+[B] 1728 mol/s (2-methylpentane 20%, N-octane 14%, 3-methylpentane 13%, N-hexane 12%, N-heptane 12%, Cyclohexane 11%) -&gt; column 80 stages, reflux 3.5, boil-up 3.4, dp 0.5, cost $168.8M/yr
+[TT] 872 mol/s (N-butane 52%, Propane 24%, Isobutane 11%, Propylene 9%, Ethane 4%, Isopentane 1%) -&gt; column 30 stages, reflux 2.0, boil-up 1.8, dp 0.0, cost $47.6M/yr
+[TB] 700 mol/s (N-pentane 61%, Isopentane 35%, 2,2-dimethylbutane 3%, 2-methylpentane 0%, N-butane 0%, 3-methylpentane 0%) -&gt; sold for $603.1M/yr (blend: C5 mix)
+[BT] 874 mol/s (2-methylpentane 39%, 3-methylpentane 24%, 2,2-dimethylbutane 19%, N-hexane 13%, Methylcyclopentane 3%, N-pentane 1%) -&gt; sold for $1013.3M/yr (blend: C6 paraffin mix)
+[BB] 854 mol/s (N-octane 27%, N-heptane 24%, Cyclohexane 22%, N-hexane 12%, N-nonane 7%, Methylcyclopentane 6%) -&gt; column 90 stages, reflux 3.0, boil-up 6.4, dp 0.5, cost $123.7M/yr
+[TTT] 335 mol/s (Propane 62%, Propylene 23%, Ethane 10%, Isobutane 4%, N-butane 1%) -&gt; sold for $0.0M/yr (not pure enough: worth 0)
+[TTB] 537 mol/s (N-butane 83%, Isobutane 15%, Isopentane 1%, N-pentane 0%, Propane 0%, Propylene 0%) -&gt; sold for $181.3M/yr (blend: C4 mix)
+[BBT] 564 mol/s (N-heptane 36%, Cyclohexane 33%, N-hexane 18%, Methylcyclopentane 9%, 3-methylpentane 3%, N-octane 1%) -&gt; column 45 stages, reflux 2.5, boil-up 6.4, dp 0.0, cost $72.2M/yr
+[BBB] 291 mol/s (N-octane 79%, N-nonane 21%) -&gt; column 40 stages, reflux 2.0, boil-up 10.6, dp 0.0, cost $49.7M/yr
+[BBTT] 372 mol/s (Cyclohexane 50%, N-hexane 27%, Methylcyclopentane 14%, N-heptane 5%, 3-methylpentane 4%, 2-methylpentane 0%) -&gt; sold for $0.0M/yr (not pure enough: worth 0)
+[BBTB] 191 mol/s (N-heptane 97%, N-octane 3%, Cyclohexane 0%, N-hexane 0%, Methylcyclopentane 0%) -&gt; sold for $301.4M/yr
+[BBBT] 230 mol/s (N-octane 99%, N-nonane 1%) -&gt; sold for $421.9M/yr (premium)
+[BBBB] 61 mol/s (N-nonane 100%, N-octane 0%) -&gt; sold for $122.1M/yr (premium)</pre></details><details><summary>R12 — agent-0</summary><pre>reward 2.978 | revenue $1797.7M/yr | column cost $491.9M/yr | 7 columns | solves used 27/200 | NOT VALID: 1 column(s) failed, 0 unsolved; does not count
+Validation: evaluated topology is incomplete or contains extra nodes; BB: column not solved (failed); overall component balance: balance/continuity mismatch
+[feed] 3300 mol/s (N-butane 14%, N-pentane 13%, 2-methylpentane 10%, Isopentane 8%, N-octane 7%, 3-methylpentane 7%) -&gt; column 40 stages, reflux 2.0, boil-up 2.2, dp 0.75, cost $182.3M/yr
+[T] 1572 mol/s (N-butane 29%, N-pentane 27%, Isopentane 16%, Propane 13%, Isobutane 6%, Propylene 5%) -&gt; column 30 stages, reflux 1.5, boil-up 3.2, dp 0.0, cost $93.2M/yr
+[B] 1728 mol/s (2-methylpentane 20%, N-octane 14%, 3-methylpentane 13%, N-hexane 12%, N-heptane 12%, Cyclohexane 11%) -&gt; column 80 stages, reflux 3.5, boil-up 3.4, dp 0.5, cost $168.8M/yr
+[TT] 872 mol/s (N-butane 52%, Propane 24%, Isobutane 11%, Propylene 9%, Ethane 4%, Isopentane 1%) -&gt; column 30 stages, reflux 2.0, boil-up 1.8, dp 0.0, cost $47.6M/yr
+[TB] 700 mol/s (N-pentane 61%, Isopentane 35%, 2,2-dimethylbutane 3%, 2-methylpentane 0%, N-butane 0%, 3-methylpentane 0%) -&gt; sold for $603.1M/yr (blend: C5 mix)
+[BT] 874 mol/s (2-methylpentane 39%, 3-methylpentane 24%, 2,2-dimethylbutane 19%, N-hexane 13%, Methylcyclopentane 3%, N-pentane 1%) -&gt; sold for $1013.3M/yr (blend: C6 paraffin mix)
+[BB] 854 mol/s (N-octane 27%, N-heptane 24%, Cyclohexane 22%, N-hexane 12%, N-nonane 7%, Methylcyclopentane 6%) -&gt; failed: column did not converge (stock method and three alternative initialisations)
+[TTT] 335 mol/s (Propane 62%, Propylene 23%, Ethane 10%, Isobutane 4%, N-butane 1%) -&gt; sold for $0.0M/yr (not pure enough: worth 0)
+[TTB] 537 mol/s (N-butane 83%, Isobutane 15%, Isopentane 1%, N-pentane 0%, Propane 0%, Propylene 0%) -&gt; sold for $181.3M/yr (blend: C4 mix)</pre></details><details><summary>R13 — agent-0</summary><pre>reward 2.978 | revenue $1797.7M/yr | column cost $491.9M/yr | 7 columns | solves used 28/200 | NOT VALID: 1 column(s) failed, 0 unsolved; does not count
+Validation: evaluated topology is incomplete or contains extra nodes; BB: column not solved (failed); overall component balance: balance/continuity mismatch
+[feed] 3300 mol/s (N-butane 14%, N-pentane 13%, 2-methylpentane 10%, Isopentane 8%, N-octane 7%, 3-methylpentane 7%) -&gt; column 40 stages, reflux 2.0, boil-up 2.2, dp 0.75, cost $182.3M/yr
+[T] 1572 mol/s (N-butane 29%, N-pentane 27%, Isopentane 16%, Propane 13%, Isobutane 6%, Propylene 5%) -&gt; column 30 stages, reflux 1.5, boil-up 3.2, dp 0.0, cost $93.2M/yr
+[B] 1728 mol/s (2-methylpentane 20%, N-octane 14%, 3-methylpentane 13%, N-hexane 12%, N-heptane 12%, Cyclohexane 11%) -&gt; column 80 stages, reflux 3.5, boil-up 3.4, dp 0.5, cost $168.8M/yr
+[TT] 872 mol/s (N-butane 52%, Propane 24%, Isobutane 11%, Propylene 9%, Ethane 4%, Isopentane 1%) -&gt; column 30 stages, reflux 2.0, boil-up 1.8, dp 0.0, cost $47.6M/yr
+[TB] 700 mol/s (N-pentane 61%, Isopentane 35%, 2,2-dimethylbutane 3%, 2-methylpentane 0%, N-butane 0%, 3-methylpentane 0%) -&gt; sold for $603.1M/yr (blend: C5 mix)
+[BT] 874 mol/s (2-methylpentane 39%, 3-methylpentane 24%, 2,2-dimethylbutane 19%, N-hexane 13%, Methylcyclopentane 3%, N-pentane 1%) -&gt; sold for $1013.3M/yr (blend: C6 paraffin mix)
+[BB] 854 mol/s (N-octane 27%, N-heptane 24%, Cyclohexane 22%, N-hexane 12%, N-nonane 7%, Methylcyclopentane 6%) -&gt; failed: column did not converge (stock method and three alternative initialisations)
+[TTT] 335 mol/s (Propane 62%, Propylene 23%, Ethane 10%, Isobutane 4%, N-butane 1%) -&gt; sold for $0.0M/yr (not pure enough: worth 0)
+[TTB] 537 mol/s (N-butane 83%, Isobutane 15%, Isopentane 1%, N-pentane 0%, Propane 0%, Propylene 0%) -&gt; sold for $181.3M/yr (blend: C4 mix)</pre></details><details><summary>R14 — agent-0</summary><pre>reward 4.293 | revenue $2633.9M/yr | column cost $751.2M/yr | 7 columns | solves used 31/200
+[feed] 3300 mol/s (N-butane 14%, N-pentane 13%, 2-methylpentane 10%, Isopentane 8%, N-octane 7%, 3-methylpentane 7%) -&gt; column 40 stages, reflux 2.0, boil-up 2.2, dp 0.75, cost $182.3M/yr
+[T] 1572 mol/s (N-butane 29%, N-pentane 27%, Isopentane 16%, Propane 13%, Isobutane 6%, Propylene 5%) -&gt; column 30 stages, reflux 1.5, boil-up 3.2, dp 0.0, cost $93.2M/yr
+[B] 1728 mol/s (2-methylpentane 20%, N-octane 14%, 3-methylpentane 13%, N-hexane 12%, N-heptane 12%, Cyclohexane 11%) -&gt; column 80 stages, reflux 3.5, boil-up 3.4, dp 0.5, cost $168.8M/yr
+[TT] 872 mol/s (N-butane 52%, Propane 24%, Isobutane 11%, Propylene 9%, Ethane 4%, Isopentane 1%) -&gt; column 30 stages, reflux 2.0, boil-up 1.8, dp 0.0, cost $47.6M/yr
+[TB] 700 mol/s (N-pentane 61%, Isopentane 35%, 2,2-dimethylbutane 3%, 2-methylpentane 0%, N-butane 0%, 3-methylpentane 0%) -&gt; sold for $603.1M/yr (blend: C5 mix)
+[BT] 874 mol/s (2-methylpentane 39%, 3-methylpentane 24%, 2,2-dimethylbutane 19%, N-hexane 13%, Methylcyclopentane 3%, N-pentane 1%) -&gt; sold for $1013.3M/yr (blend: C6 paraffin mix)
+[BB] 854 mol/s (N-octane 27%, N-heptane 24%, Cyclohexane 22%, N-hexane 12%, N-nonane 7%, Methylcyclopentane 6%) -&gt; column 90 stages, reflux 3.4, boil-up 7.2, dp 0.5, cost $137.4M/yr
+[TTT] 335 mol/s (Propane 62%, Propylene 23%, Ethane 10%, Isobutane 4%, N-butane 1%) -&gt; sold for $0.0M/yr (not pure enough: worth 0)
+[TTB] 537 mol/s (N-butane 83%, Isobutane 15%, Isopentane 1%, N-pentane 0%, Propane 0%, Propylene 0%) -&gt; sold for $181.3M/yr (blend: C4 mix)
+[BBT] 566 mol/s (N-heptane 36%, Cyclohexane 33%, N-hexane 18%, Methylcyclopentane 9%, 3-methylpentane 2%, N-octane 1%) -&gt; column 45 stages, reflux 2.5, boil-up 6.4, dp 0.0, cost $72.6M/yr
+[BBB] 288 mol/s (N-octane 78%, N-nonane 22%) -&gt; column 40 stages, reflux 2.0, boil-up 10.6, dp 0.0, cost $49.3M/yr
+[BBTT] 374 mol/s (Cyclohexane 49%, N-hexane 27%, Methylcyclopentane 14%, N-heptane 5%, 3-methylpentane 4%, 2-methylpentane 0%) -&gt; sold for $0.0M/yr (not pure enough: worth 0)
+[BBTB] 192 mol/s (N-heptane 96%, N-octane 4%, Cyclohexane 0%, N-hexane 0%, Methylcyclopentane 0%) -&gt; sold for $298.3M/yr
+[BBBT] 228 mol/s (N-octane 99%, N-nonane 1%) -&gt; sold for $416.8M/yr (premium)
+[BBBB] 61 mol/s (N-nonane 100%, N-octane 0%) -&gt; sold for $121.0M/yr (premium)</pre></details><details><summary>R15 — agent-0</summary><pre>reward 3.001 | revenue $2036.1M/yr | column cost $720.2M/yr | 7 columns | solves used 33/200
+[feed] 3300 mol/s (N-butane 14%, N-pentane 13%, 2-methylpentane 10%, Isopentane 8%, N-octane 7%, 3-methylpentane 7%) -&gt; column 40 stages, reflux 2.0, boil-up 2.2, dp 0.75, cost $182.3M/yr
+[T] 1572 mol/s (N-butane 29%, N-pentane 27%, Isopentane 16%, Propane 13%, Isobutane 6%, Propylene 5%) -&gt; column 30 stages, reflux 1.0, boil-up 2.56, dp 0.0, cost $76.1M/yr
+[B] 1728 mol/s (2-methylpentane 20%, N-octane 14%, 3-methylpentane 13%, N-hexane 12%, N-heptane 12%, Cyclohexane 11%) -&gt; column 80 stages, reflux 3.5, boil-up 3.4, dp 0.5, cost $168.8M/yr
+[TT] 866 mol/s (N-butane 50%, Propane 24%, Isobutane 11%, Propylene 9%, Ethane 4%, Isopentane 1%) -&gt; column 30 stages, reflux 2.0, boil-up 1.8, dp 0.0, cost $47.5M/yr
+[TB] 706 mol/s (N-pentane 61%, Isopentane 34%, 2,2-dimethylbutane 3%, N-butane 2%, 2-methylpentane 0%, Isobutane 0%) -&gt; sold for $0.0M/yr (not pure enough: worth 0)
+[BT] 874 mol/s (2-methylpentane 39%, 3-methylpentane 24%, 2,2-dimethylbutane 19%, N-hexane 13%, Methylcyclopentane 3%, N-pentane 1%) -&gt; sold for $1013.3M/yr (blend: C6 paraffin mix)
+[BB] 854 mol/s (N-octane 27%, N-heptane 24%, Cyclohexane 22%, N-hexane 12%, N-nonane 7%, Methylcyclopentane 6%) -&gt; column 90 stages, reflux 3.0, boil-up 6.4, dp 0.5, cost $123.7M/yr
+[TTT] 333 mol/s (Propane 63%, Propylene 23%, Ethane 10%, Isobutane 3%, N-butane 0%) -&gt; sold for $0.0M/yr (not pure enough: worth 0)
+[TTB] 533 mol/s (N-butane 82%, Isobutane 16%, Isopentane 2%, N-pentane 1%, Propane 0%, Propylene 0%) -&gt; sold for $177.4M/yr (blend: C4 mix)
+[BBT] 564 mol/s (N-heptane 36%, Cyclohexane 33%, N-hexane 18%, Methylcyclopentane 9%, 3-methylpentane 3%, N-octane 1%) -&gt; column 45 stages, reflux 2.5, boil-up 6.4, dp 0.0, cost $72.2M/yr
+[BBB] 291 mol/s (N-octane 79%, N-nonane 21%) -&gt; column 40 stages, reflux 2.0, boil-up 10.6, dp 0.0, cost $49.7M/yr
+[BBTT] 372 mol/s (Cyclohexane 50%, N-hexane 27%, Methylcyclopentane 14%, N-heptane 5%, 3-methylpentane 4%, 2-methylpentane 0%) -&gt; sold for $0.0M/yr (not pure enough: worth 0)
+[BBTB] 191 mol/s (N-heptane 97%, N-octane 3%, Cyclohexane 0%, N-hexane 0%, Methylcyclopentane 0%) -&gt; sold for $301.4M/yr
+[BBBT] 230 mol/s (N-octane 99%, N-nonane 1%) -&gt; sold for $421.9M/yr (premium)
+[BBBB] 61 mol/s (N-nonane 100%, N-octane 0%) -&gt; sold for $122.1M/yr (premium)</pre></details><details><summary>R16 — agent-0</summary><pre>reward 4.365 | revenue $2644.0M/yr | column cost $729.6M/yr | 7 columns | solves used 34/200
+[feed] 3300 mol/s (N-butane 14%, N-pentane 13%, 2-methylpentane 10%, Isopentane 8%, N-octane 7%, 3-methylpentane 7%) -&gt; column 40 stages, reflux 2.0, boil-up 2.2, dp 0.75, cost $182.3M/yr
+[T] 1572 mol/s (N-butane 29%, N-pentane 27%, Isopentane 16%, Propane 13%, Isobutane 6%, Propylene 5%) -&gt; column 30 stages, reflux 1.5, boil-up 3.2, dp 0.0, cost $93.2M/yr
+[B] 1728 mol/s (2-methylpentane 20%, N-octane 14%, 3-methylpentane 13%, N-hexane 12%, N-heptane 12%, Cyclohexane 11%) -&gt; column 80 stages, reflux 3.5, boil-up 3.4, dp 0.5, cost $168.8M/yr
+[TT] 872 mol/s (N-butane 52%, Propane 24%, Isobutane 11%, Propylene 9%, Ethane 4%, Isopentane 1%) -&gt; column 30 stages, reflux 1.5, boil-up 1.5, dp 0.0, cost $39.7M/yr
+[TB] 700 mol/s (N-pentane 61%, Isopentane 35%, 2,2-dimethylbutane 3%, 2-methylpentane 0%, N-butane 0%, 3-methylpentane 0%) -&gt; sold for $603.1M/yr (blend: C5 mix)
+[BT] 874 mol/s (2-methylpentane 39%, 3-methylpentane 24%, 2,2-dimethylbutane 19%, N-hexane 13%, Methylcyclopentane 3%, N-pentane 1%) -&gt; sold for $1013.3M/yr (blend: C6 paraffin mix)
+[BB] 854 mol/s (N-octane 27%, N-heptane 24%, Cyclohexane 22%, N-hexane 12%, N-nonane 7%, Methylcyclopentane 6%) -&gt; column 90 stages, reflux 3.0, boil-up 6.4, dp 0.5, cost $123.7M/yr
+[TTT] 332 mol/s (Propane 63%, Propylene 23%, Ethane 10%, Isobutane 3%, N-butane 1%) -&gt; sold for $0.0M/yr (not pure enough: worth 0)
+[TTB] 540 mol/s (N-butane 83%, Isobutane 16%, Isopentane 1%, N-pentane 0%, Propane 0%, Propylene 0%) -&gt; sold for $182.2M/yr (blend: C4 mix)
+[BBT] 564 mol/s (N-heptane 36%, Cyclohexane 33%, N-hexane 18%, Methylcyclopentane 9%, 3-methylpentane 3%, N-octane 1%) -&gt; column 45 stages, reflux 2.5, boil-up 6.4, dp 0.0, cost $72.2M/yr
+[BBB] 291 mol/s (N-octane 79%, N-nonane 21%) -&gt; column 40 stages, reflux 2.0, boil-up 10.6, dp 0.0, cost $49.7M/yr
+[BBTT] 372 mol/s (Cyclohexane 50%, N-hexane 27%, Methylcyclopentane 14%, N-heptane 5%, 3-methylpentane 4%, 2-methylpentane 0%) -&gt; sold for $0.0M/yr (not pure enough: worth 0)
+[BBTB] 191 mol/s (N-heptane 97%, N-octane 3%, Cyclohexane 0%, N-hexane 0%, Methylcyclopentane 0%) -&gt; sold for $301.4M/yr
+[BBBT] 230 mol/s (N-octane 99%, N-nonane 1%) -&gt; sold for $421.9M/yr (premium)
+[BBBB] 61 mol/s (N-nonane 100%, N-octane 0%) -&gt; sold for $122.1M/yr (premium)</pre></details><details><summary>R17 — agent-0</summary><pre>reward 4.368 | revenue $2631.7M/yr | column cost $715.9M/yr | 7 columns | solves used 36/200
+[feed] 3300 mol/s (N-butane 14%, N-pentane 13%, 2-methylpentane 10%, Isopentane 8%, N-octane 7%, 3-methylpentane 7%) -&gt; column 40 stages, reflux 2.0, boil-up 2.2, dp 0.75, cost $182.3M/yr
+[T] 1572 mol/s (N-butane 29%, N-pentane 27%, Isopentane 16%, Propane 13%, Isobutane 6%, Propylene 5%) -&gt; column 30 stages, reflux 1.5, boil-up 3.2, dp 0.0, cost $93.2M/yr
+[B] 1728 mol/s (2-methylpentane 20%, N-octane 14%, 3-methylpentane 13%, N-hexane 12%, N-heptane 12%, Cyclohexane 11%) -&gt; column 80 stages, reflux 3.5, boil-up 3.4, dp 0.5, cost $168.8M/yr
+[TT] 872 mol/s (N-butane 52%, Propane 24%, Isobutane 11%, Propylene 9%, Ethane 4%, Isopentane 1%) -&gt; column 30 stages, reflux 1.2, boil-up 1.3, dp 0.0, cost $34.8M/yr
+[TB] 700 mol/s (N-pentane 61%, Isopentane 35%, 2,2-dimethylbutane 3%, 2-methylpentane 0%, N-butane 0%, 3-methylpentane 0%) -&gt; sold for $603.1M/yr (blend: C5 mix)
+[BT] 874 mol/s (2-methylpentane 39%, 3-methylpentane 24%, 2,2-dimethylbutane 19%, N-hexane 13%, Methylcyclopentane 3%, N-pentane 1%) -&gt; sold for $1013.3M/yr (blend: C6 paraffin mix)
+[BB] 854 mol/s (N-octane 27%, N-heptane 24%, Cyclohexane 22%, N-hexane 12%, N-nonane 7%, Methylcyclopentane 6%) -&gt; column 90 stages, reflux 3.0, boil-up 6.4, dp 0.5, cost $123.7M/yr
+[TTT] 327 mol/s (Propane 61%, Propylene 23%, Ethane 11%, Isobutane 3%, N-butane 2%, Isopentane 0%) -&gt; sold for $0.0M/yr (not pure enough: worth 0)
+[TTB] 545 mol/s (N-butane 81%, Isobutane 15%, Propane 2%, Isopentane 1%, N-pentane 0%, Propylene 0%) -&gt; sold for $180.5M/yr (blend: C4 mix)
+[BBT] 564 mol/s (N-heptane 36%, Cyclohexane 33%, N-hexane 18%, Methylcyclopentane 9%, 3-methylpentane 3%, N-octane 1%) -&gt; column 45 stages, reflux 2.0, boil-up 5.8, dp 0.0, cost $63.4M/yr
+[BBB] 291 mol/s (N-octane 79%, N-nonane 21%) -&gt; column 40 stages, reflux 2.0, boil-up 10.6, dp 0.0, cost $49.7M/yr
+[BBTT] 379 mol/s (Cyclohexane 49%, N-hexane 26%, Methylcyclopentane 14%, N-heptane 7%, 3-methylpentane 4%, 2-methylpentane 0%) -&gt; sold for $0.0M/yr (not pure enough: worth 0)
+[BBTB] 185 mol/s (N-heptane 97%, N-octane 3%, Cyclohexane 0%, N-hexane 0%, Methylcyclopentane 0%, 3-methylpentane 0%) -&gt; sold for $290.7M/yr
+[BBBT] 230 mol/s (N-octane 99%, N-nonane 1%) -&gt; sold for $421.9M/yr (premium)
+[BBBB] 61 mol/s (N-nonane 100%, N-octane 0%) -&gt; sold for $122.1M/yr (premium)</pre></details><details><summary>R18 — agent-0</summary><pre>reward 4.489 | revenue $2708.7M/yr | column cost $739.8M/yr | 8 columns | solves used 38/200
+[feed] 3300 mol/s (N-butane 14%, N-pentane 13%, 2-methylpentane 10%, Isopentane 8%, N-octane 7%, 3-methylpentane 7%) -&gt; column 40 stages, reflux 2.0, boil-up 2.2, dp 0.75, cost $182.3M/yr
+[T] 1572 mol/s (N-butane 29%, N-pentane 27%, Isopentane 16%, Propane 13%, Isobutane 6%, Propylene 5%) -&gt; column 30 stages, reflux 1.5, boil-up 3.2, dp 0.0, cost $93.2M/yr
+[B] 1728 mol/s (2-methylpentane 20%, N-octane 14%, 3-methylpentane 13%, N-hexane 12%, N-heptane 12%, Cyclohexane 11%) -&gt; column 80 stages, reflux 3.5, boil-up 3.4, dp 0.5, cost $168.8M/yr
+[TT] 872 mol/s (N-butane 52%, Propane 24%, Isobutane 11%, Propylene 9%, Ethane 4%, Isopentane 1%) -&gt; column 40 stages, reflux 1.5, boil-up 1.4, dp 0.0, cost $39.0M/yr
+[TB] 700 mol/s (N-pentane 61%, Isopentane 35%, 2,2-dimethylbutane 3%, 2-methylpentane 0%, N-butane 0%, 3-methylpentane 0%) -&gt; sold for $603.1M/yr (blend: C5 mix)
+[BT] 874 mol/s (2-methylpentane 39%, 3-methylpentane 24%, 2,2-dimethylbutane 19%, N-hexane 13%, Methylcyclopentane 3%, N-pentane 1%) -&gt; sold for $1013.3M/yr (blend: C6 paraffin mix)
+[BB] 854 mol/s (N-octane 27%, N-heptane 24%, Cyclohexane 22%, N-hexane 12%, N-nonane 7%, Methylcyclopentane 6%) -&gt; column 90 stages, reflux 3.0, boil-up 6.4, dp 0.5, cost $123.7M/yr
+[TTT] 320 mol/s (Propane 65%, Propylene 24%, Ethane 11%, Isobutane 0%, N-butane 0%) -&gt; column 30 stages, reflux 3.0, boil-up 0.5, dp 0.0, cost $19.7M/yr
+[TTB] 552 mol/s (N-butane 81%, Isobutane 17%, Isopentane 1%, N-pentane 0%, Propane 0%, Propylene 0%) -&gt; sold for $186.1M/yr (blend: C4 mix)
+[BBT] 564 mol/s (N-heptane 36%, Cyclohexane 33%, N-hexane 18%, Methylcyclopentane 9%, 3-methylpentane 3%, N-octane 1%) -&gt; column 45 stages, reflux 2.0, boil-up 5.8, dp 0.0, cost $63.4M/yr
+[BBB] 291 mol/s (N-octane 79%, N-nonane 21%) -&gt; column 40 stages, reflux 2.0, boil-up 10.6, dp 0.0, cost $49.7M/yr
+[TTTT] 38 mol/s (Ethane 83%, Propylene 12%, Propane 4%) -&gt; sold for $0.0M/yr (not pure enough: worth 0)
+[TTTB] 282 mol/s (Propane 73%, Propylene 26%, Ethane 1%, Isobutane 0%, N-butane 0%) -&gt; sold for $71.4M/yr (blend: C3 mix)
+[BBTT] 379 mol/s (Cyclohexane 49%, N-hexane 26%, Methylcyclopentane 14%, N-heptane 7%, 3-methylpentane 4%, 2-methylpentane 0%) -&gt; sold for $0.0M/yr (not pure enough: worth 0)
+[BBTB] 185 mol/s (N-heptane 97%, N-octane 3%, Cyclohexane 0%, N-hexane 0%, Methylcyclopentane 0%, 3-methylpentane 0%) -&gt; sold for $290.7M/yr
+[BBBT] 230 mol/s (N-octane 99%, N-nonane 1%) -&gt; sold for $421.9M/yr (premium)
+[BBBB] 61 mol/s (N-nonane 100%, N-octane 0%) -&gt; sold for $122.1M/yr (premium)</pre></details><details><summary>R19 — agent-0</summary><pre>reward 4.403 | revenue $2726.5M/yr | column cost $795.7M/yr | 9 columns | solves used 40/200
+[feed] 3300 mol/s (N-butane 14%, N-pentane 13%, 2-methylpentane 10%, Isopentane 8%, N-octane 7%, 3-methylpentane 7%) -&gt; column 40 stages, reflux 2.0, boil-up 2.2, dp 0.75, cost $182.3M/yr
+[T] 1572 mol/s (N-butane 29%, N-pentane 27%, Isopentane 16%, Propane 13%, Isobutane 6%, Propylene 5%) -&gt; column 30 stages, reflux 1.5, boil-up 3.2, dp 0.0, cost $93.2M/yr
+[B] 1728 mol/s (2-methylpentane 20%, N-octane 14%, 3-methylpentane 13%, N-hexane 12%, N-heptane 12%, Cyclohexane 11%) -&gt; column 80 stages, reflux 3.5, boil-up 3.4, dp 0.5, cost $168.8M/yr
+[TT] 872 mol/s (N-butane 52%, Propane 24%, Isobutane 11%, Propylene 9%, Ethane 4%, Isopentane 1%) -&gt; column 40 stages, reflux 1.5, boil-up 1.4, dp 0.0, cost $39.0M/yr
+[TB] 700 mol/s (N-pentane 61%, Isopentane 35%, 2,2-dimethylbutane 3%, 2-methylpentane 0%, N-butane 0%, 3-methylpentane 0%) -&gt; sold for $603.1M/yr (blend: C5 mix)
+[BT] 874 mol/s (2-methylpentane 39%, 3-methylpentane 24%, 2,2-dimethylbutane 19%, N-hexane 13%, Methylcyclopentane 3%, N-pentane 1%) -&gt; sold for $1013.3M/yr (blend: C6 paraffin mix)
+[BB] 854 mol/s (N-octane 27%, N-heptane 24%, Cyclohexane 22%, N-hexane 12%, N-nonane 7%, Methylcyclopentane 6%) -&gt; column 90 stages, reflux 3.0, boil-up 6.4, dp 0.5, cost $123.7M/yr
+[TTT] 320 mol/s (Propane 65%, Propylene 24%, Ethane 11%, Isobutane 0%, N-butane 0%) -&gt; column 30 stages, reflux 3.0, boil-up 0.5, dp 0.0, cost $19.7M/yr
+[TTB] 552 mol/s (N-butane 81%, Isobutane 17%, Isopentane 1%, N-pentane 0%, Propane 0%, Propylene 0%) -&gt; sold for $186.1M/yr (blend: C4 mix)
+[BBT] 564 mol/s (N-heptane 36%, Cyclohexane 33%, N-hexane 18%, Methylcyclopentane 9%, 3-methylpentane 3%, N-octane 1%) -&gt; column 70 stages, reflux 2.0, boil-up 5.3, dp 0.0, cost $62.4M/yr
+[BBB] 291 mol/s (N-octane 79%, N-nonane 21%) -&gt; column 40 stages, reflux 2.0, boil-up 10.6, dp 0.0, cost $49.7M/yr
+[TTTT] 38 mol/s (Ethane 83%, Propylene 12%, Propane 4%) -&gt; sold for $0.0M/yr (not pure enough: worth 0)
+[TTTB] 282 mol/s (Propane 73%, Propylene 26%, Ethane 1%, Isobutane 0%, N-butane 0%) -&gt; sold for $71.4M/yr (blend: C3 mix)
+[BBTT] 368 mol/s (Cyclohexane 50%, N-hexane 27%, Methylcyclopentane 15%, N-heptane 4%, 3-methylpentane 4%, 2-methylpentane 0%) -&gt; column 80 stages, reflux 5.0, boil-up 5.1, dp 0.0, cost $56.9M/yr
+[BBTB] 196 mol/s (N-heptane 97%, N-octane 3%, Cyclohexane 0%, N-hexane 0%, Methylcyclopentane 0%) -&gt; sold for $308.6M/yr
+[BBBT] 230 mol/s (N-octane 99%, N-nonane 1%) -&gt; sold for $421.9M/yr (premium)
+[BBBB] 61 mol/s (N-nonane 100%, N-octane 0%) -&gt; sold for $122.1M/yr (premium)
+[BBTTT] 172 mol/s (N-hexane 58%, Methylcyclopentane 26%, 3-methylpentane 8%, Cyclohexane 7%, 2-methylpentane 1%, 2,2-dimethylbutane 0%) -&gt; sold for $0.0M/yr (not pure enough: worth 0)
+[BBTTB] 196 mol/s (Cyclohexane 89%, N-heptane 7%, Methylcyclopentane 4%, N-hexane 0%, 3-methylpentane 0%) -&gt; sold for $0.0M/yr (not pure enough: worth 0)</pre></details><details><summary>R20 — agent-0</summary><pre>reward 4.294 | revenue $2722.2M/yr | column cost $839.2M/yr | 9 columns | solves used 42/200
+[feed] 3300 mol/s (N-butane 14%, N-pentane 13%, 2-methylpentane 10%, Isopentane 8%, N-octane 7%, 3-methylpentane 7%) -&gt; column 40 stages, reflux 2.0, boil-up 2.2, dp 0.75, cost $182.3M/yr
+[T] 1572 mol/s (N-butane 29%, N-pentane 27%, Isopentane 16%, Propane 13%, Isobutane 6%, Propylene 5%) -&gt; column 30 stages, reflux 1.5, boil-up 3.2, dp 0.0, cost $93.2M/yr
+[B] 1728 mol/s (2-methylpentane 20%, N-octane 14%, 3-methylpentane 13%, N-hexane 12%, N-heptane 12%, Cyclohexane 11%) -&gt; column 80 stages, reflux 3.5, boil-up 3.4, dp 0.5, cost $168.8M/yr
+[TT] 872 mol/s (N-butane 52%, Propane 24%, Isobutane 11%, Propylene 9%, Ethane 4%, Isopentane 1%) -&gt; column 40 stages, reflux 1.5, boil-up 1.4, dp 0.0, cost $39.0M/yr
+[TB] 700 mol/s (N-pentane 61%, Isopentane 35%, 2,2-dimethylbutane 3%, 2-methylpentane 0%, N-butane 0%, 3-methylpentane 0%) -&gt; sold for $603.1M/yr (blend: C5 mix)
+[BT] 874 mol/s (2-methylpentane 39%, 3-methylpentane 24%, 2,2-dimethylbutane 19%, N-hexane 13%, Methylcyclopentane 3%, N-pentane 1%) -&gt; sold for $1013.3M/yr (blend: C6 paraffin mix)
+[BB] 854 mol/s (N-octane 27%, N-heptane 24%, Cyclohexane 22%, N-hexane 12%, N-nonane 7%, Methylcyclopentane 6%) -&gt; column 90 stages, reflux 3.0, boil-up 6.4, dp 0.5, cost $123.7M/yr
+[TTT] 320 mol/s (Propane 65%, Propylene 24%, Ethane 11%, Isobutane 0%, N-butane 0%) -&gt; column 30 stages, reflux 3.0, boil-up 0.5, dp 0.0, cost $19.7M/yr
+[TTB] 552 mol/s (N-butane 81%, Isobutane 17%, Isopentane 1%, N-pentane 0%, Propane 0%, Propylene 0%) -&gt; sold for $186.1M/yr (blend: C4 mix)
+[BBT] 564 mol/s (N-heptane 36%, Cyclohexane 33%, N-hexane 18%, Methylcyclopentane 9%, 3-methylpentane 3%, N-octane 1%) -&gt; column 70 stages, reflux 3.0, boil-up 7.2, dp 0.0, cost $82.9M/yr
+[BBB] 291 mol/s (N-octane 79%, N-nonane 21%) -&gt; column 40 stages, reflux 2.0, boil-up 10.6, dp 0.0, cost $49.7M/yr
+[TTTT] 38 mol/s (Ethane 83%, Propylene 12%, Propane 4%) -&gt; sold for $0.0M/yr (not pure enough: worth 0)
+[TTTB] 282 mol/s (Propane 73%, Propylene 26%, Ethane 1%, Isobutane 0%, N-butane 0%) -&gt; sold for $71.4M/yr (blend: C3 mix)
+[BBTT] 371 mol/s (Cyclohexane 50%, N-hexane 27%, Methylcyclopentane 14%, N-heptane 5%, 3-methylpentane 4%, 2-methylpentane 0%) -&gt; column 100 stages, reflux 7.0, boil-up 7.4, dp 0.0, cost $79.8M/yr
+[BBTB] 193 mol/s (N-heptane 97%, N-octane 3%, Cyclohexane 0%) -&gt; sold for $304.3M/yr
+[BBBT] 230 mol/s (N-octane 99%, N-nonane 1%) -&gt; sold for $421.9M/yr (premium)
+[BBBB] 61 mol/s (N-nonane 100%, N-octane 0%) -&gt; sold for $122.1M/yr (premium)
+[BBTTT] 181 mol/s (N-hexane 55%, Methylcyclopentane 29%, 3-methylpentane 8%, Cyclohexane 7%, 2-methylpentane 1%, 2,2-dimethylbutane 0%) -&gt; sold for $0.0M/yr (not pure enough: worth 0)
+[BBTTB] 189 mol/s (Cyclohexane 91%, N-heptane 9%, Methylcyclopentane 0%, N-hexane 0%) -&gt; sold for $0.0M/yr (not pure enough: worth 0)</pre></details><details><summary>R21 — agent-0</summary><pre>reward 5.070 | revenue $3055.4M/yr | column cost $832.2M/yr | 9 columns | solves used 44/200
+[feed] 3300 mol/s (N-butane 14%, N-pentane 13%, 2-methylpentane 10%, Isopentane 8%, N-octane 7%, 3-methylpentane 7%) -&gt; column 40 stages, reflux 2.0, boil-up 2.2, dp 0.75, cost $182.3M/yr
+[T] 1572 mol/s (N-butane 29%, N-pentane 27%, Isopentane 16%, Propane 13%, Isobutane 6%, Propylene 5%) -&gt; column 30 stages, reflux 1.5, boil-up 3.2, dp 0.0, cost $93.2M/yr
+[B] 1728 mol/s (2-methylpentane 20%, N-octane 14%, 3-methylpentane 13%, N-hexane 12%, N-heptane 12%, Cyclohexane 11%) -&gt; column 80 stages, reflux 3.5, boil-up 3.4, dp 0.5, cost $168.8M/yr
+[TT] 872 mol/s (N-butane 52%, Propane 24%, Isobutane 11%, Propylene 9%, Ethane 4%, Isopentane 1%) -&gt; column 40 stages, reflux 1.5, boil-up 1.4, dp 0.0, cost $39.0M/yr
+[TB] 700 mol/s (N-pentane 61%, Isopentane 35%, 2,2-dimethylbutane 3%, 2-methylpentane 0%, N-butane 0%, 3-methylpentane 0%) -&gt; sold for $603.1M/yr (blend: C5 mix)
+[BT] 874 mol/s (2-methylpentane 39%, 3-methylpentane 24%, 2,2-dimethylbutane 19%, N-hexane 13%, Methylcyclopentane 3%, N-pentane 1%) -&gt; sold for $1013.3M/yr (blend: C6 paraffin mix)
+[BB] 854 mol/s (N-octane 27%, N-heptane 24%, Cyclohexane 22%, N-hexane 12%, N-nonane 7%, Methylcyclopentane 6%) -&gt; column 90 stages, reflux 3.0, boil-up 6.4, dp 0.5, cost $123.7M/yr
+[TTT] 320 mol/s (Propane 65%, Propylene 24%, Ethane 11%, Isobutane 0%, N-butane 0%) -&gt; column 30 stages, reflux 3.0, boil-up 0.5, dp 0.0, cost $19.7M/yr
+[TTB] 552 mol/s (N-butane 81%, Isobutane 17%, Isopentane 1%, N-pentane 0%, Propane 0%, Propylene 0%) -&gt; sold for $186.1M/yr (blend: C4 mix)
+[BBT] 564 mol/s (N-heptane 36%, Cyclohexane 33%, N-hexane 18%, Methylcyclopentane 9%, 3-methylpentane 3%, N-octane 1%) -&gt; column 70 stages, reflux 3.0, boil-up 6.65, dp 0.0, cost $80.5M/yr
+[BBB] 291 mol/s (N-octane 79%, N-nonane 21%) -&gt; column 40 stages, reflux 2.0, boil-up 10.6, dp 0.0, cost $49.7M/yr
+[TTTT] 38 mol/s (Ethane 83%, Propylene 12%, Propane 4%) -&gt; sold for $0.0M/yr (not pure enough: worth 0)
+[TTTB] 282 mol/s (Propane 73%, Propylene 26%, Ethane 1%, Isobutane 0%, N-butane 0%) -&gt; sold for $71.4M/yr (blend: C3 mix)
+[BBTT] 361 mol/s (Cyclohexane 51%, N-hexane 28%, Methylcyclopentane 15%, 3-methylpentane 4%, N-heptane 2%, 2-methylpentane 0%) -&gt; column 100 stages, reflux 7.0, boil-up 6.95, dp 0.0, cost $75.2M/yr
+[BBTB] 203 mol/s (N-heptane 98%, N-octane 2%, Cyclohexane 0%) -&gt; sold for $320.1M/yr
+[BBBT] 230 mol/s (N-octane 99%, N-nonane 1%) -&gt; sold for $421.9M/yr (premium)
+[BBBB] 61 mol/s (N-nonane 100%, N-octane 0%) -&gt; sold for $122.1M/yr (premium)
+[BBTTT] 171 mol/s (N-hexane 58%, Methylcyclopentane 31%, 3-methylpentane 8%, Cyclohexane 1%, 2-methylpentane 1%, 2,2-dimethylbutane 0%) -&gt; sold for $0.0M/yr (not pure enough: worth 0)
+[BBTTB] 190 mol/s (Cyclohexane 96%, N-heptane 4%, Methylcyclopentane 0%, N-hexane 0%) -&gt; sold for $317.3M/yr</pre></details><details><summary>R22 — agent-0</summary><pre>reward 5.086 | revenue $3061.6M/yr | column cost $831.2M/yr | 9 columns | solves used 46/200
+[feed] 3300 mol/s (N-butane 14%, N-pentane 13%, 2-methylpentane 10%, Isopentane 8%, N-octane 7%, 3-methylpentane 7%) -&gt; column 40 stages, reflux 2.0, boil-up 2.2, dp 0.75, cost $182.3M/yr
+[T] 1572 mol/s (N-butane 29%, N-pentane 27%, Isopentane 16%, Propane 13%, Isobutane 6%, Propylene 5%) -&gt; column 30 stages, reflux 1.5, boil-up 3.2, dp 0.0, cost $93.2M/yr
+[B] 1728 mol/s (2-methylpentane 20%, N-octane 14%, 3-methylpentane 13%, N-hexane 12%, N-heptane 12%, Cyclohexane 11%) -&gt; column 80 stages, reflux 3.5, boil-up 3.4, dp 0.5, cost $168.8M/yr
+[TT] 872 mol/s (N-butane 52%, Propane 24%, Isobutane 11%, Propylene 9%, Ethane 4%, Isopentane 1%) -&gt; column 40 stages, reflux 1.5, boil-up 1.4, dp 0.0, cost $39.0M/yr
+[TB] 700 mol/s (N-pentane 61%, Isopentane 35%, 2,2-dimethylbutane 3%, 2-methylpentane 0%, N-butane 0%, 3-methylpentane 0%) -&gt; sold for $603.1M/yr (blend: C5 mix)
+[BT] 874 mol/s (2-methylpentane 39%, 3-methylpentane 24%, 2,2-dimethylbutane 19%, N-hexane 13%, Methylcyclopentane 3%, N-pentane 1%) -&gt; sold for $1013.3M/yr (blend: C6 paraffin mix)
+[BB] 854 mol/s (N-octane 27%, N-heptane 24%, Cyclohexane 22%, N-hexane 12%, N-nonane 7%, Methylcyclopentane 6%) -&gt; column 90 stages, reflux 3.0, boil-up 6.4, dp 0.5, cost $123.7M/yr
+[TTT] 320 mol/s (Propane 65%, Propylene 24%, Ethane 11%, Isobutane 0%, N-butane 0%) -&gt; column 30 stages, reflux 3.0, boil-up 0.5, dp 0.0, cost $19.7M/yr
+[TTB] 552 mol/s (N-butane 81%, Isobutane 17%, Isopentane 1%, N-pentane 0%, Propane 0%, Propylene 0%) -&gt; sold for $186.1M/yr (blend: C4 mix)
+[BBT] 564 mol/s (N-heptane 36%, Cyclohexane 33%, N-hexane 18%, Methylcyclopentane 9%, 3-methylpentane 3%, N-octane 1%) -&gt; column 70 stages, reflux 3.0, boil-up 6.45, dp 0.0, cost $79.6M/yr
+[BBB] 291 mol/s (N-octane 79%, N-nonane 21%) -&gt; column 40 stages, reflux 2.0, boil-up 10.6, dp 0.0, cost $49.7M/yr
+[TTTT] 38 mol/s (Ethane 83%, Propylene 12%, Propane 4%) -&gt; sold for $0.0M/yr (not pure enough: worth 0)
+[TTTB] 282 mol/s (Propane 73%, Propylene 26%, Ethane 1%, Isobutane 0%, N-butane 0%) -&gt; sold for $71.4M/yr (blend: C3 mix)
+[BBTT] 357 mol/s (Cyclohexane 52%, N-hexane 28%, Methylcyclopentane 15%, 3-methylpentane 4%, N-heptane 1%, 2-methylpentane 0%) -&gt; column 100 stages, reflux 7.0, boil-up 7.1, dp 0.0, cost $75.2M/yr
+[BBTB] 207 mol/s (N-heptane 98%, N-octane 2%, Cyclohexane 0%) -&gt; sold for $326.3M/yr
+[BBBT] 230 mol/s (N-octane 99%, N-nonane 1%) -&gt; sold for $421.9M/yr (premium)
+[BBBB] 61 mol/s (N-nonane 100%, N-octane 0%) -&gt; sold for $122.1M/yr (premium)
+[BBTTT] 171 mol/s (N-hexane 58%, Methylcyclopentane 31%, 3-methylpentane 8%, Cyclohexane 1%, 2-methylpentane 1%, 2,2-dimethylbutane 0%) -&gt; sold for $0.0M/yr (not pure enough: worth 0)
+[BBTTB] 186 mol/s (Cyclohexane 98%, N-heptane 2%, Methylcyclopentane 0%, N-hexane 0%) -&gt; sold for $317.4M/yr</pre></details><details><summary>R23 — agent-0</summary><pre>reward 5.241 | revenue $3129.1M/yr | column cost $830.7M/yr | 9 columns | solves used 48/200
+[feed] 3300 mol/s (N-butane 14%, N-pentane 13%, 2-methylpentane 10%, Isopentane 8%, N-octane 7%, 3-methylpentane 7%) -&gt; column 40 stages, reflux 2.0, boil-up 2.2, dp 0.75, cost $182.3M/yr
+[T] 1572 mol/s (N-butane 29%, N-pentane 27%, Isopentane 16%, Propane 13%, Isobutane 6%, Propylene 5%) -&gt; column 30 stages, reflux 1.5, boil-up 3.2, dp 0.0, cost $93.2M/yr
+[B] 1728 mol/s (2-methylpentane 20%, N-octane 14%, 3-methylpentane 13%, N-hexane 12%, N-heptane 12%, Cyclohexane 11%) -&gt; column 80 stages, reflux 3.5, boil-up 3.4, dp 0.5, cost $168.8M/yr
+[TT] 872 mol/s (N-butane 52%, Propane 24%, Isobutane 11%, Propylene 9%, Ethane 4%, Isopentane 1%) -&gt; column 40 stages, reflux 1.5, boil-up 1.4, dp 0.0, cost $39.0M/yr
+[TB] 700 mol/s (N-pentane 61%, Isopentane 35%, 2,2-dimethylbutane 3%, 2-methylpentane 0%, N-butane 0%, 3-methylpentane 0%) -&gt; sold for $603.1M/yr (blend: C5 mix)
+[BT] 874 mol/s (2-methylpentane 39%, 3-methylpentane 24%, 2,2-dimethylbutane 19%, N-hexane 13%, Methylcyclopentane 3%, N-pentane 1%) -&gt; sold for $1013.3M/yr (blend: C6 paraffin mix)
+[BB] 854 mol/s (N-octane 27%, N-heptane 24%, Cyclohexane 22%, N-hexane 12%, N-nonane 7%, Methylcyclopentane 6%) -&gt; column 90 stages, reflux 3.0, boil-up 6.4, dp 0.5, cost $123.7M/yr
+[TTT] 320 mol/s (Propane 65%, Propylene 24%, Ethane 11%, Isobutane 0%, N-butane 0%) -&gt; column 30 stages, reflux 3.0, boil-up 0.5, dp 0.0, cost $19.7M/yr
+[TTB] 552 mol/s (N-butane 81%, Isobutane 17%, Isopentane 1%, N-pentane 0%, Propane 0%, Propylene 0%) -&gt; sold for $186.1M/yr (blend: C4 mix)
+[BBT] 564 mol/s (N-heptane 36%, Cyclohexane 33%, N-hexane 18%, Methylcyclopentane 9%, 3-methylpentane 3%, N-octane 1%) -&gt; column 70 stages, reflux 3.0, boil-up 6.3, dp 0.0, cost $78.9M/yr
+[BBB] 291 mol/s (N-octane 79%, N-nonane 21%) -&gt; column 40 stages, reflux 2.0, boil-up 10.6, dp 0.0, cost $49.7M/yr
+[TTTT] 38 mol/s (Ethane 83%, Propylene 12%, Propane 4%) -&gt; sold for $0.0M/yr (not pure enough: worth 0)
+[TTTB] 282 mol/s (Propane 73%, Propylene 26%, Ethane 1%, Isobutane 0%, N-butane 0%) -&gt; sold for $71.4M/yr (blend: C3 mix)
+[BBTT] 354 mol/s (Cyclohexane 52%, N-hexane 28%, Methylcyclopentane 15%, 3-methylpentane 4%, 2-methylpentane 0%, N-heptane 0%) -&gt; column 100 stages, reflux 7.0, boil-up 7.25, dp 0.0, cost $75.3M/yr
+[BBTB] 210 mol/s (N-heptane 98%, N-octane 2%, Cyclohexane 0%) -&gt; sold for $331.1M/yr
+[BBBT] 230 mol/s (N-octane 99%, N-nonane 1%) -&gt; sold for $421.9M/yr (premium)
+[BBBB] 61 mol/s (N-nonane 100%, N-octane 0%) -&gt; sold for $122.1M/yr (premium)
+[BBTTT] 171 mol/s (N-hexane 58%, Methylcyclopentane 31%, 3-methylpentane 8%, Cyclohexane 1%, 2-methylpentane 1%, 2,2-dimethylbutane 0%) -&gt; sold for $0.0M/yr (not pure enough: worth 0)
+[BBTTB] 183 mol/s (Cyclohexane 100%, N-heptane 0%, Methylcyclopentane 0%, N-hexane 0%) -&gt; sold for $380.1M/yr (premium)</pre></details><details><summary>R24 — agent-0</summary><pre>reward 5.259 | revenue $3128.0M/yr | column cost $821.6M/yr | 9 columns | solves used 49/200
+[feed] 3300 mol/s (N-butane 14%, N-pentane 13%, 2-methylpentane 10%, Isopentane 8%, N-octane 7%, 3-methylpentane 7%) -&gt; column 40 stages, reflux 2.0, boil-up 2.2, dp 0.75, cost $182.3M/yr
+[T] 1572 mol/s (N-butane 29%, N-pentane 27%, Isopentane 16%, Propane 13%, Isobutane 6%, Propylene 5%) -&gt; column 30 stages, reflux 1.5, boil-up 3.2, dp 0.0, cost $93.2M/yr
+[B] 1728 mol/s (2-methylpentane 20%, N-octane 14%, 3-methylpentane 13%, N-hexane 12%, N-heptane 12%, Cyclohexane 11%) -&gt; column 80 stages, reflux 3.5, boil-up 3.4, dp 0.5, cost $168.8M/yr
+[TT] 872 mol/s (N-butane 52%, Propane 24%, Isobutane 11%, Propylene 9%, Ethane 4%, Isopentane 1%) -&gt; column 40 stages, reflux 1.5, boil-up 1.4, dp 0.0, cost $39.0M/yr
+[TB] 700 mol/s (N-pentane 61%, Isopentane 35%, 2,2-dimethylbutane 3%, 2-methylpentane 0%, N-butane 0%, 3-methylpentane 0%) -&gt; sold for $603.1M/yr (blend: C5 mix)
+[BT] 874 mol/s (2-methylpentane 39%, 3-methylpentane 24%, 2,2-dimethylbutane 19%, N-hexane 13%, Methylcyclopentane 3%, N-pentane 1%) -&gt; sold for $1013.3M/yr (blend: C6 paraffin mix)
+[BB] 854 mol/s (N-octane 27%, N-heptane 24%, Cyclohexane 22%, N-hexane 12%, N-nonane 7%, Methylcyclopentane 6%) -&gt; column 90 stages, reflux 3.0, boil-up 6.4, dp 0.5, cost $123.7M/yr
+[TTT] 320 mol/s (Propane 65%, Propylene 24%, Ethane 11%, Isobutane 0%, N-butane 0%) -&gt; column 30 stages, reflux 3.0, boil-up 0.5, dp 0.0, cost $19.7M/yr
+[TTB] 552 mol/s (N-butane 81%, Isobutane 17%, Isopentane 1%, N-pentane 0%, Propane 0%, Propylene 0%) -&gt; sold for $186.1M/yr (blend: C4 mix)
+[BBT] 564 mol/s (N-heptane 36%, Cyclohexane 33%, N-hexane 18%, Methylcyclopentane 9%, 3-methylpentane 3%, N-octane 1%) -&gt; column 70 stages, reflux 3.0, boil-up 6.3, dp 0.0, cost $78.9M/yr
+[BBB] 291 mol/s (N-octane 79%, N-nonane 21%) -&gt; column 40 stages, reflux 2.0, boil-up 10.6, dp 0.0, cost $49.7M/yr
+[TTTT] 38 mol/s (Ethane 83%, Propylene 12%, Propane 4%) -&gt; sold for $0.0M/yr (not pure enough: worth 0)
+[TTTB] 282 mol/s (Propane 73%, Propylene 26%, Ethane 1%, Isobutane 0%, N-butane 0%) -&gt; sold for $71.4M/yr (blend: C3 mix)
+[BBTT] 354 mol/s (Cyclohexane 52%, N-hexane 28%, Methylcyclopentane 15%, 3-methylpentane 4%, 2-methylpentane 0%, N-heptane 0%) -&gt; column 100 stages, reflux 6.0, boil-up 6.35, dp 0.0, cost $66.3M/yr
+[BBTB] 210 mol/s (N-heptane 98%, N-octane 2%, Cyclohexane 0%) -&gt; sold for $331.1M/yr
+[BBBT] 230 mol/s (N-octane 99%, N-nonane 1%) -&gt; sold for $421.9M/yr (premium)
+[BBBB] 61 mol/s (N-nonane 100%, N-octane 0%) -&gt; sold for $122.1M/yr (premium)
+[BBTTT] 171 mol/s (N-hexane 58%, Methylcyclopentane 31%, 3-methylpentane 8%, Cyclohexane 2%, 2-methylpentane 1%, 2,2-dimethylbutane 0%) -&gt; sold for $0.0M/yr (not pure enough: worth 0)
+[BBTTB] 183 mol/s (Cyclohexane 100%, Methylcyclopentane 0%, N-heptane 0%, N-hexane 0%) -&gt; sold for $379.0M/yr (premium)</pre></details><details><summary>R25 — agent-0</summary><pre>reward 5.111 | revenue $3053.5M/yr | column cost $812.2M/yr | 9 columns | solves used 50/200
+[feed] 3300 mol/s (N-butane 14%, N-pentane 13%, 2-methylpentane 10%, Isopentane 8%, N-octane 7%, 3-methylpentane 7%) -&gt; column 40 stages, reflux 2.0, boil-up 2.2, dp 0.75, cost $182.3M/yr
+[T] 1572 mol/s (N-butane 29%, N-pentane 27%, Isopentane 16%, Propane 13%, Isobutane 6%, Propylene 5%) -&gt; column 30 stages, reflux 1.5, boil-up 3.2, dp 0.0, cost $93.2M/yr
+[B] 1728 mol/s (2-methylpentane 20%, N-octane 14%, 3-methylpentane 13%, N-hexane 12%, N-heptane 12%, Cyclohexane 11%) -&gt; column 80 stages, reflux 3.5, boil-up 3.4, dp 0.5, cost $168.8M/yr
+[TT] 872 mol/s (N-butane 52%, Propane 24%, Isobutane 11%, Propylene 9%, Ethane 4%, Isopentane 1%) -&gt; column 40 stages, reflux 1.5, boil-up 1.4, dp 0.0, cost $39.0M/yr
+[TB] 700 mol/s (N-pentane 61%, Isopentane 35%, 2,2-dimethylbutane 3%, 2-methylpentane 0%, N-butane 0%, 3-methylpentane 0%) -&gt; sold for $603.1M/yr (blend: C5 mix)
+[BT] 874 mol/s (2-methylpentane 39%, 3-methylpentane 24%, 2,2-dimethylbutane 19%, N-hexane 13%, Methylcyclopentane 3%, N-pentane 1%) -&gt; sold for $1013.3M/yr (blend: C6 paraffin mix)
+[BB] 854 mol/s (N-octane 27%, N-heptane 24%, Cyclohexane 22%, N-hexane 12%, N-nonane 7%, Methylcyclopentane 6%) -&gt; column 90 stages, reflux 3.0, boil-up 6.4, dp 0.5, cost $123.7M/yr
+[TTT] 320 mol/s (Propane 65%, Propylene 24%, Ethane 11%, Isobutane 0%, N-butane 0%) -&gt; column 30 stages, reflux 3.0, boil-up 0.5, dp 0.0, cost $19.7M/yr
+[TTB] 552 mol/s (N-butane 81%, Isobutane 17%, Isopentane 1%, N-pentane 0%, Propane 0%, Propylene 0%) -&gt; sold for $186.1M/yr (blend: C4 mix)
+[BBT] 564 mol/s (N-heptane 36%, Cyclohexane 33%, N-hexane 18%, Methylcyclopentane 9%, 3-methylpentane 3%, N-octane 1%) -&gt; column 70 stages, reflux 3.0, boil-up 6.3, dp 0.0, cost $78.9M/yr
+[BBB] 291 mol/s (N-octane 79%, N-nonane 21%) -&gt; column 40 stages, reflux 2.0, boil-up 10.6, dp 0.0, cost $49.7M/yr
+[TTTT] 38 mol/s (Ethane 83%, Propylene 12%, Propane 4%) -&gt; sold for $0.0M/yr (not pure enough: worth 0)
+[TTTB] 282 mol/s (Propane 73%, Propylene 26%, Ethane 1%, Isobutane 0%, N-butane 0%) -&gt; sold for $71.4M/yr (blend: C3 mix)
+[BBTT] 354 mol/s (Cyclohexane 52%, N-hexane 28%, Methylcyclopentane 15%, 3-methylpentane 4%, 2-methylpentane 0%, N-heptane 0%) -&gt; column 100 stages, reflux 5.0, boil-up 5.4, dp 0.0, cost $56.9M/yr
+[BBTB] 210 mol/s (N-heptane 98%, N-octane 2%, Cyclohexane 0%) -&gt; sold for $331.1M/yr
+[BBBT] 230 mol/s (N-octane 99%, N-nonane 1%) -&gt; sold for $421.9M/yr (premium)
+[BBBB] 61 mol/s (N-nonane 100%, N-octane 0%) -&gt; sold for $122.1M/yr (premium)
+[BBTTT] 170 mol/s (N-hexane 59%, Methylcyclopentane 27%, 3-methylpentane 8%, Cyclohexane 6%, 2-methylpentane 1%, 2,2-dimethylbutane 0%) -&gt; sold for $0.0M/yr (not pure enough: worth 0)
+[BBTTB] 184 mol/s (Cyclohexane 95%, Methylcyclopentane 4%, N-heptane 0%, N-hexane 0%, 3-methylpentane 0%) -&gt; sold for $304.5M/yr</pre></details><details><summary>R26 — agent-0</summary><pre>reward 1.624 | revenue $1515.2M/yr | column cost $803.0M/yr | 9 columns | solves used 59/200
+[feed] 3300 mol/s (N-butane 14%, N-pentane 13%, 2-methylpentane 10%, Isopentane 8%, N-octane 7%, 3-methylpentane 7%) -&gt; column 40 stages, reflux 1.7, boil-up 1.93, dp 0.75, cost $161.7M/yr
+[T] 1566 mol/s (N-butane 29%, N-pentane 26%, Isopentane 16%, Propane 13%, Isobutane 6%, Propylene 5%) -&gt; column 30 stages, reflux 1.5, boil-up 3.2, dp 0.0, cost $93.2M/yr
+[B] 1734 mol/s (2-methylpentane 20%, N-octane 13%, 3-methylpentane 13%, N-hexane 12%, N-heptane 12%, Cyclohexane 11%) -&gt; column 80 stages, reflux 3.5, boil-up 3.4, dp 0.5, cost $169.5M/yr
+[TT] 869 mol/s (N-butane 52%, Propane 24%, Isobutane 11%, Propylene 9%, Ethane 4%, Isopentane 0%) -&gt; column 40 stages, reflux 1.5, boil-up 1.4, dp 0.0, cost $39.0M/yr
+[TB] 697 mol/s (N-pentane 59%, Isopentane 36%, 2,2-dimethylbutane 5%, 2-methylpentane 0%, 3-methylpentane 0%, N-butane 0%) -&gt; sold for $0.0M/yr (not pure enough: worth 0)
+[BT] 875 mol/s (2-methylpentane 39%, 3-methylpentane 24%, 2,2-dimethylbutane 17%, N-hexane 13%, Methylcyclopentane 3%, N-pentane 3%) -&gt; sold for $0.0M/yr (not pure enough: worth 0)
+[BB] 859 mol/s (N-octane 27%, N-heptane 24%, Cyclohexane 22%, N-hexane 12%, N-nonane 7%, Methylcyclopentane 6%) -&gt; column 90 stages, reflux 3.0, boil-up 6.4, dp 0.5, cost $124.2M/yr
+[TTT] 319 mol/s (Propane 65%, Propylene 24%, Ethane 11%, Isobutane 0%, N-butane 0%) -&gt; column 30 stages, reflux 3.0, boil-up 0.5, dp 0.0, cost $19.7M/yr
+[TTB] 551 mol/s (N-butane 82%, Isobutane 17%, Isopentane 1%, Propane 0%, N-pentane 0%, Propylene 0%) -&gt; sold for $186.1M/yr (blend: C4 mix)
+[BBT] 566 mol/s (N-heptane 36%, Cyclohexane 33%, N-hexane 18%, Methylcyclopentane 10%, 3-methylpentane 3%, N-octane 1%) -&gt; column 70 stages, reflux 3.0, boil-up 6.3, dp 0.0, cost $79.2M/yr
+[BBB] 292 mol/s (N-octane 79%, N-nonane 21%) -&gt; column 40 stages, reflux 2.0, boil-up 10.6, dp 0.0, cost $49.9M/yr
+[TTTT] 38 mol/s (Ethane 83%, Propylene 12%, Propane 4%) -&gt; sold for $0.0M/yr (not pure enough: worth 0)
+[TTTB] 281 mol/s (Propane 73%, Propylene 26%, Ethane 1%, Isobutane 0%, N-butane 0%) -&gt; sold for $71.2M/yr (blend: C3 mix)
+[BBTT] 356 mol/s (Cyclohexane 51%, N-hexane 29%, Methylcyclopentane 15%, 3-methylpentane 4%, 2-methylpentane 0%, N-heptane 0%) -&gt; column 100 stages, reflux 6.0, boil-up 6.35, dp 0.0, cost $66.6M/yr
+[BBTB] 211 mol/s (N-heptane 97%, N-octane 2%, Cyclohexane 1%, Methylcyclopentane 0%, N-hexane 0%) -&gt; sold for $331.5M/yr
+[BBBT] 231 mol/s (N-octane 100%, N-nonane 0%) -&gt; sold for $424.2M/yr (premium)
+[BBBB] 61 mol/s (N-nonane 100%, N-octane 0%) -&gt; sold for $122.6M/yr (premium)
+[BBTTT] 172 mol/s (N-hexane 59%, Methylcyclopentane 31%, 3-methylpentane 9%, 2-methylpentane 1%, Cyclohexane 0%, 2,2-dimethylbutane 0%) -&gt; sold for $0.0M/yr (not pure enough: worth 0)
+[BBTTB] 184 mol/s (Cyclohexane 99%, Methylcyclopentane 1%, N-heptane 0%, N-hexane 0%) -&gt; sold for $379.5M/yr (premium)</pre></details><details><summary>R27 — agent-0</summary><pre>reward 0.847 | revenue $860.6M/yr | column cost $489.3M/yr | 9 columns | solves used 61/200 | NOT VALID: 1 column(s) failed, 0 unsolved; does not count
+Validation: evaluated topology is incomplete or contains extra nodes; BB: column not solved (failed); overall component balance: balance/continuity mismatch
+[feed] 3300 mol/s (N-butane 14%, N-pentane 13%, 2-methylpentane 10%, Isopentane 8%, N-octane 7%, 3-methylpentane 7%) -&gt; column 40 stages, reflux 2.0, boil-up 2.2, dp 0.75, cost $182.3M/yr
+[T] 1572 mol/s (N-butane 29%, N-pentane 27%, Isopentane 16%, Propane 13%, Isobutane 6%, Propylene 5%) -&gt; column 30 stages, reflux 1.5, boil-up 3.2, dp 0.0, cost $93.2M/yr
+[B] 1728 mol/s (2-methylpentane 20%, N-octane 14%, 3-methylpentane 13%, N-hexane 12%, N-heptane 12%, Cyclohexane 11%) -&gt; column 80 stages, reflux 3.2, boil-up 3.09, dp 0.5, cost $155.1M/yr
+[TT] 872 mol/s (N-butane 52%, Propane 24%, Isobutane 11%, Propylene 9%, Ethane 4%, Isopentane 1%) -&gt; column 40 stages, reflux 1.5, boil-up 1.4, dp 0.0, cost $39.0M/yr
+[TB] 700 mol/s (N-pentane 61%, Isopentane 35%, 2,2-dimethylbutane 3%, 2-methylpentane 0%, N-butane 0%, 3-methylpentane 0%) -&gt; sold for $603.1M/yr (blend: C5 mix)
+[BT] 867 mol/s (2-methylpentane 39%, 3-methylpentane 24%, 2,2-dimethylbutane 19%, N-hexane 13%, Methylcyclopentane 4%, N-pentane 1%) -&gt; sold for $0.0M/yr (not pure enough: worth 0)
+[BB] 861 mol/s (N-octane 27%, N-heptane 24%, Cyclohexane 21%, N-hexane 12%, N-nonane 7%, Methylcyclopentane 6%) -&gt; failed: column did not converge (stock method and three alternative initialisations)
+[TTT] 320 mol/s (Propane 65%, Propylene 24%, Ethane 11%, Isobutane 0%, N-butane 0%) -&gt; column 30 stages, reflux 3.0, boil-up 0.5, dp 0.0, cost $19.7M/yr
+[TTB] 552 mol/s (N-butane 81%, Isobutane 17%, Isopentane 1%, N-pentane 0%, Propane 0%, Propylene 0%) -&gt; sold for $186.1M/yr (blend: C4 mix)
+[TTTT] 38 mol/s (Ethane 83%, Propylene 12%, Propane 4%) -&gt; sold for $0.0M/yr (not pure enough: worth 0)
+[TTTB] 282 mol/s (Propane 73%, Propylene 26%, Ethane 1%, Isobutane 0%, N-butane 0%) -&gt; sold for $71.4M/yr (blend: C3 mix)</pre></details><details><summary>R28 — agent-0</summary><pre>reward 5.261 | revenue $3128.0M/yr | column cost $820.7M/yr | 9 columns | solves used 62/200
+[feed] 3300 mol/s (N-butane 14%, N-pentane 13%, 2-methylpentane 10%, Isopentane 8%, N-octane 7%, 3-methylpentane 7%) -&gt; column 40 stages, reflux 2.0, boil-up 2.2, dp 0.75, cost $182.3M/yr
+[T] 1572 mol/s (N-butane 29%, N-pentane 27%, Isopentane 16%, Propane 13%, Isobutane 6%, Propylene 5%) -&gt; column 30 stages, reflux 1.5, boil-up 3.2, dp 0.0, cost $93.2M/yr
+[B] 1728 mol/s (2-methylpentane 20%, N-octane 14%, 3-methylpentane 13%, N-hexane 12%, N-heptane 12%, Cyclohexane 11%) -&gt; column 80 stages, reflux 3.5, boil-up 3.4, dp 0.5, cost $168.8M/yr
+[TT] 872 mol/s (N-butane 52%, Propane 24%, Isobutane 11%, Propylene 9%, Ethane 4%, Isopentane 1%) -&gt; column 40 stages, reflux 1.5, boil-up 1.4, dp 0.0, cost $39.0M/yr
+[TB] 700 mol/s (N-pentane 61%, Isopentane 35%, 2,2-dimethylbutane 3%, 2-methylpentane 0%, N-butane 0%, 3-methylpentane 0%) -&gt; sold for $603.1M/yr (blend: C5 mix)
+[BT] 874 mol/s (2-methylpentane 39%, 3-methylpentane 24%, 2,2-dimethylbutane 19%, N-hexane 13%, Methylcyclopentane 3%, N-pentane 1%) -&gt; sold for $1013.3M/yr (blend: C6 paraffin mix)
+[BB] 854 mol/s (N-octane 27%, N-heptane 24%, Cyclohexane 22%, N-hexane 12%, N-nonane 7%, Methylcyclopentane 6%) -&gt; column 75 stages, reflux 3.0, boil-up 6.4, dp 0.5, cost $122.8M/yr
+[TTT] 320 mol/s (Propane 65%, Propylene 24%, Ethane 11%, Isobutane 0%, N-butane 0%) -&gt; column 30 stages, reflux 3.0, boil-up 0.5, dp 0.0, cost $19.7M/yr
+[TTB] 552 mol/s (N-butane 81%, Isobutane 17%, Isopentane 1%, N-pentane 0%, Propane 0%, Propylene 0%) -&gt; sold for $186.1M/yr (blend: C4 mix)
+[BBT] 564 mol/s (N-heptane 36%, Cyclohexane 33%, N-hexane 18%, Methylcyclopentane 9%, 3-methylpentane 3%, N-octane 1%) -&gt; column 70 stages, reflux 3.0, boil-up 6.3, dp 0.0, cost $78.9M/yr
+[BBB] 291 mol/s (N-octane 79%, N-nonane 21%) -&gt; column 40 stages, reflux 2.0, boil-up 10.6, dp 0.0, cost $49.7M/yr
+[TTTT] 38 mol/s (Ethane 83%, Propylene 12%, Propane 4%) -&gt; sold for $0.0M/yr (not pure enough: worth 0)
+[TTTB] 282 mol/s (Propane 73%, Propylene 26%, Ethane 1%, Isobutane 0%, N-butane 0%) -&gt; sold for $71.4M/yr (blend: C3 mix)
+[BBTT] 354 mol/s (Cyclohexane 52%, N-hexane 28%, Methylcyclopentane 15%, 3-methylpentane 4%, 2-methylpentane 0%, N-heptane 0%) -&gt; column 100 stages, reflux 6.0, boil-up 6.35, dp 0.0, cost $66.3M/yr
+[BBTB] 210 mol/s (N-heptane 98%, N-octane 2%, Cyclohexane 0%) -&gt; sold for $331.1M/yr
+[BBBT] 230 mol/s (N-octane 99%, N-nonane 1%) -&gt; sold for $421.9M/yr (premium)
+[BBBB] 61 mol/s (N-nonane 100%, N-octane 0%) -&gt; sold for $122.1M/yr (premium)
+[BBTTT] 171 mol/s (N-hexane 58%, Methylcyclopentane 31%, 3-methylpentane 8%, Cyclohexane 2%, 2-methylpentane 1%, 2,2-dimethylbutane 0%) -&gt; sold for $0.0M/yr (not pure enough: worth 0)
+[BBTTB] 183 mol/s (Cyclohexane 100%, Methylcyclopentane 0%, N-heptane 0%, N-hexane 0%) -&gt; sold for $379.0M/yr (premium)</pre></details><details><summary>R29 — agent-0</summary><pre>reward 3.126 | revenue $1873.9M/yr | column cost $503.0M/yr | 9 columns | solves used 63/200 | NOT VALID: 1 column(s) failed, 0 unsolved; does not count
+Validation: evaluated topology is incomplete or contains extra nodes; BB: column not solved (failed); overall component balance: balance/continuity mismatch
+[feed] 3300 mol/s (N-butane 14%, N-pentane 13%, 2-methylpentane 10%, Isopentane 8%, N-octane 7%, 3-methylpentane 7%) -&gt; column 40 stages, reflux 2.0, boil-up 2.2, dp 0.75, cost $182.3M/yr
+[T] 1572 mol/s (N-butane 29%, N-pentane 27%, Isopentane 16%, Propane 13%, Isobutane 6%, Propylene 5%) -&gt; column 30 stages, reflux 1.5, boil-up 3.2, dp 0.0, cost $93.2M/yr
+[B] 1728 mol/s (2-methylpentane 20%, N-octane 14%, 3-methylpentane 13%, N-hexane 12%, N-heptane 12%, Cyclohexane 11%) -&gt; column 80 stages, reflux 3.5, boil-up 3.4, dp 0.5, cost $168.8M/yr
+[TT] 872 mol/s (N-butane 52%, Propane 24%, Isobutane 11%, Propylene 9%, Ethane 4%, Isopentane 1%) -&gt; column 40 stages, reflux 1.5, boil-up 1.4, dp 0.0, cost $39.0M/yr
+[TB] 700 mol/s (N-pentane 61%, Isopentane 35%, 2,2-dimethylbutane 3%, 2-methylpentane 0%, N-butane 0%, 3-methylpentane 0%) -&gt; sold for $603.1M/yr (blend: C5 mix)
+[BT] 874 mol/s (2-methylpentane 39%, 3-methylpentane 24%, 2,2-dimethylbutane 19%, N-hexane 13%, Methylcyclopentane 3%, N-pentane 1%) -&gt; sold for $1013.3M/yr (blend: C6 paraffin mix)
+[BB] 854 mol/s (N-octane 27%, N-heptane 24%, Cyclohexane 22%, N-hexane 12%, N-nonane 7%, Methylcyclopentane 6%) -&gt; failed: column did not converge (stock method and three alternative initialisations)
+[TTT] 320 mol/s (Propane 65%, Propylene 24%, Ethane 11%, Isobutane 0%, N-butane 0%) -&gt; column 30 stages, reflux 3.0, boil-up 0.5, dp 0.0, cost $19.7M/yr
+[TTB] 552 mol/s (N-butane 81%, Isobutane 17%, Isopentane 1%, N-pentane 0%, Propane 0%, Propylene 0%) -&gt; sold for $186.1M/yr (blend: C4 mix)
+[TTTT] 38 mol/s (Ethane 83%, Propylene 12%, Propane 4%) -&gt; sold for $0.0M/yr (not pure enough: worth 0)
+[TTTB] 282 mol/s (Propane 73%, Propylene 26%, Ethane 1%, Isobutane 0%, N-butane 0%) -&gt; sold for $71.4M/yr (blend: C3 mix)</pre></details><details><summary>R30 — agent-0</summary><pre>reward 5.258 | revenue $3128.0M/yr | column cost $821.9M/yr | 9 columns | solves used 64/200
+[feed] 3300 mol/s (N-butane 14%, N-pentane 13%, 2-methylpentane 10%, Isopentane 8%, N-octane 7%, 3-methylpentane 7%) -&gt; column 40 stages, reflux 2.0, boil-up 2.2, dp 0.75, cost $182.3M/yr
+[T] 1572 mol/s (N-butane 29%, N-pentane 27%, Isopentane 16%, Propane 13%, Isobutane 6%, Propylene 5%) -&gt; column 30 stages, reflux 1.5, boil-up 3.2, dp 0.0, cost $93.2M/yr
+[B] 1728 mol/s (2-methylpentane 20%, N-octane 14%, 3-methylpentane 13%, N-hexane 12%, N-heptane 12%, Cyclohexane 11%) -&gt; column 80 stages, reflux 3.5, boil-up 3.4, dp 0.5, cost $168.8M/yr
+[TT] 872 mol/s (N-butane 52%, Propane 24%, Isobutane 11%, Propylene 9%, Ethane 4%, Isopentane 1%) -&gt; column 40 stages, reflux 1.5, boil-up 1.4, dp 0.0, cost $39.0M/yr
+[TB] 700 mol/s (N-pentane 61%, Isopentane 35%, 2,2-dimethylbutane 3%, 2-methylpentane 0%, N-butane 0%, 3-methylpentane 0%) -&gt; sold for $603.1M/yr (blend: C5 mix)
+[BT] 874 mol/s (2-methylpentane 39%, 3-methylpentane 24%, 2,2-dimethylbutane 19%, N-hexane 13%, Methylcyclopentane 3%, N-pentane 1%) -&gt; sold for $1013.3M/yr (blend: C6 paraffin mix)
+[BB] 854 mol/s (N-octane 27%, N-heptane 24%, Cyclohexane 22%, N-hexane 12%, N-nonane 7%, Methylcyclopentane 6%) -&gt; column 95 stages, reflux 3.0, boil-up 6.4, dp 0.5, cost $123.9M/yr
+[TTT] 320 mol/s (Propane 65%, Propylene 24%, Ethane 11%, Isobutane 0%, N-butane 0%) -&gt; column 30 stages, reflux 3.0, boil-up 0.5, dp 0.0, cost $19.7M/yr
+[TTB] 552 mol/s (N-butane 81%, Isobutane 17%, Isopentane 1%, N-pentane 0%, Propane 0%, Propylene 0%) -&gt; sold for $186.1M/yr (blend: C4 mix)
+[BBT] 564 mol/s (N-heptane 36%, Cyclohexane 33%, N-hexane 18%, Methylcyclopentane 9%, 3-methylpentane 3%, N-octane 1%) -&gt; column 70 stages, reflux 3.0, boil-up 6.3, dp 0.0, cost $78.9M/yr
+[BBB] 291 mol/s (N-octane 79%, N-nonane 21%) -&gt; column 40 stages, reflux 2.0, boil-up 10.6, dp 0.0, cost $49.7M/yr
+[TTTT] 38 mol/s (Ethane 83%, Propylene 12%, Propane 4%) -&gt; sold for $0.0M/yr (not pure enough: worth 0)
+[TTTB] 282 mol/s (Propane 73%, Propylene 26%, Ethane 1%, Isobutane 0%, N-butane 0%) -&gt; sold for $71.4M/yr (blend: C3 mix)
+[BBTT] 354 mol/s (Cyclohexane 52%, N-hexane 28%, Methylcyclopentane 15%, 3-methylpentane 4%, 2-methylpentane 0%, N-heptane 0%) -&gt; column 100 stages, reflux 6.0, boil-up 6.35, dp 0.0, cost $66.3M/yr
+[BBTB] 210 mol/s (N-heptane 98%, N-octane 2%, Cyclohexane 0%) -&gt; sold for $331.1M/yr
+[BBBT] 230 mol/s (N-octane 99%, N-nonane 1%) -&gt; sold for $421.9M/yr (premium)
+[BBBB] 61 mol/s (N-nonane 100%, N-octane 0%) -&gt; sold for $122.1M/yr (premium)
+[BBTTT] 171 mol/s (N-hexane 58%, Methylcyclopentane 31%, 3-methylpentane 8%, Cyclohexane 2%, 2-methylpentane 1%, 2,2-dimethylbutane 0%) -&gt; sold for $0.0M/yr (not pure enough: worth 0)
+[BBTTB] 183 mol/s (Cyclohexane 100%, Methylcyclopentane 0%, N-heptane 0%, N-hexane 0%) -&gt; sold for $379.0M/yr (premium)</pre></details><details><summary>R31 — agent-0</summary><pre>reward 3.126 | revenue $1873.9M/yr | column cost $503.0M/yr | 9 columns | solves used 65/200 | NOT VALID: 1 column(s) failed, 0 unsolved; does not count
+Validation: evaluated topology is incomplete or contains extra nodes; BB: column not solved (failed); overall component balance: balance/continuity mismatch
+[feed] 3300 mol/s (N-butane 14%, N-pentane 13%, 2-methylpentane 10%, Isopentane 8%, N-octane 7%, 3-methylpentane 7%) -&gt; column 40 stages, reflux 2.0, boil-up 2.2, dp 0.75, cost $182.3M/yr
+[T] 1572 mol/s (N-butane 29%, N-pentane 27%, Isopentane 16%, Propane 13%, Isobutane 6%, Propylene 5%) -&gt; column 30 stages, reflux 1.5, boil-up 3.2, dp 0.0, cost $93.2M/yr
+[B] 1728 mol/s (2-methylpentane 20%, N-octane 14%, 3-methylpentane 13%, N-hexane 12%, N-heptane 12%, Cyclohexane 11%) -&gt; column 80 stages, reflux 3.5, boil-up 3.4, dp 0.5, cost $168.8M/yr
+[TT] 872 mol/s (N-butane 52%, Propane 24%, Isobutane 11%, Propylene 9%, Ethane 4%, Isopentane 1%) -&gt; column 40 stages, reflux 1.5, boil-up 1.4, dp 0.0, cost $39.0M/yr
+[TB] 700 mol/s (N-pentane 61%, Isopentane 35%, 2,2-dimethylbutane 3%, 2-methylpentane 0%, N-butane 0%, 3-methylpentane 0%) -&gt; sold for $603.1M/yr (blend: C5 mix)
+[BT] 874 mol/s (2-methylpentane 39%, 3-methylpentane 24%, 2,2-dimethylbutane 19%, N-hexane 13%, Methylcyclopentane 3%, N-pentane 1%) -&gt; sold for $1013.3M/yr (blend: C6 paraffin mix)
+[BB] 854 mol/s (N-octane 27%, N-heptane 24%, Cyclohexane 22%, N-hexane 12%, N-nonane 7%, Methylcyclopentane 6%) -&gt; failed: column did not converge (stock method and three alternative initialisations)
+[TTT] 320 mol/s (Propane 65%, Propylene 24%, Ethane 11%, Isobutane 0%, N-butane 0%) -&gt; column 30 stages, reflux 3.0, boil-up 0.5, dp 0.0, cost $19.7M/yr
+[TTB] 552 mol/s (N-butane 81%, Isobutane 17%, Isopentane 1%, N-pentane 0%, Propane 0%, Propylene 0%) -&gt; sold for $186.1M/yr (blend: C4 mix)
+[TTTT] 38 mol/s (Ethane 83%, Propylene 12%, Propane 4%) -&gt; sold for $0.0M/yr (not pure enough: worth 0)
+[TTTB] 282 mol/s (Propane 73%, Propylene 26%, Ethane 1%, Isobutane 0%, N-butane 0%) -&gt; sold for $71.4M/yr (blend: C3 mix)</pre></details><details><summary>R32 — agent-0</summary><pre>reward 3.126 | revenue $1873.9M/yr | column cost $503.0M/yr | 9 columns | solves used 66/200 | NOT VALID: 1 column(s) failed, 0 unsolved; does not count
+Validation: evaluated topology is incomplete or contains extra nodes; BB: column not solved (failed); overall component balance: balance/continuity mismatch
+[feed] 3300 mol/s (N-butane 14%, N-pentane 13%, 2-methylpentane 10%, Isopentane 8%, N-octane 7%, 3-methylpentane 7%) -&gt; column 40 stages, reflux 2.0, boil-up 2.2, dp 0.75, cost $182.3M/yr
+[T] 1572 mol/s (N-butane 29%, N-pentane 27%, Isopentane 16%, Propane 13%, Isobutane 6%, Propylene 5%) -&gt; column 30 stages, reflux 1.5, boil-up 3.2, dp 0.0, cost $93.2M/yr
+[B] 1728 mol/s (2-methylpentane 20%, N-octane 14%, 3-methylpentane 13%, N-hexane 12%, N-heptane 12%, Cyclohexane 11%) -&gt; column 80 stages, reflux 3.5, boil-up 3.4, dp 0.5, cost $168.8M/yr
+[TT] 872 mol/s (N-butane 52%, Propane 24%, Isobutane 11%, Propylene 9%, Ethane 4%, Isopentane 1%) -&gt; column 40 stages, reflux 1.5, boil-up 1.4, dp 0.0, cost $39.0M/yr
+[TB] 700 mol/s (N-pentane 61%, Isopentane 35%, 2,2-dimethylbutane 3%, 2-methylpentane 0%, N-butane 0%, 3-methylpentane 0%) -&gt; sold for $603.1M/yr (blend: C5 mix)
+[BT] 874 mol/s (2-methylpentane 39%, 3-methylpentane 24%, 2,2-dimethylbutane 19%, N-hexane 13%, Methylcyclopentane 3%, N-pentane 1%) -&gt; sold for $1013.3M/yr (blend: C6 paraffin mix)
+[BB] 854 mol/s (N-octane 27%, N-heptane 24%, Cyclohexane 22%, N-hexane 12%, N-nonane 7%, Methylcyclopentane 6%) -&gt; failed: column did not converge (stock method and three alternative initialisations)
+[TTT] 320 mol/s (Propane 65%, Propylene 24%, Ethane 11%, Isobutane 0%, N-butane 0%) -&gt; column 30 stages, reflux 3.0, boil-up 0.5, dp 0.0, cost $19.7M/yr
+[TTB] 552 mol/s (N-butane 81%, Isobutane 17%, Isopentane 1%, N-pentane 0%, Propane 0%, Propylene 0%) -&gt; sold for $186.1M/yr (blend: C4 mix)
+[TTTT] 38 mol/s (Ethane 83%, Propylene 12%, Propane 4%) -&gt; sold for $0.0M/yr (not pure enough: worth 0)
+[TTTB] 282 mol/s (Propane 73%, Propylene 26%, Ethane 1%, Isobutane 0%, N-butane 0%) -&gt; sold for $71.4M/yr (blend: C3 mix)</pre></details><details><summary>R33 — agent-0</summary><pre>reward 5.303 | revenue $3174.5M/yr | column cost $848.8M/yr | 10 columns | solves used 67/200
+[feed] 3300 mol/s (N-butane 14%, N-pentane 13%, 2-methylpentane 10%, Isopentane 8%, N-octane 7%, 3-methylpentane 7%) -&gt; column 40 stages, reflux 2.0, boil-up 2.2, dp 0.75, cost $182.3M/yr
+[T] 1572 mol/s (N-butane 29%, N-pentane 27%, Isopentane 16%, Propane 13%, Isobutane 6%, Propylene 5%) -&gt; column 30 stages, reflux 1.5, boil-up 3.2, dp 0.0, cost $93.2M/yr
+[B] 1728 mol/s (2-methylpentane 20%, N-octane 14%, 3-methylpentane 13%, N-hexane 12%, N-heptane 12%, Cyclohexane 11%) -&gt; column 80 stages, reflux 3.5, boil-up 3.4, dp 0.5, cost $168.8M/yr
+[TT] 872 mol/s (N-butane 52%, Propane 24%, Isobutane 11%, Propylene 9%, Ethane 4%, Isopentane 1%) -&gt; column 40 stages, reflux 1.5, boil-up 1.4, dp 0.0, cost $39.0M/yr
+[TB] 700 mol/s (N-pentane 61%, Isopentane 35%, 2,2-dimethylbutane 3%, 2-methylpentane 0%, N-butane 0%, 3-methylpentane 0%) -&gt; sold for $603.1M/yr (blend: C5 mix)
+[BT] 874 mol/s (2-methylpentane 39%, 3-methylpentane 24%, 2,2-dimethylbutane 19%, N-hexane 13%, Methylcyclopentane 3%, N-pentane 1%) -&gt; sold for $1013.3M/yr (blend: C6 paraffin mix)
+[BB] 854 mol/s (N-octane 27%, N-heptane 24%, Cyclohexane 22%, N-hexane 12%, N-nonane 7%, Methylcyclopentane 6%) -&gt; column 75 stages, reflux 3.0, boil-up 6.4, dp 0.5, cost $122.8M/yr
+[TTT] 320 mol/s (Propane 65%, Propylene 24%, Ethane 11%, Isobutane 0%, N-butane 0%) -&gt; column 30 stages, reflux 3.0, boil-up 0.5, dp 0.0, cost $19.7M/yr
+[TTB] 552 mol/s (N-butane 81%, Isobutane 17%, Isopentane 1%, N-pentane 0%, Propane 0%, Propylene 0%) -&gt; sold for $186.1M/yr (blend: C4 mix)
+[BBT] 564 mol/s (N-heptane 36%, Cyclohexane 33%, N-hexane 18%, Methylcyclopentane 9%, 3-methylpentane 3%, N-octane 1%) -&gt; column 70 stages, reflux 3.0, boil-up 6.3, dp 0.0, cost $78.9M/yr
+[BBB] 291 mol/s (N-octane 79%, N-nonane 21%) -&gt; column 40 stages, reflux 2.0, boil-up 10.6, dp 0.0, cost $49.7M/yr
+[TTTT] 38 mol/s (Ethane 83%, Propylene 12%, Propane 4%) -&gt; sold for $0.0M/yr (not pure enough: worth 0)
+[TTTB] 282 mol/s (Propane 73%, Propylene 26%, Ethane 1%, Isobutane 0%, N-butane 0%) -&gt; sold for $71.4M/yr (blend: C3 mix)
+[BBTT] 354 mol/s (Cyclohexane 52%, N-hexane 28%, Methylcyclopentane 15%, 3-methylpentane 4%, 2-methylpentane 0%, N-heptane 0%) -&gt; column 100 stages, reflux 6.0, boil-up 6.35, dp 0.0, cost $66.3M/yr
+[BBTB] 210 mol/s (N-heptane 98%, N-octane 2%, Cyclohexane 0%) -&gt; column 25 stages, reflux 1.4, boil-up 30.0, dp 0.0, cost $28.1M/yr
+[BBBT] 230 mol/s (N-octane 99%, N-nonane 1%) -&gt; sold for $421.9M/yr (premium)
+[BBBB] 61 mol/s (N-nonane 100%, N-octane 0%) -&gt; sold for $122.1M/yr (premium)
+[BBTTT] 171 mol/s (N-hexane 58%, Methylcyclopentane 31%, 3-methylpentane 8%, Cyclohexane 2%, 2-methylpentane 1%, 2,2-dimethylbutane 0%) -&gt; sold for $0.0M/yr (not pure enough: worth 0)
+[BBTTB] 183 mol/s (Cyclohexane 100%, Methylcyclopentane 0%, N-heptane 0%, N-hexane 0%) -&gt; sold for $379.0M/yr (premium)
+[BBTBT] 195 mol/s (N-heptane 100%, N-octane 0%, Cyclohexane 0%) -&gt; sold for $377.6M/yr (premium)
+[BBTBB] 15 mol/s (N-heptane 68%, N-octane 32%) -&gt; sold for $0.0M/yr (not pure enough: worth 0)</pre></details><details><summary>R34 — agent-0</summary><pre>reward 5.304 | revenue $3170.2M/yr | column cost $844.0M/yr | 10 columns | solves used 68/200
+[feed] 3300 mol/s (N-butane 14%, N-pentane 13%, 2-methylpentane 10%, Isopentane 8%, N-octane 7%, 3-methylpentane 7%) -&gt; column 40 stages, reflux 2.0, boil-up 2.2, dp 0.75, cost $182.3M/yr
+[T] 1572 mol/s (N-butane 29%, N-pentane 27%, Isopentane 16%, Propane 13%, Isobutane 6%, Propylene 5%) -&gt; column 30 stages, reflux 1.5, boil-up 3.2, dp 0.0, cost $93.2M/yr
+[B] 1728 mol/s (2-methylpentane 20%, N-octane 14%, 3-methylpentane 13%, N-hexane 12%, N-heptane 12%, Cyclohexane 11%) -&gt; column 80 stages, reflux 3.5, boil-up 3.4, dp 0.5, cost $168.8M/yr
+[TT] 872 mol/s (N-butane 52%, Propane 24%, Isobutane 11%, Propylene 9%, Ethane 4%, Isopentane 1%) -&gt; column 40 stages, reflux 1.5, boil-up 1.4, dp 0.0, cost $39.0M/yr
+[TB] 700 mol/s (N-pentane 61%, Isopentane 35%, 2,2-dimethylbutane 3%, 2-methylpentane 0%, N-butane 0%, 3-methylpentane 0%) -&gt; sold for $603.1M/yr (blend: C5 mix)
+[BT] 874 mol/s (2-methylpentane 39%, 3-methylpentane 24%, 2,2-dimethylbutane 19%, N-hexane 13%, Methylcyclopentane 3%, N-pentane 1%) -&gt; sold for $1013.3M/yr (blend: C6 paraffin mix)
+[BB] 854 mol/s (N-octane 27%, N-heptane 24%, Cyclohexane 22%, N-hexane 12%, N-nonane 7%, Methylcyclopentane 6%) -&gt; column 75 stages, reflux 3.0, boil-up 6.4, dp 0.5, cost $122.8M/yr
+[TTT] 320 mol/s (Propane 65%, Propylene 24%, Ethane 11%, Isobutane 0%, N-butane 0%) -&gt; column 30 stages, reflux 3.0, boil-up 0.5, dp 0.0, cost $19.7M/yr
+[TTB] 552 mol/s (N-butane 81%, Isobutane 17%, Isopentane 1%, N-pentane 0%, Propane 0%, Propylene 0%) -&gt; sold for $186.1M/yr (blend: C4 mix)
+[BBT] 564 mol/s (N-heptane 36%, Cyclohexane 33%, N-hexane 18%, Methylcyclopentane 9%, 3-methylpentane 3%, N-octane 1%) -&gt; column 70 stages, reflux 3.0, boil-up 6.3, dp 0.0, cost $78.9M/yr
+[BBB] 291 mol/s (N-octane 79%, N-nonane 21%) -&gt; column 40 stages, reflux 2.0, boil-up 10.6, dp 0.0, cost $49.7M/yr
+[TTTT] 38 mol/s (Ethane 83%, Propylene 12%, Propane 4%) -&gt; sold for $0.0M/yr (not pure enough: worth 0)
+[TTTB] 282 mol/s (Propane 73%, Propylene 26%, Ethane 1%, Isobutane 0%, N-butane 0%) -&gt; sold for $71.4M/yr (blend: C3 mix)
+[BBTT] 354 mol/s (Cyclohexane 52%, N-hexane 28%, Methylcyclopentane 15%, 3-methylpentane 4%, 2-methylpentane 0%, N-heptane 0%) -&gt; column 100 stages, reflux 6.0, boil-up 6.35, dp 0.0, cost $66.3M/yr
+[BBTB] 210 mol/s (N-heptane 98%, N-octane 2%, Cyclohexane 0%) -&gt; column 25 stages, reflux 1.0, boil-up 22.0, dp 0.0, cost $23.3M/yr
+[BBBT] 230 mol/s (N-octane 99%, N-nonane 1%) -&gt; sold for $421.9M/yr (premium)
+[BBBB] 61 mol/s (N-nonane 100%, N-octane 0%) -&gt; sold for $122.1M/yr (premium)
+[BBTTT] 171 mol/s (N-hexane 58%, Methylcyclopentane 31%, 3-methylpentane 8%, Cyclohexane 2%, 2-methylpentane 1%, 2,2-dimethylbutane 0%) -&gt; sold for $0.0M/yr (not pure enough: worth 0)
+[BBTTB] 183 mol/s (Cyclohexane 100%, Methylcyclopentane 0%, N-heptane 0%, N-hexane 0%) -&gt; sold for $379.0M/yr (premium)
+[BBTBT] 193 mol/s (N-heptane 100%, N-octane 0%, Cyclohexane 0%) -&gt; sold for $373.4M/yr (premium)
+[BBTBB] 17 mol/s (N-heptane 73%, N-octane 27%) -&gt; sold for $0.0M/yr (not pure enough: worth 0)</pre></details><details><summary>R35 — agent-0</summary><pre>reward 5.331 | revenue $3171.4M/yr | column cost $833.4M/yr | 10 columns | solves used 71/200
+[feed] 3300 mol/s (N-butane 14%, N-pentane 13%, 2-methylpentane 10%, Isopentane 8%, N-octane 7%, 3-methylpentane 7%) -&gt; column 40 stages, reflux 2.0, boil-up 2.2, dp 0.75, cost $182.3M/yr
+[T] 1572 mol/s (N-butane 29%, N-pentane 27%, Isopentane 16%, Propane 13%, Isobutane 6%, Propylene 5%) -&gt; column 30 stages, reflux 1.2, boil-up 2.74, dp 0.0, cost $83.0M/yr
+[B] 1728 mol/s (2-methylpentane 20%, N-octane 14%, 3-methylpentane 13%, N-hexane 12%, N-heptane 12%, Cyclohexane 11%) -&gt; column 80 stages, reflux 3.5, boil-up 3.4, dp 0.5, cost $168.8M/yr
+[TT] 859 mol/s (N-butane 51%, Propane 24%, Isobutane 11%, Propylene 9%, Ethane 4%, Isopentane 0%) -&gt; column 40 stages, reflux 1.5, boil-up 1.4, dp 0.0, cost $38.7M/yr
+[TB] 713 mol/s (N-pentane 60%, Isopentane 35%, 2,2-dimethylbutane 3%, N-butane 1%, 2-methylpentane 0%, 3-methylpentane 0%) -&gt; sold for $607.8M/yr (blend: C5 mix)
+[BT] 874 mol/s (2-methylpentane 39%, 3-methylpentane 24%, 2,2-dimethylbutane 19%, N-hexane 13%, Methylcyclopentane 3%, N-pentane 1%) -&gt; sold for $1013.3M/yr (blend: C6 paraffin mix)
+[BB] 854 mol/s (N-octane 27%, N-heptane 24%, Cyclohexane 22%, N-hexane 12%, N-nonane 7%, Methylcyclopentane 6%) -&gt; column 75 stages, reflux 3.0, boil-up 6.4, dp 0.5, cost $122.8M/yr
+[TTT] 316 mol/s (Propane 65%, Propylene 24%, Ethane 11%, Isobutane 0%, N-butane 0%) -&gt; column 30 stages, reflux 3.0, boil-up 0.5, dp 0.0, cost $19.6M/yr
+[TTB] 543 mol/s (N-butane 81%, Isobutane 17%, Propane 1%, Isopentane 0%, N-pentane 0%, Propylene 0%) -&gt; sold for $183.5M/yr (blend: C4 mix)
+[BBT] 564 mol/s (N-heptane 36%, Cyclohexane 33%, N-hexane 18%, Methylcyclopentane 9%, 3-methylpentane 3%, N-octane 1%) -&gt; column 70 stages, reflux 3.0, boil-up 6.3, dp 0.0, cost $78.9M/yr
+[BBB] 291 mol/s (N-octane 79%, N-nonane 21%) -&gt; column 40 stages, reflux 2.0, boil-up 10.6, dp 0.0, cost $49.7M/yr
+[TTTT] 37 mol/s (Ethane 84%, Propylene 12%, Propane 4%) -&gt; sold for $0.0M/yr (not pure enough: worth 0)
+[TTTB] 278 mol/s (Propane 73%, Propylene 26%, Ethane 1%, Isobutane 0%, N-butane 0%) -&gt; sold for $70.5M/yr (blend: C3 mix)
+[BBTT] 354 mol/s (Cyclohexane 52%, N-hexane 28%, Methylcyclopentane 15%, 3-methylpentane 4%, 2-methylpentane 0%, N-heptane 0%) -&gt; column 100 stages, reflux 6.0, boil-up 6.35, dp 0.0, cost $66.3M/yr
+[BBTB] 210 mol/s (N-heptane 98%, N-octane 2%, Cyclohexane 0%) -&gt; column 25 stages, reflux 1.0, boil-up 22.0, dp 0.0, cost $23.3M/yr
+[BBBT] 230 mol/s (N-octane 99%, N-nonane 1%) -&gt; sold for $421.9M/yr (premium)
+[BBBB] 61 mol/s (N-nonane 100%, N-octane 0%) -&gt; sold for $122.1M/yr (premium)
+[BBTTT] 171 mol/s (N-hexane 58%, Methylcyclopentane 31%, 3-methylpentane 8%, Cyclohexane 2%, 2-methylpentane 1%, 2,2-dimethylbutane 0%) -&gt; sold for $0.0M/yr (not pure enough: worth 0)
+[BBTTB] 183 mol/s (Cyclohexane 100%, Methylcyclopentane 0%, N-heptane 0%, N-hexane 0%) -&gt; sold for $379.0M/yr (premium)
+[BBTBT] 193 mol/s (N-heptane 100%, N-octane 0%, Cyclohexane 0%) -&gt; sold for $373.4M/yr (premium)
+[BBTBB] 17 mol/s (N-heptane 73%, N-octane 27%) -&gt; sold for $0.0M/yr (not pure enough: worth 0)</pre></details><details><summary>R36 — agent-0</summary><pre>reward 3.946 | revenue $2556.7M/yr | column cost $826.1M/yr | 10 columns | solves used 74/200
+[feed] 3300 mol/s (N-butane 14%, N-pentane 13%, 2-methylpentane 10%, Isopentane 8%, N-octane 7%, 3-methylpentane 7%) -&gt; column 40 stages, reflux 2.0, boil-up 2.2, dp 0.75, cost $182.3M/yr
+[T] 1572 mol/s (N-butane 29%, N-pentane 27%, Isopentane 16%, Propane 13%, Isobutane 6%, Propylene 5%) -&gt; column 30 stages, reflux 1.0, boil-up 2.45, dp 0.0, cost $76.0M/yr
+[B] 1728 mol/s (2-methylpentane 20%, N-octane 14%, 3-methylpentane 13%, N-hexane 12%, N-heptane 12%, Cyclohexane 11%) -&gt; column 80 stages, reflux 3.5, boil-up 3.4, dp 0.5, cost $168.8M/yr
+[TT] 851 mol/s (N-butane 50%, Propane 25%, Isobutane 11%, Propylene 9%, Ethane 4%, Isopentane 1%) -&gt; column 40 stages, reflux 1.5, boil-up 1.4, dp 0.0, cost $38.5M/yr
+[TB] 721 mol/s (N-pentane 59%, Isopentane 34%, N-butane 4%, 2,2-dimethylbutane 3%, 2-methylpentane 0%, Isobutane 0%) -&gt; sold for $0.0M/yr (not pure enough: worth 0)
+[BT] 874 mol/s (2-methylpentane 39%, 3-methylpentane 24%, 2,2-dimethylbutane 19%, N-hexane 13%, Methylcyclopentane 3%, N-pentane 1%) -&gt; sold for $1013.3M/yr (blend: C6 paraffin mix)
+[BB] 854 mol/s (N-octane 27%, N-heptane 24%, Cyclohexane 22%, N-hexane 12%, N-nonane 7%, Methylcyclopentane 6%) -&gt; column 75 stages, reflux 3.0, boil-up 6.4, dp 0.5, cost $122.8M/yr
+[TTT] 314 mol/s (Propane 64%, Propylene 25%, Ethane 11%, Isobutane 0%, N-butane 0%) -&gt; column 30 stages, reflux 3.0, boil-up 0.5, dp 0.0, cost $19.5M/yr
+[TTB] 537 mol/s (N-butane 79%, Isobutane 17%, Isopentane 2%, Propane 1%, N-pentane 1%, Propylene 0%) -&gt; sold for $177.1M/yr (blend: C4 mix)
+[BBT] 564 mol/s (N-heptane 36%, Cyclohexane 33%, N-hexane 18%, Methylcyclopentane 9%, 3-methylpentane 3%, N-octane 1%) -&gt; column 70 stages, reflux 3.0, boil-up 6.3, dp 0.0, cost $78.9M/yr
+[BBB] 291 mol/s (N-octane 79%, N-nonane 21%) -&gt; column 40 stages, reflux 2.0, boil-up 10.6, dp 0.0, cost $49.7M/yr
+[TTTT] 37 mol/s (Ethane 84%, Propylene 12%, Propane 4%) -&gt; sold for $0.0M/yr (not pure enough: worth 0)
+[TTTB] 276 mol/s (Propane 73%, Propylene 26%, Ethane 1%, Isobutane 0%, N-butane 0%) -&gt; sold for $69.9M/yr (blend: C3 mix)
+[BBTT] 354 mol/s (Cyclohexane 52%, N-hexane 28%, Methylcyclopentane 15%, 3-methylpentane 4%, 2-methylpentane 0%, N-heptane 0%) -&gt; column 100 stages, reflux 6.0, boil-up 6.35, dp 0.0, cost $66.3M/yr
+[BBTB] 210 mol/s (N-heptane 98%, N-octane 2%, Cyclohexane 0%) -&gt; column 25 stages, reflux 1.0, boil-up 22.0, dp 0.0, cost $23.3M/yr
+[BBBT] 230 mol/s (N-octane 99%, N-nonane 1%) -&gt; sold for $421.9M/yr (premium)
+[BBBB] 61 mol/s (N-nonane 100%, N-octane 0%) -&gt; sold for $122.1M/yr (premium)
+[BBTTT] 171 mol/s (N-hexane 58%, Methylcyclopentane 31%, 3-methylpentane 8%, Cyclohexane 2%, 2-methylpentane 1%, 2,2-dimethylbutane 0%) -&gt; sold for $0.0M/yr (not pure enough: worth 0)
+[BBTTB] 183 mol/s (Cyclohexane 100%, Methylcyclopentane 0%, N-heptane 0%, N-hexane 0%) -&gt; sold for $379.0M/yr (premium)
+[BBTBT] 193 mol/s (N-heptane 100%, N-octane 0%, Cyclohexane 0%) -&gt; sold for $373.4M/yr (premium)
+[BBTBB] 17 mol/s (N-heptane 73%, N-octane 27%) -&gt; sold for $0.0M/yr (not pure enough: worth 0)</pre></details>

@@ -1,0 +1,65 @@
+{
+  "task_id": "hc12_dev_000",
+  "components": [
+    "Ethane",
+    "Propane",
+    "Isobutane",
+    "N-butane",
+    "Isopentane",
+    "N-pentane",
+    "2,2-dimethylbutane",
+    "2-methylpentane",
+    "N-hexane",
+    "Methylcyclopentane",
+    "N-heptane",
+    "N-octane"
+  ],
+  "feed_flows_mol_s": [
+    128.271138,
+    355.233439,
+    206.916885,
+    298.696659,
+    513.11839,
+    278.625168,
+    77.570139,
+    365.858994,
+    145.13014,
+    190.001068,
+    369.095829,
+    371.482152
+  ],
+  "temperature_K": 400.0,
+  "pressure_Pa": 1760000.0,
+  "prices_usd_per_mol": [
+    0.0043844125424584495,
+    0.008625699496581853,
+    0.014055337098892154,
+    0.017291564118844003,
+    0.044372691431735174,
+    0.033533188392780224,
+    0.0614821312930757,
+    0.051187102010926834,
+    0.05077347273761818,
+    0.05467201238752148,
+    0.04090563446142021,
+    0.07216478581532836
+  ],
+  "required_purity": 0.95,
+  "annual_operating_hours": 8000.0,
+  "stream_limit": 36,
+  "min_recovery_fraction": 0.01,
+  "action_bounds": {
+    "reflux_ratio": [
+      0.1,
+      30.0
+    ],
+    "reboil_ratio": [
+      0.1,
+      30.0
+    ]
+  },
+  "meta": {
+    "family": "hc12",
+    "split": "dev"
+  }
+}

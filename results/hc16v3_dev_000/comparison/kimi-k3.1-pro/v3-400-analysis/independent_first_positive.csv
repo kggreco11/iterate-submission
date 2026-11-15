@@ -1,0 +1,2 @@
+status,queries,agent_queries,elapsed_s,usd,input_tokens,output_tokens,round,reward
+user_stopped,26,9,31.796999999999997,0.135388,27714,7996,2,0.2165144516803411

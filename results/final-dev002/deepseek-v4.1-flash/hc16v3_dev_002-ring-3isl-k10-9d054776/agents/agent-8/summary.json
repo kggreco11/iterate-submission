@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-3isl-k10-9d054776",
+ "agent_id": "agent-8",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 104,
+ "failed_requests": 0,
+ "input_tokens": 599548,
+ "output_tokens": 105878,
+ "usd_estimated_total": 0.30691799999999997,
+ "requests_with_unknown_cost": 0,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 4928.483295440674,
+ "status": "finished",
+ "island": 2,
+ "strategy": null,
+ "best_valid_reward": 0.0,
+ "solves_used": 44,
+ "first_positive_at_solves": null,
+ "usd_cached_price_estimate": 0.23689944000000002,
+ "notebook": "Turn 51. Solves 44/50. Best valid = 0.000 (empty). Team best = 0.000.\n\nEconomics: value = flow*price*2.88e7 $/yr. All-pure total ~$3615M/yr.\nBlend prizes (85% mean price): C6-paraffin mix ~$1181M (970 mol/s), C5 mix ~$618M (695), C6-naphthene ~$396M (269), C4 mix ~$186M, C3 mix ~$73M.\n\nKey realization: the score is the BEST valid design I evaluated, so probing cannot erase 0.000 \u2014 only an INVALID plant wastes a solve. My prior 10 turns of \"hold\" were over-cautious.\n\nSeparation facts from shown data: a 30/2/2 feed column costs $146M/yr and gives $0 revenue (nothing reaches 95%). Side draws often fail to converge. Broad-mixture sharp splits need high reflux and many stages = expensive, and every non-empty plant by all agents is negative.\n\nPlan: 5 solves left. Revert to empty (protect 0.000). Then attempt ONE aggressive high-purity probe: a feed column with many stages/high reflux targeting a clean C4-rich top or C5/C6 cut, to test whether any purity is achievable. If revenue stays 0, finish on empty.",
+ "task": "hc16v3_dev_002"
+}

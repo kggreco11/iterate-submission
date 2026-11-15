@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-f29cf5a2",
+ "agent_id": "agent-7",
+ "provider": "modal",
+ "model": "kimi-k3.1-pro",
+ "requests": 26,
+ "failed_requests": 4,
+ "input_tokens": 157231,
+ "output_tokens": 22369,
+ "usd_estimated_total": 0.5381520000000001,
+ "requests_with_unknown_cost": 3,
+ "price_source": "https://modal.com/docs/guide/supported-models; 2026-11-14; uncached estimate",
+ "wall_s": 1954.6830158233643,
+ "status": "budget_exhausted",
+ "island": 3,
+ "strategy": null,
+ "best_valid_reward": 0.323642993329818,
+ "solves_used": 50,
+ "first_positive_at_solves": 16,
+ "usd_cached_price_estimate": 0.43412639999999997,
+ "notebook": "PLAN: (1) Secure R195's improved 0.329 core: root 45/2.5/2.32/0.5, T 45/3.5/2.5/0.3, TB 45/5.5/5/0.3. (2) If one new solve remains, test only a tiny root boil-up increase; revert if C4 purity or reward falls. Root 2.35 was too aggressive, losing pure C4 and reward. Root reflux reductions, all-40 stage trims, heavy recovery, and side draws were unprofitable. Keep downstream settings fixed because they preserve both sales.",
+ "task": "hc16v3_dev_002"
+}

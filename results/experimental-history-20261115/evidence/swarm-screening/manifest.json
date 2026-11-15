@@ -1,0 +1,103 @@
+{
+  "git_commit": "aebae133dba191d7ba66a64db78d48633ab4776b",
+  "branch": "origin/feature/swarm-runner",
+  "files": [
+    {
+      "path": "results/hc16v3-first-look/kimi-k3.1-pro/hc16v3_dev_000_modal_kimi-k3.1-pro_s0_36e659/summary.json",
+      "sha256": "48282bb529e6bd2b6f753090f63408922d4d414bc728b2856fc5d045b42b529c"
+    },
+    {
+      "path": "results/hc16v3-first-look/kimi-k3.1-pro/hc16v3_dev_001_modal_kimi-k3.1-pro_s0_8a718e/summary.json",
+      "sha256": "fee2ef6b7300dd33b1b65412f4b03c88a7e4d6fdaa0be1a94647e6dae4fafe9b"
+    },
+    {
+      "path": "results/hc16v3-first-look/kimi-k3.1-pro/hc16v3_dev_002_modal_kimi-k3.1-pro_s0_baf08c/summary.json",
+      "sha256": "3153d98745ebe25c9cb2c2798065ea3fd60453f0662abce404283af39f8e49b9"
+    },
+    {
+      "path": "results/hc16v3-first-look/kimi-k3.1-pro/hc16v3_dev_003_modal_kimi-k3.1-pro_s0_8bb44d/summary.json",
+      "sha256": "acf7f961c157a6ec33588ac37934b2de9214516dd27c4a32b8b07cea9d150217"
+    },
+    {
+      "path": "results/swarm-screen-dev002/C1/summary.json",
+      "sha256": "d38fbafa60249766e9747694a768cd03bbea7f3c09005113a8bc47b22e8bf504"
+    },
+    {
+      "path": "results/swarm-screen-dev002/C1/config.json",
+      "sha256": "ceb9487d365df672f667d017e335684b268e71f841bedcb5eb858cb55ffedadf"
+    },
+    {
+      "path": "results/swarm-screen-dev002/F1/summary.json",
+      "sha256": "5e26605640f46a48e0ba4a0752527b5c7134e1203edbbb6cb5e6b6746efd9cff"
+    },
+    {
+      "path": "results/swarm-screen-dev002/F1/config.json",
+      "sha256": "8e4fb39d3e3345f0025ddff923d0c77a69d753469f4124d81b89b9c2c08f5fa1"
+    },
+    {
+      "path": "results/swarm-screen-dev002/F2/summary.json",
+      "sha256": "0025ef028e97d66e6a00908b37e51f78fe0c32df1183eef3e435adffbf2d7ea9"
+    },
+    {
+      "path": "results/swarm-screen-dev002/F2/config.json",
+      "sha256": "4d62acca154ab630940f2891fe95b70ec61bbf48b38a126d820e11cf5927d472"
+    },
+    {
+      "path": "results/swarm-screen-dev002/F3/summary.json",
+      "sha256": "39dfcc7e29d76130ef2d21027c655bbf70f22c060c11651c4cdafc6252fb063c"
+    },
+    {
+      "path": "results/swarm-screen-dev002/F3/config.json",
+      "sha256": "23469f93a2424a8adfad6bee6006fa1aa47b14a983f013b1a437561b93a29dec"
+    },
+    {
+      "path": "results/swarm-screen-dev002/F4/summary.json",
+      "sha256": "3d4be59ec0824c11debea918ce52258c6701537beb4b317eed9451d5dabb0ffd"
+    },
+    {
+      "path": "results/swarm-screen-dev002/F4/config.json",
+      "sha256": "5bb3b29dcd0bcb4a7648ee00b731dbfb1c7a123af499beebbfdeef8f74c3f877"
+    },
+    {
+      "path": "results/swarm-screen-dev002/F5/summary.json",
+      "sha256": "76640508f8d37f12d22374c9e20304deedc287e2d75c4de206119a4ce4309ff4"
+    },
+    {
+      "path": "results/swarm-screen-dev002/F5/config.json",
+      "sha256": "58c1a1792378607eba720a3857e00df49af688984a59602d0c9187192624e5c5"
+    },
+    {
+      "path": "results/swarm-screen-dev002/F6/summary.json",
+      "sha256": "f45825ba3756b66aee8204e03c1389728d1d2899ef3ff92aef459cfe9f6a0dc5"
+    },
+    {
+      "path": "results/swarm-screen-dev002/F6/config.json",
+      "sha256": "2671eb40e7c82381ef75631c68b05e4d4740738775c795a5a385006721fb0b30"
+    },
+    {
+      "path": "results/swarm-screen-dev002/F7/summary.json",
+      "sha256": "9f71e30ffc129bfdf5f4d67cba146f50627dea1773e743afaa679d3de316507f"
+    },
+    {
+      "path": "results/swarm-screen-dev002/F7/config.json",
+      "sha256": "01b3aa12ede22bf4e2d794309e2a2553bb865e76e27a3b02f35355bc8f0ccfd7"
+    },
+    {
+      "path": "results/swarm-screen-dev002/diversity.json",
+      "sha256": "d47192f69828b4d92b8f8934a01c7edbff5736de3c2902fc6313003d00bcfec2"
+    },
+    {
+      "path": "docs/SWARM_NEXT_ROUND.md",
+      "sha256": "9e6e87cfcb4387dc302d1fdb3cdf8fd31a57ed46f25616752df9cfa127770311"
+    },
+    {
+      "path": "docs/SWARM_FRAMEWORKS.md",
+      "sha256": "e8c6efdb5d29955ee6621806723b34d5e9d02b82112b029bbcefa481d5ce6b5a"
+    },
+    {
+      "path": "scripts/plant_diversity.py",
+      "sha256": "b8f158852500fa71869cae89976ef7b617f73f27d332a89ab99f9e7378848777"
+    }
+  ],
+  "publication_note": "Identifying text and paths were removed for publication. File hashes describe the published copies; experiment measurements are unchanged."
+}

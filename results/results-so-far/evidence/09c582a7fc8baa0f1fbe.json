@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-78e50fff",
+ "agent_id": "agent-28",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 85,
+ "failed_requests": 0,
+ "input_tokens": 532629,
+ "output_tokens": 84700,
+ "usd_estimated_total": 0.26142869999999996,
+ "requests_with_unknown_cost": 0,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 5634.423324346542,
+ "status": "finished",
+ "island": 5,
+ "strategy": null,
+ "best_valid_reward": 1.514436498522342,
+ "solves_used": 49,
+ "first_positive_at_solves": 37,
+ "usd_cached_price_estimate": 0.20322966,
+ "notebook": "Best valid 1.514 (turn41): feed 36/2.5/2.5/0.8 ($207.0M) + B 36/3.8/3.8/0.8 ($190.3M); BT=C6-paraffin blend $1061.5M, T & BB worthless. Solves 49/50 -> 1 left (revert is free).\n\nConfirmed facts: only BT earns; T (1583 mol/s, C3/C4/C5) and BB (heavies) are $0. BT sits exactly at the 95% C6-paraffin boundary. B reflux 3.6 (turn42) and feed reflux 2.4 (agent-27 R1869) both push BT under 95% -> $0 revenue, reward collapses. B reflux 4.0 (R1840) lifts revenue to $1063.1M but costs an extra ~$16M -> 1.496 < 1.514. So 3.8/3.8 on B and 2.5/2.5 on feed is the local optimum for this 2-column family. T-splitting (60/9/9, $1143M) and side draws both failed; a 3rd column costs more than it recovers in this expensive-plant scenario.\n\nPlan: revert to 1.514 and finish. No solve-expenditure is likely to beat it, and the best valid design is what gets scored.",
+ "task": "hc16v3_dev_002"
+}

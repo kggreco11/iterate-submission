@@ -1,0 +1,62 @@
+{
+ "run_id": "hc16v3_dev_002-F4-3108579c",
+ "code": "F4",
+ "name": "strategies",
+ "task": "hc16v3_dev_002",
+ "team_budget": 500,
+ "agents": 10,
+ "roles": [
+  "solver",
+  "solver",
+  "solver",
+  "solver",
+  "solver",
+  "solver",
+  "solver",
+  "solver",
+  "solver",
+  "solver"
+ ],
+ "teams": [
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null
+ ],
+ "budgets": {
+  "agent-0": 50,
+  "agent-1": 50,
+  "agent-2": 50,
+  "agent-3": 50,
+  "agent-4": 50,
+  "agent-5": 50,
+  "agent-6": 50,
+  "agent-7": 50,
+  "agent-8": 50,
+  "agent-9": 50
+ },
+ "strategies": {
+  "agent-0": "Side draws: look for middle cuts (for example blends) that a side draw can deliver from one column instead of two.",
+  "agent-1": "Energy-lean columns: more stages and lower reflux and boil-up to cut energy, the largest cost at these prices.",
+  "agent-2": "Direct sequence: take the lightest components off first, one split at a time, working down the volatility order.",
+  "agent-3": "Middle-out: make the first split in the middle of the volatility range, then work outwards on both sides.",
+  "agent-4": "Premium-heavy: push the most valuable products to 99% purity to earn the premium grade.",
+  "agent-5": "Blend-heavy: sell the C3, C4, C5 and C6 mixtures as blends instead of separating their close-boiling members.",
+  "agent-6": "Double effects: look for close splits where a double-effect column saves enough energy to pay for the second column.",
+  "agent-7": "Indirect sequence: take the heaviest components off first, working up the volatility order.",
+  "agent-8": "Pressure-staged: use the valves' pressure drops to keep condensers out of expensive refrigeration.",
+  "agent-9": "Lean plant: few columns, sell only the most valuable products, keep energy use low."
+ },
+ "max_rounds": 150,
+ "provider": "modal",
+ "model": "kimi-k3.1-pro",
+ "seed": 0,
+ "simulator_retries": "ChemSep alternative initialisations on",
+ "started": "2026-11-14 18:41:11"
+}

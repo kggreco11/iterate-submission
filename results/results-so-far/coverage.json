@@ -1,0 +1,2135 @@
+{
+  "exclusions": [
+    {
+      "source": "git:f98506e8470d25c3994555e3e8889c79e8299e07:results/azure-runtime/evidence/summary.json",
+      "reason": "infrastructure / qualification / scripted"
+    },
+    {
+      "source": "git:f98506e8470d25c3994555e3e8889c79e8299e07:results/hc12-qualification/summary.json",
+      "reason": "not a run summary"
+    },
+    {
+      "source": "git:f98506e8470d25c3994555e3e8889c79e8299e07:results/hc12_dev_000/shared-memory-2/scripted/swarm-5fe736c8394b44ceb45fe8e825468f94/metrics/summary.json",
+      "reason": "infrastructure / qualification / scripted"
+    },
+    {
+      "source": "git:f98506e8470d25c3994555e3e8889c79e8299e07:results/hc12_dev_000/shared-memory-2/scripted/swarm-5fe736c8394b44ceb45fe8e825468f94/raw/agent-0/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:f98506e8470d25c3994555e3e8889c79e8299e07:results/hc12_dev_000/shared-memory-2/scripted/swarm-5fe736c8394b44ceb45fe8e825468f94/raw/agent-1/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:f98506e8470d25c3994555e3e8889c79e8299e07:results/hc12_dev_000/single-agent/gpt-6-luna/luna-pilot-20261114T211810Z/summary.json",
+      "reason": "not a run summary"
+    },
+    {
+      "source": "git:f98506e8470d25c3994555e3e8889c79e8299e07:results/hc12_dev_000/single-agent/gpt-6.1-sol/gpt-6.1-sol-pilot-20261114T220604Z/summary.json",
+      "reason": "unrecognized experiment schema"
+    },
+    {
+      "source": "git:f98506e8470d25c3994555e3e8889c79e8299e07:results/hc16v3_dev_000/comparison/kimi-k3.1-pro/v3-400-analysis/summary.json",
+      "reason": "not a run summary"
+    },
+    {
+      "source": "git:f98506e8470d25c3994555e3e8889c79e8299e07:results/results-so-far/corpus-evidence/single_baseline/summary.json",
+      "reason": "task not identifiable"
+    },
+    {
+      "source": "git:f98506e8470d25c3994555e3e8889c79e8299e07:results/results-so-far/final-study-evidence/summary.json",
+      "reason": "not a run summary"
+    },
+    {
+      "source": "git:f98506e8470d25c3994555e3e8889c79e8299e07:results/swarm-memory-smoke-20261114/summary.json",
+      "reason": "not a run summary"
+    },
+    {
+      "source": "git:544689edb6ca08e612bc6084b78f35a7d4923b9d:results/final-dev002/solo-low-cap1500/agents/agent-0/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:544689edb6ca08e612bc6084b78f35a7d4923b9d:results/hc16v3_dev_002/team-cull/deepseek-v4.1-flash/hc16v3_dev_002-cull-2433e454/summary.json",
+      "reason": "not a run summary"
+    },
+    {
+      "source": "git:544689edb6ca08e612bc6084b78f35a7d4923b9d:results/hc16v3_dev_002/team-cull/kimi-k3.1-pro/hc16v3_dev_002-cull-db97bd5c/summary.json",
+      "reason": "not a run summary"
+    },
+    {
+      "source": "git:544689edb6ca08e612bc6084b78f35a7d4923b9d:results/hc16v3_dev_002/team-independent/deepseek-v4.1-flash/hc16v3_dev_002-independent-3631e4b1/summary.json",
+      "reason": "not a run summary"
+    },
+    {
+      "source": "git:544689edb6ca08e612bc6084b78f35a7d4923b9d:results/hc16v3_dev_002/team-independent/kimi-k3.1-pro/hc16v3_dev_002-independent-683a1314/summary.json",
+      "reason": "not a run summary"
+    },
+    {
+      "source": "git:544689edb6ca08e612bc6084b78f35a7d4923b9d:results/hc16v3_dev_002/team-managed/deepseek-v4.1-flash/hc16v3_dev_002-managed-f226c55c/summary.json",
+      "reason": "not a run summary"
+    },
+    {
+      "source": "git:544689edb6ca08e612bc6084b78f35a7d4923b9d:results/hc16v3_dev_002/team-niche/deepseek-v4.1-flash/hc16v3_dev_002-niche-20940918/summary.json",
+      "reason": "not a run summary"
+    },
+    {
+      "source": "git:544689edb6ca08e612bc6084b78f35a7d4923b9d:results/hc16v3_dev_002/team-open-nocopy/deepseek-v4.1-flash/hc16v3_dev_002-open-nocopy-c2285eb2/summary.json",
+      "reason": "not a run summary"
+    },
+    {
+      "source": "git:544689edb6ca08e612bc6084b78f35a7d4923b9d:results/hc16v3_dev_002/team-open/deepseek-v4.1-flash/hc16v3_dev_002-open-5f533da2/summary.json",
+      "reason": "not a run summary"
+    },
+    {
+      "source": "git:544689edb6ca08e612bc6084b78f35a7d4923b9d:results/hc16v3_dev_002/team-open/kimi-k3.1-pro/hc16v3_dev_002-open-41ad914b/summary.json",
+      "reason": "not a run summary"
+    },
+    {
+      "source": "git:544689edb6ca08e612bc6084b78f35a7d4923b9d:results/hc16v3_dev_002/team-other-family/deepseek-v4.1-flash/hc16v3_dev_002-other-family-ec12d65d/summary.json",
+      "reason": "not a run summary"
+    },
+    {
+      "source": "git:544689edb6ca08e612bc6084b78f35a7d4923b9d:results/hc16v3_dev_002/team-ring-3isl-k10/deepseek-v4.1-flash/hc16v3_dev_002-ring-3isl-k10-9d054776/summary.json",
+      "reason": "not a run summary"
+    },
+    {
+      "source": "git:544689edb6ca08e612bc6084b78f35a7d4923b9d:results/hc16v3_dev_002/team-ring-5x2-k10/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/summary.json",
+      "reason": "not a run summary"
+    },
+    {
+      "source": "git:544689edb6ca08e612bc6084b78f35a7d4923b9d:results/hc16v3_dev_002/team-ring-5x2-k10/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-90279e64/summary.json",
+      "reason": "not a run summary"
+    },
+    {
+      "source": "git:544689edb6ca08e612bc6084b78f35a7d4923b9d:results/hc16v3_dev_002/team-ring-5x2-k10/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/summary.json",
+      "reason": "not a run summary"
+    },
+    {
+      "source": "git:544689edb6ca08e612bc6084b78f35a7d4923b9d:results/hc16v3_dev_002/team-ring-5x2-k10/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-f29cf5a2/summary.json",
+      "reason": "not a run summary"
+    },
+    {
+      "source": "git:544689edb6ca08e612bc6084b78f35a7d4923b9d:results/hc16v3_dev_002/team-solo/claude-opus-5-5/hc16v3_dev_002-solo-c5cb4e8e/summary.json",
+      "reason": "not a run summary"
+    },
+    {
+      "source": "git:544689edb6ca08e612bc6084b78f35a7d4923b9d:results/hc16v3_dev_002/team-strategies/deepseek-v4.1-flash/hc16v3_dev_002-strategies-8574f67c/summary.json",
+      "reason": "not a run summary"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/claude-opus-5-5/hc16v3_dev_000-solo-f9b1e6f5/agents/agent-0/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/claude-opus-5-5/hc16v3_dev_002-solo-c5cb4e8e/agents/agent-0/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-cull-2433e454/agents/agent-0/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-cull-2433e454/agents/agent-1/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-cull-2433e454/agents/agent-2/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-cull-2433e454/agents/agent-3/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-cull-2433e454/agents/agent-4/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-cull-2433e454/agents/agent-5/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-cull-2433e454/agents/agent-6/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-cull-2433e454/agents/agent-7/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-cull-2433e454/agents/agent-8/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-cull-2433e454/agents/agent-9/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-independent-3631e4b1/agents/agent-0/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-independent-3631e4b1/agents/agent-1/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-independent-3631e4b1/agents/agent-2/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-independent-3631e4b1/agents/agent-3/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-independent-3631e4b1/agents/agent-4/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-independent-3631e4b1/agents/agent-5/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-independent-3631e4b1/agents/agent-6/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-independent-3631e4b1/agents/agent-7/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-independent-3631e4b1/agents/agent-8/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-independent-3631e4b1/agents/agent-9/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-managed-f226c55c/agents/agent-0/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-managed-f226c55c/agents/agent-1/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-managed-f226c55c/agents/agent-2/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-managed-f226c55c/agents/agent-3/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-managed-f226c55c/agents/agent-4/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-managed-f226c55c/agents/agent-5/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-managed-f226c55c/agents/agent-6/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-managed-f226c55c/agents/agent-7/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-managed-f226c55c/agents/agent-8/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-managed-f226c55c/agents/supervisor/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-niche-20940918/agents/agent-0/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-niche-20940918/agents/agent-1/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-niche-20940918/agents/agent-2/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-niche-20940918/agents/agent-3/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-niche-20940918/agents/agent-4/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-niche-20940918/agents/agent-5/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-niche-20940918/agents/agent-6/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-niche-20940918/agents/agent-7/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-niche-20940918/agents/agent-8/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-niche-20940918/agents/agent-9/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-open-5f533da2/agents/agent-0/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-open-5f533da2/agents/agent-1/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-open-5f533da2/agents/agent-2/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-open-5f533da2/agents/agent-3/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-open-5f533da2/agents/agent-4/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-open-5f533da2/agents/agent-5/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-open-5f533da2/agents/agent-6/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-open-5f533da2/agents/agent-7/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-open-5f533da2/agents/agent-8/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-open-5f533da2/agents/agent-9/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-open-nocopy-c2285eb2/agents/agent-0/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-open-nocopy-c2285eb2/agents/agent-1/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-open-nocopy-c2285eb2/agents/agent-2/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-open-nocopy-c2285eb2/agents/agent-3/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-open-nocopy-c2285eb2/agents/agent-4/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-open-nocopy-c2285eb2/agents/agent-5/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-open-nocopy-c2285eb2/agents/agent-6/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-open-nocopy-c2285eb2/agents/agent-7/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-open-nocopy-c2285eb2/agents/agent-8/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-open-nocopy-c2285eb2/agents/agent-9/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-other-family-ec12d65d/agents/agent-0/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-other-family-ec12d65d/agents/agent-1/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-other-family-ec12d65d/agents/agent-2/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-other-family-ec12d65d/agents/agent-3/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-other-family-ec12d65d/agents/agent-4/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-other-family-ec12d65d/agents/agent-5/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-other-family-ec12d65d/agents/agent-6/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-other-family-ec12d65d/agents/agent-7/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-other-family-ec12d65d/agents/agent-8/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-other-family-ec12d65d/agents/agent-9/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-3isl-k10-9d054776/agents/agent-0/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-3isl-k10-9d054776/agents/agent-1/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-3isl-k10-9d054776/agents/agent-2/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-3isl-k10-9d054776/agents/agent-3/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-3isl-k10-9d054776/agents/agent-4/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-3isl-k10-9d054776/agents/agent-5/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-3isl-k10-9d054776/agents/agent-6/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-3isl-k10-9d054776/agents/agent-7/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-3isl-k10-9d054776/agents/agent-8/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-3isl-k10-9d054776/agents/agent-9/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-0/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-1/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-10/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-11/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-12/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-13/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-14/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-15/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-16/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-17/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-18/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-19/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-2/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-20/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-21/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-22/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-23/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-24/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-25/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-26/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-27/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-28/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-29/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-3/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-30/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-31/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-32/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-33/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-34/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-35/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-36/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-37/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-38/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-39/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-4/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-40/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-41/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-42/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-43/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-44/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-45/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-46/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-47/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-48/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-49/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-5/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-6/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-7/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-8/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-9/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-90279e64/agents/agent-0/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-90279e64/agents/agent-1/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-90279e64/agents/agent-2/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-90279e64/agents/agent-3/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-90279e64/agents/agent-4/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-90279e64/agents/agent-5/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-90279e64/agents/agent-6/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-90279e64/agents/agent-7/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-90279e64/agents/agent-8/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-90279e64/agents/agent-9/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-strategies-8574f67c/agents/agent-0/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-strategies-8574f67c/agents/agent-1/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-strategies-8574f67c/agents/agent-2/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-strategies-8574f67c/agents/agent-3/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-strategies-8574f67c/agents/agent-4/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-strategies-8574f67c/agents/agent-5/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-strategies-8574f67c/agents/agent-6/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-strategies-8574f67c/agents/agent-7/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-strategies-8574f67c/agents/agent-8/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-strategies-8574f67c/agents/agent-9/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-cull-db97bd5c/agents/agent-0/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-cull-db97bd5c/agents/agent-1/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-cull-db97bd5c/agents/agent-2/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-cull-db97bd5c/agents/agent-3/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-cull-db97bd5c/agents/agent-4/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-cull-db97bd5c/agents/agent-5/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-cull-db97bd5c/agents/agent-6/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-cull-db97bd5c/agents/agent-7/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-cull-db97bd5c/agents/agent-8/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-cull-db97bd5c/agents/agent-9/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-independent-683a1314/agents/agent-0/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-independent-683a1314/agents/agent-1/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-independent-683a1314/agents/agent-2/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-independent-683a1314/agents/agent-3/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-independent-683a1314/agents/agent-4/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-independent-683a1314/agents/agent-5/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-independent-683a1314/agents/agent-6/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-independent-683a1314/agents/agent-7/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-independent-683a1314/agents/agent-8/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-independent-683a1314/agents/agent-9/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-open-41ad914b/agents/agent-0/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-open-41ad914b/agents/agent-1/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-open-41ad914b/agents/agent-2/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-open-41ad914b/agents/agent-3/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-open-41ad914b/agents/agent-4/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-open-41ad914b/agents/agent-5/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-open-41ad914b/agents/agent-6/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-open-41ad914b/agents/agent-7/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-open-41ad914b/agents/agent-8/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-open-41ad914b/agents/agent-9/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-0/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-1/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-10/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-11/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-12/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-13/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-14/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-15/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-16/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-17/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-18/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-19/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-2/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-20/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-21/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-22/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-23/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-24/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-25/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-26/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-27/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-28/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-29/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-3/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-30/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-31/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-32/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-33/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-34/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-35/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-36/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-37/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-38/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-39/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-4/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-40/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-41/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-42/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-43/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-44/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-45/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-46/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-47/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-48/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-49/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-5/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-6/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-7/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-8/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-9/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-f29cf5a2/agents/agent-0/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-f29cf5a2/agents/agent-1/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-f29cf5a2/agents/agent-2/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-f29cf5a2/agents/agent-3/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-f29cf5a2/agents/agent-4/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-f29cf5a2/agents/agent-5/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-f29cf5a2/agents/agent-6/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-f29cf5a2/agents/agent-7/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-f29cf5a2/agents/agent-8/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-f29cf5a2/agents/agent-9/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-solo-feca83f5/agents/agent-0/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/opus-forced-dev000/claude-opus-5-5/hc16v3_dev_000-solo-59f2cf1e/agents/agent-0/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/opus-forced-dev000/summary.json",
+      "reason": "not a run summary"
+    },
+    {
+      "source": "git:e7ca677af0f04fdd44392d46010d59a731ece03d:results/final-dev002/summary.json",
+      "reason": "not a run summary"
+    },
+    {
+      "source": "results/azure-runtime/evidence/summary.json",
+      "reason": "infrastructure / qualification / scripted"
+    },
+    {
+      "source": "results/final-dev002/claude-opus-5-5/hc16v3_dev_000-solo-f9b1e6f5/agents/agent-0/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/claude-opus-5-5/hc16v3_dev_002-solo-c5cb4e8e/agents/agent-0/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-cull-2433e454/agents/agent-0/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-cull-2433e454/agents/agent-1/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-cull-2433e454/agents/agent-2/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-cull-2433e454/agents/agent-3/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-cull-2433e454/agents/agent-4/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-cull-2433e454/agents/agent-5/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-cull-2433e454/agents/agent-6/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-cull-2433e454/agents/agent-7/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-cull-2433e454/agents/agent-8/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-cull-2433e454/agents/agent-9/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-independent-3631e4b1/agents/agent-0/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-independent-3631e4b1/agents/agent-1/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-independent-3631e4b1/agents/agent-2/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-independent-3631e4b1/agents/agent-3/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-independent-3631e4b1/agents/agent-4/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-independent-3631e4b1/agents/agent-5/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-independent-3631e4b1/agents/agent-6/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-independent-3631e4b1/agents/agent-7/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-independent-3631e4b1/agents/agent-8/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-independent-3631e4b1/agents/agent-9/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-managed-f226c55c/agents/agent-0/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-managed-f226c55c/agents/agent-1/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-managed-f226c55c/agents/agent-2/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-managed-f226c55c/agents/agent-3/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-managed-f226c55c/agents/agent-4/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-managed-f226c55c/agents/agent-5/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-managed-f226c55c/agents/agent-6/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-managed-f226c55c/agents/agent-7/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-managed-f226c55c/agents/agent-8/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-managed-f226c55c/agents/supervisor/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-niche-20940918/agents/agent-0/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-niche-20940918/agents/agent-1/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-niche-20940918/agents/agent-2/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-niche-20940918/agents/agent-3/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-niche-20940918/agents/agent-4/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-niche-20940918/agents/agent-5/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-niche-20940918/agents/agent-6/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-niche-20940918/agents/agent-7/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-niche-20940918/agents/agent-8/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-niche-20940918/agents/agent-9/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-open-5f533da2/agents/agent-0/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-open-5f533da2/agents/agent-1/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-open-5f533da2/agents/agent-2/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-open-5f533da2/agents/agent-3/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-open-5f533da2/agents/agent-4/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-open-5f533da2/agents/agent-5/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-open-5f533da2/agents/agent-6/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-open-5f533da2/agents/agent-7/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-open-5f533da2/agents/agent-8/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-open-5f533da2/agents/agent-9/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-open-nocopy-c2285eb2/agents/agent-0/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-open-nocopy-c2285eb2/agents/agent-1/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-open-nocopy-c2285eb2/agents/agent-2/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-open-nocopy-c2285eb2/agents/agent-3/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-open-nocopy-c2285eb2/agents/agent-4/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-open-nocopy-c2285eb2/agents/agent-5/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-open-nocopy-c2285eb2/agents/agent-6/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-open-nocopy-c2285eb2/agents/agent-7/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-open-nocopy-c2285eb2/agents/agent-8/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-open-nocopy-c2285eb2/agents/agent-9/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-other-family-ec12d65d/agents/agent-0/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-other-family-ec12d65d/agents/agent-1/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-other-family-ec12d65d/agents/agent-2/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-other-family-ec12d65d/agents/agent-3/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-other-family-ec12d65d/agents/agent-4/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-other-family-ec12d65d/agents/agent-5/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-other-family-ec12d65d/agents/agent-6/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-other-family-ec12d65d/agents/agent-7/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-other-family-ec12d65d/agents/agent-8/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-other-family-ec12d65d/agents/agent-9/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-3isl-k10-9d054776/agents/agent-0/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-3isl-k10-9d054776/agents/agent-1/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-3isl-k10-9d054776/agents/agent-2/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-3isl-k10-9d054776/agents/agent-3/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-3isl-k10-9d054776/agents/agent-4/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-3isl-k10-9d054776/agents/agent-5/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-3isl-k10-9d054776/agents/agent-6/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-3isl-k10-9d054776/agents/agent-7/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-3isl-k10-9d054776/agents/agent-8/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-3isl-k10-9d054776/agents/agent-9/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-0/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-1/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-10/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-11/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-12/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-13/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-14/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-15/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-16/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-17/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-18/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-19/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-2/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-20/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-21/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-22/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-23/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-24/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-25/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-26/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-27/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-28/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-29/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-3/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-30/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-31/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-32/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-33/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-34/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-35/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-36/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-37/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-38/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-39/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-4/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-40/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-41/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-42/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-43/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-44/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-45/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-46/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-47/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-48/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-49/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-5/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-6/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-7/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-8/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-78e50fff/agents/agent-9/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-90279e64/agents/agent-0/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-90279e64/agents/agent-1/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-90279e64/agents/agent-2/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-90279e64/agents/agent-3/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-90279e64/agents/agent-4/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-90279e64/agents/agent-5/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-90279e64/agents/agent-6/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-90279e64/agents/agent-7/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-90279e64/agents/agent-8/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-ring-5x2-k10-90279e64/agents/agent-9/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-solo-a3c6b51b/agents/agent-0/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-strategies-8574f67c/agents/agent-0/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-strategies-8574f67c/agents/agent-1/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-strategies-8574f67c/agents/agent-2/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-strategies-8574f67c/agents/agent-3/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-strategies-8574f67c/agents/agent-4/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-strategies-8574f67c/agents/agent-5/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-strategies-8574f67c/agents/agent-6/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-strategies-8574f67c/agents/agent-7/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-strategies-8574f67c/agents/agent-8/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/deepseek-v4.1-flash/hc16v3_dev_002-strategies-8574f67c/agents/agent-9/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-cull-db97bd5c/agents/agent-0/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-cull-db97bd5c/agents/agent-1/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-cull-db97bd5c/agents/agent-2/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-cull-db97bd5c/agents/agent-3/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-cull-db97bd5c/agents/agent-4/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-cull-db97bd5c/agents/agent-5/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-cull-db97bd5c/agents/agent-6/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-cull-db97bd5c/agents/agent-7/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-cull-db97bd5c/agents/agent-8/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-cull-db97bd5c/agents/agent-9/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-independent-683a1314/agents/agent-0/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-independent-683a1314/agents/agent-1/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-independent-683a1314/agents/agent-2/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-independent-683a1314/agents/agent-3/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-independent-683a1314/agents/agent-4/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-independent-683a1314/agents/agent-5/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-independent-683a1314/agents/agent-6/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-independent-683a1314/agents/agent-7/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-independent-683a1314/agents/agent-8/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-independent-683a1314/agents/agent-9/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-open-41ad914b/agents/agent-0/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-open-41ad914b/agents/agent-1/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-open-41ad914b/agents/agent-2/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-open-41ad914b/agents/agent-3/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-open-41ad914b/agents/agent-4/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-open-41ad914b/agents/agent-5/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-open-41ad914b/agents/agent-6/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-open-41ad914b/agents/agent-7/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-open-41ad914b/agents/agent-8/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-open-41ad914b/agents/agent-9/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-0/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-1/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-10/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-11/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-12/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-13/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-14/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-15/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-16/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-17/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-18/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-19/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-2/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-20/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-21/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-22/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-23/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-24/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-25/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-26/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-27/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-28/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-29/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-3/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-30/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-31/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-32/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-33/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-34/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-35/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-36/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-37/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-38/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-39/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-4/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-40/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-41/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-42/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-43/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-44/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-45/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-46/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-47/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-48/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-49/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-5/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-6/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-7/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-8/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-761c0ffe/agents/agent-9/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-f29cf5a2/agents/agent-0/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-f29cf5a2/agents/agent-1/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-f29cf5a2/agents/agent-2/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-f29cf5a2/agents/agent-3/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-f29cf5a2/agents/agent-4/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-f29cf5a2/agents/agent-5/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-f29cf5a2/agents/agent-6/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-f29cf5a2/agents/agent-7/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-f29cf5a2/agents/agent-8/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-ring-5x2-k10-f29cf5a2/agents/agent-9/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/kimi-k3.1-pro/hc16v3_dev_002-solo-feca83f5/agents/agent-0/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/opus-forced-dev000/claude-opus-5-5/hc16v3_dev_000-solo-59f2cf1e/agents/agent-0/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/opus-forced-dev000/summary.json",
+      "reason": "not a run summary"
+    },
+    {
+      "source": "results/final-dev002/solo-low-cap1500/agents/agent-0/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/final-dev002/summary.json",
+      "reason": "not a run summary"
+    },
+    {
+      "source": "results/hc12-qualification/summary.json",
+      "reason": "not a run summary"
+    },
+    {
+      "source": "results/hc12_dev_000/shared-memory-2/scripted/swarm-5fe736c8394b44ceb45fe8e825468f94/metrics/summary.json",
+      "reason": "infrastructure / qualification / scripted"
+    },
+    {
+      "source": "results/hc12_dev_000/shared-memory-2/scripted/swarm-5fe736c8394b44ceb45fe8e825468f94/raw/agent-0/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/hc12_dev_000/shared-memory-2/scripted/swarm-5fe736c8394b44ceb45fe8e825468f94/raw/agent-1/summary.json",
+      "reason": "agent member summary; requires parent-run reconciliation"
+    },
+    {
+      "source": "results/hc12_dev_000/single-agent/gpt-6-luna/luna-pilot-20261114T211810Z/summary.json",
+      "reason": "not a run summary"
+    },
+    {
+      "source": "results/hc12_dev_000/single-agent/gpt-6.1-sol/gpt-6.1-sol-pilot-20261114T220604Z/summary.json",
+      "reason": "unrecognized experiment schema"
+    },
+    {
+      "source": "results/swarm-memory-smoke-20261114/summary.json",
+      "reason": "not a run summary"
+    }
+  ],
+  "conflicts": [],
+  "unverified": [
+    "F3-100 follow-up: document-reported, no run summary found",
+    "Final dev002 runs predate migration and managed-budget fixes; two round-limit outcomes remain partial; final raw sources reconciled by scripts/reconcile_final_teams.py",
+    "DeepSeek dev_000 second attempt: controller exists; final run summary not located"
+  ],
+  "reference_inventory": "../experimental-history-20261115/simulator-reference-inventory.csv"
+}

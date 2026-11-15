@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-managed-f226c55c",
+ "agent_id": "agent-7",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 139,
+ "failed_requests": 1,
+ "input_tokens": 631992,
+ "output_tokens": 135456,
+ "usd_estimated_total": 0.3521447999999999,
+ "requests_with_unknown_cost": 0,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 5543.912098169327,
+ "status": "stopped",
+ "island": 7,
+ "strategy": null,
+ "best_valid_reward": 0.0,
+ "solves_used": 64,
+ "first_positive_at_solves": null,
+ "usd_cached_price_estimate": 0.2660904,
+ "notebook": "Solves 64/98 (34 left). Best valid reward 0 (empty). Confidence: reward must be POSITIVE to beat empty, so I only keep designs that earn money. Key facts: single 45-stage feed column (reflux 3, dp 0.1) costs $194.8M/yr and yields nothing pure -> cost scales with diameter (full 3300 mol/s feed) and reflux. Gentle 8-col ladder: revenue only $91M, cost $222M (negative). Conclusion: my earlier gentle ladders were too weak to reach 95% purity, AND the trunk column is very expensive. Plan: revert to empty (reward 0), then build a real separation train targeting the biggest-value cuts (C5mix $727M, C6par+C6nap $1349M, C7 $332M, C8 $359M, C9 $104M, C4mix $207M, C3mix $73M) with enough stages/reflux to actually hit 95-99% purity, verifying each build converges. Must avoid non-convergence: keep stages <=~60, reflux <=~5.",
+ "task": "hc16v3_dev_002"
+}

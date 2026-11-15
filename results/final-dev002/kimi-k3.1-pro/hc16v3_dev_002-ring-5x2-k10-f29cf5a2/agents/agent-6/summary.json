@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-f29cf5a2",
+ "agent_id": "agent-6",
+ "provider": "modal",
+ "model": "kimi-k3.1-pro",
+ "requests": 25,
+ "failed_requests": 3,
+ "input_tokens": 142375,
+ "output_tokens": 21311,
+ "usd_estimated_total": 0.49786,
+ "requests_with_unknown_cost": 3,
+ "price_source": "https://modal.com/docs/guide/supported-models; 2026-11-14; uncached estimate",
+ "wall_s": 1954.682020187378,
+ "status": "budget_exhausted",
+ "island": 3,
+ "strategy": null,
+ "best_valid_reward": 0.3292123374189787,
+ "solves_used": 50,
+ "first_positive_at_solves": 15,
+ "usd_cached_price_estimate": 0.4020136,
+ "notebook": "PLAN: (1) Restore and lock the best valid three-column core; (2) use remaining solves only for high-value, single-column cost/recovery improvements; (3) avoid uneconomic heavy recovery. Step 2: bracket the root boil-up between the proven 2.30 and excessive 2.35, seeking extra C5 recovery while preserving the C4 blend.\nBest .324: root 45-50/2.5/2.3/.5, T 45/3.5/2.5/.3, TB 45/5.5/5/.3; revenue about 500.5-500.9, cost 358.5-358.8. TB reflux 5.0 lost $14.9M revenue for $2.8M savings; 5.4 failed. T reflux 3.0 lost $28.2M revenue for $12.5M savings. Root reflux 2.2 degraded the split. Root pressure/double effect, heavy recovery, side draws, TB boil-up cuts, and broad stage cuts failed. Root boil-up 2.35 added $1.5M revenue but $3.8M cost and dropped C4 purity to 94%; try 2.32 as the final recovery bracket.",
+ "task": "hc16v3_dev_002"
+}

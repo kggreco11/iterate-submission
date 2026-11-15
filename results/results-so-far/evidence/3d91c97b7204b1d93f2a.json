@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-3isl-k10-9d054776",
+ "agent_id": "agent-7",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 88,
+ "failed_requests": 0,
+ "input_tokens": 514597,
+ "output_tokens": 90338,
+ "usd_estimated_total": 0.2627847,
+ "requests_with_unknown_cost": 0,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 4928.484377145767,
+ "status": "budget_exhausted",
+ "island": 2,
+ "strategy": null,
+ "best_valid_reward": 0.0,
+ "solves_used": 50,
+ "first_positive_at_solves": null,
+ "usd_cached_price_estimate": 0.2005766999999999,
+ "notebook": "Solves 47/50. Best valid = 0.000 (empty). My -0.060 (R338) was worse than empty, so reward>0 required to improve.\n\nKEY ECONOMICS (constant = flow*price*2.88e7 s/yr):\n- C5 mix (iC5+nC5, 695 mol/s, mean $0.0364, x0.85=0.0309): $618M/yr MAX\n- C4 mix (iC4+nC4, 544 mol/s, mean 0.014, x0.85=0.0119): $186M/yr MAX\n- C3 mix (C3=/C3, 286 mol/s, mean 0.01045, x0.85=0.0089): $73M/yr\n- C6 paraffin mix (970 mol/s): $1180M/yr (needs stripping C5 & separating MCP/C6H12, 3K gap - hard)\n- nC4 pure 450: $166M; nC7 205: $332M; nC8 233: $359M; nC9 62: $104M\n\nCost driver: feed column 45/5/5 = $284M/yr ALONE. Total 3-col plant cost $439M vs rev $413M.\n\nPLAN: Test a 3-col plant aiming to maximize cheap high-value cuts: feed splits C3/C4 (T) from C5+ (B); T\u2192C3 mix + C4 mix; B\u2192C5 mix + C6+ (sold $0). Target rev ~$875M. Must keep reflux/stages LOW on feed col to cut its $284M cost. Use moderate stages (30) to limit capital.",
+ "task": "hc16v3_dev_002"
+}

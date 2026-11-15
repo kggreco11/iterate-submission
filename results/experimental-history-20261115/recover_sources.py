@@ -1,0 +1,19 @@
+from pathlib import Path
+import subprocess,json
+O=Path('results/experimental-history-20261115'); D=O/'evidence/source-snapshot';rev='7c0d5087b2d7d4ad6e30103274042a3d8dfea69e'
+paths=subprocess.check_output(['git','ls-tree','-r','--name-only',rev],text=True).splitlines()
+keep=[p for p in paths if ('hc16v3_dev_' in p and p.endswith('/summary.json') and '/single-agent/' in p) or p in ['docs/EVALUATION_2026-11-14.md','docs/TASK_V3.md','results/all_results.csv','results/hc16v3-side-draw/qualification.json','results/hc16v3-first-look/polish_check.json','results/hc16v3-first-look/polish_v2plants_at_v3.json']]
+for p in keep:
+ q=D/p;q.parent.mkdir(parents=True,exist_ok=True);q.write_bytes(subprocess.check_output(['git','show',rev+':'+p]))
+def save(p,d):
+ q=D/p;q.parent.mkdir(parents=True,exist_ok=True);q.write_text(json.dumps(d,indent=2))
+outs=[]
+for condition,n,rid,q,b,reward,cost,wall,it,ot in [('single_without_past',1,'5495ec4fea6c47a19b99c3e0cf21d42f',100,100,.425524749227997,1.325916,507.157,353213,61949),('single_with_past',1,'66df0079cddd45de96f67a6ed20fe47d',100,100,.6059543601737726,1.818298,510.157,637224,54385),('swarm_without_past',5,'543232b4170f4d8b9496a6824c30f029',488,309,2.069849127779756,5.77808,949.047,1723220,233164)]:
+ outs.append(dict(condition=condition,agents=n,run='swarm-'+rid,memory='past' if condition=='single_with_past' else 'exact',total_budget=n*100,status='all_finished_or_exhausted',queries=q,backend_calls=b,best_valid_reward=reward,estimated_model_usd=cost,wall_s=wall,input_tokens=it,output_tokens=ot))
+save('runs/v3-campaign-launch/snapshot.json',dict(provenance='Selected fields transcribed from tool-observed original snapshot before concurrent checkout removal; not a byte-identical export.',captured_at=1794715402.4925926,summary=dict(outcomes=outs)))
+save('runs/v3-independent-400-prep/snapshot.json',dict(provenance='Selected fields transcribed from tool-observed snapshot before concurrent checkout removal.',captured_at=1794770073.9422734,status='running based on active round events; saved state string starting',agents=[dict(agent=i,queries=q,best=b) for i,q,b in [(0,307,1.7393842710984466),(1,359,2.1091226069883815),(2,301,2.14195910929953),(3,387,2.234439287927647),(4,201,.060132760847165054)]]))
+save('runs/v3-independent-400-prep/controller.json',dict(provenance='Selected fields transcribed from observed controller',run_id='v3-kimi-independent-400-20261114-r1',source_sha256='a981fa8b0720c6c0743a7283b1ffbac08689c07b38cd36bc308c8c58d2c9927d',state='launched',model_alias='kimi-k3.1-pro',model_id='deployment-identifier-omitted'))
+save('runs/v3-screening-400-prep/plan.json',dict(provenance='Selected fields transcribed from observed plan; access check later confirmed by preparation chat.',model_id='deepseek-ai/DeepSeek-V4.1-Flash',protocol='v3-deepseek-ten-corpus-screening-v1',total_budget=12400,trials=[dict(condition=c,agents=n,sharing_after=t,budget_per_agent=400,total_budget=n*400) for c,n,t in [('single_baseline',1,None),('sharing_immediate',10,0),('sharing_delay_25',10,100),('sharing_delay_50',10,200)]]))
+save('runs/v3-screening-400-prep/validation.json',dict(provenance='Selected fields transcribed from observed validation.',passed=True,edge_tests=5,charged_queries=12400,prompts=12400,backend='mock',model_api_calls=0,chemsep_calls=0))
+save('runs/v3-campaign-launch/plan.json',dict(provenance='Selected fields transcribed from observed plan',budget=100,rounds=200,repetitions=1,total_allowance=1200))
+(O/'evidence/source-recovery.json').write_text(json.dumps(dict(git_commit=rev,tracked_files=keep,note='Original worktree disappeared during collection around 11:17 PST. Tracked evidence recovered read-only from Git; selected ignored status fields transcribed from prior tool output and explicitly labeled. No worktree or experiment restored.'),indent=2))

@@ -1,0 +1,13 @@
+.env
+.env.*
+!.env.example
+.DS_Store
+
+__pycache__/
+*.pyc
+runs/
+demo/plant_replay.html
+.pytest_cache/
+
+# Local automation bookkeeping; published campaign snapshots remain tracked.
+/results/results-so-far/monitor-state.json

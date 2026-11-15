@@ -1,0 +1,19 @@
+{
+  "run_id": "swarm-5fe736c8394b44ceb45fe8e825468f94",
+  "agents": [
+    "agent-0",
+    "agent-1"
+  ],
+  "allocations": [
+    25,
+    25
+  ],
+  "mode": "equal-total",
+  "rounds": 2,
+  "repetition": 0,
+  "backend": "mock",
+  "model": "scripted",
+  "solver_retries": 0,
+  "simulator_workers": 1,
+  "memory": "PastMemory"
+}

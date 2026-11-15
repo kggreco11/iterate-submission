@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-f29cf5a2",
+ "agent_id": "agent-2",
+ "provider": "modal",
+ "model": "kimi-k3.1-pro",
+ "requests": 16,
+ "failed_requests": 1,
+ "input_tokens": 118651,
+ "output_tokens": 12563,
+ "usd_estimated_total": 0.36293200000000003,
+ "requests_with_unknown_cost": 1,
+ "price_source": "https://modal.com/docs/guide/supported-models; 2026-11-14; uncached estimate",
+ "wall_s": 1954.6797840595245,
+ "status": "budget_exhausted",
+ "island": 1,
+ "strategy": null,
+ "best_valid_reward": 0.5447032481532609,
+ "solves_used": 50,
+ "first_positive_at_solves": 23,
+ "usd_cached_price_estimate": 0.2991112000000001,
+ "notebook": "PLAN: Best is 0.545: R52 root/BT/downstream with B=65/5.5/5.5/.25, revenue $996.2M and cost $757.3M. B=60/5 lost both C6 blends, so restore best. With 3 solves left, test only the cheap terminal BTTT at 30/3.5/3.5/.2: C5 tops have purity margin, and no descendants need re-solving. If either blend fails, revert and finish. Root reductions and extra light/heavy/finishing columns were uneconomic.",
+ "task": "hc16v3_dev_002"
+}

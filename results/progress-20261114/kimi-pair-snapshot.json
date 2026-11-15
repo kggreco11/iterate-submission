@@ -1,0 +1,207 @@
+{
+  "pair": {
+    "state": "swarm_running"
+  },
+  "single": {
+    "state": "complete",
+    "stop_reason": "budget_exhausted",
+    "wall_s": 559.2588539000008
+  },
+  "single_summary": {
+    "run_id": "v2-kimi-20261114-r3-single",
+    "agent_id": "agent-0",
+    "provider": "modal",
+    "model": "kimi-k3.1-pro",
+    "requests": 51,
+    "failed_requests": 0,
+    "input_tokens": 317389,
+    "output_tokens": 62487,
+    "usd_estimated_total": 1.2596479999999994,
+    "requests_with_unknown_cost": 0,
+    "price_source": "https://modal.com/docs/guide/supported-models; 2026-11-14; uncached estimate",
+    "wall_s": 559.2812085151672,
+    "status": "budget_exhausted",
+    "turns": 51,
+    "best_valid_reward": 3.421925019375854,
+    "solves_used": 200,
+    "max_usd_cap": 20.0,
+    "task": "hc16v2_dev_000",
+    "seed": 0
+  },
+  "single_report": true,
+  "recent": [
+    {
+      "turn": 50,
+      "solves_used": 199,
+      "reward": 3.421925019375854,
+      "valid": true,
+      "action": "edit"
+    },
+    {
+      "turn": 51,
+      "solves_used": 200,
+      "reward": 3.1724591329377603,
+      "valid": false,
+      "action": "edit"
+    }
+  ],
+  "swarm_report": false,
+  "swarm_summary": {
+    "status": null,
+    "wall_s": null,
+    "error": null,
+    "team_distinct_queries": null,
+    "known_llm_usd": null,
+    "unknown_cost_requests": null
+  },
+  "agents": {},
+  "swarm_recent": [
+    {
+      "kind": "memory_write",
+      "agent": "agent-3",
+      "round": null,
+      "distinct_queries": null,
+      "error": null
+    },
+    {
+      "kind": "submission",
+      "agent": "agent-4",
+      "round": 10,
+      "distinct_queries": 36,
+      "error": null
+    },
+    {
+      "kind": "memory_write",
+      "agent": "agent-4",
+      "round": null,
+      "distinct_queries": null,
+      "error": null
+    }
+  ],
+  "live_agents": {
+    "agent-0": {
+      "solves": 33,
+      "best": 2.913474384121401,
+      "requests": 10,
+      "usd": 1.181246,
+      "unknown": 0,
+      "input": 523788,
+      "output": 13367,
+      "budget": 100
+    },
+    "agent-1": {
+      "solves": 47,
+      "best": 2.870362407066834,
+      "requests": 10,
+      "usd": 1.1922419999999998,
+      "unknown": 0,
+      "input": 527201,
+      "output": 13784,
+      "budget": 100
+    },
+    "agent-2": {
+      "solves": 26,
+      "best": 2.3781034094803624,
+      "requests": 10,
+      "usd": 1.1499880000000002,
+      "unknown": 0,
+      "input": 522159,
+      "output": 10567,
+      "budget": 100
+    },
+    "agent-3": {
+      "solves": 40,
+      "best": 2.375891076513641,
+      "requests": 10,
+      "usd": 1.176626,
+      "unknown": 0,
+      "input": 522768,
+      "output": 13109,
+      "budget": 100
+    },
+    "agent-4": {
+      "solves": 36,
+      "best": 2.5621483754696235,
+      "requests": 10,
+      "usd": 1.1962720000000002,
+      "unknown": 0,
+      "input": 530086,
+      "output": 13610,
+      "budget": 100
+    }
+  },
+  "live_recent": [
+    {
+      "agent": "agent-2",
+      "round": 9,
+      "solves": 26,
+      "valid": false,
+      "reward": 2.3879478366843934,
+      "best": 1.9038113063656876
+    },
+    {
+      "agent": "agent-3",
+      "round": 9,
+      "solves": 36,
+      "valid": true,
+      "reward": 2.156342603128167,
+      "best": 2.156342603128167
+    },
+    {
+      "agent": "agent-4",
+      "round": 9,
+      "solves": 35,
+      "valid": true,
+      "reward": 2.3966299405784923,
+      "best": 2.502140692484172
+    },
+    {
+      "agent": "agent-0",
+      "round": 10,
+      "solves": 33,
+      "valid": true,
+      "reward": 2.913474384121401,
+      "best": 2.913474384121401
+    },
+    {
+      "agent": "agent-1",
+      "round": 10,
+      "solves": 47,
+      "valid": true,
+      "reward": 2.870362407066834,
+      "best": 2.870362407066834
+    },
+    {
+      "agent": "agent-2",
+      "round": 10,
+      "solves": 26,
+      "valid": true,
+      "reward": 2.3781034094803624,
+      "best": 2.3781034094803624
+    },
+    {
+      "agent": "agent-3",
+      "round": 10,
+      "solves": 40,
+      "valid": true,
+      "reward": 2.375891076513641,
+      "best": 2.375891076513641
+    },
+    {
+      "agent": "agent-4",
+      "round": 10,
+      "solves": 36,
+      "valid": true,
+      "reward": 2.5621483754696235,
+      "best": 2.5621483754696235
+    }
+  ],
+  "live_submissions": 50,
+  "live_event": {
+    "kind": "memory_write",
+    "round": null,
+    "agent": "agent-4",
+    "elapsed_s": 1088.0310000000009
+  },
+  "live_note": "The measured BTB column produces two unsaleable outlets and costs $43.1M/yr. I am shifting BT to the n-hexane/methylcyclopentane boundary so its tops can sell as the C6 paraffin blend and its bottoms directly as the C6 naphthene blend, eliminating the downstream column."
+}

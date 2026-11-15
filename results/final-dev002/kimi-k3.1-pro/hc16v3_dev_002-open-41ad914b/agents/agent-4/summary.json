@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-open-41ad914b",
+ "agent_id": "agent-4",
+ "provider": "modal",
+ "model": "kimi-k3.1-pro",
+ "requests": 28,
+ "failed_requests": 1,
+ "input_tokens": 212609,
+ "output_tokens": 20733,
+ "usd_estimated_total": 0.6325480000000001,
+ "requests_with_unknown_cost": 1,
+ "price_source": "https://modal.com/docs/guide/supported-models; 2026-11-14; uncached estimate",
+ "wall_s": 1959.1541340351105,
+ "status": "budget_exhausted",
+ "island": 0,
+ "strategy": null,
+ "best_valid_reward": 2.9333632755033947,
+ "solves_used": 50,
+ "first_positive_at_solves": 24,
+ "usd_cached_price_estimate": 0.5058279999999999,
+ "notebook": "PLAN: Spend the final solve combining R245's validated BB pressure increase with my best C3-column settings, then finish.\nR245's BB dp 0.25 raises C6-paraffin revenue by $7.7M/yr versus dp 0.2 while adding $5.9M/yr cost, a modest net gain. My TT 30 stages, reflux 5.0, boil-up 1.4 gives $65.6M C3 revenue at $12.2M cost, about $1.2M/yr more net than R245's TT 4.5/1.5. These branches are independent, so copying R245 and restoring my TT settings should improve slightly on both designs. All other columns and product specifications are already validated; no further structural changes are worthwhile with one solve left.",
+ "task": "hc16v3_dev_002"
+}

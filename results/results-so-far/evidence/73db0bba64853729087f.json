@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-78e50fff",
+ "agent_id": "agent-44",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 84,
+ "failed_requests": 0,
+ "input_tokens": 509252,
+ "output_tokens": 84865,
+ "usd_estimated_total": 0.2546136,
+ "requests_with_unknown_cost": 0,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 5634.440632343292,
+ "status": "finished",
+ "island": 8,
+ "strategy": null,
+ "best_valid_reward": 2.0678011994837777,
+ "solves_used": 49,
+ "first_positive_at_solves": 48,
+ "usd_cached_price_estimate": 0.1978660799999999,
+ "notebook": "Turn 42. Solves 49/50. Best valid = 2.068 (R1457 copy, island 9, 7 columns): revenue $1556.4M, cost $649.5M.\n\nStructure: '' 40/1.6/1.6/0.6 -> T 45/3/2.5/0.3 (TT sold 0) + B 45/3.5/3/0.5 (BB sold 0). T->TB 60/5.5/4.5/0.1 -> TBT (96% nC4, $118.8M) + TBB (C5 mix, $374.7M). B->BT 50/4/3.5/0.1 -> BTB (C6 paraffin mix, $646M, richest stream) + BTT 60/6/5 -> BTTB 65/6.5/5 -> BTTBT (98% nC5, $92.4M) + BTTBB (C6 paraff mix, $168M); BTT->BTTT (C5 mix, $156M).\n\nLesson: tightening TB to 65/7/5 (turn 41) LOWERED reward to 1.175 by inflating cost ($662M) without lifting TBT past 99% premium \u2014 the 2% iC4 leak in TBT is hard to remove. So the 2.068 design is a local optimum; reverting is correct.\n\nWasted $0 streams: TT (535 mol/s C3/C4-rich) and BB (1037 mol/s C6-C8). Max pure value ~$3615M/yr, so headroom exists but needs more columns than budget allows. With 1 solve left, revert and finish at 2.068.",
+ "task": "hc16v3_dev_002"
+}

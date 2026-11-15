@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-761c0ffe",
+ "agent_id": "agent-47",
+ "provider": "modal",
+ "model": "kimi-k3.1-pro",
+ "requests": 40,
+ "failed_requests": 3,
+ "input_tokens": 227161,
+ "output_tokens": 25718,
+ "usd_estimated_total": 0.7115019999999999,
+ "requests_with_unknown_cost": 3,
+ "price_source": "https://modal.com/docs/guide/supported-models; 2026-11-14; uncached estimate",
+ "wall_s": 3608.6494793891907,
+ "status": "budget_exhausted",
+ "island": 9,
+ "strategy": null,
+ "best_valid_reward": 1.3072211982246889,
+ "solves_used": 50,
+ "first_positive_at_solves": 14,
+ "usd_cached_price_estimate": 0.5472267999999999,
+ "notebook": "PLAN: Restore the proven best design and stop; the final purity-boundary probe has failed.\nR1243 is the best valid plant at reward 1.307: root 55/4.75/6.0/.3 and B 70/5.20/5.20/.8. It earns full C6-paraffin blend revenue of $1155.3M/yr for $582.0M/yr column cost. Heavy ratios 5.25 and 5.20 are profitable, but 5.19, 5.175, 5.15, 5.125 and 5.0 all cross the 95% blend-purity cliff. Reducing B to 69 stages also fails. With no useful unexplored refinement, restore R1243 and finish.",
+ "task": "hc16v3_dev_002"
+}

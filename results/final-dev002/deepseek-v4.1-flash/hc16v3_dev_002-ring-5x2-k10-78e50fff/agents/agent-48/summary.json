@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-78e50fff",
+ "agent_id": "agent-48",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 96,
+ "failed_requests": 0,
+ "input_tokens": 768570,
+ "output_tokens": 98972,
+ "usd_estimated_total": 0.34933740000000013,
+ "requests_with_unknown_cost": 0,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 5634.443640470505,
+ "status": "budget_exhausted",
+ "island": 9,
+ "strategy": null,
+ "best_valid_reward": 2.160097156031982,
+ "solves_used": 50,
+ "first_positive_at_solves": 32,
+ "usd_cached_price_estimate": 0.2856778799999999,
+ "notebook": "Anchor 2.068 (7 cols): '' 40/1.6/1.6/0.6; B 45/3.5/3.0/0.5; T 45/3.0/2.5/0.3; BT 50/4.0/3.5/0.1; TB 60/5.5/4.5/0.1; BTT 60/6.0/5.0/0.1; BTTB 65/6.5/5.0/0.1.\n\nBEST = 2.160: same as anchor but B is DOUBLE EFFECT (frac 0.5 to HP dp 0.5 -> 12 bar cost $84.5M; LP dp 0.85 -> 1.4 bar cost $89.7M, total $174.2M vs $166.9M single). Revenue DROPPED to 1503 from 1556 but total column cost fell 649->556 because every downstream column's feed got cheaper to split (BT $88->$41, BTT $53->$20, BTTB $33->$13). Net +0.092. No HP/LP heat link (381K vs 375K, needs 10K).\n\nValue map ($M/yr): BTB C6par 651.6; TBB C5mix 374.7; BTTBB C6par 186.9; BTTT C5mix 171.1; TBT nC4 118.8; BTTBT nC5 105 (dead 74/26 nC5/DMB).\n\nDEAD: TT 535 (C3/C4, max blend 53%) $0; BB 554 (C6-C9 mix) $0. TT split, BB split, TB sharpen all lost.\n\nCost: B $174M (2 cols) and feed '' $141M biggest, heat-dominated.\n\nPlan, 2 solves left: (1) test DOUBLE EFFECT on feed col '' (dp 0.6, frac 0.5, LP drop 0.85). If gain keep; else revert to 2.160 and finish.",
+ "task": "hc16v3_dev_002"
+}

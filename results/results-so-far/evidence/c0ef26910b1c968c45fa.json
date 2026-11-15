@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-open-5f533da2",
+ "agent_id": "agent-7",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 181,
+ "failed_requests": 4,
+ "input_tokens": 1235353,
+ "output_tokens": 178077,
+ "usd_estimated_total": 0.5842983,
+ "requests_with_unknown_cost": 3,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 5132.715557575226,
+ "status": "finished",
+ "island": 0,
+ "strategy": null,
+ "best_valid_reward": 0.8391166258861061,
+ "solves_used": 47,
+ "first_positive_at_solves": 35,
+ "usd_cached_price_estimate": 0.46458246000000014,
+ "notebook": "Solves 47/50. BEST=0.839: ''60/3, B80/6, BT90/8, BTT60/4, BTTB65/7 -> rev $1061M, cost $693M, 5 cols. Sold: BTB=C6paraffin $711M, BTTT=C5mix $223M, BTTBT=C5mix $127M. Unsold: T(1046 C3/C4/C5), BB(1104 C6-C9).\n\nVALUE SCALE: annual = flow(mol/s)*price($/mol)*2.88e7. Biggest lost value: T (unsold C4 ~544 mol/s; C4mix potential ~$186M/yr), BB unsold (~1104 mol/s C6-C9).\n\nKEY INSIGHT: C3mix from T impossible at 95% (ethane 34, C3=282<19*34). C4mix from T feasible in principle but needs very sharp C3/C4 split; my tests (R496, turns 82/86) all LOST money (extra column cost, no qualifying product). T-column attempts never converged except at low reflux where purity fails.\n\nLESSONS: (a) low-reflux T columns waste cost. (b) 90/14 BTTB=0.762<0.839. (c) reflux trims lose blend purity. (d) BTTB 65/7 (0.839) beat 70/8 (0.829): cheaper wins when just above threshold. (e) 95% blends are the money-maker; sharp pure splits too costly. (f) BTB C6paraffin is the single biggest earner ($711M).\n\nPLAN (3 solves): Design locked at 0.839. Only test if clearly positive EV. Revert is free. Leaning finish.",
+ "task": "hc16v3_dev_002"
+}

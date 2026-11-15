@@ -1,0 +1,24 @@
+{
+ "run_id": "hc16v3_dev_002-C0-8713fe15",
+ "code": "C0",
+ "name": "solo",
+ "task": "hc16v3_dev_002",
+ "team_budget": 500,
+ "agents": 1,
+ "roles": [
+  "solver"
+ ],
+ "teams": [
+  null
+ ],
+ "budgets": {
+  "agent-0": 500
+ },
+ "strategies": {},
+ "max_rounds": 150,
+ "provider": "modal",
+ "model": "kimi-k3.1-pro",
+ "seed": 0,
+ "simulator_retries": "ChemSep alternative initialisations on",
+ "started": "2026-11-14 18:41:11"
+}

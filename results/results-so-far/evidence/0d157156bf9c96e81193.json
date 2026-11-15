@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-cull-2433e454",
+ "agent_id": "agent-9",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 20,
+ "failed_requests": 0,
+ "input_tokens": 84248,
+ "output_tokens": 19302,
+ "usd_estimated_total": 0.0484368,
+ "requests_with_unknown_cost": 0,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 5423.076267004013,
+ "status": "culled",
+ "island": 9,
+ "strategy": null,
+ "best_valid_reward": 0.0,
+ "solves_used": 11,
+ "first_positive_at_solves": null,
+ "usd_cached_price_estimate": 0.03585695999999999,
+ "notebook": "Reward=(rev-cost)/439M. Value(M$/yr)=flow*price*28.8 (8000h). Pure-all=3615M. Blend values: C3mix 73, C4mix 186, C5mix 618, C6par 1181, C6naph 396, plus heavy pure C7 332, C8 359, C9 104, ethane 4. Cost: 30st/1/1.5/0 was ~116M; 40-50st/3-4/3-4/0.05 ~200-240M. Costs dominate. Plan: make blend cuts (C3mix,C4mix,C5mix,C6par,C6naph)+pure C7/C8/C9, avoid separating close boilers. Must remove ethane (else C3mix <95%). Converge problems with tall trees - need robust settings. Now testing single 60st/6/6 column on feed to see split.",
+ "task": "hc16v3_dev_002"
+}

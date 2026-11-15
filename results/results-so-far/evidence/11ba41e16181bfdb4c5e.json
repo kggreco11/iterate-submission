@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-managed-f226c55c",
+ "agent_id": "agent-6",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 99,
+ "failed_requests": 0,
+ "input_tokens": 450928,
+ "output_tokens": 98238,
+ "usd_estimated_total": 0.25316399999999994,
+ "requests_with_unknown_cost": 0,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 5543.915174484253,
+ "status": "finished",
+ "island": 6,
+ "strategy": null,
+ "best_valid_reward": 0.0,
+ "solves_used": 49,
+ "first_positive_at_solves": null,
+ "usd_cached_price_estimate": 0.18805296000000002,
+ "notebook": "Goal: beat 0. Empty=0 is best valid. Solves 49/50 used; final solve spent reverting to empty (0) to secure a non-negative score instead of the -0.414 side-draw design. Lessons: each column costs ~$180-360M/yr; all multi-column trains produced impure worthless streams and negative reward. Separating this 16-component feed into >=95%-pure cuts needs many tall/high-reflux columns whose cost exceeds product value at this cost level. The single 90-stage R4 feed column with a 30% liquid side draw (stage 55) failed: T=47% n-butane, S=27% n-pentane, B=16% 2-methylpentane \u2014 none near 95%. Empty plant scores 0, the best achievable. Finishing at 0.",
+ "task": "hc16v3_dev_002"
+}

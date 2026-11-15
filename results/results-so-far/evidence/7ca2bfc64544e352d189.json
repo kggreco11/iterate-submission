@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-niche-20940918",
+ "agent_id": "agent-0",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 58,
+ "failed_requests": 0,
+ "input_tokens": 274801,
+ "output_tokens": 57634,
+ "usd_estimated_total": 0.15160109999999996,
+ "requests_with_unknown_cost": 0,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 4628.764689445496,
+ "status": "finished",
+ "island": 0,
+ "strategy": null,
+ "best_valid_reward": 0.0,
+ "solves_used": 49,
+ "first_positive_at_solves": null,
+ "usd_cached_price_estimate": 0.11137325999999999,
+ "notebook": "T29, solves 45/50 (5 left -> using 4). Best valid 0.000 (empty).\n\nValue($M/yr)=flow*price*28. Blends dominate: C6par(970)=1148, C5mix(695)=601, C6naph(269)=385, C4mix(544)=181, C3mix(286)=71, ethane 3.9; pure nC7 332, nC8 359, nC9 104. Blend-only strategy ~3185 vs all-pure 3615 => blending is right.\nColumn cost ~$95-150M/yr each. 5-col tree ~$500-700M cost vs potentially $2B rev => net positive if splits are clean enough.\n\nPLAN this turn (last 4 new solves): 4-col tree.\n'' : cut nC5(309)/2,2DMB(323). T=ethane..nC5 (C3mix+C4mix+C5mix), B=C6par+C6naph+nC7/8/9.\n'T': cut nC4(273)/iC5(301) -> TT=C3mix+C4mix-ish (too light-heavy mix), TB=C5mix-ish.\n'B': cut nC6(342)/MCP(345) -> BT=C6par mix (valuable), BB=C6naph+nC7/8/9.\n'TT': try to clean light end.\nRisk: 95% blend purity hard with moderate reflux; watch results and decide if worth tweaking within remaining solves.",
+ "task": "hc16v3_dev_002"
+}

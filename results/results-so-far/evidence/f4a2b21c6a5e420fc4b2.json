@@ -1,0 +1,180 @@
+{
+  "run_id": "hc16v3_dev_002-independent-3631e4b1",
+  "preset": "independent",
+  "model": "deepseek-v4.1-flash",
+  "task": "hc16v3_dev_002",
+  "status": "all_done",
+  "wall_s": 5076.1,
+  "team_best": 0.6602442942053072,
+  "team_solves": 493,
+  "best_at": {
+    "100": 0.0,
+    "250": 0.0,
+    "500": 0.6602442942053072,
+    "1000": 0.6602442942053072
+  },
+  "team_first_positive_at_team_solves": 390,
+  "agents_off_zero": 1,
+  "workers": 10,
+  "best_record": "R424",
+  "best_columns": 2,
+  "best_design": {
+    "": [
+      60,
+      7.0,
+      7.0,
+      0.5
+    ],
+    "B": [
+      60,
+      7.0,
+      7.0,
+      0.5
+    ]
+  },
+  "copies": 0,
+  "grafts": 0,
+  "records": 557,
+  "distinct_structures": 93,
+  "usd_logged": 3.0670949999999997,
+  "usd_cached_price_estimate": 2.27193852,
+  "requests": 1237,
+  "agents": {
+    "agent-0": {
+      "status": "finished",
+      "island": 0,
+      "best_valid_reward": 0.0,
+      "solves_used": 49,
+      "first_positive_at_solves": null,
+      "requests": 132,
+      "usd_estimated_total": 0.32675489999999996,
+      "usd_cached_price_estimate": 0.24235937999999993
+    },
+    "agent-1": {
+      "status": "finished",
+      "island": 1,
+      "best_valid_reward": 0.0,
+      "solves_used": 49,
+      "first_positive_at_solves": null,
+      "requests": 113,
+      "usd_estimated_total": 0.2768729999999999,
+      "usd_cached_price_estimate": 0.20291459999999992
+    },
+    "agent-2": {
+      "status": "budget_exhausted",
+      "island": 2,
+      "best_valid_reward": 0.0,
+      "solves_used": 50,
+      "first_positive_at_solves": null,
+      "requests": 156,
+      "usd_estimated_total": 0.39151499999999995,
+      "usd_cached_price_estimate": 0.29198219999999997
+    },
+    "agent-3": {
+      "status": "budget_exhausted",
+      "island": 3,
+      "best_valid_reward": 0.6602442942053072,
+      "solves_used": 50,
+      "first_positive_at_solves": 43,
+      "requests": 117,
+      "usd_estimated_total": 0.2872527000000002,
+      "usd_cached_price_estimate": 0.21253398
+    },
+    "agent-4": {
+      "status": "budget_exhausted",
+      "island": 4,
+      "best_valid_reward": 0.0,
+      "solves_used": 50,
+      "first_positive_at_solves": null,
+      "requests": 107,
+      "usd_estimated_total": 0.2663613,
+      "usd_cached_price_estimate": 0.19848545999999997
+    },
+    "agent-5": {
+      "status": "budget_exhausted",
+      "island": 5,
+      "best_valid_reward": 0.0,
+      "solves_used": 50,
+      "first_positive_at_solves": null,
+      "requests": 116,
+      "usd_estimated_total": 0.2809871999999999,
+      "usd_cached_price_estimate": 0.20730528000000006
+    },
+    "agent-6": {
+      "status": "finished",
+      "island": 6,
+      "best_valid_reward": 0.0,
+      "solves_used": 48,
+      "first_positive_at_solves": null,
+      "requests": 125,
+      "usd_estimated_total": 0.31502819999999987,
+      "usd_cached_price_estimate": 0.23630052000000004
+    },
+    "agent-7": {
+      "status": "finished",
+      "island": 7,
+      "best_valid_reward": 0.0,
+      "solves_used": 48,
+      "first_positive_at_solves": null,
+      "requests": 162,
+      "usd_estimated_total": 0.40753499999999987,
+      "usd_cached_price_estimate": 0.30081372
+    },
+    "agent-8": {
+      "status": "finished",
+      "island": 8,
+      "best_valid_reward": 0.0,
+      "solves_used": 49,
+      "first_positive_at_solves": null,
+      "requests": 117,
+      "usd_estimated_total": 0.28685519999999987,
+      "usd_cached_price_estimate": 0.21137616000000006
+    },
+    "agent-9": {
+      "status": "budget_exhausted",
+      "island": 9,
+      "best_valid_reward": 0.0,
+      "solves_used": 50,
+      "first_positive_at_solves": null,
+      "requests": 92,
+      "usd_estimated_total": 0.22793250000000007,
+      "usd_cached_price_estimate": 0.16786721999999998
+    }
+  },
+  "config": {
+    "n": 10,
+    "budget": 50,
+    "effort": "low",
+    "think_budget": 1500,
+    "plan": false,
+    "think_every": null,
+    "think_when_stuck": null,
+    "cheap_effort": "none",
+    "islands": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "share_within": false,
+    "migrate_every": null,
+    "route": "ring",
+    "info": "full",
+    "copy": true,
+    "graft": true,
+    "copy_rule": null,
+    "niche_board": false,
+    "strategies": null,
+    "notebook": true,
+    "cull_every": null,
+    "supervisor_every": null,
+    "max_shown": 4,
+    "preset": "independent"
+  }
+}

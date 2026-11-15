@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-78e50fff",
+ "agent_id": "agent-15",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 89,
+ "failed_requests": 2,
+ "input_tokens": 512605,
+ "output_tokens": 87738,
+ "usd_estimated_total": 0.25906710000000005,
+ "requests_with_unknown_cost": 1,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 5634.4060254096985,
+ "status": "finished",
+ "island": 3,
+ "strategy": null,
+ "best_valid_reward": 0.0,
+ "solves_used": 46,
+ "first_positive_at_solves": null,
+ "usd_cached_price_estimate": 0.1981723800000001,
+ "notebook": "Reward=(rev-cost)/439. Empty=0.000 is my best VALID result (reward > any plant I've evaluated: measured negatives -0.105 to -1.02). Key economics: value($M/yr)=flow*price*2.88e7. Blend ceilings: C6par 1181, C5mix 618, C6nap 397, nC5/nC6/nC7 330-440, nC8 359, C4mix 186, C3mix 73. Gaps(K): C4/C5 28 easy, C5/C6 13.7, C6/C7 18. Evidence from shown plants: R1862 (3 cols, $711.9M cost) earns $665.9M revenue from a valid C6-paraffin-mix sale (96% purity) but nets -0.105. R1863 nets -0.842. Every multi-column plant seen costs $120-475M/yr per column, so net revenue must clear ~$300M/column -- hard at this cost level. Lesson: this plant is very expensive per column; the C5/C6 middle cuts need 3+ columns to reach 95%, and the resulting cost swamps revenue. With 46/50 solves used and no positive design found, the rational move is to lock the valid 0.000 (empty) rather than risk further solve budget on designs that have all been negative. Copying R1862 yields -0.105 < 0.000 so is not an improvement. Plan: revert to empty and finish.",
+ "task": "hc16v3_dev_002"
+}

@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-78e50fff",
+ "agent_id": "agent-20",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 93,
+ "failed_requests": 0,
+ "input_tokens": 563674,
+ "output_tokens": 95535,
+ "usd_estimated_total": 0.2837441999999999,
+ "requests_with_unknown_cost": 0,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 5634.412564754486,
+ "status": "finished",
+ "island": 4,
+ "strategy": null,
+ "best_valid_reward": 1.474272003341892,
+ "solves_used": 48,
+ "first_positive_at_solves": 46,
+ "usd_cached_price_estimate": 0.22298771999999997,
+ "notebook": "Turn 47. Solves 48/50. BEST = 1.474 (lock in now): feed 36/2.6/2.6/0.8 -> T($0)+B; B 36/4/4/0.8 -> BT = C6 paraffin mix $1060.6M, BB heavy $0. Cost $414M. The turn-46 T-split (60/6/6/0.9, $1640M cost) was catastrophic (-2.266) \u2014 a third column on T is never worth it because T earns $0 and any added column just adds huge cost.\n\nKEY LESSON: The only profitable seam in this feed is the C6-paraffin blend (2,2-DMB + 2-MP + 3-MP + n-hexane) at $1060.6M, obtained by the 2-column cascade. Everything else (T light fraction, BB heavy fraction) is impure and worth $0. Adding columns to chase C3/C4/C5 blends FAILED repeatedly (R1807 40/3/3/0.1 -> impure; R1946 200 stages -> $7365M). The 1.474 design is effectively optimal for this expensive-plant cost regime.\n\nPLAN: reverted to 1.474, locked. One solve left; no further probe justified \u2014 keep the 1.474 baseline as final score.",
+ "task": "hc16v3_dev_002"
+}

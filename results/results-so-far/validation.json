@@ -1,0 +1,22 @@
+[
+  {
+    "check": "unique run IDs",
+    "passed": true
+  },
+  {
+    "check": "all evidence links resolve",
+    "passed": true
+  },
+  {
+    "check": "known queries within known allocation",
+    "passed": true
+  },
+  {
+    "check": "independent remains stopped",
+    "passed": true
+  },
+  {
+    "check": "source snapshot hashes",
+    "passed": true
+  }
+]

@@ -1,0 +1,100 @@
+{
+  "run_id": "hc16v3_dev_002-solo-feca83f5",
+  "preset": "solo",
+  "model": "kimi-k3.1-pro",
+  "task": "hc16v3_dev_002",
+  "status": "all_done",
+  "wall_s": 1658.8,
+  "team_best": 1.7539434508524658,
+  "team_solves": 196,
+  "best_at": {
+    "100": 1.2492589891694268,
+    "250": 1.7539434508524658,
+    "500": 1.7539434508524658,
+    "1000": 1.7539434508524658
+  },
+  "team_first_positive_at_team_solves": 66,
+  "agents_off_zero": 1,
+  "workers": 1,
+  "best_record": "R106",
+  "best_columns": 5,
+  "best_design": {
+    "": [
+      55,
+      3.25,
+      6.5,
+      0.1
+    ],
+    "B": [
+      110,
+      11.0,
+      9.5,
+      0.1
+    ],
+    "T": [
+      65,
+      5.0,
+      7.25,
+      0.1
+    ],
+    "TB": [
+      65,
+      6.0,
+      22.0,
+      0.1
+    ],
+    "TBB": [
+      130,
+      12.5,
+      5.9,
+      0.1
+    ]
+  },
+  "copies": 0,
+  "grafts": 0,
+  "records": 109,
+  "distinct_structures": 41,
+  "usd_logged": 1.8181319999999994,
+  "usd_cached_price_estimate": 1.3824455999999996,
+  "requests": 111,
+  "agents": {
+    "agent-0": {
+      "status": "finished",
+      "island": 0,
+      "best_valid_reward": 1.7539434508524658,
+      "solves_used": 196,
+      "first_positive_at_solves": 66,
+      "requests": 111,
+      "usd_estimated_total": 1.8181319999999994,
+      "usd_cached_price_estimate": 1.3824455999999996
+    }
+  },
+  "config": {
+    "n": 1,
+    "budget": 200,
+    "unsold_info": true,
+    "effort": "low",
+    "think_budget": null,
+    "plan": false,
+    "think_every": null,
+    "think_when_stuck": null,
+    "cheap_effort": "none",
+    "islands": [
+      1
+    ],
+    "share_within": false,
+    "migrate_every": null,
+    "route": "ring",
+    "info": "full",
+    "copy": true,
+    "graft": true,
+    "copy_rule": null,
+    "niche_board": false,
+    "strategies": null,
+    "notebook": true,
+    "cull_every": null,
+    "supervisor_every": null,
+    "max_shown": 4,
+    "preset": "solo"
+  }
+}

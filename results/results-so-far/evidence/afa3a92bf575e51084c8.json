@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-78e50fff",
+ "agent_id": "agent-2",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 68,
+ "failed_requests": 0,
+ "input_tokens": 552395,
+ "output_tokens": 70572,
+ "usd_estimated_total": 0.25040490000000004,
+ "requests_with_unknown_cost": 0,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 5634.392966747284,
+ "status": "budget_exhausted",
+ "island": 0,
+ "strategy": null,
+ "best_valid_reward": 1.8891545644235561,
+ "solves_used": 50,
+ "first_positive_at_solves": 32,
+ "usd_cached_price_estimate": 0.2044401,
+ "notebook": "LOCKED FALLBACK (best valid, reward 1.889, rev 1463.8, cost 635.3, 7 cols): ''40/1.6/1.6/0.6; T45/3.0/2.5/0.3; B45/3.5/3.0/0.5; BT50/4/3.5/0.1; TB55/5/4/0.1; BTT60/6/5/0.1; BTTB55/5/4/0.1. Solves 43/50 -> 7 left.\n\nBig products: BTB C6par mix $646M; TBB C5mix $379M; BTTT C5mix $156M; BTTBB C6par $164M; TBT nC4 98% $118M. Waste: TT 535 ($0, C3/C4/ethane mix), BB 1037 ($0, C6-C9 mix).\n\nLessons: T reflux 4.5 -> TB fails (keep T 45/3.0/2.5/0.3). TT split 2 cols costs $196M for ~$145M -> net loss. BB split negative. BTTB sharpen loses. B dp 0.5 was a win.\n\nPLAN: This turn test double-effect on the feed column '' (fraction 0.5, LP dp 0.75). If the 10 K HP-condenser/LP-reboiler criterion holds, energy halves -> reward up. If invalid or worse, revert. Remaining solves: use to try double-effect on B next, else lock 1.889.",
+ "task": "hc16v3_dev_002"
+}

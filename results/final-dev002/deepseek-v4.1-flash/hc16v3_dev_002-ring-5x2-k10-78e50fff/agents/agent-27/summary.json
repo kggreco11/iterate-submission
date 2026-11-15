@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-78e50fff",
+ "agent_id": "agent-27",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 84,
+ "failed_requests": 0,
+ "input_tokens": 525486,
+ "output_tokens": 85339,
+ "usd_estimated_total": 0.26005259999999997,
+ "requests_with_unknown_cost": 0,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 5634.4223256111145,
+ "status": "budget_exhausted",
+ "island": 5,
+ "strategy": null,
+ "best_valid_reward": 1.514436498522342,
+ "solves_used": 50,
+ "first_positive_at_solves": 34,
+ "usd_cached_price_estimate": 0.20454924000000002,
+ "notebook": "Turn 43, solves 49->50/50 (last solve). Copied island-best R1841 (reward 1.514) unchanged.\n\nFINAL DESIGN: feed 36/2.5/2.5/0.8 ($207.0M) -> T C3/C4/C5 sold $0; B 36/3.8/3.8/0.8 ($190.3M) -> BT C6-paraffin mix $1061.5M (>=95%), BB sold $0. Net (1061.5-397.3)/439 = 1.514.\n\nKey economics learned across 50 solves:\n- Expensive-plant scenario: 2 columns is the optimum. Every added T-split or middle-cut column cost $500-700M and made $0 (tests 31,33,35,36,38,42 all negative).\n- T stream (C3/C4/C5, 1583 mol/s) needs 2-3 huge low-pressure columns to reach C3/C4/C5 blend purity -> net loss.\n- BB (C7/C8/naphthene) is near-constant-boiling -> hopeless.\n- The ONLY profitable product is BT, the C6-paraffin mix (2,2-DMB + 2-MP + 3-MP + n-hexane at 85% mean price).\n- BT purity is razor-thin at 95%: B reflux 3.8 holds, 3.6 fails (R1870 rev $0). Feed reflux 2.4 fails too (my turn 42); 2.5 works.\n- Practical ceiling ~1.51 reward. Locked 1.514.",
+ "task": "hc16v3_dev_002"
+}

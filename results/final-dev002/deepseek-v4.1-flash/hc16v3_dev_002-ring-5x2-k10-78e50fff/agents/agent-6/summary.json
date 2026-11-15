@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-78e50fff",
+ "agent_id": "agent-6",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 96,
+ "failed_requests": 0,
+ "input_tokens": 1010113,
+ "output_tokens": 100402,
+ "usd_estimated_total": 0.42351629999999996,
+ "requests_with_unknown_cost": 0,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 5634.394968032837,
+ "status": "finished",
+ "island": 1,
+ "strategy": null,
+ "best_valid_reward": 1.7512974572311615,
+ "solves_used": 40,
+ "first_positive_at_solves": 20,
+ "usd_cached_price_estimate": 0.35964942000000005,
+ "notebook": "Best valid = R1517 reward 1.751: rev $1548M, cost $780M, 9 cols. Topology: ''40/1.6/1.6/0.6; T45/3/2.5/0.3; B45/3.5/3/0.1; BB45/3/2.5/0.1; BT50/4/3.5/0.1; TB55/5/4/0.1; BBT55/6/5/0.1; BTT60/6/5/0.1; BTTB40/6/5/0.1.\nSold: TBT nC4 $118M; TBB C5mix $379M; BTB C6par $588M; BTTT C5mix $144M; BBTT C6par $238M; BTTBT C5mix $80M = $1548M.\nWASTED: TT 535($0 C3 53/C4 40/eth 6); BBB 636($0 nC8 37/nC7 32); BBTB 271($0 nC6 32/cyC6 29); BTTBB 123($0 22DMB 63).\nLESSONS: no blend exists for C7/C8; TT C3/C4 split impure (eth 6% kills 95% C3) -> probes 1.59-1.65; TBT 98->99 (60/6)=1.683 lost; BBTB naphthene probe (R1889 10-col)=1.660; deep heavy cuts lose. Every island agent independently converged on the same 1.751 nine-column optimum; cost level too high for any marginal separation to pay. \nPLAN: 10 solves left but no idea beats 1.751. Design locked as final. Finish.",
+ "task": "hc16v3_dev_002"
+}

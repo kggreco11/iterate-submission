@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-independent-3631e4b1",
+ "agent_id": "agent-7",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 162,
+ "failed_requests": 4,
+ "input_tokens": 728498,
+ "output_tokens": 157488,
+ "usd_estimated_total": 0.40753499999999987,
+ "requests_with_unknown_cost": 3,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 5076.08445930481,
+ "status": "finished",
+ "island": 7,
+ "strategy": null,
+ "best_valid_reward": 0.0,
+ "solves_used": 48,
+ "first_positive_at_solves": null,
+ "usd_cached_price_estimate": 0.30081372,
+ "notebook": "Solves 47/50. Best valid = 0.000 (empty). Lessons: single columns cost $230-390M/yr and produced no revenue (impure). Value = flow*price*28.8 M$/yr. Prizes: C6 paraffin mix ~1181 M$/yr (bracket n-pentane 309 below, MCP 345 above), C5 mix 618, C6 naphthene 396, C4 mix 186. A profitable column needs revenue > ~$230M/yr. Prior side-draw attempt (34 stages, stage 22 liquid draw) leaked and lost $0.31. Plan: single attempt at a 60-stage R=6 feed column with a LIQUID side draw at stage 44 (below feed, C6-paraffin plateau) to make a >=95% C6-paraffin heart; if it leaks or costs too much, revert to empty 0.000 as final.",
+ "task": "hc16v3_dev_002"
+}

@@ -1,0 +1,9 @@
+<section class="panel" style="margin:24px 0">
+<h2>Flowsheet replay by submission</h2>
+<p class="muted">Process-flow schematic · click a column or product for details · green products earn revenue · blue outlines mark changed columns</p>
+<div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap"><button id="replay-prev" aria-label="Previous submission">← Previous</button><button id="replay-play">▶ Play</button><button id="replay-next" aria-label="Next submission">Next →</button><button id="replay-best">Best design</button><label>Submission <input id="replay-slider" type="range" min="0" style="width:220px;vertical-align:middle"></label><strong id="replay-position"></strong></div>
+<div id="replay-metrics" class="cards" style="margin:18px 0"></div>
+<p id="replay-reason" style="line-height:1.6"></p>
+<div style="display:grid;grid-template-columns:minmax(0,1fr) 260px;gap:16px"><div id="replay-diagram" style="overflow:auto;max-height:780px;border:1px solid #d9e1eb;background:#fafcfe;border-radius:10px"></div><aside style="background:#eef3f8;padding:16px;border-radius:10px"><h2>Selected equipment / stream</h2><pre id="replay-detail" style="font-size:13px">Click a column or terminal stream.</pre></aside></div>
+<p class="muted" style="font-size:12px">← / → step through submissions; Space plays or pauses while focus is in this replay. Streams use rounded values from recorded simulator feedback. Connections show topology, not physical piping layout. Unobserved branches are marked; no instrumentation or unrecorded measurements are invented.</p>
+</section>

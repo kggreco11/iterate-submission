@@ -1,0 +1,16 @@
+{
+  "schema": "report-bundle-v1",
+  "run_id": "sol-200-20261114",
+  "task": "hc12_dev_000",
+  "model": "gpt-6.1-sol",
+  "condition": "single-agent",
+  "status": "complete",
+  "stop_reason": "budget_exhausted",
+  "report": "index.html",
+  "evidence": "report-data.json; full raw simulator logs may remain on the execution host",
+  "sha256": {
+    "index.html": "677acce90c151bd1164653a4f846eaa7df3704475ac6c668f99d743410214b66",
+    "report-data.json": "7ca1559d94618b4dbf5ac16b5ad9dc62b2a303c305948aa381af4f206f1a6ab9",
+    "summary.json": "7b412f837029d298e110cf472c68d513009f5a908af4b2a7aff90d66facb872b"
+  }
+}

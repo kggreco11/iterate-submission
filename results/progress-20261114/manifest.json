@@ -1,0 +1,10 @@
+{
+  "source_commit": "26b755d83f73e3f68d0d51a31e24c86cc7778b99",
+  "note": "Source commit is the packaging base, not proof of the source used by historical runs. Cached snapshots are observations, not final evidence for an unfinished run.",
+  "files": {
+    "kimi-pair-snapshot.json": "050f40c0b820775b93e033981624f88a98932972d051b140f9f8fc769171de39",
+    "memory-isolation.json": "f4a9cffb3b7f2b206010d3063ac54044267d8831f2064d039eeb1128c85dffe1",
+    "sol-200-demo.json": "8cda9c9a6cf8b670ae4d2fc33e72447d48103d3a48ff21964567bef501af1b6a",
+    "sol-three-agent.json": "110e88464e7de2ccbaa94d0f5537189a03ffd2ac847fec656619667a1e1d6c7b"
+  }
+}

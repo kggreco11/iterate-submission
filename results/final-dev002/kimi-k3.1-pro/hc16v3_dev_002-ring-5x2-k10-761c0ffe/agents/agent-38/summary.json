@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-761c0ffe",
+ "agent_id": "agent-38",
+ "provider": "modal",
+ "model": "kimi-k3.1-pro",
+ "requests": 40,
+ "failed_requests": 3,
+ "input_tokens": 272202,
+ "output_tokens": 27715,
+ "usd_estimated_total": 0.821554,
+ "requests_with_unknown_cost": 3,
+ "price_source": "https://modal.com/docs/guide/supported-models; 2026-11-14; uncached estimate",
+ "wall_s": 3608.6434893608093,
+ "status": "budget_exhausted",
+ "island": 7,
+ "strategy": null,
+ "best_valid_reward": 1.3580644318158381,
+ "solves_used": 50,
+ "first_positive_at_solves": 24,
+ "usd_cached_price_estimate": 0.6572788,
+ "notebook": "PLAN: Finish cautious optimization of the four-column blend core. Keep the demonstrated 1.358 design and use the remaining solve on the independently validated small T-reflux saving; retain the banked best if any purity specification is lost.\nRoot70/5/8/.15, B100/8/8/.2, T40/6/10/.1, TB50/3.12/30/.1 gives 1.358. TB3.5/3.4/3.25/3.2/3.15/3.125 rewards 1.341/1.346/1.352/1.355/1.357/1.358; 3.11 and 3.0 lose C5 qualification. Boil-up30 best; TB40 and B90 worse. Root reflux4.5/root60 destroy blend purity; T35 negligible and T5.8 fails. B7.99 and B7.95 fail C6; B dp.3 increases cost. T5.99 is valid and saves about $0.2M/yr, though the rounded reward remains 1.358. C5 and C6 blends are near their 95% cliffs, so no large reduction is safe.",
+ "task": "hc16v3_dev_002"
+}

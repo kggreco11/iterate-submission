@@ -1,0 +1,212 @@
+{
+ "run_id": "hc16v3_dev_002-F6-ba0e8b10",
+ "code": "F6",
+ "name": "roles",
+ "task": "hc16v3_dev_002",
+ "status": "all_done",
+ "wall_s": 1313.5,
+ "team_best": 0.716673863151873,
+ "team_solves": 500,
+ "team_budget": 500,
+ "best_at": {
+  "50": 0.0,
+  "100": 0.0,
+  "250": 0.5415222401900771,
+  "500": 0.716673863151873
+ },
+ "team_first_positive_at_team_solves": 102,
+ "agents_off_zero": 7,
+ "solving_agents": 7,
+ "best_record": "R166",
+ "best_design": {
+  "": [
+   40,
+   3.05,
+   3.3,
+   0.5
+  ],
+  "T": [
+   30,
+   2.9,
+   5.8,
+   0.1
+  ],
+  "TT": [
+   22,
+   2.4,
+   4.3,
+   0.1
+  ],
+  "TTT": [
+   28,
+   3.0,
+   4.0,
+   0.1
+  ],
+  "TTTT": [
+   20,
+   2.0,
+   1.5,
+   0.1
+  ],
+  "TTTB": [
+   20,
+   2.0,
+   2.5,
+   0.1
+  ],
+  "TTTTT": [
+   16,
+   1.5,
+   1.4,
+   0.1
+  ],
+  "TTTBT": [
+   22,
+   2.2,
+   2.2,
+   0.1
+  ],
+  "TTTBTB": [
+   16,
+   1.5,
+   2.0,
+   0.1
+  ],
+  "TTTBTBT": [
+   14,
+   1.4,
+   1.8,
+   0.1
+  ]
+ },
+ "copies": 96,
+ "records": 166,
+ "usd": 3.8122719999999997,
+ "requests": 351,
+ "input_tokens": 1102661,
+ "output_tokens": 160695,
+ "backend_calls": 332,
+ "agents": {
+  "agent-0": {
+   "role": "proposer",
+   "team": null,
+   "status": "budget_exhausted",
+   "best_valid_reward": 0.7014345592011931,
+   "solves_used": 72,
+   "first_positive_at_solves": 21,
+   "requests": 36,
+   "input_tokens": 111137,
+   "output_tokens": 21634,
+   "usd_estimated_total": 0.43861400000000006
+  },
+  "agent-1": {
+   "role": "proposer",
+   "team": null,
+   "status": "budget_exhausted",
+   "best_valid_reward": 0.6774766400953592,
+   "solves_used": 72,
+   "first_positive_at_solves": 24,
+   "requests": 40,
+   "input_tokens": 110694,
+   "output_tokens": 20814,
+   "usd_estimated_total": 0.42952799999999997
+  },
+  "agent-2": {
+   "role": "proposer",
+   "team": null,
+   "status": "budget_exhausted",
+   "best_valid_reward": 0.716673863151873,
+   "solves_used": 72,
+   "first_positive_at_solves": 31,
+   "requests": 38,
+   "input_tokens": 121651,
+   "output_tokens": 26596,
+   "usd_estimated_total": 0.5092619999999999
+  },
+  "agent-3": {
+   "role": "experimenter",
+   "team": null,
+   "status": "budget_exhausted",
+   "best_valid_reward": 0.6752675165727444,
+   "solves_used": 71,
+   "first_positive_at_solves": 9,
+   "requests": 35,
+   "input_tokens": 102052,
+   "output_tokens": 15134,
+   "usd_estimated_total": 0.35544400000000004
+  },
+  "agent-4": {
+   "role": "experimenter",
+   "team": null,
+   "status": "budget_exhausted",
+   "best_valid_reward": 0.6774766400953592,
+   "solves_used": 71,
+   "first_positive_at_solves": 31,
+   "requests": 37,
+   "input_tokens": 109893,
+   "output_tokens": 15539,
+   "usd_estimated_total": 0.375176
+  },
+  "agent-5": {
+   "role": "experimenter",
+   "team": null,
+   "status": "budget_exhausted",
+   "best_valid_reward": 0.67309582494052,
+   "solves_used": 71,
+   "first_positive_at_solves": 17,
+   "requests": 37,
+   "input_tokens": 98182,
+   "output_tokens": 13078,
+   "usd_estimated_total": 0.32714400000000005
+  },
+  "agent-6": {
+   "role": "experimenter",
+   "team": null,
+   "status": "budget_exhausted",
+   "best_valid_reward": 0.7163666037209759,
+   "solves_used": 71,
+   "first_positive_at_solves": 11,
+   "requests": 43,
+   "input_tokens": 112809,
+   "output_tokens": 12209,
+   "usd_estimated_total": 0.347708
+  },
+  "agent-7": {
+   "role": "critic",
+   "team": null,
+   "status": "active",
+   "best_valid_reward": null,
+   "solves_used": 0,
+   "first_positive_at_solves": null,
+   "requests": 27,
+   "input_tokens": 108741,
+   "output_tokens": 11410,
+   "usd_estimated_total": 0.33158200000000004
+  },
+  "agent-8": {
+   "role": "critic",
+   "team": null,
+   "status": "active",
+   "best_valid_reward": null,
+   "solves_used": 0,
+   "first_positive_at_solves": null,
+   "requests": 28,
+   "input_tokens": 107833,
+   "output_tokens": 11084,
+   "usd_estimated_total": 0.3265059999999999
+  },
+  "agent-9": {
+   "role": "critic",
+   "team": null,
+   "status": "active",
+   "best_valid_reward": null,
+   "solves_used": 0,
+   "first_positive_at_solves": null,
+   "requests": 30,
+   "input_tokens": 119669,
+   "output_tokens": 13197,
+   "usd_estimated_total": 0.371308
+  }
+ }
+}

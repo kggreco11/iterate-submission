@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-open-nocopy-c2285eb2",
+ "agent_id": "agent-1",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 73,
+ "failed_requests": 3,
+ "input_tokens": 392378,
+ "output_tokens": 71935,
+ "usd_estimated_total": 0.20403539999999995,
+ "requests_with_unknown_cost": 3,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 4844.606559753418,
+ "status": "budget_exhausted",
+ "island": 0,
+ "strategy": null,
+ "best_valid_reward": 0.0,
+ "solves_used": 50,
+ "first_positive_at_solves": null,
+ "usd_cached_price_estimate": 0.15834707999999997,
+ "notebook": "Turn 35, 49/50 solves spent. Best valid so far = 0.000 (empty plant). This is my FINAL solve, so I must submit the most promising design and accept the outcome.\n\nECONOMICS: column costs $100-140M/yr each; so I need revenue >> that. C5mix (95% iso+n-pentane) = ~$611M/yr, the easiest large prize. Key relative volatilities: C4/C5 split 28 K (easy); C5/2,2-DMB 13.7 K (moderate); nC6/MCP 3.1 K (very hard, avoid).\n\nFEED GROUPS (mol/s): C3- 320, C4 544, C5 695, C6par 970, C6nap 269, C7+ 500.\n\nLESSONS from my own runs + agent-8's R296: a 55-stage R2.5 root already sends C4- overhead and C5+ to bottoms (only ~2% C5 leaks to T). But the B-child at R2.0/45 stages only reached ~57% C5 in its overhead \u2014 far short of 95%. Need much higher reflux/stages on that C5/C6 split.\n\nSTRATEGY this turn (final solve): 60-stage R4 root to cleanly remove C4- overhead; 70-stage R5 B-child to sharpen C5mix overhead; keep T child modest on C3mix/C4mix. Risk: only works if all converge; if not, my 0.000 best stands. No downside to trying.",
+ "task": "hc16v3_dev_002"
+}

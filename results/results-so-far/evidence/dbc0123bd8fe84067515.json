@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-761c0ffe",
+ "agent_id": "agent-29",
+ "provider": "modal",
+ "model": "kimi-k3.1-pro",
+ "requests": 20,
+ "failed_requests": 1,
+ "input_tokens": 185342,
+ "output_tokens": 17459,
+ "usd_estimated_total": 0.545274,
+ "requests_with_unknown_cost": 0,
+ "price_source": "https://modal.com/docs/guide/supported-models; 2026-11-14; uncached estimate",
+ "wall_s": 3608.638461112976,
+ "status": "budget_exhausted",
+ "island": 5,
+ "strategy": null,
+ "best_valid_reward": 3.5597038927872924,
+ "solves_used": 50,
+ "first_positive_at_solves": 10,
+ "usd_cached_price_estimate": 0.4544964,
+ "notebook": "PLAN: Copy island-best R886 and spend the final solve between its proven 70/10/12 finisher (pure cyclohexane, 92% heptane bottoms) and the over-stripped 60/8/15 case; 70/10/13 targets both products saleable.\nR886 earns 3.573 through higher nonane recovery. Its tiny binary finisher needs only slightly more stripping: at boil-up 12 the bottoms are 92% heptane, while boil-up 15 makes heptane pure but sacrifices cyclohexane purity. A modest increase to 13 should preserve the premium overhead while pushing bottoms over 95%. All other columns are copied unchanged and previously solved.",
+ "task": "hc16v3_dev_002"
+}

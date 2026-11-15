@@ -1,0 +1,231 @@
+{
+  "task": "hc12_dev_000",
+  "backend": "chemsep",
+  "chemsep_dir": "C:\\Users\\chemsepadmin\\Desktop",
+  "task_sha256": "63a8fb92e72484d1124b1e8ebac238324af1143f465db8afa91da97e523c7e6f",
+  "source_hashes": {
+    "sepdesign\\__init__.py": "a6b9fb8beafbdd32137285cc14cd72baa23dfe49f93c8096c0216cf0567e0246",
+    "sepdesign\\baselines.py": "e8aa72f88e992e5707f3378ce82ccdb01959c85dd2e4f89c37ab688d69e591a3",
+    "sepdesign\\benchmark.py": "1d31063406b342ee61ea6688e216c92d9fc8a6d406447a50cddcfd7dbdfcc646",
+    "sepdesign\\chemsep_backend.py": "2a22e2e73573c2fb3f27758c9c2b68bc1bb6798b6012ef8393ec57fcf7227bcb",
+    "sepdesign\\chemsep_lib.py": "a4fe8925f09ed0d76d74c4cb9d123f75e8a711889fc5ae67230465b2c6d1bb21",
+    "sepdesign\\cost_model.py": "5216c5bffe8306997ffdaa579a18a64f8601a88a39933e9e525dd318dd490f5a",
+    "sepdesign\\env.py": "52dcc2d61e4bf11968d088a1c13959d9d9c0104886509cbfbe52b10d2441fc01",
+    "sepdesign\\families.py": "116c540e1f43125bc859024ae18f0b4028cfe500ea17ffa416183c82b46101bd",
+    "sepdesign\\hc12.py": "267afbed4394092bda8eb3cf76aeb3755fdff74dcca321a15636043ba4dde33a",
+    "sepdesign\\mock_backend.py": "241ad851b86a7c6efa856feb1fd2b8a16966df34e97ec07acda3e5cdc47d64a0",
+    "sepdesign\\runlog.py": "038a9c9ce48d895e76f9fc9250f02ddc9dad8d741d68a7127dc290e6e70420a7",
+    "sepdesign\\service.py": "4a3e34cfa6132ecec7f5287c3b419c46a094550bcfa7dc275b0450783facfc00",
+    "sepdesign\\tasks.py": "ccf70e15f4f1e30da89edfa112896ad01ef856537349c2665434da592bf44683",
+    "sepdesign\\thermo.py": "0e48607bc852e3bee4cf3e549e786154cc34a27a52cc898f3a00a4a06ab9f453",
+    "sepdesign\\validation.py": "2c7aa06e40d049c6775d3432117eef44a3845ccf25ad857c8358cf4fd22a0015"
+  },
+  "empty_valid": true,
+  "best_reward": 0.0,
+  "best_design": {},
+  "best_result": {
+    "reward": 0.0,
+    "revenue": 0.0,
+    "tac": 0.0,
+    "columns": 0,
+    "recovery": 0.0,
+    "nodes": {
+      "": {
+        "node": "",
+        "feed": [
+          128.271138,
+          355.233439,
+          206.916885,
+          298.696659,
+          513.11839,
+          278.625168,
+          77.570139,
+          365.858994,
+          145.13014,
+          190.001068,
+          369.095829,
+          371.482152
+        ],
+        "T": 400.0,
+        "P": 1760000.0,
+        "status": "sold",
+        "value": 0.0
+      }
+    },
+    "sold": [
+      {
+        "node": "",
+        "value": 0.0,
+        "why": "no column",
+        "flows": [
+          128.271138,
+          355.233439,
+          206.916885,
+          298.696659,
+          513.11839,
+          278.625168,
+          77.570139,
+          365.858994,
+          145.13014,
+          190.001068,
+          369.095829,
+          371.482152
+        ]
+      }
+    ],
+    "solves_used": 0,
+    "solves_left": 24,
+    "failed": [],
+    "unsolved_budget": [],
+    "valid": true,
+    "validation": {
+      "eligible": true,
+      "errors": [],
+      "max_abs_residuals_mol_s": {
+        "root feed": 0.0,
+        "overall component balance": 0.0
+      },
+      "tolerances": {
+        "absolute_mol_s": 1e-05,
+        "relative": 1e-06,
+        "status": "provisional"
+      },
+      "energy_balance_verified": false
+    }
+  },
+  "final_validation": {
+    "eligible": true,
+    "errors": [],
+    "max_abs_residuals_mol_s": {
+      "root feed": 0.0,
+      "/tops continuity": 4.497241622644643e-07,
+      "/bottoms continuity": 4.496000229892161e-07,
+      "/component balance": 4.980819312550011e-08,
+      "T/tops continuity": 4.785286478181661e-07,
+      "T/bottoms continuity": 4.784644281310892e-07,
+      "T/component balance": 1.234923274751054e-10,
+      "TT/tops continuity": 3.180598469043616e-07,
+      "TT/bottoms continuity": 3.1716172088636085e-07,
+      "TT/component balance": 1.7601848867343506e-09,
+      "TTT/tops continuity": 3.8659784706851497e-07,
+      "TTT/bottoms continuity": 3.8659978107702386e-07,
+      "TTT/component balance": 1.9326762412674725e-12,
+      "TTB/tops continuity": 4.2348594320174016e-07,
+      "TTB/bottoms continuity": 4.234565267324797e-07,
+      "TTB/component balance": 2.944489096989855e-11,
+      "TB/tops continuity": 4.371742216013885e-07,
+      "TB/bottoms continuity": 4.502851425058907e-07,
+      "TB/component balance": 1.406425553795998e-08,
+      "TBT/tops continuity": 1.817940883374531e-07,
+      "TBT/bottoms continuity": 1.8179408556306953e-07,
+      "TBT/component balance": 1.9610979506978765e-12,
+      "TBB/tops continuity": 2.0689608959401085e-07,
+      "TBB/bottoms continuity": 2.8720598887338467e-07,
+      "TBB/component balance": 8.030990272800409e-08,
+      "B/tops continuity": 4.835408162762178e-07,
+      "B/bottoms continuity": 4.839402636801909e-07,
+      "B/component balance": 7.629239462403348e-10,
+      "BT/tops continuity": 4.2931995736239514e-07,
+      "BT/bottoms continuity": 4.29380229149956e-07,
+      "BT/component balance": 4.693845312431222e-10,
+      "BTT/tops continuity": 3.9442923593924206e-07,
+      "BTT/bottoms continuity": 3.9464002554723265e-07,
+      "BTT/component balance": 2.206057558851171e-10,
+      "BB/tops continuity": 4.1444930332090735e-07,
+      "BB/bottoms continuity": 4.0937019085696136e-07,
+      "BB/component balance": 2.155087486244156e-08,
+      "overall component balance": 5.684341886080802e-14
+    },
+    "tolerances": {
+      "absolute_mol_s": 1e-05,
+      "relative": 1e-06,
+      "status": "provisional"
+    },
+    "energy_balance_verified": false
+  },
+  "final_reward": -0.06331264367366317,
+  "final_design": {
+    "": [
+      53,
+      3.56,
+      3.56,
+      0.04
+    ],
+    "T": [
+      53,
+      3.56,
+      3.56,
+      0.04
+    ],
+    "B": [
+      53,
+      3.56,
+      3.56,
+      0.04
+    ],
+    "TT": [
+      53,
+      3.56,
+      3.56,
+      0.04
+    ],
+    "TB": [
+      53,
+      3.56,
+      3.56,
+      0.04
+    ],
+    "BT": [
+      53,
+      3.56,
+      3.56,
+      0.04
+    ],
+    "BB": [
+      53,
+      3.56,
+      3.56,
+      0.04
+    ],
+    "TTT": [
+      53,
+      3.56,
+      3.56,
+      0.04
+    ],
+    "TTB": [
+      53,
+      3.56,
+      3.56,
+      0.04
+    ],
+    "TBT": [
+      53,
+      3.56,
+      3.56,
+      0.04
+    ],
+    "TBB": [
+      53,
+      3.56,
+      3.56,
+      0.04
+    ],
+    "BTT": [
+      53,
+      3.56,
+      3.56,
+      0.04
+    ]
+  },
+  "service": {
+    "backend": "chemsep",
+    "solves": 12,
+    "failed": 0,
+    "median_s": 0.29910530000006474,
+    "mean_s": 0.3121259249999942,
+    "retry_rescued": 0
+  },
+  "wall_s": 3.786666200000127,
+  "note": "First-cut qualification, not agent experiment; tolerances provisional and energy closure unverified."
+}

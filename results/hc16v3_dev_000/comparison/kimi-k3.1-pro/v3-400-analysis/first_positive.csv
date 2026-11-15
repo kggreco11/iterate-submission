@@ -1,0 +1,5 @@
+condition,run_status,criterion,reached,queries,backend_calls,attempts,elapsed_s,input_tokens,output_tokens,usd,round,agent,agent_queries,reward
+single_without_past,all_finished_or_exhausted,first simulator-valid positive net objective,True,33,33,13,145.36,68449,15555,0.292448,13,agent-0,33,0.05025024280134924
+single_with_past,all_finished_or_exhausted,first simulator-valid positive net objective,True,58,58,33,313.797,335445,32308,0.9939699999999999,33,agent-0,58,0.0063996109463022085
+swarm_without_past,all_finished_or_exhausted,first simulator-valid positive net objective,True,55,45,22,83.672,117416,26622,0.5010519999999999,5,agent-1,13,0.038707320158054837
+swarm_with_past,all_finished_or_exhausted,first simulator-valid positive net objective,True,70,54,21,96.375,190088,24691,0.627086,5,agent-0,15,0.3486798842875524

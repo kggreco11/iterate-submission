@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-761c0ffe",
+ "agent_id": "agent-40",
+ "provider": "modal",
+ "model": "kimi-k3.1-pro",
+ "requests": 23,
+ "failed_requests": 3,
+ "input_tokens": 129850,
+ "output_tokens": 17968,
+ "usd_estimated_total": 0.4393799999999999,
+ "requests_with_unknown_cost": 3,
+ "price_source": "https://modal.com/docs/guide/supported-models; 2026-11-14; uncached estimate",
+ "wall_s": 3608.6454813480377,
+ "status": "budget_exhausted",
+ "island": 8,
+ "strategy": null,
+ "best_valid_reward": 0.5395987695361636,
+ "solves_used": 50,
+ "first_positive_at_solves": 23,
+ "usd_cached_price_estimate": 0.3479112,
+ "notebook": "PLAN: Restore the demonstrated best 0.540 plant (R899) now, then use at most the remaining solves for a low-risk final improvement only if clearly justified.\nBoil-up 0.1 over-strips ethane into TTTB, dropping C3 purity to 91% and losing the blend sale; 0.5 is optimal among tested values. R899 combines stripper boil-up 0.5 with a 40-stage T column, saving $0.6M/yr and giving reward 0.540 with $65.9M/yr C3 revenue. Root boil-up 5.5 was harmful and larger stage cuts save little, so preserve all R899 settings. Copying it secures the best valid design before considering any final change.",
+ "task": "hc16v3_dev_002"
+}

@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-78e50fff",
+ "agent_id": "agent-13",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 92,
+ "failed_requests": 1,
+ "input_tokens": 830091,
+ "output_tokens": 96377,
+ "usd_estimated_total": 0.3646797000000001,
+ "requests_with_unknown_cost": 0,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 5634.403928995132,
+ "status": "budget_exhausted",
+ "island": 2,
+ "strategy": null,
+ "best_valid_reward": 1.742300178342381,
+ "solves_used": 50,
+ "first_positive_at_solves": 8,
+ "usd_cached_price_estimate": 0.3039232200000001,
+ "notebook": "Turn 46. Banked best = 1.742 (turn 45, 7 cols: ''=40/1.6/1.6/0.6, T=45/3/2.5/0.3, B=55/3.8/3.0/0.3 DOUBLE EFFECT f=0.5 LPdp=0.7 (NO heat link, HP cond 396K vs LP reb 400K), TB=55/5/4/0.1, BT=70/9/7/0.1, BTT=80/12/10/0.1, BTTB=100/12/10/0.1). Solves 47/50, 3 left.\n\nKey lesson: the B double effect lifted reward 1.302 -> 1.742 (revenue 1322.7 -> 1510.0) even though NO heat link formed. Mixing HP/LP tops+bottoms improved the downstream C5/22DMB split: BTTBB now 22DMB premium ($233) and BTB C6par $620, BTTT C5mix $160. So de is worth using even without energy saving.\n\nDead streams: TT (535, C3/C4 mix, not a blend), BB (1069, C6-C9, not pure/blend), BTTBT (99, nC5 91%). Products: TBT nC4 98% ($118), TBB C5mix ($379), BTB C6par ($620), BTTT C5mix ($160), BTTBB 22DMB prem ($233).\n\nThis probe: double effect on T (45/3.0/2.5, dp 0.3, f=0.5, LP dp 0.7). Rationale: T is the 2nd dearest column ($89M) and a C3/C4 split; the HP condenser should be much hotter than the LP reboiler so a real heat link may form. Risk: 2 solves + non-convergence; revert is free. Last solve reserved to revert/confirm the 1.742 platform.",
+ "task": "hc16v3_dev_002"
+}

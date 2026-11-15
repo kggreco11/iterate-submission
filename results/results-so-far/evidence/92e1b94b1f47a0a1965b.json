@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-other-family-ec12d65d",
+ "agent_id": "agent-1",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 106,
+ "failed_requests": 3,
+ "input_tokens": 589699,
+ "output_tokens": 107782,
+ "usd_estimated_total": 0.3062481,
+ "requests_with_unknown_cost": 3,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 4948.909229755402,
+ "status": "finished",
+ "island": 0,
+ "strategy": null,
+ "best_valid_reward": 0.0,
+ "solves_used": 46,
+ "first_positive_at_solves": null,
+ "usd_cached_price_estimate": 0.23450154000000004,
+ "notebook": "Turn 51. Solves 46/50 (4 left). Best valid 0.000 (empty). My cascade -1.316, 2-col C5 train -0.810.\n\nLESSON: columns cost $200-440M/yr EACH (60st/R8=$442M, 45st/R4=$247M, 40st/R3=$188M). To beat 0 I need revenue > total cost. C5 mix alone = 618 M$/yr needs 2 sharp columns (~$400M+) \u2192 thin margin, and I never reached 95% purity (revenue was 0). All sharp-cut attempts lose money.\n\nBlend values (M$/yr): C6parmix 1181, C5mix 618, C6naph 396, C3mix 73, C4mix 186. Pure: nC5 439, nC6 332, nC7 332, nC8 359, cyclohexane 323. Perfect plant 3615 but needs 8-10 columns \u2192 cost >> revenue at these prices.\n\nDifficult gaps: G6paraffin/C6naphthene (3K) uneconomic; nC4/iC5 (28K) easy; nC5/22DMB (14K) moderate.\n\nOther families (R442, R441, R448) all also 0 or negative \u2014 nobody has found a profitable strict-cut plant. The empty design (0.000) is genuinely hard to beat here.\n\nPLAN: Hold empty = 0.000 (safe). With 4 solves left, no configuration I can simulate cheaply is likely to clear the ~$400M/yr column-cost hurdle for the 618-1181 M$/yr blends at 95% purity. Final answer: empty plant, reward 0.000.",
+ "task": "hc16v3_dev_002"
+}

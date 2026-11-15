@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-open-41ad914b",
+ "agent_id": "agent-5",
+ "provider": "modal",
+ "model": "kimi-k3.1-pro",
+ "requests": 29,
+ "failed_requests": 0,
+ "input_tokens": 228547,
+ "output_tokens": 21130,
+ "usd_estimated_total": 0.6683939999999999,
+ "requests_with_unknown_cost": 0,
+ "price_source": "https://modal.com/docs/guide/supported-models; 2026-11-14; uncached estimate",
+ "wall_s": 1959.1546273231506,
+ "status": "finished",
+ "island": 0,
+ "strategy": null,
+ "best_valid_reward": 2.9363015721051426,
+ "solves_used": 49,
+ "first_positive_at_solves": 15,
+ "usd_cached_price_estimate": 0.5436323999999999,
+ "notebook": "PLAN: (1) retain the proven five-column blend backbone; (2) combine independently proven BB-pressure and C3-recovery gains; (3) spend the last solves bracketing the BB-pressure optimum. Step 3. BB dp 0.20, 0.25, and 0.30 gave progressively smaller net gains: dp 0.30 added only about $1.1M/yr over 0.25. Test 0.35 to locate the turnover; retain 0.30 if it declines. TT 30/5.0/1.4 remains best. B dp 0.2 fails convergence. B and BB stage reductions are catastrophic; BB boil-up 7.1 is the recovery-cliff optimum. BBB split attempts all reduced reward.",
+ "task": "hc16v3_dev_002"
+}

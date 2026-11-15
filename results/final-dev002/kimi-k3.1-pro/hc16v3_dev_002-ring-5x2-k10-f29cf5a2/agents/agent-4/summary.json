@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-f29cf5a2",
+ "agent_id": "agent-4",
+ "provider": "modal",
+ "model": "kimi-k3.1-pro",
+ "requests": 22,
+ "failed_requests": 1,
+ "input_tokens": 141734,
+ "output_tokens": 18313,
+ "usd_estimated_total": 0.466598,
+ "requests_with_unknown_cost": 1,
+ "price_source": "https://modal.com/docs/guide/supported-models; 2026-11-14; uncached estimate",
+ "wall_s": 1954.6804065704346,
+ "status": "budget_exhausted",
+ "island": 2,
+ "strategy": null,
+ "best_valid_reward": 1.9562343595531926,
+ "solves_used": 50,
+ "first_positive_at_solves": 38,
+ "usd_cached_price_estimate": 0.3762812000000001,
+ "notebook": "PLAN: Adopt the best proven valid configuration with the final evaluation, then stop. Step: copy R182, whose BTT duty trim improves both reward and revenue over my best, and make no further changes.\nR182 scores 1.956 with root 50/2.5/2.3/0.5; B 50/4/4/0.4; T 45/3.5/2.5/0.3; BT 50/5.5/6.5/0.2; TB 45/6/5/0.3; BTT 50/5/6/0.2. It improves on my 1.947 baseline by reducing BTT duties while both blend products still qualify. Stage cuts and BT changes were harmful, and TT/BB do not justify added columns.",
+ "task": "hc16v3_dev_002"
+}

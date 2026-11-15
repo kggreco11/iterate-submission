@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-761c0ffe",
+ "agent_id": "agent-33",
+ "provider": "modal",
+ "model": "kimi-k3.1-pro",
+ "requests": 31,
+ "failed_requests": 3,
+ "input_tokens": 248201,
+ "output_tokens": 21914,
+ "usd_estimated_total": 0.7155419999999999,
+ "requests_with_unknown_cost": 3,
+ "price_source": "https://modal.com/docs/guide/supported-models; 2026-11-14; uncached estimate",
+ "wall_s": 3608.6410212516785,
+ "status": "budget_exhausted",
+ "island": 6,
+ "strategy": null,
+ "best_valid_reward": 2.8662055843192196,
+ "solves_used": 50,
+ "first_positive_at_solves": 16,
+ "usd_cached_price_estimate": 0.5885916,
+ "notebook": "PLAN: Use the final solve on the isolated C3 splitter's stage count; retain the validated boil-up-13 design if this last capital-saving test underperforms.\nR1049 at 2.866 uses TTTB 40 stages, reflux 2.5, boil-up 13. Boil-up 13.2/14 and reflux 2.7 are slightly worse; 15 is past the peak. Reducing to 35 stages preserved the displayed revenue and reward while trimming cost slightly. Final test: 30 stages, leaving all other columns unchanged. B is highly sensitive (dp0.40 loses the C6 blend; dp0.36/reflux5.1 is worse), so keep B at dp0.35/reflux5.0. No heavy-products addition is affordable.",
+ "task": "hc16v3_dev_002"
+}

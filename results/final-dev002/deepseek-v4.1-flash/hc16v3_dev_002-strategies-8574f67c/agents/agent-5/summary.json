@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-strategies-8574f67c",
+ "agent_id": "agent-5",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 87,
+ "failed_requests": 4,
+ "input_tokens": 475217,
+ "output_tokens": 83168,
+ "usd_estimated_total": 0.24236670000000002,
+ "requests_with_unknown_cost": 3,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 4851.394719362259,
+ "status": "finished",
+ "island": 2,
+ "strategy": "Direct sequence: take the lightest components off first, one split at a time, working down the volatility order.",
+ "best_valid_reward": 0.0,
+ "solves_used": 39,
+ "first_positive_at_solves": null,
+ "usd_cached_price_estimate": 0.18520445999999996,
+ "notebook": "Turn 41, 39 solves used, 11 left. Best valid=0 (empty). All non-empty designs negative; columns cost 74-226M/yr each, revenue hard (95% purity). Feed total pure value 3615M/yr. Blends: C6par 1181, C5mix 619, C6nap 396, C4mix 186, C3mix 73. Key gaps: C5/C6par 13.7K, C6par/C6nap 3.1K (hard), C6nap/C7 17.7K.\n\nPLAN: revert to empty (reward 0) as safe best. Economics look brutal: a single feed column costs 146-226M/yr and produces nothing sellable; isolating C6par (1181M, the richest single cut) needs 2 sharp columns ~350-450M plus a light column, so gross positive is plausible only with careful tuning I likely cannot afford in 11 solves. Prefer keeping best=0 over risking invalid/failed trains. Will finish unless a clearly cheap single-cut C6par design can be tested in one solve.",
+ "task": "hc16v3_dev_002"
+}

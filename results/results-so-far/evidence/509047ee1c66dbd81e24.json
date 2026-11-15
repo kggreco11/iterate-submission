@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-78e50fff",
+ "agent_id": "agent-43",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 72,
+ "failed_requests": 0,
+ "input_tokens": 411017,
+ "output_tokens": 73309,
+ "usd_estimated_total": 0.21127589999999996,
+ "requests_with_unknown_cost": 0,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 5634.440128326416,
+ "status": "finished",
+ "island": 8,
+ "strategy": null,
+ "best_valid_reward": 0.0,
+ "solves_used": 49,
+ "first_positive_at_solves": null,
+ "usd_cached_price_estimate": 0.1611639,
+ "notebook": "Best valid = 0.000 (empty plant). 49/50 solves used; this revert restores the empty design as final.\n\nKey learnings: column cost dominates \u2014 a single modest 30-stage/R=2 column costs $146M/yr. Revenue needs >=95% purity (blend or pure), and no single column can make such a stream because no blend/component exceeds ~29% of feed while the purity bar is 95%. Multi-column trains reached only ~66% C5 mix; all net-negative (best seen ~ -0.2). Revenue scale: C6paraffin ~1185M, C5mix 618M, C6naphthene 396M, pure nC5 438M, C4mix 186M, C3mix 73M. Hardest splits: nC6/MCP 3K, iC5/nC5 8K, 2,2DMB/iC5 14K; wide easy gaps: C4/C5 (~28K) and C5/C6 (~30K). Other island plants (R1591, R1593) both FAILED to converge on their 2-column trains, i.e. invalid. My final call: keep empty 0.000 rather than risk an invalid last solve.",
+ "task": "hc16v3_dev_002"
+}

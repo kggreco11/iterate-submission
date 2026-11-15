@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-78e50fff",
+ "agent_id": "agent-5",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 96,
+ "failed_requests": 2,
+ "input_tokens": 983505,
+ "output_tokens": 97969,
+ "usd_estimated_total": 0.4126143,
+ "requests_with_unknown_cost": 1,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 5634.393967151642,
+ "status": "finished",
+ "island": 1,
+ "strategy": null,
+ "best_valid_reward": 1.7512974572311615,
+ "solves_used": 46,
+ "first_positive_at_solves": 11,
+ "usd_cached_price_estimate": 0.34874742000000003,
+ "notebook": "Turn 47, solves 46/50. Best valid = 1.751 (nine-column baseline, R1517/R1962). Last edit was rejected (no 'TT' column exists \u2014 TT is already a sold stream, op 'sell' not needed). Baseline settings: '' 40/1.6/1.6/0.6; B 45/3.5/3.0/0.1; T 45/3.0/2.5/0.3; BB 45/3.0/2.5/0.1; BT 50/4.0/3.5/0.1; TB 55/5.0/4.0/0.1; BBT 55/6.0/5.0/0.1; BTT 60/6.0/5.0/0.1; BTTB 40/6.0/5.0/0.1. Revenue $1548M, cost $780M, 9 columns. Wasted $0 streams: TT(535, C3 53%/C4 40%/ethane 6%), BBB(636, nC8 37/nC7 32/cyC6 16/nC9 10), BBTB(271, nC6 32/cyC6 29/MCP 16/3MP 15), BTTBB(123, 22DMB 63/2MP 19/nC5 13). LESSONS: feed-column dp 0.6 essential (dropping to 0.35 collapsed revenue $1548->$464M); never trim B/BT/TB/BBT/BTT (turn 42 lost $584M). C6 para vs naphthene bp too close (333-342K vs 345-354K) to split cleanly; existing cuts already land as sellable blends. TT split to a C4-mix bottoms ($0.0119/mol) could add ~+0.06 reward but probes (mine & teammates) show a 10th column's cost (~40M) eats most of it, and I only have 4 solves. PLAN: lock 1.751, finish.",
+ "task": "hc16v3_dev_002"
+}

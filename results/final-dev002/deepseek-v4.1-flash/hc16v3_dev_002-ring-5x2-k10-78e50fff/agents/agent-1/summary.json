@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-ring-5x2-k10-78e50fff",
+ "agent_id": "agent-1",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 106,
+ "failed_requests": 1,
+ "input_tokens": 998731,
+ "output_tokens": 107917,
+ "usd_estimated_total": 0.42911969999999977,
+ "requests_with_unknown_cost": 0,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 5634.391139507294,
+ "status": "finished",
+ "island": 0,
+ "strategy": null,
+ "best_valid_reward": 1.8891545644235561,
+ "solves_used": 42,
+ "first_positive_at_solves": 26,
+ "usd_cached_price_estimate": 0.3555760200000002,
+ "notebook": "Turn 52. Solves 42/50 (8 left). Best locked = R1323-equivalent (1.889, 7 cols, rev $1463.8M, cost $635.3M).\n\nPaying streams: TBT nC4 98% $118M; TBB C5mix $379M; BTB C6par $646M; BTTT C5mix $156M; BTTBB C6par $164M. Wasted $0: TT 535 mol/s (C3 53/iC4+nC4 40/eth 6) and BB 1037 mol/s (C6-C9).\n\nCONFIRMED FAILURES (all < 1.889): TT two-column rescue 1.463 (cost +$222M); TT split 1.839; BTTB dp0.3 1.888; BTTB 75/6/5 1.875; BB sub-column 1.576; BB 70/6/5 1.504; BTTBT stuck 94% nC5 (needs >=95%).\n\nKEY LESSON: columns are extremely expensive in this scenario; sharp splits on dilute middle streams never repay their capital+duties. TT theoretical max revenue ~$146M/yr, but two columns cost >$200M/yr. The tree is already near-optimal: feed -> light C4-/C5+ split, capturing nC4, C5mix ($535M), C6paraffin mix ($810M).\n\nPLAN: no cost-effective experiment remains; every structural change tried has lost money. Free revert holds the proven 1.889. Finish.",
+ "task": "hc16v3_dev_002"
+}

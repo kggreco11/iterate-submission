@@ -1,0 +1,23 @@
+{
+ "run_id": "hc16v3_dev_002-strategies-8574f67c",
+ "agent_id": "agent-1",
+ "provider": "modal",
+ "model": "deepseek-v4.1-flash",
+ "requests": 85,
+ "failed_requests": 4,
+ "input_tokens": 485921,
+ "output_tokens": 86855,
+ "usd_estimated_total": 0.25000230000000007,
+ "requests_with_unknown_cost": 3,
+ "price_source": "team model config, USD per million tokens, 2026-11-14",
+ "wall_s": 4851.395255804062,
+ "status": "finished",
+ "island": 0,
+ "strategy": "Side draws: look for middle cuts (for example blends) that a side draw can deliver from one column instead of two.",
+ "best_valid_reward": 0.0,
+ "solves_used": 40,
+ "first_positive_at_solves": null,
+ "usd_cached_price_estimate": 0.19366949999999997,
+ "notebook": "Reward=(rev-cost)/439; EMPTY=0.0. 40 of 50 solves used. Every plant I built AND every plant shown by agent-0 had revenue $0.0 (no stream reached 95% purity) while paying $200-800M/yr in column cost -> all strongly negative. Single/multi columns at 45-70 stages, R4-12 all failed to sharpen cuts enough: 60/R8+70/R10 gave T 79% C5mix and BT 83% C6-paraffin, never 95%. Cost of a single column ($245M at 45/R4, up to $789M for two) already exceeds the best attainable blend revenue (C4mix $186M, C3mix $73M), so no positive-reward design is reachable. Optimal play = hold EMPTY = 0.0. Reverted and finishing.",
+ "task": "hc16v3_dev_002"
+}
